@@ -15,5 +15,7 @@ feature-family comparisons. Feedback on the evaluation methodology is welcome.
 
 ---
 
-Publication status: prepared for approval; not posted. Competition rule 3.6.b requests that
-publicly shared competition code also be shared through its discussion forum or notebooks.
+Publication status: posted with explicit owner authorization on 2026-09-10 and verified live.
+Companion: https://www.kaggle.com/competitions/kaggriculture/discussion/740550
+Competition rule 3.6.b requests that publicly shared competition code also be shared through
+its discussion forum or notebooks.
