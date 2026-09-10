@@ -1,0 +1,19 @@
+{
+  "experiment": "livestock-resource-loops-v1",
+  "configuration": {"episodeSteps": 720},
+  "development_seeds": [1401, 1402, 1403, 1404],
+  "seats": [0, 1],
+  "opponents": ["market10", "livestock_routine"],
+  "arms": ["routine", "feed", "care", "fertilizer"],
+  "contrasts": [["feed", "routine"], ["care", "feed"], ["fertilizer", "care"], ["fertilizer", "routine"]],
+  "primary_metric": "match_score",
+  "work_opportunity_coins": 8.0,
+  "plant_scenario_horizon": 168,
+  "feature_sample_stride": 4,
+  "max_games": 64,
+  "max_new_games_per_batch": 8,
+  "max_seconds_per_batch": 240,
+  "bootstrap_resamples": 4000,
+  "bootstrap_seed": 4401,
+  "heartbeat_seconds": 15
+}

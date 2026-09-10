@@ -1,0 +1,28 @@
+{
+  "analysis_code_sha256": "dbf8476b156e3707a7fb38eb72dfb450c9b3a6aa4963276b9050ffd2cafd515e",
+  "episode_path": "artifacts/livestock_episodes/1b2994aae70fd495c782263e3ca69460419c2e21a9664f8c3acb9c7f80fad80b.json.gz",
+  "episode_sha256": "b9d62268da562eb2412d6404ed8343aa3beee7e229151ef03928feb8a593aa55",
+  "feature_vectors_matched": 181,
+  "features_per_sample": 1500,
+  "full_sampled_feature_pipeline": {
+    "max_ms": 29.614088000016636,
+    "median_ms": 3.861200000756071,
+    "p95_ms": 5.416455999693426,
+    "samples": 181
+  },
+  "games_executed": 0,
+  "history_state_update": {
+    "max_ms": 1.612822000424785,
+    "median_ms": 0.513923000653449,
+    "p95_ms": 0.7671042997571931,
+    "samples": 719
+  },
+  "job": {
+    "arm": "fertilizer",
+    "opponent": "market10",
+    "seat": 0,
+    "seed": 1401
+  },
+  "registered_timing_scope": "Policy inference is separate; registered sampled assembly excludes history-state updates",
+  "scope": "One saved trace, local CPU, cache initially empty then naturally warmed; excludes policy inference, I/O and checkpoint serialization"
+}

@@ -7,24 +7,25 @@ This project studies sequential decisions in a competitive farming economy: allo
 growing crops, managing livestock, expanding land, and selling into a shared nonlinear market.
 The central question is which observation-safe representations improve decisions and win rates.
 
-**Current stage: cash-constrained supply feature research.** Four policy studies
-contain 256 development games: 80 crop-feature, 64 resource-relationship, 48
-market/delivery and 64 supply-information comparisons. The joint bank contains
-1,308 provisional descriptors: 933 earlier candidates, 333 legal-history candidates
-and 42 cash-accounting candidates. All were jointly screened on 11,584 observations.
-Feature research remains open; no Kaggle score is claimed.
+**Current stage: livestock, feed and fertilizer feature research.** Five policy
+studies contain 320 development games. Study 5 adds 234 resource descriptors and
+64 registered comparisons. Its supported bank has 1,500 provisional features;
+the project union is 1,542, including 42 earlier cash bounds whose assumptions
+do not support this study's wheat purchases. Feature research remains open.
 
-The [latest study](docs/supply_research.md) found that stored-supply history helped
-against the mirror-policy opponent, while the added cash constraints changed no
-actions beyond history alone. See the [execution status](docs/supply_status.md)
-and [remaining coverage gaps](docs/feature_coverage.md).
+The [latest study](docs/livestock_research.md) found that feeding and care must be
+coordinated: selective feeding alone hurt performance. Selective care won all
+16 games against two fixed references; fertilizer added 2,539 coins of average
+margin but no additional wins. These limited development results do not estimate
+Kaggle rank. See the [remaining coverage gaps](docs/feature_coverage.md) and
+[restartable workflow](docs/livestock_recovery.md).
 
 ## Review the work
 
 1. [00 · Simulator and evaluation contract](notebooks/00_environment.ipynb)
 2. [01 · Observation audit and feature hypotheses](notebooks/01_data_audit.ipynb)
 3. [02 · Feature-research studies](notebooks/02_feature_research.ipynb)
-4. [Latest research: public-cash constraints and the registered supply experiment](docs/supply_research.md)
+4. [Latest research: livestock, feed, care and fertilizer](docs/livestock_research.md)
 5. [Feature coverage and completion ledger](docs/feature_coverage.md)
 6. [Domain mechanisms and modern-method research](docs/domain_research.md)
 7. [Market-policy findings: delivery helps coins, holding hurts](docs/market_findings.md)
@@ -43,26 +44,27 @@ versus 0.375 for immediate banking, but the extra wins came entirely from turnin
 eight mirror-match ties into narrow wins. Match score against the other opponent
 did not improve. All 16 cash/history pairs had identical full action sequences.
 
-The notebooks consume saved results. The [latest machine-readable study](reports/supply_research.json),
-[1,308-feature registry](reports/supply_registry.csv), and [independent trace audit](reports/supply_integrity.json)
-identify exactly what was measured. Notebook 02 has 23 genuinely executed code
-cells and six rendered figures, with its exact identity in the
-[execution receipt](reports/supply_notebook_execution.json).
-[CI](https://github.com/alvaromendizabal/kaggriculture/actions/runs/34439998792)
-passed 167 tests and executed all three notebooks; their canonical files contain
-36 executed code cells and nine static figures in total. All four studies' source
-lineage, outcomes, contrasts and product accounting are checked. Sixteen earlier research code cells remain
-unchanged; cell 7 has a [declared provenance-only adapter](scripts/notebook_provenance.py)
-that distinguishes local byte checks from matching published prior-download receipts.
-The archived 17-cell source identity is reconstructed and verified, not relabeled
-as the current notebook's source identity. No experiment or feature source changed.
+The notebooks consume saved results. The [machine-readable study](reports/livestock_research.json),
+[1,500-feature registry](reports/livestock_registry.csv), and [independent trace audit](reports/livestock_integrity.json)
+identify exactly what was measured. All 64 games passed independent replay with
+zero mismatches, including 11,584 full vectors and 92,032 private transitions.
+Notebook 02 preserves all 23 prior code-cell sources and adds five livestock cells.
+It contains **28 genuinely executed code cells and eight rendered figures**.
+[The publication run](https://github.com/alvaromendizabal/kaggriculture/actions/runs/34516813547)
+passed **212 tests**, executed all three notebooks and verified all five studies.
+Its [execution receipt](reports/livestock_notebook_execution.json) is separate from
+the archived supply receipt. The exact CI archive was checksum-verified before
+import, and both new figures were inspected. Earlier notebook lineage remains checked through the
+[declared provenance adapter](scripts/notebook_provenance.py). All prior experiment
+and feature sources remain unchanged. Current checks run through
+[GitHub Actions](https://github.com/alvaromendizabal/kaggriculture/actions).
 
 The new [history replay](reports/market_history_research.json) checked 34,512 callback
 vectors: 178 of 333 descriptors varied, 155 were constant, and 12 groups were exact
 nonconstant duplicates. All 241,584 supported stock bounds contained the evaluator-only
 truth. History captured possible stored supply in 1,524 product/callback observations
 with no visible ready yield, but melon bounds were frequently loose after floor-price
-sales. No policy benefit was claimed from that replay alone. The new 64-game
+sales. No policy benefit was claimed from that replay alone. The 64-game fourth
 study jointly evaluates those history candidates and the cash extension in notebook 02.
 
 ## Problem and metric
@@ -117,6 +119,9 @@ without updating its execution evidence.
 Study 4 uses the [source-locked recovery runbook](docs/supply_recovery.md), including
 authorized S3 manifests, at most eight new games per batch, independent cached
 audits, remote-byte verification and genuine notebook-execution receipts.
+Study 5 has its own [livestock recovery runbook](docs/livestock_recovery.md), with
+unchanged registered source, an exercised S3 restore, one-game operational slices,
+explicit reporting adapters and a verified archive of all 64 independent audits.
 
 ## AWS workspace
 
@@ -139,6 +144,9 @@ history through PR3 is also [backed up and verified](reports/history_backup.json
 Study 4 used local CPU simulation, with no new SageMaker compute. Its 64 episode
 execution times sum to 748.000 seconds; this excludes transfers, screening,
 auditing and CI. The app was again confirmed stopped on September 10, 2026.
+Study 5 also used local CPU with no new SageMaker compute. Its 64 registered game
+times sum to 722.27 seconds. The [persistence receipt](reports/livestock_cloud_verification.json)
+checks all 82 required S3 objects by downloaded bytes, checksum, version and encryption.
 
 ## Feature research is the completion gate
 
@@ -170,6 +178,13 @@ for a final model. Cash constraints reduced accumulated excess melon-stock bound
 by 13.19%, but did not reduce empty-stock false alarms or change decisions beyond
 history. All 78 livestock state/feed-care descriptors remained constant: a
 high-priority coverage gap, not evidence that livestock is unimportant.
+
+Study 5 activates 70 of those 78 animal descriptors. Its 1,500-column supported
+bank has 1,205 varying features, 295 constants, 157 duplicate groups and 1,775
+high-correlation pairs. Of 234 new resource descriptors, 192 vary. All remain
+provisional. The study exposes a real feeding/care interaction, fertilizer margin
+gains and remaining final-day feed waste. Joint routing, alternative herd/crop
+mixes, capital stress, land and stronger unrelated opponents remain open.
 
 Read [the source audit](docs/source_audit.md) for mechanics that affect the design. The full
 standards are in [AGENTS.md](AGENTS.md). Final optimization remains blocked by the research gate.

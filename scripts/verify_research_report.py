@@ -235,7 +235,7 @@ def main() -> None:
     cells = [
         cell
         for cell in notebook.cells
-        if cell.cell_type == "code" and not cell.id.startswith("supply-")
+        if cell.cell_type == "code" and not cell.id.startswith(("supply-", "livestock-"))
     ]
     if len(cells) != 17:
         raise ValueError("Unexpected research notebook structure")

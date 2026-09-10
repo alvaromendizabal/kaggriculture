@@ -1,0 +1,683 @@
+{
+  "feature_completion_gate": "closed",
+  "identity": {
+    "jobs": [
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/b031bf35c05ebeabf210d952e7ec4980861063536116003fcdd8ad92765172f2.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/e2ed8e0e689e9cdf91107feeb1ce79d0e70023aa5d7f56249d99c3b52d451a28.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/133d056aa706256c9caa5f3eea2198fac847d3bf92d10e57710ca828a8d610fa.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/1b2994aae70fd495c782263e3ca69460419c2e21a9664f8c3acb9c7f80fad80b.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/223647983d3366c30f3ee6ddb94fbe9ac5e6b9ce31cdbcb47a31dd4e66d3be36.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/708dc088dd88116f06980f23173f347a483c513bb8faf106a7a1b8301435cba2.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/cedf26032154f78d0f76c2c82b86aa752823f7e4b4c4afe6a1988d7b039aa08a.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/1b4c76f7022080dd9ed250282d4a0a8005dcfeb68f954bced6dd47a6c3886b88.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/3233f09aba405c623086a74e49ce627f137e3cd506ba524d7c413d998342f71d.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/0899cfaa293638bd8adf8c214e845c5105526d2b63d6e3f8bea6f8c3fe0f4feb.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/ddbf0e1fc5286cc37c7bcd026c9a6b5063f75d4d113cbc9367051e6c44236d36.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/91aac25b33014f44f3ad56b8bcc7fa173a4d151b76158f97d79d7ea63c2f431d.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/960c6d98e10db39a4e5be5d7ce7b5a875c1d9e5172d1549b6f02d202e8f332d9.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/1162585de86fd3cdff50ffb0f79f061497245f3c1de177185b1e1fe049d7541d.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/f4c5b5f7a66feda5b9cda405833ffdb3dca5d1e6395e5b54b790d8e4e3ca8066.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1401
+        },
+        "path": "artifacts/livestock_episodes/4bd80b61bd4f387b22a5bdacd2b26802f5acec50aa80ff0f2892ec729f49fa56.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/4291926d36622d2e8269c8652dc6d05d8ac461a587d3a5af954909e440845324.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/fee850a954e50199618109776dde8e9c079f7aaf41d1a1bc352d62ce7ac8944e.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/92663ba6b4915d2078f28efae0ee30cd90254e76a168228781bda8a9e171294e.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/50a9412a0c2bb7333761c8d9e476ed953fd3c245c1fa6237a15aee7851181c69.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/66cd59d1e22530fd9e8d9e1536838b1c96d536c5d4715f860b93af557a1e0386.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/7ae70c32f3c332dc2ca6732bb0e605012b626150a9d0c141237044a8d5b896f9.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/7d047dc67f2ec9e362aadb0622147d977025305caf1b0b85008fd2b8777cd4a0.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/8e9d4d1e91990465e0d5c484a7040e7f80567f5bb88c72b71b969d3897c9d8ea.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/7d9fc8241aa0b4d3db096ea6d75fcc3de469e9343907e886d81fe83618228b13.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/3783cbb4f3e0dafaa15ac5fbb0bad3f7c7c2a2a6ceadbca4f6c41016741b86c6.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/f015213e0bcc73fd43e392cba96b49f6ec8536a72fd63b348946f10afa795a30.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/16e347a9193b8e2066ccb33d5b548aeb9d98a68ec286c9071089371cd999d733.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/10ebd54e5914e60f3c5b41cb387121050ae1e0d746a9817b47f9f91dc498a52d.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/82592b7f1897915d363f805a4c65d52f087290348b4588c5cdd726abf5836e2c.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/404b96b8f1e207bec1759555eafaf92658e77ca85b75361e9d75f1d228af2826.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1402
+        },
+        "path": "artifacts/livestock_episodes/0e80db85b37e53594228ac33e810d3534013df0383e041c56eb69ac9b686bec8.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/4e11e77d9932dc06d2b8aca329c44e18d3e5f65f42a390cf081c43b33d49c38f.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/8e9968d24eec297a0e6da224b5bdcedc30f1df5abc825d8c8df350e7d96c323b.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/7cc87d98997cd0fe0e88ded1b1f0a3eb0bf313156f60d8656336271ea096d7fa.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/b641531b9923fffb8da3a08a3f8b594c6e147619d4ddfd3875f8f227d43dcfbc.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/0fced7be4db7c157c9e0dc4ff677185caf610828db37e044784ec53480ba2059.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/a5a35495f1e699abbe6559c9b8c7fdae995c9899db26e3025c05ad6b788fcc8a.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/57cf619cf72b4a475d34fb2184874fc8780efe1dd6572ac85cede52d2677ec2f.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/6dc858c1d756c42a079c45d9b44c13a0215ff73f8e6bd8c3942bb4a772330335.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/e051b705acceccd2cbba8bf4e0e90e44b1e91929b4ac20ca3aa4035c31c14b8c.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/02b514e5f2cc705b7382d98404740b24afb03ada16d0c8fe2670a45bf850ce24.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/af8b1cdc6f22b54539dfbc240d449d5db561d7b528b372f1ec01264de5269df8.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/2e4fa58999e0ba2914ad2cb07b0cbbdef9c20e6a876b93e69c7ad46f3eeebbe8.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/24c3f6f43d8f3d34fdf7778cb8470484bc1970acfe1b60570d7417eb66b51f27.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/5b53b4fcd654d94b73e2b2c8e8bf7ef8d593faf0615c90e5138d64803dde4d51.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/6b644f4692a9c86b56c4153bb481701e6dbdaf2d029852f732f9306bd5331087.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1403
+        },
+        "path": "artifacts/livestock_episodes/44872684ea978dbcc2351fc93defece28707efa389247779cd25e14d95f81d42.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/ef1b6f6b285d0f479dea4dc09d843edbbf0b3bbcdc9e4645baf3f36dd238664e.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/73a1d2c6a9281f56e3b8b0d470e8aca0bdfa7693d57f62f3bdc0fdbfde6a2cc3.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/d645131cd2973cd262fda83a8c3b6e883ae9858e4d44cdf5077c09d1f856db0e.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/cf61a5c38e3114eb863848b2f1ffd9c0d0fbe9becbbbd2e708286457613b9555.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/8e7f852110c8041d0031ec203282952b804d2df5fab0c80ca85b94411e05bfe4.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/82987eee3e6849bb4202e599cd6158a76288a701b31739e98d34c2af2b2106c7.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/63b4439d87189059680fac85e1eefc07c404fe19a4973197245d6bb56510ccb1.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "livestock_routine",
+          "seat": 0,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/f74be425b636ee38db3fc1f783e56aef42f91acdb9f8aca46ce4409a73df2288.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/29334bf435dd8d7b5a3792ea12ab5cef0908bc8799e36d91a729eb64573e7b17.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/ed5c79013981ee49e558691a712400784ecddd1ac65b36d58959b066b73e7618.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/e334fe9f8c827634ccc49077792b9533856cc4316f98c455621755fd694e54c2.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/b547099a3a38c6d346a3c98b54c18eb10cbef87fd516cd2f1c4f3d3b1cbba18e.json.gz"
+      },
+      {
+        "key": {
+          "arm": "routine",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/cee971f8ed8c4db74d490d7ca24fb0f645c4e4770851d329b84e2e3a2db48e25.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/6558b3ebb58bbd9797f07b43a71978ccf4334edff38196ae00c82433ff31773a.json.gz"
+      },
+      {
+        "key": {
+          "arm": "care",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/5ecf045f1b48ef3c202a95d1d68329f939f29137a3da0c34c420c6cb4c89dece.json.gz"
+      },
+      {
+        "key": {
+          "arm": "fertilizer",
+          "opponent": "livestock_routine",
+          "seat": 1,
+          "seed": 1404
+        },
+        "path": "artifacts/livestock_episodes/67ea8787f6f35a9abaaee686c4f17072067560b633a634b17b5fb396f4a2bfe5.json.gz"
+      }
+    ],
+    "lineage": {
+      "code": {
+        "src/kaggriculture_livestock/__init__.py": "6eaf87b04e27687f9168edff36d6607379184198a9533dea7f20fa74e67e13a6",
+        "src/kaggriculture_livestock/audit.py": "7129b6ebbd1e8d40471f80a89e552502e538451f23d470fbd79352a2d68b5511",
+        "src/kaggriculture_livestock/experiment.py": "0cd711ae7f7643dd28e6967fafac240ef560da16a0185cd3e1b0ccfc54f9af3c",
+        "src/kaggriculture_livestock/features.py": "7ba4ae04c069bb2e4ecf82b166920213e4327defccfdcde69a10c73e85577463",
+        "src/kaggriculture_livestock/policy.py": "086ea3c323d33f62da0d8c0aa363934cd2c3fb0be3617d9daa558530292e3450",
+        "src/kaggriculture_research/__init__.py": "36d0ff269264d1c5e526ff205c2fc89e921767c65fdc3914654062bbc4adcb85",
+        "src/kaggriculture_research/artifacts.py": "e08e16f0e09ba25d732e22dc7239ce4a5e017ca3bfbe68d720cafa9ed201ba72",
+        "src/kaggriculture_research/audit.py": "3cc1130b795f90e8bea454f19bb59b6a4412d6959fad3260a9a7389aa41181a1",
+        "src/kaggriculture_research/cash_history.py": "256b4c1b544e50ff9073f0b5474ab8b07c8b1f71c3c30204d54df50747c2be4c",
+        "src/kaggriculture_research/crop_policy.py": "52db5557b6bb71a4f0c7bfe5ce6faf7fb92d878dfc5b2d353781c9dc28f1d806",
+        "src/kaggriculture_research/environment.py": "590788ca3c5d390c71e06b8c6206f47787ff9bc324b539fb33e5eb163f4cb091",
+        "src/kaggriculture_research/experiment.py": "9777ea565da9d5ac3ff3bb142f63afda0c25f5d6c6ddaf1c45c0e616fbcdf417",
+        "src/kaggriculture_research/features.py": "70fc36e02564ebace315516c389ee17af42624f8fc27c6d8baceb4c14d9d9121",
+        "src/kaggriculture_research/gates.py": "ec8325b24531a7e027d620002da414df3d0f8ce0dddd72b38e6217a70be2a2ac",
+        "src/kaggriculture_research/market_experiment.py": "edd7edd633fa48871a663f35be5624d8cf464cb0c08da7c14f6975797e92417a",
+        "src/kaggriculture_research/market_features.py": "c57bcbd9a84e8518e9474d0adaf5a45350f549e671031485e9288761226f329a",
+        "src/kaggriculture_research/market_history.py": "54e295106673f4b149512ed3e404073782fb3dab65484c9a61fc02c2143c7cee",
+        "src/kaggriculture_research/market_policy.py": "1173f7d0ce02c24c465e7c1c264919e8ddbcc2355a28752a521c67292649d874",
+        "src/kaggriculture_research/progress.py": "12a66d38b6238a323194dce2eb39803a015d794ead8f007ffd07c6eed2c22824",
+        "src/kaggriculture_research/relationship_experiment.py": "11a4d39bd40a5f886656fa308972aad359ea0aa97a9499e80101b02b1f2f283a",
+        "src/kaggriculture_research/relationship_features.py": "807d67e5a14d7915cbdd35a63db0f618040ef3884b130238bfcf0b62e9435de2",
+        "src/kaggriculture_research/relationship_policy.py": "2e337c7334f5902d3462342c69ec4ca6852b90f35bb4d1301e6fd6f5047fbe5b",
+        "src/kaggriculture_research/rollouts.py": "320a57470fecbeefcac1430025689b1f957fc4db044d9d9a5629c5a9d6cdcb02",
+        "src/kaggriculture_research/supply_experiment.py": "a828b66c4ab0bdc551c559c92b0f7fe889582c2722e0f1cabe95943982801429",
+        "src/kaggriculture_research/supply_policy.py": "f10e58a19e66cb24d3a5332aab2ff6af3efd1dd1a563ed16c6536b6158d31104",
+        "src/kaggriculture_research/visuals.py": "e7f66b39c538989c40ce19c7e6564912684204c8ec1fe8a7dd286252ff55f48f"
+      },
+      "engine": {
+        "files": {
+          "agent.py": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6",
+          "core.py": "0922c4599a1b6e0d8c3dadf06ae5297f98138d859d686f00daee6f36e6d45d0e",
+          "envs/kaggriculture/kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+          "envs/kaggriculture/kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+          "schemas.json": "cc6ccbca1a8f747e90434778f12acfe4b29bbeea69aeb5af81f4017ab2ea9a1c",
+          "utils.py": "537b627b11784d424147ef57ebb0369b039bf83c9f891e81f10486b1f552334b"
+        },
+        "package": "kaggle-environments",
+        "version": "1.32.7"
+      },
+      "protocol": {
+        "arms": [
+          "routine",
+          "feed",
+          "care",
+          "fertilizer"
+        ],
+        "bootstrap_resamples": 4000,
+        "bootstrap_seed": 4401,
+        "configuration": {
+          "episodeSteps": 720
+        },
+        "contrasts": [
+          [
+            "feed",
+            "routine"
+          ],
+          [
+            "care",
+            "feed"
+          ],
+          [
+            "fertilizer",
+            "care"
+          ],
+          [
+            "fertilizer",
+            "routine"
+          ]
+        ],
+        "development_seeds": [
+          1401,
+          1402,
+          1403,
+          1404
+        ],
+        "experiment": "livestock-resource-loops-v1",
+        "feature_sample_stride": 4,
+        "heartbeat_seconds": 15,
+        "max_games": 64,
+        "max_new_games_per_batch": 8,
+        "max_seconds_per_batch": 240,
+        "opponents": [
+          "market10",
+          "livestock_routine"
+        ],
+        "plant_scenario_horizon": 168,
+        "primary_metric": "match_score",
+        "seats": [
+          0,
+          1
+        ],
+        "work_opportunity_coins": 8.0
+      }
+    },
+    "runner_sha256": "41f1a1b9d600733d4ea0c327074a749ba631e5c63143d109637710cbad29689c"
+  },
+  "identity_sha256": "52b9b00bc8395fd8fbede307378d4834a2f0a2d28b8b0bf9250e20ff722e1118",
+  "outcomes_inspected_before_registration": false,
+  "registered_at_utc": "2026-09-10T17:40:42.644828+00:00"
+}

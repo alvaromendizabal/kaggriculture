@@ -1,0 +1,683 @@
+{
+  "artifact_manifest": [
+    {
+      "arm": "routine",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/b031bf35c05ebeabf210d952e7ec4980861063536116003fcdd8ad92765172f2.json.gz",
+      "seat": 0,
+      "seed": 1401,
+      "semantic_sha256": "5422b6bbe95e80fb18211ff397d847bc8511f10ae770891f3cdb54ed895baced",
+      "sha256": "db765f04f7bf62ce193b9209fd75a319ad98eb88130c0dacc18e02b7b5cdf355"
+    },
+    {
+      "arm": "feed",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/e2ed8e0e689e9cdf91107feeb1ce79d0e70023aa5d7f56249d99c3b52d451a28.json.gz",
+      "seat": 0,
+      "seed": 1401,
+      "semantic_sha256": "2698da890378f139f14137d37aa43b9755559b4da27bc7f82839fbc763642eaf",
+      "sha256": "afb6ac21c808c21d6ead3104f5e6f3d3bd7203d58f927b75ce413865d4ffb9a5"
+    },
+    {
+      "arm": "care",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/133d056aa706256c9caa5f3eea2198fac847d3bf92d10e57710ca828a8d610fa.json.gz",
+      "seat": 0,
+      "seed": 1401,
+      "semantic_sha256": "90492832443b5dbda2e5917e5873d0c3be945ac69918ebb02dc6826fb7e31482",
+      "sha256": "b18b16c24bf913e8df3b2af72dcc1442c79508b451348514e7876967db9ecb72"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/1b2994aae70fd495c782263e3ca69460419c2e21a9664f8c3acb9c7f80fad80b.json.gz",
+      "seat": 0,
+      "seed": 1401,
+      "semantic_sha256": "dc5024c710d69df5980cb369cf2024a85f9d306a21a2677266658539e6d32370",
+      "sha256": "b9d62268da562eb2412d6404ed8343aa3beee7e229151ef03928feb8a593aa55"
+    },
+    {
+      "arm": "routine",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/223647983d3366c30f3ee6ddb94fbe9ac5e6b9ce31cdbcb47a31dd4e66d3be36.json.gz",
+      "seat": 0,
+      "seed": 1401,
+      "semantic_sha256": "268c30093588efb134f6d92762e50f5a73b6f1a82c0de18683911cbd55eed3a6",
+      "sha256": "62a5d8c8aeaa20f27b68ae74b607c502761b8c5b32229159defedd2119302bc3"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/708dc088dd88116f06980f23173f347a483c513bb8faf106a7a1b8301435cba2.json.gz",
+      "seat": 0,
+      "seed": 1401,
+      "semantic_sha256": "4dd8a50ddf33213a1c69d40369e330604be722a7125b0d8cb249766d92a7b227",
+      "sha256": "e2da294b5453c2aa9c0ec8bce33888722b306ba419f9972dd9583cedc5bf6dd3"
+    },
+    {
+      "arm": "care",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/cedf26032154f78d0f76c2c82b86aa752823f7e4b4c4afe6a1988d7b039aa08a.json.gz",
+      "seat": 0,
+      "seed": 1401,
+      "semantic_sha256": "bb7fe091727f1214af0b24c2fce87d6a77c16faff3b4354739fc8b8f2765c9e0",
+      "sha256": "1e4a005b96b242e0568b8801bab56672c2e3f76756ffb3b27811887d39bdff2e"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/1b4c76f7022080dd9ed250282d4a0a8005dcfeb68f954bced6dd47a6c3886b88.json.gz",
+      "seat": 0,
+      "seed": 1401,
+      "semantic_sha256": "7039557ad60a05a7bbee6a960224b8dfb69f0742c6a315a054673c16109ef71b",
+      "sha256": "b2c341d272e63d39d21a9d6601ed0b3922c6d6fd20ef5617775bee89db93a709"
+    },
+    {
+      "arm": "routine",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/3233f09aba405c623086a74e49ce627f137e3cd506ba524d7c413d998342f71d.json.gz",
+      "seat": 1,
+      "seed": 1401,
+      "semantic_sha256": "fdd04312263cc6ead1c37a1f6125983753e7c04c87bfeade877f7f215531a2be",
+      "sha256": "fa9fb613a619ea5a1d1929604effcaa1dc3948ef9a0e0a34b45f07b78753b7d3"
+    },
+    {
+      "arm": "feed",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/0899cfaa293638bd8adf8c214e845c5105526d2b63d6e3f8bea6f8c3fe0f4feb.json.gz",
+      "seat": 1,
+      "seed": 1401,
+      "semantic_sha256": "df6d8df11fff22ad02d0e38448424beaf90119864b6e469b53f0a5e089038189",
+      "sha256": "e1b9f6810751146b57eedb0949806dae6b5f7318a43bb7ba09bcd69447ceb1ff"
+    },
+    {
+      "arm": "care",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/ddbf0e1fc5286cc37c7bcd026c9a6b5063f75d4d113cbc9367051e6c44236d36.json.gz",
+      "seat": 1,
+      "seed": 1401,
+      "semantic_sha256": "204e201226b5cd20add4eaaa5bf9f5103646d5c6241973968f5598c220e8332d",
+      "sha256": "2395584179d70eb94b2f4824dc8422a83c284532a7539ae6cd9a0a48e235a8fa"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/91aac25b33014f44f3ad56b8bcc7fa173a4d151b76158f97d79d7ea63c2f431d.json.gz",
+      "seat": 1,
+      "seed": 1401,
+      "semantic_sha256": "13f43ca71bb8b12f5d8dba1e0251cb61db7dd5a1366f8db944db0eaa8bc68207",
+      "sha256": "66e32f65e50fd831ddf1797525d90d583e48ff03bae3ab90c7adc7d8d135a42c"
+    },
+    {
+      "arm": "routine",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/960c6d98e10db39a4e5be5d7ce7b5a875c1d9e5172d1549b6f02d202e8f332d9.json.gz",
+      "seat": 1,
+      "seed": 1401,
+      "semantic_sha256": "037ec864591704c964d9074ebe9948e36d65f502d20b94c66fe98e0f55dc3ce9",
+      "sha256": "618260f5ce1119ed8465da9687ad40e5285b74199d6f586d16399f42a7e2208a"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/1162585de86fd3cdff50ffb0f79f061497245f3c1de177185b1e1fe049d7541d.json.gz",
+      "seat": 1,
+      "seed": 1401,
+      "semantic_sha256": "0b2edf91fae1e4f5d367e0987b32ad48661c8d73c369a53f6235b0b8f3026dd9",
+      "sha256": "3515e2c3caae8ddb1f8838398ee6c0dee1eed2d6e0744363dfbb8ad8c9f0c041"
+    },
+    {
+      "arm": "care",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/f4c5b5f7a66feda5b9cda405833ffdb3dca5d1e6395e5b54b790d8e4e3ca8066.json.gz",
+      "seat": 1,
+      "seed": 1401,
+      "semantic_sha256": "19ee17c7f9cd38c602a0602d562305e5e65d868f689394bad698dbe92b203b20",
+      "sha256": "a8d3bc204bb58b6726234d682a4e57ad6f048339494c41dfcff1a286723fc5e2"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/4bd80b61bd4f387b22a5bdacd2b26802f5acec50aa80ff0f2892ec729f49fa56.json.gz",
+      "seat": 1,
+      "seed": 1401,
+      "semantic_sha256": "f07bceca380e1c365c0ac730648b64eb5123f693238d14d1ef2c723dc9c768d9",
+      "sha256": "d6ee9a83155feb5b68756cec4727ac330788bb3688e520086904bad98eb16063"
+    },
+    {
+      "arm": "routine",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/4291926d36622d2e8269c8652dc6d05d8ac461a587d3a5af954909e440845324.json.gz",
+      "seat": 0,
+      "seed": 1402,
+      "semantic_sha256": "833c04cdf25b05b2d1964dd6e7d0958075b304d808781d0f5131806d17ae9f42",
+      "sha256": "a6537ff6a16ed12e0d43d7ebbc5f92c67943d56e49a41ad501ad1440fbf27777"
+    },
+    {
+      "arm": "feed",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/fee850a954e50199618109776dde8e9c079f7aaf41d1a1bc352d62ce7ac8944e.json.gz",
+      "seat": 0,
+      "seed": 1402,
+      "semantic_sha256": "527ea070cf0ce2bc82fa954c03cc025d19f7777a6e4a66bfff0013c0002f0ac1",
+      "sha256": "5d5731e0925e90c94d4501e6651b51467342c6b78cf838eea44afbaf5474999d"
+    },
+    {
+      "arm": "care",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/92663ba6b4915d2078f28efae0ee30cd90254e76a168228781bda8a9e171294e.json.gz",
+      "seat": 0,
+      "seed": 1402,
+      "semantic_sha256": "93c82764474d583741044bfa4a4fcff57b0db4cbb1354767ff3d4505c7d234d9",
+      "sha256": "161f2c2fb65816959d40e1833b916f4a305bd2175a82a2742f758ee1bb6ce0f3"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/50a9412a0c2bb7333761c8d9e476ed953fd3c245c1fa6237a15aee7851181c69.json.gz",
+      "seat": 0,
+      "seed": 1402,
+      "semantic_sha256": "c80b7e49e5e64510851f4dd7933be30e8daab0c2cba89c82997dea8211f91e2d",
+      "sha256": "ca099dd01995b686ff602886c8ac0d6c1cd7f3464ced05adb274a33d4763cf1c"
+    },
+    {
+      "arm": "routine",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/66cd59d1e22530fd9e8d9e1536838b1c96d536c5d4715f860b93af557a1e0386.json.gz",
+      "seat": 0,
+      "seed": 1402,
+      "semantic_sha256": "61655b3ac60d12ea06eb6350afe9be48b813e4ba835b5e792282c37ec56ae5b7",
+      "sha256": "1bca875591f4831f3bf3f27d247c3e592b5d1129d9b9b74e06f890e219cd9de3"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/7ae70c32f3c332dc2ca6732bb0e605012b626150a9d0c141237044a8d5b896f9.json.gz",
+      "seat": 0,
+      "seed": 1402,
+      "semantic_sha256": "c7c249c3c7354c40d322656c59428546dec2d971298104cbfcadef1e6feee086",
+      "sha256": "eeaffb7c86a3178dd09aaf4124d438906c416343c94d0af8a8c679bd4fea1263"
+    },
+    {
+      "arm": "care",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/7d047dc67f2ec9e362aadb0622147d977025305caf1b0b85008fd2b8777cd4a0.json.gz",
+      "seat": 0,
+      "seed": 1402,
+      "semantic_sha256": "ff1ba0b264e8e4287416bf050df4fd420cd9405ebd3bf91eba5c4a64bdc9a855",
+      "sha256": "47698f50a0fccb34f1b25b54d0d494ec4791ebd84147716dba645d0279f2407e"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/8e9d4d1e91990465e0d5c484a7040e7f80567f5bb88c72b71b969d3897c9d8ea.json.gz",
+      "seat": 0,
+      "seed": 1402,
+      "semantic_sha256": "2b459f41ccb8b29c7062c35271675796b97578b9765dbec6b20b71282fa8ff56",
+      "sha256": "5009dea36a64d2a52007d50514bec44bbe468f4f947f60d6e55b4f028524fd3a"
+    },
+    {
+      "arm": "routine",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/7d9fc8241aa0b4d3db096ea6d75fcc3de469e9343907e886d81fe83618228b13.json.gz",
+      "seat": 1,
+      "seed": 1402,
+      "semantic_sha256": "ce0e90cf470ca810443f88668f923200a543bce4c58d9d03c26148f590fdfdee",
+      "sha256": "cb06031151602bbaf90ffe6dd27cc0235839c8ebf0f4bde67df50a2154b65889"
+    },
+    {
+      "arm": "feed",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/3783cbb4f3e0dafaa15ac5fbb0bad3f7c7c2a2a6ceadbca4f6c41016741b86c6.json.gz",
+      "seat": 1,
+      "seed": 1402,
+      "semantic_sha256": "7549e0626e6d2196dbf392b85ea7e8765f00d62e686ff47b509017b6eb6baf99",
+      "sha256": "4967d376324f7932f33419f8d4ee550496c56fdc9a472f4e51e8bd2dd4aded2a"
+    },
+    {
+      "arm": "care",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/f015213e0bcc73fd43e392cba96b49f6ec8536a72fd63b348946f10afa795a30.json.gz",
+      "seat": 1,
+      "seed": 1402,
+      "semantic_sha256": "346b8ff49df84eecc0473c923ed9ea1e37b219e2b5b757503a66a93f5fcd91e7",
+      "sha256": "e3b7ed1882d132468c7897bd1a213668f825d339e86c36afa4e46d3cfcc94a65"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/16e347a9193b8e2066ccb33d5b548aeb9d98a68ec286c9071089371cd999d733.json.gz",
+      "seat": 1,
+      "seed": 1402,
+      "semantic_sha256": "7f7572d6feaf4b0e657249436239671f30652fb5bdc1ef62f46a7e049ebf6601",
+      "sha256": "9f33537d89d6d35106cf53edeb3100f4adab6810e99c7e736a66246a3170c3d9"
+    },
+    {
+      "arm": "routine",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/10ebd54e5914e60f3c5b41cb387121050ae1e0d746a9817b47f9f91dc498a52d.json.gz",
+      "seat": 1,
+      "seed": 1402,
+      "semantic_sha256": "cffe83fa38723a3468dce7fe02a9262d6a603eb771db7c466d616247e45d2a72",
+      "sha256": "84cd2dcb8df18f41aeeb33355d04bce44539cae6e0244814e2111f4ea7355b6f"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/82592b7f1897915d363f805a4c65d52f087290348b4588c5cdd726abf5836e2c.json.gz",
+      "seat": 1,
+      "seed": 1402,
+      "semantic_sha256": "2ca3bae91fdc9c8828b5ef272e52b786bca95a55a2e863947c3f45da1bba3fc9",
+      "sha256": "6640ca20dd84043a2f4f56c4081756acfbac624f7cffd1ec6b68b68032529134"
+    },
+    {
+      "arm": "care",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/404b96b8f1e207bec1759555eafaf92658e77ca85b75361e9d75f1d228af2826.json.gz",
+      "seat": 1,
+      "seed": 1402,
+      "semantic_sha256": "8ad2d8191bc8ee746ad2ab8efb2b1b133b2a7db13ce69c1464ac5898117ab120",
+      "sha256": "31adbcce885e699a959acff80d83dfbe51aba3495c8894576548d88aa1bb1381"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/0e80db85b37e53594228ac33e810d3534013df0383e041c56eb69ac9b686bec8.json.gz",
+      "seat": 1,
+      "seed": 1402,
+      "semantic_sha256": "16b0f1c305a4ba5277566eb3b49f444950d06346fa62ce5b76ca488900e8675b",
+      "sha256": "d1152cef3823b38af11884b2bd80456f2a6d3f321174f66cef429be56c0f647a"
+    },
+    {
+      "arm": "routine",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/4e11e77d9932dc06d2b8aca329c44e18d3e5f65f42a390cf081c43b33d49c38f.json.gz",
+      "seat": 0,
+      "seed": 1403,
+      "semantic_sha256": "83033268a31b2cd30ad3734f718a1431f9ce0f19d14954d902081d0fcf6406fc",
+      "sha256": "ad66f41bc00331254a626f88cb82022478d4dbe1a9a1b9f2b10a5dde3559ecac"
+    },
+    {
+      "arm": "feed",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/8e9968d24eec297a0e6da224b5bdcedc30f1df5abc825d8c8df350e7d96c323b.json.gz",
+      "seat": 0,
+      "seed": 1403,
+      "semantic_sha256": "7ed9a75caf6de83393bf6aff33f04ca48cd7f6090b7a868c529abc44475e2cd2",
+      "sha256": "6226ad56c0134ae559fc8fc0f8e26fbc928b83fda4910437cf3b512e476dc23a"
+    },
+    {
+      "arm": "care",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/7cc87d98997cd0fe0e88ded1b1f0a3eb0bf313156f60d8656336271ea096d7fa.json.gz",
+      "seat": 0,
+      "seed": 1403,
+      "semantic_sha256": "8cab9db81468086814b958e7ea1c762398ba48903cd89d27638e4279c0f7fd71",
+      "sha256": "7d32a7dfff11282fd249687759459a6f275654d2ceafc98c1ad9092422b2e497"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/b641531b9923fffb8da3a08a3f8b594c6e147619d4ddfd3875f8f227d43dcfbc.json.gz",
+      "seat": 0,
+      "seed": 1403,
+      "semantic_sha256": "10d91d25bd388cb06069dcd313eb0971041a7c36bce72200dcbea58b48af1395",
+      "sha256": "410c415adce1220ae5c1be8847163091b47cd7f3611964c48e89a3d953ae7f26"
+    },
+    {
+      "arm": "routine",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/0fced7be4db7c157c9e0dc4ff677185caf610828db37e044784ec53480ba2059.json.gz",
+      "seat": 0,
+      "seed": 1403,
+      "semantic_sha256": "062e3e413460660ddcc57f0d068fbe40b023d50ae669184f87a2c7c0565fe8f3",
+      "sha256": "4ca29345ec5b4970b1977bd1cf296972bec5dd6384a60479bc7572c557ee72cf"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/a5a35495f1e699abbe6559c9b8c7fdae995c9899db26e3025c05ad6b788fcc8a.json.gz",
+      "seat": 0,
+      "seed": 1403,
+      "semantic_sha256": "b49f90a1e5396a21ba78f8e2436fcbfc27c2b1f3c056abd46242001ccc6dec91",
+      "sha256": "6a6fa3e4250d33f08ac19e0bf4cb758c9e20d3aa8a918f0ffccb3410e3427dac"
+    },
+    {
+      "arm": "care",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/57cf619cf72b4a475d34fb2184874fc8780efe1dd6572ac85cede52d2677ec2f.json.gz",
+      "seat": 0,
+      "seed": 1403,
+      "semantic_sha256": "e6497b7e4ce65582f8155bc96443705f5cbc727ea273a079c55f504fc2542ed5",
+      "sha256": "0fa271cfb9bacef3505091a2ecdf467721054a4a421013d9b6d66eef2795ee80"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/6dc858c1d756c42a079c45d9b44c13a0215ff73f8e6bd8c3942bb4a772330335.json.gz",
+      "seat": 0,
+      "seed": 1403,
+      "semantic_sha256": "b4e9640dcdc5439dff8565279602888a60e13066009864fab9ebbb7ad463dd04",
+      "sha256": "fcfcda619cc3c93a91623cd402cd15b72d1f96c0729cf9cd551f36c872de7aa7"
+    },
+    {
+      "arm": "routine",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/e051b705acceccd2cbba8bf4e0e90e44b1e91929b4ac20ca3aa4035c31c14b8c.json.gz",
+      "seat": 1,
+      "seed": 1403,
+      "semantic_sha256": "0bc442df729f495a594b715828f6c00824a980d461859c1a6a67d3b1ca62ee67",
+      "sha256": "fbfce4e1ab5bf0c3ec50e7df015ceb4fb83878b432d2c67751abfdecdee2b195"
+    },
+    {
+      "arm": "feed",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/02b514e5f2cc705b7382d98404740b24afb03ada16d0c8fe2670a45bf850ce24.json.gz",
+      "seat": 1,
+      "seed": 1403,
+      "semantic_sha256": "0481e588618e76f2fa54e49363cef9fa52a1e317392c3354c1a310d8b79beb75",
+      "sha256": "13d65d760aa29b74067160b4cdbf9a3e5c8e3d900c5766dbd6bef2cad5201c98"
+    },
+    {
+      "arm": "care",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/af8b1cdc6f22b54539dfbc240d449d5db561d7b528b372f1ec01264de5269df8.json.gz",
+      "seat": 1,
+      "seed": 1403,
+      "semantic_sha256": "1b4dd21d3d13ef990437bf58d6669421dff0f69409aa0e2de41b0a7b0b66734f",
+      "sha256": "2968f236d703df0aa413b0aa0a229517ca00f133d4b5fdd460e73b129b695f9d"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/2e4fa58999e0ba2914ad2cb07b0cbbdef9c20e6a876b93e69c7ad46f3eeebbe8.json.gz",
+      "seat": 1,
+      "seed": 1403,
+      "semantic_sha256": "cd2a163a9bfce1e407752c4f349c8a93de3608940995faf2fe339c5a75134b25",
+      "sha256": "31e94e5103de9e3ba3e21ac7e6be50f8a72979c655fb7aaf285ad0f6fcfea95e"
+    },
+    {
+      "arm": "routine",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/24c3f6f43d8f3d34fdf7778cb8470484bc1970acfe1b60570d7417eb66b51f27.json.gz",
+      "seat": 1,
+      "seed": 1403,
+      "semantic_sha256": "57e86bb982f6afaeb81debb0a2f43e63e2491e547b64e4d4d6f416a5e06a82ef",
+      "sha256": "8b463bf0aef68266218323dc69a6038a198c8bd90410501c100197e556af4a86"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/5b53b4fcd654d94b73e2b2c8e8bf7ef8d593faf0615c90e5138d64803dde4d51.json.gz",
+      "seat": 1,
+      "seed": 1403,
+      "semantic_sha256": "45ee7ec6c9b98a554c93f121faf3fa0416e00f880e875e051cbe32809ecddce2",
+      "sha256": "6e8a61686343e7d30224fba92160de82779dabeadb5c4102a3b0156305ab5401"
+    },
+    {
+      "arm": "care",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/6b644f4692a9c86b56c4153bb481701e6dbdaf2d029852f732f9306bd5331087.json.gz",
+      "seat": 1,
+      "seed": 1403,
+      "semantic_sha256": "5bc0fcf29b6d32c755df72332980c5894b31efef9a852c94f7fffa8b7a3f56dd",
+      "sha256": "94dbb270c951c2739b65db0b2e1da0abe453b46161dfcd390ef6e50ea325ea4d"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/44872684ea978dbcc2351fc93defece28707efa389247779cd25e14d95f81d42.json.gz",
+      "seat": 1,
+      "seed": 1403,
+      "semantic_sha256": "d953ed60017ce422e4cd3bdc01e7b1a6469ba748d45ebb34f6067aa23d6f307e",
+      "sha256": "537aeda4295e68891519b6c1d6f3306b873d50b500d2a076dc9bd6eb69e526a9"
+    },
+    {
+      "arm": "routine",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/ef1b6f6b285d0f479dea4dc09d843edbbf0b3bbcdc9e4645baf3f36dd238664e.json.gz",
+      "seat": 0,
+      "seed": 1404,
+      "semantic_sha256": "cba684cec6f166f174dfd2961c66f2dd01864e58cc1c9264187d771da04b051d",
+      "sha256": "b788566d59558b09a6d74d05156b8991d94d638886f2e11031158a23b6203a6d"
+    },
+    {
+      "arm": "feed",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/73a1d2c6a9281f56e3b8b0d470e8aca0bdfa7693d57f62f3bdc0fdbfde6a2cc3.json.gz",
+      "seat": 0,
+      "seed": 1404,
+      "semantic_sha256": "a114284e521131a4441725b82f8986ebc5a75c5872e9d9b916e91e741ec7c7e6",
+      "sha256": "5c26e0106d15bbb695cfadefd753adbe9901a485f3a3f38f89a4a8b2ac0847ea"
+    },
+    {
+      "arm": "care",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/d645131cd2973cd262fda83a8c3b6e883ae9858e4d44cdf5077c09d1f856db0e.json.gz",
+      "seat": 0,
+      "seed": 1404,
+      "semantic_sha256": "a0b497de1fc1886bc12d73bf58abf39b9ff2e93a45a1bb5f1fb80453c84446fd",
+      "sha256": "ff35e4f74d87b0f6fc51f71c88eca7a7a66e13ff2112f0b5ed8e69e8654083e8"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/cf61a5c38e3114eb863848b2f1ffd9c0d0fbe9becbbbd2e708286457613b9555.json.gz",
+      "seat": 0,
+      "seed": 1404,
+      "semantic_sha256": "bfef226baafca09fcbcf4b4639b1e34029e66f48a0a04f4ceda39ab5d94b59a9",
+      "sha256": "651d2b82de8aebc11f8d757e8eb343859363e050ad45a230db91f7dbde10643b"
+    },
+    {
+      "arm": "routine",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/8e7f852110c8041d0031ec203282952b804d2df5fab0c80ca85b94411e05bfe4.json.gz",
+      "seat": 0,
+      "seed": 1404,
+      "semantic_sha256": "1214feb81c6e1a273188f3555e5b65d8a0577eb5da26cc2c289f9f465e789350",
+      "sha256": "d60fd98dd134124bcef0006f7815c0a2259c0195746040968f49c6dbc02afbd6"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/82987eee3e6849bb4202e599cd6158a76288a701b31739e98d34c2af2b2106c7.json.gz",
+      "seat": 0,
+      "seed": 1404,
+      "semantic_sha256": "ad2d930703034cb27aa6e3ea6318b13d3245c64439b3c4af58b7b24bd264bacd",
+      "sha256": "cbf0d488c98767a9b519829ed621a6a6093eac74f10181176b28c912a490d8e0"
+    },
+    {
+      "arm": "care",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/63b4439d87189059680fac85e1eefc07c404fe19a4973197245d6bb56510ccb1.json.gz",
+      "seat": 0,
+      "seed": 1404,
+      "semantic_sha256": "59c9417a01228ac560134855e6878d1b2da5828c49ce455aef0c57f055d45bbd",
+      "sha256": "f69b855201ee1d831ca330d34b87f8d6fd67624e83850448de17f7eaf525ee2b"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/f74be425b636ee38db3fc1f783e56aef42f91acdb9f8aca46ce4409a73df2288.json.gz",
+      "seat": 0,
+      "seed": 1404,
+      "semantic_sha256": "94823c25ce23c34ee8d275d231f4e45b8b8505ae5cf565139fce7c74bde715f0",
+      "sha256": "bba7875d67e6b97ec66fff1843127402841cb24e2be204364de791b5996f4189"
+    },
+    {
+      "arm": "routine",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/29334bf435dd8d7b5a3792ea12ab5cef0908bc8799e36d91a729eb64573e7b17.json.gz",
+      "seat": 1,
+      "seed": 1404,
+      "semantic_sha256": "cde0c941a8dc649a0fb61853da87fdc6ee8f55fe81424f5c3e52c0f87cb24217",
+      "sha256": "0a6899752f5a029124c99a817a29dba493e1e11693c32e6be8fd5b18904649eb"
+    },
+    {
+      "arm": "feed",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/ed5c79013981ee49e558691a712400784ecddd1ac65b36d58959b066b73e7618.json.gz",
+      "seat": 1,
+      "seed": 1404,
+      "semantic_sha256": "a1255e539e4cacdbbebd1acfe74925e64b691f81f12153ab4413da45e0b9d24e",
+      "sha256": "710437186540f2def89e36ae7544beb66732885a22f527f76daab09cdf5cca11"
+    },
+    {
+      "arm": "care",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/e334fe9f8c827634ccc49077792b9533856cc4316f98c455621755fd694e54c2.json.gz",
+      "seat": 1,
+      "seed": 1404,
+      "semantic_sha256": "7d9d45bd73973c969a6b7ed332dae4cd811e36d18b01c753e4ba4ab721d03581",
+      "sha256": "98e80454d21d86ee27caeaef0784de3503e2e865c4e5220c81ede44708924419"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "market10",
+      "path": "artifacts/livestock_episodes/b547099a3a38c6d346a3c98b54c18eb10cbef87fd516cd2f1c4f3d3b1cbba18e.json.gz",
+      "seat": 1,
+      "seed": 1404,
+      "semantic_sha256": "96e6e2a06cef3bb90a1319ccb92c52bc8838da95d1e51e386159ee5ab4dcd97f",
+      "sha256": "d67335c153cb21e83aa26c6869da836501f6d973e5837c74a7ba50b49b1c0516"
+    },
+    {
+      "arm": "routine",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/cee971f8ed8c4db74d490d7ca24fb0f645c4e4770851d329b84e2e3a2db48e25.json.gz",
+      "seat": 1,
+      "seed": 1404,
+      "semantic_sha256": "229eecffb9aaae623c4cb16da2ae9af2af50c3d5441eb48757dcf579234acd4f",
+      "sha256": "4512034bd7f5d8ec9206dd40b364dad8f2ad665b55b8f0f6315bd48d2f7a4d1b"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/6558b3ebb58bbd9797f07b43a71978ccf4334edff38196ae00c82433ff31773a.json.gz",
+      "seat": 1,
+      "seed": 1404,
+      "semantic_sha256": "62f660a83aaefd90731ad61dd82120cf054c7fd7a1e68e30ff4968337bfa80ca",
+      "sha256": "e93dbf98cf0e42f4a5992f841106fd16c675207713bfcbc7a1e8175f81a7befa"
+    },
+    {
+      "arm": "care",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/5ecf045f1b48ef3c202a95d1d68329f939f29137a3da0c34c420c6cb4c89dece.json.gz",
+      "seat": 1,
+      "seed": 1404,
+      "semantic_sha256": "b1b13bf697c6861a45c49be3bdd1b34379bca4aeeae266a0bba19f5a8b42a466",
+      "sha256": "7e172c787195e9ae042c8e045c2a83d1e6f3a38131cd56d7ef4f4def04212535"
+    },
+    {
+      "arm": "fertilizer",
+      "opponent": "livestock_routine",
+      "path": "artifacts/livestock_episodes/67ea8787f6f35a9abaaee686c4f17072067560b633a634b17b5fb396f4a2bfe5.json.gz",
+      "seat": 1,
+      "seed": 1404,
+      "semantic_sha256": "e8f6259821d64bbfd6bea6eb31aad13fbeb12d2b0c132ac8145f95684d15ed70",
+      "sha256": "ec8253c51d86ed7e9ea8a9087c3fb5df2aec7abffbf153f653239ccbefda1157"
+    }
+  ],
+  "complete": true,
+  "completed_games": 64,
+  "expected_games": 64,
+  "experiment": "livestock-resource-loops-v1",
+  "feature_completion_gate": "closed",
+  "lineage": {
+    "code": {
+      "src/kaggriculture_livestock/__init__.py": "6eaf87b04e27687f9168edff36d6607379184198a9533dea7f20fa74e67e13a6",
+      "src/kaggriculture_livestock/audit.py": "7129b6ebbd1e8d40471f80a89e552502e538451f23d470fbd79352a2d68b5511",
+      "src/kaggriculture_livestock/experiment.py": "0cd711ae7f7643dd28e6967fafac240ef560da16a0185cd3e1b0ccfc54f9af3c",
+      "src/kaggriculture_livestock/features.py": "7ba4ae04c069bb2e4ecf82b166920213e4327defccfdcde69a10c73e85577463",
+      "src/kaggriculture_livestock/policy.py": "086ea3c323d33f62da0d8c0aa363934cd2c3fb0be3617d9daa558530292e3450",
+      "src/kaggriculture_research/__init__.py": "36d0ff269264d1c5e526ff205c2fc89e921767c65fdc3914654062bbc4adcb85",
+      "src/kaggriculture_research/artifacts.py": "e08e16f0e09ba25d732e22dc7239ce4a5e017ca3bfbe68d720cafa9ed201ba72",
+      "src/kaggriculture_research/audit.py": "3cc1130b795f90e8bea454f19bb59b6a4412d6959fad3260a9a7389aa41181a1",
+      "src/kaggriculture_research/cash_history.py": "256b4c1b544e50ff9073f0b5474ab8b07c8b1f71c3c30204d54df50747c2be4c",
+      "src/kaggriculture_research/crop_policy.py": "52db5557b6bb71a4f0c7bfe5ce6faf7fb92d878dfc5b2d353781c9dc28f1d806",
+      "src/kaggriculture_research/environment.py": "590788ca3c5d390c71e06b8c6206f47787ff9bc324b539fb33e5eb163f4cb091",
+      "src/kaggriculture_research/experiment.py": "9777ea565da9d5ac3ff3bb142f63afda0c25f5d6c6ddaf1c45c0e616fbcdf417",
+      "src/kaggriculture_research/features.py": "70fc36e02564ebace315516c389ee17af42624f8fc27c6d8baceb4c14d9d9121",
+      "src/kaggriculture_research/gates.py": "ec8325b24531a7e027d620002da414df3d0f8ce0dddd72b38e6217a70be2a2ac",
+      "src/kaggriculture_research/market_experiment.py": "edd7edd633fa48871a663f35be5624d8cf464cb0c08da7c14f6975797e92417a",
+      "src/kaggriculture_research/market_features.py": "c57bcbd9a84e8518e9474d0adaf5a45350f549e671031485e9288761226f329a",
+      "src/kaggriculture_research/market_history.py": "54e295106673f4b149512ed3e404073782fb3dab65484c9a61fc02c2143c7cee",
+      "src/kaggriculture_research/market_policy.py": "1173f7d0ce02c24c465e7c1c264919e8ddbcc2355a28752a521c67292649d874",
+      "src/kaggriculture_research/progress.py": "12a66d38b6238a323194dce2eb39803a015d794ead8f007ffd07c6eed2c22824",
+      "src/kaggriculture_research/relationship_experiment.py": "11a4d39bd40a5f886656fa308972aad359ea0aa97a9499e80101b02b1f2f283a",
+      "src/kaggriculture_research/relationship_features.py": "807d67e5a14d7915cbdd35a63db0f618040ef3884b130238bfcf0b62e9435de2",
+      "src/kaggriculture_research/relationship_policy.py": "2e337c7334f5902d3462342c69ec4ca6852b90f35bb4d1301e6fd6f5047fbe5b",
+      "src/kaggriculture_research/rollouts.py": "320a57470fecbeefcac1430025689b1f957fc4db044d9d9a5629c5a9d6cdcb02",
+      "src/kaggriculture_research/supply_experiment.py": "a828b66c4ab0bdc551c559c92b0f7fe889582c2722e0f1cabe95943982801429",
+      "src/kaggriculture_research/supply_policy.py": "f10e58a19e66cb24d3a5332aab2ff6af3efd1dd1a563ed16c6536b6158d31104",
+      "src/kaggriculture_research/visuals.py": "e7f66b39c538989c40ce19c7e6564912684204c8ec1fe8a7dd286252ff55f48f"
+    },
+    "engine": {
+      "files": {
+        "agent.py": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6",
+        "core.py": "0922c4599a1b6e0d8c3dadf06ae5297f98138d859d686f00daee6f36e6d45d0e",
+        "envs/kaggriculture/kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+        "envs/kaggriculture/kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+        "schemas.json": "cc6ccbca1a8f747e90434778f12acfe4b29bbeea69aeb5af81f4017ab2ea9a1c",
+        "utils.py": "537b627b11784d424147ef57ebb0369b039bf83c9f891e81f10486b1f552334b"
+      },
+      "package": "kaggle-environments",
+      "version": "1.32.7"
+    },
+    "protocol": {
+      "arms": [
+        "routine",
+        "feed",
+        "care",
+        "fertilizer"
+      ],
+      "bootstrap_resamples": 4000,
+      "bootstrap_seed": 4401,
+      "configuration": {
+        "episodeSteps": 720
+      },
+      "contrasts": [
+        [
+          "feed",
+          "routine"
+        ],
+        [
+          "care",
+          "feed"
+        ],
+        [
+          "fertilizer",
+          "care"
+        ],
+        [
+          "fertilizer",
+          "routine"
+        ]
+      ],
+      "development_seeds": [
+        1401,
+        1402,
+        1403,
+        1404
+      ],
+      "experiment": "livestock-resource-loops-v1",
+      "feature_sample_stride": 4,
+      "heartbeat_seconds": 15,
+      "max_games": 64,
+      "max_new_games_per_batch": 8,
+      "max_seconds_per_batch": 240,
+      "opponents": [
+        "market10",
+        "livestock_routine"
+      ],
+      "plant_scenario_horizon": 168,
+      "primary_metric": "match_score",
+      "seats": [
+        0,
+        1
+      ],
+      "work_opportunity_coins": 8.0
+    }
+  },
+  "new_games": 0,
+  "reused_games": 64
+}

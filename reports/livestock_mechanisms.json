@@ -1,0 +1,10 @@
+{
+  "analysis_source_sha256": "38c719b1f1338fe9f345583211a1663f3cb61e3e7a1e1f0a4864afe9a4aea328",
+  "games": 64,
+  "product_rows": 576,
+  "products_sha256": "e0e1b74ab0e4ae0fc93e80d86eb82aae8fc1facf458e53701dd5d2213fb98bfe",
+  "scope": "post-registration descriptive mechanism diagnostics; no new policy selection",
+  "species_rows": 192,
+  "species_sha256": "b44f4369aa42b2de21cde21b8eda71909f35bdf86a1250c82164f9e490259d0d",
+  "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+}

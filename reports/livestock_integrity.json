@@ -1,0 +1,596 @@
+{
+  "artifacts": [
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "db765f04f7bf62ce193b9209fd75a319ad98eb88130c0dacc18e02b7b5cdf355",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/fc0a21f498bd48d211e9aa74ff2132d59616f06a583def2c5780db2452f376f1.json.gz",
+      "sha256": "714486fc6e1e42e7cd51840adf7ea6b672aab8a14a093f9289bc6233708a10eb"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "afb6ac21c808c21d6ead3104f5e6f3d3bd7203d58f927b75ce413865d4ffb9a5",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/1ac656ebbce5e8ead5df3533d499ed8754dc191fb870fc0ac591481b1a2cc7a8.json.gz",
+      "sha256": "ca7010e4c5ab316ebcd00e513bf669a8f90b08ce67b0b151b1aae98a6a9bb24b"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "b18b16c24bf913e8df3b2af72dcc1442c79508b451348514e7876967db9ecb72",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/931e81706af37cb9c3a501cea54339bb5beb35ef82aca0cfd1889afb12db4270.json.gz",
+      "sha256": "4c6701f3ea706ec824c20bf323f46c039debd27677ba449e9bcf318a8d4c7cc4"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "b9d62268da562eb2412d6404ed8343aa3beee7e229151ef03928feb8a593aa55",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/15e658f674fe59ac01dc936d73b7071e68ef1cdbfd22ed6857dfe2ee36b827e2.json.gz",
+      "sha256": "f444016575ea42174a544fafaf8edb1211251c770b4e6bec738f17a9c3074dd3"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "62a5d8c8aeaa20f27b68ae74b607c502761b8c5b32229159defedd2119302bc3",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/898bdbcc17c0495411705efccb05f87fe6e6790182c128eaf4a8dbdaf11c9c4f.json.gz",
+      "sha256": "33c68f6b2907de7dd4d1d241c718608750abdce2822977d4176cad3906acbe15"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "e2da294b5453c2aa9c0ec8bce33888722b306ba419f9972dd9583cedc5bf6dd3",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/aa62d3621432b6dcfdaff19b7d02b57439bfa00b7236005e8c140fb732d507b0.json.gz",
+      "sha256": "1c7e2ca39676cfb8087b00eeffe9beadfc3627c29bb94cb2a1a43ea2117da745"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "1e4a005b96b242e0568b8801bab56672c2e3f76756ffb3b27811887d39bdff2e",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/9bdba527093696e3b3413a3e4887572b681b34fc74d92377f02670f41c7cbc2e.json.gz",
+      "sha256": "8e2f41ace5e2ab70168530011bb44a23986f14f12615ef90e6403593dc805b08"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "b2c341d272e63d39d21a9d6601ed0b3922c6d6fd20ef5617775bee89db93a709",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/03fc561952b9f1c37a9f0434b8d1d83ca9a7e587776a631430aae2bdbef0fe3a.json.gz",
+      "sha256": "343dd5aa81fafd1f3cfb6652601565e7cd00259a287c4db7561aa03da7a0bd02"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "fa9fb613a619ea5a1d1929604effcaa1dc3948ef9a0e0a34b45f07b78753b7d3",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/903f5440879b4f764fe906b919fe76dc3397f9c2d7ab3eb50e8d0db594864968.json.gz",
+      "sha256": "7f577b8f1f6e3688bc667979bb26e273875e5bdda54dbc0683d8d81676b7e026"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "e1b9f6810751146b57eedb0949806dae6b5f7318a43bb7ba09bcd69447ceb1ff",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/692461f58bedc634ae28c788e7e12b9e0de3e214618e03c04b5a8caba02c6b78.json.gz",
+      "sha256": "bf3c2250f2b729aebe0f4f884160480924121741b8dbe92e27a357ddabcc873a"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "2395584179d70eb94b2f4824dc8422a83c284532a7539ae6cd9a0a48e235a8fa",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/405d7c46d34eae8e1ded7f98d3656b76925843c619bd888e0b29817012f59237.json.gz",
+      "sha256": "d18369544bad1fd96b87460078cabe5107b852a2f9ae8cc65a3e5be2113b3e34"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "66e32f65e50fd831ddf1797525d90d583e48ff03bae3ab90c7adc7d8d135a42c",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/12ec09b145fa15cf00992a6fff8720c9c8dc6f4bf7949da2f695d8e1a623f6c6.json.gz",
+      "sha256": "030b64b09ae04e9789f2a79bd2f24dd431d8ed9d37f4b8554c372f4ca5c52860"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "618260f5ce1119ed8465da9687ad40e5285b74199d6f586d16399f42a7e2208a",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/31c112f5c51d14cd1609552fcaddcd0eec58fb9bf486f70becb30e433067253f.json.gz",
+      "sha256": "5d047a17a2d080d5b73d3322721b997e048b827200bbc08dbbde8b76463bd5a5"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "3515e2c3caae8ddb1f8838398ee6c0dee1eed2d6e0744363dfbb8ad8c9f0c041",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/b108d3ae67d52d90460bc2781a39ec273e26f74461f306d7b163788946fec713.json.gz",
+      "sha256": "1d0f9a504337fc0f02f823c9cee292362c8121e3971e95009209f16bf881902e"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "a8d3bc204bb58b6726234d682a4e57ad6f048339494c41dfcff1a286723fc5e2",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/f177cdbf0dcbb9bc37bdc5fef98884cb71b827dd7afe6bb90c27dce97b9feed3.json.gz",
+      "sha256": "0df71e99e2ad700276a17f4854bca1d0357c99067818e28dfdac7791774242f7"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "d6ee9a83155feb5b68756cec4727ac330788bb3688e520086904bad98eb16063",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/ab73fa537904df7c2b9a0853bc36d62bd5c05c80bde440a26109884e19e3dfb1.json.gz",
+      "sha256": "ae1226510ac1f04fd42d9bba6e0e74c8f6ac901328214246967f8bcbbfe2c2f2"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "a6537ff6a16ed12e0d43d7ebbc5f92c67943d56e49a41ad501ad1440fbf27777",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/ae9912773ff81428009a11179ebf69b3bd42a4be1ea0ee17b30e0cb4067f38b0.json.gz",
+      "sha256": "6196bc7e526478467a45024ae8720f5f594dfda7975d4f600992e9e9f2f2b613"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "5d5731e0925e90c94d4501e6651b51467342c6b78cf838eea44afbaf5474999d",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/79251e11f2c67ebb5d152f7b524831d2ad8c52b8a61ff7e4ea50827c06962729.json.gz",
+      "sha256": "d2d16893221f04cc1274565c24b1b204a7fe19b72fee8bb5e00281872c74a944"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "161f2c2fb65816959d40e1833b916f4a305bd2175a82a2742f758ee1bb6ce0f3",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/5adb97bdf7a84c2d89e9ba92c4bcf5bbe5be904ef78f30566e406bbe3cf09765.json.gz",
+      "sha256": "92ecc741fcdc0b75afece3b4c911a83e5e71a9ba9dc7a0b2e0f381b3d5c4da06"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "ca099dd01995b686ff602886c8ac0d6c1cd7f3464ced05adb274a33d4763cf1c",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/29298b093dd373b2ad8229c3087fb603542e34770af7a02c4868cd954b99fdd0.json.gz",
+      "sha256": "726ab48ec5347d86a345082f851113101122e9e2e91020e260b1353712692e54"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "1bca875591f4831f3bf3f27d247c3e592b5d1129d9b9b74e06f890e219cd9de3",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/464744a86537f5ba6a72cbd90efde771b90645190b5a92e0e41877cfd33371f2.json.gz",
+      "sha256": "2ed820a353d9e76f61c3133d873fd895bdb331aa1682fbb2c17974be0009d846"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "eeaffb7c86a3178dd09aaf4124d438906c416343c94d0af8a8c679bd4fea1263",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/c99012a7060a1e69fe0d4421196cc2fc295c079c0aeb10a6dc312740f0f62559.json.gz",
+      "sha256": "b46a5eed027bfb55329fe11b72371496f089db46e139fae8acaccf4c47f48841"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "47698f50a0fccb34f1b25b54d0d494ec4791ebd84147716dba645d0279f2407e",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/04d482d9d0c795b0e1483ba291dac6bd1d3003a35d95d6a1272e810ade711686.json.gz",
+      "sha256": "cf0b40102f7a4a12e4eadd7948751aa9985c981cff4cf6dda8b5e7d1284e7128"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "5009dea36a64d2a52007d50514bec44bbe468f4f947f60d6e55b4f028524fd3a",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/bec2ec13ec096ac05d7a919840ae8207289d599c1fe3617cb42e6ba70fb6a4b4.json.gz",
+      "sha256": "e92ba4d9de0f154bae3e6927b2829cc06c9f895605da9cd77cf722ebf9068fb7"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "cb06031151602bbaf90ffe6dd27cc0235839c8ebf0f4bde67df50a2154b65889",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/2934ce79ad719bb07f8a1a243f3871f750938b81a06614bcc9118aa45070709a.json.gz",
+      "sha256": "a1de4aa69c0c197ce9e0f98ea1aa826d3f9fe0574b5d7657e743c9b6cdd08848"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "4967d376324f7932f33419f8d4ee550496c56fdc9a472f4e51e8bd2dd4aded2a",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/337295de8242ad7a56e43ab6c60503fb50b88d7c335f6f46da78ceb824476ab1.json.gz",
+      "sha256": "652cca81f6234fe453c83612fa4dd1a3a0e7819808e96646a880582d6670b664"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "e3b7ed1882d132468c7897bd1a213668f825d339e86c36afa4e46d3cfcc94a65",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/db3796e930f37fc8681f3f74f7361eb4330854234db2238953a246eb590f8b4e.json.gz",
+      "sha256": "0745d60ffdae64626e6a9a64fbf0c467e0d19f57b4d16f888dbbd434e0f5b786"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "9f33537d89d6d35106cf53edeb3100f4adab6810e99c7e736a66246a3170c3d9",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/38ff2d64fbfe677ae4bedb9620e225ece359ce667aeaf11f82c2ff6715b6d966.json.gz",
+      "sha256": "34f506676056fd0115fbef136fcc7260693a7c97cead0666e597a356f3453470"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "84cd2dcb8df18f41aeeb33355d04bce44539cae6e0244814e2111f4ea7355b6f",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/d494882e8bfbe35ff57c4a8a01d9529a70152040af80056c9253b4312afc39f6.json.gz",
+      "sha256": "a43b7b58be046ffa060a0a98b4e4dbdc1afb651a213574a843e05e9b747672c2"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "6640ca20dd84043a2f4f56c4081756acfbac624f7cffd1ec6b68b68032529134",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/2e74eefacb7adb110bc1b4845540978d0a4d39e4ebd0ded162e33c9b3a61c494.json.gz",
+      "sha256": "20982cd22a771e34bdc833c50ca396eca09a30fa059b663a8b2a486de8f7fa1e"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "31adbcce885e699a959acff80d83dfbe51aba3495c8894576548d88aa1bb1381",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/5461709d6bca389dbb7dd603239bb4e5c5b94e7983a28b8a34d978e83e52335f.json.gz",
+      "sha256": "ba180875cb7844f9118ce17d958561ecd56dced936142adac6f6be6a26e7b118"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "d1152cef3823b38af11884b2bd80456f2a6d3f321174f66cef429be56c0f647a",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/24158e39f861c31953b33d248b71e5953791ead4fd5f0f7ca9c4e4f6c3a8f62b.json.gz",
+      "sha256": "27142e573ed22f4de66a5d9d1c6b07df3a0cb38bc50113cbc2b3a1279947228e"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "ad66f41bc00331254a626f88cb82022478d4dbe1a9a1b9f2b10a5dde3559ecac",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/effc1f48d4b757e8d492eee9ae17639a8823f17c92d72d5205b992ab195bbb5d.json.gz",
+      "sha256": "5368d4967c2a18704b59f99f160aa5baab6f162e47a23845c3f70e939f9a4021"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "6226ad56c0134ae559fc8fc0f8e26fbc928b83fda4910437cf3b512e476dc23a",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/d6ec0cb4b5d2e47845d6431eee57555aaad17bb621871c45a5303d87a680857a.json.gz",
+      "sha256": "a0a3058d26b6de402f1d8f167f5b1d90d0e0a6e79a7606894fe0cd16d18e4e63"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "7d32a7dfff11282fd249687759459a6f275654d2ceafc98c1ad9092422b2e497",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/4c707db317511eab40afeb55323b5fa15990777d7fd61d4282ce16c480f54dda.json.gz",
+      "sha256": "6bf8f647f7a9f81b29598842925bf041c65328bab0e7740d770a1e8588cad6f2"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "410c415adce1220ae5c1be8847163091b47cd7f3611964c48e89a3d953ae7f26",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/894708b596d91277a158233e048b84de3db90ec25987a0b0ca525566e7582736.json.gz",
+      "sha256": "7cef37a4821e6b18e0444e2fdc96a8e4f4a1352d5b592c4aedc11d092a06d320"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "4ca29345ec5b4970b1977bd1cf296972bec5dd6384a60479bc7572c557ee72cf",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/a6b6224c7f54fa6af20215c502044174c2821cae9862332c46cc8e5dabbd5e37.json.gz",
+      "sha256": "3172a2fd2618c69fbe7b6a3bd07d42254569d3885769c57b30d0bf3a1cc27341"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "6a6fa3e4250d33f08ac19e0bf4cb758c9e20d3aa8a918f0ffccb3410e3427dac",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/7db4bc6dc2860970ea73e6a77abbb3e025dc038597ac4b7b9c65fc0ef7799d47.json.gz",
+      "sha256": "ebea38cdb8a4aac0a2a80845a33a2571dd434d33ea64ca23190878d884b5cf69"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "0fa271cfb9bacef3505091a2ecdf467721054a4a421013d9b6d66eef2795ee80",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/4f5f913321f073731d633240ae125f8735fa80a8aa3bc926b6e3bc0a26c07268.json.gz",
+      "sha256": "cf7182eb2e1a019d26691664a79b2e309374b5976318872467b35839246ec745"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "fcfcda619cc3c93a91623cd402cd15b72d1f96c0729cf9cd551f36c872de7aa7",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/df3354a1b3db12b9682c7ffe3097a44f41d1ec3ad591d00935807daf9a063db9.json.gz",
+      "sha256": "a1cd95f58496dcea84ca79c7271d3880d80e42e788e8ed59f74137c4b94323ea"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "fbfce4e1ab5bf0c3ec50e7df015ceb4fb83878b432d2c67751abfdecdee2b195",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/1e27915439b09367e5b54765f0ae4e30988db2396e9b915573001077cce769eb.json.gz",
+      "sha256": "9b0cd5aa35ba5e680c4f7a0d9a39f31e0f9f93485ff6b3b736026eef60ff9c0a"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "13d65d760aa29b74067160b4cdbf9a3e5c8e3d900c5766dbd6bef2cad5201c98",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/d9327987baaa2ce306e98e73ffacbe19290ca9a741465ce363937f12d3670886.json.gz",
+      "sha256": "55e17869cbc5451132bcc0fc8010b3fc73ac63bf68c75da5a38a2a4fb3fb9f6f"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "2968f236d703df0aa413b0aa0a229517ca00f133d4b5fdd460e73b129b695f9d",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/2e7a23f489c9ab068320d361db87aefd16071e8351beefb494190b71a66527d2.json.gz",
+      "sha256": "d8f11c8125bd9dc1121b399643b0dc2d8f913ffcf80ee0d2a3c4aaf4a8b05a7b"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "31e94e5103de9e3ba3e21ac7e6be50f8a72979c655fb7aaf285ad0f6fcfea95e",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/e6a1cd254695cf4c2e732f48a67c160da4f77c206f977ce3ed95241a66e2ab04.json.gz",
+      "sha256": "6c35a1d1c77fa3d53ee06e279784aa4261ab03ce5c2e286a56170a28b294823f"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "8b463bf0aef68266218323dc69a6038a198c8bd90410501c100197e556af4a86",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/2fdd99337d189a3bdf06b8e152208e77b2f7ed4119efdc25425778956f7b9b33.json.gz",
+      "sha256": "5e6a1e2c0e09f0a0c1769cd05cef9d41d684d458651263786e0308e1152f3413"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "6e8a61686343e7d30224fba92160de82779dabeadb5c4102a3b0156305ab5401",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/5e59076402b06723f4fc8e4d73e4c4f5d41c03d9b0bf6adcbcadb7eca019bbb1.json.gz",
+      "sha256": "b266a702c5772ee22d5acbcf2a65920052f67ff9c1f262e8789de49b2b83534f"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "94dbb270c951c2739b65db0b2e1da0abe453b46161dfcd390ef6e50ea325ea4d",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/f59fcabc723202a274844dc738ec0cf2abb3146ae3ce4ee629ecc931b778c109.json.gz",
+      "sha256": "34ce633c7b0421f91d5dd18e62dcf98af96711ba4c425f8260b65302a64ad07c"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "537aeda4295e68891519b6c1d6f3306b873d50b500d2a076dc9bd6eb69e526a9",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/2c2f28a6e820f36602232db47c0c9bd24fcc1872fb253d165c137cd63159e68d.json.gz",
+      "sha256": "2bbf213288b4526a48ff5c0666da877600034de7530a2e03f7eae6f5f0997daf"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "b788566d59558b09a6d74d05156b8991d94d638886f2e11031158a23b6203a6d",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/2be7159fa3d256c54810c52a960fa3d2559043905951fbba21b23d908566aa00.json.gz",
+      "sha256": "36bd3193a1657e50240ba53070751455d2e4788564dcb07e3d21b954f483260a"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "5c26e0106d15bbb695cfadefd753adbe9901a485f3a3f38f89a4a8b2ac0847ea",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/cdb7549d83ff283eeb471f83a292f47264f661c77bd21131dabf128d9a0ec715.json.gz",
+      "sha256": "b4a5a4a0f44e556128e9d2acf5042b8a576462e10844ccef0f2f61aaed913ba7"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "ff35e4f74d87b0f6fc51f71c88eca7a7a66e13ff2112f0b5ed8e69e8654083e8",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/a96c20571c2ecc21138e1cb08e593deacba9f89ce3b9637fc302cc8a80d46372.json.gz",
+      "sha256": "53d1b2c0205a69d5115956663511279e4bcd03b948d3c6b2dbd5ba7c9039d537"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "651d2b82de8aebc11f8d757e8eb343859363e050ad45a230db91f7dbde10643b",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/f39b3151cd5ce96a7426ff07f4f94a5eaa3af27fa64cc853cdb6f6a10f72e432.json.gz",
+      "sha256": "c07dd93dffdc858ae0e4d88f571cba35928633f2297222ecbfd7dcea7433e247"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "d60fd98dd134124bcef0006f7815c0a2259c0195746040968f49c6dbc02afbd6",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/fa32e17283d685e31fe3401a7845125eebad0b5818b08f3010d218dc939151c6.json.gz",
+      "sha256": "26fbf899fff9df509ec9ef6aa058f63139012ddfc9d99264559d12cdafc67282"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "cbf0d488c98767a9b519829ed621a6a6093eac74f10181176b28c912a490d8e0",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/14c1a3846f5dec0fedc51438420d23a1b2ba7c028831b93e67e78fe0ff3607df.json.gz",
+      "sha256": "391600b653a451edd1f622bbef0465187af19d4e8fe66330257722ad6fa3b0e3"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "f69b855201ee1d831ca330d34b87f8d6fd67624e83850448de17f7eaf525ee2b",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/54052974a6501a34e4b92e1f929b62751b66ee59c52fc7c5db31376f8dbc869a.json.gz",
+      "sha256": "74455423c83b6d52b74d96246f554b6abc40582acfaf7a5709ddb30f5782671c"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "bba7875d67e6b97ec66fff1843127402841cb24e2be204364de791b5996f4189",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/0337d382ac2d19d6df1b2defc0c0536477dfa7a7b8135a44b934d74e8737c538.json.gz",
+      "sha256": "69981ccf175cd2236ad94afd33d95401e5f32921f2a17fe3889d3fd88b6f0327"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "0a6899752f5a029124c99a817a29dba493e1e11693c32e6be8fd5b18904649eb",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/28842d6191c1841e12c06f6e28a249afbe192e8c70f76f641235a06f8a0df0b3.json.gz",
+      "sha256": "1411d499d74398b3d7810744f912af690e24fb625d8b78b14d054a2eb6e9aa20"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "710437186540f2def89e36ae7544beb66732885a22f527f76daab09cdf5cca11",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/3ef1c6714f0fa5bce6b254848f669fb838528f41156f2400d724891ff9f3176c.json.gz",
+      "sha256": "89d49cc1248e777abdcfe6f2c8f4c995820cf4fb23887411c24d915075c9f95f"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "98e80454d21d86ee27caeaef0784de3503e2e865c4e5220c81ede44708924419",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/5257dbbe84fd06c6f8c6020da53e07e1917bd7bbe8f3ac6150ecba227bfd9c54.json.gz",
+      "sha256": "4e900752645cc05ea9c38da05de0b4d77452ad77bdf450f288207473db912a25"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "d67335c153cb21e83aa26c6869da836501f6d973e5837c74a7ba50b49b1c0516",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/c4637aaff575395e582e791db6a0edc63e1eea65d79fa44c7af5f7b4e3f44fe9.json.gz",
+      "sha256": "3b63e2dba314e9178bf283cfda8be6994dbdf76dee4fbb58fbea080bbc98e4ca"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "4512034bd7f5d8ec9206dd40b364dad8f2ad665b55b8f0f6315bd48d2f7a4d1b",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/97ef04333c912771964649a7433b7b683ee66cffefaae14b0dc762854b9a67e2.json.gz",
+      "sha256": "fd43ccb84248b2382e7ad06b4903311fb917a21ae59c233fca0e8d5e8521791a"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "e93dbf98cf0e42f4a5992f841106fd16c675207713bfcbc7a1e8175f81a7befa",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/61665aa288c51591ed6e634d5258971684f90124aee881ec7a32ed21d38e9aa6.json.gz",
+      "sha256": "56bbc564b4eeda145bd2abd706b1f3fb862db0b605769a573b60ea016f2924b4"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "7e172c787195e9ae042c8e045c2a83d1e6f3a38131cd56d7ef4f4def04212535",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/d3541f98f9a53a3aaa6bc8d21ed6bf6c7c1fb7dbdfef22c93716bc20a25531a5.json.gz",
+      "sha256": "2f188be8e03fd9f9fbeb837dc89528da12dde116d5a68ce24760bb7e188e7d1b"
+    },
+    {
+      "lineage": {
+        "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+        "episode_sha256": "ec8253c51d86ed7e9ea8a9087c3fb5df2aec7abffbf153f653239ccbefda1157",
+        "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+      },
+      "path": "artifacts/livestock_audits/2cf28a854fe67285c23850aa2c8ca177b8057d2521a6b38e8c549df0e2ed4b22.json.gz",
+      "sha256": "b388d6343a34a579d372bca65c6605d30f45ec2a99bec0cf29f35a5fbb31aa86"
+    }
+  ],
+  "audit_code_sha256": "45204e0bf62ac92bffe397ea1055e8f36fe01503406925f80e9b08e2352bc85b",
+  "complete": true,
+  "counts": {
+    "callbacks": 46016,
+    "feature_vectors": 11584,
+    "private_transitions": 92032,
+    "product_balances": 1152,
+    "sale_checks": 321664,
+    "state_restores": 1984,
+    "stock_checks": 322112
+  },
+  "games_audited": 64,
+  "mismatches": 0,
+  "new_audits": 1,
+  "reused_audits": 63,
+  "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048"
+}

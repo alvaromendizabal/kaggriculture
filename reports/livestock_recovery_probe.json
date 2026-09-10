@@ -1,0 +1,16 @@
+{
+  "games_executed": 0,
+  "job": {
+    "arm": "routine",
+    "opponent": "market10",
+    "seat": 0,
+    "seed": 1401
+  },
+  "path": "artifacts/livestock_episodes/b031bf35c05ebeabf210d952e7ec4980861063536116003fcdd8ad92765172f2.json.gz",
+  "restore_code_sha256": "0c8bb04cc36654398c395c89de893c893b05363087b79bb52d8b5508b2b53c3e",
+  "restored_missing_game": true,
+  "reused_existing_game": true,
+  "sha256": "db765f04f7bf62ce193b9209fd75a319ad98eb88130c0dacc18e02b7b5cdf355",
+  "study_sha256": "cbcf7ad60c15e89e52acd370e7e4823dd8d92e70d07446875226f0b8fcd38048",
+  "verified_at_utc": "2026-09-10T17:53:22.292567+00:00"
+}

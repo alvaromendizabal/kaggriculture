@@ -17,6 +17,12 @@ def verify(root: Path, record: bool = False) -> dict:
     notebook = nbformat.read(path, as_version=4)
     nbformat.validate(notebook)
     cells = [c for c in notebook.cells if c.cell_type == "code"]
+    if any(c.id.startswith("livestock-") for c in cells):
+        # The new receipt checks all current outputs and the preserved ancestor.
+        # Never overwrite the archived 23-cell receipt with a 28-cell identity.
+        from verify_livestock_notebook import verify as verify_extension
+
+        return verify_extension(root, record=record)
     if len(cells) != 23 or sum(c.id.startswith("supply-") for c in cells) != 6:
         raise ValueError("Expected 17 earlier and six new code cells")
     migration = migration_record(cells[:17])
