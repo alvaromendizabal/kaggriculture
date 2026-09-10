@@ -101,6 +101,18 @@ def main() -> None:
                 ),
                 ("notebooks", [str(root / ".venv/bin/python"), "scripts/execute_notebooks.py"]),
             ]
+        if os.environ.get("KAGGRICULTURE_RESEARCH_STAGE") == "markets":
+            commands = commands[:3] + [
+                (
+                    "market_research",
+                    [str(root / ".venv/bin/python"), "scripts/run_market_research.py"],
+                ),
+                (
+                    "notebook_build",
+                    [str(root / ".venv/bin/python"), "scripts/build_market_notebook.py"],
+                ),
+                ("notebooks", [str(root / ".venv/bin/python"), "scripts/execute_notebooks.py"]),
+            ]
         env = {**os.environ, "PYTHONPATH": str(root / "src"), "MPLBACKEND": "Agg"}
         try:
             for name, cmd in commands:
@@ -132,7 +144,15 @@ def main() -> None:
             manifest = []
             import hashlib
 
-            for folder in ("artifacts", "notebooks", "reports"):
+            folders = ("artifacts", "notebooks", "reports")
+            if os.environ.get("KAGGRICULTURE_RESEARCH_STAGE") == "markets":
+                folders = (
+                    "artifacts/market_episodes",
+                    "artifacts/market_features",
+                    "notebooks",
+                    "reports",
+                )
+            for folder in folders:
                 for path in sorted((root / folder).rglob("*")):
                     if path.is_file():
                         relative = path.relative_to(root).as_posix()

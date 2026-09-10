@@ -1,0 +1,17 @@
+{
+  "audit_code_sha256": "b2a5637c99b4cf2ef783dd58edcf71fd4069b21654b602d26c26b489a0ba12be",
+  "behavior_csv_sha256": "3d608559b2d0e588e7529236ad4a1c3dab7f9fb2fbed43905c56a0d5961ae930",
+  "behavior_scope": "Post-hoc descriptive first-sale timing and crop quantities, not an additional confirmatory test or a new policy-selection dataset",
+  "candidate_callback_observations_verified": 34512,
+  "episode_manifest_sha256": "358f303b00f57de358638a48e61ee2880a3e4891c0fd49e94cb41b3e2e35efba",
+  "experiment_report_sha256": "a9f75d96aec022b240c20ffce36880f3d37e20bf49e03c9b1779a81551e358e2",
+  "features_per_vector": 933,
+  "games_verified": 48,
+  "numerical_tolerance": {
+    "absolute": 1e-12,
+    "relative": 0
+  },
+  "product_conservation_verified": true,
+  "sampled_feature_vectors_recomputed": 8688,
+  "validation_or_holdout_used": false
+}

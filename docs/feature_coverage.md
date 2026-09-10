@@ -9,26 +9,28 @@ justified. Generated and screened descriptor counts are not feature-performance 
 | Maturity and decay | Cap readiness and phase parity; positive study 2 local-collection effect | Global harvest timing, actual decay trajectory, staggered planting/harvest waves; new opponents/seeds |
 | Water and survival | Death/bonus urgency; study 1 effect unresolved; next-refresh treatment parity | Alternate-day maintenance, value-aware water routing, interaction with storage |
 | Fertilizer | Conditional refresh gain and inclusive activity window; mechanistic tests | Acquisition/transport, three-day treatment paths, opportunity cost and policy ablation |
-| Storage and delivery | Phase-aware room, ready-wave pressure, bounded deposits; study 2 eliminates waste but capacity alone hurts match score | Joint routes, heterogeneous inventory allocation, coordinated deposits and opportunity-cost-aware activation |
+| Storage and delivery | Phase-aware room and bounded deposits; study 3 activated work-cost-aware delivery and improved coins, but wins occurred in only one seed | Global joint routes, heterogeneous inventory allocation, production displacement and broader win-rate benefit |
 | Working capital | Staffing runway and seed-spend reserve; zero study 2 intervention activations, utility untested | Receipt uncertainty, adaptive reserves, explicit capital-stress scenarios and demonstrated activation/benefit |
 | Labor | Worker capacity, distance, workload and Fibonacci costs; study 1 combined effect | Separate distance and staffing factors; assignment/route optimization; hiring marginal value |
-| Shared-market impact | Per-unit curves, own-wave impact, visible opponent supply stress | Endogenous response, conditional future price scenarios, quantity/timing policy ablations |
-| Town demand | Exact known-shop event counts with duplicate shops | Unknown-unlock distributions without hidden seed access; decision tests and uncertainty |
+| Shared-market impact | Exact sale/concurrent-sale parity; conditional paths and full study 3 quantity/timing ablation; fixed holding rule harmed outcomes | Legal-history rival-stock uncertainty, endogenous response, calibrated scenarios and diverse-opponent evidence |
+| Town demand | Exact duplicate-shop events; known-demand holding rule tested and insufficient under competition | Unknown-unlock distributions without hidden seed access; joint demand/supply uncertainty |
 | Livestock | Feed rescue, care-bank delay, production cap and escape parity; all 78 state/feed-care descriptors constant in study 2 | On-policy coverage, goose/cow/sheep policies, wheat provisioning, fertilizer side-product loops and ablations |
 | Land | Existing public ownership and capacity descriptors | Capital/time/labor-adjusted NE/SW/SE expansion returns and controlled action experiments |
 | Causal temporal signals | Explicit 1/24-turn legal history with masks and prefix tests | Policy activation; multi-scale response; no future/shop leakage; state serialization for deployment |
-| Opponent response | Public crop/animal supply and resource differences; stronger frozen opponent | Diverse adaptive opponents and observable-history behavior models; never private inventory |
+| Opponent response | Visible supply envelopes; study 3 evaluator-only audit found rival sales during 174/343 holding events | Diverse adaptive opponents and legal-history stock-belief models; never private inventory as input |
 | Terminal banking | Exact remaining horizon and delivery feasibility; positive study 1 effect | Joint liquidation scheduling, mixed goods and cap-constrained final turns |
 | Rankings/relative choices | Current crop utility argmax and resource-relative summaries | Cross-action ranks and opportunity-cost margins; controlled comparisons beyond arbitrary scores |
 | Learned encodings | Not implemented, no claim of target-derived signal | Only if useful: seed/episode-grouped OOF development fitting, no future reward in policy inputs |
 | Spatial/graph representation | Manhattan travel on open grid; per-worker and aggregate features | Joint worker-task graph, congestion-free assignments, plant age/needs spatial clustering |
-| Robustness and saturation | Two weaker opponents in study 1; one stronger in study 2 | New registered development seeds, specialist/stress opponents, diminishing-return studies |
+| Robustness and saturation | Two weaker opponents in study 1; stronger opponents in studies 2/3; six fresh development seeds in study 3 | Specialist/stress populations, further fresh-seed confirmation and diminishing-return studies |
 
 ## Exclusions with a domain reason
 
 Study 2's [measured findings](relationship_findings.md) separate positive component effects,
 harmful conditional effects, non-activation and absent trajectory coverage. None closes a
-family automatically; all 618 state/history descriptors remain provisional.
+family automatically. [Study 3](market_findings.md) adds tested market/delivery interventions
+and an independently audited 933-column bank. All descriptors remain provisional; the
+harmful holding rule is not adopted, and delivery's coin gain is not broad win-rate proof.
 
 - Real soil, rainfall, weather, satellite imagery and calendar growing seasons: no supporting
   variables or transitions in the official game. External agronomic associations do not map

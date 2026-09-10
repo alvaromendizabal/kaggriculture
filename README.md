@@ -7,30 +7,36 @@ This project studies sequential decisions in a competitive farming economy: allo
 growing crops, managing livestock, expanding land, and selling into a shared nonlinear market.
 The central question is which observation-safe representations improve decisions and win rates.
 
-**Current stage: resource-relationship feature research.** Two bounded studies now contain
-144 development games: 80 crop-feature comparisons and a 64-game capacity/capital/maturity
-factorial experiment against the frozen previous scheduler. The state/history bank contains
-618 provisional descriptors. Feature research remains open; no Kaggle score is claimed.
+**Current stage: market/logistics feature research.** Three bounded studies now contain
+192 development games: 80 crop-feature comparisons, 64 resource-relationship games and
+48 fresh-seed market/delivery comparisons. The feature bank contains 933 provisional
+descriptors. Feature research remains open; no Kaggle score is claimed.
 
 ## Review the work
 
 1. [00 · Simulator and evaluation contract](notebooks/00_environment.ipynb)
 2. [01 · Observation audit and feature hypotheses](notebooks/01_data_audit.ipynb)
-3. [02 · Crop features and resource-relationship experiments](notebooks/02_feature_research.ipynb)
-4. [Latest findings: maturity, storage and capital](docs/relationship_findings.md)
+3. [02 · Three executed feature-research studies](notebooks/02_feature_research.ipynb)
+4. [Latest findings: delivery helps coins, holding hurts](docs/market_findings.md)
 5. [Feature coverage and completion ledger](docs/feature_coverage.md)
-6. [Research protocol](docs/research_protocol.md)
+6. [Domain mechanisms and modern-method research](docs/domain_research.md)
+7. [Research protocol](docs/research_protocol.md)
 
 The [first study](docs/feature_findings.md) motivated storage and stronger-opponent research.
 The [second design](docs/relationship_research.md) tests those relationships explicitly.
 Earlier collection of fully capped crops helped in this development setting; storage
 protection alone eliminated waste but reduced match score. The capital rule never activated,
-so its utility remains untested. These are component effects, not proof that 618 features help.
+so its utility remains untested. The [third study](docs/market_research.md) found a positive
+delivery coin effect (+2,359.42 averaged over holding settings), but its two wins were
+concentrated in one seed. Fixed market holding reduced coins in every seed cluster.
+No new competitive agent is promoted; these are component tests, not proof that all
+933 descriptors improve decisions.
 
-The notebooks execute from saved, verified results. The [latest machine-readable study](reports/relationship_research.json),
-[618-feature registry](reports/relationship_registry.csv), and [independent trace audit](reports/relationship_integrity.json)
-identify exactly what was measured. Three notebooks contain 25 executed code cells and seven
-static figure fallbacks. Both studies' code, outcomes, contrasts and conservation are verified.
+The notebooks execute from saved, verified results. The [latest machine-readable study](reports/market_research.json),
+[933-feature registry](reports/market_registry.csv), and [independent trace audit](reports/market_integrity.json)
+identify exactly what was measured. Three notebooks contain 30 executed code cells and eight
+static figure fallbacks. All three studies' source lineage, outcomes, contrasts and product
+accounting are verified. Earlier study code cells remain unchanged.
 
 ## Problem and metric
 
@@ -55,6 +61,10 @@ PYTHONPATH=src uv run python scripts/audit_feature_behavior.py
 PYTHONPATH=src uv run python scripts/run_relationship_research.py
 PYTHONPATH=src uv run python scripts/audit_relationship_evidence.py
 uv run python scripts/build_research_notebook.py
+PYTHONPATH=src uv run python scripts/run_market_research.py
+PYTHONPATH=src uv run python scripts/audit_market_evidence.py
+PYTHONPATH=src uv run python scripts/analyze_market_holds.py
+PYTHONPATH=src uv run python scripts/build_market_notebook.py
 uv run pytest -q
 uv run ruff check .
 uv run ruff format --check .
@@ -68,7 +78,9 @@ checkpoints raise an error; different lineage gets a separate experiment key. Fu
 uses 64 games; its private trace audit recomputes all 11,584 sampled feature vectors. Raw
 trajectories are intentionally absent from GitHub; rerun the studies or restore matching
 authorized checkpoints. `scripts/verify_research_report.py` checks published evidence without
-rerunning 144 games, including the exact AWS-executed notebook hash. A fresh local notebook
+rerunning 192 games, including the exact AWS-executed notebook hash. Study 3's independent
+audit recomputes 8,688 × 933 feature values and checks all 34,512 candidate callbacks.
+A fresh local notebook
 execution changes execution metadata and must not replace the recorded publication artifact
 without updating its execution evidence.
 
@@ -86,8 +98,10 @@ without updating its execution evidence.
 The observed on-demand compute price was $0.23/hour on September 9, 2026, before storage and
 request charges. Setup work has a 20-minute process timeout. Future experiment budgets must be
 scoped before launch; a timeout or idle shutdown is not an account-wide spending cap.
-The second run completed in 1,055.75 seconds, including 75 tests and notebook execution.
-Compute was stopped after completion; persistent storage remains and can still incur charges.
+The third workflow completed in 940.77 seconds, including 106 passing tests and notebook
+execution. All 76 expected output artifacts were downloaded and SHA-verified. Compute was
+confirmed stopped; persistent storage remains and can still incur charges. The full Git
+history through PR3 is also [backed up and verified](reports/history_backup.json).
 
 ## Feature research is the completion gate
 
@@ -104,8 +118,12 @@ descriptors were screened for availability, finite values, variation and depende
 were promoted or rejected for a final model. There are 246 constant descriptors in these
 crop-only trajectories, 23 nonconstant exact-duplicate groups and 202 highly correlated pairs.
 These are coverage/redundancy flags, not evidence that the corresponding domain is useless.
-Joint market/delivery timing, livestock, fertilizer, capital-stress regimes, spatial assignment
-and diverse adaptive opponents remain open in the [coverage ledger](docs/feature_coverage.md).
+Study 3 adds 315 descriptors and tests delivery/timing on six fresh seeds. Its 933-column
+bank has 361 constants, 56 duplicate groups and 670 highly correlated pairs; all remain
+provisional. The holding analysis found same-turn rival sales in 174/343 deferred-product
+events, motivating legal-history supply uncertainty rather than assuming visible ripe
+crops represent all rival stock. Joint routes, livestock, fertilizer, capital-stress
+regimes, adaptive crop mix and diverse opponents remain open in the [coverage ledger](docs/feature_coverage.md).
 Every major family needs information-availability checks, controlled additions and removals,
 seed-paired uncertainty, and performance against diverse opponents.
 

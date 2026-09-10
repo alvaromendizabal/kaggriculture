@@ -1,0 +1,26 @@
+{
+  "analysis_code_sha256": "b028211bfa5b0e81bea45750812b341eabe067600f8c6a162042b625cef58d62",
+  "diagnostics_csv_sha256": "ce23e745a98d764b454563720ea81ff963d9d63cb14e6ecf2a7fd161d680f897",
+  "episode_manifest_sha256": "358f303b00f57de358638a48e61ee2880a3e4891c0fd49e94cb41b3e2e35efba",
+  "experiment_report_sha256": "a9f75d96aec022b240c20ffce36880f3d37e20bf49e03c9b1779a81551e358e2",
+  "groups": [
+    {
+      "arm": "01",
+      "mean_next_quote_change": -7.873134328358209,
+      "next_quote_fall_events": 63,
+      "next_quote_rise_events": 37,
+      "product_hold_events": 134,
+      "same_product_rival_sale_events": 81
+    },
+    {
+      "arm": "11",
+      "mean_next_quote_change": -7.1291866028708135,
+      "next_quote_fall_events": 76,
+      "next_quote_rise_events": 50,
+      "product_hold_events": 209,
+      "same_product_rival_sale_events": 93
+    }
+  ],
+  "scope": "Post-hoc observational mechanism diagnostic; not a causal mediation estimate or policy input",
+  "validation_or_holdout_used": false
+}
