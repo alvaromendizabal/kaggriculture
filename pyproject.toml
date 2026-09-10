@@ -1,0 +1,31 @@
+[project]
+name = "kaggriculture-research"
+version = "0.1.0"
+description = "Observation-safe feature research and reproducible agent evaluation for Kaggriculture"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "kaggle-environments==1.32.7",
+  "numpy==2.5.3",
+  "pandas==3.0.5",
+  "plotly==7.0.0",
+  "nbformat==5.11.1",
+  "nbclient==0.11.0",
+  "ipykernel==7.3.0",
+  "boto3==1.43.91",
+]
+
+[dependency-groups]
+dev = ["pytest==9.1.1", "ruff==0.16.6"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+filterwarnings = ["error"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+

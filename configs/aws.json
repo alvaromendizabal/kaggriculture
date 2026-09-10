@@ -1,0 +1,16 @@
+{
+  "region": "us-west-2",
+  "domain_id": "d-njhxv1erusdc",
+  "user_profile": "default-20260902T115323",
+  "space_name": "kaggriculture-dev",
+  "instance_type": "ml.m5.xlarge",
+  "ebs_gb": 30,
+  "idle_timeout_minutes": 60,
+  "bucket": "sagemaker-kaggriculture-560403859723-us-west-2",
+  "repository": "https://github.com/alvaromendizabal/kaggriculture.git",
+  "setup_max_seconds": 1200,
+  "hourly_compute_usd_observed": 0.23,
+  "price_observed_utc_date": "2026-09-09",
+  "price_source": "AWS Price List API, AmazonSageMaker, studio-jupyterlab, US West (Oregon)",
+  "storage_and_requests_billed_separately": true
+}

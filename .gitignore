@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+artifacts/
+logs/
+data/
+*.html
+.env
+*access_token*
+*credentials*
+kaggle.json
+aws_runtime.json
