@@ -1,0 +1,404 @@
+{
+  "callback_observations": 11504,
+  "candidate_features": 244,
+  "constant_in_reference_rollouts": [
+    "relative.worker_lead",
+    "relative.land_lead",
+    "logistics.refresh_overflow",
+    "inventory.WHEAT.shed",
+    "inventory.WHEAT.carried",
+    "inventory.WHEAT.immediate_sale_value",
+    "inventory.TOMATO.shed",
+    "inventory.TOMATO.carried",
+    "inventory.TOMATO.immediate_sale_value",
+    "inventory.STRAWBERRY.shed",
+    "inventory.STRAWBERRY.carried",
+    "inventory.STRAWBERRY.immediate_sale_value",
+    "demand.MELON.current_daily_units",
+    "inventory.MELON.shed",
+    "inventory.MELON.carried",
+    "inventory.MELON.immediate_sale_value",
+    "inventory.EGG.shed",
+    "inventory.EGG.carried",
+    "inventory.EGG.immediate_sale_value",
+    "inventory.MILK.shed",
+    "inventory.MILK.carried",
+    "inventory.MILK.immediate_sale_value",
+    "inventory.WOOL.shed",
+    "inventory.WOOL.carried",
+    "inventory.WOOL.immediate_sale_value",
+    "market.FERTILIZER.price",
+    "market.FERTILIZER.normalized_price",
+    "market.FERTILIZER.normalized_supply",
+    "market.FERTILIZER.one_unit_price_impact",
+    "market.FERTILIZER.sell_5_revenue",
+    "market.FERTILIZER.sell_20_revenue",
+    "demand.FERTILIZER.current_daily_units",
+    "inventory.FERTILIZER.shed",
+    "inventory.FERTILIZER.carried",
+    "inventory.FERTILIZER.immediate_sale_value",
+    "inventory.WHEAT.seeds",
+    "inventory.TOMATO.seeds",
+    "inventory.STRAWBERRY.seeds",
+    "inventory.MELON.seeds",
+    "inventory.GOOSE.unplaced",
+    "inventory.COW.unplaced",
+    "inventory.SHEEP.unplaced",
+    "own.workers",
+    "own.unlocked_tiles",
+    "own.next_hire_cost",
+    "own.feed_actions_due",
+    "own.shed_distance",
+    "own.crop.WHEAT.count",
+    "own.crop.WHEAT.mean_age",
+    "own.crop.WHEAT.harvestable_units",
+    "own.crop.WHEAT.water_due",
+    "own.crop.WHEAT.death_risk_today",
+    "own.crop.WHEAT.bonus_water_opportunities",
+    "own.crop.WHEAT.fertilized_count",
+    "own.crop.CARROT.fertilized_count",
+    "own.crop.TOMATO.count",
+    "own.crop.TOMATO.mean_age",
+    "own.crop.TOMATO.harvestable_units",
+    "own.crop.TOMATO.water_due",
+    "own.crop.TOMATO.death_risk_today",
+    "own.crop.TOMATO.bonus_water_opportunities",
+    "own.crop.TOMATO.fertilized_count",
+    "own.crop.STRAWBERRY.count",
+    "own.crop.STRAWBERRY.mean_age",
+    "own.crop.STRAWBERRY.harvestable_units",
+    "own.crop.STRAWBERRY.water_due",
+    "own.crop.STRAWBERRY.death_risk_today",
+    "own.crop.STRAWBERRY.bonus_water_opportunities",
+    "own.crop.STRAWBERRY.fertilized_count",
+    "own.crop.MELON.count",
+    "own.crop.MELON.mean_age",
+    "own.crop.MELON.harvestable_units",
+    "own.crop.MELON.water_due",
+    "own.crop.MELON.death_risk_today",
+    "own.crop.MELON.bonus_water_opportunities",
+    "own.crop.MELON.fertilized_count",
+    "own.animal.GOOSE.count",
+    "own.animal.GOOSE.yield_units",
+    "own.animal.GOOSE.feed_due",
+    "own.animal.GOOSE.escape_risk_today",
+    "own.animal.GOOSE.fertilizer_available",
+    "own.animal.GOOSE.care_bonus_banked",
+    "own.animal.COW.count",
+    "own.animal.COW.yield_units",
+    "own.animal.COW.feed_due",
+    "own.animal.COW.escape_risk_today",
+    "own.animal.COW.fertilizer_available",
+    "own.animal.COW.care_bonus_banked",
+    "own.animal.SHEEP.count",
+    "own.animal.SHEEP.yield_units",
+    "own.animal.SHEEP.feed_due",
+    "own.animal.SHEEP.escape_risk_today",
+    "own.animal.SHEEP.fertilizer_available",
+    "own.animal.SHEEP.care_bonus_banked",
+    "opponent.workers",
+    "opponent.unlocked_tiles",
+    "opponent.next_hire_cost",
+    "opponent.feed_actions_due",
+    "opponent.shed_distance",
+    "opponent.crop.WHEAT.count",
+    "opponent.crop.WHEAT.mean_age",
+    "opponent.crop.WHEAT.harvestable_units",
+    "opponent.crop.WHEAT.water_due",
+    "opponent.crop.WHEAT.death_risk_today",
+    "opponent.crop.WHEAT.bonus_water_opportunities",
+    "opponent.crop.WHEAT.fertilized_count",
+    "opponent.crop.CARROT.fertilized_count",
+    "opponent.crop.TOMATO.count",
+    "opponent.crop.TOMATO.mean_age",
+    "opponent.crop.TOMATO.harvestable_units",
+    "opponent.crop.TOMATO.water_due",
+    "opponent.crop.TOMATO.death_risk_today",
+    "opponent.crop.TOMATO.bonus_water_opportunities",
+    "opponent.crop.TOMATO.fertilized_count",
+    "opponent.crop.STRAWBERRY.count",
+    "opponent.crop.STRAWBERRY.mean_age",
+    "opponent.crop.STRAWBERRY.harvestable_units",
+    "opponent.crop.STRAWBERRY.water_due",
+    "opponent.crop.STRAWBERRY.death_risk_today",
+    "opponent.crop.STRAWBERRY.bonus_water_opportunities",
+    "opponent.crop.STRAWBERRY.fertilized_count",
+    "opponent.crop.MELON.count",
+    "opponent.crop.MELON.mean_age",
+    "opponent.crop.MELON.harvestable_units",
+    "opponent.crop.MELON.water_due",
+    "opponent.crop.MELON.death_risk_today",
+    "opponent.crop.MELON.bonus_water_opportunities",
+    "opponent.crop.MELON.fertilized_count",
+    "opponent.animal.GOOSE.count",
+    "opponent.animal.GOOSE.yield_units",
+    "opponent.animal.GOOSE.feed_due",
+    "opponent.animal.GOOSE.escape_risk_today",
+    "opponent.animal.GOOSE.fertilizer_available",
+    "opponent.animal.GOOSE.care_bonus_banked",
+    "opponent.animal.COW.count",
+    "opponent.animal.COW.yield_units",
+    "opponent.animal.COW.feed_due",
+    "opponent.animal.COW.escape_risk_today",
+    "opponent.animal.COW.fertilizer_available",
+    "opponent.animal.COW.care_bonus_banked",
+    "opponent.animal.SHEEP.count",
+    "opponent.animal.SHEEP.yield_units",
+    "opponent.animal.SHEEP.feed_due",
+    "opponent.animal.SHEEP.escape_risk_today",
+    "opponent.animal.SHEEP.fertilizer_available",
+    "opponent.animal.SHEEP.care_bonus_banked"
+  ],
+  "duplicate_groups_in_reference_rollouts": [
+    [
+      "time.hours_until_refresh",
+      "own.worker_turns_today",
+      "opponent.worker_turns_today"
+    ],
+    [
+      "logistics.shed_used",
+      "inventory.CARROT.shed"
+    ],
+    [
+      "logistics.carried_total",
+      "inventory.CARROT.carried"
+    ],
+    [
+      "own.water_actions_due",
+      "own.crop.CARROT.water_due"
+    ],
+    [
+      "opponent.water_actions_due",
+      "opponent.crop.CARROT.water_due"
+    ]
+  ],
+  "engine": {
+    "files": {
+      "agent.py": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6",
+      "core.py": "0922c4599a1b6e0d8c3dadf06ae5297f98138d859d686f00daee6f36e6d45d0e",
+      "envs/kaggriculture/kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+      "envs/kaggriculture/kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "schemas.json": "cc6ccbca1a8f747e90434778f12acfe4b29bbeea69aeb5af81f4017ab2ea9a1c",
+      "utils.py": "537b627b11784d424147ef57ebb0369b039bf83c9f891e81f10486b1f552334b"
+    },
+    "package": "kaggle-environments",
+    "version": "1.32.7"
+  },
+  "episodes": 8,
+  "family_counts": {
+    "animal_state": 36,
+    "crop_state": 70,
+    "horizon": 5,
+    "labor_land": 20,
+    "logistics": 30,
+    "market_curves": 63,
+    "relative_state": 3,
+    "town_demand": 17
+  },
+  "feature_artifact_sha256": "6286212200b9216dd69c58ae61c1c8aa8a9a1f77b220078ed3f132180bb6e0cc",
+  "feature_benefit_measured": false,
+  "feature_lineage": {
+    "audit_code": "3cc1130b795f90e8bea454f19bb59b6a4412d6959fad3260a9a7389aa41181a1",
+    "engine": {
+      "files": {
+        "agent.py": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6",
+        "core.py": "0922c4599a1b6e0d8c3dadf06ae5297f98138d859d686f00daee6f36e6d45d0e",
+        "envs/kaggriculture/kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+        "envs/kaggriculture/kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+        "schemas.json": "cc6ccbca1a8f747e90434778f12acfe4b29bbeea69aeb5af81f4017ab2ea9a1c",
+        "utils.py": "537b627b11784d424147ef57ebb0369b039bf83c9f891e81f10486b1f552334b"
+      },
+      "package": "kaggle-environments",
+      "version": "1.32.7"
+    },
+    "episodes": [
+      "a04f6c99816ae1751286489ae55cb31558fd2759ccc85b7dd7a7e887f91280dd",
+      "fcb32bf8a15e4d9b90bdab5ed179f6b04f5f1d4c63d8fcf7c29b47db8b268bc6",
+      "a05508f79df094890eed406a1571db2e4d4fdca92fa2dc24a57994e2bd2055f7",
+      "7e638e8ffd6d42bf7c2f9576988858909681e78204b4b1d01e4632f4b4c521bd",
+      "857a5f3fec80fead43c08ce9f7a1052cbf4d7452e5851aaa45f489963ca04a2a",
+      "52e298623f0190ffaef22f471401d1ecc23700f2786272cdbafab81046652799",
+      "3e773ae85fb7a6497abaea035c8bfbdf9ad4241dd9a94f53b6e402ee268c4770",
+      "8cdf223e5ab1c61f4470604dce6473c07b6e39e554a19a23d6eac98eb6500ab6"
+    ],
+    "feature_code": "70fc36e02564ebace315516c389ee17af42624f8fc27c6d8baceb4c14d9d9121",
+    "protocol_sha256": "453de8ddaacc5ffb52264e9341c640a12a3ed50e5636004adb242e58a25b0316"
+  },
+  "games": [
+    {
+      "coin_margin": 421.0,
+      "decision_steps": 719,
+      "rewards": [
+        3421.0,
+        3000.0
+      ],
+      "seed": 1101,
+      "semantic_sha256": "a04f6c99816ae1751286489ae55cb31558fd2759ccc85b7dd7a7e887f91280dd",
+      "starter_seat": 0,
+      "starter_tie": 0.0,
+      "starter_win": 1.0,
+      "states": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "coin_margin": 421.0,
+      "decision_steps": 719,
+      "rewards": [
+        3000.0,
+        3421.0
+      ],
+      "seed": 1101,
+      "semantic_sha256": "fcb32bf8a15e4d9b90bdab5ed179f6b04f5f1d4c63d8fcf7c29b47db8b268bc6",
+      "starter_seat": 1,
+      "starter_tie": 0.0,
+      "starter_win": 1.0,
+      "states": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "coin_margin": 1054.0,
+      "decision_steps": 719,
+      "rewards": [
+        4054.0,
+        3000.0
+      ],
+      "seed": 1102,
+      "semantic_sha256": "a05508f79df094890eed406a1571db2e4d4fdca92fa2dc24a57994e2bd2055f7",
+      "starter_seat": 0,
+      "starter_tie": 0.0,
+      "starter_win": 1.0,
+      "states": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "coin_margin": 1054.0,
+      "decision_steps": 719,
+      "rewards": [
+        3000.0,
+        4054.0
+      ],
+      "seed": 1102,
+      "semantic_sha256": "7e638e8ffd6d42bf7c2f9576988858909681e78204b4b1d01e4632f4b4c521bd",
+      "starter_seat": 1,
+      "starter_tie": 0.0,
+      "starter_win": 1.0,
+      "states": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "coin_margin": 421.0,
+      "decision_steps": 719,
+      "rewards": [
+        3421.0,
+        3000.0
+      ],
+      "seed": 1103,
+      "semantic_sha256": "857a5f3fec80fead43c08ce9f7a1052cbf4d7452e5851aaa45f489963ca04a2a",
+      "starter_seat": 0,
+      "starter_tie": 0.0,
+      "starter_win": 1.0,
+      "states": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "coin_margin": 421.0,
+      "decision_steps": 719,
+      "rewards": [
+        3000.0,
+        3421.0
+      ],
+      "seed": 1103,
+      "semantic_sha256": "52e298623f0190ffaef22f471401d1ecc23700f2786272cdbafab81046652799",
+      "starter_seat": 1,
+      "starter_tie": 0.0,
+      "starter_win": 1.0,
+      "states": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "coin_margin": 726.0,
+      "decision_steps": 719,
+      "rewards": [
+        3726.0,
+        3000.0
+      ],
+      "seed": 1104,
+      "semantic_sha256": "3e773ae85fb7a6497abaea035c8bfbdf9ad4241dd9a94f53b6e402ee268c4770",
+      "starter_seat": 0,
+      "starter_tie": 0.0,
+      "starter_win": 1.0,
+      "states": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "coin_margin": 726.0,
+      "decision_steps": 719,
+      "rewards": [
+        3000.0,
+        3726.0
+      ],
+      "seed": 1104,
+      "semantic_sha256": "8cdf223e5ab1c61f4470604dce6473c07b6e39e554a19a23d6eac98eb6500ab6",
+      "starter_seat": 1,
+      "starter_tie": 0.0,
+      "starter_win": 1.0,
+      "states": 720,
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    }
+  ],
+  "gate": {
+    "feature_research_complete": false,
+    "final_training_allowed": false,
+    "reason": "No policy-driven feature screening or family ablations yet"
+  },
+  "holdout_used": false,
+  "independent_development_seeds": 4,
+  "limitations": [
+    "Four seeds and two simple official policies do not support leaderboard conclusions.",
+    "Constant and duplicate columns are coverage flags, not rejection decisions.",
+    "Current-state candidates have not been consumed by a learned or planning policy.",
+    "Coin margin is diagnostic; official ranking uses wins/losses/ties.",
+    "Local call timing does not reproduce Kaggle's isolated submission runtime."
+  ],
+  "mean_reference_coin_margin": 655.5,
+  "milestone": "foundation_and_observation_audit",
+  "missing_values": 0,
+  "official_leaderboard_rating": null,
+  "purpose": "engineering reference and observation audit; not a competitive benchmark",
+  "reference_match_score": 1.0,
+  "reference_policy_latency_ms": {
+    "max": 0.6087279980420135,
+    "median": 0.00211850056075491,
+    "p99": 0.004587000148603693
+  },
+  "reference_tie_rate": 0.0,
+  "reference_win_rate": 1.0,
+  "rejected_for_model": 0,
+  "retained_for_model": 0,
+  "screened_for_selection": 0,
+  "validation_used": false
+}

@@ -1,0 +1,121 @@
+{
+  "artifacts": [
+    {
+      "bytes": 53763,
+      "path": "artifacts/episodes/273645276f335233bb4c53b0e24c6c9057e56b23b8547d874f51bf4c183c329c.json.gz",
+      "sha256": "d651dcf0369626e0e5d8b9adb759400725479f9b1b1206ccdcfea75a5a284473"
+    },
+    {
+      "bytes": 54677,
+      "path": "artifacts/episodes/3612ed6d2f6e153ee05c566a6c0c960e2aad3795db52c7791802df836b8d69a2.json.gz",
+      "sha256": "5f5844533fe8ce8aefc311f21a4f592becf0a1b2e473e5225eac412aa7caf1ca"
+    },
+    {
+      "bytes": 52798,
+      "path": "artifacts/episodes/5bf861510dde77f42175aa4a35ea5313528ddc4c9bc94d3db191881837ccd421.json.gz",
+      "sha256": "d39a9e9a15b7380f0738b0cd3ba34dfac4bc557f023b0c502522ddba4fc2baca"
+    },
+    {
+      "bytes": 54016,
+      "path": "artifacts/episodes/7521d81ae40495bfb875bce62eb6e4c2777e29b4471b5a4ab009370b36cd86d3.json.gz",
+      "sha256": "4eb73ef61ad9159685f0851cb9fe351eebe398ef988e25780fbcfc1e1bd8cf04"
+    },
+    {
+      "bytes": 54161,
+      "path": "artifacts/episodes/7d4cea741b8c8bb2e41bc6b069b430dfa6be0d4fdef01ddf4dd77bc6f353b249.json.gz",
+      "sha256": "0c7cfb8f527461b6f036433d5281a4aaaa851b14c3c51fd1d8b27dad3cb9e1eb"
+    },
+    {
+      "bytes": 54540,
+      "path": "artifacts/episodes/b0e7192bcda4f9c716ebf92fedd28eefc719383eb1f650b7a0fecf986dbc9e09.json.gz",
+      "sha256": "6b1f45a5508e2eed7da31e7b8ed1e9b28a6bdff9ab601f934b06d56e5b89c581"
+    },
+    {
+      "bytes": 53551,
+      "path": "artifacts/episodes/dbac59a56f47a303fd6a406d649a4ba754f997ac71918a5bad16c0bec007a7a1.json.gz",
+      "sha256": "c96c58f497b873ce17103df3ff72f0b2a985f01214536bdfacc241322736b625"
+    },
+    {
+      "bytes": 53601,
+      "path": "artifacts/episodes/dc2c74afe450f459347f738010e166e286c323a2a6ee2c0160835de7558f0b37.json.gz",
+      "sha256": "f7fe93afffee406e5a356f07db8420a9e7fc7b4fc8aafff09a4a1ad2ac0b6c33"
+    },
+    {
+      "bytes": 358003,
+      "path": "artifacts/features/b11061460ba75d9ff4ed0a0eb94fa4f1a506989a955fd76c14e3dc045ae8c121.json.gz",
+      "sha256": "6286212200b9216dd69c58ae61c1c8aa8a9a1f77b220078ed3f132180bb6e0cc"
+    },
+    {
+      "bytes": 38155,
+      "path": "artifacts/preview/00_environment-6-0.png",
+      "sha256": "73d14aa8676123ca7916a48049467e01f64f0f17bbfa059c3805cb43473b4b5d"
+    },
+    {
+      "bytes": 52717,
+      "path": "artifacts/preview/01_data_audit-4-0.png",
+      "sha256": "9a958f067ec9724a31d9e4ef45b25cca16f95cfd610e7044375b3f37cec2ff0c"
+    },
+    {
+      "bytes": 55858,
+      "path": "artifacts/preview/01_data_audit-6-0.png",
+      "sha256": "94c52184a4d9235aa5ca4a03375a834bc0eb8acaa4ff96d798ef78e979c8ce7c"
+    },
+    {
+      "bytes": 91362,
+      "path": "notebooks/00_environment.ipynb",
+      "sha256": "dfa1a36a4ed5e71b44bfe0ebf48cd5db31cc3ce4f393348cee24649b74c31d5b"
+    },
+    {
+      "bytes": 206741,
+      "path": "notebooks/01_data_audit.ipynb",
+      "sha256": "844fe2657c15df461acc6a2b3acaf06bbd2a9e00866e9c9e74a7d9f0242219c1"
+    },
+    {
+      "bytes": 22282,
+      "path": "reports/feature_registry.csv",
+      "sha256": "0be73910c50a2cb74c867c4afc2add779e57ffe285a6123bb98116e5e539963c"
+    },
+    {
+      "bytes": 13248,
+      "path": "reports/foundation.json",
+      "sha256": "005b17aa48337225e02636ddd6b253b3dc2bce00adffbf4264ba3ac9e4b40965"
+    },
+    {
+      "bytes": 7714,
+      "path": "reports/trajectories.csv",
+      "sha256": "d5677f40e9ab1d196fcffeae5ae43945cfd11a7706c0f23931f64239db71c2cd"
+    }
+  ],
+  "elapsed_seconds": 56.37,
+  "run_id": "foundation-20260909",
+  "source_sha256": "31329fa52d00065af5e1c7d5160e6be2bfb566f221e8c3829ac9051533b1a7bf",
+  "status": "completed",
+  "steps": [
+    {
+      "elapsed_seconds": 2.14,
+      "name": "install_uv",
+      "status": "passed"
+    },
+    {
+      "elapsed_seconds": 18.68,
+      "name": "environment",
+      "status": "passed"
+    },
+    {
+      "elapsed_seconds": 12.06,
+      "name": "tests",
+      "status": "passed"
+    },
+    {
+      "elapsed_seconds": 13.91,
+      "name": "foundation",
+      "status": "passed"
+    },
+    {
+      "elapsed_seconds": 8.77,
+      "name": "notebooks",
+      "status": "passed"
+    }
+  ],
+  "utc": "2026-09-09T23:58:00.474954+00:00"
+}
