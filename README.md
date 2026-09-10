@@ -45,9 +45,13 @@ did not improve. All 16 cash/history pairs had identical full action sequences.
 
 The notebooks consume saved results. The [latest machine-readable study](reports/supply_research.json),
 [1,308-feature registry](reports/supply_registry.csv), and [independent trace audit](reports/supply_integrity.json)
-identify exactly what was measured. The new notebook section is executed by CI
-before final publication. All four studies' source lineage, outcomes, contrasts
-and product accounting are checked. Sixteen earlier research code cells remain
+identify exactly what was measured. Notebook 02 has 23 genuinely executed code
+cells and six rendered figures, with its exact identity in the
+[execution receipt](reports/supply_notebook_execution.json).
+[CI](https://github.com/alvaromendizabal/kaggriculture/actions/runs/34439998792)
+passed 167 tests and executed all three notebooks; their canonical files contain
+36 executed code cells and nine static figures in total. All four studies' source
+lineage, outcomes, contrasts and product accounting are checked. Sixteen earlier research code cells remain
 unchanged; cell 7 has a [declared provenance-only adapter](scripts/notebook_provenance.py)
 that distinguishes local byte checks from matching published prior-download receipts.
 The archived 17-cell source identity is reconstructed and verified, not relabeled

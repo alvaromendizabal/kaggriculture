@@ -125,6 +125,24 @@ Download the genuine execution artifact, verify it with
 `scripts/verify_supply_notebook.py`, inspect its figures, and commit it before
 merging a passing PR. Do not fabricate outputs or call unexecuted cells executed.
 
+The published notebook came from successful
+[CI run 34439998792](https://github.com/alvaromendizabal/kaggriculture/actions/runs/34439998792)
+(167 tests passed), branch commit `d1a88e91beb892be15de92ab537fddc04e67f77f`,
+executed merge-ref commit `1b6cf7b044d7dcd6e6326556625588fc27a058d5`.
+GitHub artifact `10137636660` had ZIP SHA-256
+`9959447101af417e0eb7dd80e483f04f3357d3f2cc67ac3a86e794ca5dfd4423`.
+The imported notebook SHA-256 is
+`8f13828607f55faf92a1aeedc802d3c5fbd3eea9fc0162cc0236e2ee0ac9ad96`.
+Its source cells were checked against the local source before importing the
+unmodified output bytes. The artifact's temporary retention is not the recovery
+boundary: the notebook and execution receipt are committed to GitHub.
+
+When checking a committed artifact, run `verify_supply_notebook.py` **without**
+`--record`. Recording is only appropriate immediately after a real fresh-kernel
+execution. Subsequent CI executions have different timing metadata and notebook
+byte hashes; do not overwrite the published receipt without also importing and
+verifying that execution's actual notebook. No research games need rerunning.
+
 This study uses local CPU simulation and normal GitHub CI notebook execution;
 it does not require restarting SageMaker compute. Private S3 and persistent EBS
 storage can still incur charges when compute is off.

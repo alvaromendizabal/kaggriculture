@@ -21,8 +21,10 @@ AES256 encryption: 21,102,532 bytes in total. The machine-readable receipt is
   match score did not improve.
 - Cash bounds tightened melon inventory uncertainty, but all 16 cash/history
   action sequences were identical. No incremental policy benefit is demonstrated.
-- The existing 151-test suite passed before final publication. Fresh CI checks
-  and the new notebook's execution receipt complete the publication gate.
+- [CI run 34439998792](https://github.com/alvaromendizabal/kaggriculture/actions/runs/34439998792)
+  passed all 167 tests, executed all three notebooks in fresh kernels, and passed
+  every study verifier. Notebook 02's 23 executed cells and six static figures
+  were downloaded, SHA-verified and visually inspected before publication.
 
 See [the research report](supply_research.md) for paired intervals, assumptions,
 mechanisms, computational cost, source references and limitations.
@@ -42,12 +44,18 @@ used local CPU. Persistent S3/EBS storage can still incur charges.
 
 ## Current boundary
 
-The canonical notebook extension is prepared for fresh-kernel CI execution; its
-genuine outputs and execution receipt will be committed before final publication.
+The canonical notebook extension and its genuine
+[execution receipt](../reports/supply_notebook_execution.json) are included in this
+publication. Across notebooks 00–02 there are 36 executed cells and nine static
+figures. The corrected notebook 02 SHA-256 is
+`8f13828607f55faf92a1aeedc802d3c5fbd3eea9fc0162cc0236e2ee0ac9ad96`.
 CI exposed an old private-file assumption in cell 7. Its declared provenance-only
 adapter distinguishes local hashing from prior-download receipts; the other 16
 earlier cells and every experiment/feature source are unchanged. Both notebook
 source identities are checked and recorded. No research game was replayed to fix it.
+Visual inspection also caught perfect-score labels touching the chart title;
+spacing was corrected and a regression test now checks for overlap while keeping
+the full 0–1 outcome scale. The plotting source is bound into the execution receipt.
 Follow the
 [recovery runbook](supply_recovery.md) to reproduce or inspect source-locked evidence.
 
