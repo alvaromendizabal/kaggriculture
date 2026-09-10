@@ -1,0 +1,16 @@
+{
+  "experiment": "resource-relationships-factorial-v1",
+  "configuration": {"episodeSteps": 720},
+  "development_seeds": [1101, 1102, 1103, 1104],
+  "seats": [0, 1],
+  "opponent": "frozen_full_crop_scheduler",
+  "frozen_crop_policy_sha256": "52db5557b6bb71a4f0c7bfe5ce6faf7fb92d878dfc5b2d353781c9dc28f1d806",
+  "factors": ["capacity", "capital", "maturity"],
+  "arms": ["000", "001", "010", "011", "100", "101", "110", "111"],
+  "max_games": 64,
+  "max_seconds": 1020,
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 3102,
+  "feature_sample_stride": 4,
+  "purpose": "Development-only mechanistic features, 2x2x2 component and interaction study; no final feature selection"
+}

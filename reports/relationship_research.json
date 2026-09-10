@@ -1,0 +1,1345 @@
+{
+  "artifact_manifest": [
+    {
+      "path": "artifacts/relationship_episodes/7207b461c05e11f2ad69af57eb47659d7ba96d5f9adbb8604421a9ba06cd8ff6.json.gz",
+      "semantic_sha256": "9b4d269a6dd4a95ebace7f721466d4dc6b8cc2d677ccbb4b937b8b97de10dbd9",
+      "sha256": "2db684d9653c18171cf2cff433767bf66fa385e2dfae2fb632c2aa53fc82c120"
+    },
+    {
+      "path": "artifacts/relationship_episodes/77939db79d3ca7bd5ecfcf04cdb7b58f075ae93b62c5f6750f5945087fb23e2d.json.gz",
+      "semantic_sha256": "b44d07b005077bfeace39aa1600f462cdbe4df53ee4c3866fab8d5be9a194cea",
+      "sha256": "6348354017a28e37589097468a17b371b08340a0861a55dfcf9fa296eb7d5e17"
+    },
+    {
+      "path": "artifacts/relationship_episodes/bdec6389f65308e9f57f36e82919de9f4b2891200855cdf7f08ac485ca930c74.json.gz",
+      "semantic_sha256": "635c799ccdc8ed721bbfe66066c93a10fd962949ae9c209e1e28102740fe8a95",
+      "sha256": "b38fa9d4ee4234684255b74c5c2f761723c095b0b22ade50eb8caeafdb07eec9"
+    },
+    {
+      "path": "artifacts/relationship_episodes/eb0bbb6843ed19b1a1126604deef4e00c50143bbd34a547c95968a67a5e69901.json.gz",
+      "semantic_sha256": "918fa534797912fa942030490de8421cbfdfc845b0495f1be59a313553322828",
+      "sha256": "401d008cf9ba39182232fe83103a8ac382635b57f75dfa444f55efc7522591e2"
+    },
+    {
+      "path": "artifacts/relationship_episodes/09afb9faad18c8ea3c496d5ac1814dc7b81a705d47af3c564f062ec1302cc9ab.json.gz",
+      "semantic_sha256": "7da30c7eab7b163fbd76e5a2e2384d60b00dcd41c45c2ed08abf3e0cbef7f514",
+      "sha256": "aa52940cd15cba25d183eb2b8859380b6b48c0c9ae9354d548e78e6eba8a9e6c"
+    },
+    {
+      "path": "artifacts/relationship_episodes/497f194cc127d71f02e32dbcf87eaf9eb289040bfb19a7f50f4e8ace10203a0f.json.gz",
+      "semantic_sha256": "58e4e518172ced069872b70efbd5f174d98e482d28e681f5cb6d163c0b8c778f",
+      "sha256": "0b99b37ef1ddde7b48c59e17e26af955d6b1d6e484ff5efdd89a59ddc49fec69"
+    },
+    {
+      "path": "artifacts/relationship_episodes/c98910cfe01e0b400ddc8bfbf2e724d349c3ba7d408bff086f325e88f8a26377.json.gz",
+      "semantic_sha256": "d6d36ed1e61c54f3ceb71a6a7d16f33af0becd6d7370749ad9a62cab6f281e53",
+      "sha256": "4e84ccc62f6a37673c5b6af4a1ebaca4798c949e65c77dc906a0a104414a31fa"
+    },
+    {
+      "path": "artifacts/relationship_episodes/b22f1094b277cd7e79502e041d7bbbbecf76b1297ed8d08764c78745fdb39807.json.gz",
+      "semantic_sha256": "3b1c1bc91e0639c956a0a1c42dc7681e6642fbd53595907091d096d3bf643660",
+      "sha256": "1a37aaf0cbaf58642fcc895944c345e658299a35db09d92ffde835d7a70b841e"
+    },
+    {
+      "path": "artifacts/relationship_episodes/d584fa9c2664569ec762589f13f7a034d3d67763b860713f13e3d557690c1976.json.gz",
+      "semantic_sha256": "a5c4036aeaa2e350009c9153a66d02690109c35258579099f6ee3bc93ed08faf",
+      "sha256": "1b913f5b8bd870cc784191f77274fc4b9d7022a0291ffc3d4c3e0e7755eaacb4"
+    },
+    {
+      "path": "artifacts/relationship_episodes/c012ba3ae2b11e477b63c8a74f78ff96725ac8ff2fc1defc3db12a49c41e9360.json.gz",
+      "semantic_sha256": "99df2a7b445be308d322815672bbab607dcd47a8346f81d74d352038b4cf1348",
+      "sha256": "6fd1a7b2592b2baca49ae8e1d96a7e46b36035d2bd8dfddcb767ed079198eaf0"
+    },
+    {
+      "path": "artifacts/relationship_episodes/9fc29b34ab271cc2de59ab9da5296aecf286979a33b6761e5defd69214bd9618.json.gz",
+      "semantic_sha256": "f02caaa20ebda542f027f6cf6c5a9cf720db260058f19aaa58bf69e914a81d44",
+      "sha256": "ce2db16dfb567af483ed7e7f23444b05d9f9eb0168fdb36a3bd7af009d31db63"
+    },
+    {
+      "path": "artifacts/relationship_episodes/fe1efc5d7730f01db697287404aecee9a3d0e7a7c64af27f65fcf8265964ba40.json.gz",
+      "semantic_sha256": "a27ed2a8db63dd762c80a2cacad8723bb5518941a08f83231fb50855a2a2dcb5",
+      "sha256": "05e76c0a1a7b4c1a40181b895db3f5cec72ee6b61d8333fd3444d5c0e27994a6"
+    },
+    {
+      "path": "artifacts/relationship_episodes/8c61d4da5a64d5763468440fead8828142e68847b5b0bdee650e4312147b8d06.json.gz",
+      "semantic_sha256": "bd265d7e67bac7094cd7b296753ebf6b348a4ba5b3d5eb65a5af7621ad1734ef",
+      "sha256": "40092ce7376623239b8ab30f6fec3002153c0d5d5f10d9f88e8dfe2bc6778c23"
+    },
+    {
+      "path": "artifacts/relationship_episodes/9f4df338138a2b67c87636905a3d523841d0a95b20807bae85032d0dd87f559f.json.gz",
+      "semantic_sha256": "13d1de735f2ace27b1c9a4c0f98fb24db438d0a60ebc73252fcb77e3eb2bbc27",
+      "sha256": "79cc10c8624a0dd47a66dbdf6efdd1f8fe0cc0010d914179edbad90bf7032ecc"
+    },
+    {
+      "path": "artifacts/relationship_episodes/2dd0a2ccd0b0e1068e1dd545d402dfd04b63b58341d885608886bc185ddc764a.json.gz",
+      "semantic_sha256": "fad8dda1beffc281d2dcff55568292ae58cb2fe91ccf003d7278dbcacca5d1f4",
+      "sha256": "d85b2adf2bd67e1d3ab35638314d3739fdc02086405c0a262dd2ba127b07f2c7"
+    },
+    {
+      "path": "artifacts/relationship_episodes/3aa5374d24e2fd98b6935b97389cef6b566c92d66f0c4b9024a5ba2d164de218.json.gz",
+      "semantic_sha256": "17638d8a50bde9216a41919a9b38f9506cba9abfa762afe498d3a4a86c083fd9",
+      "sha256": "f5ccf3da27fff42287d98dd3d75608e36188e4755bd6984da9703b86514b154f"
+    },
+    {
+      "path": "artifacts/relationship_episodes/8426511a86e694f33705d819631c118be3e9d4839a095f7e5751f7264b00625d.json.gz",
+      "semantic_sha256": "f1a10ea7d6fdef9ec6dc1ad476c0ce9df43bf9da8a3c05c5c72e391accfae39b",
+      "sha256": "0e9add0016ab694fb6f69fb58987aa6e0cd59cfb338a44c77a3f1bc2aca8e771"
+    },
+    {
+      "path": "artifacts/relationship_episodes/46a2ad6a5fb1b4b36c8d85081fe7b6c1312441fd579ee301d201940d22748798.json.gz",
+      "semantic_sha256": "d4e188382e5423c0aef82eee69bd4952b22ce1b9c814c39f0daa727e5466c8da",
+      "sha256": "5be62fb820b7fdfbd7ccebd4dfe3f970bc9ce0a89cf5e1ad3ed3193bf0bcca28"
+    },
+    {
+      "path": "artifacts/relationship_episodes/d6334226f5c8b5a54a62be53c802c5542304a8edc33142fc84a0fd738fa76e01.json.gz",
+      "semantic_sha256": "4fe1b9614f1bf9dbfd3609ff49b63d6c2d6015afb326aebec63892c9d70aa610",
+      "sha256": "dee620bde06ca02e884b08f201f5d9e53727d0b14b264f70948f42aa61e2cdfe"
+    },
+    {
+      "path": "artifacts/relationship_episodes/583f051470f8ff56c1b700d39aadab7015130b272e5dc03d63de8740ba097f44.json.gz",
+      "semantic_sha256": "7ab8a7f0a3427653a879565513d530e5c81a6b5193c9b63e9963ca6198ecd82c",
+      "sha256": "478ccc3a140ba06aa79c7b055baf7c329d75b6d67a015cbf2729618909fa762c"
+    },
+    {
+      "path": "artifacts/relationship_episodes/6be0c635950eb167598ef2fa0e9337e1a29f068d30a2c01df20e5a543ad55c17.json.gz",
+      "semantic_sha256": "2483f040a52d8c34705c3abf9bdd9e2ea3e745f3c6271d418026ad7aafb79170",
+      "sha256": "485580dea7b61c0945689bb10e3efb24151f0d17ac94628e05438a03a384b3bd"
+    },
+    {
+      "path": "artifacts/relationship_episodes/588bae59116a8349a8157ffe905fe20d2b30677df9396ee22e55dda6a8579fa1.json.gz",
+      "semantic_sha256": "63c11a955c869e071de175503c42608ba1fa20d79bcca921b3564ceba95cf7b3",
+      "sha256": "76056e0129484c7703bf9843fccdce3148310517cf0d94999084b996bf3b3c94"
+    },
+    {
+      "path": "artifacts/relationship_episodes/5e6374d2eba4733f2079b63181b5c35ad3c2222d0c2336c727189c279b633b9f.json.gz",
+      "semantic_sha256": "a67a4c8259a664525eeaa3187cb6d5a6b9d84049f0a7141a34900086b0a39da1",
+      "sha256": "0a38e7acc366f1ed17c243733f40adb1799310177b0c31809803533ea19475f1"
+    },
+    {
+      "path": "artifacts/relationship_episodes/5bb0d36f8f919c186c063af5b1086c31b343f550927223f00b4930824cb4d7dc.json.gz",
+      "semantic_sha256": "be23ea63d55711c48cd12eca2396566834b989c4ef4585159491d2312050c413",
+      "sha256": "27d5eb259ee2714bfc9e1ea636fb7b5bf396b8c56615ee4184c2d806f8ec19f0"
+    },
+    {
+      "path": "artifacts/relationship_episodes/7d1657a231c01ee690bfdec1c17655a8b7ae7d1bd0a28e99c4b214970e453532.json.gz",
+      "semantic_sha256": "d7ba034ce966bb9da67fb6a7903566e8e7e59c79f9e96d9ff9da6d2df96dc460",
+      "sha256": "0b2aebdf3f14618a3bea94974390de3d308f84c2b2ceae2907401254122cb0b0"
+    },
+    {
+      "path": "artifacts/relationship_episodes/b361acb90e268b94fdd2540df585a149f265d635721ca97b57b2427c4a5662c5.json.gz",
+      "semantic_sha256": "e174b2265cc8bd200d08451688882032321f394f251f1274c0d7ce54436e5f9b",
+      "sha256": "31ed76fb453492800811875ee161b37d46ec0bb41e1695eb710279d257d5bb95"
+    },
+    {
+      "path": "artifacts/relationship_episodes/68fa8fd972b6507594046722ec53ee65616c06a488d17c5c5b2d7bab56257452.json.gz",
+      "semantic_sha256": "fb2fb1efa50aa6e7494798605a8b73ff41a5fe71317b2fad665ef991db651937",
+      "sha256": "f1a25043f26a539bff10cc4ee8e9d18571b689a91a407fa19fb2db0dbd181fe7"
+    },
+    {
+      "path": "artifacts/relationship_episodes/019258c7c48547d01baed2fd1c6edb475a796a3db48c0e41c26185bff9e4f76f.json.gz",
+      "semantic_sha256": "99c50f27ce66bf8cd76c0f5ca2e76e3aad9e9ae05d8a2a13f710a957b719869b",
+      "sha256": "c24c4ce363c0291371aeb9b290e54edcffbf0ab0ab79fddea89a2f7f942f52c0"
+    },
+    {
+      "path": "artifacts/relationship_episodes/3d2b82b1f6f9f56bb0ab8388a5550541d7fb249e2289f16d5ef6752dc3f67477.json.gz",
+      "semantic_sha256": "8cc8a1ec41dc55366903daae71b351096156131513872ea50bf8d552348899a8",
+      "sha256": "c177d6f70483b42521dd7143a8f56d185c7174fea9d278657dc52047cb947ade"
+    },
+    {
+      "path": "artifacts/relationship_episodes/8a4b9a9ce0e35c4a7e2fab5efb6b4257443be90a07ca03c116bc31f4691a4bca.json.gz",
+      "semantic_sha256": "2ba2edde24fa63fec590e23fa3c9e3b3e2cd87c5a2ab0fb1d7e924d0c2531b8e",
+      "sha256": "85cf3847ea43786dfa120a2008362ead939434e1647e982723b10c1a2ee00d41"
+    },
+    {
+      "path": "artifacts/relationship_episodes/81c3dd346e1c365239d8f95f8bd4782fc8eef108069686a1d32462b1e94e7e9f.json.gz",
+      "semantic_sha256": "6cf47f702d9a8db86a1aa2113d9e4a8cbfe7ac172859d30f516283199c330461",
+      "sha256": "780011469ca6cec6fae714f395304caaebf68a0410d16722c81343da1fe083c3"
+    },
+    {
+      "path": "artifacts/relationship_episodes/c74fc90c528a3ab6c7258e76fe6047a4dabc506fd3bec7976d9c6bef1f4527f0.json.gz",
+      "semantic_sha256": "8ba66ce70b85498aa6d51e1cdde4002eb1055669d9a1b3a2f949d826acf26a9c",
+      "sha256": "a08750eef6b505cb4b61c7d02ed9a750fa7e703a94d3291a48f779dd3109f042"
+    },
+    {
+      "path": "artifacts/relationship_episodes/aef7561a9d4eb6fbd3ae7080a499c0fd7836be2cb0e561727293d24ccba6b80e.json.gz",
+      "semantic_sha256": "24730def9d155ef0d221b3c0af48a0bdd14191881f5c632ce8457bb39c6cda1d",
+      "sha256": "297f535b87b2d2658e743d78a87234588147a60e4359746706e8f041323a1af6"
+    },
+    {
+      "path": "artifacts/relationship_episodes/d16b08050e7d34f3fbf907b22461989034f60209f7d1e7cc6c3c23805996a6fe.json.gz",
+      "semantic_sha256": "11d01f0e01e20da0cd657dad760e51435e4e17de9d7f7ab4083e8dbd5c0f9784",
+      "sha256": "28e7a5563849282a99f68ee4060527db0db79d74921750fe6ed36dfdee4e0c0b"
+    },
+    {
+      "path": "artifacts/relationship_episodes/0bccf2a19170df706c09d5154be7051dce499b3b11dcde87c5dde3aca24b82d9.json.gz",
+      "semantic_sha256": "f987b11c041e1b023ab1432dcb942f316db76acaee410c45f96d359c571c0b1a",
+      "sha256": "e277a553a5ded4df99e239b21c668e6e82be97295e6215ccf495588a2c532e97"
+    },
+    {
+      "path": "artifacts/relationship_episodes/30c83c4afe570329a5d2070d0126e49438364652b5c1fa3db15906ed61b2ee60.json.gz",
+      "semantic_sha256": "d94de9d9afa5d577f6607f72b5336f637a9bb294e00afa70a6cae95379c54aff",
+      "sha256": "574abe2dbda1243646d9d474b9ac05741820cdb84e7f7145cbcdd5180c0253a9"
+    },
+    {
+      "path": "artifacts/relationship_episodes/f4442db08103b642b9725962937b88586b71d25c7ed04f83ace505575c8029c7.json.gz",
+      "semantic_sha256": "2a4c3b3912dc148cab442b17bca3b2885094e46fc854c4e86acc38c8d24c458d",
+      "sha256": "8587223a7b0608e2754c4d9f16189ba38ee923583a9c3d92d54b316e2032730c"
+    },
+    {
+      "path": "artifacts/relationship_episodes/02b32a2555cbc9b95f4222176439fd7f76adc180a63eb39b86173453128b67fb.json.gz",
+      "semantic_sha256": "e4e97c5d1e781690b518ed7081ca02a070293b482a6bfa23523323d205c46463",
+      "sha256": "ea34bd06fd5441f22d2e4294d50e1d987cd349ee6d1315df4736a0b09c77e226"
+    },
+    {
+      "path": "artifacts/relationship_episodes/bafb5c11a0d5eb7d15ca77608f74e8dff264c7079ddd77317a9abe64c17a86e5.json.gz",
+      "semantic_sha256": "1e7c73327fd2cf57ffb4847bb7bd995839c0e8c8c78159473bf08dc2f75928c8",
+      "sha256": "f030e7b7eec0edab6592671f4a2fa9a6b15c2e92c0e9e9604c3bb35e226e8509"
+    },
+    {
+      "path": "artifacts/relationship_episodes/f25f7722289a8d99dd7ca06629d56efdd8a42979dd1b243c1c3d4221c694251d.json.gz",
+      "semantic_sha256": "4b92fa32cfed1b7e372a8d4230a3e8630168bb6a6a122d62f44f9a83c8c57172",
+      "sha256": "462460fb7cc9a21beabe609b4f16db5081553771eccb4b84a859363125645a27"
+    },
+    {
+      "path": "artifacts/relationship_episodes/c028b72361e1b4154698e4973bb05525e03919826daf65b38621639841c469a7.json.gz",
+      "semantic_sha256": "81f83916db56611ca200e766fd6062a6fe0784123f0f906baf971db95d3df580",
+      "sha256": "d5caa802aec0625cdecfa9e108d542e75c2333d2a43c61267d0c332575dfc573"
+    },
+    {
+      "path": "artifacts/relationship_episodes/2ababd7f7839289bf5f22a223e2a83e94648ab613b452837344d37bacdb51c28.json.gz",
+      "semantic_sha256": "f7920e4bd27f4f98cbe095b288b792edacc6824f7325706d6f1516654b0c5854",
+      "sha256": "7001bbd786e50cb109f65f10f5b1efd6271ffcab39c3192754faa1ec445ee2b4"
+    },
+    {
+      "path": "artifacts/relationship_episodes/f861d5f0e3ff322d46990af4d1af16e791adeab9cc688f01cda3c7b7077b399b.json.gz",
+      "semantic_sha256": "ebe8e82bf9d0e7e3c746ed7ba4becb1f82f04f863ff5b37f17708f9d6ea7f42a",
+      "sha256": "6a5d3f99d9b5a44a1adee796a426d283a6e4ddd36528cd339f2e2bc426d19f9e"
+    },
+    {
+      "path": "artifacts/relationship_episodes/71beaeb642d4d2a44d02aa498dfbb80cda278c3505db96e65efe5fa98be3c47e.json.gz",
+      "semantic_sha256": "9e83d2c9be4012d6857df8f6e5fcb4877fee49da3a6c2e543a88c0f94f6323a1",
+      "sha256": "a31dc6cc172147e75a70662ac8c7f0c4a83123959fdd77e74e3dba9ede9ae920"
+    },
+    {
+      "path": "artifacts/relationship_episodes/3321b5fae83730f7d80e7ec2c2bb2b7dde7b267580a1c4698649e91d03cb38c9.json.gz",
+      "semantic_sha256": "1de7252a90a07cc4e04b7ba268dc4f11f75a03ba857cfac7fde80acd7df014fd",
+      "sha256": "e7cdc4d9d2f0ce56b5609261e6bce33e3a4545a74623e390c3fd94aedad5c030"
+    },
+    {
+      "path": "artifacts/relationship_episodes/e8a26179c0d5b2f862fcd95f8f00f1164744fb4737fd491bafb918797fc36a97.json.gz",
+      "semantic_sha256": "d4fc8fe8882051eb85f7e4a4807ad7eca0ecf12912880f30b4c03c0e873bcdae",
+      "sha256": "fe388ca125266e42719046b44637055a5cbe65a687bd690413f33a93e1c87397"
+    },
+    {
+      "path": "artifacts/relationship_episodes/d9e622fbd8071f2df1f0376f4ad0fa63153ee76876d49e31ff6720be85581933.json.gz",
+      "semantic_sha256": "291c1489f0742888077e0fa4422e76b8e17cf9c5a05e1e078804e155b3eea776",
+      "sha256": "09d60ba96f8d7d07adb769d93e8f82140612beeb90aa1327b31dd8ff0eeb9626"
+    },
+    {
+      "path": "artifacts/relationship_episodes/530a16aed33e3ea757fc2af9c8b53edd64ef338b91cb2b824b043a6edc89b9d3.json.gz",
+      "semantic_sha256": "c991b9a26c8e7ce0d173ceab0b4c879e3bb4ee807fc3be8a05e98c3504278e3b",
+      "sha256": "d73f5d7c7dc034a145df38f2dcb6e2b04419fd6598a61287de4d91bf19124d99"
+    },
+    {
+      "path": "artifacts/relationship_episodes/6a063bfa6d83cd060464a239d42e09b0c9f7f015df8557d77cf5684d48259980.json.gz",
+      "semantic_sha256": "375effe78fc2c38521fa2a0e53a765977b77cad880a064c52a2c58e8de00fe68",
+      "sha256": "b32fbdadaf234aed2591ab817a402c8d79fae0462cf397ffa3fae9d200dc09d6"
+    },
+    {
+      "path": "artifacts/relationship_episodes/497f87ec2309aa7b684e14610ef2a6e90ebf1cce7ae7c5d545541ee40b6db012.json.gz",
+      "semantic_sha256": "383538c74c88292ba8cdbcf4ed3f14d88311a732ae4cb8ce1912cbe9e79746b2",
+      "sha256": "f2489581b8e7d221a1d45bb05ca055392c2da8cb0e8e6fe73af7ba48385febb1"
+    },
+    {
+      "path": "artifacts/relationship_episodes/9d1ce4639435e39aa370fa6573a3d90d9a3ff3d09854664953969cb87cb34e36.json.gz",
+      "semantic_sha256": "14004f3d81cccf73fd7e71667da2f4a232537ee94e697ac299d1cbe06f1b34ca",
+      "sha256": "e223728f71339f9ebc15f1911bbdc85567c0768691d5b6ba12f688639fd1baf5"
+    },
+    {
+      "path": "artifacts/relationship_episodes/3332256d4d2a71b8b5ec2ac1c0b4a22e06a9170c4cc13e8c9879384f2d354a1d.json.gz",
+      "semantic_sha256": "1a4e788b9dd59f2c5ffd18aeab5cbda8951b3125326050ce3fb34bf6eac6dd4d",
+      "sha256": "70327df9030794fc5aeb99b77394ea0de96f7da26887f00fcb81b667f65e3910"
+    },
+    {
+      "path": "artifacts/relationship_episodes/a99e100f35c501b91dcf64d23a75a80435e47a885fb32b784876566aa919d752.json.gz",
+      "semantic_sha256": "ecefee0c486a19cd2822f2f16fe9317b6c1b70e4416b3dc9c83f5de304e9e6f7",
+      "sha256": "e6b53b67daa2399e193b184007e0be9de6df960b68e5373b43b5db2542ce0835"
+    },
+    {
+      "path": "artifacts/relationship_episodes/f175d91d475c5a07d4fc69a0bc144d3ed6f9a39029c80ae84e26711f6c6f6488.json.gz",
+      "semantic_sha256": "1a07ad888200c369430ae918a5eed87b70da81bdb012469eb885a24ee899b08f",
+      "sha256": "92eb52f45ebc5357d7968f1afad3806b4c87be733a7a3d58ccc5c4b37c63676b"
+    },
+    {
+      "path": "artifacts/relationship_episodes/ac29521dd846150d7639297b7a002655a42f64df78ca616df792722c5247a3cb.json.gz",
+      "semantic_sha256": "c14e7893b36efac162c2975090b894538c9684b04260da291c0dac24c0a5d7c2",
+      "sha256": "0e5110ff3b8d890a520778fa8f0e79beb61dc90d7334de8909e6452529c92207"
+    },
+    {
+      "path": "artifacts/relationship_episodes/15f008325eee77ab4525b72fe654d209c6e36ba80aa6d35042af2aa725206a89.json.gz",
+      "semantic_sha256": "4b1e214dae0052007b26cde69977dfbc499143a3791b09bcb07e06df80a7fcea",
+      "sha256": "465541eb84ca355647b6cee34171d39e9efbe7f13ab1b14561512faffcc29a4a"
+    },
+    {
+      "path": "artifacts/relationship_episodes/896345a5323e2eb9e0a65a4978f0363d67015595d00e10167564ee6d67fa3daf.json.gz",
+      "semantic_sha256": "c9b312a361490454abe5b99c902dd0c477065b455203420ee68f2c659cb9cd5f",
+      "sha256": "6f6961f244b4023a5711713222f66be04a13af2a659329d66405ee02fcb1555e"
+    },
+    {
+      "path": "artifacts/relationship_episodes/7480db5688b1feacea28298c95151327e17db6f9b09598d623a587701f13e15a.json.gz",
+      "semantic_sha256": "694597a7ba8ebc3f7a6b368ac2d3d5cb1b863eb18a8cdf2384b90b745d29abb7",
+      "sha256": "8d4da591dfc824d80956f35c08489d81d1e9f103451057d97eeedeebacae2757"
+    },
+    {
+      "path": "artifacts/relationship_episodes/14442ddb0240566892fc4daae1b9645765c4c20f8531f87c548831da83beccc1.json.gz",
+      "semantic_sha256": "1392ec51b8f13455669ceebbfac19bb6a92e5d891b247a2be8630effaf58a2b1",
+      "sha256": "6ec3e9896f80ad6c08d22ff57f67c00a059cdef3cbe73a77a271e675dd81c0b0"
+    },
+    {
+      "path": "artifacts/relationship_episodes/9cf7ebe1f052d6c6a2135f690be4c68733355e32aabdebb45e42d7765b462957.json.gz",
+      "semantic_sha256": "46651c8d151ccd0a9ca6bc01e29521a88d71e0497682217842e3ff2719787df3",
+      "sha256": "0f002283faca4ae383e6dd23bc7f89b3b708af7628ec95fcd985870f28645de6"
+    },
+    {
+      "path": "artifacts/relationship_episodes/78433036f1b22a20bc5ab1bfda25d4522e971455aa611855402fc4bde922455f.json.gz",
+      "semantic_sha256": "6ae25ae514fc4f29586d19f3a5bce5d9efad86a0dc75487a0fe70675686c514e",
+      "sha256": "c4d6d1a6b43c5f06a1051b196e98980aab730b842f80650c68910b371e182cd9"
+    },
+    {
+      "path": "artifacts/relationship_episodes/ec3f9be2854ce700c54061a29e74149557f840ef74d14b8fe34c0e7927c06a6b.json.gz",
+      "semantic_sha256": "55a2ba9995261c7fe81789df868ea7455a2e950403a0e906a7397905ea7a0fa7",
+      "sha256": "5980cfee1fb0929f3a5b65f5c64638fdce5f996d23168b3195bdef56baa7d089"
+    },
+    {
+      "path": "artifacts/relationship_episodes/86d315f230159fc1ae626fd4bcdaf910c82ca5df2469918b2c7ea0f28892e453.json.gz",
+      "semantic_sha256": "9a28309de8b72443c02e3e8960cec85c59cf355539e590b47c384fe7d702a08a",
+      "sha256": "48d21a190907ab6ab8aca9cdc77cf4e59693c49470deeb58244407fcf9dc1356"
+    },
+    {
+      "path": "artifacts/relationship_episodes/e2fbf7cf41cae4cd38460416505f1d9ed6dd6bcd7f08060b67e524164b332018.json.gz",
+      "semantic_sha256": "1f959ecabf4ded34dc25204cd89a7f9eb3adc3028bbdcdb72ad90dec498697c2",
+      "sha256": "a4a51dcf767ce470f92ad1ca2b902d94d7d50dbf86eef6acd1894fe348e29199"
+    }
+  ],
+  "conservation_verified_games": 64,
+  "effects": [
+    {
+      "bootstrap_high": -0.0625,
+      "bootstrap_low": -0.25,
+      "contrast": "capacity",
+      "effect": -0.1875,
+      "metric": "match_score",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":-0.25,\"1102\":-0.25,\"1103\":-0.25,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 2878.625,
+      "bootstrap_low": -107.0,
+      "contrast": "capacity",
+      "effect": 1504.625,
+      "metric": "coins",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":1475.75,\"1102\":2008.75,\"1103\":3346.25,\"1104\":-812.25}"
+    },
+    {
+      "bootstrap_high": 1847.375,
+      "bootstrap_low": -761.125,
+      "contrast": "capacity",
+      "effect": 614.75,
+      "metric": "coin_margin",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":-1201.0,\"1102\":2277.0,\"1103\":824.5,\"1104\":558.5}"
+    },
+    {
+      "bootstrap_high": -13.0,
+      "bootstrap_low": -13.0,
+      "contrast": "capacity",
+      "effect": -13.0,
+      "metric": "discarded_units",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":-13.0,\"1102\":-13.0,\"1103\":-13.0,\"1104\":-13.0}"
+    },
+    {
+      "bootstrap_high": 922.5,
+      "bootstrap_low": 922.5,
+      "contrast": "capacity",
+      "effect": 922.5,
+      "metric": "minimum_observed_cash",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":922.5,\"1102\":922.5,\"1103\":922.5,\"1104\":922.5}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capital",
+      "effect": 0.0,
+      "metric": "match_score",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capital",
+      "effect": 0.0,
+      "metric": "coins",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capital",
+      "effect": 0.0,
+      "metric": "coin_margin",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capital",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capital",
+      "effect": 0.0,
+      "metric": "minimum_observed_cash",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.75,
+      "bootstrap_low": 0.5625,
+      "contrast": "maturity",
+      "effect": 0.6875,
+      "metric": "match_score",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.75,\"1102\":0.75,\"1103\":0.75,\"1104\":0.5}"
+    },
+    {
+      "bootstrap_high": 18732.0,
+      "bootstrap_low": 17134.875,
+      "contrast": "maturity",
+      "effect": 18138.125,
+      "metric": "coins",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":18651.75,\"1102\":18459.25,\"1103\":18812.25,\"1104\":16629.25}"
+    },
+    {
+      "bootstrap_high": 24962.75,
+      "bootstrap_low": 23914.375,
+      "contrast": "maturity",
+      "effect": 24401.625,
+      "metric": "coin_margin",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":24367.0,\"1102\":25187.5,\"1103\":24288.5,\"1104\":23763.5}"
+    },
+    {
+      "bootstrap_high": -13.0,
+      "bootstrap_low": -13.0,
+      "contrast": "maturity",
+      "effect": -13.0,
+      "metric": "discarded_units",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":-13.0,\"1102\":-13.0,\"1103\":-13.0,\"1104\":-13.0}"
+    },
+    {
+      "bootstrap_high": 43.5,
+      "bootstrap_low": 43.5,
+      "contrast": "maturity",
+      "effect": 43.5,
+      "metric": "minimum_observed_cash",
+      "order": 1,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":43.5,\"1102\":43.5,\"1103\":43.5,\"1104\":43.5}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capacity:capital",
+      "effect": 0.0,
+      "metric": "match_score",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capacity:capital",
+      "effect": 0.0,
+      "metric": "coins",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capacity:capital",
+      "effect": 0.0,
+      "metric": "coin_margin",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capacity:capital",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capacity:capital",
+      "effect": 0.0,
+      "metric": "minimum_observed_cash",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.5,
+      "bootstrap_low": 0.125,
+      "contrast": "capacity:maturity",
+      "effect": 0.375,
+      "metric": "match_score",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.5,\"1102\":0.5,\"1103\":0.5,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 4974.0,
+      "bootstrap_low": 317.25,
+      "contrast": "capacity:maturity",
+      "effect": 2843.75,
+      "metric": "coins",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":3388.5,\"1102\":5601.5,\"1103\":3091.5,\"1104\":-706.5}"
+    },
+    {
+      "bootstrap_high": 7312.5,
+      "bootstrap_low": -11.5,
+      "contrast": "capacity:maturity",
+      "effect": 3650.5,
+      "metric": "coin_margin",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":282.0,\"1102\":8052.0,\"1103\":6573.0,\"1104\":-305.0}"
+    },
+    {
+      "bootstrap_high": 26.0,
+      "bootstrap_low": 26.0,
+      "contrast": "capacity:maturity",
+      "effect": 26.0,
+      "metric": "discarded_units",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":26.0,\"1102\":26.0,\"1103\":26.0,\"1104\":26.0}"
+    },
+    {
+      "bootstrap_high": 79.0,
+      "bootstrap_low": 79.0,
+      "contrast": "capacity:maturity",
+      "effect": 79.0,
+      "metric": "minimum_observed_cash",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":79.0,\"1102\":79.0,\"1103\":79.0,\"1104\":79.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capital:maturity",
+      "effect": 0.0,
+      "metric": "match_score",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capital:maturity",
+      "effect": 0.0,
+      "metric": "coins",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capital:maturity",
+      "effect": 0.0,
+      "metric": "coin_margin",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capital:maturity",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capital:maturity",
+      "effect": 0.0,
+      "metric": "minimum_observed_cash",
+      "order": 2,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capacity:capital:maturity",
+      "effect": 0.0,
+      "metric": "match_score",
+      "order": 3,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capacity:capital:maturity",
+      "effect": 0.0,
+      "metric": "coins",
+      "order": 3,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capacity:capital:maturity",
+      "effect": 0.0,
+      "metric": "coin_margin",
+      "order": 3,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capacity:capital:maturity",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "order": 3,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "capacity:capital:maturity",
+      "effect": 0.0,
+      "metric": "minimum_observed_cash",
+      "order": 3,
+      "seed_clusters": 4,
+      "seed_differences": "{\"1101\":0.0,\"1102\":0.0,\"1103\":0.0,\"1104\":0.0}"
+    }
+  ],
+  "experiment": "resource-relationships-factorial-v1",
+  "feature_completion_gate": "closed",
+  "games": 64,
+  "groups": [
+    {
+      "action_DROP": 9.125,
+      "action_HARVEST": 56.375,
+      "action_PASS": 122.875,
+      "action_PLACE": 0.0,
+      "action_WATER": 687.75,
+      "arm": "000",
+      "capacity": 0.0,
+      "capital": 0.0,
+      "coin_margin": 0.0,
+      "coins": 22276.0,
+      "discarded_units": 26.0,
+      "harvested_units": 259.25,
+      "ineffective_farm_actions": 0.0,
+      "interventions_capacity": 0.0,
+      "interventions_capital": 0.0,
+      "interventions_maturity": 0.0,
+      "match_score": 0.5,
+      "maturity": 0.0,
+      "minimum_observed_cash": 10.0,
+      "sold_units": 233.25,
+      "terminal_standing_plants": 13.125,
+      "unsold_product_units": 0.0
+    },
+    {
+      "action_DROP": 6.75,
+      "action_HARVEST": 79.875,
+      "action_PASS": 107.625,
+      "action_PLACE": 0.0,
+      "action_WATER": 711.125,
+      "arm": "001",
+      "capacity": 0.0,
+      "capital": 0.0,
+      "coin_margin": 22576.375,
+      "coins": 38992.25,
+      "discarded_units": 0.0,
+      "harvested_units": 381.0,
+      "ineffective_farm_actions": 0.0,
+      "interventions_capacity": 0.0,
+      "interventions_capital": 0.0,
+      "interventions_maturity": 45.0,
+      "match_score": 1.0,
+      "maturity": 1.0,
+      "minimum_observed_cash": 14.0,
+      "sold_units": 381.0,
+      "terminal_standing_plants": 6.875,
+      "unsold_product_units": 0.0
+    },
+    {
+      "action_DROP": 9.125,
+      "action_HARVEST": 56.375,
+      "action_PASS": 122.875,
+      "action_PLACE": 0.0,
+      "action_WATER": 687.75,
+      "arm": "010",
+      "capacity": 0.0,
+      "capital": 1.0,
+      "coin_margin": 0.0,
+      "coins": 22276.0,
+      "discarded_units": 26.0,
+      "harvested_units": 259.25,
+      "ineffective_farm_actions": 0.0,
+      "interventions_capacity": 0.0,
+      "interventions_capital": 0.0,
+      "interventions_maturity": 0.0,
+      "match_score": 0.5,
+      "maturity": 0.0,
+      "minimum_observed_cash": 10.0,
+      "sold_units": 233.25,
+      "terminal_standing_plants": 13.125,
+      "unsold_product_units": 0.0
+    },
+    {
+      "action_DROP": 6.75,
+      "action_HARVEST": 79.875,
+      "action_PASS": 107.625,
+      "action_PLACE": 0.0,
+      "action_WATER": 711.125,
+      "arm": "011",
+      "capacity": 0.0,
+      "capital": 1.0,
+      "coin_margin": 22576.375,
+      "coins": 38992.25,
+      "discarded_units": 0.0,
+      "harvested_units": 381.0,
+      "ineffective_farm_actions": 0.0,
+      "interventions_capacity": 0.0,
+      "interventions_capital": 0.0,
+      "interventions_maturity": 45.0,
+      "match_score": 1.0,
+      "maturity": 1.0,
+      "minimum_observed_cash": 14.0,
+      "sold_units": 381.0,
+      "terminal_standing_plants": 6.875,
+      "unsold_product_units": 0.0
+    },
+    {
+      "action_DROP": 18.125,
+      "action_HARVEST": 43.375,
+      "action_PASS": 110.875,
+      "action_PLACE": 0.0,
+      "action_WATER": 685.625,
+      "arm": "100",
+      "capacity": 1.0,
+      "capital": 0.0,
+      "coin_margin": -1210.5,
+      "coins": 22358.75,
+      "discarded_units": 0.0,
+      "harvested_units": 171.375,
+      "ineffective_farm_actions": 0.0,
+      "interventions_capacity": 28.0,
+      "interventions_capital": 0.0,
+      "interventions_maturity": 0.0,
+      "match_score": 0.125,
+      "maturity": 0.0,
+      "minimum_observed_cash": 893.0,
+      "sold_units": 171.375,
+      "terminal_standing_plants": 16.0,
+      "unsold_product_units": 0.0
+    },
+    {
+      "action_DROP": 12.625,
+      "action_HARVEST": 74.875,
+      "action_PASS": 124.5,
+      "action_PLACE": 0.0,
+      "action_WATER": 708.75,
+      "arm": "101",
+      "capacity": 1.0,
+      "capital": 0.0,
+      "coin_margin": 25016.375,
+      "coins": 41918.75,
+      "discarded_units": 0.0,
+      "harvested_units": 349.125,
+      "ineffective_farm_actions": 0.0,
+      "interventions_capacity": 60.0,
+      "interventions_capital": 0.0,
+      "interventions_maturity": 41.0,
+      "match_score": 1.0,
+      "maturity": 1.0,
+      "minimum_observed_cash": 976.0,
+      "sold_units": 349.125,
+      "terminal_standing_plants": 2.875,
+      "unsold_product_units": 0.0
+    },
+    {
+      "action_DROP": 18.125,
+      "action_HARVEST": 43.375,
+      "action_PASS": 110.875,
+      "action_PLACE": 0.0,
+      "action_WATER": 685.625,
+      "arm": "110",
+      "capacity": 1.0,
+      "capital": 1.0,
+      "coin_margin": -1210.5,
+      "coins": 22358.75,
+      "discarded_units": 0.0,
+      "harvested_units": 171.375,
+      "ineffective_farm_actions": 0.0,
+      "interventions_capacity": 28.0,
+      "interventions_capital": 0.0,
+      "interventions_maturity": 0.0,
+      "match_score": 0.125,
+      "maturity": 0.0,
+      "minimum_observed_cash": 893.0,
+      "sold_units": 171.375,
+      "terminal_standing_plants": 16.0,
+      "unsold_product_units": 0.0
+    },
+    {
+      "action_DROP": 12.625,
+      "action_HARVEST": 74.875,
+      "action_PASS": 124.5,
+      "action_PLACE": 0.0,
+      "action_WATER": 708.75,
+      "arm": "111",
+      "capacity": 1.0,
+      "capital": 1.0,
+      "coin_margin": 25016.375,
+      "coins": 41918.75,
+      "discarded_units": 0.0,
+      "harvested_units": 349.125,
+      "ineffective_farm_actions": 0.0,
+      "interventions_capacity": 60.0,
+      "interventions_capital": 0.0,
+      "interventions_maturity": 41.0,
+      "match_score": 1.0,
+      "maturity": 1.0,
+      "minimum_observed_cash": 976.0,
+      "sold_units": 349.125,
+      "terminal_standing_plants": 2.875,
+      "unsold_product_units": 0.0
+    }
+  ],
+  "limitations": [
+    "Four reused development seeds; no confirmatory inference or multiple-testing claim",
+    "One stronger frozen opponent this batch; previous study used two weaker opponents",
+    "Only three policy components activated; other feature families remain provisional",
+    "Same initial seed does not fix future shops after policy-induced RNG divergence",
+    "Refresh counterfactuals exclude preceding decay and assume treatment availability",
+    "Early cap collection is local; routing and all opportunity costs are not optimized"
+  ],
+  "lineage": {
+    "code": {
+      "__init__.py": "36d0ff269264d1c5e526ff205c2fc89e921767c65fdc3914654062bbc4adcb85",
+      "artifacts.py": "e08e16f0e09ba25d732e22dc7239ce4a5e017ca3bfbe68d720cafa9ed201ba72",
+      "audit.py": "3cc1130b795f90e8bea454f19bb59b6a4412d6959fad3260a9a7389aa41181a1",
+      "crop_policy.py": "52db5557b6bb71a4f0c7bfe5ce6faf7fb92d878dfc5b2d353781c9dc28f1d806",
+      "environment.py": "590788ca3c5d390c71e06b8c6206f47787ff9bc324b539fb33e5eb163f4cb091",
+      "experiment.py": "9777ea565da9d5ac3ff3bb142f63afda0c25f5d6c6ddaf1c45c0e616fbcdf417",
+      "features.py": "70fc36e02564ebace315516c389ee17af42624f8fc27c6d8baceb4c14d9d9121",
+      "gates.py": "ec8325b24531a7e027d620002da414df3d0f8ce0dddd72b38e6217a70be2a2ac",
+      "progress.py": "12a66d38b6238a323194dce2eb39803a015d794ead8f007ffd07c6eed2c22824",
+      "relationship_experiment.py": "11a4d39bd40a5f886656fa308972aad359ea0aa97a9499e80101b02b1f2f283a",
+      "relationship_features.py": "807d67e5a14d7915cbdd35a63db0f618040ef3884b130238bfcf0b62e9435de2",
+      "relationship_policy.py": "2e337c7334f5902d3462342c69ec4ca6852b90f35bb4d1301e6fd6f5047fbe5b",
+      "rollouts.py": "320a57470fecbeefcac1430025689b1f957fc4db044d9d9a5629c5a9d6cdcb02",
+      "visuals.py": "e7f66b39c538989c40ce19c7e6564912684204c8ec1fe8a7dd286252ff55f48f"
+    },
+    "engine": {
+      "files": {
+        "agent.py": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6",
+        "core.py": "0922c4599a1b6e0d8c3dadf06ae5297f98138d859d686f00daee6f36e6d45d0e",
+        "envs/kaggriculture/kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+        "envs/kaggriculture/kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+        "schemas.json": "cc6ccbca1a8f747e90434778f12acfe4b29bbeea69aeb5af81f4017ab2ea9a1c",
+        "utils.py": "537b627b11784d424147ef57ebb0369b039bf83c9f891e81f10486b1f552334b"
+      },
+      "package": "kaggle-environments",
+      "version": "1.32.7"
+    },
+    "protocol": {
+      "arms": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ],
+      "bootstrap_resamples": 2000,
+      "bootstrap_seed": 3102,
+      "configuration": {
+        "episodeSteps": 720
+      },
+      "development_seeds": [
+        1101,
+        1102,
+        1103,
+        1104
+      ],
+      "experiment": "resource-relationships-factorial-v1",
+      "factors": [
+        "capacity",
+        "capital",
+        "maturity"
+      ],
+      "feature_sample_stride": 4,
+      "frozen_crop_policy_sha256": "52db5557b6bb71a4f0c7bfe5ce6faf7fb92d878dfc5b2d353781c9dc28f1d806",
+      "max_games": 64,
+      "max_seconds": 1020,
+      "opponent": "frozen_full_crop_scheduler",
+      "purpose": "Development-only mechanistic features, 2x2x2 component and interaction study; no final feature selection",
+      "seats": [
+        0,
+        1
+      ]
+    }
+  },
+  "policy_latency_ms": {
+    "max": 320.3797789992677,
+    "median": 4.327562999606016,
+    "p95": 5.180152249522507
+  },
+  "protocol_sha256": "08e2409fba29fd1d0d84102ebbf85535909a565babca6ada3f9c4ad697d40d44",
+  "reused_games": 0,
+  "sampled_feature_bank_latency_ms": {
+    "max": 3.739800000403193,
+    "median": 2.0074019994353876,
+    "p95": 2.3485730503125524
+  },
+  "screening": {
+    "constant_features": [
+      "relative.land_lead",
+      "inventory.TOMATO.shed",
+      "inventory.TOMATO.carried",
+      "inventory.TOMATO.immediate_sale_value",
+      "demand.MELON.current_daily_units",
+      "inventory.EGG.shed",
+      "inventory.EGG.carried",
+      "inventory.EGG.immediate_sale_value",
+      "inventory.MILK.shed",
+      "inventory.MILK.carried",
+      "inventory.MILK.immediate_sale_value",
+      "inventory.WOOL.shed",
+      "inventory.WOOL.carried",
+      "inventory.WOOL.immediate_sale_value",
+      "market.FERTILIZER.price",
+      "market.FERTILIZER.normalized_price",
+      "market.FERTILIZER.normalized_supply",
+      "market.FERTILIZER.one_unit_price_impact",
+      "market.FERTILIZER.sell_5_revenue",
+      "market.FERTILIZER.sell_20_revenue",
+      "demand.FERTILIZER.current_daily_units",
+      "inventory.FERTILIZER.shed",
+      "inventory.FERTILIZER.carried",
+      "inventory.FERTILIZER.immediate_sale_value",
+      "inventory.TOMATO.seeds",
+      "inventory.GOOSE.unplaced",
+      "inventory.COW.unplaced",
+      "inventory.SHEEP.unplaced",
+      "own.unlocked_tiles",
+      "own.feed_actions_due",
+      "own.crop.WHEAT.fertilized_count",
+      "own.crop.CARROT.fertilized_count",
+      "own.crop.TOMATO.count",
+      "own.crop.TOMATO.mean_age",
+      "own.crop.TOMATO.harvestable_units",
+      "own.crop.TOMATO.water_due",
+      "own.crop.TOMATO.death_risk_today",
+      "own.crop.TOMATO.bonus_water_opportunities",
+      "own.crop.TOMATO.fertilized_count",
+      "own.crop.STRAWBERRY.bonus_water_opportunities",
+      "own.crop.STRAWBERRY.fertilized_count",
+      "own.crop.MELON.fertilized_count",
+      "own.animal.GOOSE.count",
+      "own.animal.GOOSE.yield_units",
+      "own.animal.GOOSE.feed_due",
+      "own.animal.GOOSE.escape_risk_today",
+      "own.animal.GOOSE.fertilizer_available",
+      "own.animal.GOOSE.care_bonus_banked",
+      "own.animal.COW.count",
+      "own.animal.COW.yield_units",
+      "own.animal.COW.feed_due",
+      "own.animal.COW.escape_risk_today",
+      "own.animal.COW.fertilizer_available",
+      "own.animal.COW.care_bonus_banked",
+      "own.animal.SHEEP.count",
+      "own.animal.SHEEP.yield_units",
+      "own.animal.SHEEP.feed_due",
+      "own.animal.SHEEP.escape_risk_today",
+      "own.animal.SHEEP.fertilizer_available",
+      "own.animal.SHEEP.care_bonus_banked",
+      "opponent.unlocked_tiles",
+      "opponent.feed_actions_due",
+      "opponent.crop.WHEAT.fertilized_count",
+      "opponent.crop.CARROT.fertilized_count",
+      "opponent.crop.TOMATO.count",
+      "opponent.crop.TOMATO.mean_age",
+      "opponent.crop.TOMATO.harvestable_units",
+      "opponent.crop.TOMATO.water_due",
+      "opponent.crop.TOMATO.death_risk_today",
+      "opponent.crop.TOMATO.bonus_water_opportunities",
+      "opponent.crop.TOMATO.fertilized_count",
+      "opponent.crop.STRAWBERRY.bonus_water_opportunities",
+      "opponent.crop.STRAWBERRY.fertilized_count",
+      "opponent.crop.MELON.fertilized_count",
+      "opponent.animal.GOOSE.count",
+      "opponent.animal.GOOSE.yield_units",
+      "opponent.animal.GOOSE.feed_due",
+      "opponent.animal.GOOSE.escape_risk_today",
+      "opponent.animal.GOOSE.fertilizer_available",
+      "opponent.animal.GOOSE.care_bonus_banked",
+      "opponent.animal.COW.count",
+      "opponent.animal.COW.yield_units",
+      "opponent.animal.COW.feed_due",
+      "opponent.animal.COW.escape_risk_today",
+      "opponent.animal.COW.fertilizer_available",
+      "opponent.animal.COW.care_bonus_banked",
+      "opponent.animal.SHEEP.count",
+      "opponent.animal.SHEEP.yield_units",
+      "opponent.animal.SHEEP.feed_due",
+      "opponent.animal.SHEEP.escape_risk_today",
+      "opponent.animal.SHEEP.fertilizer_available",
+      "opponent.animal.SHEEP.care_bonus_banked",
+      "storage.free_after_sell_all",
+      "storage.nonsellable_capacity_lock",
+      "capital.daily_full_staff_cost",
+      "capital.reserve_shortfall",
+      "delivery.unit0.active",
+      "delivery.unit0.dump_loss_before_market",
+      "delivery.unit1.dump_loss_before_market",
+      "delivery.unit2.dump_loss_before_market",
+      "delivery.unit3.dump_loss_before_market",
+      "own.timing.WHEAT.capped_ready_tiles",
+      "own.timing.WHEAT.avoidable_wait_unit_days",
+      "own.timing.WHEAT.next_refresh_production_events",
+      "own.timing.WHEAT.water_death_tasks_unreachable_today",
+      "own.timing.CARROT.capped_ready_tiles",
+      "own.timing.CARROT.avoidable_wait_unit_days",
+      "own.timing.CARROT.next_refresh_production_events",
+      "own.timing.TOMATO.capped_ready_tiles",
+      "own.timing.TOMATO.avoidable_wait_unit_days",
+      "own.timing.TOMATO.water_now_increment_units",
+      "own.timing.TOMATO.refresh_yield_saved_by_water",
+      "own.timing.TOMATO.refresh_increment_from_fertilizer_given_water",
+      "own.timing.TOMATO.next_refresh_production_events",
+      "own.timing.TOMATO.ready_units_with_active_delivery_route",
+      "own.timing.TOMATO.ready_units_without_terminal_route",
+      "own.timing.TOMATO.water_death_tasks_unreachable_today",
+      "own.timing.TOMATO.decay_within_two_actions",
+      "own.timing.TOMATO.present",
+      "own.timing.TOMATO.first_maturity_actions",
+      "own.timing.TOMATO.known_decay_present",
+      "own.timing.TOMATO.first_decay_actions",
+      "own.timing.TOMATO.mean_worker_distance",
+      "own.timing.STRAWBERRY.capped_ready_tiles",
+      "own.timing.STRAWBERRY.avoidable_wait_unit_days",
+      "own.timing.STRAWBERRY.water_now_increment_units",
+      "own.timing.MELON.next_refresh_production_events",
+      "own.timing.MELON.ready_units_without_terminal_route",
+      "own.timing.MELON.water_death_tasks_unreachable_today",
+      "own.husbandry.GOOSE.escape_prevented_by_feed",
+      "own.husbandry.GOOSE.refresh_units_saved_by_feed",
+      "own.husbandry.GOOSE.care_bank_marginal",
+      "own.husbandry.GOOSE.next_production_events",
+      "own.husbandry.GOOSE.cap_headroom",
+      "own.husbandry.GOOSE.banked_bonus_at_risk_if_unfed",
+      "own.husbandry.GOOSE.next_fed_production_saturation",
+      "own.husbandry.COW.escape_prevented_by_feed",
+      "own.husbandry.COW.refresh_units_saved_by_feed",
+      "own.husbandry.COW.care_bank_marginal",
+      "own.husbandry.COW.next_production_events",
+      "own.husbandry.COW.cap_headroom",
+      "own.husbandry.COW.banked_bonus_at_risk_if_unfed",
+      "own.husbandry.COW.next_fed_production_saturation",
+      "own.husbandry.SHEEP.escape_prevented_by_feed",
+      "own.husbandry.SHEEP.refresh_units_saved_by_feed",
+      "own.husbandry.SHEEP.care_bank_marginal",
+      "own.husbandry.SHEEP.next_production_events",
+      "own.husbandry.SHEEP.cap_headroom",
+      "own.husbandry.SHEEP.banked_bonus_at_risk_if_unfed",
+      "own.husbandry.SHEEP.next_fed_production_saturation",
+      "opponent.timing.WHEAT.capped_ready_tiles",
+      "opponent.timing.WHEAT.avoidable_wait_unit_days",
+      "opponent.timing.WHEAT.next_refresh_production_events",
+      "opponent.timing.WHEAT.water_death_tasks_unreachable_today",
+      "opponent.timing.CARROT.capped_ready_tiles",
+      "opponent.timing.CARROT.avoidable_wait_unit_days",
+      "opponent.timing.CARROT.next_refresh_production_events",
+      "opponent.timing.TOMATO.capped_ready_tiles",
+      "opponent.timing.TOMATO.avoidable_wait_unit_days",
+      "opponent.timing.TOMATO.water_now_increment_units",
+      "opponent.timing.TOMATO.refresh_yield_saved_by_water",
+      "opponent.timing.TOMATO.refresh_increment_from_fertilizer_given_water",
+      "opponent.timing.TOMATO.next_refresh_production_events",
+      "opponent.timing.TOMATO.ready_units_with_active_delivery_route",
+      "opponent.timing.TOMATO.ready_units_without_terminal_route",
+      "opponent.timing.TOMATO.water_death_tasks_unreachable_today",
+      "opponent.timing.TOMATO.decay_within_two_actions",
+      "opponent.timing.TOMATO.present",
+      "opponent.timing.TOMATO.first_maturity_actions",
+      "opponent.timing.TOMATO.known_decay_present",
+      "opponent.timing.TOMATO.first_decay_actions",
+      "opponent.timing.TOMATO.mean_worker_distance",
+      "opponent.timing.STRAWBERRY.capped_ready_tiles",
+      "opponent.timing.STRAWBERRY.avoidable_wait_unit_days",
+      "opponent.timing.STRAWBERRY.water_now_increment_units",
+      "opponent.timing.MELON.next_refresh_production_events",
+      "opponent.timing.MELON.ready_units_without_terminal_route",
+      "opponent.timing.MELON.water_death_tasks_unreachable_today",
+      "opponent.husbandry.GOOSE.escape_prevented_by_feed",
+      "opponent.husbandry.GOOSE.refresh_units_saved_by_feed",
+      "opponent.husbandry.GOOSE.care_bank_marginal",
+      "opponent.husbandry.GOOSE.next_production_events",
+      "opponent.husbandry.GOOSE.cap_headroom",
+      "opponent.husbandry.GOOSE.banked_bonus_at_risk_if_unfed",
+      "opponent.husbandry.GOOSE.next_fed_production_saturation",
+      "opponent.husbandry.COW.escape_prevented_by_feed",
+      "opponent.husbandry.COW.refresh_units_saved_by_feed",
+      "opponent.husbandry.COW.care_bank_marginal",
+      "opponent.husbandry.COW.next_production_events",
+      "opponent.husbandry.COW.cap_headroom",
+      "opponent.husbandry.COW.banked_bonus_at_risk_if_unfed",
+      "opponent.husbandry.COW.next_fed_production_saturation",
+      "opponent.husbandry.SHEEP.escape_prevented_by_feed",
+      "opponent.husbandry.SHEEP.refresh_units_saved_by_feed",
+      "opponent.husbandry.SHEEP.care_bank_marginal",
+      "opponent.husbandry.SHEEP.next_production_events",
+      "opponent.husbandry.SHEEP.cap_headroom",
+      "opponent.husbandry.SHEEP.banked_bonus_at_risk_if_unfed",
+      "opponent.husbandry.SHEEP.next_fed_production_saturation",
+      "pressure.TOMATO.own_held_and_ready_wave",
+      "pressure.TOMATO.opponent_visible_ready_units",
+      "pressure.TOMATO.wave_conditional_revenue",
+      "pressure.TOMATO.wave_average_price",
+      "pressure.TOMATO.wave_price_impact_cost",
+      "pressure.TOMATO.wave_revenue_after_rival_supply_stress",
+      "pressure.EGG.own_held_and_ready_wave",
+      "pressure.EGG.opponent_visible_ready_units",
+      "pressure.EGG.wave_conditional_revenue",
+      "pressure.EGG.wave_average_price",
+      "pressure.EGG.wave_price_impact_cost",
+      "pressure.EGG.wave_revenue_after_rival_supply_stress",
+      "pressure.MILK.own_held_and_ready_wave",
+      "pressure.MILK.opponent_visible_ready_units",
+      "pressure.MILK.wave_conditional_revenue",
+      "pressure.MILK.wave_average_price",
+      "pressure.MILK.wave_price_impact_cost",
+      "pressure.MILK.wave_revenue_after_rival_supply_stress",
+      "pressure.WOOL.own_held_and_ready_wave",
+      "pressure.WOOL.opponent_visible_ready_units",
+      "pressure.WOOL.wave_conditional_revenue",
+      "pressure.WOOL.wave_average_price",
+      "pressure.WOOL.wave_price_impact_cost",
+      "pressure.WOOL.wave_revenue_after_rival_supply_stress",
+      "pressure.FERTILIZER.own_held_and_ready_wave",
+      "pressure.FERTILIZER.opponent_visible_ready_units",
+      "pressure.FERTILIZER.wave_conditional_revenue",
+      "pressure.FERTILIZER.wave_average_price",
+      "pressure.FERTILIZER.wave_price_impact_cost",
+      "pressure.FERTILIZER.known_demand_next_day",
+      "pressure.FERTILIZER.demand_only_next_day_price_change",
+      "pressure.FERTILIZER.wave_minus_known_day_demand",
+      "pressure.FERTILIZER.visible_rival_supply_stress_price",
+      "pressure.FERTILIZER.wave_revenue_after_rival_supply_stress",
+      "interactions.terminal_carry_at_risk",
+      "history.lag1.TOMATO.inventory_change",
+      "history.lag1.TOMATO.price_log_change",
+      "history.lag1.EGG.inventory_change",
+      "history.lag1.EGG.price_log_change",
+      "history.lag1.MILK.inventory_change",
+      "history.lag1.MILK.price_log_change",
+      "history.lag1.WOOL.inventory_change",
+      "history.lag1.WOOL.price_log_change",
+      "history.lag1.FERTILIZER.inventory_change",
+      "history.lag1.FERTILIZER.price_log_change",
+      "history.lag24.FERTILIZER.inventory_change",
+      "history.lag24.FERTILIZER.price_log_change"
+    ],
+    "exact_duplicate_groups": [
+      [
+        "logistics.shed_free",
+        "storage.free_before_market"
+      ],
+      [
+        "logistics.refresh_overflow",
+        "storage.night_overflow_if_pass",
+        "storage.night_overflow_after_sell_all"
+      ],
+      [
+        "market.TOMATO.price",
+        "pressure.TOMATO.visible_rival_supply_stress_price"
+      ],
+      [
+        "market.EGG.price",
+        "pressure.EGG.visible_rival_supply_stress_price"
+      ],
+      [
+        "market.MILK.price",
+        "pressure.MILK.visible_rival_supply_stress_price"
+      ],
+      [
+        "market.WOOL.price",
+        "pressure.WOOL.visible_rival_supply_stress_price"
+      ],
+      [
+        "own.shed_distance",
+        "delivery.unit0.shed_distance"
+      ],
+      [
+        "own.crop.WHEAT.bonus_water_opportunities",
+        "own.timing.WHEAT.water_now_increment_units",
+        "own.timing.WHEAT.refresh_increment_from_fertilizer_given_water"
+      ],
+      [
+        "own.crop.CARROT.bonus_water_opportunities",
+        "own.timing.CARROT.water_now_increment_units",
+        "own.timing.CARROT.refresh_increment_from_fertilizer_given_water"
+      ],
+      [
+        "own.crop.MELON.bonus_water_opportunities",
+        "own.timing.MELON.water_now_increment_units"
+      ],
+      [
+        "opponent.crop.WHEAT.harvestable_units",
+        "pressure.WHEAT.opponent_visible_ready_units"
+      ],
+      [
+        "opponent.crop.WHEAT.bonus_water_opportunities",
+        "opponent.timing.WHEAT.water_now_increment_units",
+        "opponent.timing.WHEAT.refresh_increment_from_fertilizer_given_water"
+      ],
+      [
+        "opponent.crop.CARROT.harvestable_units",
+        "pressure.CARROT.opponent_visible_ready_units"
+      ],
+      [
+        "opponent.crop.CARROT.bonus_water_opportunities",
+        "opponent.timing.CARROT.water_now_increment_units",
+        "opponent.timing.CARROT.refresh_increment_from_fertilizer_given_water"
+      ],
+      [
+        "opponent.crop.STRAWBERRY.harvestable_units",
+        "pressure.STRAWBERRY.opponent_visible_ready_units"
+      ],
+      [
+        "opponent.crop.MELON.harvestable_units",
+        "pressure.MELON.opponent_visible_ready_units"
+      ],
+      [
+        "opponent.crop.MELON.bonus_water_opportunities",
+        "opponent.timing.MELON.water_now_increment_units"
+      ],
+      [
+        "own.timing.WHEAT.present",
+        "own.timing.WHEAT.known_decay_present"
+      ],
+      [
+        "own.timing.CARROT.present",
+        "own.timing.CARROT.known_decay_present"
+      ],
+      [
+        "own.timing.MELON.present",
+        "own.timing.MELON.known_decay_present"
+      ],
+      [
+        "opponent.timing.WHEAT.present",
+        "opponent.timing.WHEAT.known_decay_present"
+      ],
+      [
+        "opponent.timing.CARROT.present",
+        "opponent.timing.CARROT.known_decay_present"
+      ],
+      [
+        "opponent.timing.MELON.present",
+        "opponent.timing.MELON.known_decay_present"
+      ]
+    ],
+    "families": {
+      "animal_feed_care_interactions": 42,
+      "animal_state": 36,
+      "cashflow": 7,
+      "causal_market_history": 40,
+      "crop_resource_timing": 150,
+      "crop_state": 70,
+      "cross_resource_interactions": 4,
+      "delivery_feasibility": 32,
+      "horizon": 5,
+      "labor_land": 20,
+      "logistics": 30,
+      "market_curves": 63,
+      "market_supply_demand_interactions": 90,
+      "relative_state": 3,
+      "storage_interactions": 9,
+      "town_demand": 17
+    },
+    "generated_features": 618,
+    "high_spearman_pairs": 202,
+    "matrix_artifact": {
+      "path": "artifacts/relationship_features/6357206d1e12941c5fb5988911b8fbb96f627e120a25444ee3e310ca25e9c16c.json.gz",
+      "sha256": "38da5641e4818bc2e8e9f2c1a0afde9038f542b103bf0d4184730dab57006e71"
+    },
+    "provisional_features": 618,
+    "rejected_for_final_model": 0,
+    "retained_for_final_model": 0,
+    "sampled_development_observations": 11584,
+    "screened_features": 618,
+    "screening_scope": "availability, finite/schema, empirical variation, exact duplication and correlation; not predictive selection",
+    "warning": "Constants/duplicates are coverage flags, not rejection evidence; animal treatments lack rollout support."
+  },
+  "seed_clusters": 4,
+  "validation_or_holdout_used": false
+}
