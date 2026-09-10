@@ -88,6 +88,19 @@ def main() -> None:
             ),
             ("notebooks", [str(root / ".venv/bin/python"), "scripts/execute_notebooks.py"]),
         ]
+        if os.environ.get("KAGGRICULTURE_RESEARCH_STAGE") == "relationships":
+            # Preserve the first study and its 80 valid checkpoints; do not rerun it.
+            commands = commands[:3] + [
+                (
+                    "relationship_research",
+                    [str(root / ".venv/bin/python"), "scripts/run_relationship_research.py"],
+                ),
+                (
+                    "notebook_build",
+                    [str(root / ".venv/bin/python"), "scripts/build_research_notebook.py"],
+                ),
+                ("notebooks", [str(root / ".venv/bin/python"), "scripts/execute_notebooks.py"]),
+            ]
         env = {**os.environ, "PYTHONPATH": str(root / "src"), "MPLBACKEND": "Agg"}
         try:
             for name, cmd in commands:

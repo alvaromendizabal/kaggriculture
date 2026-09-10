@@ -1,22 +1,28 @@
 {
+  "verified_utc_date": "2026-09-10",
   "app_status": "Deleted",
+  "space_status": "InService",
   "default_resource": {
     "InstanceType": "ml.m5.xlarge",
     "SageMakerImageArn": "arn:aws:sagemaker:us-west-2:542918446943:image/sagemaker-distribution-cpu",
     "SageMakerImageVersionAlias": "4.4.2"
   },
-  "foundation_pull_request": "https://github.com/alvaromendizabal/kaggriculture/pull/1",
-  "github_foundation_merge": "ada63a5830d6feff0d77328e8cc8689fdfc153eb",
-  "github_source_publication": "foundation_merged; research_results_ready_for_publication",
-  "kaggle_companion": "https://www.kaggle.com/competitions/kaggriculture/discussion/740550",
-  "last_completed_run": "crop-features-20260910",
-  "one_time_startup_detached": true,
-  "space_status": "InService",
-  "space_url": "https://v3nm4jdqu7hr0z7.studio.us-west-2.sagemaker.aws/jupyterlab/default",
   "storage": {
     "EbsStorageSettings": {
       "EbsVolumeSizeInGb": 30
     }
   },
-  "verified_utc_date": "2026-09-10"
+  "space_url": "https://v3nm4jdqu7hr0z7.studio.us-west-2.sagemaker.aws/jupyterlab/default",
+  "one_time_startup_detached": true,
+  "last_completed_run": "resource-relationships-20260910",
+  "feature_study_games": 144,
+  "relationship_study_games": 64,
+  "relationship_source_sha256": "555e1dc9f5dc7f6bd3404ca44bb7624507c43c5bce00eab6ad7f429751443829",
+  "foundation_pull_request": "https://github.com/alvaromendizabal/kaggriculture/pull/1",
+  "first_study_pull_request": "https://github.com/alvaromendizabal/kaggriculture/pull/2",
+  "github_source_publication": "Relationship milestone; exact publication identity is recorded by Git history.",
+  "workspace_sync": "Experiment source and executed artifacts are retained on EBS. Publication-only audit and documentation changes are in the repository; the stopped EBS checkout has not been synchronized to the final publication commit.",
+  "kaggle_companion": "https://www.kaggle.com/competitions/kaggriculture/discussion/740550",
+  "feature_research_complete": false,
+  "final_optimization_blocked": true
 }
