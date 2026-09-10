@@ -266,10 +266,40 @@ out-of-fold predictions for supervised encodings, train-only transformations, te
 available labels and a genuinely untouched evaluation boundary. Final selection should
 combine decision benefit, stability, runtime, redundancy and mechanistic plausibility.
 
-Study 5 now supplies the four-arm livestock/resource evidence. Terminal-aware feeding,
-alternative herd designs, land return, adaptive crop mix, joint assignment and richer
-opponent populations still require their own bounded studies.
+Study 5 supplies the four-arm livestock/resource evidence. Study 6 now isolates
+terminal feeding and a bounded liquidation package, with identical preterminal
+trajectories in all 16 paired blocks. The package increases coins and local score,
+but it retains only the owner after hired hands expire overnight. Multiworker
+coordination benefit therefore remains unmeasured. Alternative herd designs,
+land return, adaptive crop mix and richer opponent populations remain open.
 Negative or inactive components are retained in the record. No final training or Kaggle
 submission is authorized by an arbitrary feature count. Completion requires coverage of
 each plausible family, diminishing returns under robust tests and a documented rationale
 for exclusions; even then, a top leaderboard position cannot be promised in advance.
+
+## 5. Intrinsic horizons and executable terminal routes
+
+The pinned engine has no refresh on day 29 and executes its last action at
+observation 718. Terminal feeding cannot yield survival or production benefits
+before scoring. Remaining refreshes, conversion events and deliverable inventory
+must therefore be explicit features. Pardo et al. distinguish an intrinsic finite
+horizon from an artificial training truncation; this is the former. The study uses
+that modeling distinction without fitting an RL model.
+[Pardo et al., ICML 2018](https://proceedings.mlr.press/v80/pardo18a.html).
+
+Worker tasks require executable precedence and shared-resource constraints.
+The new menus count moves, optional WATER, HARVEST/COLLECT and DROP, then exclude
+duplicate resources and excess joint shed load. This follows the useful structural
+separation of individual feasible plans and cross-agent conflict resolution in
+dynamic task-allocation research. It is not an implementation of SCoBA and does
+not inherit its guarantees. Exact selection applies only to the retained bounded
+menus; the current-quote value does not forecast later rival sales.
+[Choudhury et al., RSS 2020](https://arxiv.org/abs/2005.13109),
+[Bischoff et al., 2020](https://arxiv.org/abs/2005.03902).
+
+The [frozen protocol](terminal_protocol.md) specifies 79 new descriptors and
+48 games. The [results](terminal_research.md) keep three claims separate:
+mechanical validity, descriptive feature variation, and conditional policy benefit.
+The 67 varying new descriptors are not 67 individually proven predictive features.
+A staffing-controlled, activated multiworker experiment is the next necessary
+test of the assignment mechanism exposed by this study.

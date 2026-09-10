@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 
 from kaggriculture_research.artifacts import digest, file_digest, load_checkpoint, write_json
+from kaggriculture_research.environment import game
 from kaggriculture_research.relationship_features import ready_units
 from kaggriculture_terminal.experiment import job_plan, validate_episode
 
@@ -30,11 +31,24 @@ def main() -> None:
             raise ValueError("Preterminal hash does not match actual saved records")
         final = payload["evaluator_terminal_observations"][seat]
         start = records[696]["observation"]["farms"][seat]["money"]
+        hire_spend = 0
+        for before, after in zip(records[696:-1], records[697:], strict=True):
+            own = before["observation"]["farms"][seat]
+            following = after["observation"]["farms"][seat]
+            hires = len(following["hands"]) - len(own["hands"])
+            ordered = sum(o[0] == "HIRE" for o in before["action"]["market"])
+            if not 0 <= hires <= ordered:
+                raise ValueError("Final-day staffing transition differs")
+            hire_spend += sum(game._hire_cost(own["hires_today"] + i) for i in range(hires))
+        if any(o[0] not in ("SELL", "HIRE") for r in records[696:] for o in r["action"]["market"]):
+            raise ValueError("Gross-receipt diagnostic requires no other final-day spending")
         rows.append(
             {
                 **job["key"],
                 "preterminal_sha256": payload["preterminal_sha256"],
                 "final_day_coin_gain": payload["rewards"][seat] - start,
+                "terminal_hire_spend": hire_spend,
+                "terminal_gross_sale_receipts": payload["rewards"][seat] - start + hire_spend,
                 "terminal_feed": payload["summary"]["terminal_feed"],
                 "terminal_noops": payload["summary"]["terminal_noops"],
                 "residual_product_units": payload["summary"]["residual_product_units"],
@@ -105,6 +119,21 @@ def main() -> None:
     integrity = json.loads((root / "reports/terminal_integrity.json").read_text())
     if integrity["games_audited"] != 48 or not integrity["complete"]:
         raise ValueError("Audit archive requires all 48 independently verified games")
+    write_json(
+        root / "reports/terminal_progress.json",
+        {
+            "experiment": protocol["experiment"],
+            "lineage": summary["lineage"],
+            "complete": True,
+            "completed_games": 48,
+            "expected_games": 48,
+            "new_games": 0,
+            "reused_games": 48,
+            "artifact_manifest": summary["artifact_manifest"],
+            "feature_completion_gate": "open_research",
+            "scope": "final status from validated summary and all-game audit; no new simulation",
+        },
+    )
     archive = root / "artifacts/terminal_audits.zip"
     with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_STORED) as output:
         for artifact in integrity["artifacts"]:

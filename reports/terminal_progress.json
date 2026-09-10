@@ -179,10 +179,310 @@
       "seed": 1502,
       "semantic_sha256": "4a0030fc0b15e4aba57520d523fcbadd13c79e632f151ca77ee1f8841d86b0fd",
       "sha256": "8f10b31ae5682d7b73d97df1842656995cd29a119adc2a84ab29f6367e74765c"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/5f4574db4eea8c60fed4e8dd5daf38de52fc2b2b46fc0d172888df222d9fe4c4.json.gz",
+      "preterminal_sha256": "88b369673a4db9349a4d548780198a81b773c7b3aaa3302f15404bd8372f27bc",
+      "seat": 1,
+      "seed": 1502,
+      "semantic_sha256": "4add43db1b90192b38f1db75d507df827623e6c4025abbb7ae7eaf2245e943ab",
+      "sha256": "07f9c349497517d3297b52378a09697848a9f374f4f504ae09f8a2ddd07caf26"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/a0e057f89064cdd52ff91abc2ec2e4675fdc235dad93a26fd83d4a7433299c06.json.gz",
+      "preterminal_sha256": "88b369673a4db9349a4d548780198a81b773c7b3aaa3302f15404bd8372f27bc",
+      "seat": 1,
+      "seed": 1502,
+      "semantic_sha256": "e45a691391001a9cc2276616b32e8bbf4b8d6cc7b380a2749fcef88f1a9669db",
+      "sha256": "424d7f994f0eeacd871753ac8fcc65bb7ac695f67e04dbf3b00f02a8a511c2dc"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/c3805d624e9a1aa733289306b7322165e5c5765b4aedd11c85ba73ee24f73e7f.json.gz",
+      "preterminal_sha256": "88b369673a4db9349a4d548780198a81b773c7b3aaa3302f15404bd8372f27bc",
+      "seat": 1,
+      "seed": 1502,
+      "semantic_sha256": "b66fe3937791b857c6dcc0d525303550798700df7395c253b56e85b885b19f81",
+      "sha256": "f791b2d518384e1ec508e7fa7183d80f86f79ebc59cd8cc61d32f984c650c788"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/5a130179707a1d3a55d40b07b165292acacb933ac4d1a3fef4a1d4ad230fa5dc.json.gz",
+      "preterminal_sha256": "bb108e60647972b2771e053567c43a70bc6d3abec289b117025960422ba77017",
+      "seat": 1,
+      "seed": 1502,
+      "semantic_sha256": "a059bd5b5665416be686b776ea659392da6377e3cfba6dcb97a7a1991c3210cc",
+      "sha256": "4b4a4f3b26115c5e2a4c2f91c3845267ffc1dccae2bd9df3cf078dba30f1f69b"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/b59307a1e9d671491fc7c13cd4c64a2b7d9c3a575171d841870e52b0791ab916.json.gz",
+      "preterminal_sha256": "bb108e60647972b2771e053567c43a70bc6d3abec289b117025960422ba77017",
+      "seat": 1,
+      "seed": 1502,
+      "semantic_sha256": "cb4b899e005d06c3f267aad95ef61592cf62274122575ff4aa5aa14f791bffc2",
+      "sha256": "e25c140fdfb630642148b139b5bd9d59c845360e3b0c754a94f9b7b392216de8"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/90f80c3cf5f7dfa85e75e6fac5a5b1f2f8b9fb49d1efde5e385d7229778c63a9.json.gz",
+      "preterminal_sha256": "bb108e60647972b2771e053567c43a70bc6d3abec289b117025960422ba77017",
+      "seat": 1,
+      "seed": 1502,
+      "semantic_sha256": "8b7470e3aed361395a4aea55dba5013842edbbdf3170ea16fd65091541505169",
+      "sha256": "107b5141137674f1f3f0dc26adc05cd20b783a8f8f0d56b2b477b66291123f98"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/18c16b24424af5ce3ec5f173eb5c2214f476dbd49a67de398248e348fea8f86c.json.gz",
+      "preterminal_sha256": "c65f901d8b9a134ec9c4e8dfc3eb808b6db35dde70f83513a3d1035222f6b35e",
+      "seat": 0,
+      "seed": 1503,
+      "semantic_sha256": "dbb478dd6c11e394900eb5aa335e9eb6ab81883753b327eef717c9aa5402a0b8",
+      "sha256": "d44a863095270c96a5779805a667c954b27dee68b473ce3f422bf36350483964"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/9ff05577134741d68f04c5fc30851e537e837451f8d4321bc95f73442706cd7f.json.gz",
+      "preterminal_sha256": "c65f901d8b9a134ec9c4e8dfc3eb808b6db35dde70f83513a3d1035222f6b35e",
+      "seat": 0,
+      "seed": 1503,
+      "semantic_sha256": "c843b249eb0b182868038f0e94dea2ca8bdfe263b0a2de625d0a4b5f08f68d0d",
+      "sha256": "94c264e92be01a6ec9bb1af31046757b3a6e1936c03472d64c7119035b3f5c83"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/1f0959771591c511e69175569dd5e93ec1a9682e9291480ef0846efa2ce75e33.json.gz",
+      "preterminal_sha256": "c65f901d8b9a134ec9c4e8dfc3eb808b6db35dde70f83513a3d1035222f6b35e",
+      "seat": 0,
+      "seed": 1503,
+      "semantic_sha256": "3a47a350314d15634b27ca99bb818da302662f0187d4b20bd3191e5cbc1f94ce",
+      "sha256": "08d58326391ac58459140e3fc17cf7c35129b89a8e4550f08b3f86690274b7a6"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/b11b1b9db1d479580db80f384c60a4d9752a558bf0155e9cf91d3dc4e3a69f77.json.gz",
+      "preterminal_sha256": "6fe42341565cbc4233c1c642d66a5fd4eb18ef962865262caac16fc8b46243db",
+      "seat": 0,
+      "seed": 1503,
+      "semantic_sha256": "179ff5eb24fbdc90ea6fdc7b3c6ff95a000e68f9677e7b22592e302073a3fa9d",
+      "sha256": "f9b40102b0988dc096e929477b17bda57b65fc12a1a38ba10ded1655eadc41d6"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/bd657867508ff96d434c3d7a4a31929cad1712c435342153bf99f0ae76c12aea.json.gz",
+      "preterminal_sha256": "6fe42341565cbc4233c1c642d66a5fd4eb18ef962865262caac16fc8b46243db",
+      "seat": 0,
+      "seed": 1503,
+      "semantic_sha256": "29266bd07b408d13b4c9913d5dd8ffde5f98a2cf3f768b8ab1b1cb6981bee83e",
+      "sha256": "cf6caffd02ebabecd40ef5b809164b505c714c8258bc4e6a767d57d57d7fbbe6"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/4260c93d558258effb83314d48f04635ccf9f6892c71d8b897ceba85e564f017.json.gz",
+      "preterminal_sha256": "6fe42341565cbc4233c1c642d66a5fd4eb18ef962865262caac16fc8b46243db",
+      "seat": 0,
+      "seed": 1503,
+      "semantic_sha256": "8637c58794c777c74bfe7a697a82b5b33454b5518d1951207d2f8d7703ea36e0",
+      "sha256": "47d029f765975f89d96e39d88c8e0f74c818a68495517e02de4a4a3b9c5bf03c"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/fe3082334d90626fc72102a011b5aa4bd0042c552a2e7f9c9f766a6cd34f71a8.json.gz",
+      "preterminal_sha256": "d914a95211a285cef0cb1ea8f96a35b60e8d4349ae10ac5506c417c1b0fc0979",
+      "seat": 1,
+      "seed": 1503,
+      "semantic_sha256": "e1c31b7005560e790ceb81e9da77ea9039a5c84b67e33d77d47bec8dd50fd068",
+      "sha256": "d5535c5bd6437b8818221785be45496417bcfce8916e000da74842da1cabe8b6"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/ffc4bcf6e99586941e5a706af26ea64b8f9fa4cb7d4b1247dfffc00034f3e34d.json.gz",
+      "preterminal_sha256": "d914a95211a285cef0cb1ea8f96a35b60e8d4349ae10ac5506c417c1b0fc0979",
+      "seat": 1,
+      "seed": 1503,
+      "semantic_sha256": "2efaa52afee0a0ad1c444f1d09aeffd7071b7a537dd44d721b7bc0fad7639ac4",
+      "sha256": "d965b9f4487d3e6f7b1e547d9ffe9bf39a0048943d5348071b655051a93d7853"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/ac92b1bbc75ec274fe8f06904dc03197e54a685cb0c822be44bf6d879d9c5ec8.json.gz",
+      "preterminal_sha256": "d914a95211a285cef0cb1ea8f96a35b60e8d4349ae10ac5506c417c1b0fc0979",
+      "seat": 1,
+      "seed": 1503,
+      "semantic_sha256": "87322fa384c67ac17d582f4ed4e991446121b09b7d9195bfe156ea63395896ef",
+      "sha256": "c0cae81c51ba47678a25e074c3b222e2a35399da1b5e27d4823a9f5d523b1070"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/9b4f79fb7066cde4b4512ea55650d8616b3d8c46f8325de1a118417af3720edf.json.gz",
+      "preterminal_sha256": "fe87e59d7c8eb05e2807db3c39a642206617a0941a664003a53c33b5cc5ebdc6",
+      "seat": 1,
+      "seed": 1503,
+      "semantic_sha256": "6b6cbf9be82f5b9a1a5355dd38ee70206811473f0ba128e4cffa0f9858fcef10",
+      "sha256": "01699aaf10c1e20d4bd34d0318074568ea6cf767f5340301a1b15c8088777ff0"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/491a561547f3400895ce901c506633fb7c3be9336436b620dcc042a1479a7b15.json.gz",
+      "preterminal_sha256": "fe87e59d7c8eb05e2807db3c39a642206617a0941a664003a53c33b5cc5ebdc6",
+      "seat": 1,
+      "seed": 1503,
+      "semantic_sha256": "cadae335cc25d2d6813a6d096b855be5b216fc9832f0b23d48b43ea4b1e61113",
+      "sha256": "a2c4a03ee65bd0abb52bc29ab4c1c356c227c822c2da81b7d71876ef9b97f083"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/f4688269803e8996d8a9867c912e61f96239a2dc804d1e0052deb2aeb83c3803.json.gz",
+      "preterminal_sha256": "fe87e59d7c8eb05e2807db3c39a642206617a0941a664003a53c33b5cc5ebdc6",
+      "seat": 1,
+      "seed": 1503,
+      "semantic_sha256": "405d6f38220b785f96686282d44af0157c0503036561273d7bff836a7561fb2d",
+      "sha256": "3628644805890746ae1d3cbfbdcceaab995411b89638b18707539a85120ed809"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/09c5740d478c117fad778d661569632cf99ea3c51a3f8df8898fb025ee1348a9.json.gz",
+      "preterminal_sha256": "24ec7f8e2a171829fcf16d038c4662f88e438d2f76992d8379067ac445f76be7",
+      "seat": 0,
+      "seed": 1504,
+      "semantic_sha256": "6e6d007f04f9242f72ffe4609b2cf4db952ef79803b53ff3a9e54db40718a590",
+      "sha256": "7a6cd10009848643d79267369ec2f71a6e7f71181a198a20390f1e490de41e79"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/2d46eeecc26bf4bb886927ed74c5f2bbc103ec4acf90648f2d3cdb97e0ccb61a.json.gz",
+      "preterminal_sha256": "24ec7f8e2a171829fcf16d038c4662f88e438d2f76992d8379067ac445f76be7",
+      "seat": 0,
+      "seed": 1504,
+      "semantic_sha256": "dfa9e02d2ca0be074f5369db103c3dd37632fe8e833e95120ede01a402b92fa6",
+      "sha256": "2117c596e0b798a8c594103949ea2ca10671a2de502bf15eef5f4fc44aeda434"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/a2b8ba27aefdeb418ee66482ed4f2eaa481b1ed9ffc9a0b886a97eaa1a51f86c.json.gz",
+      "preterminal_sha256": "24ec7f8e2a171829fcf16d038c4662f88e438d2f76992d8379067ac445f76be7",
+      "seat": 0,
+      "seed": 1504,
+      "semantic_sha256": "a0c8a51f59b8f1da7a42a6267dd1cc5e608aa862106f39447611ac8d90f17600",
+      "sha256": "d5e97397ce6028748129e82923f80bd8a8e73a6ad56b2c4711e0204a37bb58f1"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/3c3a5ec201e65e3a5f1deb70efcdcbdb7a154c41289d558ee234e2818f0166cf.json.gz",
+      "preterminal_sha256": "bb6b3aa589d1ec0a2556dcc8f017d88c5bed0309acc785c60b12b2b45bacee66",
+      "seat": 0,
+      "seed": 1504,
+      "semantic_sha256": "9009f13a95cdd4ca5d62152a45ed16ad076fff6521e12ca4061b45ab3f8fd9ac",
+      "sha256": "b71f14f0e78e09a57218f037e1c2866a88586c98f06dc65d151ab7ab0161dfb9"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/7166b9b6bc559241d2645e6b7108995ab47ce5046a120b256efdff050ad5b4fb.json.gz",
+      "preterminal_sha256": "bb6b3aa589d1ec0a2556dcc8f017d88c5bed0309acc785c60b12b2b45bacee66",
+      "seat": 0,
+      "seed": 1504,
+      "semantic_sha256": "d9000231fc7ee94c72943d3e8a2cf61b3f3daeaa772abe6c23c430946b85998e",
+      "sha256": "6359f9bb69fe7fd20b4e3f6e15aa51d5dba228f160e12196e36a9d2ce00e22de"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/e565e37df5da89d8be8e12e06a4b5fae145f4bfb0b81dabc06439775ff31b5d3.json.gz",
+      "preterminal_sha256": "bb6b3aa589d1ec0a2556dcc8f017d88c5bed0309acc785c60b12b2b45bacee66",
+      "seat": 0,
+      "seed": 1504,
+      "semantic_sha256": "f2ac97e0442776f941755fd57fa35c1f7d6497fd52d99f56c5c691f678ff97d5",
+      "sha256": "420ee496c2147db53965a9acafcae4c7c5c6e6f5d0aa6b7222501ae06eabfe07"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/349c50d01b56b79023defc54c0efeb2d68354c4d4e50d4f1cfb8b39327a009a9.json.gz",
+      "preterminal_sha256": "bc43445cb445a37f277247fb8db5e86799a494d0e6d6c419fca9d62f1626f91a",
+      "seat": 1,
+      "seed": 1504,
+      "semantic_sha256": "84cb882cd4c57e0d19b58821948eb6d15f51fa2f336cbb30ba863ad63eaee082",
+      "sha256": "da56dd3a31a0e312ba9e64871d563e2f16121173da838ad84535e0fbd5ca8d2f"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/96876c8aca85e69c39de382e4badc50e48c60b6e66be406c2fc7206e655f00ef.json.gz",
+      "preterminal_sha256": "bc43445cb445a37f277247fb8db5e86799a494d0e6d6c419fca9d62f1626f91a",
+      "seat": 1,
+      "seed": 1504,
+      "semantic_sha256": "680d39c5940f19e7b542aef87d37853f0ec1b11afff2a39951bc7d0346f4cd40",
+      "sha256": "48ed7afbb26996f386887ad8ed04dc01240aec469c7eae34983622bc2961a23a"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/83c50779d94bbda913cab7e714644c05baa9c96788cc5efa6cf381dac4e4464f.json.gz",
+      "preterminal_sha256": "bc43445cb445a37f277247fb8db5e86799a494d0e6d6c419fca9d62f1626f91a",
+      "seat": 1,
+      "seed": 1504,
+      "semantic_sha256": "3345dba78e9144486dd5151164506196bbf1146d9f3dc547c30d1461c2cbde4f",
+      "sha256": "5dc6a60e3dbec86db49dfe9065b82f0dc0863509bdffdb341ea2594a5743182d"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/318e486fd9135f3570f8feca915adcd389c1caf9d83c42a24fc264fc1ca2ed90.json.gz",
+      "preterminal_sha256": "4c8418842af92f91f73590051d775d0e5280d936abb09dcc39162dcd228210d2",
+      "seat": 1,
+      "seed": 1504,
+      "semantic_sha256": "3a3817e40cbc16898a92c6f99b5621aa7bb2a4d5a6af587de7bf7d249a14a86c",
+      "sha256": "b086a0afd5fb6d3cb85abcc6ea9edde4dcd393f0b54ff4667f9b24be058dc74c"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/0ca578cbecad66e047f2a484b341b0d950c3e45fb1a60d62c26eb2b3c584d3d7.json.gz",
+      "preterminal_sha256": "4c8418842af92f91f73590051d775d0e5280d936abb09dcc39162dcd228210d2",
+      "seat": 1,
+      "seed": 1504,
+      "semantic_sha256": "70690d842109bb45b860408b81250a252db82b9b1a382a945fd12d75584f9374",
+      "sha256": "34c35a3abf61e7d16e97ca26bf266dd9b2caf921dad03bb08d495d966c41fde1"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/269850adbc6d7b7cf36002a95dbf48153afbdb786f541c6bdb36591e5119f476.json.gz",
+      "preterminal_sha256": "4c8418842af92f91f73590051d775d0e5280d936abb09dcc39162dcd228210d2",
+      "seat": 1,
+      "seed": 1504,
+      "semantic_sha256": "11c2449e731b579fca697d6160c072acf5c53a1f6700831a63db79040e7d588d",
+      "sha256": "a28b0f398211489d95ea2f4fb0fe15f54f0c33bbd9d12731aae15b5de622bef5"
     }
   ],
-  "complete": false,
-  "completed_games": 18,
+  "complete": true,
+  "completed_games": 48,
   "expected_games": 48,
   "experiment": "terminal-routing-v1",
   "feature_completion_gate": "open_research",
@@ -281,6 +581,7 @@
       ]
     }
   },
-  "new_games": 2,
-  "reused_games": 16
+  "new_games": 0,
+  "reused_games": 48,
+  "scope": "final status from validated summary and all-game audit; no new simulation"
 }

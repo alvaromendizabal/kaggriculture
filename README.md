@@ -7,25 +7,26 @@ This project studies sequential decisions in a competitive farming economy: allo
 growing crops, managing livestock, expanding land, and selling into a shared nonlinear market.
 The central question is which observation-safe representations improve decisions and win rates.
 
-**Current stage: livestock, feed and fertilizer feature research.** Five policy
-studies contain 320 development games. Study 5 adds 234 resource descriptors and
-64 registered comparisons. Its supported bank has 1,500 provisional features;
-the project union is 1,542, including 42 earlier cash bounds whose assumptions
-do not support this study's wheat purchases. Feature research remains open.
+**Current stage: terminal service and liquidation feature research.** Six policy
+studies contain 368 development games. Study 6 adds 79 descriptors and 48 registered
+comparisons. Its supported bank has 1,579 provisional features; the project union
+is 1,621, including 42 earlier cash bounds whose assumptions do not support own
+wheat purchases. Feature research remains open.
 
-The [latest study](docs/livestock_research.md) found that feeding and care must be
-coordinated: selective feeding alone hurt performance. Selective care won all
-16 games against two fixed references; fertilizer added 2,539 coins of average
-margin but no additional wins. These limited development results do not estimate
-Kaggle rank. See the [remaining coverage gaps](docs/feature_coverage.md) and
-[restartable workflow](docs/livestock_recovery.md).
+The [latest study](docs/terminal_research.md) found that the final-day liquidation
+package won all 16 development games and added 747.875 coins per game over baseline.
+Removing terminal feeding alone added 426.125 coins without improving pooled match
+score. The package used one worker: its result does not establish a multiworker
+assignment benefit. Four seed clusters and two fixed related references cannot
+estimate Kaggle rank. See the [remaining coverage gaps](docs/feature_coverage.md)
+and [restartable workflow](docs/terminal_recovery.md).
 
 ## Review the work
 
 1. [00 · Simulator and evaluation contract](notebooks/00_environment.ipynb)
 2. [01 · Observation audit and feature hypotheses](notebooks/01_data_audit.ipynb)
 3. [02 · Feature-research studies](notebooks/02_feature_research.ipynb)
-4. [Latest research: livestock, feed, care and fertilizer](docs/livestock_research.md)
+4. [Latest research: terminal service and liquidation](docs/terminal_research.md)
 5. [Feature coverage and completion ledger](docs/feature_coverage.md)
 6. [Domain mechanisms and modern-method research](docs/domain_research.md)
 7. [Market-policy findings: delivery helps coins, holding hurts](docs/market_findings.md)
@@ -44,17 +45,13 @@ versus 0.375 for immediate banking, but the extra wins came entirely from turnin
 eight mirror-match ties into narrow wins. Match score against the other opponent
 did not improve. All 16 cash/history pairs had identical full action sequences.
 
-The notebooks consume saved results. The [machine-readable study](reports/livestock_research.json),
-[1,500-feature registry](reports/livestock_registry.csv), and [independent trace audit](reports/livestock_integrity.json)
-identify exactly what was measured. All 64 games passed independent replay with
-zero mismatches, including 11,584 full vectors and 92,032 private transitions.
-Notebook 02 preserves all 23 prior code-cell sources and adds five livestock cells.
-It contains **28 genuinely executed code cells and eight rendered figures**.
-[The publication run](https://github.com/alvaromendizabal/kaggriculture/actions/runs/34516813547)
-passed **212 tests**, executed all three notebooks and verified all five studies.
-Its [execution receipt](reports/livestock_notebook_execution.json) is separate from
-the archived supply receipt. The exact CI archive was checksum-verified before
-import, and both new figures were inspected. Earlier notebook lineage remains checked through the
+The notebooks consume saved results. The [machine-readable study](reports/terminal_research.json),
+[1,579-feature registry](reports/terminal_registry.csv), and [independent trace audit](reports/terminal_integrity.json)
+identify exactly what was measured. All 48 games passed independent replay with
+zero mismatches, including 8,688 full vectors and 69,024 private transitions.
+Notebook 02 preserves all 28 prior code-cell sources and adds four terminal cells.
+The terminal execution receipt is recorded only after genuine kernel execution;
+the archived livestock and supply receipts remain unchanged. Earlier notebook lineage remains checked through the
 [declared provenance adapter](scripts/notebook_provenance.py). All prior experiment
 and feature sources remain unchanged. Current checks run through
 [GitHub Actions](https://github.com/alvaromendizabal/kaggriculture/actions).
@@ -122,6 +119,9 @@ audits, remote-byte verification and genuine notebook-execution receipts.
 Study 5 has its own [livestock recovery runbook](docs/livestock_recovery.md), with
 unchanged registered source, an exercised S3 restore, one-game operational slices,
 explicit reporting adapters and a verified archive of all 64 independent audits.
+Study 6's [terminal recovery runbook](docs/terminal_recovery.md) separates one-game
+local preparation from explicit checkpoint upload when service interruptions occur.
+It reuses every valid completed game and independently audits all 48 trajectories.
 
 ## AWS workspace
 
@@ -147,6 +147,12 @@ auditing and CI. The app was again confirmed stopped on September 10, 2026.
 Study 5 also used local CPU with no new SageMaker compute. Its 64 registered game
 times sum to 722.27 seconds. The [persistence receipt](reports/livestock_cloud_verification.json)
 checks all 82 required S3 objects by downloaded bytes, checksum, version and encryption.
+Study 6 also uses local CPU and no new SageMaker compute. Its 48 registered game
+times sum to 651.718 seconds. All 61 required S3 objects have been downloaded and
+verified, including a private feature matrix and a deterministic archive of all
+48 independent audits. The
+[terminal persistence receipt](reports/terminal_cloud_verification.json) records
+the actual downloaded objects, hashes, versions and encryption.
 
 ## Feature research is the completion gate
 
@@ -185,6 +191,13 @@ high-correlation pairs. Of 234 new resource descriptors, 192 vary. All remain
 provisional. The study exposes a real feeding/care interaction, fertilizer margin
 gains and remaining final-day feed waste. Joint routing, alternative herd/crop
 mixes, capital stress, land and stronger unrelated opponents remain open.
+
+Study 6 jointly screens 1,579 supported candidates: 1,248 varying and 331 constant.
+Of 79 new descriptors, 67 vary. Terminal feeding falls to zero, and the liquidation
+package leaves zero carried/shed product inventory in all 16 games. This does not
+mean every crop was harvested. Multiworker assignment benefit remains untested
+because the package did not rehire on the final day. No descriptor is promoted
+to a final model from these descriptive screens or package-level comparisons.
 
 Read [the source audit](docs/source_audit.md) for mechanics that affect the design. The full
 standards are in [AGENTS.md](AGENTS.md). Final optimization remains blocked by the research gate.

@@ -64,6 +64,11 @@ show_scores(games6)""",
             "inference",
             """### Paired effects and mechanisms
 
+The package wins all 16 development games; the baseline ties its eight fertilizer
+mirror matches and already beats MELON. Joint adds 747.875 coins over baseline;
+the feed gate alone adds 426.125 with no pooled score gain. Joint minus Feed
+loses coins on seed 1503, so the package is not a uniform coin improvement.
+
 Coin differences support the mechanism analysis; the primary metric remains wins
 plus half a tie. The bootstrap keeps both seats and opponents inside each seed.
 With four seed clusters, intervals are descriptive. Saturated or identical seed

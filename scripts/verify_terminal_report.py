@@ -38,14 +38,22 @@ def verify(root: Path, require_cloud: bool = True) -> dict:
     effects = paired_summary(frame, protocol["bootstrap_resamples"], protocol["bootstrap_seed"])
     saved = pd.read_csv(root / "reports/terminal_effects.csv")
     pd.testing.assert_frame_equal(effects, saved, check_dtype=False, rtol=1e-10, atol=1e-10)
-    pd.testing.assert_frame_equal(effects, pd.DataFrame(report["effects"]), check_dtype=False)
+    pd.testing.assert_frame_equal(
+        effects.sort_index(axis=1),
+        pd.DataFrame(report["effects"]).sort_index(axis=1),
+        check_dtype=False,
+    )
     groups = (
         frame.groupby(["opponent", "arm"])
         .mean(numeric_only=True)
         .drop(columns=["seed", "seat"])
         .reset_index()
     )
-    pd.testing.assert_frame_equal(groups, pd.DataFrame(report["groups"]), check_dtype=False)
+    pd.testing.assert_frame_equal(
+        groups.sort_index(axis=1),
+        pd.DataFrame(report["groups"]).sort_index(axis=1),
+        check_dtype=False,
+    )
     prefixes = (
         pd.DataFrame(report["artifact_manifest"])
         .groupby(["seed", "seat", "opponent"])["preterminal_sha256"]
@@ -96,6 +104,39 @@ def verify(root: Path, require_cloud: bool = True) -> dict:
     }
     if audit["counts"] != expected_counts:
         raise ValueError("Independent audit coverage incomplete")
+    diagnostics = json.loads((root / "reports/terminal_diagnostics.json").read_text())
+    if diagnostics["source_sha256"] != file_digest(root / "scripts/diagnose_terminal.py"):
+        raise ValueError("Mechanism diagnostics source differs")
+    mechanism = pd.DataFrame(diagnostics["rows"])
+    if (
+        len(mechanism) != 48
+        or set(mechanism[list(KEYS)].itertuples(index=False, name=None)) != expected_keys
+    ):
+        raise ValueError("Mechanism diagnostics coverage differs")
+    merged = frame.merge(
+        mechanism, on=list(KEYS), suffixes=("_game", "_mechanism"), validate="one_to_one"
+    )
+    for metric in ("terminal_feed", "terminal_noops", "residual_product_units"):
+        if not (merged[metric + "_game"] == merged[metric + "_mechanism"]).all():
+            raise ValueError("Mechanism totals differ from outcomes")
+    if not (
+        mechanism.terminal_gross_sale_receipts
+        == mechanism.final_day_coin_gain + mechanism.terminal_hire_spend
+    ).all():
+        raise ValueError("Final-day receipts and staffing costs do not balance")
+    if not (mechanism.loc[mechanism.arm == "joint", "terminal_worker_max"] == 1).all():
+        raise ValueError("Reported one-worker assignment limitation differs")
+    mechanism_groups = (
+        mechanism.drop(columns=["seed", "seat", "preterminal_sha256"])
+        .groupby(["opponent", "arm"])
+        .mean()
+        .reset_index()
+    )
+    pd.testing.assert_frame_equal(
+        mechanism_groups.sort_index(axis=1),
+        pd.DataFrame(diagnostics["groups"]).sort_index(axis=1),
+        check_dtype=False,
+    )
     recovery = json.loads((root / "reports/terminal_recovery.json").read_text())
     if (
         recovery["new_games"]

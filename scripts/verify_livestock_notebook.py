@@ -20,6 +20,10 @@ def verify(root: Path, record: bool = False) -> dict:
     notebook = nbformat.read(path, as_version=4)
     nbformat.validate(notebook)
     cells = [c for c in notebook.cells if c.cell_type == "code"]
+    if any(c.id.startswith("terminal-") for c in cells):
+        from verify_terminal_notebook import verify as verify_extension
+
+        return verify_extension(root, record=record)
     if len(cells) != 28 or sum(c.id.startswith("livestock-") for c in cells) != 5:
         raise ValueError("Expected 23 preserved and five new code cells")
     if digest([c.source for c in cells[:23]]) != PRIOR_SOURCE:

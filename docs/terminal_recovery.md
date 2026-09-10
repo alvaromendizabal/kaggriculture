@@ -51,6 +51,22 @@ invocation. Existing valid games are reused. An upload failure cannot invalidate
 the saved simulation. A lineage mismatch or HTTP authorization denial stops work.
 This CPU experiment does not require starting SageMaker or any new AWS compute.
 
+After the initial batches, `scripts/run_terminal_slice.py --uploads ...` provides
+the same two-game/60-second bound while comparing previously uploaded local bytes
+with their receipt instead of repeatedly decompressing every completed game.
+It still rechecks registration and validates each newly completed/restored episode.
+Full independent replay remains unchanged. The operational adapter records its own
+source hash and creates no new study identity or outcome definition.
+
+When the execution service disconnected during a combined compute/upload session,
+work continued with `python scripts/prepare_terminal_game.py`: it prepares or reuses
+exactly the first pending registered game and refuses to start another until the
+preceding upload receipt exists. Upload that explicit completed path with the
+original runner's `upload --uploads ... --paths <path>` mode. These separate short
+calls preserve the same study identity. The completed game interrupted during
+transfer was reused; a prior interrupted simulation without a complete checkpoint
+had to restart. No valid completed registered game was recomputed.
+
 ## Audit and byte verification
 
 ```bash
@@ -110,3 +126,13 @@ account 560403859723 owns the configured bucket. The archive was checked against
 the public GitHub tree and contained no raw data. That new verification resolved
 the block. No alternate credentials or unauthorized route was used, and no
 registered game ran until durable source and registration receipts existed.
+
+Final evidence transfer prompted the same ownership/payload concern for the
+generated feature matrix. Fresh authenticated ownership/security checks succeeded.
+The matrix envelope and numeric schema were inspected: 8,688 rows of 1,579 finite
+features, with only arm/opponent/seat/seed/step experiment metadata, generated from
+the 48 audited public-simulator games. It contains no customer or competition-kit
+records. This evidence allowed the transfer. A subsequent network approval was
+cancelled before a decision; remaining public reports were uploaded individually,
+reusing the completed matrix and audit-archive receipts. The same bucket, credentials
+and transfer mechanism were used throughout.
