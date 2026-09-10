@@ -23,4 +23,5 @@ jobs:
       - run: uv run ruff format --check .
       - run: uv run pytest -q
       - run: uv run python scripts/run_foundation.py
-      - run: uv run python scripts/execute_notebooks.py
+      - run: uv run python scripts/verify_research_report.py
+      - run: uv run python scripts/execute_notebooks.py --foundation-only

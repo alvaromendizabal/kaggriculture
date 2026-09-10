@@ -1,0 +1,53 @@
+{
+  "audit_code_sha256": "fb648ff2800dc6bf217d625302c2439e529fcc64d37644390c3baa8599075a70",
+  "conservation_verified_games": 80,
+  "experiment_protocol_sha256": "02cb7ed3e4edc1b44997d88c3b8e7d0b8cb5e36219245022176afd5075d52c85",
+  "group_means": [
+    {
+      "discarded_units": 26.0,
+      "harvested_units": 325.125,
+      "minimum_observed_cash": 10.0,
+      "sold_units": 299.125,
+      "standing_plants_after_final_farm_actions": 7.4375,
+      "standing_yield_units_after_final_farm_actions": 18.625,
+      "variant": "full"
+    },
+    {
+      "discarded_units": 0.0,
+      "harvested_units": 409.3125,
+      "minimum_observed_cash": 2408.0,
+      "sold_units": 409.3125,
+      "standing_plants_after_final_farm_actions": 4.75,
+      "standing_yield_units_after_final_farm_actions": 9.1875,
+      "variant": "no_crop_value"
+    },
+    {
+      "discarded_units": 0.0,
+      "harvested_units": 24.9375,
+      "minimum_observed_cash": 983.125,
+      "sold_units": 24.9375,
+      "standing_plants_after_final_farm_actions": 0.3125,
+      "standing_yield_units_after_final_farm_actions": 1.875,
+      "variant": "no_labor"
+    },
+    {
+      "discarded_units": 26.0,
+      "harvested_units": 276.5,
+      "minimum_observed_cash": 10.0,
+      "sold_units": 249.5625,
+      "standing_plants_after_final_farm_actions": 25.0,
+      "standing_yield_units_after_final_farm_actions": 13.6875,
+      "variant": "no_terminal"
+    },
+    {
+      "discarded_units": 2.0,
+      "harvested_units": 300.4375,
+      "minimum_observed_cash": 8.0,
+      "sold_units": 298.4375,
+      "standing_plants_after_final_farm_actions": 9.5,
+      "standing_yield_units_after_final_farm_actions": 19.0,
+      "variant": "no_water_urgency"
+    }
+  ],
+  "standing_yield_caveat": "Includes immature crops; not liquid cash or a value forecast"
+}

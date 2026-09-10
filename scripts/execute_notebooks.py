@@ -1,5 +1,6 @@
 """Execute the canonical notebooks in fresh kernels, preserving their filenames."""
 
+import argparse
 import os
 import sys
 from pathlib import Path
@@ -12,6 +13,9 @@ from kaggriculture_research.progress import Progress
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--foundation-only", action="store_true")
+    args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
     os.environ["PYTHONPATH"] = str(root / "src")
     # Install only a project-local kernelspec, not a machine-wide notebook default.
@@ -24,6 +28,11 @@ def main() -> None:
         raise RuntimeError("Notebook kernel is not the active project environment")
     progress = Progress()
     for path in sorted((root / "notebooks").glob("*.ipynb")):
+        if args.foundation_only and path.name not in (
+            "00_environment.ipynb",
+            "01_data_audit.ipynb",
+        ):
+            continue
         with progress.stage(path.name):
             notebook = nbformat.read(path, as_version=4)
             client = NotebookClient(

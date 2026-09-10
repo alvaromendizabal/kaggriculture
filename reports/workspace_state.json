@@ -5,6 +5,11 @@
     "SageMakerImageArn": "arn:aws:sagemaker:us-west-2:542918446943:image/sagemaker-distribution-cpu",
     "SageMakerImageVersionAlias": "4.4.2"
   },
+  "foundation_pull_request": "https://github.com/alvaromendizabal/kaggriculture/pull/1",
+  "github_foundation_merge": "ada63a5830d6feff0d77328e8cc8689fdfc153eb",
+  "github_source_publication": "foundation_merged; research_results_ready_for_publication",
+  "kaggle_companion": "https://www.kaggle.com/competitions/kaggriculture/discussion/740550",
+  "last_completed_run": "crop-features-20260910",
   "one_time_startup_detached": true,
   "space_status": "InService",
   "space_url": "https://v3nm4jdqu7hr0z7.studio.us-west-2.sagemaker.aws/jupyterlab/default",
@@ -13,7 +18,5 @@
       "EbsVolumeSizeInGb": 30
     }
   },
-  "verified_utc_date": "2026-09-10",
-  "github_source_publication": "blocked_by_automatic_approval_review",
-  "github_remote_main": "9c7768fac3b2f84d8b87c11aa64d895a259dd4bd"
+  "verified_utc_date": "2026-09-10"
 }

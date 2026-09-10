@@ -7,15 +7,20 @@ This project studies sequential decisions in a competitive farming economy: allo
 growing crops, managing livestock, expanding land, and selling into a shared nonlinear market.
 The central question is which observation-safe representations improve decisions and win rates.
 
-**Current stage: foundation and observation audit.** The official simulator is pinned; the first
-development reference and candidate inventory are reproducible. No competitive policy, learned
-model, feature-selection result, or Kaggle score is claimed.
+**Current stage: crop action-feature research.** The simulator and observation audit are
+verified. The first bounded experiment evaluates four feature families through 80 paired
+development games. Feature research remains open; no competitive or Kaggle score is claimed.
 
 ## Review the work
 
 1. [00 · Simulator and evaluation contract](notebooks/00_environment.ipynb)
 2. [01 · Observation audit and feature hypotheses](notebooks/01_data_audit.ipynb)
-3. [Feature research protocol](docs/research_protocol.md)
+3. [02 · Crop action-feature comparisons](notebooks/02_feature_research.ipynb)
+4. [Fixed experiment specification](docs/feature_experiment.md)
+5. [Feature research protocol](docs/research_protocol.md)
+
+The [first experiment findings](docs/feature_findings.md) explain the measured family effects,
+the unresolved watering result, and why storage and stronger opponents come next.
 
 The notebooks execute from saved, verified local results. The [machine-readable summary](reports/foundation.json)
 and [candidate registry](reports/feature_registry.csv) identify exactly what was measured.
@@ -31,13 +36,15 @@ The pinned official engine runs **719 action rounds and records 720 states**, in
 initial state. We use its exact default horizon rather than modifying it to fit the prose guide.
 Local performance against an official starter or passive agent does not estimate leaderboard rank.
 
-## Reproduce the first milestone
+## Reproduce the current milestones
 
 Python 3.12 and [uv](https://docs.astral.sh/uv/) are required.
 
 ```bash
 uv sync --frozen
 PYTHONPATH=src uv run python scripts/run_foundation.py
+PYTHONPATH=src uv run python scripts/run_feature_research.py
+PYTHONPATH=src uv run python scripts/audit_feature_behavior.py
 uv run pytest -q
 uv run ruff check .
 uv run ruff format --check .
@@ -71,10 +78,12 @@ storage, nonlinear sale curves, visible town demand, remaining time, and the pub
 It contains **candidates**, not empirically selected features. Constant or duplicate columns in
 simple reference rollouts indicate missing state coverage; they are not automatically discarded.
 
-Next comes a richer rollout policy and decision-level features: crop lifecycle value, water and
-feed urgency, multi-worker assignments, marginal hire value, price impact, and terminal cash
-conversion. Every major family needs information-availability checks, controlled additions and
-removals, seed-paired uncertainty, and performance against diverse opponents.
+The first action-feature experiment evaluates 13 templates for crop lifecycle value, watering
+urgency, labor allocation and terminal banking in one fixed scheduler. All remain provisional.
+See [paired results](reports/feature_ablations.csv) and the [research summary](reports/feature_research.json).
+Market pressure, storage, livestock, fertilizer and stronger opponents remain to be studied.
+Every major family needs information-availability checks, controlled additions and removals,
+seed-paired uncertainty, and performance against diverse opponents.
 
 Read [the source audit](docs/source_audit.md) for mechanics that affect the design. The full
 standards are in [AGENTS.md](AGENTS.md). Final optimization remains blocked by the research gate.
@@ -88,3 +97,5 @@ standards are in [AGENTS.md](AGENTS.md). Final optimization remains blocked by t
 
 Only public simulator dependencies are installed. Competition data-kit files are not redistributed.
 Public strategic-code sharing must also be associated with the competition as described in rule 3.6.b.
+The [public companion discussion](https://www.kaggle.com/competitions/kaggriculture/discussion/740550)
+was posted with the repository owner's authorization.

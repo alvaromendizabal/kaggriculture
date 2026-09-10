@@ -82,6 +82,10 @@ def main() -> None:
             ("environment", [sys.executable, "-m", "uv", "sync", "--frozen"]),
             ("tests", [str(root / ".venv/bin/python"), "-m", "pytest", "-q"]),
             ("foundation", [str(root / ".venv/bin/python"), "scripts/run_foundation.py"]),
+            (
+                "feature_research",
+                [str(root / ".venv/bin/python"), "scripts/run_feature_research.py"],
+            ),
             ("notebooks", [str(root / ".venv/bin/python"), "scripts/execute_notebooks.py"]),
         ]
         env = {**os.environ, "PYTHONPATH": str(root / "src"), "MPLBACKEND": "Agg"}
