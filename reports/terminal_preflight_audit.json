@@ -1,0 +1,14 @@
+{
+  "actions_sha256": "1d1cb3c877df1b575816a8a84c7c55f31c2a9ec9bcd369d2b3675894f7d5f688",
+  "counts": {
+    "callbacks": 719,
+    "feature_vectors": 181,
+    "private_transitions": 1438,
+    "product_balances": 18,
+    "sale_checks": 5026,
+    "state_restores": 31,
+    "stock_checks": 5033
+  },
+  "episode_semantic_sha256": "59da954d300784448d2a7ca003cce37e14521139f5023c9ff2f1f56e630fa66f",
+  "mismatches": 0
+}

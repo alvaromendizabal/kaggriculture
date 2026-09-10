@@ -1,0 +1,10 @@
+{
+  "arms": [
+    "baseline",
+    "feed",
+    "joint"
+  ],
+  "decisions_per_arm": 696,
+  "mismatches": 0,
+  "preflight_seed": 71
+}

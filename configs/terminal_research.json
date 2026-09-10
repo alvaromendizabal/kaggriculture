@@ -1,0 +1,17 @@
+{
+  "experiment": "terminal-routing-v1",
+  "configuration": {"episodeSteps": 720},
+  "development_seeds": [1501, 1502, 1503, 1504],
+  "seats": [0, 1],
+  "opponents": ["livestock_fertilizer", "melon_specialist"],
+  "arms": ["baseline", "feed", "joint"],
+  "contrasts": [["feed", "baseline"], ["joint", "feed"], ["joint", "baseline"]],
+  "primary_metric": "match_score",
+  "feature_sample_stride": 4,
+  "max_games": 48,
+  "max_new_games_per_batch": 2,
+  "max_seconds_per_batch": 60,
+  "bootstrap_resamples": 4000,
+  "bootstrap_seed": 4501,
+  "heartbeat_seconds": 15
+}
