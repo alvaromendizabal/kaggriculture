@@ -7,20 +7,23 @@ This project studies sequential decisions in a competitive farming economy: allo
 growing crops, managing livestock, expanding land, and selling into a shared nonlinear market.
 The central question is which observation-safe representations improve decisions and win rates.
 
-**Current stage: market/logistics feature research.** Three bounded studies now contain
+**Current stage: legal-history supply feature research.** Three policy studies contain
 192 development games: 80 crop-feature comparisons, 64 resource-relationship games and
 48 fresh-seed market/delivery comparisons. The feature bank contains 933 provisional
-descriptors. Feature research remains open; no Kaggle score is claimed.
+descriptors. A subsequent [history identification study](docs/market_history_research.md)
+reuses the 48 market games to audit 333 additional candidates, without new paid cloud
+compute or policy training. Feature research remains open; no Kaggle score is claimed.
 
 ## Review the work
 
 1. [00 · Simulator and evaluation contract](notebooks/00_environment.ipynb)
 2. [01 · Observation audit and feature hypotheses](notebooks/01_data_audit.ipynb)
 3. [02 · Three executed feature-research studies](notebooks/02_feature_research.ipynb)
-4. [Latest findings: delivery helps coins, holding hurts](docs/market_findings.md)
+4. [Latest research: legal-history supply bounds and their limitations](docs/market_history_research.md)
 5. [Feature coverage and completion ledger](docs/feature_coverage.md)
 6. [Domain mechanisms and modern-method research](docs/domain_research.md)
-7. [Research protocol](docs/research_protocol.md)
+7. [Market-policy findings: delivery helps coins, holding hurts](docs/market_findings.md)
+8. [Research protocol](docs/research_protocol.md)
 
 The [first study](docs/feature_findings.md) motivated storage and stronger-opponent research.
 The [second design](docs/relationship_research.md) tests those relationships explicitly.
@@ -37,6 +40,14 @@ The notebooks execute from saved, verified results. The [latest machine-readable
 identify exactly what was measured. Three notebooks contain 30 executed code cells and eight
 static figure fallbacks. All three studies' source lineage, outcomes, contrasts and product
 accounting are verified. Earlier study code cells remain unchanged.
+
+The new [history replay](reports/market_history_research.json) checked 34,512 callback
+vectors: 178 of 333 descriptors varied, 155 were constant, and 12 groups were exact
+nonconstant duplicates. All 241,584 supported stock bounds contained the evaluator-only
+truth. History captured possible stored supply in 1,524 product/callback observations
+with no visible ready yield, but melon bounds were frequently loose after floor-price
+sales. No history-driven policy benefit is claimed. This bounded follow-up is documented
+in the research report; it has not been appended to or freshly executed in notebook 02.
 
 ## Problem and metric
 
@@ -64,6 +75,8 @@ uv run python scripts/build_research_notebook.py
 PYTHONPATH=src uv run python scripts/run_market_research.py
 PYTHONPATH=src uv run python scripts/audit_market_evidence.py
 PYTHONPATH=src uv run python scripts/analyze_market_holds.py
+PYTHONPATH=src uv run python scripts/analyze_market_history.py
+PYTHONPATH=src uv run python scripts/verify_market_history.py
 PYTHONPATH=src uv run python scripts/build_market_notebook.py
 uv run pytest -q
 uv run ruff check .
