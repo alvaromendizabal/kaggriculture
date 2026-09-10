@@ -15,11 +15,15 @@ decision if its harvest cannot be delivered, its supply collapses the price, or 
 watering displaces a more valuable task. Features should therefore describe feasible
 actions and their consequences, not simply increase the number of columns.
 
-The existing two studies provide 144 development games. They support maturity-aware
-harvest and labor as promising mechanisms, but also show harmful capacity interventions,
-an inactive capital reserve and livestock coverage gaps. Study 3 isolates delivery
-opportunity cost and short-horizon sale timing on six fresh seeds. Its new descriptors
-remain provisional until evaluated; no literature result is counted as game evidence.
+The five completed studies provide 320 development games. They support maturity-aware
+harvest and labor as promising mechanisms, but also show harmful capacity interventions
+and an inactive capital reserve. The fifth registered study activates 70 of 78
+previously constant animal descriptors. Selective feeding alone harms performance;
+coordinating care with feeding recovers it, and fertilizer adds margin without
+additional wins against the two fixed references. Source mechanisms and hypotheses
+are in the [livestock protocol](livestock_protocol.md), with actual effects and
+remaining terminal/routing gaps in the [findings](livestock_research.md).
+No literature result is counted as game evidence, and all descriptors remain provisional.
 
 As observed on 10 September, the active leaderboard's leading score was **3033.1
 (SpaTaro)**. That rating is not farm coins. The rules rank head-to-head wins/losses/ties;
@@ -62,8 +66,24 @@ trajectory-level treatment policy and a separate component experiment.
 For livestock, feeding, escape risk, production intervals and banked care effects are
 distinct mechanisms. Today's care is not automatically today's sale. Wheat feeding,
 animal acquisition, structure placement, product collection and fertilizer side-products
-must be costed together. All 78 animal state/feed-care descriptors were constant in the
-second crop-only study. This is absent policy coverage—not evidence against animals.
+must be costed together. All 78 animal state/feed-care descriptors remained constant
+through the fourth crop-only study. This is absent policy coverage—not evidence against animals.
+
+Study 5 implements an explicit resource loop. A surviving unfed animal still has a
+base production event; feed protects survival and a care bank. The bank is consumed
+at production before today's care is added. A care feature therefore needs a later
+conversion date, capacity headroom, future feeding/collection assumptions and terminal
+delivery. Counting CARE commands alone cannot establish realized care yield.
+Fertilizer availability is one renewable Boolean slot per animal: a missed collection
+does not become two stored units. Application competes with selling manure and with
+the work it displaces. A late FERTILIZE can be harmful if it displaces life-saving water.
+
+The new treatment scenario compares two exact seven-day tile paths, with and without
+fertilizer, under fixed water and collection service. It prices their bankable harvests
+on the current nonlinear sale curve, subtracts the current manure sale opportunity and
+an explicit eight-coin work charge. This is a conditional value feature, not a forecast
+of future prices or proof of globally feasible service. The registered sequential
+ablation tests whether that particular decision rule adds value beyond selective care.
 
 ### Labor, space and inventory
 
@@ -214,6 +234,15 @@ of physical state. Future model importance should use grouped or conditionally p
 perturbations and be checked against actual policy behavior.
 [Hooker, Mentch and Zhou](https://arxiv.org/abs/1905.03151).
 
+### State-dependent maintenance as a scheduling analogy
+
+Ruiz-Hernandez, Pinar-Pérez and Delgado-Gómez study imperfect preventive maintenance
+through restless bandits. The useful analogy is allocating scarce service to units
+whose state changes even when unattended. For livestock this motivates feed deadlines
+and future care-conversion values. Their indexability assumptions do not automatically
+hold with shared workers, wheat and prices; our priority scores are tested heuristics,
+not claimed optimal indices. [Primary paper](https://arxiv.org/abs/2401.14055).
+
 ## 4. Research-grade validation and the next bounded work
 
 Every experiment fixes its mechanism, comparator, arms, seeds, evaluation budget and
@@ -237,9 +266,9 @@ out-of-fold predictions for supervised encodings, train-only transformations, te
 available labels and a genuinely untouched evaluation boundary. Final selection should
 combine decision benefit, stability, runtime, redundancy and mechanistic plausibility.
 
-The immediate next evidence is study 3's four-arm market/logistics comparison. Regardless
-of its outcome, livestock/resource loops, fertilizer, land return, adaptive crop mix,
-joint assignment and richer opponent populations still require their own bounded studies.
+Study 5 now supplies the four-arm livestock/resource evidence. Terminal-aware feeding,
+alternative herd designs, land return, adaptive crop mix, joint assignment and richer
+opponent populations still require their own bounded studies.
 Negative or inactive components are retained in the record. No final training or Kaggle
 submission is authorized by an arbitrary feature count. Completion requires coverage of
 each plausible family, diminishing returns under robust tests and a documented rationale

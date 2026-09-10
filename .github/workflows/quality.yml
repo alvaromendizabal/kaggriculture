@@ -28,11 +28,13 @@ jobs:
       - run: uv run python scripts/verify_research_report.py
       - run: uv run python scripts/verify_market_history.py
       - run: uv run python scripts/verify_supply_report.py
+      - run: uv run python scripts/verify_livestock_report.py
       - uses: actions/upload-artifact@v7
         with:
           name: executed-notebooks-${{ github.sha }}
           path: |
             notebooks/02_feature_research.ipynb
             reports/supply_notebook_execution.json
+            reports/livestock_notebook_execution.json
           if-no-files-found: error
           retention-days: 30

@@ -8,21 +8,21 @@ justified. Generated and screened descriptor counts are not feature-performance 
 | Crop lifecycle value | All five irrigated crop scenarios; source parity; study 1 ablation | Repeated harvests, regeneration/replant opportunity cost, crop-mix adaptation |
 | Maturity and decay | Cap readiness and phase parity; positive study 2 local-collection effect | Global harvest timing, actual decay trajectory, staggered planting/harvest waves; new opponents/seeds |
 | Water and survival | Death/bonus urgency; study 1 effect unresolved; next-refresh treatment parity | Alternate-day maintenance, value-aware water routing, interaction with storage |
-| Fertilizer | Conditional refresh gain and inclusive activity window; mechanistic tests | Acquisition/transport, three-day treatment paths, opportunity cost and policy ablation |
+| Fertilizer | Study 5 adds 60 scenario features with travel, water, sale opportunity cost and terminal feasibility; fertilizer−care margin +2,539.25, score unchanged | Joint route feasibility, continuation/price uncertainty, broader crop mixes and primary-score gains against stronger opponents |
 | Storage and delivery | Phase-aware room and bounded deposits; study 3 activated work-cost-aware delivery and improved coins, but wins occurred in only one seed | Global joint routes, heterogeneous inventory allocation, production displacement and broader win-rate benefit |
 | Working capital | Staffing runway and seed-spend reserve; zero study 2 intervention activations, utility untested | Receipt uncertainty, adaptive reserves, explicit capital-stress scenarios and demonstrated activation/benefit |
 | Labor | Worker capacity, distance, workload and Fibonacci costs; study 1 combined effect | Separate distance and staffing factors; assignment/route optimization; hiring marginal value |
 | Shared-market impact | Exact sale/concurrent-sale parity; harmful study 3 holding; study 4 stored-supply history improved mirror-match decisions, while cash added no actions | Gains beyond related crop references; floor-censored false alarms, endogenous response and calibrated scenarios |
 | Town demand | Exact duplicate-shop events; known-demand holding rule tested and insufficient under competition | Unknown-unlock distributions without hidden seed access; joint demand/supply uncertainty |
-| Livestock | Feed rescue, care-bank delay, production cap and escape parity; all 78 state/feed-care descriptors still constant in study 4 | High-priority on-policy coverage, goose/cow/sheep specialists, wheat provisioning, fertilizer side-product loops and ablations |
+| Livestock | Study 5 tests all three species, feed/care/manure loops; 70/78 earlier descriptors now vary; care/fertilizer each win 16/16 against fixed references | Final-day feed gate, alternative herd mixes, scarcity/escape regimes, global service allocation and unrelated specialists |
 | Land | Existing public ownership and capacity descriptors | Capital/time/labor-adjusted NE/SW/SE expansion returns and controlled action experiments |
 | Causal temporal signals | Prior 1/24-turn features, 333 history and 42 cash candidates; study 4 independently recomputed 11,584 joint vectors and 1,984 state restores | Grouped predictive validation, specialist coverage and deployment state-size/runtime acceptance |
-| Opponent response | Seven-product bounds passed 322,112 stock checks; cash reduced melon excess bounds 13.19% but left false alarms and all 16 paired history/cash action sequences unchanged | Joint cross-product feasibility, generalized own trading, calibrated beliefs and diverse adaptive opponents; no private-state inputs |
-| Terminal banking | Exact remaining horizon and delivery feasibility; positive study 1 effect | Joint liquidation scheduling, mixed goods and cap-constrained final turns |
+| Opponent response | Seven-product bounds pass independent checks; study 4 cash tightens melon bounds without changing actions; study 5 explicitly excludes 42 cash features invalidated by own buying | Generalize cash accounting to own purchases, joint cross-product feasibility, calibrated beliefs and adaptive opponents |
+| Terminal banking | Exact horizon and delivery feasibility; study 5 care conversion gate works, but care/fertilizer still waste 3.000/2.875 final-day feed units per game | Correct terminal feed feasibility in a new registered intervention; joint liquidation, mixed goods and cap-constrained final turns |
 | Rankings/relative choices | Current crop utility argmax and resource-relative summaries | Cross-action ranks and opportunity-cost margins; controlled comparisons beyond arbitrary scores |
 | Learned encodings | Not implemented, no claim of target-derived signal | Only if useful: seed/episode-grouped OOF development fitting, no future reward in policy inputs |
 | Spatial/graph representation | Manhattan travel on open grid; per-worker and aggregate features | Joint worker-task graph, congestion-free assignments, plant age/needs spatial clustering |
-| Robustness and saturation | Two weaker opponents in study 1; stronger opponents in studies 2/3; six fresh development seeds in study 3 | Specialist/stress populations, further fresh-seed confirmation and diminishing-return studies |
+| Robustness and saturation | Five studies, 320 development games; study 5 has four fresh seeds and one mixed-farm reference; care/fertilizer scores saturate | Stronger unrelated specialist/stress populations, fresh-seed confirmation and diminishing-return studies |
 
 ## Exclusions with a domain reason
 
@@ -42,8 +42,18 @@ Stored-supply history scored 0.625 pooled versus bank's 0.375; all extra wins we
 narrow mirror-match wins, with no score gain against the other frozen opponent.
 Cash tightened identification without changing any paired history/cash action
 sequence. Neither broad competitive superiority nor final feature selection is
-established. The next coverage priority is livestock/feed and fertilizer loops
-with specialist opponents, not more untested descriptors on the same crop traces.
+established.
+
+The [fifth study](livestock_research.md) adds 234 resource descriptors, 192 varying.
+Its 1,500 supported candidates are jointly screened: 1,205 varying, 295 constant,
+157 duplicate groups and 1,775 high-correlation pairs. Seventy of 78 earlier animal
+descriptors now vary. The project union is 1,542; 42 cash descriptors are excluded
+from this study because their contract does not cover own wheat purchases.
+Selective feeding alone hurts score; coordinated care restores it. Fertilizer
+improves margin over care but not wins. All 64 games pass independent action,
+feature, transition and product-conservation checks. This is component evidence,
+not final feature selection. Next priority is terminal-aware feed/service routing
+and stronger unrelated opponents, followed by herd/crop mix and capital stress.
 
 - Real soil, rainfall, weather, satellite imagery and calendar growing seasons: no supporting
   variables or transitions in the official game. External agronomic associations do not map
