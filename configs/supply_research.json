@@ -1,0 +1,21 @@
+{
+  "experiment": "cash-constrained-supply-ablation-v1",
+  "configuration": {"episodeSteps": 720},
+  "development_seeds": [1301, 1302, 1303, 1304],
+  "seats": [0, 1],
+  "opponents": ["relationship101", "market10"],
+  "arms": ["bank", "visible", "history", "cash"],
+  "contrasts": [["visible", "bank"], ["history", "visible"], ["cash", "history"], ["cash", "bank"]],
+  "primary_metric": "match_score",
+  "maximum_hold_actions": 4,
+  "rival_scenario_weight": 0.5,
+  "feature_sample_stride": 4,
+  "max_games": 64,
+  "max_new_games_per_batch": 8,
+  "max_seconds_per_batch": 240,
+  "bootstrap_resamples": 4000,
+  "bootstrap_seed": 3301,
+  "heartbeat_seconds": 15,
+  "frozen_market_report_sha256": "a9f75d96aec022b240c20ffce36880f3d37e20bf49e03c9b1779a81551e358e2",
+  "frozen_market_history_sha256": "54e295106673f4b149512ed3e404073782fb3dab65484c9a61fc02c2143c7cee"
+}
