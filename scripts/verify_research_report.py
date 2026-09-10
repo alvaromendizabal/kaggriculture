@@ -227,10 +227,19 @@ def main() -> None:
         for a in latest_cloud["run"]["artifacts"]
         if a["path"] == "notebooks/02_feature_research.ipynb"
     )
-    if file_digest(root / recorded["path"]) != recorded["sha256"]:
+    extended = any(c.id.startswith("supply-") for c in notebook.cells)
+    if not extended and file_digest(root / recorded["path"]) != recorded["sha256"]:
         raise ValueError("Notebook differs from its executed AWS artifact")
     nbformat.validate(notebook)
-    cells = [cell for cell in notebook.cells if cell.cell_type == "code"]
+    cells = [
+        cell
+        for cell in notebook.cells
+        if cell.cell_type == "code" and not cell.id.startswith("supply-")
+    ]
+    if extended and digest([c.source for c in cells]) != (
+        "45952532e959648cb3bbc79adb8a55aa39eaab68549532790babb520ed6f14ff"
+    ):
+        raise ValueError("The source-archived first 17 notebook code cells changed")
     if len(cells) != 17:
         raise ValueError("Unexpected research notebook structure")
     prior_cells = [

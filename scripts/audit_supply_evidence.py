@@ -1,5 +1,6 @@
 """Independently replay fixed legal traces, policies, bounds and product accounting."""
 
+import argparse
 import copy
 import json
 from collections import Counter, defaultdict
@@ -8,7 +9,13 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from kaggriculture_research.artifacts import digest, file_digest, load_checkpoint, write_json
+from kaggriculture_research.artifacts import (
+    digest,
+    file_digest,
+    load_checkpoint,
+    save_checkpoint,
+    write_json,
+)
 from kaggriculture_research.cash_history import own_sale_quantities
 from kaggriculture_research.environment import game
 from kaggriculture_research.features import PUBLIC_FIELDS, observe_features
@@ -21,19 +28,48 @@ from kaggriculture_research.supply_policy import SupplyPolicy
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--partial", action="store_true")
+    parser.add_argument("--max-new-games", type=int, default=64)
+    args = parser.parse_args()
+    if not 1 <= args.max_new_games <= 64:
+        raise ValueError("Audit batch must contain between one and 64 games")
     root = Path(__file__).resolve().parents[1]
     protocol = json.loads((root / "configs/supply_research.json").read_text())
-    report = json.loads((root / "reports/supply_research.json").read_text())
     common, jobs = job_plan(root, protocol)
+    report_path = root / "reports/supply_research.json"
+    report = json.loads(report_path.read_text()) if report_path.exists() else None
+    if report is None:
+        if not args.partial:
+            raise ValueError("Final audit requires the completed study report")
+        report = {"lineage": common, "artifact_manifest": []}
+        for job in jobs:
+            path = root / job["path"]
+            if path.exists():
+                payload = load_checkpoint(path, job["lineage"])
+                if payload is None:
+                    raise ValueError("Partial audit episode lineage changed")
+                report["artifact_manifest"].append(
+                    {
+                        "path": job["path"],
+                        "sha256": file_digest(path),
+                        "semantic_sha256": payload["semantic_sha256"],
+                    }
+                )
     if report["lineage"] != common:
         raise ValueError("Study report lineage differs from the execution source")
     manifest = {a["path"]: a for a in report["artifact_manifest"]}
-    if set(manifest) != {j["path"] for j in jobs} or len(manifest) != 64:
+    if not args.partial and (set(manifest) != {j["path"] for j in jobs} or len(manifest) != 64):
         raise ValueError("Study manifest incomplete or duplicated")
     game_rows, bound_rows = [], []
     callbacks = samples_checked = stock_checks = sale_checks = restores = 0
     progress = Progress()
+    new_audits = reused_audits = 0
     for job in jobs:
+        if job["path"] not in manifest:
+            if args.partial:
+                break
+            raise ValueError("Missing episode in audit manifest")
         path = root / job["path"]
         if file_digest(path) != manifest[job["path"]]["sha256"]:
             raise ValueError("Episode byte checksum differs")
@@ -43,6 +79,26 @@ def main() -> None:
         validate_episode(payload, job["key"])
         if payload["semantic_sha256"] != manifest[job["path"]]["semantic_sha256"]:
             raise ValueError("Episode semantic identity differs from published manifest")
+        audit_lineage = {
+            "audit_code_sha256": file_digest(Path(__file__)),
+            "study_sha256": digest(common),
+            "episode_sha256": file_digest(path),
+        }
+        cache_path = root / "artifacts/supply_audits" / (digest(audit_lineage) + ".json.gz")
+        cached = load_checkpoint(cache_path, audit_lineage)
+        if cached is not None:
+            game_rows.append(cached["game_row"])
+            bound_rows.extend(cached["bound_rows"])
+            callbacks += cached["callbacks"]
+            samples_checked += cached["samples_checked"]
+            stock_checks += cached["stock_checks"]
+            sale_checks += cached["sale_checks"]
+            restores += cached["restores"]
+            reused_audits += 1
+            continue
+        if new_audits >= args.max_new_games:
+            break
+        initial_counts = (callbacks, samples_checked, stock_checks, sale_checks, restores)
         records = {(r["player"], r["observation"]["step"]): r for r in payload["records"]}
         sampled = {s["step"]: s["values"] for s in payload["feature_samples"]}
         seat = job["key"]["seat"]
@@ -200,6 +256,42 @@ def main() -> None:
                 "candidate_observations_sha256": digest(observation_trace),
             }
         )
+        increments = tuple(
+            a - b
+            for a, b in zip(
+                (callbacks, samples_checked, stock_checks, sale_checks, restores),
+                initial_counts,
+                strict=True,
+            )
+        )
+        save_checkpoint(
+            cache_path,
+            audit_lineage,
+            {
+                "game_row": game_rows[-1],
+                "bound_rows": bound_rows[-7:],
+                **dict(
+                    zip(
+                        ("callbacks", "samples_checked", "stock_checks", "sale_checks", "restores"),
+                        increments,
+                        strict=True,
+                    )
+                ),
+            },
+        )
+        new_audits += 1
+    if args.partial or len(game_rows) != 64:
+        print(
+            json.dumps(
+                {
+                    "audited_games": len(game_rows),
+                    "new_audits": new_audits,
+                    "reused_audits": reused_audits,
+                    "final_report_written": False,
+                }
+            )
+        )
+        return
     pd.DataFrame(bound_rows).to_csv(root / "reports/supply_bound_diagnostics.csv", index=False)
     pd.DataFrame(game_rows).to_csv(root / "reports/supply_action_identities.csv", index=False)
     result = {

@@ -12,14 +12,19 @@ The central question is which observation-safe representations improve decisions
 48 fresh-seed market/delivery comparisons. The feature bank contains 933 provisional
 descriptors. A subsequent [history identification study](docs/market_history_research.md)
 reuses the 48 market games to audit 333 additional candidates, without new paid cloud
-compute or policy training. Feature research remains open; no Kaggle score is claimed.
+compute or policy training. The [cash-constrained supply follow-up](docs/supply_research.md)
+adds 42 observation-safe candidates, bringing the joint candidate bank to 1,308.
+Its preregistered decision comparison is incomplete: **55 of 64 games finished,
+54 with S3 upload receipts**. A destination-authorization check blocked further uploads.
+No fresh policy effect or completed joint screen is claimed yet. See the
+[restart checkpoint](docs/supply_status.md). Feature research remains open; no Kaggle score is claimed.
 
 ## Review the work
 
 1. [00 · Simulator and evaluation contract](notebooks/00_environment.ipynb)
 2. [01 · Observation audit and feature hypotheses](notebooks/01_data_audit.ipynb)
 3. [02 · Three executed feature-research studies](notebooks/02_feature_research.ipynb)
-4. [Latest research: legal-history supply bounds and their limitations](docs/market_history_research.md)
+4. [Latest research: public-cash constraints and the registered supply experiment](docs/supply_research.md)
 5. [Feature coverage and completion ledger](docs/feature_coverage.md)
 6. [Domain mechanisms and modern-method research](docs/domain_research.md)
 7. [Market-policy findings: delivery helps coins, holding hurts](docs/market_findings.md)

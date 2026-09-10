@@ -163,6 +163,11 @@ opponents remain together. We average paired differences within seed and use
 support a leaderboard guarantee, a reliable population ranking, or a
 multiple-comparison significance claim.
 
+Pairing fixes the initial simulator seed, not every future random event. Different
+actions can change random-number consumption and later shop realizations. The
+registered contrast therefore measures the total policy effect under a common
+starting seed, not a counterfactual with all subsequent randomness held constant.
+
 ## Execution, recovery and audit
 
 The canonical runner supports `plan`, `register`, `batch`, `summarize` and
@@ -186,6 +191,8 @@ checks actions and verifies tighter bounds against evaluator-only hidden truth.
 Published summaries retain hashes and episode keys; private trace and matrix
 artifacts stay in S3. The source-locked runner and verified remote versions make
 the work restartable without relying on this conversation's memory.
+The [recovery runbook](supply_recovery.md) gives exact archive identities, restore
+commands, bounded-batch behavior, remote verification and notebook publication.
 
 ## Findings and remaining gates
 

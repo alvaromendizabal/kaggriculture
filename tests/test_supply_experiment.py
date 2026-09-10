@@ -3,6 +3,7 @@
 import copy
 import gzip
 import json
+import runpy
 from pathlib import Path
 
 import pandas as pd
@@ -111,3 +112,24 @@ def test_supply_resume_reuses_verified_episode_and_never_runs_it_again(
     (tmp_path / relative).write_bytes(gzip.compress(json.dumps(envelope).encode()))
     with pytest.raises(ValueError, match="checksum mismatch"):
         run_batch(tmp_path, {"experiment": "fixture"}, Progress())
+
+
+def test_remote_restore_validates_before_installing(tmp_path, monkeypatch, fixture_episode):
+    import io
+    import urllib.request
+
+    restore = runpy.run_path(str(ROOT / "scripts/restore_supply_checkpoints.py"))["restore_job"]
+    key = {k: fixture_episode["summary"][k] for k in ("seed", "seat", "opponent", "arm")}
+    job = {"key": key, "lineage": {"fixture": True}, "path": "artifacts/episode.json.gz"}
+    source = tmp_path / "remote.json.gz"
+    save_checkpoint(source, job["lineage"], fixture_episode)
+    monkeypatch.setattr(urllib.request, "urlopen", lambda *a, **k: io.BytesIO(source.read_bytes()))
+    assert restore(tmp_path, job, "https://authorized.invalid/checkpoint")
+    assert not restore(tmp_path, job, None)
+    outside = {**job, "path": "../outside.json.gz"}
+    with pytest.raises(ValueError, match="escapes"):
+        restore(tmp_path, outside, "https://authorized.invalid/checkpoint")
+    wrong = {**job, "path": "artifacts/other.json.gz", "lineage": {"fixture": False}}
+    with pytest.raises(ValueError, match="lineage differs"):
+        restore(tmp_path, wrong, "https://authorized.invalid/checkpoint")
+    assert not (tmp_path / wrong["path"]).exists()
