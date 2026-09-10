@@ -1,0 +1,3211 @@
+{
+  "artifact_manifest": [
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/5530066c7da01b552e080a36b69f01e349b9093cf117e70982d88c5e1e05036f.json.gz",
+      "preterminal_sha256": "fa873d1b3f690d1ecba99cc41a5db5e2c0e50a39e3b2e793268a98ccc513ff24",
+      "seat": 0,
+      "seed": 1501,
+      "semantic_sha256": "c92a2bd40436dbde9850fd4747e6e1f0518c4451f0408ed4b3fe44ac8da82ff9",
+      "sha256": "e3b8aa8a8fa4a51917df5405eddf96284de217db53364b6f18fbedd65b4be1ea"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/bbb5d23cc8b767ef10e9773a5384cc87c320d6094d43c22e1d2113b455b48538.json.gz",
+      "preterminal_sha256": "fa873d1b3f690d1ecba99cc41a5db5e2c0e50a39e3b2e793268a98ccc513ff24",
+      "seat": 0,
+      "seed": 1501,
+      "semantic_sha256": "fa2fd7da133d7f103ec8998b00a9593bbb8312e09b2a1d29dd9cb08610f06763",
+      "sha256": "e42908e73b61b502a3ab087cccb434302b2f9562f1d7216f5d6521fda497a68b"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/3fa4f7398b9ade8a04f8f9276075747abd4673faa71b4a59d02d8e5fade848f4.json.gz",
+      "preterminal_sha256": "fa873d1b3f690d1ecba99cc41a5db5e2c0e50a39e3b2e793268a98ccc513ff24",
+      "seat": 0,
+      "seed": 1501,
+      "semantic_sha256": "1246670e50e7112b01e8860367e4dc90a87a99d364c156d91d112edfd0dd76ec",
+      "sha256": "9b97f5bcf34cf771dcb36751a2309bce028a58f1186ac9fe2eadd600c47418eb"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/b014b003a43b6159434af80448ebfeb974029f89bcd85668786bb5dea4f73232.json.gz",
+      "preterminal_sha256": "5cabacfaca1e2af98f71fcf1cb9317cde98e97f17de51314b2f9827a7b2b1b91",
+      "seat": 0,
+      "seed": 1501,
+      "semantic_sha256": "f5771feb3befbbab65583d8e61fafb9b5a686aac737b28af1876e3363c7a2f01",
+      "sha256": "5bfebb865dea4a75ae001fb1fbbbd1bb147552ddc8054f86449a53ae9ac55582"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/18c40fc2e8ab2fbb9ef16e2eb9ed39df5bc0c8ddd849f6be2a1d8f4f60604dfc.json.gz",
+      "preterminal_sha256": "5cabacfaca1e2af98f71fcf1cb9317cde98e97f17de51314b2f9827a7b2b1b91",
+      "seat": 0,
+      "seed": 1501,
+      "semantic_sha256": "b44de8fb06d9fa5550c2fecafd10a86bf8688bf15e617bf1d8c0a9f77fa849b7",
+      "sha256": "7a035afcfe3c629108de65fe2d795ec53c542fafdba63601552b33e338f9845a"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/d06ef1636d4d0448ff4b337550d68bd1ece635526030a3ad658618308674f531.json.gz",
+      "preterminal_sha256": "5cabacfaca1e2af98f71fcf1cb9317cde98e97f17de51314b2f9827a7b2b1b91",
+      "seat": 0,
+      "seed": 1501,
+      "semantic_sha256": "f5b4cb6f3d4d441544d2f02b6fc9c37500cca5f44fef83abf8900d9e7931bc6d",
+      "sha256": "56b3e913d1d1bf117f8ab19ea33f7ffe31406c227c5139a70c738b95cc47a1c0"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/3c5563cb1a58127d6cbfa84f75cba5da2b5c47c34e1e8d767110d563d650fa1f.json.gz",
+      "preterminal_sha256": "214e068814d91bde40a9fe97a47b742628094613f4803dd399a2a9982b1cfeb2",
+      "seat": 1,
+      "seed": 1501,
+      "semantic_sha256": "517076907361d326a4768ce37348052a975cabcbde81fd303083c51a58501c5d",
+      "sha256": "fc826bafed657589c5bda4b3db5cb936c5827dbd161769d7a163c3e5733d1977"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/f80b049a8d5d629f93e4e504cacfec0636952bcfbddc62f442501e2d2040c517.json.gz",
+      "preterminal_sha256": "214e068814d91bde40a9fe97a47b742628094613f4803dd399a2a9982b1cfeb2",
+      "seat": 1,
+      "seed": 1501,
+      "semantic_sha256": "c9ff1185c1558797cbf4e2b9c25faae0eeacbe3aedfd3445bc8f2073774ff40b",
+      "sha256": "192dc25ce8506e8a10e96dc56c358e78a1e7c4fbb2f2e2a49d45e55ad5ff644f"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/cabd94993e52823d01da2f1a9251bbf2bb2287e46d62c46783bf3ea8b3306012.json.gz",
+      "preterminal_sha256": "214e068814d91bde40a9fe97a47b742628094613f4803dd399a2a9982b1cfeb2",
+      "seat": 1,
+      "seed": 1501,
+      "semantic_sha256": "39bf65a8cdf1800ed92d6272d18414d26c73258fa8600585d0d735fba2e1ca73",
+      "sha256": "c52062beb5605ab0bfa79fe3446b282de75bc77b1a5cd446aa882e792a2ca739"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/5f9265422a5a5d03329c3de224a0c109894af336a60144b25be49b006660157c.json.gz",
+      "preterminal_sha256": "4ac3b86a3d1201d27c9b5440a6e2e26f448b07396fefd06dd25e839da781a880",
+      "seat": 1,
+      "seed": 1501,
+      "semantic_sha256": "87f645bb7546b4d4b6c27a867f0f4bdd2cfc32db8e834f189520d68a8c06a90d",
+      "sha256": "9297228bcf665cc5cb6938cc1970b029a41482f4b794b87cb5022de11483ec28"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/74eac075691b8ca90252aae0f5f1c40e97a7b81328d9e3edceabf9e11556290f.json.gz",
+      "preterminal_sha256": "4ac3b86a3d1201d27c9b5440a6e2e26f448b07396fefd06dd25e839da781a880",
+      "seat": 1,
+      "seed": 1501,
+      "semantic_sha256": "15bc21358b513f461d1027650bb969fe2b8244bb39db92b6f72cac240fe4f24b",
+      "sha256": "af07f3541c710cd8835c5926aa9c7cf4a808c79fd03a18558e3fe4a96fa06c5f"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/f6550831673fe21d37032b939d88356a9843469d19d94462b756048ea18d21dd.json.gz",
+      "preterminal_sha256": "4ac3b86a3d1201d27c9b5440a6e2e26f448b07396fefd06dd25e839da781a880",
+      "seat": 1,
+      "seed": 1501,
+      "semantic_sha256": "37c298507c7e376c4ba61f890bde81d66f4f010511dc852fb3bd40b32bf737e0",
+      "sha256": "ac82c909e9d2fc19127d04feb51e308824a4672a7fa7965a3d8428077847852b"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/c7a79d7bfb5838110cc2e664de6b2be7a5983a44c6a660bc22cfdad2a8b02a7a.json.gz",
+      "preterminal_sha256": "d12ce91b9bbfcc71314ef947c4aff759f092933c0fed220d0e9f9a631246466a",
+      "seat": 0,
+      "seed": 1502,
+      "semantic_sha256": "335ad82817b1b620be9bc9c5975b1806d9f0967545ec04afdf3aa1dd2603bebe",
+      "sha256": "3e96daaac0bf5822204bfdc8edd574e3268ba9c967935ce5bd2df87157a000a7"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/d05a89347f0e737940446c63b9bd45d0c0d4cccf9424e7a297a192d3165b5322.json.gz",
+      "preterminal_sha256": "d12ce91b9bbfcc71314ef947c4aff759f092933c0fed220d0e9f9a631246466a",
+      "seat": 0,
+      "seed": 1502,
+      "semantic_sha256": "32944d0397f3f947bd1113ca3fd0d8d582f37b25a7da05945871777321ad5190",
+      "sha256": "3c7bae76fc73e6daf7c9ed65b2fcd5e593a67e6a1c36f59176d5fff1b3bc9e21"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/608778d203657bff569ff8f83a956640e6d713879285d514f4b75522a802045a.json.gz",
+      "preterminal_sha256": "d12ce91b9bbfcc71314ef947c4aff759f092933c0fed220d0e9f9a631246466a",
+      "seat": 0,
+      "seed": 1502,
+      "semantic_sha256": "8ba63166c2fa0b6fd416fc8b59364b0a61dcd97ee699cff9cbaab23e2ae4562c",
+      "sha256": "084be07308f5692921981229f7846e20667dd54487bca429f644b70992d1e749"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/f4bbfe0bc7b1861828080f9fd349e93e529cac73811eb0183a567b2e00317417.json.gz",
+      "preterminal_sha256": "e01c8d0c1b4ba2dd8d693f20ff3e4ce492ca726af067a6087970bf9e64651563",
+      "seat": 0,
+      "seed": 1502,
+      "semantic_sha256": "08adc2cb73a8838be3f78c18457010234b6f27e5c0553e59e252342e95711bf5",
+      "sha256": "295d1d515509a4ccbcca1008babb2c1a632d191313e048bd28e5c4df01583210"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/a0947c97121abb67b8e65320a8a99ef5c03b308d0cdc03c7bb14fd8eec7bf463.json.gz",
+      "preterminal_sha256": "e01c8d0c1b4ba2dd8d693f20ff3e4ce492ca726af067a6087970bf9e64651563",
+      "seat": 0,
+      "seed": 1502,
+      "semantic_sha256": "965b44a08c5c32dde410bc9644ff46ffd4d65a4fee30fd2d48708d008c6767cc",
+      "sha256": "4641caba0df77679e11ee23ddd5baf8345c8be497aaacb04df37d1316a7923a7"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/f2a1e9b2b24747aaf07b8f1b785d0a68d0e3fb6fe47362bd8facf3cca0cc668e.json.gz",
+      "preterminal_sha256": "e01c8d0c1b4ba2dd8d693f20ff3e4ce492ca726af067a6087970bf9e64651563",
+      "seat": 0,
+      "seed": 1502,
+      "semantic_sha256": "4a0030fc0b15e4aba57520d523fcbadd13c79e632f151ca77ee1f8841d86b0fd",
+      "sha256": "8f10b31ae5682d7b73d97df1842656995cd29a119adc2a84ab29f6367e74765c"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/5f4574db4eea8c60fed4e8dd5daf38de52fc2b2b46fc0d172888df222d9fe4c4.json.gz",
+      "preterminal_sha256": "88b369673a4db9349a4d548780198a81b773c7b3aaa3302f15404bd8372f27bc",
+      "seat": 1,
+      "seed": 1502,
+      "semantic_sha256": "4add43db1b90192b38f1db75d507df827623e6c4025abbb7ae7eaf2245e943ab",
+      "sha256": "07f9c349497517d3297b52378a09697848a9f374f4f504ae09f8a2ddd07caf26"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/a0e057f89064cdd52ff91abc2ec2e4675fdc235dad93a26fd83d4a7433299c06.json.gz",
+      "preterminal_sha256": "88b369673a4db9349a4d548780198a81b773c7b3aaa3302f15404bd8372f27bc",
+      "seat": 1,
+      "seed": 1502,
+      "semantic_sha256": "e45a691391001a9cc2276616b32e8bbf4b8d6cc7b380a2749fcef88f1a9669db",
+      "sha256": "424d7f994f0eeacd871753ac8fcc65bb7ac695f67e04dbf3b00f02a8a511c2dc"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/c3805d624e9a1aa733289306b7322165e5c5765b4aedd11c85ba73ee24f73e7f.json.gz",
+      "preterminal_sha256": "88b369673a4db9349a4d548780198a81b773c7b3aaa3302f15404bd8372f27bc",
+      "seat": 1,
+      "seed": 1502,
+      "semantic_sha256": "b66fe3937791b857c6dcc0d525303550798700df7395c253b56e85b885b19f81",
+      "sha256": "f791b2d518384e1ec508e7fa7183d80f86f79ebc59cd8cc61d32f984c650c788"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/5a130179707a1d3a55d40b07b165292acacb933ac4d1a3fef4a1d4ad230fa5dc.json.gz",
+      "preterminal_sha256": "bb108e60647972b2771e053567c43a70bc6d3abec289b117025960422ba77017",
+      "seat": 1,
+      "seed": 1502,
+      "semantic_sha256": "a059bd5b5665416be686b776ea659392da6377e3cfba6dcb97a7a1991c3210cc",
+      "sha256": "4b4a4f3b26115c5e2a4c2f91c3845267ffc1dccae2bd9df3cf078dba30f1f69b"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/b59307a1e9d671491fc7c13cd4c64a2b7d9c3a575171d841870e52b0791ab916.json.gz",
+      "preterminal_sha256": "bb108e60647972b2771e053567c43a70bc6d3abec289b117025960422ba77017",
+      "seat": 1,
+      "seed": 1502,
+      "semantic_sha256": "cb4b899e005d06c3f267aad95ef61592cf62274122575ff4aa5aa14f791bffc2",
+      "sha256": "e25c140fdfb630642148b139b5bd9d59c845360e3b0c754a94f9b7b392216de8"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/90f80c3cf5f7dfa85e75e6fac5a5b1f2f8b9fb49d1efde5e385d7229778c63a9.json.gz",
+      "preterminal_sha256": "bb108e60647972b2771e053567c43a70bc6d3abec289b117025960422ba77017",
+      "seat": 1,
+      "seed": 1502,
+      "semantic_sha256": "8b7470e3aed361395a4aea55dba5013842edbbdf3170ea16fd65091541505169",
+      "sha256": "107b5141137674f1f3f0dc26adc05cd20b783a8f8f0d56b2b477b66291123f98"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/18c16b24424af5ce3ec5f173eb5c2214f476dbd49a67de398248e348fea8f86c.json.gz",
+      "preterminal_sha256": "c65f901d8b9a134ec9c4e8dfc3eb808b6db35dde70f83513a3d1035222f6b35e",
+      "seat": 0,
+      "seed": 1503,
+      "semantic_sha256": "dbb478dd6c11e394900eb5aa335e9eb6ab81883753b327eef717c9aa5402a0b8",
+      "sha256": "d44a863095270c96a5779805a667c954b27dee68b473ce3f422bf36350483964"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/9ff05577134741d68f04c5fc30851e537e837451f8d4321bc95f73442706cd7f.json.gz",
+      "preterminal_sha256": "c65f901d8b9a134ec9c4e8dfc3eb808b6db35dde70f83513a3d1035222f6b35e",
+      "seat": 0,
+      "seed": 1503,
+      "semantic_sha256": "c843b249eb0b182868038f0e94dea2ca8bdfe263b0a2de625d0a4b5f08f68d0d",
+      "sha256": "94c264e92be01a6ec9bb1af31046757b3a6e1936c03472d64c7119035b3f5c83"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/1f0959771591c511e69175569dd5e93ec1a9682e9291480ef0846efa2ce75e33.json.gz",
+      "preterminal_sha256": "c65f901d8b9a134ec9c4e8dfc3eb808b6db35dde70f83513a3d1035222f6b35e",
+      "seat": 0,
+      "seed": 1503,
+      "semantic_sha256": "3a47a350314d15634b27ca99bb818da302662f0187d4b20bd3191e5cbc1f94ce",
+      "sha256": "08d58326391ac58459140e3fc17cf7c35129b89a8e4550f08b3f86690274b7a6"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/b11b1b9db1d479580db80f384c60a4d9752a558bf0155e9cf91d3dc4e3a69f77.json.gz",
+      "preterminal_sha256": "6fe42341565cbc4233c1c642d66a5fd4eb18ef962865262caac16fc8b46243db",
+      "seat": 0,
+      "seed": 1503,
+      "semantic_sha256": "179ff5eb24fbdc90ea6fdc7b3c6ff95a000e68f9677e7b22592e302073a3fa9d",
+      "sha256": "f9b40102b0988dc096e929477b17bda57b65fc12a1a38ba10ded1655eadc41d6"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/bd657867508ff96d434c3d7a4a31929cad1712c435342153bf99f0ae76c12aea.json.gz",
+      "preterminal_sha256": "6fe42341565cbc4233c1c642d66a5fd4eb18ef962865262caac16fc8b46243db",
+      "seat": 0,
+      "seed": 1503,
+      "semantic_sha256": "29266bd07b408d13b4c9913d5dd8ffde5f98a2cf3f768b8ab1b1cb6981bee83e",
+      "sha256": "cf6caffd02ebabecd40ef5b809164b505c714c8258bc4e6a767d57d57d7fbbe6"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/4260c93d558258effb83314d48f04635ccf9f6892c71d8b897ceba85e564f017.json.gz",
+      "preterminal_sha256": "6fe42341565cbc4233c1c642d66a5fd4eb18ef962865262caac16fc8b46243db",
+      "seat": 0,
+      "seed": 1503,
+      "semantic_sha256": "8637c58794c777c74bfe7a697a82b5b33454b5518d1951207d2f8d7703ea36e0",
+      "sha256": "47d029f765975f89d96e39d88c8e0f74c818a68495517e02de4a4a3b9c5bf03c"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/fe3082334d90626fc72102a011b5aa4bd0042c552a2e7f9c9f766a6cd34f71a8.json.gz",
+      "preterminal_sha256": "d914a95211a285cef0cb1ea8f96a35b60e8d4349ae10ac5506c417c1b0fc0979",
+      "seat": 1,
+      "seed": 1503,
+      "semantic_sha256": "e1c31b7005560e790ceb81e9da77ea9039a5c84b67e33d77d47bec8dd50fd068",
+      "sha256": "d5535c5bd6437b8818221785be45496417bcfce8916e000da74842da1cabe8b6"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/ffc4bcf6e99586941e5a706af26ea64b8f9fa4cb7d4b1247dfffc00034f3e34d.json.gz",
+      "preterminal_sha256": "d914a95211a285cef0cb1ea8f96a35b60e8d4349ae10ac5506c417c1b0fc0979",
+      "seat": 1,
+      "seed": 1503,
+      "semantic_sha256": "2efaa52afee0a0ad1c444f1d09aeffd7071b7a537dd44d721b7bc0fad7639ac4",
+      "sha256": "d965b9f4487d3e6f7b1e547d9ffe9bf39a0048943d5348071b655051a93d7853"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/ac92b1bbc75ec274fe8f06904dc03197e54a685cb0c822be44bf6d879d9c5ec8.json.gz",
+      "preterminal_sha256": "d914a95211a285cef0cb1ea8f96a35b60e8d4349ae10ac5506c417c1b0fc0979",
+      "seat": 1,
+      "seed": 1503,
+      "semantic_sha256": "87322fa384c67ac17d582f4ed4e991446121b09b7d9195bfe156ea63395896ef",
+      "sha256": "c0cae81c51ba47678a25e074c3b222e2a35399da1b5e27d4823a9f5d523b1070"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/9b4f79fb7066cde4b4512ea55650d8616b3d8c46f8325de1a118417af3720edf.json.gz",
+      "preterminal_sha256": "fe87e59d7c8eb05e2807db3c39a642206617a0941a664003a53c33b5cc5ebdc6",
+      "seat": 1,
+      "seed": 1503,
+      "semantic_sha256": "6b6cbf9be82f5b9a1a5355dd38ee70206811473f0ba128e4cffa0f9858fcef10",
+      "sha256": "01699aaf10c1e20d4bd34d0318074568ea6cf767f5340301a1b15c8088777ff0"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/491a561547f3400895ce901c506633fb7c3be9336436b620dcc042a1479a7b15.json.gz",
+      "preterminal_sha256": "fe87e59d7c8eb05e2807db3c39a642206617a0941a664003a53c33b5cc5ebdc6",
+      "seat": 1,
+      "seed": 1503,
+      "semantic_sha256": "cadae335cc25d2d6813a6d096b855be5b216fc9832f0b23d48b43ea4b1e61113",
+      "sha256": "a2c4a03ee65bd0abb52bc29ab4c1c356c227c822c2da81b7d71876ef9b97f083"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/f4688269803e8996d8a9867c912e61f96239a2dc804d1e0052deb2aeb83c3803.json.gz",
+      "preterminal_sha256": "fe87e59d7c8eb05e2807db3c39a642206617a0941a664003a53c33b5cc5ebdc6",
+      "seat": 1,
+      "seed": 1503,
+      "semantic_sha256": "405d6f38220b785f96686282d44af0157c0503036561273d7bff836a7561fb2d",
+      "sha256": "3628644805890746ae1d3cbfbdcceaab995411b89638b18707539a85120ed809"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/09c5740d478c117fad778d661569632cf99ea3c51a3f8df8898fb025ee1348a9.json.gz",
+      "preterminal_sha256": "24ec7f8e2a171829fcf16d038c4662f88e438d2f76992d8379067ac445f76be7",
+      "seat": 0,
+      "seed": 1504,
+      "semantic_sha256": "6e6d007f04f9242f72ffe4609b2cf4db952ef79803b53ff3a9e54db40718a590",
+      "sha256": "7a6cd10009848643d79267369ec2f71a6e7f71181a198a20390f1e490de41e79"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/2d46eeecc26bf4bb886927ed74c5f2bbc103ec4acf90648f2d3cdb97e0ccb61a.json.gz",
+      "preterminal_sha256": "24ec7f8e2a171829fcf16d038c4662f88e438d2f76992d8379067ac445f76be7",
+      "seat": 0,
+      "seed": 1504,
+      "semantic_sha256": "dfa9e02d2ca0be074f5369db103c3dd37632fe8e833e95120ede01a402b92fa6",
+      "sha256": "2117c596e0b798a8c594103949ea2ca10671a2de502bf15eef5f4fc44aeda434"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/a2b8ba27aefdeb418ee66482ed4f2eaa481b1ed9ffc9a0b886a97eaa1a51f86c.json.gz",
+      "preterminal_sha256": "24ec7f8e2a171829fcf16d038c4662f88e438d2f76992d8379067ac445f76be7",
+      "seat": 0,
+      "seed": 1504,
+      "semantic_sha256": "a0c8a51f59b8f1da7a42a6267dd1cc5e608aa862106f39447611ac8d90f17600",
+      "sha256": "d5e97397ce6028748129e82923f80bd8a8e73a6ad56b2c4711e0204a37bb58f1"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/3c3a5ec201e65e3a5f1deb70efcdcbdb7a154c41289d558ee234e2818f0166cf.json.gz",
+      "preterminal_sha256": "bb6b3aa589d1ec0a2556dcc8f017d88c5bed0309acc785c60b12b2b45bacee66",
+      "seat": 0,
+      "seed": 1504,
+      "semantic_sha256": "9009f13a95cdd4ca5d62152a45ed16ad076fff6521e12ca4061b45ab3f8fd9ac",
+      "sha256": "b71f14f0e78e09a57218f037e1c2866a88586c98f06dc65d151ab7ab0161dfb9"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/7166b9b6bc559241d2645e6b7108995ab47ce5046a120b256efdff050ad5b4fb.json.gz",
+      "preterminal_sha256": "bb6b3aa589d1ec0a2556dcc8f017d88c5bed0309acc785c60b12b2b45bacee66",
+      "seat": 0,
+      "seed": 1504,
+      "semantic_sha256": "d9000231fc7ee94c72943d3e8a2cf61b3f3daeaa772abe6c23c430946b85998e",
+      "sha256": "6359f9bb69fe7fd20b4e3f6e15aa51d5dba228f160e12196e36a9d2ce00e22de"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/e565e37df5da89d8be8e12e06a4b5fae145f4bfb0b81dabc06439775ff31b5d3.json.gz",
+      "preterminal_sha256": "bb6b3aa589d1ec0a2556dcc8f017d88c5bed0309acc785c60b12b2b45bacee66",
+      "seat": 0,
+      "seed": 1504,
+      "semantic_sha256": "f2ac97e0442776f941755fd57fa35c1f7d6497fd52d99f56c5c691f678ff97d5",
+      "sha256": "420ee496c2147db53965a9acafcae4c7c5c6e6f5d0aa6b7222501ae06eabfe07"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/349c50d01b56b79023defc54c0efeb2d68354c4d4e50d4f1cfb8b39327a009a9.json.gz",
+      "preterminal_sha256": "bc43445cb445a37f277247fb8db5e86799a494d0e6d6c419fca9d62f1626f91a",
+      "seat": 1,
+      "seed": 1504,
+      "semantic_sha256": "84cb882cd4c57e0d19b58821948eb6d15f51fa2f336cbb30ba863ad63eaee082",
+      "sha256": "da56dd3a31a0e312ba9e64871d563e2f16121173da838ad84535e0fbd5ca8d2f"
+    },
+    {
+      "arm": "feed",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/96876c8aca85e69c39de382e4badc50e48c60b6e66be406c2fc7206e655f00ef.json.gz",
+      "preterminal_sha256": "bc43445cb445a37f277247fb8db5e86799a494d0e6d6c419fca9d62f1626f91a",
+      "seat": 1,
+      "seed": 1504,
+      "semantic_sha256": "680d39c5940f19e7b542aef87d37853f0ec1b11afff2a39951bc7d0346f4cd40",
+      "sha256": "48ed7afbb26996f386887ad8ed04dc01240aec469c7eae34983622bc2961a23a"
+    },
+    {
+      "arm": "joint",
+      "opponent": "livestock_fertilizer",
+      "path": "artifacts/terminal_episodes/83c50779d94bbda913cab7e714644c05baa9c96788cc5efa6cf381dac4e4464f.json.gz",
+      "preterminal_sha256": "bc43445cb445a37f277247fb8db5e86799a494d0e6d6c419fca9d62f1626f91a",
+      "seat": 1,
+      "seed": 1504,
+      "semantic_sha256": "3345dba78e9144486dd5151164506196bbf1146d9f3dc547c30d1461c2cbde4f",
+      "sha256": "5dc6a60e3dbec86db49dfe9065b82f0dc0863509bdffdb341ea2594a5743182d"
+    },
+    {
+      "arm": "baseline",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/318e486fd9135f3570f8feca915adcd389c1caf9d83c42a24fc264fc1ca2ed90.json.gz",
+      "preterminal_sha256": "4c8418842af92f91f73590051d775d0e5280d936abb09dcc39162dcd228210d2",
+      "seat": 1,
+      "seed": 1504,
+      "semantic_sha256": "3a3817e40cbc16898a92c6f99b5621aa7bb2a4d5a6af587de7bf7d249a14a86c",
+      "sha256": "b086a0afd5fb6d3cb85abcc6ea9edde4dcd393f0b54ff4667f9b24be058dc74c"
+    },
+    {
+      "arm": "feed",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/0ca578cbecad66e047f2a484b341b0d950c3e45fb1a60d62c26eb2b3c584d3d7.json.gz",
+      "preterminal_sha256": "4c8418842af92f91f73590051d775d0e5280d936abb09dcc39162dcd228210d2",
+      "seat": 1,
+      "seed": 1504,
+      "semantic_sha256": "70690d842109bb45b860408b81250a252db82b9b1a382a945fd12d75584f9374",
+      "sha256": "34c35a3abf61e7d16e97ca26bf266dd9b2caf921dad03bb08d495d966c41fde1"
+    },
+    {
+      "arm": "joint",
+      "opponent": "melon_specialist",
+      "path": "artifacts/terminal_episodes/269850adbc6d7b7cf36002a95dbf48153afbdb786f541c6bdb36591e5119f476.json.gz",
+      "preterminal_sha256": "4c8418842af92f91f73590051d775d0e5280d936abb09dcc39162dcd228210d2",
+      "seat": 1,
+      "seed": 1504,
+      "semantic_sha256": "11c2449e731b579fca697d6160c072acf5c53a1f6700831a63db79040e7d588d",
+      "sha256": "a28b0f398211489d95ea2f4fb0fe15f54f0c33bbd9d12731aae15b5de622bef5"
+    }
+  ],
+  "effects": [
+    {
+      "bootstrap_high": 0.25,
+      "bootstrap_low": -0.25,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "match_score",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-0.25,\"1502\":-0.25,\"1503\":0.25,\"1504\":0.25}"
+    },
+    {
+      "bootstrap_high": 698.5,
+      "bootstrap_low": 153.75,
+      "contrast": "feed-baseline",
+      "effect": 426.125,
+      "metric": "coins",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":160.5,\"1502\":147.0,\"1503\":533.0,\"1504\":864.0}"
+    },
+    {
+      "bootstrap_high": 702.25,
+      "bootstrap_low": 155.0,
+      "contrast": "feed-baseline",
+      "effect": 428.625,
+      "metric": "coin_margin",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":162.0,\"1502\":148.0,\"1503\":535.5,\"1504\":869.0}"
+    },
+    {
+      "bootstrap_high": -2.5,
+      "bootstrap_low": -2.5,
+      "contrast": "feed-baseline",
+      "effect": -2.5,
+      "metric": "fed_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-2.5,\"1502\":-2.5,\"1503\":-2.5,\"1504\":-2.5}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "commands_CARE",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "applied_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "escaped_animals",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": -2.5,
+      "bootstrap_low": -2.5,
+      "contrast": "feed-baseline",
+      "effect": -2.5,
+      "metric": "terminal_feed",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-2.5,\"1502\":-2.5,\"1503\":-2.5,\"1504\":-2.5}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "terminal_noops",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 1.0,
+      "bootstrap_low": -6.0,
+      "contrast": "feed-baseline",
+      "effect": -2.125,
+      "metric": "residual_product_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":2.0,\"1503\":-8.0,\"1504\":-2.5}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "uncollected_manure_slots",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "overflow_production_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.5,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.25,
+      "metric": "match_score",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.5,\"1502\":0.5,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 674.0,
+      "bootstrap_low": -30.5,
+      "contrast": "joint-feed",
+      "effect": 321.75,
+      "metric": "coins",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":501.0,\"1502\":847.0,\"1503\":-193.0,\"1504\":132.0}"
+    },
+    {
+      "bootstrap_high": 670.5,
+      "bootstrap_low": -35.5,
+      "contrast": "joint-feed",
+      "effect": 317.5,
+      "metric": "coin_margin",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":497.5,\"1502\":843.5,\"1503\":-196.5,\"1504\":125.5}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "fed_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "commands_CARE",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "applied_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "escaped_animals",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "terminal_feed",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "terminal_noops",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": -1.0,
+      "bootstrap_low": -7.0,
+      "contrast": "joint-feed",
+      "effect": -3.75,
+      "metric": "residual_product_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-4.0,\"1502\":-8.5,\"1503\":0.0,\"1504\":-2.5}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "uncollected_manure_slots",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "overflow_production_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.25,
+      "bootstrap_low": 0.25,
+      "contrast": "joint-baseline",
+      "effect": 0.25,
+      "metric": "match_score",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.25,\"1502\":0.25,\"1503\":0.25,\"1504\":0.25}"
+    },
+    {
+      "bootstrap_high": 995.0,
+      "bootstrap_low": 500.75,
+      "contrast": "joint-baseline",
+      "effect": 747.875,
+      "metric": "coins",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":661.5,\"1502\":994.0,\"1503\":340.0,\"1504\":996.0}"
+    },
+    {
+      "bootstrap_high": 993.0,
+      "bootstrap_low": 499.25,
+      "contrast": "joint-baseline",
+      "effect": 746.125,
+      "metric": "coin_margin",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":659.5,\"1502\":991.5,\"1503\":339.0,\"1504\":994.5}"
+    },
+    {
+      "bootstrap_high": -2.5,
+      "bootstrap_low": -2.5,
+      "contrast": "joint-baseline",
+      "effect": -2.5,
+      "metric": "fed_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-2.5,\"1502\":-2.5,\"1503\":-2.5,\"1504\":-2.5}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "commands_CARE",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "applied_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "escaped_animals",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": -2.5,
+      "bootstrap_low": -2.5,
+      "contrast": "joint-baseline",
+      "effect": -2.5,
+      "metric": "terminal_feed",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-2.5,\"1502\":-2.5,\"1503\":-2.5,\"1504\":-2.5}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "terminal_noops",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": -4.5,
+      "bootstrap_low": -7.25,
+      "contrast": "joint-baseline",
+      "effect": -5.875,
+      "metric": "residual_product_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-4.0,\"1502\":-6.5,\"1503\":-8.0,\"1504\":-5.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "uncollected_manure_slots",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "overflow_production_units",
+      "opponent": "pooled",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.5,
+      "bootstrap_low": -0.5,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "match_score",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-0.5,\"1502\":-0.5,\"1503\":0.5,\"1504\":0.5}"
+    },
+    {
+      "bootstrap_high": 958.25,
+      "bootstrap_low": -448.5,
+      "contrast": "feed-baseline",
+      "effect": 243.75,
+      "metric": "coins",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-319.0,\"1502\":-578.0,\"1503\":488.0,\"1504\":1384.0}"
+    },
+    {
+      "bootstrap_high": 966.5,
+      "bootstrap_low": -446.0,
+      "contrast": "feed-baseline",
+      "effect": 248.75,
+      "metric": "coin_margin",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-316.0,\"1502\":-576.0,\"1503\":493.0,\"1504\":1394.0}"
+    },
+    {
+      "bootstrap_high": -2.0,
+      "bootstrap_low": -2.0,
+      "contrast": "feed-baseline",
+      "effect": -2.0,
+      "metric": "fed_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-2.0,\"1502\":-2.0,\"1503\":-2.0,\"1504\":-2.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "commands_CARE",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "applied_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "escaped_animals",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": -2.0,
+      "bootstrap_low": -2.0,
+      "contrast": "feed-baseline",
+      "effect": -2.0,
+      "metric": "terminal_feed",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-2.0,\"1502\":-2.0,\"1503\":-2.0,\"1504\":-2.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "terminal_noops",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 4.0,
+      "bootstrap_low": -7.5,
+      "contrast": "feed-baseline",
+      "effect": -1.75,
+      "metric": "residual_product_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":3.0,\"1502\":5.0,\"1503\":-7.0,\"1504\":-8.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "uncollected_manure_slots",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "overflow_production_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 1.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.5,
+      "metric": "match_score",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":1.0,\"1502\":1.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 808.0,
+      "bootstrap_low": -90.5,
+      "contrast": "joint-feed",
+      "effect": 358.75,
+      "metric": "coins",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":591.0,\"1502\":1025.0,\"1503\":-89.0,\"1504\":-92.0}"
+    },
+    {
+      "bootstrap_high": 801.0,
+      "bootstrap_low": -100.5,
+      "contrast": "joint-feed",
+      "effect": 350.25,
+      "metric": "coin_margin",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":584.0,\"1502\":1018.0,\"1503\":-96.0,\"1504\":-105.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "fed_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "commands_CARE",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "applied_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "escaped_animals",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "terminal_feed",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "terminal_noops",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": -0.5,
+      "bootstrap_low": -9.25,
+      "contrast": "joint-feed",
+      "effect": -4.5,
+      "metric": "residual_product_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-5.0,\"1502\":-12.0,\"1503\":0.0,\"1504\":-1.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "uncollected_manure_slots",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "overflow_production_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.5,
+      "bootstrap_low": 0.5,
+      "contrast": "joint-baseline",
+      "effect": 0.5,
+      "metric": "match_score",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.5,\"1502\":0.5,\"1503\":0.5,\"1504\":0.5}"
+    },
+    {
+      "bootstrap_high": 1068.75,
+      "bootstrap_low": 315.75,
+      "contrast": "joint-baseline",
+      "effect": 602.5,
+      "metric": "coins",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":272.0,\"1502\":447.0,\"1503\":399.0,\"1504\":1292.0}"
+    },
+    {
+      "bootstrap_high": 1066.0,
+      "bootstrap_low": 311.5,
+      "contrast": "joint-baseline",
+      "effect": 599.0,
+      "metric": "coin_margin",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":268.0,\"1502\":442.0,\"1503\":397.0,\"1504\":1289.0}"
+    },
+    {
+      "bootstrap_high": -2.0,
+      "bootstrap_low": -2.0,
+      "contrast": "joint-baseline",
+      "effect": -2.0,
+      "metric": "fed_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-2.0,\"1502\":-2.0,\"1503\":-2.0,\"1504\":-2.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "commands_CARE",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "applied_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "escaped_animals",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": -2.0,
+      "bootstrap_low": -2.0,
+      "contrast": "joint-baseline",
+      "effect": -2.0,
+      "metric": "terminal_feed",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-2.0,\"1502\":-2.0,\"1503\":-2.0,\"1504\":-2.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "terminal_noops",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": -3.25,
+      "bootstrap_low": -8.5,
+      "contrast": "joint-baseline",
+      "effect": -6.25,
+      "metric": "residual_product_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-2.0,\"1502\":-7.0,\"1503\":-7.0,\"1504\":-9.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "uncollected_manure_slots",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "overflow_production_units",
+      "opponent": "livestock_fertilizer",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "match_score",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 798.5,
+      "bootstrap_low": 418.0,
+      "contrast": "feed-baseline",
+      "effect": 608.5,
+      "metric": "coins",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":640.0,\"1502\":872.0,\"1503\":578.0,\"1504\":344.0}"
+    },
+    {
+      "bootstrap_high": 798.5,
+      "bootstrap_low": 418.0,
+      "contrast": "feed-baseline",
+      "effect": 608.5,
+      "metric": "coin_margin",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":640.0,\"1502\":872.0,\"1503\":578.0,\"1504\":344.0}"
+    },
+    {
+      "bootstrap_high": -3.0,
+      "bootstrap_low": -3.0,
+      "contrast": "feed-baseline",
+      "effect": -3.0,
+      "metric": "fed_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-3.0,\"1502\":-3.0,\"1503\":-3.0,\"1504\":-3.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "commands_CARE",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "applied_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "escaped_animals",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": -3.0,
+      "bootstrap_low": -3.0,
+      "contrast": "feed-baseline",
+      "effect": -3.0,
+      "metric": "terminal_feed",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-3.0,\"1502\":-3.0,\"1503\":-3.0,\"1504\":-3.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "terminal_noops",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 1.5,
+      "bootstrap_low": -7.0,
+      "contrast": "feed-baseline",
+      "effect": -2.5,
+      "metric": "residual_product_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-3.0,\"1502\":-1.0,\"1503\":-9.0,\"1504\":3.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "uncollected_manure_slots",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "feed-baseline",
+      "effect": 0.0,
+      "metric": "overflow_production_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "match_score",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 590.75,
+      "bootstrap_low": -120.0,
+      "contrast": "joint-feed",
+      "effect": 284.75,
+      "metric": "coins",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":411.0,\"1502\":669.0,\"1503\":-297.0,\"1504\":356.0}"
+    },
+    {
+      "bootstrap_high": 590.75,
+      "bootstrap_low": -120.0,
+      "contrast": "joint-feed",
+      "effect": 284.75,
+      "metric": "coin_margin",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":411.0,\"1502\":669.0,\"1503\":-297.0,\"1504\":356.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "fed_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "commands_CARE",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "applied_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "escaped_animals",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "terminal_feed",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "terminal_noops",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": -1.0,
+      "bootstrap_low": -4.5,
+      "contrast": "joint-feed",
+      "effect": -3.0,
+      "metric": "residual_product_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-3.0,\"1502\":-5.0,\"1503\":0.0,\"1504\":-4.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "uncollected_manure_slots",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-feed",
+      "effect": 0.0,
+      "metric": "overflow_production_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "match_score",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 1330.75,
+      "bootstrap_low": 473.5,
+      "contrast": "joint-baseline",
+      "effect": 893.25,
+      "metric": "coins",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":1051.0,\"1502\":1541.0,\"1503\":281.0,\"1504\":700.0}"
+    },
+    {
+      "bootstrap_high": 1330.75,
+      "bootstrap_low": 473.5,
+      "contrast": "joint-baseline",
+      "effect": 893.25,
+      "metric": "coin_margin",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":1051.0,\"1502\":1541.0,\"1503\":281.0,\"1504\":700.0}"
+    },
+    {
+      "bootstrap_high": -3.0,
+      "bootstrap_low": -3.0,
+      "contrast": "joint-baseline",
+      "effect": -3.0,
+      "metric": "fed_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-3.0,\"1502\":-3.0,\"1503\":-3.0,\"1504\":-3.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "commands_CARE",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "applied_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "escaped_animals",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": -3.0,
+      "bootstrap_low": -3.0,
+      "contrast": "joint-baseline",
+      "effect": -3.0,
+      "metric": "terminal_feed",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-3.0,\"1502\":-3.0,\"1503\":-3.0,\"1504\":-3.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "terminal_noops",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": -2.25,
+      "bootstrap_low": -8.25,
+      "contrast": "joint-baseline",
+      "effect": -5.5,
+      "metric": "residual_product_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":-6.0,\"1502\":-6.0,\"1503\":-9.0,\"1504\":-1.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "uncollected_manure_slots",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "joint-baseline",
+      "effect": 0.0,
+      "metric": "overflow_production_units",
+      "opponent": "melon_specialist",
+      "seed_clusters": 4,
+      "seed_differences": "{\"1501\":0.0,\"1502\":0.0,\"1503\":0.0,\"1504\":0.0}"
+    }
+  ],
+  "execution_seconds": 651.7176967889955,
+  "experiment": "terminal-routing-v1",
+  "feature_completion_gate": "open_research",
+  "games": 48,
+  "groups": [
+    {
+      "applied_units": 37.5,
+      "arm": "baseline",
+      "bought_units": 171.0,
+      "coin_margin": 0.0,
+      "coins": 46740.0,
+      "collected_units": 163.75,
+      "commands_BUILD_COOP": 2.0,
+      "commands_BUILD_PASTURE": 4.0,
+      "commands_CARE": 150.25,
+      "commands_COLLECT_FERTILIZER": 163.75,
+      "commands_DIG": 5.0,
+      "commands_DROP": 0.0,
+      "commands_EAST": 301.0,
+      "commands_FEED": 163.5,
+      "commands_FERTILIZE": 37.5,
+      "commands_HARVEST": 151.0,
+      "commands_NORTH": 360.25,
+      "commands_PASS": 0.0,
+      "commands_PICKUP": 142.75,
+      "commands_PLACE": 130.75,
+      "commands_PLANT": 36.0,
+      "commands_SOUTH": 206.5,
+      "commands_WATER": 260.5,
+      "commands_WEST": 468.25,
+      "discarded_units": 0.0,
+      "escaped_animals": 0.0,
+      "fed_units": 163.5,
+      "harvested_units": 424.0,
+      "ineffective_farm_actions": 0.0,
+      "lost_unfed_bonus_units": 0.0,
+      "match_score": 0.5,
+      "maximum_COW": 2.0,
+      "maximum_GOOSE": 2.0,
+      "maximum_SHEEP": 2.0,
+      "minimum_observed_cash": 17.0,
+      "opponent": "livestock_fertilizer",
+      "overflow_production_units": 0.0,
+      "residual_product_units": 6.25,
+      "sold_units": 551.5,
+      "state_roundtrips": 31.0,
+      "terminal_care": 0.0,
+      "terminal_drop": 0.0,
+      "terminal_feed": 2.0,
+      "terminal_noops": 0.0,
+      "terminal_pass": 9.25,
+      "terminal_units": 6.25,
+      "terminal_water": 3.25,
+      "uncollected_manure_slots": 4.75
+    },
+    {
+      "applied_units": 37.5,
+      "arm": "feed",
+      "bought_units": 171.0,
+      "coin_margin": 248.75,
+      "coins": 46983.75,
+      "collected_units": 164.0,
+      "commands_BUILD_COOP": 2.0,
+      "commands_BUILD_PASTURE": 4.0,
+      "commands_CARE": 150.25,
+      "commands_COLLECT_FERTILIZER": 164.0,
+      "commands_DIG": 5.0,
+      "commands_DROP": 0.0,
+      "commands_EAST": 302.0,
+      "commands_FEED": 161.5,
+      "commands_FERTILIZE": 37.5,
+      "commands_HARVEST": 151.25,
+      "commands_NORTH": 357.0,
+      "commands_PASS": 0.0,
+      "commands_PICKUP": 138.75,
+      "commands_PLACE": 127.0,
+      "commands_PLANT": 36.0,
+      "commands_SOUTH": 206.25,
+      "commands_WATER": 260.75,
+      "commands_WEST": 471.5,
+      "discarded_units": 0.0,
+      "escaped_animals": 0.0,
+      "fed_units": 161.5,
+      "harvested_units": 424.5,
+      "ineffective_farm_actions": 0.0,
+      "lost_unfed_bonus_units": 0.0,
+      "match_score": 0.5,
+      "maximum_COW": 2.0,
+      "maximum_GOOSE": 2.0,
+      "maximum_SHEEP": 2.0,
+      "minimum_observed_cash": 17.0,
+      "opponent": "livestock_fertilizer",
+      "overflow_production_units": 0.0,
+      "residual_product_units": 4.5,
+      "sold_units": 556.0,
+      "state_roundtrips": 31.0,
+      "terminal_care": 0.0,
+      "terminal_drop": 0.0,
+      "terminal_feed": 0.0,
+      "terminal_noops": 0.0,
+      "terminal_pass": 17.5,
+      "terminal_units": 4.5,
+      "terminal_water": 3.5,
+      "uncollected_manure_slots": 4.75
+    },
+    {
+      "applied_units": 37.5,
+      "arm": "joint",
+      "bought_units": 171.0,
+      "coin_margin": 599.0,
+      "coins": 47342.5,
+      "collected_units": 160.25,
+      "commands_BUILD_COOP": 2.0,
+      "commands_BUILD_PASTURE": 4.0,
+      "commands_CARE": 150.25,
+      "commands_COLLECT_FERTILIZER": 160.25,
+      "commands_DIG": 5.0,
+      "commands_DROP": 1.0,
+      "commands_EAST": 295.25,
+      "commands_FEED": 161.5,
+      "commands_FERTILIZE": 37.5,
+      "commands_HARVEST": 151.0,
+      "commands_NORTH": 349.5,
+      "commands_PASS": 0.0,
+      "commands_PICKUP": 138.75,
+      "commands_PLACE": 118.5,
+      "commands_PLANT": 36.0,
+      "commands_SOUTH": 201.75,
+      "commands_WATER": 258.5,
+      "commands_WEST": 458.5,
+      "discarded_units": 0.0,
+      "escaped_animals": 0.0,
+      "fed_units": 161.5,
+      "harvested_units": 424.75,
+      "ineffective_farm_actions": 0.0,
+      "lost_unfed_bonus_units": 0.0,
+      "match_score": 1.0,
+      "maximum_COW": 2.0,
+      "maximum_GOOSE": 2.0,
+      "maximum_SHEEP": 2.0,
+      "minimum_observed_cash": 17.0,
+      "opponent": "livestock_fertilizer",
+      "overflow_production_units": 0.0,
+      "residual_product_units": 0.0,
+      "sold_units": 557.0,
+      "state_roundtrips": 31.0,
+      "terminal_care": 0.0,
+      "terminal_drop": 1.0,
+      "terminal_feed": 0.0,
+      "terminal_noops": 0.0,
+      "terminal_pass": 0.0,
+      "terminal_units": 0.0,
+      "terminal_water": 1.25,
+      "uncollected_manure_slots": 4.75
+    },
+    {
+      "applied_units": 31.5,
+      "arm": "baseline",
+      "bought_units": 174.75,
+      "coin_margin": 24938.5,
+      "coins": 56013.5,
+      "collected_units": 168.25,
+      "commands_BUILD_COOP": 2.0,
+      "commands_BUILD_PASTURE": 4.0,
+      "commands_CARE": 153.5,
+      "commands_COLLECT_FERTILIZER": 168.25,
+      "commands_DIG": 4.5,
+      "commands_DROP": 0.0,
+      "commands_EAST": 296.5,
+      "commands_FEED": 166.25,
+      "commands_FERTILIZE": 31.5,
+      "commands_HARVEST": 151.5,
+      "commands_NORTH": 355.75,
+      "commands_PASS": 0.0,
+      "commands_PICKUP": 142.25,
+      "commands_PLACE": 143.5,
+      "commands_PLANT": 37.25,
+      "commands_SOUTH": 199.5,
+      "commands_WATER": 267.75,
+      "commands_WEST": 464.0,
+      "discarded_units": 0.0,
+      "escaped_animals": 0.0,
+      "fed_units": 166.25,
+      "harvested_units": 423.25,
+      "ineffective_farm_actions": 0.0,
+      "lost_unfed_bonus_units": 0.0,
+      "match_score": 1.0,
+      "maximum_COW": 2.0,
+      "maximum_GOOSE": 2.0,
+      "maximum_SHEEP": 2.0,
+      "minimum_observed_cash": 37.0,
+      "opponent": "melon_specialist",
+      "overflow_production_units": 0.0,
+      "residual_product_units": 5.5,
+      "sold_units": 563.0,
+      "state_roundtrips": 31.0,
+      "terminal_care": 0.0,
+      "terminal_drop": 0.0,
+      "terminal_feed": 3.0,
+      "terminal_noops": 0.0,
+      "terminal_pass": 9.0,
+      "terminal_units": 5.5,
+      "terminal_water": 3.25,
+      "uncollected_manure_slots": 1.25
+    },
+    {
+      "applied_units": 31.5,
+      "arm": "feed",
+      "bought_units": 174.75,
+      "coin_margin": 25547.0,
+      "coins": 56622.0,
+      "collected_units": 168.5,
+      "commands_BUILD_COOP": 2.0,
+      "commands_BUILD_PASTURE": 4.0,
+      "commands_CARE": 153.5,
+      "commands_COLLECT_FERTILIZER": 168.5,
+      "commands_DIG": 4.5,
+      "commands_DROP": 0.0,
+      "commands_EAST": 298.25,
+      "commands_FEED": 163.25,
+      "commands_FERTILIZE": 31.5,
+      "commands_HARVEST": 152.75,
+      "commands_NORTH": 353.25,
+      "commands_PASS": 0.0,
+      "commands_PICKUP": 138.25,
+      "commands_PLACE": 141.0,
+      "commands_PLANT": 37.25,
+      "commands_SOUTH": 201.0,
+      "commands_WATER": 268.25,
+      "commands_WEST": 466.75,
+      "discarded_units": 0.0,
+      "escaped_animals": 0.0,
+      "fed_units": 163.25,
+      "harvested_units": 426.0,
+      "ineffective_farm_actions": 0.0,
+      "lost_unfed_bonus_units": 0.0,
+      "match_score": 1.0,
+      "maximum_COW": 2.0,
+      "maximum_GOOSE": 2.0,
+      "maximum_SHEEP": 2.0,
+      "minimum_observed_cash": 37.0,
+      "opponent": "melon_specialist",
+      "overflow_production_units": 0.0,
+      "residual_product_units": 3.0,
+      "sold_units": 571.5,
+      "state_roundtrips": 31.0,
+      "terminal_care": 0.0,
+      "terminal_drop": 0.0,
+      "terminal_feed": 0.0,
+      "terminal_noops": 0.0,
+      "terminal_pass": 13.0,
+      "terminal_units": 3.0,
+      "terminal_water": 3.75,
+      "uncollected_manure_slots": 1.25
+    },
+    {
+      "applied_units": 31.5,
+      "arm": "joint",
+      "bought_units": 174.75,
+      "coin_margin": 25831.75,
+      "coins": 56906.75,
+      "collected_units": 164.75,
+      "commands_BUILD_COOP": 2.0,
+      "commands_BUILD_PASTURE": 4.0,
+      "commands_CARE": 153.5,
+      "commands_COLLECT_FERTILIZER": 164.75,
+      "commands_DIG": 4.5,
+      "commands_DROP": 1.0,
+      "commands_EAST": 289.0,
+      "commands_FEED": 163.25,
+      "commands_FERTILIZE": 31.5,
+      "commands_HARVEST": 152.0,
+      "commands_NORTH": 344.75,
+      "commands_PASS": 0.0,
+      "commands_PICKUP": 138.25,
+      "commands_PLACE": 131.5,
+      "commands_PLANT": 37.25,
+      "commands_SOUTH": 196.0,
+      "commands_WATER": 266.5,
+      "commands_WEST": 453.75,
+      "discarded_units": 0.0,
+      "escaped_animals": 0.0,
+      "fed_units": 163.25,
+      "harvested_units": 425.5,
+      "ineffective_farm_actions": 0.0,
+      "lost_unfed_bonus_units": 0.0,
+      "match_score": 1.0,
+      "maximum_COW": 2.0,
+      "maximum_GOOSE": 2.0,
+      "maximum_SHEEP": 2.0,
+      "minimum_observed_cash": 37.0,
+      "opponent": "melon_specialist",
+      "overflow_production_units": 0.0,
+      "residual_product_units": 0.0,
+      "sold_units": 570.25,
+      "state_roundtrips": 31.0,
+      "terminal_care": 0.0,
+      "terminal_drop": 1.0,
+      "terminal_feed": 0.0,
+      "terminal_noops": 0.0,
+      "terminal_pass": 0.5,
+      "terminal_units": 0.0,
+      "terminal_water": 2.0,
+      "uncollected_manure_slots": 1.25
+    }
+  ],
+  "identical_preterminal_blocks": 16,
+  "limitations": [
+    "Four seed clusters: bootstrap intervals are descriptive, not confirmatory",
+    "Two fixed opponents do not represent the competition population",
+    "Fertilizer rollouts assume fixed tile continuation and current quote curves",
+    "The 42 prior cash-bound features are excluded because this policy buys products",
+    "Same initial seed does not fix future shops after policy-induced RNG divergence",
+    "Sequential ablations are conditional effects, not factorial main effects",
+    "Bounded final-day routes are not globally optimal season-long assignments",
+    "Herd layouts, capital stress and independent opponent populations remain open"
+  ],
+  "lineage": {
+    "code": {
+      "docs/terminal_protocol.md": "2b8aa921f7f7802d2a4edeeb2a471ab7ceb9f7b5e82a6a28aaeeeed20a16c003",
+      "src/kaggriculture_livestock/__init__.py": "6eaf87b04e27687f9168edff36d6607379184198a9533dea7f20fa74e67e13a6",
+      "src/kaggriculture_livestock/audit.py": "7129b6ebbd1e8d40471f80a89e552502e538451f23d470fbd79352a2d68b5511",
+      "src/kaggriculture_livestock/experiment.py": "0cd711ae7f7643dd28e6967fafac240ef560da16a0185cd3e1b0ccfc54f9af3c",
+      "src/kaggriculture_livestock/features.py": "7ba4ae04c069bb2e4ecf82b166920213e4327defccfdcde69a10c73e85577463",
+      "src/kaggriculture_livestock/policy.py": "086ea3c323d33f62da0d8c0aa363934cd2c3fb0be3617d9daa558530292e3450",
+      "src/kaggriculture_research/__init__.py": "36d0ff269264d1c5e526ff205c2fc89e921767c65fdc3914654062bbc4adcb85",
+      "src/kaggriculture_research/artifacts.py": "e08e16f0e09ba25d732e22dc7239ce4a5e017ca3bfbe68d720cafa9ed201ba72",
+      "src/kaggriculture_research/audit.py": "3cc1130b795f90e8bea454f19bb59b6a4412d6959fad3260a9a7389aa41181a1",
+      "src/kaggriculture_research/cash_history.py": "256b4c1b544e50ff9073f0b5474ab8b07c8b1f71c3c30204d54df50747c2be4c",
+      "src/kaggriculture_research/crop_policy.py": "52db5557b6bb71a4f0c7bfe5ce6faf7fb92d878dfc5b2d353781c9dc28f1d806",
+      "src/kaggriculture_research/environment.py": "590788ca3c5d390c71e06b8c6206f47787ff9bc324b539fb33e5eb163f4cb091",
+      "src/kaggriculture_research/experiment.py": "9777ea565da9d5ac3ff3bb142f63afda0c25f5d6c6ddaf1c45c0e616fbcdf417",
+      "src/kaggriculture_research/features.py": "70fc36e02564ebace315516c389ee17af42624f8fc27c6d8baceb4c14d9d9121",
+      "src/kaggriculture_research/gates.py": "ec8325b24531a7e027d620002da414df3d0f8ce0dddd72b38e6217a70be2a2ac",
+      "src/kaggriculture_research/market_experiment.py": "edd7edd633fa48871a663f35be5624d8cf464cb0c08da7c14f6975797e92417a",
+      "src/kaggriculture_research/market_features.py": "c57bcbd9a84e8518e9474d0adaf5a45350f549e671031485e9288761226f329a",
+      "src/kaggriculture_research/market_history.py": "54e295106673f4b149512ed3e404073782fb3dab65484c9a61fc02c2143c7cee",
+      "src/kaggriculture_research/market_policy.py": "1173f7d0ce02c24c465e7c1c264919e8ddbcc2355a28752a521c67292649d874",
+      "src/kaggriculture_research/progress.py": "12a66d38b6238a323194dce2eb39803a015d794ead8f007ffd07c6eed2c22824",
+      "src/kaggriculture_research/relationship_experiment.py": "11a4d39bd40a5f886656fa308972aad359ea0aa97a9499e80101b02b1f2f283a",
+      "src/kaggriculture_research/relationship_features.py": "807d67e5a14d7915cbdd35a63db0f618040ef3884b130238bfcf0b62e9435de2",
+      "src/kaggriculture_research/relationship_policy.py": "2e337c7334f5902d3462342c69ec4ca6852b90f35bb4d1301e6fd6f5047fbe5b",
+      "src/kaggriculture_research/rollouts.py": "320a57470fecbeefcac1430025689b1f957fc4db044d9d9a5629c5a9d6cdcb02",
+      "src/kaggriculture_research/supply_experiment.py": "a828b66c4ab0bdc551c559c92b0f7fe889582c2722e0f1cabe95943982801429",
+      "src/kaggriculture_research/supply_policy.py": "f10e58a19e66cb24d3a5332aab2ff6af3efd1dd1a563ed16c6536b6158d31104",
+      "src/kaggriculture_research/visuals.py": "e7f66b39c538989c40ce19c7e6564912684204c8ec1fe8a7dd286252ff55f48f",
+      "src/kaggriculture_terminal/__init__.py": "298136a21d8c8091f0a1843442e56f1f45a12d77de32e4e4d01d73ed81e42664",
+      "src/kaggriculture_terminal/experiment.py": "d939932b574a6e28dbdc19e641ec7149becc22db27cab3b623c7544e094ca314",
+      "src/kaggriculture_terminal/feed_policy.py": "8235472d9621464e4e7dd5737be18b8ac656541291f060bd4a5579da460bbf34",
+      "src/kaggriculture_terminal/policy.py": "94c19098f04bce07a94a5397b655cb61a4d22e79f278328ee93a9d619402833c",
+      "src/kaggriculture_terminal/routing.py": "978e262324534f7c50980003be2d0842da4b274e49bdc7ded1fcfc7cb2ea8a10"
+    },
+    "engine": {
+      "files": {
+        "agent.py": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6",
+        "core.py": "0922c4599a1b6e0d8c3dadf06ae5297f98138d859d686f00daee6f36e6d45d0e",
+        "envs/kaggriculture/kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+        "envs/kaggriculture/kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+        "schemas.json": "cc6ccbca1a8f747e90434778f12acfe4b29bbeea69aeb5af81f4017ab2ea9a1c",
+        "utils.py": "537b627b11784d424147ef57ebb0369b039bf83c9f891e81f10486b1f552334b"
+      },
+      "package": "kaggle-environments",
+      "version": "1.32.7"
+    },
+    "protocol": {
+      "arms": [
+        "baseline",
+        "feed",
+        "joint"
+      ],
+      "bootstrap_resamples": 4000,
+      "bootstrap_seed": 4501,
+      "configuration": {
+        "episodeSteps": 720
+      },
+      "contrasts": [
+        [
+          "feed",
+          "baseline"
+        ],
+        [
+          "joint",
+          "feed"
+        ],
+        [
+          "joint",
+          "baseline"
+        ]
+      ],
+      "development_seeds": [
+        1501,
+        1502,
+        1503,
+        1504
+      ],
+      "experiment": "terminal-routing-v1",
+      "feature_sample_stride": 4,
+      "heartbeat_seconds": 15,
+      "max_games": 48,
+      "max_new_games_per_batch": 2,
+      "max_seconds_per_batch": 60,
+      "opponents": [
+        "livestock_fertilizer",
+        "melon_specialist"
+      ],
+      "primary_metric": "match_score",
+      "seats": [
+        0,
+        1
+      ]
+    }
+  },
+  "policy_latency_ms": {
+    "max": 289.64147300030163,
+    "median": 4.6955275001892005,
+    "p95": 10.646421800265669
+  },
+  "protocol_sha256": "8d3eed53d135f052e6d8f3d408c2475dee7b60304b226d922c493a711620e0b1",
+  "sampled_feature_bank_latency_ms": {
+    "max": 239.4827529988106,
+    "median": 2.445254000122077,
+    "p95": 4.482890199869868
+  },
+  "screening": {
+    "constant_features": [
+      "relative.land_lead",
+      "logistics.refresh_overflow",
+      "inventory.CARROT.shed",
+      "inventory.CARROT.carried",
+      "inventory.CARROT.immediate_sale_value",
+      "demand.MELON.current_daily_units",
+      "inventory.MELON.shed",
+      "inventory.MELON.carried",
+      "inventory.MELON.immediate_sale_value",
+      "demand.FERTILIZER.current_daily_units",
+      "inventory.CARROT.seeds",
+      "inventory.MELON.seeds",
+      "own.unlocked_tiles",
+      "own.crop.CARROT.count",
+      "own.crop.CARROT.mean_age",
+      "own.crop.CARROT.harvestable_units",
+      "own.crop.CARROT.water_due",
+      "own.crop.CARROT.death_risk_today",
+      "own.crop.CARROT.bonus_water_opportunities",
+      "own.crop.CARROT.fertilized_count",
+      "own.crop.TOMATO.bonus_water_opportunities",
+      "own.crop.STRAWBERRY.bonus_water_opportunities",
+      "own.crop.MELON.count",
+      "own.crop.MELON.mean_age",
+      "own.crop.MELON.harvestable_units",
+      "own.crop.MELON.water_due",
+      "own.crop.MELON.death_risk_today",
+      "own.crop.MELON.bonus_water_opportunities",
+      "own.crop.MELON.fertilized_count",
+      "opponent.unlocked_tiles",
+      "opponent.crop.CARROT.count",
+      "opponent.crop.CARROT.mean_age",
+      "opponent.crop.CARROT.harvestable_units",
+      "opponent.crop.CARROT.water_due",
+      "opponent.crop.CARROT.death_risk_today",
+      "opponent.crop.CARROT.bonus_water_opportunities",
+      "opponent.crop.CARROT.fertilized_count",
+      "opponent.crop.TOMATO.bonus_water_opportunities",
+      "opponent.crop.STRAWBERRY.bonus_water_opportunities",
+      "opponent.crop.MELON.fertilized_count",
+      "storage.night_overflow_if_pass",
+      "storage.night_overflow_after_sell_all",
+      "storage.ready_wave_overflow_after_sell_all",
+      "capital.daily_full_staff_cost",
+      "capital.reserve_shortfall",
+      "delivery.unit0.active",
+      "delivery.unit0.dump_loss_before_market",
+      "delivery.unit1.dump_loss_before_market",
+      "delivery.unit2.dump_loss_before_market",
+      "delivery.unit3.dump_loss_before_market",
+      "own.timing.WHEAT.avoidable_wait_unit_days",
+      "own.timing.WHEAT.next_refresh_production_events",
+      "own.timing.WHEAT.water_death_tasks_unreachable_today",
+      "own.timing.WHEAT.decay_within_two_actions",
+      "own.timing.CARROT.capped_ready_tiles",
+      "own.timing.CARROT.avoidable_wait_unit_days",
+      "own.timing.CARROT.water_now_increment_units",
+      "own.timing.CARROT.refresh_yield_saved_by_water",
+      "own.timing.CARROT.refresh_increment_from_fertilizer_given_water",
+      "own.timing.CARROT.next_refresh_production_events",
+      "own.timing.CARROT.ready_units_with_active_delivery_route",
+      "own.timing.CARROT.ready_units_without_terminal_route",
+      "own.timing.CARROT.water_death_tasks_unreachable_today",
+      "own.timing.CARROT.decay_within_two_actions",
+      "own.timing.CARROT.present",
+      "own.timing.CARROT.first_maturity_actions",
+      "own.timing.CARROT.known_decay_present",
+      "own.timing.CARROT.first_decay_actions",
+      "own.timing.CARROT.mean_worker_distance",
+      "own.timing.TOMATO.capped_ready_tiles",
+      "own.timing.TOMATO.avoidable_wait_unit_days",
+      "own.timing.TOMATO.water_now_increment_units",
+      "own.timing.TOMATO.water_death_tasks_unreachable_today",
+      "own.timing.STRAWBERRY.capped_ready_tiles",
+      "own.timing.STRAWBERRY.avoidable_wait_unit_days",
+      "own.timing.STRAWBERRY.water_now_increment_units",
+      "own.timing.STRAWBERRY.water_death_tasks_unreachable_today",
+      "own.timing.MELON.capped_ready_tiles",
+      "own.timing.MELON.avoidable_wait_unit_days",
+      "own.timing.MELON.water_now_increment_units",
+      "own.timing.MELON.refresh_yield_saved_by_water",
+      "own.timing.MELON.refresh_increment_from_fertilizer_given_water",
+      "own.timing.MELON.next_refresh_production_events",
+      "own.timing.MELON.ready_units_with_active_delivery_route",
+      "own.timing.MELON.ready_units_without_terminal_route",
+      "own.timing.MELON.water_death_tasks_unreachable_today",
+      "own.timing.MELON.decay_within_two_actions",
+      "own.timing.MELON.present",
+      "own.timing.MELON.first_maturity_actions",
+      "own.timing.MELON.known_decay_present",
+      "own.timing.MELON.first_decay_actions",
+      "own.timing.MELON.mean_worker_distance",
+      "own.husbandry.COW.next_fed_production_saturation",
+      "own.husbandry.SHEEP.next_fed_production_saturation",
+      "opponent.timing.WHEAT.avoidable_wait_unit_days",
+      "opponent.timing.WHEAT.next_refresh_production_events",
+      "opponent.timing.WHEAT.ready_units_without_terminal_route",
+      "opponent.timing.WHEAT.water_death_tasks_unreachable_today",
+      "opponent.timing.WHEAT.decay_within_two_actions",
+      "opponent.timing.CARROT.capped_ready_tiles",
+      "opponent.timing.CARROT.avoidable_wait_unit_days",
+      "opponent.timing.CARROT.water_now_increment_units",
+      "opponent.timing.CARROT.refresh_yield_saved_by_water",
+      "opponent.timing.CARROT.refresh_increment_from_fertilizer_given_water",
+      "opponent.timing.CARROT.next_refresh_production_events",
+      "opponent.timing.CARROT.ready_units_with_active_delivery_route",
+      "opponent.timing.CARROT.ready_units_without_terminal_route",
+      "opponent.timing.CARROT.water_death_tasks_unreachable_today",
+      "opponent.timing.CARROT.decay_within_two_actions",
+      "opponent.timing.CARROT.present",
+      "opponent.timing.CARROT.first_maturity_actions",
+      "opponent.timing.CARROT.known_decay_present",
+      "opponent.timing.CARROT.first_decay_actions",
+      "opponent.timing.CARROT.mean_worker_distance",
+      "opponent.timing.TOMATO.capped_ready_tiles",
+      "opponent.timing.TOMATO.avoidable_wait_unit_days",
+      "opponent.timing.TOMATO.water_now_increment_units",
+      "opponent.timing.TOMATO.water_death_tasks_unreachable_today",
+      "opponent.timing.STRAWBERRY.capped_ready_tiles",
+      "opponent.timing.STRAWBERRY.avoidable_wait_unit_days",
+      "opponent.timing.STRAWBERRY.water_now_increment_units",
+      "opponent.timing.STRAWBERRY.water_death_tasks_unreachable_today",
+      "opponent.timing.MELON.next_refresh_production_events",
+      "opponent.timing.MELON.ready_units_without_terminal_route",
+      "opponent.timing.MELON.water_death_tasks_unreachable_today",
+      "opponent.husbandry.COW.next_fed_production_saturation",
+      "opponent.husbandry.SHEEP.next_fed_production_saturation",
+      "pressure.CARROT.own_held_and_ready_wave",
+      "pressure.CARROT.opponent_visible_ready_units",
+      "pressure.CARROT.wave_conditional_revenue",
+      "pressure.CARROT.wave_average_price",
+      "pressure.CARROT.wave_price_impact_cost",
+      "pressure.CARROT.wave_revenue_after_rival_supply_stress",
+      "pressure.MELON.own_held_and_ready_wave",
+      "pressure.MELON.wave_conditional_revenue",
+      "pressure.MELON.wave_average_price",
+      "pressure.MELON.wave_price_impact_cost",
+      "pressure.MELON.wave_revenue_after_rival_supply_stress",
+      "pressure.FERTILIZER.opponent_visible_ready_units",
+      "pressure.FERTILIZER.known_demand_next_day",
+      "pressure.FERTILIZER.demand_only_next_day_price_change",
+      "interactions.water_bonus_under_overflow_pressure",
+      "interactions.capacity_pressure_per_worker",
+      "history.lag1.CARROT.inventory_change",
+      "history.lag1.CARROT.price_log_change",
+      "market_plan.CARROT.own_ready_units",
+      "market_plan.CARROT.rival_ready_units",
+      "market_plan.CARROT.shed_units",
+      "market_plan.CARROT.carried_units",
+      "market_plan.CARROT.conditional_quantity",
+      "market_plan.CARROT.rival_earliest_delivery",
+      "market_plan.CARROT.immediate_revenue",
+      "market_plan.CARROT.h4.quiet_revenue",
+      "market_plan.CARROT.h4.rival_stress_revenue",
+      "market_plan.CARROT.h4.rival_penalty",
+      "market_plan.CARROT.h4.quiet_holding_premium",
+      "market_plan.CARROT.h12.quiet_revenue",
+      "market_plan.CARROT.h12.rival_stress_revenue",
+      "market_plan.CARROT.h12.rival_penalty",
+      "market_plan.CARROT.h12.quiet_holding_premium",
+      "market_plan.CARROT.h24.quiet_revenue",
+      "market_plan.CARROT.h24.rival_stress_revenue",
+      "market_plan.CARROT.h24.rival_penalty",
+      "market_plan.CARROT.h24.quiet_holding_premium",
+      "market_plan.MELON.own_ready_units",
+      "market_plan.MELON.shed_units",
+      "market_plan.MELON.carried_units",
+      "market_plan.MELON.conditional_quantity",
+      "market_plan.MELON.immediate_revenue",
+      "market_plan.MELON.h4.quiet_revenue",
+      "market_plan.MELON.h4.rival_stress_revenue",
+      "market_plan.MELON.h4.rival_penalty",
+      "market_plan.MELON.h4.quiet_holding_premium",
+      "market_plan.MELON.h12.quiet_revenue",
+      "market_plan.MELON.h12.rival_stress_revenue",
+      "market_plan.MELON.h12.rival_penalty",
+      "market_plan.MELON.h12.quiet_holding_premium",
+      "market_plan.MELON.h24.quiet_revenue",
+      "market_plan.MELON.h24.rival_stress_revenue",
+      "market_plan.MELON.h24.rival_penalty",
+      "market_plan.MELON.h24.quiet_holding_premium",
+      "market_plan.FERTILIZER.own_ready_units",
+      "market_plan.FERTILIZER.rival_ready_units",
+      "market_plan.FERTILIZER.rival_earliest_delivery",
+      "market_plan.FERTILIZER.h4.known_demand",
+      "market_plan.FERTILIZER.h4.rival_penalty",
+      "market_plan.FERTILIZER.h4.quiet_holding_premium",
+      "market_plan.FERTILIZER.h12.known_demand",
+      "market_plan.FERTILIZER.h12.rival_penalty",
+      "market_plan.FERTILIZER.h12.quiet_holding_premium",
+      "market_plan.FERTILIZER.h24.known_demand",
+      "market_plan.FERTILIZER.h24.rival_penalty",
+      "market_plan.FERTILIZER.h24.quiet_holding_premium",
+      "market_worker.0.present",
+      "market_worker.0.overflow_after_sell_all",
+      "market_worker.1.overflow_after_sell_all",
+      "market_worker.2.overflow_after_sell_all",
+      "market_worker.3.overflow_after_sell_all",
+      "market_history.WHEAT.last.known_demand",
+      "market_history.WHEAT.last.sale_supported",
+      "market_history.WHEAT.last.sales_lower",
+      "market_history.WHEAT.last.sales_upper",
+      "market_history.WHEAT.last.sales_identified",
+      "market_history.WHEAT.last.floor_censored",
+      "market_history.WHEAT.last.harvest_upper",
+      "market_history.WHEAT.last.stock_upper",
+      "market_history.WHEAT.w4.sales_lower_sum",
+      "market_history.WHEAT.w4.sales_upper_sum",
+      "market_history.WHEAT.w4.harvest_upper_sum",
+      "market_history.WHEAT.w4.identified_fraction",
+      "market_history.WHEAT.w12.sales_lower_sum",
+      "market_history.WHEAT.w12.sales_upper_sum",
+      "market_history.WHEAT.w12.harvest_upper_sum",
+      "market_history.WHEAT.w12.identified_fraction",
+      "market_history.WHEAT.w24.sales_lower_sum",
+      "market_history.WHEAT.w24.sales_upper_sum",
+      "market_history.WHEAT.w24.harvest_upper_sum",
+      "market_history.WHEAT.w24.identified_fraction",
+      "market_history.WHEAT.sale_seen",
+      "market_history.WHEAT.sale_age",
+      "market_history.CARROT.last.trade_net",
+      "market_history.CARROT.last.known_demand",
+      "market_history.CARROT.last.quote_change",
+      "market_history.CARROT.last.sale_supported",
+      "market_history.CARROT.last.sales_lower",
+      "market_history.CARROT.last.sales_upper",
+      "market_history.CARROT.last.floor_censored",
+      "market_history.CARROT.last.harvest_upper",
+      "market_history.CARROT.last.stock_upper",
+      "market_history.CARROT.w4.trade_sum",
+      "market_history.CARROT.w4.trade_std",
+      "market_history.CARROT.w4.sales_lower_sum",
+      "market_history.CARROT.w4.sales_upper_sum",
+      "market_history.CARROT.w4.harvest_upper_sum",
+      "market_history.CARROT.w12.trade_sum",
+      "market_history.CARROT.w12.trade_std",
+      "market_history.CARROT.w12.sales_lower_sum",
+      "market_history.CARROT.w12.sales_upper_sum",
+      "market_history.CARROT.w12.harvest_upper_sum",
+      "market_history.CARROT.w24.trade_sum",
+      "market_history.CARROT.w24.trade_std",
+      "market_history.CARROT.w24.sales_lower_sum",
+      "market_history.CARROT.w24.sales_upper_sum",
+      "market_history.CARROT.w24.harvest_upper_sum",
+      "market_history.CARROT.sale_seen",
+      "market_history.CARROT.sale_age",
+      "market_history.TOMATO.last.known_demand",
+      "market_history.TOMATO.last.sale_supported",
+      "market_history.TOMATO.last.floor_censored",
+      "market_history.STRAWBERRY.last.known_demand",
+      "market_history.STRAWBERRY.last.sale_supported",
+      "market_history.STRAWBERRY.last.floor_censored",
+      "market_history.MELON.last.known_demand",
+      "market_history.MELON.last.sale_supported",
+      "market_history.EGG.last.known_demand",
+      "market_history.EGG.last.sale_supported",
+      "market_history.EGG.last.floor_censored",
+      "market_history.MILK.last.known_demand",
+      "market_history.MILK.last.sale_supported",
+      "market_history.MILK.last.floor_censored",
+      "market_history.WOOL.last.known_demand",
+      "market_history.WOOL.last.sale_supported",
+      "market_history.FERTILIZER.last.known_demand",
+      "market_history.FERTILIZER.last.sale_supported",
+      "market_history.FERTILIZER.last.sales_lower",
+      "market_history.FERTILIZER.last.sales_upper",
+      "market_history.FERTILIZER.last.sales_identified",
+      "market_history.FERTILIZER.last.floor_censored",
+      "market_history.FERTILIZER.last.harvest_upper",
+      "market_history.FERTILIZER.last.stock_upper",
+      "market_history.FERTILIZER.w4.sales_lower_sum",
+      "market_history.FERTILIZER.w4.sales_upper_sum",
+      "market_history.FERTILIZER.w4.harvest_upper_sum",
+      "market_history.FERTILIZER.w4.identified_fraction",
+      "market_history.FERTILIZER.w12.sales_lower_sum",
+      "market_history.FERTILIZER.w12.sales_upper_sum",
+      "market_history.FERTILIZER.w12.harvest_upper_sum",
+      "market_history.FERTILIZER.w12.identified_fraction",
+      "market_history.FERTILIZER.w24.sales_lower_sum",
+      "market_history.FERTILIZER.w24.sales_upper_sum",
+      "market_history.FERTILIZER.w24.harvest_upper_sum",
+      "market_history.FERTILIZER.w24.identified_fraction",
+      "market_history.FERTILIZER.sale_seen",
+      "market_history.FERTILIZER.sale_age",
+      "livestock.own.COW.stored_units_at_escape_risk",
+      "livestock.own.COW.next_production_overflow_without_collection",
+      "livestock.own.SHEEP.stored_units_at_escape_risk",
+      "livestock.own.SHEEP.next_production_overflow_without_collection",
+      "livestock.opponent.COW.stored_units_at_escape_risk",
+      "livestock.opponent.COW.next_production_overflow_without_collection",
+      "livestock.opponent.COW.feed_route_deadline_failures",
+      "livestock.opponent.SHEEP.stored_units_at_escape_risk",
+      "livestock.opponent.SHEEP.next_production_overflow_without_collection",
+      "livestock.resources.cash_buying_supported",
+      "livestock.resources.prior_cash_bound_features_supported",
+      "livestock.fertilizer.CARROT.baseline_harvest_units",
+      "livestock.fertilizer.CARROT.treated_harvest_units",
+      "livestock.fertilizer.CARROT.bankable_extra_units",
+      "livestock.fertilizer.CARROT.current_quote_revenue_gain",
+      "livestock.fertilizer.CARROT.fertilizer_sale_opportunity",
+      "livestock.fertilizer.CARROT.extra_scenario_work",
+      "livestock.fertilizer.CARROT.net_scenario_value",
+      "livestock.fertilizer.CARROT.first_harvest_action_gain",
+      "livestock.fertilizer.CARROT.present",
+      "livestock.fertilizer.CARROT.positive_value_plants",
+      "livestock.fertilizer.CARROT.best_net_scenario_value",
+      "livestock.fertilizer.CARROT.ingredient_reachable",
+      "livestock.fertilizer.MELON.baseline_harvest_units",
+      "livestock.fertilizer.MELON.treated_harvest_units",
+      "livestock.fertilizer.MELON.bankable_extra_units",
+      "livestock.fertilizer.MELON.current_quote_revenue_gain",
+      "livestock.fertilizer.MELON.fertilizer_sale_opportunity",
+      "livestock.fertilizer.MELON.extra_scenario_work",
+      "livestock.fertilizer.MELON.net_scenario_value",
+      "livestock.fertilizer.MELON.first_harvest_action_gain",
+      "livestock.fertilizer.MELON.present",
+      "livestock.fertilizer.MELON.positive_value_plants",
+      "livestock.fertilizer.MELON.best_net_scenario_value",
+      "livestock.fertilizer.MELON.ingredient_reachable",
+      "terminal.CARROT.carried",
+      "terminal.CARROT.shed",
+      "terminal.CARROT.ready",
+      "terminal.CARROT.carry_sale_value",
+      "terminal.MELON.carried",
+      "terminal.MELON.shed",
+      "terminal.MELON.ready",
+      "terminal.MELON.carry_sale_value",
+      "terminal.COW.bank_without_conversion",
+      "terminal.GOOSE.bank_without_conversion",
+      "terminal.SHEEP.bank_without_conversion",
+      "terminal.worker0.present"
+    ],
+    "exact_duplicate_groups": [
+      [
+        "time.decisions_remaining",
+        "terminal.decisions_remaining"
+      ],
+      [
+        "logistics.shed_free",
+        "storage.free_before_market"
+      ],
+      [
+        "inventory.WHEAT.shed",
+        "market_plan.WHEAT.shed_units",
+        "livestock.resources.wheat_in_shed",
+        "terminal.WHEAT.shed"
+      ],
+      [
+        "inventory.WHEAT.carried",
+        "market_plan.WHEAT.carried_units",
+        "livestock.resources.wheat_carried",
+        "terminal.WHEAT.carried"
+      ],
+      [
+        "market.CARROT.price",
+        "pressure.CARROT.visible_rival_supply_stress_price"
+      ],
+      [
+        "inventory.TOMATO.shed",
+        "market_plan.TOMATO.shed_units",
+        "terminal.TOMATO.shed"
+      ],
+      [
+        "inventory.TOMATO.carried",
+        "market_plan.TOMATO.carried_units",
+        "terminal.TOMATO.carried"
+      ],
+      [
+        "inventory.STRAWBERRY.shed",
+        "market_plan.STRAWBERRY.shed_units",
+        "terminal.STRAWBERRY.shed"
+      ],
+      [
+        "inventory.STRAWBERRY.carried",
+        "market_plan.STRAWBERRY.carried_units",
+        "terminal.STRAWBERRY.carried"
+      ],
+      [
+        "inventory.EGG.shed",
+        "market_plan.EGG.shed_units",
+        "terminal.EGG.shed"
+      ],
+      [
+        "inventory.EGG.carried",
+        "market_plan.EGG.carried_units",
+        "terminal.EGG.carried"
+      ],
+      [
+        "inventory.MILK.shed",
+        "market_plan.MILK.shed_units",
+        "terminal.MILK.shed"
+      ],
+      [
+        "inventory.MILK.carried",
+        "market_plan.MILK.carried_units",
+        "terminal.MILK.carried"
+      ],
+      [
+        "inventory.WOOL.shed",
+        "market_plan.WOOL.shed_units",
+        "terminal.WOOL.shed"
+      ],
+      [
+        "inventory.WOOL.carried",
+        "market_plan.WOOL.carried_units",
+        "terminal.WOOL.carried"
+      ],
+      [
+        "market.FERTILIZER.price",
+        "pressure.FERTILIZER.visible_rival_supply_stress_price"
+      ],
+      [
+        "inventory.FERTILIZER.shed",
+        "market_plan.FERTILIZER.shed_units",
+        "livestock.resources.manure_in_shed",
+        "terminal.FERTILIZER.shed"
+      ],
+      [
+        "inventory.FERTILIZER.carried",
+        "market_plan.FERTILIZER.carried_units",
+        "terminal.FERTILIZER.carried"
+      ],
+      [
+        "own.feed_actions_due",
+        "livestock.resources.feed_due"
+      ],
+      [
+        "own.shed_distance",
+        "delivery.unit0.shed_distance"
+      ],
+      [
+        "own.crop.WHEAT.count",
+        "livestock.fertilizer.WHEAT.present"
+      ],
+      [
+        "own.crop.WHEAT.harvestable_units",
+        "market_plan.WHEAT.own_ready_units",
+        "terminal.WHEAT.ready"
+      ],
+      [
+        "own.crop.TOMATO.count",
+        "livestock.fertilizer.TOMATO.present"
+      ],
+      [
+        "own.crop.TOMATO.harvestable_units",
+        "market_plan.TOMATO.own_ready_units",
+        "terminal.TOMATO.ready"
+      ],
+      [
+        "own.crop.STRAWBERRY.count",
+        "livestock.fertilizer.STRAWBERRY.present"
+      ],
+      [
+        "own.crop.STRAWBERRY.harvestable_units",
+        "market_plan.STRAWBERRY.own_ready_units",
+        "terminal.STRAWBERRY.ready"
+      ],
+      [
+        "own.animal.GOOSE.count",
+        "livestock.own.GOOSE.present"
+      ],
+      [
+        "own.animal.GOOSE.yield_units",
+        "market_plan.EGG.own_ready_units",
+        "livestock.own.GOOSE.held_units",
+        "terminal.EGG.ready",
+        "terminal.GOOSE.stored_units"
+      ],
+      [
+        "own.animal.GOOSE.feed_due",
+        "livestock.own.GOOSE.feed_due"
+      ],
+      [
+        "own.animal.GOOSE.escape_risk_today",
+        "own.husbandry.GOOSE.escape_prevented_by_feed",
+        "livestock.own.GOOSE.escape_without_feed",
+        "livestock.own.GOOSE.stored_units_at_escape_risk"
+      ],
+      [
+        "own.animal.GOOSE.fertilizer_available",
+        "livestock.own.GOOSE.manure_available",
+        "livestock.own.GOOSE.uncollected_manure_slot_at_refresh"
+      ],
+      [
+        "own.animal.GOOSE.care_bonus_banked",
+        "livestock.own.GOOSE.banked_care"
+      ],
+      [
+        "own.animal.COW.count",
+        "livestock.own.COW.present"
+      ],
+      [
+        "own.animal.COW.yield_units",
+        "market_plan.MILK.own_ready_units",
+        "livestock.own.COW.held_units",
+        "terminal.MILK.ready",
+        "terminal.COW.stored_units"
+      ],
+      [
+        "own.animal.COW.feed_due",
+        "livestock.own.COW.feed_due"
+      ],
+      [
+        "own.animal.COW.escape_risk_today",
+        "own.husbandry.COW.escape_prevented_by_feed",
+        "livestock.own.COW.escape_without_feed"
+      ],
+      [
+        "own.animal.COW.fertilizer_available",
+        "livestock.own.COW.manure_available",
+        "livestock.own.COW.uncollected_manure_slot_at_refresh"
+      ],
+      [
+        "own.animal.COW.care_bonus_banked",
+        "livestock.own.COW.banked_care"
+      ],
+      [
+        "own.animal.SHEEP.count",
+        "livestock.own.SHEEP.present"
+      ],
+      [
+        "own.animal.SHEEP.yield_units",
+        "market_plan.WOOL.own_ready_units",
+        "livestock.own.SHEEP.held_units",
+        "terminal.WOOL.ready",
+        "terminal.SHEEP.stored_units"
+      ],
+      [
+        "own.animal.SHEEP.feed_due",
+        "livestock.own.SHEEP.feed_due"
+      ],
+      [
+        "own.animal.SHEEP.escape_risk_today",
+        "own.husbandry.SHEEP.escape_prevented_by_feed",
+        "livestock.own.SHEEP.escape_without_feed"
+      ],
+      [
+        "own.animal.SHEEP.fertilizer_available",
+        "livestock.own.SHEEP.manure_available",
+        "livestock.own.SHEEP.uncollected_manure_slot_at_refresh"
+      ],
+      [
+        "own.animal.SHEEP.care_bonus_banked",
+        "livestock.own.SHEEP.banked_care"
+      ],
+      [
+        "opponent.crop.WHEAT.harvestable_units",
+        "pressure.WHEAT.opponent_visible_ready_units",
+        "market_plan.WHEAT.rival_ready_units"
+      ],
+      [
+        "opponent.crop.TOMATO.harvestable_units",
+        "pressure.TOMATO.opponent_visible_ready_units",
+        "market_plan.TOMATO.rival_ready_units"
+      ],
+      [
+        "opponent.crop.STRAWBERRY.harvestable_units",
+        "pressure.STRAWBERRY.opponent_visible_ready_units",
+        "market_plan.STRAWBERRY.rival_ready_units"
+      ],
+      [
+        "opponent.crop.MELON.harvestable_units",
+        "pressure.MELON.opponent_visible_ready_units",
+        "market_plan.MELON.rival_ready_units"
+      ],
+      [
+        "opponent.crop.MELON.bonus_water_opportunities",
+        "opponent.timing.MELON.water_now_increment_units"
+      ],
+      [
+        "opponent.animal.GOOSE.count",
+        "livestock.opponent.GOOSE.present"
+      ],
+      [
+        "opponent.animal.GOOSE.yield_units",
+        "pressure.EGG.opponent_visible_ready_units",
+        "market_plan.EGG.rival_ready_units",
+        "livestock.opponent.GOOSE.held_units"
+      ],
+      [
+        "opponent.animal.GOOSE.feed_due",
+        "livestock.opponent.GOOSE.feed_due"
+      ],
+      [
+        "opponent.animal.GOOSE.escape_risk_today",
+        "opponent.husbandry.GOOSE.escape_prevented_by_feed",
+        "livestock.opponent.GOOSE.escape_without_feed",
+        "livestock.opponent.GOOSE.stored_units_at_escape_risk"
+      ],
+      [
+        "opponent.animal.GOOSE.fertilizer_available",
+        "livestock.opponent.GOOSE.manure_available",
+        "livestock.opponent.GOOSE.uncollected_manure_slot_at_refresh"
+      ],
+      [
+        "opponent.animal.GOOSE.care_bonus_banked",
+        "livestock.opponent.GOOSE.banked_care"
+      ],
+      [
+        "opponent.animal.COW.count",
+        "livestock.opponent.COW.present"
+      ],
+      [
+        "opponent.animal.COW.yield_units",
+        "pressure.MILK.opponent_visible_ready_units",
+        "market_plan.MILK.rival_ready_units",
+        "livestock.opponent.COW.held_units"
+      ],
+      [
+        "opponent.animal.COW.feed_due",
+        "livestock.opponent.COW.feed_due"
+      ],
+      [
+        "opponent.animal.COW.escape_risk_today",
+        "opponent.husbandry.COW.escape_prevented_by_feed",
+        "livestock.opponent.COW.escape_without_feed"
+      ],
+      [
+        "opponent.animal.COW.fertilizer_available",
+        "livestock.opponent.COW.manure_available",
+        "livestock.opponent.COW.uncollected_manure_slot_at_refresh"
+      ],
+      [
+        "opponent.animal.COW.care_bonus_banked",
+        "livestock.opponent.COW.banked_care"
+      ],
+      [
+        "opponent.animal.SHEEP.count",
+        "livestock.opponent.SHEEP.present"
+      ],
+      [
+        "opponent.animal.SHEEP.yield_units",
+        "pressure.WOOL.opponent_visible_ready_units",
+        "market_plan.WOOL.rival_ready_units",
+        "livestock.opponent.SHEEP.held_units"
+      ],
+      [
+        "opponent.animal.SHEEP.feed_due",
+        "livestock.opponent.SHEEP.feed_due"
+      ],
+      [
+        "opponent.animal.SHEEP.escape_risk_today",
+        "opponent.husbandry.SHEEP.escape_prevented_by_feed",
+        "livestock.opponent.SHEEP.escape_without_feed"
+      ],
+      [
+        "opponent.animal.SHEEP.fertilizer_available",
+        "livestock.opponent.SHEEP.manure_available",
+        "livestock.opponent.SHEEP.uncollected_manure_slot_at_refresh"
+      ],
+      [
+        "opponent.animal.SHEEP.care_bonus_banked",
+        "livestock.opponent.SHEEP.banked_care"
+      ],
+      [
+        "delivery.unit0.carried_units",
+        "market_worker.0.carried_units"
+      ],
+      [
+        "delivery.unit0.conditional_sale_value",
+        "market_worker.0.liquidation_revenue"
+      ],
+      [
+        "delivery.unit1.active",
+        "delivery.unit2.active",
+        "delivery.unit3.active",
+        "market_worker.1.present",
+        "market_worker.2.present",
+        "market_worker.3.present",
+        "terminal.worker1.present",
+        "terminal.worker2.present",
+        "terminal.worker3.present"
+      ],
+      [
+        "delivery.unit1.carried_units",
+        "market_worker.1.carried_units"
+      ],
+      [
+        "delivery.unit1.conditional_sale_value",
+        "market_worker.1.liquidation_revenue"
+      ],
+      [
+        "delivery.unit2.carried_units",
+        "market_worker.2.carried_units"
+      ],
+      [
+        "delivery.unit2.conditional_sale_value",
+        "market_worker.2.liquidation_revenue"
+      ],
+      [
+        "delivery.unit3.carried_units",
+        "market_worker.3.carried_units"
+      ],
+      [
+        "delivery.unit3.conditional_sale_value",
+        "market_worker.3.liquidation_revenue"
+      ],
+      [
+        "own.timing.WHEAT.present",
+        "own.timing.WHEAT.known_decay_present"
+      ],
+      [
+        "own.husbandry.GOOSE.refresh_units_saved_by_feed",
+        "livestock.own.GOOSE.next_refresh_units_saved_by_feed"
+      ],
+      [
+        "own.husbandry.GOOSE.next_production_events",
+        "livestock.own.GOOSE.production_next_refresh"
+      ],
+      [
+        "own.husbandry.GOOSE.banked_bonus_at_risk_if_unfed",
+        "livestock.own.GOOSE.bonus_lost_on_unfed_production"
+      ],
+      [
+        "own.husbandry.GOOSE.next_fed_production_saturation",
+        "livestock.own.GOOSE.next_production_overflow_without_collection"
+      ],
+      [
+        "own.husbandry.COW.refresh_units_saved_by_feed",
+        "livestock.own.COW.next_refresh_units_saved_by_feed"
+      ],
+      [
+        "own.husbandry.COW.next_production_events",
+        "livestock.own.COW.production_next_refresh"
+      ],
+      [
+        "own.husbandry.COW.banked_bonus_at_risk_if_unfed",
+        "livestock.own.COW.bonus_lost_on_unfed_production"
+      ],
+      [
+        "own.husbandry.SHEEP.refresh_units_saved_by_feed",
+        "livestock.own.SHEEP.next_refresh_units_saved_by_feed"
+      ],
+      [
+        "own.husbandry.SHEEP.next_production_events",
+        "livestock.own.SHEEP.production_next_refresh"
+      ],
+      [
+        "own.husbandry.SHEEP.banked_bonus_at_risk_if_unfed",
+        "livestock.own.SHEEP.bonus_lost_on_unfed_production"
+      ],
+      [
+        "opponent.timing.WHEAT.present",
+        "opponent.timing.WHEAT.known_decay_present"
+      ],
+      [
+        "opponent.timing.MELON.present",
+        "opponent.timing.MELON.known_decay_present"
+      ],
+      [
+        "opponent.husbandry.GOOSE.refresh_units_saved_by_feed",
+        "livestock.opponent.GOOSE.next_refresh_units_saved_by_feed"
+      ],
+      [
+        "opponent.husbandry.GOOSE.next_production_events",
+        "livestock.opponent.GOOSE.production_next_refresh"
+      ],
+      [
+        "opponent.husbandry.GOOSE.banked_bonus_at_risk_if_unfed",
+        "livestock.opponent.GOOSE.bonus_lost_on_unfed_production"
+      ],
+      [
+        "opponent.husbandry.GOOSE.next_fed_production_saturation",
+        "livestock.opponent.GOOSE.next_production_overflow_without_collection"
+      ],
+      [
+        "opponent.husbandry.COW.refresh_units_saved_by_feed",
+        "livestock.opponent.COW.next_refresh_units_saved_by_feed"
+      ],
+      [
+        "opponent.husbandry.COW.next_production_events",
+        "livestock.opponent.COW.production_next_refresh"
+      ],
+      [
+        "opponent.husbandry.COW.banked_bonus_at_risk_if_unfed",
+        "livestock.opponent.COW.bonus_lost_on_unfed_production"
+      ],
+      [
+        "opponent.husbandry.SHEEP.refresh_units_saved_by_feed",
+        "livestock.opponent.SHEEP.next_refresh_units_saved_by_feed"
+      ],
+      [
+        "opponent.husbandry.SHEEP.next_production_events",
+        "livestock.opponent.SHEEP.production_next_refresh"
+      ],
+      [
+        "opponent.husbandry.SHEEP.banked_bonus_at_risk_if_unfed",
+        "livestock.opponent.SHEEP.bonus_lost_on_unfed_production"
+      ],
+      [
+        "pressure.WHEAT.own_held_and_ready_wave",
+        "market_plan.WHEAT.conditional_quantity"
+      ],
+      [
+        "pressure.WHEAT.wave_conditional_revenue",
+        "market_plan.WHEAT.immediate_revenue"
+      ],
+      [
+        "pressure.TOMATO.own_held_and_ready_wave",
+        "market_plan.TOMATO.conditional_quantity"
+      ],
+      [
+        "pressure.TOMATO.wave_conditional_revenue",
+        "market_plan.TOMATO.immediate_revenue"
+      ],
+      [
+        "pressure.STRAWBERRY.own_held_and_ready_wave",
+        "market_plan.STRAWBERRY.conditional_quantity"
+      ],
+      [
+        "pressure.STRAWBERRY.wave_conditional_revenue",
+        "market_plan.STRAWBERRY.immediate_revenue"
+      ],
+      [
+        "pressure.EGG.own_held_and_ready_wave",
+        "market_plan.EGG.conditional_quantity"
+      ],
+      [
+        "pressure.EGG.wave_conditional_revenue",
+        "market_plan.EGG.immediate_revenue"
+      ],
+      [
+        "pressure.MILK.own_held_and_ready_wave",
+        "market_plan.MILK.conditional_quantity"
+      ],
+      [
+        "pressure.MILK.wave_conditional_revenue",
+        "market_plan.MILK.immediate_revenue"
+      ],
+      [
+        "pressure.WOOL.own_held_and_ready_wave",
+        "market_plan.WOOL.conditional_quantity"
+      ],
+      [
+        "pressure.WOOL.wave_conditional_revenue",
+        "market_plan.WOOL.immediate_revenue"
+      ],
+      [
+        "pressure.FERTILIZER.own_held_and_ready_wave",
+        "pressure.FERTILIZER.wave_minus_known_day_demand",
+        "market_plan.FERTILIZER.conditional_quantity",
+        "livestock.resources.manure_total"
+      ],
+      [
+        "pressure.FERTILIZER.wave_conditional_revenue",
+        "pressure.FERTILIZER.wave_revenue_after_rival_supply_stress",
+        "market_plan.FERTILIZER.immediate_revenue"
+      ],
+      [
+        "history.lag1.available",
+        "market_history.WHEAT.last.available",
+        "market_history.CARROT.last.available",
+        "market_history.CARROT.last.sales_identified",
+        "market_history.CARROT.w4.identified_fraction",
+        "market_history.CARROT.w12.identified_fraction",
+        "market_history.CARROT.w24.identified_fraction",
+        "market_history.TOMATO.last.available",
+        "market_history.TOMATO.last.sales_identified",
+        "market_history.TOMATO.w4.identified_fraction",
+        "market_history.TOMATO.w12.identified_fraction",
+        "market_history.TOMATO.w24.identified_fraction",
+        "market_history.STRAWBERRY.last.available",
+        "market_history.STRAWBERRY.last.sales_identified",
+        "market_history.STRAWBERRY.w4.identified_fraction",
+        "market_history.STRAWBERRY.w12.identified_fraction",
+        "market_history.STRAWBERRY.w24.identified_fraction",
+        "market_history.MELON.last.available",
+        "market_history.EGG.last.available",
+        "market_history.EGG.last.sales_identified",
+        "market_history.EGG.w4.identified_fraction",
+        "market_history.EGG.w12.identified_fraction",
+        "market_history.EGG.w24.identified_fraction",
+        "market_history.MILK.last.available",
+        "market_history.MILK.last.sales_identified",
+        "market_history.MILK.w4.identified_fraction",
+        "market_history.MILK.w12.identified_fraction",
+        "market_history.MILK.w24.identified_fraction",
+        "market_history.WOOL.last.available",
+        "market_history.FERTILIZER.last.available"
+      ],
+      [
+        "history.lag1.WHEAT.inventory_change",
+        "market_history.WHEAT.last.trade_net"
+      ],
+      [
+        "history.lag1.TOMATO.inventory_change",
+        "market_history.TOMATO.last.trade_net"
+      ],
+      [
+        "history.lag1.STRAWBERRY.inventory_change",
+        "market_history.STRAWBERRY.last.trade_net"
+      ],
+      [
+        "history.lag1.MELON.inventory_change",
+        "market_history.MELON.last.trade_net",
+        "market_history.MELON.last.sales_lower"
+      ],
+      [
+        "history.lag1.EGG.inventory_change",
+        "market_history.EGG.last.trade_net"
+      ],
+      [
+        "history.lag1.MILK.inventory_change",
+        "market_history.MILK.last.trade_net"
+      ],
+      [
+        "history.lag1.WOOL.inventory_change",
+        "market_history.WOOL.last.trade_net"
+      ],
+      [
+        "history.lag1.FERTILIZER.inventory_change",
+        "market_history.FERTILIZER.last.trade_net"
+      ],
+      [
+        "history.lag24.FERTILIZER.inventory_change",
+        "market_history.FERTILIZER.w24.trade_sum"
+      ],
+      [
+        "market_plan.WHEAT.h4.available",
+        "market_plan.CARROT.h4.available",
+        "market_plan.TOMATO.h4.available",
+        "market_plan.STRAWBERRY.h4.available",
+        "market_plan.MELON.h4.available",
+        "market_plan.EGG.h4.available",
+        "market_plan.MILK.h4.available",
+        "market_plan.WOOL.h4.available",
+        "market_plan.FERTILIZER.h4.available"
+      ],
+      [
+        "market_plan.WHEAT.h12.available",
+        "market_plan.CARROT.h12.available",
+        "market_plan.TOMATO.h12.available",
+        "market_plan.STRAWBERRY.h12.available",
+        "market_plan.MELON.h12.available",
+        "market_plan.EGG.h12.available",
+        "market_plan.MILK.h12.available",
+        "market_plan.WOOL.h12.available",
+        "market_plan.FERTILIZER.h12.available"
+      ],
+      [
+        "market_plan.WHEAT.h24.available",
+        "market_plan.CARROT.h24.available",
+        "market_plan.TOMATO.h24.available",
+        "market_plan.STRAWBERRY.h24.available",
+        "market_plan.MELON.h24.available",
+        "market_plan.MELON.h24.known_demand",
+        "market_plan.EGG.h24.available",
+        "market_plan.MILK.h24.available",
+        "market_plan.WOOL.h24.available",
+        "market_plan.FERTILIZER.h24.available",
+        "market_worker.0.night_sale_available",
+        "terminal.next_refresh_exists"
+      ],
+      [
+        "market_plan.FERTILIZER.h4.quiet_revenue",
+        "market_plan.FERTILIZER.h4.rival_stress_revenue"
+      ],
+      [
+        "market_plan.FERTILIZER.h12.quiet_revenue",
+        "market_plan.FERTILIZER.h12.rival_stress_revenue"
+      ],
+      [
+        "market_plan.FERTILIZER.h24.quiet_revenue",
+        "market_plan.FERTILIZER.h24.rival_stress_revenue"
+      ],
+      [
+        "market_worker.1.night_sale_available",
+        "market_worker.2.night_sale_available",
+        "market_worker.3.night_sale_available"
+      ],
+      [
+        "market_history.WHEAT.w4.observed",
+        "market_history.CARROT.w4.observed",
+        "market_history.TOMATO.w4.observed",
+        "market_history.STRAWBERRY.w4.observed",
+        "market_history.MELON.w4.observed",
+        "market_history.EGG.w4.observed",
+        "market_history.MILK.w4.observed",
+        "market_history.WOOL.w4.observed",
+        "market_history.FERTILIZER.w4.observed"
+      ],
+      [
+        "market_history.WHEAT.w12.observed",
+        "market_history.CARROT.w12.observed",
+        "market_history.TOMATO.w12.observed",
+        "market_history.STRAWBERRY.w12.observed",
+        "market_history.MELON.w12.observed",
+        "market_history.EGG.w12.observed",
+        "market_history.MILK.w12.observed",
+        "market_history.WOOL.w12.observed",
+        "market_history.FERTILIZER.w12.observed"
+      ],
+      [
+        "market_history.WHEAT.w24.observed",
+        "market_history.CARROT.w24.observed",
+        "market_history.TOMATO.w24.observed",
+        "market_history.STRAWBERRY.w24.observed",
+        "market_history.MELON.w24.observed",
+        "market_history.EGG.w24.observed",
+        "market_history.MILK.w24.observed",
+        "market_history.WOOL.w24.observed",
+        "market_history.FERTILIZER.w24.observed"
+      ],
+      [
+        "market_history.TOMATO.last.sales_lower",
+        "market_history.TOMATO.last.sales_upper"
+      ],
+      [
+        "market_history.TOMATO.w4.sales_lower_sum",
+        "market_history.TOMATO.w4.sales_upper_sum"
+      ],
+      [
+        "market_history.TOMATO.w12.sales_lower_sum",
+        "market_history.TOMATO.w12.sales_upper_sum"
+      ],
+      [
+        "market_history.TOMATO.w24.sales_lower_sum",
+        "market_history.TOMATO.w24.sales_upper_sum"
+      ],
+      [
+        "market_history.STRAWBERRY.last.sales_lower",
+        "market_history.STRAWBERRY.last.sales_upper"
+      ],
+      [
+        "market_history.STRAWBERRY.w4.sales_lower_sum",
+        "market_history.STRAWBERRY.w4.sales_upper_sum"
+      ],
+      [
+        "market_history.STRAWBERRY.w12.sales_lower_sum",
+        "market_history.STRAWBERRY.w12.sales_upper_sum"
+      ],
+      [
+        "market_history.STRAWBERRY.w24.sales_lower_sum",
+        "market_history.STRAWBERRY.w24.sales_upper_sum"
+      ],
+      [
+        "market_history.MELON.w4.trade_sum",
+        "market_history.MELON.w4.sales_lower_sum"
+      ],
+      [
+        "market_history.MELON.w12.trade_sum",
+        "market_history.MELON.w12.sales_lower_sum"
+      ],
+      [
+        "market_history.MELON.w24.trade_sum",
+        "market_history.MELON.w24.sales_lower_sum"
+      ],
+      [
+        "market_history.EGG.last.sales_lower",
+        "market_history.EGG.last.sales_upper"
+      ],
+      [
+        "market_history.EGG.w4.sales_lower_sum",
+        "market_history.EGG.w4.sales_upper_sum"
+      ],
+      [
+        "market_history.EGG.w12.sales_lower_sum",
+        "market_history.EGG.w12.sales_upper_sum"
+      ],
+      [
+        "market_history.EGG.w24.sales_lower_sum",
+        "market_history.EGG.w24.sales_upper_sum"
+      ],
+      [
+        "market_history.MILK.last.sales_lower",
+        "market_history.MILK.last.sales_upper"
+      ],
+      [
+        "market_history.MILK.w4.sales_lower_sum",
+        "market_history.MILK.w4.sales_upper_sum"
+      ],
+      [
+        "market_history.MILK.w12.sales_lower_sum",
+        "market_history.MILK.w12.sales_upper_sum"
+      ],
+      [
+        "market_history.MILK.w24.sales_lower_sum",
+        "market_history.MILK.w24.sales_upper_sum"
+      ],
+      [
+        "livestock.resources.manure_collectable",
+        "terminal.FERTILIZER.ready"
+      ]
+    ],
+    "families": {
+      "animal_feed_care_interactions": 42,
+      "animal_state": 36,
+      "cashflow": 7,
+      "causal_market_history": 40,
+      "causal_supply_bounds": 99,
+      "conditional_market_paths": 216,
+      "crop_resource_timing": 150,
+      "crop_state": 70,
+      "cross_resource_interactions": 4,
+      "delivery_feasibility": 32,
+      "delivery_opportunity_cost": 36,
+      "feed_inventory_and_capital": 18,
+      "fertilizer_counterfactual_value": 60,
+      "horizon": 5,
+      "joint_liquidation_routes": 30,
+      "labor_land": 20,
+      "livestock_production_timing": 138,
+      "livestock_service_routing": 18,
+      "logistics": 30,
+      "market_curves": 63,
+      "market_supply_demand_interactions": 90,
+      "multiscale_market_history": 216,
+      "post_decision_inventory": 63,
+      "relative_state": 3,
+      "rival_sale_recency": 18,
+      "storage_interactions": 9,
+      "terminal_event_feasibility": 13,
+      "terminal_stock_opportunity": 36,
+      "town_demand": 17
+    },
+    "generated_features": 1579,
+    "high_spearman_pairs": 1926,
+    "matrix_artifact": {
+      "path": "artifacts/terminal_features/cd36484d8754d37ce802a714dae1e2a03377f8a1115997fa82d64243f7591e0a.json.gz",
+      "sha256": "49123db859e175e81138e181bcc26ca44491bc59f79c8cdce6e516609aeb6b54"
+    },
+    "provisional_features": 1579,
+    "rejected_for_final_model": 0,
+    "retained_for_final_model": 0,
+    "sampled_development_observations": 8688,
+    "scope": "Descriptive availability, variation, redundancy; not predictive selection",
+    "screened_features": 1579
+  },
+  "seed_clusters": 4,
+  "validation_or_holdout_used": false
+}

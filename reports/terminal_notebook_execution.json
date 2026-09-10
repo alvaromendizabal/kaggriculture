@@ -1,0 +1,16 @@
+{
+  "all_cells_executed": true,
+  "ancestor_notebook_sha256": "02d4a667a34f89774d30bf58c452aab655ca00b4bb68a59cc71a7732b8259b31",
+  "archived_ancestor_receipt_sha256": "18e258a6f3efb83bac4ea9dc0e2d5ac8e256e260ce0a9e1a36ccf0f996136b22",
+  "code_cells": 32,
+  "errors": 0,
+  "execution_environment": "GitHub Actions",
+  "github_commit_sha": "e57399d5d5fa337b0a9778a0c41f22a216421425",
+  "github_run_id": "34525474215",
+  "notebook_sha256": "5fb672725ca75d966ef6225386a46106025e92cb7fdda579d60721faf6fd5895",
+  "plot_source_sha256": "7208c2f25906f1863885a95bb5e0cc9470b5c1ca03f3cfe0344f63a5b02658cc",
+  "preserved_earlier_source_sha256": "52760a1a7e2e54f6c3aa41d7679d28494127313537cc81a4cb5df2b4a4c2979f",
+  "source_sha256": "bb4fcd31bf146652d3a5ef95e3c83f4da0af2041d3a5141b33d2eb0bfe3ece67",
+  "static_png_outputs": 10,
+  "study_report_sha256": "adc18f3943b43ea6f8aa9ff67eb33d041cbcf4f5ff7b27220e2fd20b7b5f67a9"
+}

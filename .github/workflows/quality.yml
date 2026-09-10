@@ -21,6 +21,9 @@ jobs:
       - run: uv sync --frozen
       - run: uv run ruff check .
       - run: uv run ruff format --check .
+      - name: Verify published terminal notebook before new execution
+        if: ${{ hashFiles('reports/terminal_notebook_execution.json') != '' }}
+        run: uv run python scripts/verify_terminal_notebook.py
       - run: uv run pytest -q
       - run: uv run python scripts/run_foundation.py
       - run: uv run python scripts/execute_notebooks.py
@@ -29,6 +32,7 @@ jobs:
       - run: uv run python scripts/verify_market_history.py
       - run: uv run python scripts/verify_supply_report.py
       - run: uv run python scripts/verify_livestock_report.py
+      - run: uv run python scripts/verify_terminal_report.py
       - uses: actions/upload-artifact@v7
         with:
           name: executed-notebooks-${{ github.sha }}
@@ -36,5 +40,6 @@ jobs:
             notebooks/02_feature_research.ipynb
             reports/supply_notebook_execution.json
             reports/livestock_notebook_execution.json
+            reports/terminal_notebook_execution.json
           if-no-files-found: error
           retention-days: 30

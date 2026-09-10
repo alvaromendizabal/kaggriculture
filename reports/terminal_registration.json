@@ -1,0 +1,538 @@
+{
+  "feature_completion_gate": "open_research",
+  "identity": {
+    "jobs": [
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "livestock_fertilizer",
+          "seat": 0,
+          "seed": 1501
+        },
+        "path": "artifacts/terminal_episodes/5530066c7da01b552e080a36b69f01e349b9093cf117e70982d88c5e1e05036f.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_fertilizer",
+          "seat": 0,
+          "seed": 1501
+        },
+        "path": "artifacts/terminal_episodes/bbb5d23cc8b767ef10e9773a5384cc87c320d6094d43c22e1d2113b455b48538.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "livestock_fertilizer",
+          "seat": 0,
+          "seed": 1501
+        },
+        "path": "artifacts/terminal_episodes/3fa4f7398b9ade8a04f8f9276075747abd4673faa71b4a59d02d8e5fade848f4.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "melon_specialist",
+          "seat": 0,
+          "seed": 1501
+        },
+        "path": "artifacts/terminal_episodes/b014b003a43b6159434af80448ebfeb974029f89bcd85668786bb5dea4f73232.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "melon_specialist",
+          "seat": 0,
+          "seed": 1501
+        },
+        "path": "artifacts/terminal_episodes/18c40fc2e8ab2fbb9ef16e2eb9ed39df5bc0c8ddd849f6be2a1d8f4f60604dfc.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "melon_specialist",
+          "seat": 0,
+          "seed": 1501
+        },
+        "path": "artifacts/terminal_episodes/d06ef1636d4d0448ff4b337550d68bd1ece635526030a3ad658618308674f531.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "livestock_fertilizer",
+          "seat": 1,
+          "seed": 1501
+        },
+        "path": "artifacts/terminal_episodes/3c5563cb1a58127d6cbfa84f75cba5da2b5c47c34e1e8d767110d563d650fa1f.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_fertilizer",
+          "seat": 1,
+          "seed": 1501
+        },
+        "path": "artifacts/terminal_episodes/f80b049a8d5d629f93e4e504cacfec0636952bcfbddc62f442501e2d2040c517.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "livestock_fertilizer",
+          "seat": 1,
+          "seed": 1501
+        },
+        "path": "artifacts/terminal_episodes/cabd94993e52823d01da2f1a9251bbf2bb2287e46d62c46783bf3ea8b3306012.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "melon_specialist",
+          "seat": 1,
+          "seed": 1501
+        },
+        "path": "artifacts/terminal_episodes/5f9265422a5a5d03329c3de224a0c109894af336a60144b25be49b006660157c.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "melon_specialist",
+          "seat": 1,
+          "seed": 1501
+        },
+        "path": "artifacts/terminal_episodes/74eac075691b8ca90252aae0f5f1c40e97a7b81328d9e3edceabf9e11556290f.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "melon_specialist",
+          "seat": 1,
+          "seed": 1501
+        },
+        "path": "artifacts/terminal_episodes/f6550831673fe21d37032b939d88356a9843469d19d94462b756048ea18d21dd.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "livestock_fertilizer",
+          "seat": 0,
+          "seed": 1502
+        },
+        "path": "artifacts/terminal_episodes/c7a79d7bfb5838110cc2e664de6b2be7a5983a44c6a660bc22cfdad2a8b02a7a.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_fertilizer",
+          "seat": 0,
+          "seed": 1502
+        },
+        "path": "artifacts/terminal_episodes/d05a89347f0e737940446c63b9bd45d0c0d4cccf9424e7a297a192d3165b5322.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "livestock_fertilizer",
+          "seat": 0,
+          "seed": 1502
+        },
+        "path": "artifacts/terminal_episodes/608778d203657bff569ff8f83a956640e6d713879285d514f4b75522a802045a.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "melon_specialist",
+          "seat": 0,
+          "seed": 1502
+        },
+        "path": "artifacts/terminal_episodes/f4bbfe0bc7b1861828080f9fd349e93e529cac73811eb0183a567b2e00317417.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "melon_specialist",
+          "seat": 0,
+          "seed": 1502
+        },
+        "path": "artifacts/terminal_episodes/a0947c97121abb67b8e65320a8a99ef5c03b308d0cdc03c7bb14fd8eec7bf463.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "melon_specialist",
+          "seat": 0,
+          "seed": 1502
+        },
+        "path": "artifacts/terminal_episodes/f2a1e9b2b24747aaf07b8f1b785d0a68d0e3fb6fe47362bd8facf3cca0cc668e.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "livestock_fertilizer",
+          "seat": 1,
+          "seed": 1502
+        },
+        "path": "artifacts/terminal_episodes/5f4574db4eea8c60fed4e8dd5daf38de52fc2b2b46fc0d172888df222d9fe4c4.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_fertilizer",
+          "seat": 1,
+          "seed": 1502
+        },
+        "path": "artifacts/terminal_episodes/a0e057f89064cdd52ff91abc2ec2e4675fdc235dad93a26fd83d4a7433299c06.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "livestock_fertilizer",
+          "seat": 1,
+          "seed": 1502
+        },
+        "path": "artifacts/terminal_episodes/c3805d624e9a1aa733289306b7322165e5c5765b4aedd11c85ba73ee24f73e7f.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "melon_specialist",
+          "seat": 1,
+          "seed": 1502
+        },
+        "path": "artifacts/terminal_episodes/5a130179707a1d3a55d40b07b165292acacb933ac4d1a3fef4a1d4ad230fa5dc.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "melon_specialist",
+          "seat": 1,
+          "seed": 1502
+        },
+        "path": "artifacts/terminal_episodes/b59307a1e9d671491fc7c13cd4c64a2b7d9c3a575171d841870e52b0791ab916.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "melon_specialist",
+          "seat": 1,
+          "seed": 1502
+        },
+        "path": "artifacts/terminal_episodes/90f80c3cf5f7dfa85e75e6fac5a5b1f2f8b9fb49d1efde5e385d7229778c63a9.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "livestock_fertilizer",
+          "seat": 0,
+          "seed": 1503
+        },
+        "path": "artifacts/terminal_episodes/18c16b24424af5ce3ec5f173eb5c2214f476dbd49a67de398248e348fea8f86c.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_fertilizer",
+          "seat": 0,
+          "seed": 1503
+        },
+        "path": "artifacts/terminal_episodes/9ff05577134741d68f04c5fc30851e537e837451f8d4321bc95f73442706cd7f.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "livestock_fertilizer",
+          "seat": 0,
+          "seed": 1503
+        },
+        "path": "artifacts/terminal_episodes/1f0959771591c511e69175569dd5e93ec1a9682e9291480ef0846efa2ce75e33.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "melon_specialist",
+          "seat": 0,
+          "seed": 1503
+        },
+        "path": "artifacts/terminal_episodes/b11b1b9db1d479580db80f384c60a4d9752a558bf0155e9cf91d3dc4e3a69f77.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "melon_specialist",
+          "seat": 0,
+          "seed": 1503
+        },
+        "path": "artifacts/terminal_episodes/bd657867508ff96d434c3d7a4a31929cad1712c435342153bf99f0ae76c12aea.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "melon_specialist",
+          "seat": 0,
+          "seed": 1503
+        },
+        "path": "artifacts/terminal_episodes/4260c93d558258effb83314d48f04635ccf9f6892c71d8b897ceba85e564f017.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "livestock_fertilizer",
+          "seat": 1,
+          "seed": 1503
+        },
+        "path": "artifacts/terminal_episodes/fe3082334d90626fc72102a011b5aa4bd0042c552a2e7f9c9f766a6cd34f71a8.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_fertilizer",
+          "seat": 1,
+          "seed": 1503
+        },
+        "path": "artifacts/terminal_episodes/ffc4bcf6e99586941e5a706af26ea64b8f9fa4cb7d4b1247dfffc00034f3e34d.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "livestock_fertilizer",
+          "seat": 1,
+          "seed": 1503
+        },
+        "path": "artifacts/terminal_episodes/ac92b1bbc75ec274fe8f06904dc03197e54a685cb0c822be44bf6d879d9c5ec8.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "melon_specialist",
+          "seat": 1,
+          "seed": 1503
+        },
+        "path": "artifacts/terminal_episodes/9b4f79fb7066cde4b4512ea55650d8616b3d8c46f8325de1a118417af3720edf.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "melon_specialist",
+          "seat": 1,
+          "seed": 1503
+        },
+        "path": "artifacts/terminal_episodes/491a561547f3400895ce901c506633fb7c3be9336436b620dcc042a1479a7b15.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "melon_specialist",
+          "seat": 1,
+          "seed": 1503
+        },
+        "path": "artifacts/terminal_episodes/f4688269803e8996d8a9867c912e61f96239a2dc804d1e0052deb2aeb83c3803.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "livestock_fertilizer",
+          "seat": 0,
+          "seed": 1504
+        },
+        "path": "artifacts/terminal_episodes/09c5740d478c117fad778d661569632cf99ea3c51a3f8df8898fb025ee1348a9.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_fertilizer",
+          "seat": 0,
+          "seed": 1504
+        },
+        "path": "artifacts/terminal_episodes/2d46eeecc26bf4bb886927ed74c5f2bbc103ec4acf90648f2d3cdb97e0ccb61a.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "livestock_fertilizer",
+          "seat": 0,
+          "seed": 1504
+        },
+        "path": "artifacts/terminal_episodes/a2b8ba27aefdeb418ee66482ed4f2eaa481b1ed9ffc9a0b886a97eaa1a51f86c.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "melon_specialist",
+          "seat": 0,
+          "seed": 1504
+        },
+        "path": "artifacts/terminal_episodes/3c3a5ec201e65e3a5f1deb70efcdcbdb7a154c41289d558ee234e2818f0166cf.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "melon_specialist",
+          "seat": 0,
+          "seed": 1504
+        },
+        "path": "artifacts/terminal_episodes/7166b9b6bc559241d2645e6b7108995ab47ce5046a120b256efdff050ad5b4fb.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "melon_specialist",
+          "seat": 0,
+          "seed": 1504
+        },
+        "path": "artifacts/terminal_episodes/e565e37df5da89d8be8e12e06a4b5fae145f4bfb0b81dabc06439775ff31b5d3.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "livestock_fertilizer",
+          "seat": 1,
+          "seed": 1504
+        },
+        "path": "artifacts/terminal_episodes/349c50d01b56b79023defc54c0efeb2d68354c4d4e50d4f1cfb8b39327a009a9.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "livestock_fertilizer",
+          "seat": 1,
+          "seed": 1504
+        },
+        "path": "artifacts/terminal_episodes/96876c8aca85e69c39de382e4badc50e48c60b6e66be406c2fc7206e655f00ef.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "livestock_fertilizer",
+          "seat": 1,
+          "seed": 1504
+        },
+        "path": "artifacts/terminal_episodes/83c50779d94bbda913cab7e714644c05baa9c96788cc5efa6cf381dac4e4464f.json.gz"
+      },
+      {
+        "key": {
+          "arm": "baseline",
+          "opponent": "melon_specialist",
+          "seat": 1,
+          "seed": 1504
+        },
+        "path": "artifacts/terminal_episodes/318e486fd9135f3570f8feca915adcd389c1caf9d83c42a24fc264fc1ca2ed90.json.gz"
+      },
+      {
+        "key": {
+          "arm": "feed",
+          "opponent": "melon_specialist",
+          "seat": 1,
+          "seed": 1504
+        },
+        "path": "artifacts/terminal_episodes/0ca578cbecad66e047f2a484b341b0d950c3e45fb1a60d62c26eb2b3c584d3d7.json.gz"
+      },
+      {
+        "key": {
+          "arm": "joint",
+          "opponent": "melon_specialist",
+          "seat": 1,
+          "seed": 1504
+        },
+        "path": "artifacts/terminal_episodes/269850adbc6d7b7cf36002a95dbf48153afbdb786f541c6bdb36591e5119f476.json.gz"
+      }
+    ],
+    "lineage": {
+      "code": {
+        "docs/terminal_protocol.md": "2b8aa921f7f7802d2a4edeeb2a471ab7ceb9f7b5e82a6a28aaeeeed20a16c003",
+        "src/kaggriculture_livestock/__init__.py": "6eaf87b04e27687f9168edff36d6607379184198a9533dea7f20fa74e67e13a6",
+        "src/kaggriculture_livestock/audit.py": "7129b6ebbd1e8d40471f80a89e552502e538451f23d470fbd79352a2d68b5511",
+        "src/kaggriculture_livestock/experiment.py": "0cd711ae7f7643dd28e6967fafac240ef560da16a0185cd3e1b0ccfc54f9af3c",
+        "src/kaggriculture_livestock/features.py": "7ba4ae04c069bb2e4ecf82b166920213e4327defccfdcde69a10c73e85577463",
+        "src/kaggriculture_livestock/policy.py": "086ea3c323d33f62da0d8c0aa363934cd2c3fb0be3617d9daa558530292e3450",
+        "src/kaggriculture_research/__init__.py": "36d0ff269264d1c5e526ff205c2fc89e921767c65fdc3914654062bbc4adcb85",
+        "src/kaggriculture_research/artifacts.py": "e08e16f0e09ba25d732e22dc7239ce4a5e017ca3bfbe68d720cafa9ed201ba72",
+        "src/kaggriculture_research/audit.py": "3cc1130b795f90e8bea454f19bb59b6a4412d6959fad3260a9a7389aa41181a1",
+        "src/kaggriculture_research/cash_history.py": "256b4c1b544e50ff9073f0b5474ab8b07c8b1f71c3c30204d54df50747c2be4c",
+        "src/kaggriculture_research/crop_policy.py": "52db5557b6bb71a4f0c7bfe5ce6faf7fb92d878dfc5b2d353781c9dc28f1d806",
+        "src/kaggriculture_research/environment.py": "590788ca3c5d390c71e06b8c6206f47787ff9bc324b539fb33e5eb163f4cb091",
+        "src/kaggriculture_research/experiment.py": "9777ea565da9d5ac3ff3bb142f63afda0c25f5d6c6ddaf1c45c0e616fbcdf417",
+        "src/kaggriculture_research/features.py": "70fc36e02564ebace315516c389ee17af42624f8fc27c6d8baceb4c14d9d9121",
+        "src/kaggriculture_research/gates.py": "ec8325b24531a7e027d620002da414df3d0f8ce0dddd72b38e6217a70be2a2ac",
+        "src/kaggriculture_research/market_experiment.py": "edd7edd633fa48871a663f35be5624d8cf464cb0c08da7c14f6975797e92417a",
+        "src/kaggriculture_research/market_features.py": "c57bcbd9a84e8518e9474d0adaf5a45350f549e671031485e9288761226f329a",
+        "src/kaggriculture_research/market_history.py": "54e295106673f4b149512ed3e404073782fb3dab65484c9a61fc02c2143c7cee",
+        "src/kaggriculture_research/market_policy.py": "1173f7d0ce02c24c465e7c1c264919e8ddbcc2355a28752a521c67292649d874",
+        "src/kaggriculture_research/progress.py": "12a66d38b6238a323194dce2eb39803a015d794ead8f007ffd07c6eed2c22824",
+        "src/kaggriculture_research/relationship_experiment.py": "11a4d39bd40a5f886656fa308972aad359ea0aa97a9499e80101b02b1f2f283a",
+        "src/kaggriculture_research/relationship_features.py": "807d67e5a14d7915cbdd35a63db0f618040ef3884b130238bfcf0b62e9435de2",
+        "src/kaggriculture_research/relationship_policy.py": "2e337c7334f5902d3462342c69ec4ca6852b90f35bb4d1301e6fd6f5047fbe5b",
+        "src/kaggriculture_research/rollouts.py": "320a57470fecbeefcac1430025689b1f957fc4db044d9d9a5629c5a9d6cdcb02",
+        "src/kaggriculture_research/supply_experiment.py": "a828b66c4ab0bdc551c559c92b0f7fe889582c2722e0f1cabe95943982801429",
+        "src/kaggriculture_research/supply_policy.py": "f10e58a19e66cb24d3a5332aab2ff6af3efd1dd1a563ed16c6536b6158d31104",
+        "src/kaggriculture_research/visuals.py": "e7f66b39c538989c40ce19c7e6564912684204c8ec1fe8a7dd286252ff55f48f",
+        "src/kaggriculture_terminal/__init__.py": "298136a21d8c8091f0a1843442e56f1f45a12d77de32e4e4d01d73ed81e42664",
+        "src/kaggriculture_terminal/experiment.py": "d939932b574a6e28dbdc19e641ec7149becc22db27cab3b623c7544e094ca314",
+        "src/kaggriculture_terminal/feed_policy.py": "8235472d9621464e4e7dd5737be18b8ac656541291f060bd4a5579da460bbf34",
+        "src/kaggriculture_terminal/policy.py": "94c19098f04bce07a94a5397b655cb61a4d22e79f278328ee93a9d619402833c",
+        "src/kaggriculture_terminal/routing.py": "978e262324534f7c50980003be2d0842da4b274e49bdc7ded1fcfc7cb2ea8a10"
+      },
+      "engine": {
+        "files": {
+          "agent.py": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6",
+          "core.py": "0922c4599a1b6e0d8c3dadf06ae5297f98138d859d686f00daee6f36e6d45d0e",
+          "envs/kaggriculture/kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+          "envs/kaggriculture/kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+          "schemas.json": "cc6ccbca1a8f747e90434778f12acfe4b29bbeea69aeb5af81f4017ab2ea9a1c",
+          "utils.py": "537b627b11784d424147ef57ebb0369b039bf83c9f891e81f10486b1f552334b"
+        },
+        "package": "kaggle-environments",
+        "version": "1.32.7"
+      },
+      "protocol": {
+        "arms": [
+          "baseline",
+          "feed",
+          "joint"
+        ],
+        "bootstrap_resamples": 4000,
+        "bootstrap_seed": 4501,
+        "configuration": {
+          "episodeSteps": 720
+        },
+        "contrasts": [
+          [
+            "feed",
+            "baseline"
+          ],
+          [
+            "joint",
+            "feed"
+          ],
+          [
+            "joint",
+            "baseline"
+          ]
+        ],
+        "development_seeds": [
+          1501,
+          1502,
+          1503,
+          1504
+        ],
+        "experiment": "terminal-routing-v1",
+        "feature_sample_stride": 4,
+        "heartbeat_seconds": 15,
+        "max_games": 48,
+        "max_new_games_per_batch": 2,
+        "max_seconds_per_batch": 60,
+        "opponents": [
+          "livestock_fertilizer",
+          "melon_specialist"
+        ],
+        "primary_metric": "match_score",
+        "seats": [
+          0,
+          1
+        ]
+      }
+    },
+    "runner_sha256": "d10d0ea7fe853612b7e548afacf08d25122ddc34b5cb3e2ade732173b39fbfbc"
+  },
+  "identity_sha256": "2887a1532e6ff297518da90dcd875518ab85f7229dd166f4dc14c13d3a56d670",
+  "outcomes_inspected_before_registration": false,
+  "registered_at_utc": "2026-09-10T19:24:59.017643+00:00"
+}

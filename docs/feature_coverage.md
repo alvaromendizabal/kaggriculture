@@ -3,6 +3,13 @@
 **Gate: OPEN RESEARCH / final optimization blocked.** No percentage-complete estimate is
 justified. Generated and screened descriptor counts are not feature-performance evidence.
 
+The latest [terminal study](terminal_research.md) adds 79 descriptors, 67 varying,
+and 48 registered games. Its supported 1,579-column bank has 1,248 varying columns,
+331 constants, 153 nonconstant duplicate groups and 1,926 high-correlation pairs.
+The project union is 1,621 including 42 excluded cash-bound candidates. Nothing is
+retained for a final model. The final-day package wins 16/16 locally, but only
+activates one worker; staffing-controlled assignment benefit is the next open test.
+
 | Family | Implemented/evidence | Still required to close the family |
 |---|---|---|
 | Crop lifecycle value | All five irrigated crop scenarios; source parity; study 1 ablation | Repeated harvests, regeneration/replant opportunity cost, crop-mix adaptation |
@@ -11,18 +18,18 @@ justified. Generated and screened descriptor counts are not feature-performance 
 | Fertilizer | Study 5 adds 60 scenario features with travel, water, sale opportunity cost and terminal feasibility; fertilizer−care margin +2,539.25, score unchanged | Joint route feasibility, continuation/price uncertainty, broader crop mixes and primary-score gains against stronger opponents |
 | Storage and delivery | Phase-aware room and bounded deposits; study 3 activated work-cost-aware delivery and improved coins, but wins occurred in only one seed | Global joint routes, heterogeneous inventory allocation, production displacement and broader win-rate benefit |
 | Working capital | Staffing runway and seed-spend reserve; zero study 2 intervention activations, utility untested | Receipt uncertainty, adaptive reserves, explicit capital-stress scenarios and demonstrated activation/benefit |
-| Labor | Worker capacity, distance, workload and Fibonacci costs; study 1 combined effect | Separate distance and staffing factors; assignment/route optimization; hiring marginal value |
+| Labor | Worker capacity, distance, workload and Fibonacci costs; study 6 tests a liquidation/no-rehire package | Hold staffing constant to isolate routing; assignment/route optimization; hiring marginal value |
 | Shared-market impact | Exact sale/concurrent-sale parity; harmful study 3 holding; study 4 stored-supply history improved mirror-match decisions, while cash added no actions | Gains beyond related crop references; floor-censored false alarms, endogenous response and calibrated scenarios |
 | Town demand | Exact duplicate-shop events; known-demand holding rule tested and insufficient under competition | Unknown-unlock distributions without hidden seed access; joint demand/supply uncertainty |
-| Livestock | Study 5 tests all three species, feed/care/manure loops; 70/78 earlier descriptors now vary; care/fertilizer each win 16/16 against fixed references | Final-day feed gate, alternative herd mixes, scarcity/escape regimes, global service allocation and unrelated specialists |
+| Livestock | Study 5 tests all three species, feed/care/manure loops; study 6 eliminates final-day feeding, adds coins but no pooled score gain by itself | Alternative herd mixes, scarcity/escape regimes, global service allocation and unrelated specialists |
 | Land | Existing public ownership and capacity descriptors | Capital/time/labor-adjusted NE/SW/SE expansion returns and controlled action experiments |
 | Causal temporal signals | Prior 1/24-turn features, 333 history and 42 cash candidates; study 4 independently recomputed 11,584 joint vectors and 1,984 state restores | Grouped predictive validation, specialist coverage and deployment state-size/runtime acceptance |
 | Opponent response | Seven-product bounds pass independent checks; study 4 cash tightens melon bounds without changing actions; study 5 explicitly excludes 42 cash features invalidated by own buying | Generalize cash accounting to own purchases, joint cross-product feasibility, calibrated beliefs and adaptive opponents |
-| Terminal banking | Exact horizon and delivery feasibility; study 5 care conversion gate works, but care/fertilizer still waste 3.000/2.875 final-day feed units per game | Correct terminal feed feasibility in a new registered intervention; joint liquidation, mixed goods and cap-constrained final turns |
+| Terminal banking | Study 6 isolates final-day actions with 16 identical preterminal blocks; its package wins 16/16, adds 747.875 coins and leaves zero carried/shed products | Separate liquidation from staffing; multiworker benefit, mixed goods, cap-constrained turns, larger menus and stronger independent references |
 | Rankings/relative choices | Current crop utility argmax and resource-relative summaries | Cross-action ranks and opportunity-cost margins; controlled comparisons beyond arbitrary scores |
 | Learned encodings | Not implemented, no claim of target-derived signal | Only if useful: seed/episode-grouped OOF development fitting, no future reward in policy inputs |
-| Spatial/graph representation | Manhattan travel on open grid; per-worker and aggregate features | Joint worker-task graph, congestion-free assignments, plant age/needs spatial clustering |
-| Robustness and saturation | Five studies, 320 development games; study 5 has four fresh seeds and one mixed-farm reference; care/fertilizer scores saturate | Stronger unrelated specialist/stress populations, fresh-seed confirmation and diminishing-return studies |
+| Spatial/graph representation | Manhattan travel; study 6 has exact enumeration over bounded route menus, resource exclusion and joint capacity parity | Multiworker policy activation: joint arm had only one worker; season-long graph, spatial clustering and wider task menus |
+| Robustness and saturation | Six studies, 368 development games; study 6 uses the stronger preceding fertilizer policy but the MELON reference remains saturated | Stronger unrelated specialist/stress populations, fresh-seed confirmation and diminishing-return studies |
 
 ## Exclusions with a domain reason
 
