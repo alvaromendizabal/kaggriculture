@@ -49,6 +49,7 @@ def verify(root: Path, record: bool = False) -> dict:
             "github_run_id": os.environ.get("GITHUB_RUN_ID"),
             "github_commit_sha": os.environ.get("GITHUB_SHA"),
             "study_report_sha256": file_digest(root / "reports/supply_research.json"),
+            "plot_source_sha256": file_digest(root / "scripts/supply_plots.py"),
             "all_cells_executed": True,
             "errors": 0,
         }
@@ -66,6 +67,7 @@ def verify(root: Path, record: bool = False) -> dict:
             or result["static_png_outputs"] != pngs
             or result["all_cells_executed"] is not True
             or result["errors"] != 0
+            or result["plot_source_sha256"] != file_digest(root / "scripts/supply_plots.py")
         ):
             raise ValueError("Notebook execution receipt metadata is inconsistent")
     return result

@@ -121,3 +121,34 @@ def test_undeclared_provenance_replacement_fails():
     cells[6].source = "print('verified')"
     with pytest.raises(ValueError, match="Undeclared"):
         archived(cells)
+
+
+def test_perfect_score_labels_do_not_overlap_chart_title(monkeypatch):
+    import pandas as pd
+    from matplotlib.backends.backend_agg import FigureCanvasAgg
+
+    monkeypatch.syspath_prepend(str(ROOT / "scripts"))
+    import supply_plots
+
+    captured = []
+    make = supply_plots.plt.subplots
+
+    def capture(*args, **kwargs):
+        fig, axis = make(*args, **kwargs)
+        captured.append((fig, axis))
+        return fig, axis
+
+    monkeypatch.setattr(supply_plots.plt, "subplots", capture)
+    monkeypatch.setattr(supply_plots, "display", lambda *args, **kwargs: None)
+    scores = pd.DataFrame(
+        {"market10": [0.5, 0, 1, 1], "relationship101": [0.25, 0, 0.25, 0.25]},
+        index=["bank", "visible", "history", "cash"],
+    )
+    supply_plots.show_match_scores(scores)
+    fig, axis = captured[0]
+    canvas = FigureCanvasAgg(fig)
+    canvas.draw()
+    renderer = canvas.get_renderer()
+    title = axis.title.get_window_extent(renderer)
+    assert axis.get_ylim() == (0.0, 1.0)
+    assert all(text.get_window_extent(renderer).y1 < title.y0 for text in axis.texts)

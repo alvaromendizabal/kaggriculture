@@ -39,6 +39,7 @@ def show_match_scores(scores) -> None:
         yaxis_title="Win + half a tie",
         yaxis_range=[0, 1],
         legend_title="Frozen opponent",
+        margin={"t": 90, "b": 70, "l": 65, "r": 25},
     )
     axis.set(
         xticks=positions,
@@ -46,8 +47,8 @@ def show_match_scores(scores) -> None:
         ylim=(0, 1),
         xlabel="Fixed information arm",
         ylabel="Win + half a tie",
-        title=title,
     )
+    axis.set_title(title, pad=28)
     axis.set_yticks(np.linspace(0, 1, 5))
     axis.grid(axis="y", alpha=0.18)
     axis.set_axisbelow(True)
