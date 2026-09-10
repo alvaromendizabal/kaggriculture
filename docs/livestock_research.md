@@ -122,6 +122,8 @@ feeding by 42.125 units and reduced care actions by 24.625 per game relative to
 feed. All observed care-bank additions in care/fertilizer were converted; no
 bonus was lost to production caps. Routine lost four cow bonus units per game
 to caps. Every arm avoided escapes and discarded inventory in this population.
+These diagnostics identify a failure mechanism, not an isolated attribution of
+the entire coin effect: downstream routing, production and shared prices also change.
 
 Terminal timing remains imperfect. There is no final day-29 refresh. Action totals
 minus observed night flags identify the following mean services with no subsequent

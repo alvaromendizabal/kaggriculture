@@ -1,0 +1,17 @@
+{
+  "all_cells_executed": true,
+  "ancestor_notebook_sha256": "8f13828607f55faf92a1aeedc802d3c5fbd3eea9fc0162cc0236e2ee0ac9ad96",
+  "archived_ancestor_receipt_sha256": "628e850d094f07a2429bedc3bddb8b3ef67d02ca947e71c74e62e3bebba80d0b",
+  "code_cells": 28,
+  "errors": 0,
+  "execution_environment": "GitHub Actions",
+  "github_commit_sha": "61f6394cd12e7c9c25bb2bb574d1ee60965a0e41",
+  "github_run_id": "34516813547",
+  "notebook_sha256": "02d4a667a34f89774d30bf58c452aab655ca00b4bb68a59cc71a7732b8259b31",
+  "plot_source_sha256": "6582bb411f90d55dc26a2bde0a2b510fb76cbc0280ed06828f0a26ff688e5b39",
+  "preservation_scope": "first_23_code_sources; new whole-notebook execution identity",
+  "preserved_earlier_source_sha256": "aaf0381fa1aa2f9a216bbe49e5f1b7348a304fd612ba73ef28301473ba7a3d0a",
+  "source_sha256": "52760a1a7e2e54f6c3aa41d7679d28494127313537cc81a4cb5df2b4a4c2979f",
+  "static_png_outputs": 8,
+  "study_report_sha256": "a68b2f6c534a3a6a3818994e1884fdd26f21f8889b6b526577392e543840e458"
+}

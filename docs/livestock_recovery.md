@@ -122,5 +122,13 @@ figures, verify the receipt and publish the actual executed file. A successful
 workflow does not by itself update the committed notebook. Finish with passing
 checks on the exact PR head, then verify the merged remote commit.
 
+For Work Mode artifact retrieval, use the returned authenticated file reference
+with file materialization when direct asset downloads fail. Verify the ZIP against
+GitHub's artifact digest, then verify the notebook against its execution receipt.
+The publication artifact came from run `34516813547`, PR head
+`45b3a7a2e3afdf4675d37a3d4066758213c89d90`, tested merge commit
+`61f6394cd12e7c9c25bb2bb574d1ee60965a0e41`. Its ZIP SHA256 is
+`59b7add4137428dedb6883504ed4d7f9495e92bf31b8f7d9a0b9b7c59f3f7a0e`.
+
 Feature research remains open after this milestone; validation/holdout pools and
 final Kaggle submission are separate, untouched stages.

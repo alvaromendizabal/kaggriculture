@@ -49,8 +49,12 @@ The notebooks consume saved results. The [machine-readable study](reports/livest
 identify exactly what was measured. All 64 games passed independent replay with
 zero mismatches, including 11,584 full vectors and 92,032 private transitions.
 Notebook 02 preserves all 23 prior code-cell sources and adds five livestock cells.
+It contains **28 genuinely executed code cells and eight rendered figures**.
+[The publication run](https://github.com/alvaromendizabal/kaggriculture/actions/runs/34516813547)
+passed **212 tests**, executed all three notebooks and verified all five studies.
 Its [execution receipt](reports/livestock_notebook_execution.json) is separate from
-the archived supply receipt. Earlier notebook lineage remains checked through the
+the archived supply receipt. The exact CI archive was checksum-verified before
+import, and both new figures were inspected. Earlier notebook lineage remains checked through the
 [declared provenance adapter](scripts/notebook_provenance.py). All prior experiment
 and feature sources remain unchanged. Current checks run through
 [GitHub Actions](https://github.com/alvaromendizabal/kaggriculture/actions).
