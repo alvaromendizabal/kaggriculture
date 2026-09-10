@@ -1,0 +1,1252 @@
+{
+  "artifact_manifest": [
+    {
+      "path": "artifacts/market_episodes/b5727f4f217145d643ba6643b6996753d04bba2418b17e7555a01a5a09f1d9b7.json.gz",
+      "semantic_sha256": "c1b1a5ea5b83acb4aa4095dc8f490cd785daf831a87640d908c2551952b439e1",
+      "sha256": "1024942f1514949f38f843244ed342edddd143b0bc1a2585750628c6c7a1080d"
+    },
+    {
+      "path": "artifacts/market_episodes/e6cfe4e6377896c819b669b8a856f871f4b9d5e3987fb6b9137cf1244ffa5166.json.gz",
+      "semantic_sha256": "d54201660d79df0995c5549fa467a9fd040c43e0803f6276d95de842ace740e0",
+      "sha256": "beac54b2797d36ca57caceeb9d40c7e13cf25252de61b4b75e21cc0a48495e70"
+    },
+    {
+      "path": "artifacts/market_episodes/62afb7a330636f52b032dfd5cfd9de204caf8a7b63233a0edca067ddad6ff413.json.gz",
+      "semantic_sha256": "ad0fc49eef671e9ffa838ca7276fa1bd2ff8d58189e9bee6c0930e7ff9ea6c71",
+      "sha256": "6c01b5c2efb498cc12bc5568862adde750096ce7b7083752b850235c7a93b2a5"
+    },
+    {
+      "path": "artifacts/market_episodes/920a143284288dc00d04ea1888db4a207f3be5e80ae747ec117b20966bba64a9.json.gz",
+      "semantic_sha256": "98387c8ba7719d38710c93031528b1e29305d8231f97c1b422e8a1a9db686452",
+      "sha256": "571267534a25f98b2e93b07ff3f625cdc9f9c6915ff450a534cafdc1326a6d3e"
+    },
+    {
+      "path": "artifacts/market_episodes/155e8a212561a8280ef4b698ae0fd083ea259c80cd720f8e244d461314611adc.json.gz",
+      "semantic_sha256": "69325330fc54fb54570c6071960bda7c732d4cb47822ec0e9f5003f42ef23c8f",
+      "sha256": "74a6932225201c793db5211f0656c8f86b656938d2d1e58be22ec66f53546460"
+    },
+    {
+      "path": "artifacts/market_episodes/1eadaba037a86475dde5c684cceec051d0afd75bc0690a2748b3857be892204f.json.gz",
+      "semantic_sha256": "7890087b5f2b898eacac61249f98e45cc2ad92363345e770eb51532d05f8dd92",
+      "sha256": "e841b15f9bfd6e65938438422689ce7ef2d0855b652e07d53b9d2edddaf0030b"
+    },
+    {
+      "path": "artifacts/market_episodes/357f7a538c3ce8886b1ef6260f6ded1114b940f816eb6fe56b64a2ee29d2b389.json.gz",
+      "semantic_sha256": "0c7494ccd06f0b59b92672afc2b7e584ff8c7cb73a8a722fd27fe3c5bae2c88a",
+      "sha256": "9da7aab02bd3a856bb28fcaa5243e47320ea96d14de29331a2d587a97c6f5b43"
+    },
+    {
+      "path": "artifacts/market_episodes/942c2d9fcc7ec9c7e438380510492a8e9eb2f2c4d3de9da5df1540efeac6f9ba.json.gz",
+      "semantic_sha256": "c45ac9d75cbc664f7b89425760d37611b3d6faa9711e5adca39c74ac894a74f3",
+      "sha256": "2c84a96d0c321b831f334979dd4136b3030639e8101dacb78106359187124c42"
+    },
+    {
+      "path": "artifacts/market_episodes/8a759704cc67220ddcb29e8b48608faf3bc353a182bb3fffe11e89e1d91721fb.json.gz",
+      "semantic_sha256": "2e16062122420b63aa546325b298ca9e4822bb8ab32599b5599470c54f6ef399",
+      "sha256": "c9df5ebc4009d9163a69ba302d7613b344c01e1ad9bae34e62c04aec3a9bcad3"
+    },
+    {
+      "path": "artifacts/market_episodes/0fe4d1ab4a9f343c108f260407aeead6de542ad0167446ac8220bacc94dd6775.json.gz",
+      "semantic_sha256": "f1d145f35965defd2f6c3931c0ea08f7ceac82507baf85d02074989b1caf4cdb",
+      "sha256": "841604085fab972a349fb27783f55dac645cf134d48bb14044c2860779ab32db"
+    },
+    {
+      "path": "artifacts/market_episodes/df6b4d587d154c529916f194219923630d3a674d5b345fb20bbe53584e9f33a1.json.gz",
+      "semantic_sha256": "b6d733f0a05a6df0fb4ada1273709c16fa0f3c94955bb9a763de147223593de0",
+      "sha256": "f05eb50ec78921381584ab73ba45b2b997ad90ce54488d2e9ae25b4cbe7eb1d5"
+    },
+    {
+      "path": "artifacts/market_episodes/4b58e72a4424b01c5caae6996032d7890009d6fbf3ceebf8b2481387d19de317.json.gz",
+      "semantic_sha256": "de24c07ae276720353a921da06eb880b5ecda3a333119d58227521751d2a8ea9",
+      "sha256": "2161f56e51e2110536f83e88a030d3392b1d6c11af513eeee4d3e08f5425a3d1"
+    },
+    {
+      "path": "artifacts/market_episodes/06755072fc591f84426efe6b13f4fd08d40bb498a1e2d411710cb567945b5690.json.gz",
+      "semantic_sha256": "4282d8a1370b04362a33e5be91c718dc3967a636674d9cac549c541e5e0985eb",
+      "sha256": "8d0cca61dd1d9daa709099591db78e62dfe30d7373eca19d35748057b6debda6"
+    },
+    {
+      "path": "artifacts/market_episodes/da7cefb4cd84aefc4508eff2de54b0d403ed651236857a851b0cbaad2d21c1fa.json.gz",
+      "semantic_sha256": "111df8a6335bf75160492875292b2cb50a1c34bb0701da3184914a215791236c",
+      "sha256": "da8847346d8e3ecebe837c1badf354c15afc7783733cbb81ce09549a05863261"
+    },
+    {
+      "path": "artifacts/market_episodes/6e109aa23490a4fedefee8c4885cd9d538e96aa91a7edddcefb615ee90268085.json.gz",
+      "semantic_sha256": "3b64994796cf12d86fa2408c48924889c49db3ee3cb97c0368d59383df6d7fec",
+      "sha256": "c3d63812f85e27d5913474f330b93c7f5e5cb3d7b083a87f988dee6656141cc8"
+    },
+    {
+      "path": "artifacts/market_episodes/41043f7104a20253bd9dd568f5a54b8ea1f3168210bc5184908fbaad632d5eb5.json.gz",
+      "semantic_sha256": "11f76981ec687e8ff8716407c6005e51bbd5820523574eef87a848ed82cfbea3",
+      "sha256": "384350c0389dd8cdc30d6af14530ade429620e62a8ead83e8c850b0e12726ce8"
+    },
+    {
+      "path": "artifacts/market_episodes/207c39bd61e560fcf892d14f5443b172b27b7fe22ea01e2e3aa6b9c9b56e14eb.json.gz",
+      "semantic_sha256": "16c37d1d240ab017dcc5b0be048ec393926cb25acfb7234d96936e877344d6a7",
+      "sha256": "17c3b45d8c849b5556b11311360b54f2229233e3e1985ce481bda4ccd3674851"
+    },
+    {
+      "path": "artifacts/market_episodes/012fad5c88ae051029ba3d12b9a639a09eea6b39f846e37a5a6c2ad3b0b0712a.json.gz",
+      "semantic_sha256": "489209204c44a0d42439ce137c69d33f5c0675077259f196630c2a1c31622d67",
+      "sha256": "cfe38005aa8642e400242b386579c6c70a77f013873cc2a4c3ae8ab41787cb3c"
+    },
+    {
+      "path": "artifacts/market_episodes/c3088b2590f2aaaea11b55a8abee34c1719e2c4ee706f43a957aba3a33a4ff7a.json.gz",
+      "semantic_sha256": "22d1626e53bbbe062c88703afc7b0d4087fb2d421ce9334a9ba9adbd50bd5e31",
+      "sha256": "25675142ed288c2332ed983e1544b7238386798c685c3f66c5bff6f0b9e184e4"
+    },
+    {
+      "path": "artifacts/market_episodes/56cdb70a4fa5fda70c1d75c980886363b4875921301d41d8a00fc7d93e79309f.json.gz",
+      "semantic_sha256": "caac14c5f692f6db10fb8243997cf46abc04e5b5fb1a883c25e59407ca3358f5",
+      "sha256": "eae124ca492fc3c219da23189b445c37c5a9919f59ae15bc93a43717bbe7bf0f"
+    },
+    {
+      "path": "artifacts/market_episodes/fea7d0c2254de8cd89263481d31b386f2b9b792aa77ca54798670029d1bb116c.json.gz",
+      "semantic_sha256": "f59471c91808bc4f0d3db5d010b090b36b5f245ce83526423d7ceea57b34daaf",
+      "sha256": "d9148e87f83023c376b275a654a20374efa3f0847bcfca68543a8ee845bf5b00"
+    },
+    {
+      "path": "artifacts/market_episodes/664b753a4849ef4287638bf2e2d12984c2a5e728a60bd5b66387e49a6645e5ab.json.gz",
+      "semantic_sha256": "f20c8c7c0dfc914ff58011e6c2346db806460b9c099cf14fed24ab68669940ee",
+      "sha256": "40cdde8d9be52e00245b7c4efba1f3361d968ff9165c8de319962ac8a415be35"
+    },
+    {
+      "path": "artifacts/market_episodes/5950a2b31f9220255bcfa40e5540a3644d26cc3dc45334691240db2d10203e7e.json.gz",
+      "semantic_sha256": "fb99ff8c1e8bb82ee19d14f7fc10a287a4e95bfcbe7cc86fe02cd536a24e113f",
+      "sha256": "caef4ebde525e88785972a8a7863febd623e72798f6e372e45ea39320fa8e48f"
+    },
+    {
+      "path": "artifacts/market_episodes/dff544ef2cd73f139272e32896a4ce79f5bd1b9d26453fc84f78ea42cae3f13d.json.gz",
+      "semantic_sha256": "9572cb1c79d30863f77d8e1e673f3a896ceeccfa30af5cbf0e0fec294ef8607e",
+      "sha256": "98f872ab947c259c103ee961d67035e78da0b899d3504f7dc961eace0c8ddcc0"
+    },
+    {
+      "path": "artifacts/market_episodes/657cbbfafff2dd8ad4fc6bf63f69c2b8599cf12ead7b6601c91d50a183d4a9a8.json.gz",
+      "semantic_sha256": "bac447b3fee0ab18350a39d96eb11bb222ec50bfba31a7e5e778ec42f7ad5740",
+      "sha256": "3678075277f59e866cc1637b4bbdf906b42267c66cedef1868fe8805815d79ea"
+    },
+    {
+      "path": "artifacts/market_episodes/ee502dd320708bd3597fde39a49629988894f360722888a6ff08ab82329fb4c8.json.gz",
+      "semantic_sha256": "8eb368b0449827afb269b94264f619109f1cc9b85f5353aa65f5e5a716bd2e52",
+      "sha256": "24467a821899b7ce0d89090585d52b6f5c4cfcec24bec822cb4c1354e0a55876"
+    },
+    {
+      "path": "artifacts/market_episodes/0e00e00543db5c6c02d2bef2daba4f4f3480cfdcc31a1e91ce7856cd083f0f51.json.gz",
+      "semantic_sha256": "9c7fd67a2faf8a3988f1c09b22d709ad0761be7787a232ec5d2e241522eff01d",
+      "sha256": "d7c26467fc7f687fe52b3cbe8a5e43b2f0f20f7aea9dd4c315a9c3e34435e467"
+    },
+    {
+      "path": "artifacts/market_episodes/44bc274f1cdb5f8395351da6631ecde4731caea4fc0600e1b6a0645f37afcd61.json.gz",
+      "semantic_sha256": "b3df9b12abacba5f5af5c45f2caf46a34db220110f1690ce1088cc1f9d2883d2",
+      "sha256": "4911fd8ba37fe093ddf9aa6a68b9b8eacad4fffa1ef9ac1876e9213801a6fc27"
+    },
+    {
+      "path": "artifacts/market_episodes/b2633c72672ccb741baff9a17e923a3db05b51fc713a2915be5d4e1a7837e1a9.json.gz",
+      "semantic_sha256": "b65b4ae3e4975100c6b366ddf4b885518f912765e179f40c0d7395765fe4365a",
+      "sha256": "b8fb4f411026a665cff6a07e2deb3baa38c5e22e8e6b0775ea12942d9c46f50e"
+    },
+    {
+      "path": "artifacts/market_episodes/bf1dab30c5eaf6fda0ab408d038148a4743b71942399acb45780b8e028fb34a1.json.gz",
+      "semantic_sha256": "045fe6024c5df9aed5203bfba74914f792755e0221ed96e2556ad5f4d468af16",
+      "sha256": "7e827e8d70128054d6393025e871f0e07814fbce39c76ebe8b65f52dc5efcb44"
+    },
+    {
+      "path": "artifacts/market_episodes/549a32552d577136b61a1b0d99aec9afa6342fabf481744ad28a0e2210319795.json.gz",
+      "semantic_sha256": "365c665c0a26c0b0573ce5a4b04825878f96e4f052421e450e380ba57bd8dfd8",
+      "sha256": "ae5218c006ebd0326791d5b8e727c686f047609593400fdd2887f373bcaf1504"
+    },
+    {
+      "path": "artifacts/market_episodes/757630a2a476f62a51fa98d9efa7b8025adb358a65b3ae53259b5e5141bb03ab.json.gz",
+      "semantic_sha256": "6ef563d40807620d692e5e4f6e742369ff1b3c32ff01e95e94a6c53614a0b6c2",
+      "sha256": "96876cefb31a909c0668e2de9f92c08ceb49c9114e2e82a93bb7431f811bf831"
+    },
+    {
+      "path": "artifacts/market_episodes/8a71d3c062b3bb979e138d8f7b5787a1dc4183ddb5e8483a05c3041e8f14584c.json.gz",
+      "semantic_sha256": "88cbb08a50d3fa797678074ae68b9d576fe53b1e74eabe60df303e0a8f88e2f1",
+      "sha256": "b56adddc8e1b8604e4c139fe6bac82a37d5bd666be110438025b21d54824e713"
+    },
+    {
+      "path": "artifacts/market_episodes/4ac0726b3295f506aeb275fa8f4e47b8abfc3d07f95137ef1c52c1e3e63901bc.json.gz",
+      "semantic_sha256": "189b1282e38fae34f0fd9fa97ac972383ba07742a3faec82187a36029a8b5433",
+      "sha256": "7b167a7bbebb652240d8848f8e3456e621167e3457812a691202403b71e8a8b5"
+    },
+    {
+      "path": "artifacts/market_episodes/083ac646016fbcf0ac42888d9305ef5b9e0ca943ffd080cf69a1131a704f96a7.json.gz",
+      "semantic_sha256": "27ec5b1896a6352d7bab39b395e519126fac6a496b83456e67c4f2173e5b5143",
+      "sha256": "68c8943ea431fb9c1d6cf15b3fa1cd2a452a46cb7241b94804a31d2ac7829bf9"
+    },
+    {
+      "path": "artifacts/market_episodes/902690547a790c3eb2f983824d82e99d1b73e31cccf17970329cdd24269697a2.json.gz",
+      "semantic_sha256": "b95f924e0ebdb7db1c30ab82401a98724513686466b94d51d2cb36dd5332f548",
+      "sha256": "9c8b4af9b0c00b63bc518337c0528981f7b31a5ba7536863642a68537d42e73a"
+    },
+    {
+      "path": "artifacts/market_episodes/697d41da95f5790806d9feaf22cfcb69c27a00039155b29b6bfad898e4605b57.json.gz",
+      "semantic_sha256": "4f807cba47af3efdc3a9f547792ec815c21c2b93e53f76ac11f28770da9defe6",
+      "sha256": "854c3e1bace0c485ba9b42488a8bc80450c276ec18fbc7cb83c588c8eba09ac3"
+    },
+    {
+      "path": "artifacts/market_episodes/225dc556829aaf7455f4e512108be6f93a5fadbc66700526e6797ff64ac45c7b.json.gz",
+      "semantic_sha256": "1c8c5fa4204be90cf5cb40042f686acacd5dd2f7bbecb999c484dabcf3c109e7",
+      "sha256": "bddbde74d055dbe1dfc6ccc8a3fce9136de99ece8aaae5dd6c1d97101b7cb034"
+    },
+    {
+      "path": "artifacts/market_episodes/1b8216a1c3f70c918a141c0b228f0ce2e58a0442db7d26cf3bfbd17bee32e188.json.gz",
+      "semantic_sha256": "d868f85aa4fdb56ef1813882150a52f2afbbeb05c716e38629dc51cf92d2b639",
+      "sha256": "dc1f7b1804495f75895ae10f917f48e32d196eb62e8420cecb966b54bc02921b"
+    },
+    {
+      "path": "artifacts/market_episodes/e27db98faa45bed5570ffc6814c1ce863ac68112dcfb7202bfda1afdb55fb781.json.gz",
+      "semantic_sha256": "2db682c9df84ea8d5499e824d796c57f95af15fffa6723549f8c3e2c76d74891",
+      "sha256": "f9462e2300c51a04aa02d988381486872613641d4e3c9af349d56ff5c2ea475a"
+    },
+    {
+      "path": "artifacts/market_episodes/409599f50eb0c30d4ed5f225138a3fb5f71113d91a757861bec7e9d72be67617.json.gz",
+      "semantic_sha256": "17354a1f9819d9a5c53df4dc726ed5b64daa43a64edcf052f0e50ace869a857d",
+      "sha256": "d0c652cf5aff0c7879a65a104e33d64707eb71280fd00d1f8b066170a81cf693"
+    },
+    {
+      "path": "artifacts/market_episodes/933475bbb91be9bf8814b5d803b526f709fe53606cadaff60151e177d28c1c17.json.gz",
+      "semantic_sha256": "3e6c9e33c2756f149f99691cd70a8b82659bb4570a028b3d74c5001ba7758ae9",
+      "sha256": "2b2f019db305481a6409c2ac47e3add23a8786cb1471cf0892060e4b9cdd41d8"
+    },
+    {
+      "path": "artifacts/market_episodes/bc73bb9544d3406f936040fdfe17f8f39c2d37045378fc0886362781eee871ec.json.gz",
+      "semantic_sha256": "2274826a27be304c4279e0e5e7961d283e2e3f9a18100ee3fbdb7a4e0c5eb6ea",
+      "sha256": "2c7e19fe689a2d156f0b92be730c142fe92ef8eb0278c913ccc0784c658ef927"
+    },
+    {
+      "path": "artifacts/market_episodes/621ecd072a3a7bb83bc07d7d3cf36b446ac2a15676a0155c85e358fc33f0ec62.json.gz",
+      "semantic_sha256": "f803a8401fc23b40693acc5701a10bec4a6a1af960813026df0a77aa6cb8889f",
+      "sha256": "ff7de8f983d4f034d0971827bb7a5354356ec1a88d52b6743f8501d70e600add"
+    },
+    {
+      "path": "artifacts/market_episodes/bf116305b4d346e590a2855c7f06f540445403d0ad44e125965370075f81e402.json.gz",
+      "semantic_sha256": "bfc41af21b5554cd0d7db4983089a1f2ac59cfcb57da7d463990cf68b30899c8",
+      "sha256": "3b50915a797e4ef0c5da7c36ddc513c9c3f56b0e1ba8c2a7c1c3fffad892515f"
+    },
+    {
+      "path": "artifacts/market_episodes/16166f20efe4dc8274753107b7d0140f23b97ecf849ff953a500d38890e734d5.json.gz",
+      "semantic_sha256": "a3ebafb3632861079d52cc447d57b9e243e67beab88db707f65ac85659de623f",
+      "sha256": "725f8789512f24adcd8a7d62bea0fb4cec1de631434d094c9c396c63fc433674"
+    },
+    {
+      "path": "artifacts/market_episodes/e7a670092dab813619f7c5545397b8266458d1042fbacf6644b7034e6f30bf53.json.gz",
+      "semantic_sha256": "6b89dcedb98ef741fbfb07141e4079cbc54bbeec3634015e99804f6e36ffe447",
+      "sha256": "3b3e22437d7ce7e3c80818437fe49e23e6983e2c3938ae7351b44a8c2f7f9a87"
+    },
+    {
+      "path": "artifacts/market_episodes/77d4120d4e1f8346af93840a280b4556c15a5908425f1561c88241fccc7eaea1.json.gz",
+      "semantic_sha256": "808101293bd84254140044440b5dd85f0909761ffd232a8a4d15520ca26b68d9",
+      "sha256": "afe27025086fbb8aa8a7620f7ec1f0d51be03e770e1c0d6aa5cb1500a46694f7"
+    }
+  ],
+  "conservation_verified_games": 48,
+  "effects": [
+    {
+      "bootstrap_high": 0.25,
+      "bootstrap_low": 0.0,
+      "contrast": "delivery",
+      "effect": 0.08333333333333333,
+      "metric": "match_score",
+      "order": 1,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":0.0,\"1202\":0.0,\"1203\":0.0,\"1204\":0.5,\"1205\":0.0,\"1206\":0.0}"
+    },
+    {
+      "bootstrap_high": 3647.4583333333335,
+      "bootstrap_low": 1138.3333333333333,
+      "contrast": "delivery",
+      "effect": 2359.4166666666665,
+      "metric": "coins",
+      "order": 1,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":2005.0,\"1202\":1590.75,\"1203\":1189.0,\"1204\":4485.5,\"1205\":4659.0,\"1206\":227.25}"
+    },
+    {
+      "bootstrap_high": 2914.9583333333335,
+      "bootstrap_low": 511.0833333333333,
+      "contrast": "delivery",
+      "effect": 1763.6666666666667,
+      "metric": "coin_margin",
+      "order": 1,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":-781.0,\"1202\":2852.75,\"1203\":765.0,\"1204\":4039.0,\"1205\":2157.0,\"1206\":1549.25}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "delivery",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "order": 1,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":0.0,\"1202\":0.0,\"1203\":0.0,\"1204\":0.0,\"1205\":0.0,\"1206\":0.0}"
+    },
+    {
+      "bootstrap_high": 962.0,
+      "bootstrap_low": 962.0,
+      "contrast": "delivery",
+      "effect": 962.0,
+      "metric": "minimum_observed_cash",
+      "order": 1,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":962.0,\"1202\":962.0,\"1203\":962.0,\"1204\":962.0,\"1205\":962.0,\"1206\":962.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": -0.25,
+      "contrast": "market_timing",
+      "effect": -0.08333333333333333,
+      "metric": "match_score",
+      "order": 1,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":0.0,\"1202\":0.0,\"1203\":0.0,\"1204\":-0.5,\"1205\":0.0,\"1206\":0.0}"
+    },
+    {
+      "bootstrap_high": -740.9166666666666,
+      "bootstrap_low": -1253.0958333333333,
+      "contrast": "market_timing",
+      "effect": -1074.5833333333333,
+      "metric": "coins",
+      "order": 1,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":-1205.0,\"1202\":-1246.75,\"1203\":-1233.0,\"1204\":-1279.5,\"1205\":-252.0,\"1206\":-1231.25}"
+    },
+    {
+      "bootstrap_high": -1907.125,
+      "bootstrap_low": -2461.125,
+      "contrast": "market_timing",
+      "effect": -2260.5833333333335,
+      "metric": "coin_margin",
+      "order": 1,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":-2373.0,\"1202\":-2449.75,\"1203\":-2414.0,\"1204\":-2510.0,\"1205\":-1399.0,\"1206\":-2417.75}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "market_timing",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "order": 1,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":0.0,\"1202\":0.0,\"1203\":0.0,\"1204\":0.0,\"1205\":0.0,\"1206\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "market_timing",
+      "effect": 0.0,
+      "metric": "minimum_observed_cash",
+      "order": 1,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":0.0,\"1202\":0.0,\"1203\":0.0,\"1204\":0.0,\"1205\":0.0,\"1206\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": -0.5,
+      "contrast": "delivery:market_timing",
+      "effect": -0.16666666666666666,
+      "metric": "match_score",
+      "order": 2,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":0.0,\"1202\":0.0,\"1203\":0.0,\"1204\":-1.0,\"1205\":0.0,\"1206\":0.0}"
+    },
+    {
+      "bootstrap_high": 64.5,
+      "bootstrap_low": -904.5,
+      "contrast": "delivery:market_timing",
+      "effect": -568.1666666666666,
+      "metric": "coins",
+      "order": 2,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":-934.0,\"1202\":-910.5,\"1203\":-844.0,\"1204\":-869.0,\"1205\":998.0,\"1206\":-849.5}"
+    },
+    {
+      "bootstrap_high": -922.4166666666666,
+      "bootstrap_low": -1915.5833333333333,
+      "contrast": "delivery:market_timing",
+      "effect": -1559.5,
+      "metric": "coin_margin",
+      "order": 2,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":-1986.0,\"1202\":-1928.5,\"1203\":-1774.0,\"1204\":-1858.0,\"1205\":-4.0,\"1206\":-1806.5}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "delivery:market_timing",
+      "effect": 0.0,
+      "metric": "discarded_units",
+      "order": 2,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":0.0,\"1202\":0.0,\"1203\":0.0,\"1204\":0.0,\"1205\":0.0,\"1206\":0.0}"
+    },
+    {
+      "bootstrap_high": 0.0,
+      "bootstrap_low": 0.0,
+      "contrast": "delivery:market_timing",
+      "effect": 0.0,
+      "metric": "minimum_observed_cash",
+      "order": 2,
+      "seed_clusters": 6,
+      "seed_differences": "{\"1201\":0.0,\"1202\":0.0,\"1203\":0.0,\"1204\":0.0,\"1205\":0.0,\"1206\":0.0}"
+    }
+  ],
+  "experiment": "market-logistics-factorial-v1",
+  "feature_completion_gate": "closed",
+  "games": 48,
+  "groups": [
+    {
+      "action_DROP": 6.333333333333333,
+      "action_HARVEST": 70.58333333333333,
+      "action_PASS": 111.66666666666667,
+      "action_PLACE": 0.0,
+      "action_WATER": 718.75,
+      "arm": "00",
+      "coin_margin": -3576.0833333333335,
+      "coins": 31984.916666666668,
+      "delivery": 0.0,
+      "discarded_units": 0.0,
+      "harvested_units": 339.3333333333333,
+      "ineffective_farm_actions": 0.0,
+      "interventions_delivery": 0.0,
+      "interventions_market_timing": 0.0,
+      "market_timing": 0.0,
+      "match_score": 0.0,
+      "minimum_observed_cash": 14.0,
+      "sold_units": 339.3333333333333,
+      "terminal_standing_plants": 2.4166666666666665,
+      "unsold_product_units": 0.0
+    },
+    {
+      "action_DROP": 6.333333333333333,
+      "action_HARVEST": 70.58333333333333,
+      "action_PASS": 111.66666666666667,
+      "action_PLACE": 0.0,
+      "action_WATER": 718.75,
+      "arm": "01",
+      "coin_margin": -5056.916666666667,
+      "coins": 31194.416666666668,
+      "delivery": 0.0,
+      "discarded_units": 0.0,
+      "harvested_units": 339.3333333333333,
+      "ineffective_farm_actions": 0.0,
+      "interventions_delivery": 0.0,
+      "interventions_market_timing": 11.166666666666666,
+      "market_timing": 1.0,
+      "match_score": 0.0,
+      "minimum_observed_cash": 14.0,
+      "sold_units": 339.3333333333333,
+      "terminal_standing_plants": 2.4166666666666665,
+      "unsold_product_units": 0.0
+    },
+    {
+      "action_DROP": 15.416666666666666,
+      "action_HARVEST": 60.666666666666664,
+      "action_PASS": 137.5,
+      "action_PLACE": 0.0,
+      "action_WATER": 703.75,
+      "arm": "10",
+      "coin_margin": -1032.6666666666667,
+      "coins": 34628.416666666664,
+      "delivery": 1.0,
+      "discarded_units": 0.0,
+      "harvested_units": 293.0833333333333,
+      "ineffective_farm_actions": 0.0,
+      "interventions_delivery": 38.166666666666664,
+      "interventions_market_timing": 0.0,
+      "market_timing": 0.0,
+      "match_score": 0.16666666666666666,
+      "minimum_observed_cash": 976.0,
+      "sold_units": 293.0833333333333,
+      "terminal_standing_plants": 2.6666666666666665,
+      "unsold_product_units": 0.0
+    },
+    {
+      "action_DROP": 15.333333333333334,
+      "action_HARVEST": 60.833333333333336,
+      "action_PASS": 138.0,
+      "action_PLACE": 0.0,
+      "action_WATER": 703.9166666666666,
+      "arm": "11",
+      "coin_margin": -4073.0,
+      "coins": 33269.75,
+      "delivery": 1.0,
+      "discarded_units": 0.0,
+      "harvested_units": 294.25,
+      "ineffective_farm_actions": 0.0,
+      "interventions_delivery": 37.916666666666664,
+      "interventions_market_timing": 17.416666666666668,
+      "market_timing": 1.0,
+      "match_score": 0.0,
+      "minimum_observed_cash": 976.0,
+      "sold_units": 294.25,
+      "terminal_standing_plants": 2.6666666666666665,
+      "unsold_product_units": 0.0
+    }
+  ],
+  "limitations": [
+    "Six fresh development seeds; no confirmatory inference or multiple-testing claim",
+    "One frozen capacity-plus-maturity opponent; no broad opponent population yet",
+    "Two fixed interventions; descriptive feature coverage is not predictive selection",
+    "Same initial seed does not fix future shops after policy-induced RNG divergence",
+    "Rival visible supply is a stress envelope, not a forecast of hidden stocks/actions",
+    "Delivery uses a work-value proxy, not globally optimized worker routes",
+    "Market timing uses fixed scenario weights, not calibrated probabilities",
+    "Known-shop demand is conditional on no unobserved future shop additions"
+  ],
+  "lineage": {
+    "code": {
+      "__init__.py": "36d0ff269264d1c5e526ff205c2fc89e921767c65fdc3914654062bbc4adcb85",
+      "artifacts.py": "e08e16f0e09ba25d732e22dc7239ce4a5e017ca3bfbe68d720cafa9ed201ba72",
+      "audit.py": "3cc1130b795f90e8bea454f19bb59b6a4412d6959fad3260a9a7389aa41181a1",
+      "crop_policy.py": "52db5557b6bb71a4f0c7bfe5ce6faf7fb92d878dfc5b2d353781c9dc28f1d806",
+      "environment.py": "590788ca3c5d390c71e06b8c6206f47787ff9bc324b539fb33e5eb163f4cb091",
+      "experiment.py": "9777ea565da9d5ac3ff3bb142f63afda0c25f5d6c6ddaf1c45c0e616fbcdf417",
+      "features.py": "70fc36e02564ebace315516c389ee17af42624f8fc27c6d8baceb4c14d9d9121",
+      "gates.py": "ec8325b24531a7e027d620002da414df3d0f8ce0dddd72b38e6217a70be2a2ac",
+      "market_experiment.py": "edd7edd633fa48871a663f35be5624d8cf464cb0c08da7c14f6975797e92417a",
+      "market_features.py": "c57bcbd9a84e8518e9474d0adaf5a45350f549e671031485e9288761226f329a",
+      "market_policy.py": "1173f7d0ce02c24c465e7c1c264919e8ddbcc2355a28752a521c67292649d874",
+      "progress.py": "12a66d38b6238a323194dce2eb39803a015d794ead8f007ffd07c6eed2c22824",
+      "relationship_experiment.py": "11a4d39bd40a5f886656fa308972aad359ea0aa97a9499e80101b02b1f2f283a",
+      "relationship_features.py": "807d67e5a14d7915cbdd35a63db0f618040ef3884b130238bfcf0b62e9435de2",
+      "relationship_policy.py": "2e337c7334f5902d3462342c69ec4ca6852b90f35bb4d1301e6fd6f5047fbe5b",
+      "rollouts.py": "320a57470fecbeefcac1430025689b1f957fc4db044d9d9a5629c5a9d6cdcb02",
+      "visuals.py": "e7f66b39c538989c40ce19c7e6564912684204c8ec1fe8a7dd286252ff55f48f"
+    },
+    "engine": {
+      "files": {
+        "agent.py": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6",
+        "core.py": "0922c4599a1b6e0d8c3dadf06ae5297f98138d859d686f00daee6f36e6d45d0e",
+        "envs/kaggriculture/kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+        "envs/kaggriculture/kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+        "schemas.json": "cc6ccbca1a8f747e90434778f12acfe4b29bbeea69aeb5af81f4017ab2ea9a1c",
+        "utils.py": "537b627b11784d424147ef57ebb0369b039bf83c9f891e81f10486b1f552334b"
+      },
+      "package": "kaggle-environments",
+      "version": "1.32.7"
+    },
+    "protocol": {
+      "arms": [
+        "00",
+        "01",
+        "10",
+        "11"
+      ],
+      "baseline_relationship_arm": "001",
+      "bootstrap_resamples": 4000,
+      "bootstrap_seed": 3201,
+      "configuration": {
+        "episodeSteps": 720
+      },
+      "development_seeds": [
+        1201,
+        1202,
+        1203,
+        1204,
+        1205,
+        1206
+      ],
+      "experiment": "market-logistics-factorial-v1",
+      "factors": [
+        "delivery",
+        "market_timing"
+      ],
+      "feature_horizons": [
+        4,
+        12,
+        24
+      ],
+      "feature_sample_stride": 4,
+      "frozen_sources": {
+        "crop_policy.py": "52db5557b6bb71a4f0c7bfe5ce6faf7fb92d878dfc5b2d353781c9dc28f1d806",
+        "relationship_features.py": "807d67e5a14d7915cbdd35a63db0f618040ef3884b130238bfcf0b62e9435de2",
+        "relationship_policy.py": "2e337c7334f5902d3462342c69ec4ca6852b90f35bb4d1301e6fd6f5047fbe5b"
+      },
+      "heartbeat_seconds": 15,
+      "max_games": 48,
+      "max_seconds": 1020,
+      "maximum_hold_actions": 4,
+      "opponent_relationship_arm": "101",
+      "rival_scenario_weight": 0.5,
+      "seats": [
+        0,
+        1
+      ]
+    }
+  },
+  "policy_latency_ms": {
+    "max": 290.00179400009074,
+    "median": 4.782074499871669,
+    "p95": 5.676332700090825
+  },
+  "protocol_sha256": "e035e3f51c355c7ce48a3d25a806131084a6a647e4be91d9e8b83b6cb45240fc",
+  "reused_games": 0,
+  "sampled_feature_bank_latency_ms": {
+    "max": 5.6686729999455565,
+    "median": 2.5555780000559025,
+    "p95": 3.052814049897279
+  },
+  "screening": {
+    "constant_features": [
+      "relative.land_lead",
+      "logistics.refresh_overflow",
+      "inventory.TOMATO.shed",
+      "inventory.TOMATO.carried",
+      "inventory.TOMATO.immediate_sale_value",
+      "demand.MELON.current_daily_units",
+      "inventory.EGG.shed",
+      "inventory.EGG.carried",
+      "inventory.EGG.immediate_sale_value",
+      "inventory.MILK.shed",
+      "inventory.MILK.carried",
+      "inventory.MILK.immediate_sale_value",
+      "inventory.WOOL.shed",
+      "inventory.WOOL.carried",
+      "inventory.WOOL.immediate_sale_value",
+      "market.FERTILIZER.price",
+      "market.FERTILIZER.normalized_price",
+      "market.FERTILIZER.normalized_supply",
+      "market.FERTILIZER.one_unit_price_impact",
+      "market.FERTILIZER.sell_5_revenue",
+      "market.FERTILIZER.sell_20_revenue",
+      "demand.FERTILIZER.current_daily_units",
+      "inventory.FERTILIZER.shed",
+      "inventory.FERTILIZER.carried",
+      "inventory.FERTILIZER.immediate_sale_value",
+      "inventory.TOMATO.seeds",
+      "inventory.GOOSE.unplaced",
+      "inventory.COW.unplaced",
+      "inventory.SHEEP.unplaced",
+      "own.unlocked_tiles",
+      "own.feed_actions_due",
+      "own.crop.WHEAT.fertilized_count",
+      "own.crop.CARROT.fertilized_count",
+      "own.crop.TOMATO.count",
+      "own.crop.TOMATO.mean_age",
+      "own.crop.TOMATO.harvestable_units",
+      "own.crop.TOMATO.water_due",
+      "own.crop.TOMATO.death_risk_today",
+      "own.crop.TOMATO.bonus_water_opportunities",
+      "own.crop.TOMATO.fertilized_count",
+      "own.crop.STRAWBERRY.bonus_water_opportunities",
+      "own.crop.STRAWBERRY.fertilized_count",
+      "own.crop.MELON.fertilized_count",
+      "own.animal.GOOSE.count",
+      "own.animal.GOOSE.yield_units",
+      "own.animal.GOOSE.feed_due",
+      "own.animal.GOOSE.escape_risk_today",
+      "own.animal.GOOSE.fertilizer_available",
+      "own.animal.GOOSE.care_bonus_banked",
+      "own.animal.COW.count",
+      "own.animal.COW.yield_units",
+      "own.animal.COW.feed_due",
+      "own.animal.COW.escape_risk_today",
+      "own.animal.COW.fertilizer_available",
+      "own.animal.COW.care_bonus_banked",
+      "own.animal.SHEEP.count",
+      "own.animal.SHEEP.yield_units",
+      "own.animal.SHEEP.feed_due",
+      "own.animal.SHEEP.escape_risk_today",
+      "own.animal.SHEEP.fertilizer_available",
+      "own.animal.SHEEP.care_bonus_banked",
+      "opponent.unlocked_tiles",
+      "opponent.feed_actions_due",
+      "opponent.crop.WHEAT.fertilized_count",
+      "opponent.crop.CARROT.fertilized_count",
+      "opponent.crop.TOMATO.count",
+      "opponent.crop.TOMATO.mean_age",
+      "opponent.crop.TOMATO.harvestable_units",
+      "opponent.crop.TOMATO.water_due",
+      "opponent.crop.TOMATO.death_risk_today",
+      "opponent.crop.TOMATO.bonus_water_opportunities",
+      "opponent.crop.TOMATO.fertilized_count",
+      "opponent.crop.STRAWBERRY.bonus_water_opportunities",
+      "opponent.crop.STRAWBERRY.fertilized_count",
+      "opponent.crop.MELON.fertilized_count",
+      "opponent.animal.GOOSE.count",
+      "opponent.animal.GOOSE.yield_units",
+      "opponent.animal.GOOSE.feed_due",
+      "opponent.animal.GOOSE.escape_risk_today",
+      "opponent.animal.GOOSE.fertilizer_available",
+      "opponent.animal.GOOSE.care_bonus_banked",
+      "opponent.animal.COW.count",
+      "opponent.animal.COW.yield_units",
+      "opponent.animal.COW.feed_due",
+      "opponent.animal.COW.escape_risk_today",
+      "opponent.animal.COW.fertilizer_available",
+      "opponent.animal.COW.care_bonus_banked",
+      "opponent.animal.SHEEP.count",
+      "opponent.animal.SHEEP.yield_units",
+      "opponent.animal.SHEEP.feed_due",
+      "opponent.animal.SHEEP.escape_risk_today",
+      "opponent.animal.SHEEP.fertilizer_available",
+      "opponent.animal.SHEEP.care_bonus_banked",
+      "storage.free_after_sell_all",
+      "storage.night_overflow_if_pass",
+      "storage.night_overflow_after_sell_all",
+      "storage.nonsellable_capacity_lock",
+      "capital.daily_full_staff_cost",
+      "capital.reserve_shortfall",
+      "delivery.unit0.active",
+      "delivery.unit0.dump_loss_before_market",
+      "delivery.unit1.dump_loss_before_market",
+      "delivery.unit2.dump_loss_before_market",
+      "delivery.unit3.dump_loss_before_market",
+      "own.timing.WHEAT.capped_ready_tiles",
+      "own.timing.WHEAT.avoidable_wait_unit_days",
+      "own.timing.WHEAT.next_refresh_production_events",
+      "own.timing.WHEAT.water_death_tasks_unreachable_today",
+      "own.timing.CARROT.capped_ready_tiles",
+      "own.timing.CARROT.avoidable_wait_unit_days",
+      "own.timing.CARROT.next_refresh_production_events",
+      "own.timing.CARROT.water_death_tasks_unreachable_today",
+      "own.timing.TOMATO.capped_ready_tiles",
+      "own.timing.TOMATO.avoidable_wait_unit_days",
+      "own.timing.TOMATO.water_now_increment_units",
+      "own.timing.TOMATO.refresh_yield_saved_by_water",
+      "own.timing.TOMATO.refresh_increment_from_fertilizer_given_water",
+      "own.timing.TOMATO.next_refresh_production_events",
+      "own.timing.TOMATO.ready_units_with_active_delivery_route",
+      "own.timing.TOMATO.ready_units_without_terminal_route",
+      "own.timing.TOMATO.water_death_tasks_unreachable_today",
+      "own.timing.TOMATO.decay_within_two_actions",
+      "own.timing.TOMATO.present",
+      "own.timing.TOMATO.first_maturity_actions",
+      "own.timing.TOMATO.known_decay_present",
+      "own.timing.TOMATO.first_decay_actions",
+      "own.timing.TOMATO.mean_worker_distance",
+      "own.timing.STRAWBERRY.capped_ready_tiles",
+      "own.timing.STRAWBERRY.avoidable_wait_unit_days",
+      "own.timing.STRAWBERRY.water_now_increment_units",
+      "own.timing.MELON.next_refresh_production_events",
+      "own.timing.MELON.ready_units_without_terminal_route",
+      "own.timing.MELON.water_death_tasks_unreachable_today",
+      "own.timing.MELON.decay_within_two_actions",
+      "own.husbandry.GOOSE.escape_prevented_by_feed",
+      "own.husbandry.GOOSE.refresh_units_saved_by_feed",
+      "own.husbandry.GOOSE.care_bank_marginal",
+      "own.husbandry.GOOSE.next_production_events",
+      "own.husbandry.GOOSE.cap_headroom",
+      "own.husbandry.GOOSE.banked_bonus_at_risk_if_unfed",
+      "own.husbandry.GOOSE.next_fed_production_saturation",
+      "own.husbandry.COW.escape_prevented_by_feed",
+      "own.husbandry.COW.refresh_units_saved_by_feed",
+      "own.husbandry.COW.care_bank_marginal",
+      "own.husbandry.COW.next_production_events",
+      "own.husbandry.COW.cap_headroom",
+      "own.husbandry.COW.banked_bonus_at_risk_if_unfed",
+      "own.husbandry.COW.next_fed_production_saturation",
+      "own.husbandry.SHEEP.escape_prevented_by_feed",
+      "own.husbandry.SHEEP.refresh_units_saved_by_feed",
+      "own.husbandry.SHEEP.care_bank_marginal",
+      "own.husbandry.SHEEP.next_production_events",
+      "own.husbandry.SHEEP.cap_headroom",
+      "own.husbandry.SHEEP.banked_bonus_at_risk_if_unfed",
+      "own.husbandry.SHEEP.next_fed_production_saturation",
+      "opponent.timing.WHEAT.capped_ready_tiles",
+      "opponent.timing.WHEAT.avoidable_wait_unit_days",
+      "opponent.timing.WHEAT.next_refresh_production_events",
+      "opponent.timing.WHEAT.water_death_tasks_unreachable_today",
+      "opponent.timing.WHEAT.decay_within_two_actions",
+      "opponent.timing.CARROT.capped_ready_tiles",
+      "opponent.timing.CARROT.avoidable_wait_unit_days",
+      "opponent.timing.CARROT.next_refresh_production_events",
+      "opponent.timing.CARROT.ready_units_without_terminal_route",
+      "opponent.timing.CARROT.water_death_tasks_unreachable_today",
+      "opponent.timing.CARROT.decay_within_two_actions",
+      "opponent.timing.TOMATO.capped_ready_tiles",
+      "opponent.timing.TOMATO.avoidable_wait_unit_days",
+      "opponent.timing.TOMATO.water_now_increment_units",
+      "opponent.timing.TOMATO.refresh_yield_saved_by_water",
+      "opponent.timing.TOMATO.refresh_increment_from_fertilizer_given_water",
+      "opponent.timing.TOMATO.next_refresh_production_events",
+      "opponent.timing.TOMATO.ready_units_with_active_delivery_route",
+      "opponent.timing.TOMATO.ready_units_without_terminal_route",
+      "opponent.timing.TOMATO.water_death_tasks_unreachable_today",
+      "opponent.timing.TOMATO.decay_within_two_actions",
+      "opponent.timing.TOMATO.present",
+      "opponent.timing.TOMATO.first_maturity_actions",
+      "opponent.timing.TOMATO.known_decay_present",
+      "opponent.timing.TOMATO.first_decay_actions",
+      "opponent.timing.TOMATO.mean_worker_distance",
+      "opponent.timing.STRAWBERRY.capped_ready_tiles",
+      "opponent.timing.STRAWBERRY.avoidable_wait_unit_days",
+      "opponent.timing.STRAWBERRY.water_now_increment_units",
+      "opponent.timing.STRAWBERRY.water_death_tasks_unreachable_today",
+      "opponent.timing.MELON.next_refresh_production_events",
+      "opponent.timing.MELON.ready_units_without_terminal_route",
+      "opponent.timing.MELON.water_death_tasks_unreachable_today",
+      "opponent.timing.MELON.decay_within_two_actions",
+      "opponent.husbandry.GOOSE.escape_prevented_by_feed",
+      "opponent.husbandry.GOOSE.refresh_units_saved_by_feed",
+      "opponent.husbandry.GOOSE.care_bank_marginal",
+      "opponent.husbandry.GOOSE.next_production_events",
+      "opponent.husbandry.GOOSE.cap_headroom",
+      "opponent.husbandry.GOOSE.banked_bonus_at_risk_if_unfed",
+      "opponent.husbandry.GOOSE.next_fed_production_saturation",
+      "opponent.husbandry.COW.escape_prevented_by_feed",
+      "opponent.husbandry.COW.refresh_units_saved_by_feed",
+      "opponent.husbandry.COW.care_bank_marginal",
+      "opponent.husbandry.COW.next_production_events",
+      "opponent.husbandry.COW.cap_headroom",
+      "opponent.husbandry.COW.banked_bonus_at_risk_if_unfed",
+      "opponent.husbandry.COW.next_fed_production_saturation",
+      "opponent.husbandry.SHEEP.escape_prevented_by_feed",
+      "opponent.husbandry.SHEEP.refresh_units_saved_by_feed",
+      "opponent.husbandry.SHEEP.care_bank_marginal",
+      "opponent.husbandry.SHEEP.next_production_events",
+      "opponent.husbandry.SHEEP.cap_headroom",
+      "opponent.husbandry.SHEEP.banked_bonus_at_risk_if_unfed",
+      "opponent.husbandry.SHEEP.next_fed_production_saturation",
+      "pressure.TOMATO.own_held_and_ready_wave",
+      "pressure.TOMATO.opponent_visible_ready_units",
+      "pressure.TOMATO.wave_conditional_revenue",
+      "pressure.TOMATO.wave_average_price",
+      "pressure.TOMATO.wave_price_impact_cost",
+      "pressure.TOMATO.wave_revenue_after_rival_supply_stress",
+      "pressure.EGG.own_held_and_ready_wave",
+      "pressure.EGG.opponent_visible_ready_units",
+      "pressure.EGG.wave_conditional_revenue",
+      "pressure.EGG.wave_average_price",
+      "pressure.EGG.wave_price_impact_cost",
+      "pressure.EGG.wave_revenue_after_rival_supply_stress",
+      "pressure.MILK.own_held_and_ready_wave",
+      "pressure.MILK.opponent_visible_ready_units",
+      "pressure.MILK.wave_conditional_revenue",
+      "pressure.MILK.wave_average_price",
+      "pressure.MILK.wave_price_impact_cost",
+      "pressure.MILK.wave_revenue_after_rival_supply_stress",
+      "pressure.WOOL.own_held_and_ready_wave",
+      "pressure.WOOL.opponent_visible_ready_units",
+      "pressure.WOOL.wave_conditional_revenue",
+      "pressure.WOOL.wave_average_price",
+      "pressure.WOOL.wave_price_impact_cost",
+      "pressure.WOOL.wave_revenue_after_rival_supply_stress",
+      "pressure.FERTILIZER.own_held_and_ready_wave",
+      "pressure.FERTILIZER.opponent_visible_ready_units",
+      "pressure.FERTILIZER.wave_conditional_revenue",
+      "pressure.FERTILIZER.wave_average_price",
+      "pressure.FERTILIZER.wave_price_impact_cost",
+      "pressure.FERTILIZER.known_demand_next_day",
+      "pressure.FERTILIZER.demand_only_next_day_price_change",
+      "pressure.FERTILIZER.wave_minus_known_day_demand",
+      "pressure.FERTILIZER.visible_rival_supply_stress_price",
+      "pressure.FERTILIZER.wave_revenue_after_rival_supply_stress",
+      "interactions.terminal_carry_at_risk",
+      "history.lag1.WHEAT.price_log_change",
+      "history.lag1.TOMATO.inventory_change",
+      "history.lag1.TOMATO.price_log_change",
+      "history.lag1.EGG.inventory_change",
+      "history.lag1.EGG.price_log_change",
+      "history.lag1.MILK.inventory_change",
+      "history.lag1.MILK.price_log_change",
+      "history.lag1.WOOL.inventory_change",
+      "history.lag1.WOOL.price_log_change",
+      "history.lag1.FERTILIZER.inventory_change",
+      "history.lag1.FERTILIZER.price_log_change",
+      "history.lag24.FERTILIZER.inventory_change",
+      "history.lag24.FERTILIZER.price_log_change",
+      "market_plan.TOMATO.own_ready_units",
+      "market_plan.TOMATO.rival_ready_units",
+      "market_plan.TOMATO.shed_units",
+      "market_plan.TOMATO.carried_units",
+      "market_plan.TOMATO.conditional_quantity",
+      "market_plan.TOMATO.rival_earliest_delivery",
+      "market_plan.TOMATO.immediate_revenue",
+      "market_plan.TOMATO.h4.quiet_revenue",
+      "market_plan.TOMATO.h4.rival_stress_revenue",
+      "market_plan.TOMATO.h4.rival_penalty",
+      "market_plan.TOMATO.h4.quiet_holding_premium",
+      "market_plan.TOMATO.h12.quiet_revenue",
+      "market_plan.TOMATO.h12.rival_stress_revenue",
+      "market_plan.TOMATO.h12.rival_penalty",
+      "market_plan.TOMATO.h12.quiet_holding_premium",
+      "market_plan.TOMATO.h24.quiet_revenue",
+      "market_plan.TOMATO.h24.rival_stress_revenue",
+      "market_plan.TOMATO.h24.rival_penalty",
+      "market_plan.TOMATO.h24.quiet_holding_premium",
+      "market_plan.EGG.own_ready_units",
+      "market_plan.EGG.rival_ready_units",
+      "market_plan.EGG.shed_units",
+      "market_plan.EGG.carried_units",
+      "market_plan.EGG.conditional_quantity",
+      "market_plan.EGG.rival_earliest_delivery",
+      "market_plan.EGG.immediate_revenue",
+      "market_plan.EGG.h4.quiet_revenue",
+      "market_plan.EGG.h4.rival_stress_revenue",
+      "market_plan.EGG.h4.rival_penalty",
+      "market_plan.EGG.h4.quiet_holding_premium",
+      "market_plan.EGG.h12.quiet_revenue",
+      "market_plan.EGG.h12.rival_stress_revenue",
+      "market_plan.EGG.h12.rival_penalty",
+      "market_plan.EGG.h12.quiet_holding_premium",
+      "market_plan.EGG.h24.quiet_revenue",
+      "market_plan.EGG.h24.rival_stress_revenue",
+      "market_plan.EGG.h24.rival_penalty",
+      "market_plan.EGG.h24.quiet_holding_premium",
+      "market_plan.MILK.own_ready_units",
+      "market_plan.MILK.rival_ready_units",
+      "market_plan.MILK.shed_units",
+      "market_plan.MILK.carried_units",
+      "market_plan.MILK.conditional_quantity",
+      "market_plan.MILK.rival_earliest_delivery",
+      "market_plan.MILK.immediate_revenue",
+      "market_plan.MILK.h4.quiet_revenue",
+      "market_plan.MILK.h4.rival_stress_revenue",
+      "market_plan.MILK.h4.rival_penalty",
+      "market_plan.MILK.h4.quiet_holding_premium",
+      "market_plan.MILK.h12.quiet_revenue",
+      "market_plan.MILK.h12.rival_stress_revenue",
+      "market_plan.MILK.h12.rival_penalty",
+      "market_plan.MILK.h12.quiet_holding_premium",
+      "market_plan.MILK.h24.quiet_revenue",
+      "market_plan.MILK.h24.rival_stress_revenue",
+      "market_plan.MILK.h24.rival_penalty",
+      "market_plan.MILK.h24.quiet_holding_premium",
+      "market_plan.WOOL.own_ready_units",
+      "market_plan.WOOL.rival_ready_units",
+      "market_plan.WOOL.shed_units",
+      "market_plan.WOOL.carried_units",
+      "market_plan.WOOL.conditional_quantity",
+      "market_plan.WOOL.rival_earliest_delivery",
+      "market_plan.WOOL.immediate_revenue",
+      "market_plan.WOOL.h4.quiet_revenue",
+      "market_plan.WOOL.h4.rival_stress_revenue",
+      "market_plan.WOOL.h4.rival_penalty",
+      "market_plan.WOOL.h4.quiet_holding_premium",
+      "market_plan.WOOL.h12.quiet_revenue",
+      "market_plan.WOOL.h12.rival_stress_revenue",
+      "market_plan.WOOL.h12.rival_penalty",
+      "market_plan.WOOL.h12.quiet_holding_premium",
+      "market_plan.WOOL.h24.quiet_revenue",
+      "market_plan.WOOL.h24.rival_stress_revenue",
+      "market_plan.WOOL.h24.rival_penalty",
+      "market_plan.WOOL.h24.quiet_holding_premium",
+      "market_plan.FERTILIZER.own_ready_units",
+      "market_plan.FERTILIZER.rival_ready_units",
+      "market_plan.FERTILIZER.shed_units",
+      "market_plan.FERTILIZER.carried_units",
+      "market_plan.FERTILIZER.conditional_quantity",
+      "market_plan.FERTILIZER.rival_earliest_delivery",
+      "market_plan.FERTILIZER.immediate_revenue",
+      "market_plan.FERTILIZER.h4.known_demand",
+      "market_plan.FERTILIZER.h4.quiet_revenue",
+      "market_plan.FERTILIZER.h4.rival_stress_revenue",
+      "market_plan.FERTILIZER.h4.rival_penalty",
+      "market_plan.FERTILIZER.h4.quiet_holding_premium",
+      "market_plan.FERTILIZER.h12.known_demand",
+      "market_plan.FERTILIZER.h12.quiet_revenue",
+      "market_plan.FERTILIZER.h12.rival_stress_revenue",
+      "market_plan.FERTILIZER.h12.rival_penalty",
+      "market_plan.FERTILIZER.h12.quiet_holding_premium",
+      "market_plan.FERTILIZER.h24.known_demand",
+      "market_plan.FERTILIZER.h24.quiet_revenue",
+      "market_plan.FERTILIZER.h24.rival_stress_revenue",
+      "market_plan.FERTILIZER.h24.rival_penalty",
+      "market_plan.FERTILIZER.h24.quiet_holding_premium",
+      "market_worker.0.present",
+      "market_worker.0.overflow_after_sell_all",
+      "market_worker.1.overflow_after_sell_all",
+      "market_worker.2.overflow_after_sell_all",
+      "market_worker.3.overflow_after_sell_all"
+    ],
+    "exact_duplicate_groups": [
+      [
+        "logistics.shed_free",
+        "storage.free_before_market"
+      ],
+      [
+        "inventory.WHEAT.shed",
+        "market_plan.WHEAT.shed_units"
+      ],
+      [
+        "inventory.WHEAT.carried",
+        "market_plan.WHEAT.carried_units"
+      ],
+      [
+        "inventory.CARROT.shed",
+        "market_plan.CARROT.shed_units"
+      ],
+      [
+        "inventory.CARROT.carried",
+        "market_plan.CARROT.carried_units"
+      ],
+      [
+        "market.TOMATO.price",
+        "pressure.TOMATO.visible_rival_supply_stress_price"
+      ],
+      [
+        "inventory.STRAWBERRY.shed",
+        "market_plan.STRAWBERRY.shed_units"
+      ],
+      [
+        "inventory.STRAWBERRY.carried",
+        "market_plan.STRAWBERRY.carried_units"
+      ],
+      [
+        "inventory.MELON.shed",
+        "market_plan.MELON.shed_units"
+      ],
+      [
+        "inventory.MELON.carried",
+        "market_plan.MELON.carried_units"
+      ],
+      [
+        "market.EGG.price",
+        "pressure.EGG.visible_rival_supply_stress_price"
+      ],
+      [
+        "market.MILK.price",
+        "pressure.MILK.visible_rival_supply_stress_price"
+      ],
+      [
+        "market.WOOL.price",
+        "pressure.WOOL.visible_rival_supply_stress_price"
+      ],
+      [
+        "own.shed_distance",
+        "delivery.unit0.shed_distance"
+      ],
+      [
+        "own.crop.WHEAT.harvestable_units",
+        "market_plan.WHEAT.own_ready_units"
+      ],
+      [
+        "own.crop.WHEAT.bonus_water_opportunities",
+        "own.timing.WHEAT.water_now_increment_units",
+        "own.timing.WHEAT.refresh_increment_from_fertilizer_given_water"
+      ],
+      [
+        "own.crop.CARROT.harvestable_units",
+        "market_plan.CARROT.own_ready_units"
+      ],
+      [
+        "own.crop.CARROT.bonus_water_opportunities",
+        "own.timing.CARROT.water_now_increment_units",
+        "own.timing.CARROT.refresh_increment_from_fertilizer_given_water"
+      ],
+      [
+        "own.crop.STRAWBERRY.harvestable_units",
+        "market_plan.STRAWBERRY.own_ready_units"
+      ],
+      [
+        "own.crop.MELON.harvestable_units",
+        "market_plan.MELON.own_ready_units"
+      ],
+      [
+        "own.crop.MELON.bonus_water_opportunities",
+        "own.timing.MELON.water_now_increment_units"
+      ],
+      [
+        "opponent.crop.WHEAT.harvestable_units",
+        "pressure.WHEAT.opponent_visible_ready_units",
+        "market_plan.WHEAT.rival_ready_units"
+      ],
+      [
+        "opponent.crop.WHEAT.bonus_water_opportunities",
+        "opponent.timing.WHEAT.water_now_increment_units",
+        "opponent.timing.WHEAT.refresh_increment_from_fertilizer_given_water"
+      ],
+      [
+        "opponent.crop.CARROT.harvestable_units",
+        "pressure.CARROT.opponent_visible_ready_units",
+        "market_plan.CARROT.rival_ready_units"
+      ],
+      [
+        "opponent.crop.CARROT.bonus_water_opportunities",
+        "opponent.timing.CARROT.water_now_increment_units",
+        "opponent.timing.CARROT.refresh_increment_from_fertilizer_given_water"
+      ],
+      [
+        "opponent.crop.STRAWBERRY.harvestable_units",
+        "pressure.STRAWBERRY.opponent_visible_ready_units",
+        "market_plan.STRAWBERRY.rival_ready_units"
+      ],
+      [
+        "opponent.crop.MELON.harvestable_units",
+        "pressure.MELON.opponent_visible_ready_units",
+        "market_plan.MELON.rival_ready_units"
+      ],
+      [
+        "opponent.crop.MELON.bonus_water_opportunities",
+        "opponent.timing.MELON.water_now_increment_units"
+      ],
+      [
+        "delivery.unit0.carried_units",
+        "market_worker.0.carried_units"
+      ],
+      [
+        "delivery.unit0.conditional_sale_value",
+        "market_worker.0.liquidation_revenue"
+      ],
+      [
+        "delivery.unit1.active",
+        "market_worker.1.present"
+      ],
+      [
+        "delivery.unit1.carried_units",
+        "market_worker.1.carried_units"
+      ],
+      [
+        "delivery.unit1.conditional_sale_value",
+        "market_worker.1.liquidation_revenue"
+      ],
+      [
+        "delivery.unit2.active",
+        "market_worker.2.present"
+      ],
+      [
+        "delivery.unit2.carried_units",
+        "market_worker.2.carried_units"
+      ],
+      [
+        "delivery.unit2.conditional_sale_value",
+        "market_worker.2.liquidation_revenue"
+      ],
+      [
+        "delivery.unit3.active",
+        "market_worker.3.present",
+        "market_worker.3.night_sale_available"
+      ],
+      [
+        "delivery.unit3.carried_units",
+        "market_worker.3.carried_units"
+      ],
+      [
+        "delivery.unit3.conditional_sale_value",
+        "market_worker.3.liquidation_revenue"
+      ],
+      [
+        "delivery.unit3.delivery_refresh_slack",
+        "market_worker.3.delivery_slack"
+      ],
+      [
+        "own.timing.WHEAT.present",
+        "own.timing.WHEAT.known_decay_present"
+      ],
+      [
+        "own.timing.CARROT.present",
+        "own.timing.CARROT.known_decay_present"
+      ],
+      [
+        "own.timing.MELON.present",
+        "own.timing.MELON.known_decay_present"
+      ],
+      [
+        "opponent.timing.WHEAT.present",
+        "opponent.timing.WHEAT.known_decay_present"
+      ],
+      [
+        "opponent.timing.CARROT.present",
+        "opponent.timing.CARROT.known_decay_present"
+      ],
+      [
+        "opponent.timing.MELON.present",
+        "opponent.timing.MELON.known_decay_present"
+      ],
+      [
+        "pressure.WHEAT.own_held_and_ready_wave",
+        "market_plan.WHEAT.conditional_quantity"
+      ],
+      [
+        "pressure.WHEAT.wave_conditional_revenue",
+        "market_plan.WHEAT.immediate_revenue"
+      ],
+      [
+        "pressure.CARROT.own_held_and_ready_wave",
+        "market_plan.CARROT.conditional_quantity"
+      ],
+      [
+        "pressure.CARROT.wave_conditional_revenue",
+        "market_plan.CARROT.immediate_revenue"
+      ],
+      [
+        "pressure.STRAWBERRY.own_held_and_ready_wave",
+        "market_plan.STRAWBERRY.conditional_quantity"
+      ],
+      [
+        "pressure.STRAWBERRY.wave_conditional_revenue",
+        "market_plan.STRAWBERRY.immediate_revenue"
+      ],
+      [
+        "market_plan.WHEAT.h4.available",
+        "market_plan.CARROT.h4.available",
+        "market_plan.TOMATO.h4.available",
+        "market_plan.STRAWBERRY.h4.available",
+        "market_plan.MELON.h4.available",
+        "market_plan.EGG.h4.available",
+        "market_plan.MILK.h4.available",
+        "market_plan.WOOL.h4.available",
+        "market_plan.FERTILIZER.h4.available"
+      ],
+      [
+        "market_plan.WHEAT.h12.available",
+        "market_plan.CARROT.h12.available",
+        "market_plan.TOMATO.h12.available",
+        "market_plan.STRAWBERRY.h12.available",
+        "market_plan.MELON.h12.available",
+        "market_plan.EGG.h12.available",
+        "market_plan.MILK.h12.available",
+        "market_plan.WOOL.h12.available",
+        "market_plan.FERTILIZER.h12.available"
+      ],
+      [
+        "market_plan.WHEAT.h24.available",
+        "market_plan.CARROT.h24.available",
+        "market_plan.TOMATO.h24.available",
+        "market_plan.STRAWBERRY.h24.available",
+        "market_plan.MELON.h24.available",
+        "market_plan.MELON.h24.known_demand",
+        "market_plan.EGG.h24.available",
+        "market_plan.MILK.h24.available",
+        "market_plan.WOOL.h24.available",
+        "market_plan.FERTILIZER.h24.available",
+        "market_worker.0.night_sale_available"
+      ],
+      [
+        "market_worker.1.night_sale_available",
+        "market_worker.2.night_sale_available"
+      ]
+    ],
+    "families": {
+      "animal_feed_care_interactions": 42,
+      "animal_state": 36,
+      "cashflow": 7,
+      "causal_market_history": 40,
+      "conditional_market_paths": 216,
+      "crop_resource_timing": 150,
+      "crop_state": 70,
+      "cross_resource_interactions": 4,
+      "delivery_feasibility": 32,
+      "delivery_opportunity_cost": 36,
+      "horizon": 5,
+      "labor_land": 20,
+      "logistics": 30,
+      "market_curves": 63,
+      "market_supply_demand_interactions": 90,
+      "post_decision_inventory": 63,
+      "relative_state": 3,
+      "storage_interactions": 9,
+      "town_demand": 17
+    },
+    "generated_features": 933,
+    "high_spearman_pairs": 670,
+    "matrix_artifact": {
+      "path": "artifacts/market_features/196c61af14a0aa435ca47e90723c210cef774fa5c3f173c3b268f62d2a378ed3.json.gz",
+      "sha256": "b4fb0d72ec8b3b1144f4296dafd7fcfaac51f1f8805841659c1ec45dd7b41b1e"
+    },
+    "provisional_features": 933,
+    "rejected_for_final_model": 0,
+    "retained_for_final_model": 0,
+    "sampled_development_observations": 8688,
+    "screened_features": 933,
+    "screening_scope": "availability, finite/schema, empirical variation, exact duplication and correlation; not predictive selection",
+    "warning": "Constants/duplicates are coverage flags, not rejection evidence; animal treatments lack rollout support."
+  },
+  "seed_clusters": 6,
+  "validation_or_holdout_used": false
+}

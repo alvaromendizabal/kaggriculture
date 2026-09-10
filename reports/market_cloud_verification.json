@@ -1,0 +1,457 @@
+{
+  "run": {
+    "artifacts": [
+      {
+        "bytes": 228225,
+        "path": "artifacts/market_episodes/012fad5c88ae051029ba3d12b9a639a09eea6b39f846e37a5a6c2ad3b0b0712a.json.gz",
+        "sha256": "cfe38005aa8642e400242b386579c6c70a77f013873cc2a4c3ae8ab41787cb3c"
+      },
+      {
+        "bytes": 220331,
+        "path": "artifacts/market_episodes/06755072fc591f84426efe6b13f4fd08d40bb498a1e2d411710cb567945b5690.json.gz",
+        "sha256": "8d0cca61dd1d9daa709099591db78e62dfe30d7373eca19d35748057b6debda6"
+      },
+      {
+        "bytes": 230791,
+        "path": "artifacts/market_episodes/083ac646016fbcf0ac42888d9305ef5b9e0ca943ffd080cf69a1131a704f96a7.json.gz",
+        "sha256": "68c8943ea431fb9c1d6cf15b3fa1cd2a452a46cb7241b94804a31d2ac7829bf9"
+      },
+      {
+        "bytes": 226308,
+        "path": "artifacts/market_episodes/0e00e00543db5c6c02d2bef2daba4f4f3480cfdcc31a1e91ce7856cd083f0f51.json.gz",
+        "sha256": "d7c26467fc7f687fe52b3cbe8a5e43b2f0f20f7aea9dd4c315a9c3e34435e467"
+      },
+      {
+        "bytes": 230525,
+        "path": "artifacts/market_episodes/0fe4d1ab4a9f343c108f260407aeead6de542ad0167446ac8220bacc94dd6775.json.gz",
+        "sha256": "841604085fab972a349fb27783f55dac645cf134d48bb14044c2860779ab32db"
+      },
+      {
+        "bytes": 216079,
+        "path": "artifacts/market_episodes/155e8a212561a8280ef4b698ae0fd083ea259c80cd720f8e244d461314611adc.json.gz",
+        "sha256": "74a6932225201c793db5211f0656c8f86b656938d2d1e58be22ec66f53546460"
+      },
+      {
+        "bytes": 231651,
+        "path": "artifacts/market_episodes/16166f20efe4dc8274753107b7d0140f23b97ecf849ff953a500d38890e734d5.json.gz",
+        "sha256": "725f8789512f24adcd8a7d62bea0fb4cec1de631434d094c9c396c63fc433674"
+      },
+      {
+        "bytes": 231901,
+        "path": "artifacts/market_episodes/1b8216a1c3f70c918a141c0b228f0ce2e58a0442db7d26cf3bfbd17bee32e188.json.gz",
+        "sha256": "dc1f7b1804495f75895ae10f917f48e32d196eb62e8420cecb966b54bc02921b"
+      },
+      {
+        "bytes": 229316,
+        "path": "artifacts/market_episodes/1eadaba037a86475dde5c684cceec051d0afd75bc0690a2748b3857be892204f.json.gz",
+        "sha256": "e841b15f9bfd6e65938438422689ce7ef2d0855b652e07d53b9d2edddaf0030b"
+      },
+      {
+        "bytes": 214884,
+        "path": "artifacts/market_episodes/207c39bd61e560fcf892d14f5443b172b27b7fe22ea01e2e3aa6b9c9b56e14eb.json.gz",
+        "sha256": "17c3b45d8c849b5556b11311360b54f2229233e3e1985ce481bda4ccd3674851"
+      },
+      {
+        "bytes": 235711,
+        "path": "artifacts/market_episodes/225dc556829aaf7455f4e512108be6f93a5fadbc66700526e6797ff64ac45c7b.json.gz",
+        "sha256": "bddbde74d055dbe1dfc6ccc8a3fce9136de99ece8aaae5dd6c1d97101b7cb034"
+      },
+      {
+        "bytes": 226892,
+        "path": "artifacts/market_episodes/357f7a538c3ce8886b1ef6260f6ded1114b940f816eb6fe56b64a2ee29d2b389.json.gz",
+        "sha256": "9da7aab02bd3a856bb28fcaa5243e47320ea96d14de29331a2d587a97c6f5b43"
+      },
+      {
+        "bytes": 218567,
+        "path": "artifacts/market_episodes/409599f50eb0c30d4ed5f225138a3fb5f71113d91a757861bec7e9d72be67617.json.gz",
+        "sha256": "d0c652cf5aff0c7879a65a104e33d64707eb71280fd00d1f8b066170a81cf693"
+      },
+      {
+        "bytes": 232394,
+        "path": "artifacts/market_episodes/41043f7104a20253bd9dd568f5a54b8ea1f3168210bc5184908fbaad632d5eb5.json.gz",
+        "sha256": "384350c0389dd8cdc30d6af14530ade429620e62a8ead83e8c850b0e12726ce8"
+      },
+      {
+        "bytes": 226492,
+        "path": "artifacts/market_episodes/44bc274f1cdb5f8395351da6631ecde4731caea4fc0600e1b6a0645f37afcd61.json.gz",
+        "sha256": "4911fd8ba37fe093ddf9aa6a68b9b8eacad4fffa1ef9ac1876e9213801a6fc27"
+      },
+      {
+        "bytes": 234544,
+        "path": "artifacts/market_episodes/4ac0726b3295f506aeb275fa8f4e47b8abfc3d07f95137ef1c52c1e3e63901bc.json.gz",
+        "sha256": "7b167a7bbebb652240d8848f8e3456e621167e3457812a691202403b71e8a8b5"
+      },
+      {
+        "bytes": 230624,
+        "path": "artifacts/market_episodes/4b58e72a4424b01c5caae6996032d7890009d6fbf3ceebf8b2481387d19de317.json.gz",
+        "sha256": "2161f56e51e2110536f83e88a030d3392b1d6c11af513eeee4d3e08f5425a3d1"
+      },
+      {
+        "bytes": 227596,
+        "path": "artifacts/market_episodes/549a32552d577136b61a1b0d99aec9afa6342fabf481744ad28a0e2210319795.json.gz",
+        "sha256": "ae5218c006ebd0326791d5b8e727c686f047609593400fdd2887f373bcaf1504"
+      },
+      {
+        "bytes": 224891,
+        "path": "artifacts/market_episodes/56cdb70a4fa5fda70c1d75c980886363b4875921301d41d8a00fc7d93e79309f.json.gz",
+        "sha256": "eae124ca492fc3c219da23189b445c37c5a9919f59ae15bc93a43717bbe7bf0f"
+      },
+      {
+        "bytes": 225730,
+        "path": "artifacts/market_episodes/5950a2b31f9220255bcfa40e5540a3644d26cc3dc45334691240db2d10203e7e.json.gz",
+        "sha256": "caef4ebde525e88785972a8a7863febd623e72798f6e372e45ea39320fa8e48f"
+      },
+      {
+        "bytes": 227299,
+        "path": "artifacts/market_episodes/621ecd072a3a7bb83bc07d7d3cf36b446ac2a15676a0155c85e358fc33f0ec62.json.gz",
+        "sha256": "ff7de8f983d4f034d0971827bb7a5354356ec1a88d52b6743f8501d70e600add"
+      },
+      {
+        "bytes": 225911,
+        "path": "artifacts/market_episodes/62afb7a330636f52b032dfd5cfd9de204caf8a7b63233a0edca067ddad6ff413.json.gz",
+        "sha256": "6c01b5c2efb498cc12bc5568862adde750096ce7b7083752b850235c7a93b2a5"
+      },
+      {
+        "bytes": 215064,
+        "path": "artifacts/market_episodes/657cbbfafff2dd8ad4fc6bf63f69c2b8599cf12ead7b6601c91d50a183d4a9a8.json.gz",
+        "sha256": "3678075277f59e866cc1637b4bbdf906b42267c66cedef1868fe8805815d79ea"
+      },
+      {
+        "bytes": 229519,
+        "path": "artifacts/market_episodes/664b753a4849ef4287638bf2e2d12984c2a5e728a60bd5b66387e49a6645e5ab.json.gz",
+        "sha256": "40cdde8d9be52e00245b7c4efba1f3361d968ff9165c8de319962ac8a415be35"
+      },
+      {
+        "bytes": 222790,
+        "path": "artifacts/market_episodes/697d41da95f5790806d9feaf22cfcb69c27a00039155b29b6bfad898e4605b57.json.gz",
+        "sha256": "854c3e1bace0c485ba9b42488a8bc80450c276ec18fbc7cb83c588c8eba09ac3"
+      },
+      {
+        "bytes": 232131,
+        "path": "artifacts/market_episodes/6e109aa23490a4fedefee8c4885cd9d538e96aa91a7edddcefb615ee90268085.json.gz",
+        "sha256": "c3d63812f85e27d5913474f330b93c7f5e5cb3d7b083a87f988dee6656141cc8"
+      },
+      {
+        "bytes": 227709,
+        "path": "artifacts/market_episodes/757630a2a476f62a51fa98d9efa7b8025adb358a65b3ae53259b5e5141bb03ab.json.gz",
+        "sha256": "96876cefb31a909c0668e2de9f92c08ceb49c9114e2e82a93bb7431f811bf831"
+      },
+      {
+        "bytes": 227424,
+        "path": "artifacts/market_episodes/77d4120d4e1f8346af93840a280b4556c15a5908425f1561c88241fccc7eaea1.json.gz",
+        "sha256": "afe27025086fbb8aa8a7620f7ec1f0d51be03e770e1c0d6aa5cb1500a46694f7"
+      },
+      {
+        "bytes": 221234,
+        "path": "artifacts/market_episodes/8a71d3c062b3bb979e138d8f7b5787a1dc4183ddb5e8483a05c3041e8f14584c.json.gz",
+        "sha256": "b56adddc8e1b8604e4c139fe6bac82a37d5bd666be110438025b21d54824e713"
+      },
+      {
+        "bytes": 217433,
+        "path": "artifacts/market_episodes/8a759704cc67220ddcb29e8b48608faf3bc353a182bb3fffe11e89e1d91721fb.json.gz",
+        "sha256": "c9df5ebc4009d9163a69ba302d7613b344c01e1ad9bae34e62c04aec3a9bcad3"
+      },
+      {
+        "bytes": 230976,
+        "path": "artifacts/market_episodes/902690547a790c3eb2f983824d82e99d1b73e31cccf17970329cdd24269697a2.json.gz",
+        "sha256": "9c8b4af9b0c00b63bc518337c0528981f7b31a5ba7536863642a68537d42e73a"
+      },
+      {
+        "bytes": 226202,
+        "path": "artifacts/market_episodes/920a143284288dc00d04ea1888db4a207f3be5e80ae747ec117b20966bba64a9.json.gz",
+        "sha256": "571267534a25f98b2e93b07ff3f625cdc9f9c6915ff450a534cafdc1326a6d3e"
+      },
+      {
+        "bytes": 231952,
+        "path": "artifacts/market_episodes/933475bbb91be9bf8814b5d803b526f709fe53606cadaff60151e177d28c1c17.json.gz",
+        "sha256": "2b2f019db305481a6409c2ac47e3add23a8786cb1471cf0892060e4b9cdd41d8"
+      },
+      {
+        "bytes": 227116,
+        "path": "artifacts/market_episodes/942c2d9fcc7ec9c7e438380510492a8e9eb2f2c4d3de9da5df1540efeac6f9ba.json.gz",
+        "sha256": "2c84a96d0c321b831f334979dd4136b3030639e8101dacb78106359187124c42"
+      },
+      {
+        "bytes": 216617,
+        "path": "artifacts/market_episodes/b2633c72672ccb741baff9a17e923a3db05b51fc713a2915be5d4e1a7837e1a9.json.gz",
+        "sha256": "b8fb4f411026a665cff6a07e2deb3baa38c5e22e8e6b0775ea12942d9c46f50e"
+      },
+      {
+        "bytes": 214627,
+        "path": "artifacts/market_episodes/b5727f4f217145d643ba6643b6996753d04bba2418b17e7555a01a5a09f1d9b7.json.gz",
+        "sha256": "1024942f1514949f38f843244ed342edddd143b0bc1a2585750628c6c7a1080d"
+      },
+      {
+        "bytes": 227108,
+        "path": "artifacts/market_episodes/bc73bb9544d3406f936040fdfe17f8f39c2d37045378fc0886362781eee871ec.json.gz",
+        "sha256": "2c7e19fe689a2d156f0b92be730c142fe92ef8eb0278c913ccc0784c658ef927"
+      },
+      {
+        "bytes": 218421,
+        "path": "artifacts/market_episodes/bf116305b4d346e590a2855c7f06f540445403d0ad44e125965370075f81e402.json.gz",
+        "sha256": "3b50915a797e4ef0c5da7c36ddc513c9c3f56b0e1ba8c2a7c1c3fffad892515f"
+      },
+      {
+        "bytes": 229980,
+        "path": "artifacts/market_episodes/bf1dab30c5eaf6fda0ab408d038148a4743b71942399acb45780b8e028fb34a1.json.gz",
+        "sha256": "7e827e8d70128054d6393025e871f0e07814fbce39c76ebe8b65f52dc5efcb44"
+      },
+      {
+        "bytes": 224615,
+        "path": "artifacts/market_episodes/c3088b2590f2aaaea11b55a8abee34c1719e2c4ee706f43a957aba3a33a4ff7a.json.gz",
+        "sha256": "25675142ed288c2332ed983e1544b7238386798c685c3f66c5bff6f0b9e184e4"
+      },
+      {
+        "bytes": 233285,
+        "path": "artifacts/market_episodes/da7cefb4cd84aefc4508eff2de54b0d403ed651236857a851b0cbaad2d21c1fa.json.gz",
+        "sha256": "da8847346d8e3ecebe837c1badf354c15afc7783733cbb81ce09549a05863261"
+      },
+      {
+        "bytes": 230309,
+        "path": "artifacts/market_episodes/df6b4d587d154c529916f194219923630d3a674d5b345fb20bbe53584e9f33a1.json.gz",
+        "sha256": "f05eb50ec78921381584ab73ba45b2b997ad90ce54488d2e9ae25b4cbe7eb1d5"
+      },
+      {
+        "bytes": 225889,
+        "path": "artifacts/market_episodes/dff544ef2cd73f139272e32896a4ce79f5bd1b9d26453fc84f78ea42cae3f13d.json.gz",
+        "sha256": "98f872ab947c259c103ee961d67035e78da0b899d3504f7dc961eace0c8ddcc0"
+      },
+      {
+        "bytes": 231983,
+        "path": "artifacts/market_episodes/e27db98faa45bed5570ffc6814c1ce863ac68112dcfb7202bfda1afdb55fb781.json.gz",
+        "sha256": "f9462e2300c51a04aa02d988381486872613641d4e3c9af349d56ff5c2ea475a"
+      },
+      {
+        "bytes": 228070,
+        "path": "artifacts/market_episodes/e6cfe4e6377896c819b669b8a856f871f4b9d5e3987fb6b9137cf1244ffa5166.json.gz",
+        "sha256": "beac54b2797d36ca57caceeb9d40c7e13cf25252de61b4b75e21cc0a48495e70"
+      },
+      {
+        "bytes": 227231,
+        "path": "artifacts/market_episodes/e7a670092dab813619f7c5545397b8266458d1042fbacf6644b7034e6f30bf53.json.gz",
+        "sha256": "3b3e22437d7ce7e3c80818437fe49e23e6983e2c3938ae7351b44a8c2f7f9a87"
+      },
+      {
+        "bytes": 228537,
+        "path": "artifacts/market_episodes/ee502dd320708bd3597fde39a49629988894f360722888a6ff08ab82329fb4c8.json.gz",
+        "sha256": "24467a821899b7ce0d89090585d52b6f5c4cfcec24bec822cb4c1354e0a55876"
+      },
+      {
+        "bytes": 216294,
+        "path": "artifacts/market_episodes/fea7d0c2254de8cd89263481d31b386f2b9b792aa77ca54798670029d1bb116c.json.gz",
+        "sha256": "d9148e87f83023c376b275a654a20374efa3f0847bcfca68543a8ee845bf5b00"
+      },
+      {
+        "bytes": 3026439,
+        "path": "artifacts/market_features/196c61af14a0aa435ca47e90723c210cef774fa5c3f173c3b268f62d2a378ed3.json.gz",
+        "sha256": "b4fb0d72ec8b3b1144f4296dafd7fcfaac51f1f8805841659c1ec45dd7b41b1e"
+      },
+      {
+        "bytes": 91362,
+        "path": "notebooks/00_environment.ipynb",
+        "sha256": "3742a6f639321080e42c2abcdc545d671e44a38679451e61357182d1e028140d"
+      },
+      {
+        "bytes": 206741,
+        "path": "notebooks/01_data_audit.ipynb",
+        "sha256": "4c71c64b4b3763c9e3e640bfe2871174b6b165f0872fe993238ba41e325c876b"
+      },
+      {
+        "bytes": 519728,
+        "path": "notebooks/02_feature_research.ipynb",
+        "sha256": "1545c08a9ec60afaa640f52af707c03d20fde06415a3117c75ffc65f7acbb920"
+      },
+      {
+        "bytes": 25772,
+        "path": "reports/cloud_verification.json",
+        "sha256": "a0b94671fb95610845e63acfa0e80e8c148d2d3f8dfb8a36a952541305f246d7"
+      },
+      {
+        "bytes": 1897,
+        "path": "reports/feature_ablations.csv",
+        "sha256": "c27bf3a138b06d32e2673b278891624b6cc91bfe5c6403a8e315294965dc671c"
+      },
+      {
+        "bytes": 4286,
+        "path": "reports/feature_behavior.csv",
+        "sha256": "1f49b4d7a9c1273481f566a96440b674e12fe9d2e5f2281633da5adce7bb395f"
+      },
+      {
+        "bytes": 1817,
+        "path": "reports/feature_behavior_audit.json",
+        "sha256": "572c29db3282421de1d4086cf522b4642109290dd5d3a5ca0134f6a76d287498"
+      },
+      {
+        "bytes": 6571,
+        "path": "reports/feature_games.csv",
+        "sha256": "df545cafd30cb6bc587b3beee2d52f27ab04a0014283dedc9d3207c6f9a64937"
+      },
+      {
+        "bytes": 22282,
+        "path": "reports/feature_registry.csv",
+        "sha256": "0be73910c50a2cb74c867c4afc2add779e57ffe285a6123bb98116e5e539963c"
+      },
+      {
+        "bytes": 35744,
+        "path": "reports/feature_research.json",
+        "sha256": "25b11eb9a4c8295a17b7a91c343b322f66c749a9f05dbc7a3055b4a8cdb6f5b0"
+      },
+      {
+        "bytes": 13248,
+        "path": "reports/foundation.json",
+        "sha256": "005b17aa48337225e02636ddd6b253b3dc2bce00adffbf4264ba3ac9e4b40965"
+      },
+      {
+        "bytes": 528,
+        "path": "reports/history_backup.json",
+        "sha256": "749ab48ec38d2f1f9dc72f5402f89d65a7dd26c86e2191f4ddec3a105d5d15a8"
+      },
+      {
+        "bytes": 57110,
+        "path": "reports/market_correlations.csv",
+        "sha256": "855b28de66a5fd2b499f0618f360158d7b1d2ec8c68ca2f6ba39df05dc26fbca"
+      },
+      {
+        "bytes": 2412,
+        "path": "reports/market_effects.csv",
+        "sha256": "fd0bf2907650d84c4e7d5d7d22f85cebdd697e6fca771de6a10a8bf93b037893"
+      },
+      {
+        "bytes": 3953,
+        "path": "reports/market_games.csv",
+        "sha256": "8405012787fc72e67b02c8859e206152d0c28706c98c09a76088d674a7cc6769"
+      },
+      {
+        "bytes": 125323,
+        "path": "reports/market_registry.csv",
+        "sha256": "1397c62a1feeff8299a55af0e663d9560435410529049bfdc34e49a0b3d2a414"
+      },
+      {
+        "bytes": 54019,
+        "path": "reports/market_research.json",
+        "sha256": "a9f75d96aec022b240c20ffce36880f3d37e20bf49e03c9b1779a81551e358e2"
+      },
+      {
+        "bytes": 11480,
+        "path": "reports/relationship_behavior.csv",
+        "sha256": "8e2fd4ae564c0e10b8cd3857ff225323952e1d9ed829a3f3b05ad2cff3fe1cc5"
+      },
+      {
+        "bytes": 45153,
+        "path": "reports/relationship_cloud_verification.json",
+        "sha256": "cec192d1404ff93941a400598f4c61439387cc8ed44b10fd2599b5e72ca2512c"
+      },
+      {
+        "bytes": 16885,
+        "path": "reports/relationship_correlations.csv",
+        "sha256": "6d755d6da7c22829813db8a6a4da2fa253ac6e8cd1ce18f4bdc7d9ffc19fab3b"
+      },
+      {
+        "bytes": 3861,
+        "path": "reports/relationship_effects.csv",
+        "sha256": "b23114102e6f3fbbe9c714575c07613e9cd443177944604b779ac00daa3982e7"
+      },
+      {
+        "bytes": 5543,
+        "path": "reports/relationship_games.csv",
+        "sha256": "2c692ffb7a6d45721d25021696767d5176e3ee0c9f4a6b25a00c9346d6f89574"
+      },
+      {
+        "bytes": 842,
+        "path": "reports/relationship_integrity.json",
+        "sha256": "8d742e032dca36a0c462a16274015b9395b2f70deae8b17819e9d73dfb41fc08"
+      },
+      {
+        "bytes": 81962,
+        "path": "reports/relationship_registry.csv",
+        "sha256": "ada757f47eb9ad53018bff2801ec057d45e1ed285d1e4f453a05c2010afeac0c"
+      },
+      {
+        "bytes": 56049,
+        "path": "reports/relationship_research.json",
+        "sha256": "e4705ed40e77e60370f37ea97d9c744e06eff7999ddc02503ea3f1036f6dff28"
+      },
+      {
+        "bytes": 7714,
+        "path": "reports/trajectories.csv",
+        "sha256": "d5677f40e9ab1d196fcffeae5ae43945cfd11a7706c0f23931f64239db71c2cd"
+      },
+      {
+        "bytes": 1445,
+        "path": "reports/workspace_state.json",
+        "sha256": "c43add6c6a79de31083a63c46c7c526525f93b3648770e25261d8d12f5f7c0b4"
+      }
+    ],
+    "elapsed_seconds": 940.77,
+    "run_id": "market-logistics-20260910",
+    "source_sha256": "6e028bbb8528f30ae687547aa972503b67d5653dc2c5e2344132a7cf826b3f57",
+    "status": "completed",
+    "steps": [
+      {
+        "elapsed_seconds": 1.2,
+        "name": "install_uv",
+        "status": "passed"
+      },
+      {
+        "elapsed_seconds": 0.55,
+        "name": "environment",
+        "status": "passed"
+      },
+      {
+        "elapsed_seconds": 95.05,
+        "name": "tests",
+        "status": "passed"
+      },
+      {
+        "elapsed_seconds": 828.61,
+        "name": "market_research",
+        "status": "passed"
+      },
+      {
+        "elapsed_seconds": 0.64,
+        "name": "notebook_build",
+        "status": "passed"
+      },
+      {
+        "elapsed_seconds": 11.02,
+        "name": "notebooks",
+        "status": "passed"
+      }
+    ],
+    "utc": "2026-09-10T02:47:35.600159+00:00"
+  },
+  "source": {
+    "s3_key": "releases/market-logistics/source.zip",
+    "sha256": "6e028bbb8528f30ae687547aa972503b67d5653dc2c5e2344132a7cf826b3f57",
+    "bytes": 642700,
+    "version_id": "Iqk08cLIn9WkNepf0QLqRIP0Ho9y5EC7",
+    "source_commit": "ebe9a16"
+  },
+  "verification": {
+    "verified_objects": 76,
+    "verified_bytes": 15289344,
+    "preserved_studies12_code_sha256": "033c42c823fb65470bc9dd9a65ca24c6840401a449f2e36733052ef461ae73e4",
+    "executed_notebooks": 3,
+    "executed_code_cells": 30,
+    "png_figure_fallbacks": 8,
+    "local_tests": 106,
+    "aws_tests": 106,
+    "local_test_seconds": 62.68,
+    "aws_test_seconds": 94.28,
+    "previous_144_study_games_rerun": false,
+    "download_ordering_note": "An initial local audit stopped because its report had not finished downloading. All 76 expected files were subsequently downloaded and hash-verified before restarting the audit; no game was rerun."
+  },
+  "compute": {
+    "status": "Deleted",
+    "space": "kaggriculture-dev",
+    "instance": "ml.m5.xlarge",
+    "region": "us-west-2",
+    "persistent_storage_retained": true
+  },
+  "limitations": [
+    "No leaderboard submission or rating is claimed",
+    "Six development seed clusters and one stronger frozen opponent",
+    "Feature completion gate remains closed"
+  ],
+  "history_backup": "reports/history_backup.json"
+}

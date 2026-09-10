@@ -1,0 +1,24 @@
+{
+  "experiment": "market-logistics-factorial-v1",
+  "configuration": {"episodeSteps": 720},
+  "development_seeds": [1201, 1202, 1203, 1204, 1205, 1206],
+  "seats": [0, 1],
+  "factors": ["delivery", "market_timing"],
+  "arms": ["00", "01", "10", "11"],
+  "baseline_relationship_arm": "001",
+  "opponent_relationship_arm": "101",
+  "max_games": 48,
+  "max_seconds": 1020,
+  "feature_sample_stride": 4,
+  "feature_horizons": [4, 12, 24],
+  "maximum_hold_actions": 4,
+  "rival_scenario_weight": 0.5,
+  "bootstrap_resamples": 4000,
+  "bootstrap_seed": 3201,
+  "heartbeat_seconds": 15,
+  "frozen_sources": {
+    "crop_policy.py": "52db5557b6bb71a4f0c7bfe5ce6faf7fb92d878dfc5b2d353781c9dc28f1d806",
+    "relationship_policy.py": "2e337c7334f5902d3462342c69ec4ca6852b90f35bb4d1301e6fd6f5047fbe5b",
+    "relationship_features.py": "807d67e5a14d7915cbdd35a63db0f618040ef3884b130238bfcf0b62e9435de2"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "verified_date_utc": "2026-09-10",
+  "installed_package": "kaggle-environments==1.32.7",
+  "upstream_url": "https://api.github.com/repos/Kaggle/kaggle-environments/contents/kaggle_environments/envs/kaggriculture/kaggriculture.py?ref=master",
+  "installed_interpreter_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "retrieved_upstream_interpreter_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "byte_identical": true,
+  "scope": "Interpreter source comparison; not proof of Kaggle's private deployment configuration or future version stability."
+}

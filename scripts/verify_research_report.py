@@ -1,8 +1,8 @@
-"""Verify both studies without rerunning 144 unchanged development games.
+"""Verify all three studies without rerunning 192 unchanged development games.
 
 Full simulator runs and notebook execution occur before publication on AWS. CI
 independently runs mechanics/determinism tests, checks source and protocol lineage,
-recomputes statistics from all 144 public outcome rows, and validates the
+recomputes statistics from all 192 public outcome rows, and validates the
 executed notebook. Raw trajectory checkpoints remain private in S3.
 """
 
@@ -14,6 +14,7 @@ from pathlib import Path
 import nbformat
 import numpy as np
 import pandas as pd
+from verify_market_report import verify_markets
 
 from kaggriculture_research.artifacts import digest, file_digest
 from kaggriculture_research.environment import engine_manifest, game
@@ -220,21 +221,32 @@ def main() -> None:
         raise ValueError("Behavior audit source changed")
     notebook = nbformat.read(root / "notebooks/02_feature_research.ipynb", as_version=4)
     cloud = verify_relationships(root)
+    latest_cloud = verify_markets(root)
     recorded = next(
-        a for a in cloud["run"]["artifacts"] if a["path"] == "notebooks/02_feature_research.ipynb"
+        a
+        for a in latest_cloud["run"]["artifacts"]
+        if a["path"] == "notebooks/02_feature_research.ipynb"
     )
     if file_digest(root / recorded["path"]) != recorded["sha256"]:
         raise ValueError("Notebook differs from its executed AWS artifact")
     nbformat.validate(notebook)
     cells = [cell for cell in notebook.cells if cell.cell_type == "code"]
-    if len(cells) != 12:
+    if len(cells) != 17:
         raise ValueError("Unexpected research notebook structure")
-    prior_cells = [cell.source for cell in cells if not cell.id.startswith("relationships-")]
+    prior_cells = [
+        cell.source for cell in cells if not cell.id.startswith(("relationships-", "markets-"))
+    ]
     if (
         len(prior_cells) != 7
         or digest(prior_cells) != cloud["verification"]["preserved_study1_code_sha256"]
     ):
         raise ValueError("Original study notebook code changed")
+    previous = [cell.source for cell in cells if not cell.id.startswith("markets-")]
+    if (
+        len(previous) != 12
+        or digest(previous) != latest_cloud["verification"]["preserved_studies12_code_sha256"]
+    ):
+        raise ValueError("Earlier notebook study code changed")
     for cell in cells:
         ast.parse(cell.source)
         if cell.execution_count is None:
@@ -244,7 +256,7 @@ def main() -> None:
             for o in cell.outputs
         ):
             raise ValueError("Research notebook contains execution errors")
-    print("Verified both studies: 144 outcomes, lineage, contrasts, conservation and notebook.")
+    print("Verified three studies: 192 outcomes, lineage, contrasts, conservation and notebook.")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,13 @@
+{
+  "source_main_commit": "b4fbb7dac9f1c31cb67dabadae473fba1c453858",
+  "bucket": "sagemaker-kaggriculture-560403859723-us-west-2",
+  "key": "releases/resource-relationships/kaggriculture.bundle",
+  "bytes": 598135,
+  "sha256": "d26a44159c71149f37ceb072b305b762de9df8191869abe6ff4d7a16bd89eb22",
+  "s3_version_id": "r9pIH4EkvEUgnn3X0RJJ7Mytt8UVnEn8",
+  "encryption": "AES256",
+  "download_sha256_verified": true,
+  "complete_git_history_verified": true,
+  "user_explicitly_approved": true,
+  "verified_utc_date": "2026-09-10"
+}
