@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 
 import nbformat
+from notebook_provenance import migration_record
 
 from kaggriculture_research.artifacts import digest, file_digest, write_json
 
@@ -17,11 +18,8 @@ def verify(root: Path, record: bool = False) -> dict:
     nbformat.validate(notebook)
     cells = [c for c in notebook.cells if c.cell_type == "code"]
     if len(cells) != 23 or sum(c.id.startswith("supply-") for c in cells) != 6:
-        raise ValueError("Expected 17 preserved and six new code cells")
-    if digest([c.source for c in cells[:17]]) != (
-        "45952532e959648cb3bbc79adb8a55aa39eaab68549532790babb520ed6f14ff"
-    ):
-        raise ValueError("Earlier research notebook source changed")
+        raise ValueError("Expected 17 earlier and six new code cells")
+    migration = migration_record(cells[:17])
     if [c.execution_count for c in cells] != list(range(1, 24)):
         raise ValueError("Notebook was not fully executed in a fresh kernel")
     pngs = 0
@@ -35,7 +33,7 @@ def verify(root: Path, record: bool = False) -> dict:
             ):
                 raise ValueError("Notebook contains execution errors")
             pngs += int("image/png" in output.get("data", {}))
-    if pngs < 5:
+    if pngs != 6:
         raise ValueError("Static figure fallbacks are missing")
     report_path = root / "reports/supply_notebook_execution.json"
     if record:
@@ -44,7 +42,7 @@ def verify(root: Path, record: bool = False) -> dict:
             "code_cells": len(cells),
             "static_png_outputs": pngs,
             "source_sha256": digest([c.source for c in cells]),
-            "preserved_first17_source_sha256": digest([c.source for c in cells[:17]]),
+            "provenance_cell_migration": migration,
             "execution_environment": "GitHub Actions"
             if os.environ.get("GITHUB_ACTIONS")
             else "local",
@@ -61,6 +59,15 @@ def verify(root: Path, record: bool = False) -> dict:
             "study_report_sha256"
         ] != file_digest(root / "reports/supply_research.json"):
             raise ValueError("Published notebook differs from its execution receipt")
+        if (
+            result["source_sha256"] != digest([c.source for c in cells])
+            or result["provenance_cell_migration"] != migration
+            or result["code_cells"] != len(cells)
+            or result["static_png_outputs"] != pngs
+            or result["all_cells_executed"] is not True
+            or result["errors"] != 0
+        ):
+            raise ValueError("Notebook execution receipt metadata is inconsistent")
     return result
 
 

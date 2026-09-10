@@ -44,7 +44,11 @@ used local CPU. Persistent S3/EBS storage can still incur charges.
 
 The canonical notebook extension is prepared for fresh-kernel CI execution; its
 genuine outputs and execution receipt will be committed before final publication.
-The earlier 17 research code cells are unchanged. Follow the
+CI exposed an old private-file assumption in cell 7. Its declared provenance-only
+adapter distinguishes local hashing from prior-download receipts; the other 16
+earlier cells and every experiment/feature source are unchanged. Both notebook
+source identities are checked and recorded. No research game was replayed to fix it.
+Follow the
 [recovery runbook](supply_recovery.md) to reproduce or inspect source-locked evidence.
 
 The **broader feature-research gate remains closed**. Livestock/feed, fertilizer

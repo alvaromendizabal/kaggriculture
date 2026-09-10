@@ -1,14 +1,11 @@
-"""Append six study-4 cells; never alter any earlier research code cell."""
+"""Append six study-4 cells; migrate only study 1's private-artifact receipt check."""
 
 import subprocess
 import sys
 from pathlib import Path
 
 import nbformat
-
-from kaggriculture_research.artifacts import digest
-
-PRESERVED = "45952532e959648cb3bbc79adb8a55aa39eaab68549532790babb520ed6f14ff"
+from notebook_provenance import archived_study_sources, migrate_study1_provenance
 
 
 def main() -> None:
@@ -16,8 +13,7 @@ def main() -> None:
     path = root / "notebooks/02_feature_research.ipynb"
     notebook = nbformat.read(path, as_version=4)
     notebook.cells = [c for c in notebook.cells if not c.id.startswith("supply-")]
-    if digest([c.source for c in notebook.cells if c.cell_type == "code"]) != PRESERVED:
-        raise ValueError("Earlier research code differs from the source-archived notebook")
+    migrate_study1_provenance([c for c in notebook.cells if c.cell_type == "code"])
     additions = [
         (
             "markdown",
@@ -60,7 +56,10 @@ display(pd.Series({'Games': 64, 'Fresh seed clusters': 4, 'Frozen opponents': 2,
 
 Each opponent/arm group has eight games but only four independent seed clusters.
 The full 0–1 vertical scale is preserved in both interactive and static figures.
-Opponent families share crop-policy ancestry; this is not a population-wide ranking.""",
+Opponent families share crop-policy ancestry; this is not a population-wide ranking.
+History/cash scored 0.625 pooled versus bank's 0.375. The gain consists entirely of
+eight mirror-match ties becoming narrow wins; score against relationship101 did
+not improve. This does not justify a general competitive-performance claim.""",
         ),
         (
             "code",
@@ -87,7 +86,10 @@ Visible−bank tests the existing holding rule. History−visible tests stored-s
 information. Cash−history tests tighter cash constraints. Cash−bank tests the overall
 practical change. Bootstrap intervals resample four **whole seed clusters**, retaining
 seats and opponents together. They are descriptive, not confirmatory significance tests.
-All seed differences remain available in the linked outcome files.""",
+All seed differences remain available in the linked outcome files. Every cash-bank
+seed mean had the same +0.25 score contrast, so its bootstrap interval collapses;
+that does not establish zero population uncertainty. Cash/history produced identical
+complete action sequences in all 16 matched games: no incremental decision gain.""",
         ),
         (
             "code",
@@ -115,7 +117,9 @@ display(pd.DataFrame([{'contrast': treatment + '-' + control,
 Only the post-run auditor reads rival private inventory. A useful bound must contain
 the truth, but excessive width or persistent false alarms can still make it a poor
 forecast. Report both containment and conservatism; do not call every tighter bound
-a predictive win. Zero livestock stock here is a coverage gap, not a rejection.""",
+a predictive win. Cash constraints reduced accumulated excess melon-stock bounds
+by 13.19%, but empty-stock warnings did not decrease. Zero livestock stock here is
+a coverage gap, not a rejection.""",
         ),
         (
             "code",
@@ -185,12 +189,9 @@ display(pd.Series({key: audit4[key] for key in ['games_verified',
     nbformat.write(notebook, path)
     subprocess.run([sys.executable, "-m", "ruff", "format", str(path)], check=True)
     updated = nbformat.read(path, as_version=4)
-    preserved = [
-        c.source for c in updated.cells if c.cell_type == "code" and not c.id.startswith("supply-")
-    ]
-    if digest(preserved) != PRESERVED:
-        raise ValueError("Earlier research source changed during notebook formatting")
-    print("Appended six study-4 code cells; all 17 earlier code cells are unchanged.")
+    earlier = [c for c in updated.cells if c.cell_type == "code" and not c.id.startswith("supply-")]
+    archived_study_sources(earlier, require_migration=True)
+    print("Appended six study-4 cells; 16 earlier cells unchanged, one receipt-only adapter.")
 
 
 if __name__ == "__main__":

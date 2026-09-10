@@ -47,7 +47,11 @@ The notebooks consume saved results. The [latest machine-readable study](reports
 [1,308-feature registry](reports/supply_registry.csv), and [independent trace audit](reports/supply_integrity.json)
 identify exactly what was measured. The new notebook section is executed by CI
 before final publication. All four studies' source lineage, outcomes, contrasts
-and product accounting are checked; the earlier 17 research code cells remain unchanged.
+and product accounting are checked. Sixteen earlier research code cells remain
+unchanged; cell 7 has a [declared provenance-only adapter](scripts/notebook_provenance.py)
+that distinguishes local byte checks from matching published prior-download receipts.
+The archived 17-cell source identity is reconstructed and verified, not relabeled
+as the current notebook's source identity. No experiment or feature source changed.
 
 The new [history replay](reports/market_history_research.json) checked 34,512 callback
 vectors: 178 of 333 descriptors varied, 155 were constant, and 12 groups were exact

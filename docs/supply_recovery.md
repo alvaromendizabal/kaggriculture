@@ -108,8 +108,16 @@ match the local upload receipts. A public receipt does not grant bucket access.
 ## Notebook publication
 
 `scripts/build_supply_notebook.py` appends six study-4 cells to canonical notebook
-02 and checks that the earlier 17 code cells are unchanged. Run this builder only
-when editing the section: it clears that section's previous execution outputs.
+02. Sixteen earlier code cells are unchanged. The sole declared change is cell 7's
+private-artifact provenance check: existing files are byte-hashed; missing files
+are explicitly matched against the published prior-download receipt, without
+claiming to reread private bytes. Corrupt local files or receipts fail closed.
+`scripts/notebook_provenance.py` contains both exact cell sources; substituting
+the archived source must recover the original 17-cell SHA-256. All experiment,
+policy and feature source hashes remain frozen. Run the builder only when editing
+the section: it clears that section's previous execution outputs, and clears the
+changed provenance cell on first migration. The execution receipt records both
+the archived and current source identities and the adapter's source hash.
 The final publication workflow executes all notebooks in fresh kernels and
 uploads notebook 02 plus `reports/supply_notebook_execution.json` as an artifact.
 The earlier source-only checkpoint retained the old workflow and notebook.
