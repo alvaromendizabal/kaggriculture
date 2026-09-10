@@ -7,19 +7,24 @@ This project studies sequential decisions in a competitive farming economy: allo
 growing crops, managing livestock, expanding land, and selling into a shared nonlinear market.
 The central question is which observation-safe representations improve decisions and win rates.
 
-**Current stage: legal-history supply feature research.** Three policy studies contain
-192 development games: 80 crop-feature comparisons, 64 resource-relationship games and
-48 fresh-seed market/delivery comparisons. The feature bank contains 933 provisional
-descriptors. A subsequent [history identification study](docs/market_history_research.md)
-reuses the 48 market games to audit 333 additional candidates, without new paid cloud
-compute or policy training. Feature research remains open; no Kaggle score is claimed.
+**Current stage: cash-constrained supply feature research.** Four policy studies
+contain 256 development games: 80 crop-feature, 64 resource-relationship, 48
+market/delivery and 64 supply-information comparisons. The joint bank contains
+1,308 provisional descriptors: 933 earlier candidates, 333 legal-history candidates
+and 42 cash-accounting candidates. All were jointly screened on 11,584 observations.
+Feature research remains open; no Kaggle score is claimed.
+
+The [latest study](docs/supply_research.md) found that stored-supply history helped
+against the mirror-policy opponent, while the added cash constraints changed no
+actions beyond history alone. See the [execution status](docs/supply_status.md)
+and [remaining coverage gaps](docs/feature_coverage.md).
 
 ## Review the work
 
 1. [00 · Simulator and evaluation contract](notebooks/00_environment.ipynb)
 2. [01 · Observation audit and feature hypotheses](notebooks/01_data_audit.ipynb)
-3. [02 · Three executed feature-research studies](notebooks/02_feature_research.ipynb)
-4. [Latest research: legal-history supply bounds and their limitations](docs/market_history_research.md)
+3. [02 · Feature-research studies](notebooks/02_feature_research.ipynb)
+4. [Latest research: public-cash constraints and the registered supply experiment](docs/supply_research.md)
 5. [Feature coverage and completion ledger](docs/feature_coverage.md)
 6. [Domain mechanisms and modern-method research](docs/domain_research.md)
 7. [Market-policy findings: delivery helps coins, holding hurts](docs/market_findings.md)
@@ -33,21 +38,32 @@ so its utility remains untested. The [third study](docs/market_research.md) foun
 delivery coin effect (+2,359.42 averaged over holding settings), but its two wins were
 concentrated in one seed. Fixed market holding reduced coins in every seed cluster.
 No new competitive agent is promoted; these are component tests, not proof that all
-933 descriptors improve decisions.
+descriptors improve decisions. Study 4's history/cash arms scored 0.625 pooled
+versus 0.375 for immediate banking, but the extra wins came entirely from turning
+eight mirror-match ties into narrow wins. Match score against the other opponent
+did not improve. All 16 cash/history pairs had identical full action sequences.
 
-The notebooks execute from saved, verified results. The [latest machine-readable study](reports/market_research.json),
-[933-feature registry](reports/market_registry.csv), and [independent trace audit](reports/market_integrity.json)
-identify exactly what was measured. Three notebooks contain 30 executed code cells and eight
-static figure fallbacks. All three studies' source lineage, outcomes, contrasts and product
-accounting are verified. Earlier study code cells remain unchanged.
+The notebooks consume saved results. The [latest machine-readable study](reports/supply_research.json),
+[1,308-feature registry](reports/supply_registry.csv), and [independent trace audit](reports/supply_integrity.json)
+identify exactly what was measured. Notebook 02 has 23 genuinely executed code
+cells and six rendered figures, with its exact identity in the
+[execution receipt](reports/supply_notebook_execution.json).
+[CI](https://github.com/alvaromendizabal/kaggriculture/actions/runs/34439998792)
+passed 167 tests and executed all three notebooks; their canonical files contain
+36 executed code cells and nine static figures in total. All four studies' source
+lineage, outcomes, contrasts and product accounting are checked. Sixteen earlier research code cells remain
+unchanged; cell 7 has a [declared provenance-only adapter](scripts/notebook_provenance.py)
+that distinguishes local byte checks from matching published prior-download receipts.
+The archived 17-cell source identity is reconstructed and verified, not relabeled
+as the current notebook's source identity. No experiment or feature source changed.
 
 The new [history replay](reports/market_history_research.json) checked 34,512 callback
 vectors: 178 of 333 descriptors varied, 155 were constant, and 12 groups were exact
 nonconstant duplicates. All 241,584 supported stock bounds contained the evaluator-only
 truth. History captured possible stored supply in 1,524 product/callback observations
 with no visible ready yield, but melon bounds were frequently loose after floor-price
-sales. No history-driven policy benefit is claimed. This bounded follow-up is documented
-in the research report; it has not been appended to or freshly executed in notebook 02.
+sales. No policy benefit was claimed from that replay alone. The new 64-game
+study jointly evaluates those history candidates and the cash extension in notebook 02.
 
 ## Problem and metric
 
@@ -60,7 +76,7 @@ The pinned official engine runs **719 action rounds and records 720 states**, in
 initial state. We use its exact default horizon rather than modifying it to fit the prose guide.
 Local performance against an official starter or passive agent does not estimate leaderboard rank.
 
-## Reproduce the current milestones
+## Reproduce the earlier milestones
 
 Python 3.12 and [uv](https://docs.astral.sh/uv/) are required.
 
@@ -91,11 +107,16 @@ checkpoints raise an error; different lineage gets a separate experiment key. Fu
 uses 64 games; its private trace audit recomputes all 11,584 sampled feature vectors. Raw
 trajectories are intentionally absent from GitHub; rerun the studies or restore matching
 authorized checkpoints. `scripts/verify_research_report.py` checks published evidence without
-rerunning 192 games, including the exact AWS-executed notebook hash. Study 3's independent
+rerunning 192 games, including preserved notebook-source lineage when a later section is added.
+Study 3's independent
 audit recomputes 8,688 × 933 feature values and checks all 34,512 candidate callbacks.
 A fresh local notebook
 execution changes execution metadata and must not replace the recorded publication artifact
 without updating its execution evidence.
+
+Study 4 uses the [source-locked recovery runbook](docs/supply_recovery.md), including
+authorized S3 manifests, at most eight new games per batch, independent cached
+audits, remote-byte verification and genuine notebook-execution receipts.
 
 ## AWS workspace
 
@@ -115,6 +136,9 @@ The third workflow completed in 940.77 seconds, including 106 passing tests and 
 execution. All 76 expected output artifacts were downloaded and SHA-verified. Compute was
 confirmed stopped; persistent storage remains and can still incur charges. The full Git
 history through PR3 is also [backed up and verified](reports/history_backup.json).
+Study 4 used local CPU simulation, with no new SageMaker compute. Its 64 episode
+execution times sum to 748.000 seconds; this excludes transfers, screening,
+auditing and CI. The app was again confirmed stopped on September 10, 2026.
 
 ## Feature research is the completion gate
 
@@ -139,6 +163,13 @@ crops represent all rival stock. Joint routes, livestock, fertilizer, capital-st
 regimes, adaptive crop mix and diverse opponents remain open in the [coverage ledger](docs/feature_coverage.md).
 Every major family needs information-availability checks, controlled additions and removals,
 seed-paired uncertainty, and performance against diverse opponents.
+
+Study 4 jointly screened all 1,308 candidates: 754 varying, 554 constant, 74 exact
+duplicate groups and 1,866 highly correlated pairs. None is selected or rejected
+for a final model. Cash constraints reduced accumulated excess melon-stock bounds
+by 13.19%, but did not reduce empty-stock false alarms or change decisions beyond
+history. All 78 livestock state/feed-care descriptors remained constant: a
+high-priority coverage gap, not evidence that livestock is unimportant.
 
 Read [the source audit](docs/source_audit.md) for mechanics that affect the design. The full
 standards are in [AGENTS.md](AGENTS.md). Final optimization remains blocked by the research gate.

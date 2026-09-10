@@ -1,0 +1,19 @@
+{
+  "actions_csv_sha256": "ddcc4f684f0c31cb16f8be9a05a9430f6fe4388e829784c201feb4fc244b5371",
+  "audit_code_sha256": "6807b2d1891424e52890e9bb40066e9f1254a035b3552907bb16032c9288db9a",
+  "bound_violations": 0,
+  "bounds_csv_sha256": "fb36e841a5beb953298f4a6421a371596d7871eb2e28cb0ef59f4d307fed858e",
+  "candidate_callbacks_verified": 46016,
+  "episode_manifest_sha256": "a9df484efc84edb4cb4a2e4a04215b25aa507f33e0707063411dd0e168c4840f",
+  "feature_completion_gate": "closed",
+  "features_per_vector": 1308,
+  "games_verified": 64,
+  "policy_action_mismatches": 0,
+  "product_conservation_verified": true,
+  "report_sha256": "0354a395bab068cae4030c6f7561a93da0451cfec29dd10ce80fd0050faead1a",
+  "sale_containment_checks": 321664,
+  "sampled_feature_vectors_recomputed": 11584,
+  "state_roundtrips": 1984,
+  "stock_containment_checks": 322112,
+  "validation_or_holdout_used": false
+}

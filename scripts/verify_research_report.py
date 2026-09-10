@@ -1,6 +1,6 @@
 """Verify all three studies without rerunning 192 unchanged development games.
 
-Full simulator runs and notebook execution occur before publication on AWS. CI
+The original simulator runs and notebook execution occurred on AWS. CI
 independently runs mechanics/determinism tests, checks source and protocol lineage,
 recomputes statistics from all 192 public outcome rows, and validates the
 executed notebook. Raw trajectory checkpoints remain private in S3.
@@ -14,6 +14,7 @@ from pathlib import Path
 import nbformat
 import numpy as np
 import pandas as pd
+from notebook_provenance import archived_study_sources
 from verify_market_report import verify_markets
 
 from kaggriculture_research.artifacts import digest, file_digest
@@ -227,21 +228,33 @@ def main() -> None:
         for a in latest_cloud["run"]["artifacts"]
         if a["path"] == "notebooks/02_feature_research.ipynb"
     )
-    if file_digest(root / recorded["path"]) != recorded["sha256"]:
+    extended = any(c.id.startswith("supply-") for c in notebook.cells)
+    if not extended and file_digest(root / recorded["path"]) != recorded["sha256"]:
         raise ValueError("Notebook differs from its executed AWS artifact")
     nbformat.validate(notebook)
-    cells = [cell for cell in notebook.cells if cell.cell_type == "code"]
+    cells = [
+        cell
+        for cell in notebook.cells
+        if cell.cell_type == "code" and not cell.id.startswith("supply-")
+    ]
     if len(cells) != 17:
         raise ValueError("Unexpected research notebook structure")
+    sources = archived_study_sources(cells, require_migration=extended)
     prior_cells = [
-        cell.source for cell in cells if not cell.id.startswith(("relationships-", "markets-"))
+        source
+        for cell, source in zip(cells, sources, strict=True)
+        if not cell.id.startswith(("relationships-", "markets-"))
     ]
     if (
         len(prior_cells) != 7
         or digest(prior_cells) != cloud["verification"]["preserved_study1_code_sha256"]
     ):
         raise ValueError("Original study notebook code changed")
-    previous = [cell.source for cell in cells if not cell.id.startswith("markets-")]
+    previous = [
+        source
+        for cell, source in zip(cells, sources, strict=True)
+        if not cell.id.startswith("markets-")
+    ]
     if (
         len(previous) != 12
         or digest(previous) != latest_cloud["verification"]["preserved_studies12_code_sha256"]

@@ -1,0 +1,680 @@
+{
+  "feature_completion_gate": "closed",
+  "identity": {
+    "jobs": [
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/7bbec2b789ef696041b23cb8d273f881c843f35bb17ad15d8c67db49180ef5fe.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/4707a9aa35d2e1dd872e599d8b4d66b66c5d7cda84aa6523262d62184f4d2192.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/9c7054e914723ee3868741ad8e39648b7e6bab5032fe2ec2caeb8d75b23725c9.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/62c9407193070909981941b7162f313d65dc3956548c1304c56c4545df76f0e9.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/d842150f1f7664047d7f90e46c94d910b232d5ed72370df3e394cc88b38cb1fb.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/b4a1de05b8c4fad4e7553eda660f3d24398ffc9858bd411290e9a37654e7c13a.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/8ab49d2f1ef19755633fbbb73f84e9af6bdbe6c7b38f286bd3f025fe5f9b9412.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/f873b682bd9b15810f7b85c71fd216eddd4b1cfc7481c12f5237b52aa2b33db7.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/3066c1a1672651f4c6e0c71ebe325c3fdf6fe9b1cc297a72dabcffbf5627bb94.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/5118106bc6b78069c74570ef3c7c702ef9086a6ef8b725e0564c1412d15617c2.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/e96845eb4d950742e294043d6bb52a97df7b26113daffe162808d2ed2b743b2a.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/6cf0d1336d962aca4eaca3b6eeb9ed9192fe3c09d98d385eceaee0945d358516.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/4da8d0125a2ace189c0d0fe5089dec06148f048afc00c9647a7876de6b94df01.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/52274dbcf245b8f84cf6afa6a84c97d54e065b0ca799d28e2ba4c8558d905105.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/ee7470a13224f6ad9e9693da3ac1e91ae3bf0bca95a30a8069a23328227ef722.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1301
+        },
+        "path": "artifacts/supply_episodes/3c9d7f46a375a7b5d4264d2ef10affe3121850aa38ef61e6e338aa5f4be9627a.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/61b7a2b86e3c57d6e6f36bb56e77485c0c8da069a54b85654649c32b85abd73b.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/a12c27e3c37062a375dca081abcf83ed220cbb7c0459b840444273c1dcf3ae60.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/68db5737e984c3bf99a11e070a76ff8729e7f4a3fc13f58576f1731ccc0fd3e4.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/0cff774f1322cbaa2164cfafa3cf72097051f567b52bda9d2b512eed5106a872.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/24e4f44f07ca06289685487d825a90268d4a09a8437b6b51e8c7b90ad90d1550.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/545b9a729fa49df8e5442b42db64918e12c606d2366718ad002327694f77284c.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/60b2b2eb140c2ae1f9a59c42db66cec38a4c3fa00bca186670a370562fb99e94.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/89322642a2ae80d622a6e19a0fd500b525e895fad372029603d6a2a9382ae5b5.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/472090db1ad12145a9770cf391c48aa9eeb95a40092e7856c9e94ee4f11cb779.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/8c4d862ae04d7893731911fd2aaa306dcda67020a0d46138ae88d801fe9d073f.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/aef95e703893bcbf0a643d1714afa7fa5002af91c7f5a07314ae75dd19934cb4.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/44e8f97314ae890e41d0ab9478cbecaf6af17828dbfe215fbff49c80981cf195.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/2ce650c9dc1c4c929818a682f342fffa7d3d20740cb60dfc1005cd8aae9ac490.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/5710dd287d5f660473c0d23adf6878afe2f7fd1b48410a0dc5c943498d97abe9.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/707f7b54ef8541e2f7fda382a0a6acb0e16a4e07d48c917e6ec39dedc7beba36.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1302
+        },
+        "path": "artifacts/supply_episodes/5ac7c4644fd59e4f3119aaff60f76e90cba0b50a8c0d16f05347b54f6b4c52d4.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/6fed51c4e83eecf9949640592eb517c82e80bfe9f601a0d7ea2a1154c8721f18.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/1b34cdc02e3a595fc888056650ddd4f70eec34cc5922be0b164f85dbd6b852ac.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/22d63bb04ca14061253fda572d7edc1b3e458c35b2851d8067bf6bce4556de2c.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/0f7fd0689d7a0f9eb30ddf60769b21f1b41bce5ecd8e3a5bc3264131a46458b4.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/dc1db0339328974703973673e09a2e7068b944193641901e4c91aee516e06759.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/532f4f8ab5891889c9cd336c9c4b7fc99f72d6d376fa247e93b7094040fd7730.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/665dc3fd5ae57550cc6a1ee88191d2b60b8156c4531cf6f53d17407a8d6b06ed.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/473bdc3ea56e54e25cc7d3ddd88d53717934fea3d8b7206ed9363c7dcb7e621d.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/f6e9cdb2fe875dfde99562064db16353cdc378b7d48f786ce59da2bc846f88f8.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/200f0def44310a7511902458c48c37f52dba2421d719acf41ae52807c584a98a.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/5a25c1901db829a8dd5d9764dbd831d81f3849441b8f37974adf64b6d2b500af.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/83d45ca5b34b741be292686d1accdf366715a1183cb983adfce860dabfd365ea.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/22e754ccdc20b1c20495115f9d1469f002691995b296249423a35233267eeb90.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/1e436750ff239d3b00767ee7db86e71bfc8a98fdd4009154f58988be7e57ab87.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/18a9e835a542d4dc00ca75ae6c96488481eca3149b82d6db36377cd125e654b8.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1303
+        },
+        "path": "artifacts/supply_episodes/0b26c99d89856657d4694acc5f3d800b6fc68a376abfa08070763f8811b6b29f.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/76383f58328d6b0c20c0407228a713e60ffbcf4f5152b720ac1ccb8cf6b581a8.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/2b550dce4a894342c32d509522e5528ea6172bd38cd590ceadc7322c30d952e7.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/2577b8e263d8571bf31801ad2eab9ba0927606be5e9bce853e793576fe868aef.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "relationship101",
+          "seat": 0,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/614f2f6f6caf04673c15a2ea4506f53571dab65dc75307c6cb74540c8291a8db.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/256bbcfd24c4381dcd2527bde1005b9e2e72b60d681ebeacdc98e8bbfc0b3512.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/fffe017ed1f03f9b33b359c614cb00def06b18507a726b86b3c423ac396daa7a.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/e3c921eb76d5320f140268f58151bfc83465426978e96d992b1fc0f028a14fbf.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "market10",
+          "seat": 0,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/39cb176cd9796edb755a6af8483251f11b1ca789e16b4e3317478bc9890bbf65.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/c59a0502fa6f8506195c6692c0d618ea38d56f91b163af1de3a5cd04253b2925.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/057bfbb2e9337fc7733590836eb85f2603bc016d9e1a17cba389f46dec87ef91.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/2366f6909aa623c513c108aad7adee0bc255ff36efa8253cb17d9c45e832739f.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "relationship101",
+          "seat": 1,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/6951ad9f293e9e8581c4c15632f55b6772790968a43b799ee9c4757285ea8d18.json.gz"
+      },
+      {
+        "key": {
+          "arm": "bank",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/0973000aad37499ba73e39c6ec3c1a6daf8e36acf9efc8fb0d61852caeaacae5.json.gz"
+      },
+      {
+        "key": {
+          "arm": "visible",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/6d906b5605bb7d315ca9937cac0cd6e09ccee030c55cbab2a90083903807179c.json.gz"
+      },
+      {
+        "key": {
+          "arm": "history",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/909cd30d5c11601c312a31bd7a6dea2a821b14d3671ce5c708a77fb2da706209.json.gz"
+      },
+      {
+        "key": {
+          "arm": "cash",
+          "opponent": "market10",
+          "seat": 1,
+          "seed": 1304
+        },
+        "path": "artifacts/supply_episodes/51e6931b8a9aec922bc94ad8aacb2d5c227b072514cbc82209161866cb039f6f.json.gz"
+      }
+    ],
+    "lineage": {
+      "code": {
+        "__init__.py": "36d0ff269264d1c5e526ff205c2fc89e921767c65fdc3914654062bbc4adcb85",
+        "artifacts.py": "e08e16f0e09ba25d732e22dc7239ce4a5e017ca3bfbe68d720cafa9ed201ba72",
+        "audit.py": "3cc1130b795f90e8bea454f19bb59b6a4412d6959fad3260a9a7389aa41181a1",
+        "cash_history.py": "256b4c1b544e50ff9073f0b5474ab8b07c8b1f71c3c30204d54df50747c2be4c",
+        "crop_policy.py": "52db5557b6bb71a4f0c7bfe5ce6faf7fb92d878dfc5b2d353781c9dc28f1d806",
+        "environment.py": "590788ca3c5d390c71e06b8c6206f47787ff9bc324b539fb33e5eb163f4cb091",
+        "experiment.py": "9777ea565da9d5ac3ff3bb142f63afda0c25f5d6c6ddaf1c45c0e616fbcdf417",
+        "features.py": "70fc36e02564ebace315516c389ee17af42624f8fc27c6d8baceb4c14d9d9121",
+        "gates.py": "ec8325b24531a7e027d620002da414df3d0f8ce0dddd72b38e6217a70be2a2ac",
+        "market_experiment.py": "edd7edd633fa48871a663f35be5624d8cf464cb0c08da7c14f6975797e92417a",
+        "market_features.py": "c57bcbd9a84e8518e9474d0adaf5a45350f549e671031485e9288761226f329a",
+        "market_history.py": "54e295106673f4b149512ed3e404073782fb3dab65484c9a61fc02c2143c7cee",
+        "market_policy.py": "1173f7d0ce02c24c465e7c1c264919e8ddbcc2355a28752a521c67292649d874",
+        "progress.py": "12a66d38b6238a323194dce2eb39803a015d794ead8f007ffd07c6eed2c22824",
+        "relationship_experiment.py": "11a4d39bd40a5f886656fa308972aad359ea0aa97a9499e80101b02b1f2f283a",
+        "relationship_features.py": "807d67e5a14d7915cbdd35a63db0f618040ef3884b130238bfcf0b62e9435de2",
+        "relationship_policy.py": "2e337c7334f5902d3462342c69ec4ca6852b90f35bb4d1301e6fd6f5047fbe5b",
+        "rollouts.py": "320a57470fecbeefcac1430025689b1f957fc4db044d9d9a5629c5a9d6cdcb02",
+        "supply_experiment.py": "a828b66c4ab0bdc551c559c92b0f7fe889582c2722e0f1cabe95943982801429",
+        "supply_policy.py": "f10e58a19e66cb24d3a5332aab2ff6af3efd1dd1a563ed16c6536b6158d31104",
+        "visuals.py": "e7f66b39c538989c40ce19c7e6564912684204c8ec1fe8a7dd286252ff55f48f"
+      },
+      "engine": {
+        "files": {
+          "agent.py": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6",
+          "core.py": "0922c4599a1b6e0d8c3dadf06ae5297f98138d859d686f00daee6f36e6d45d0e",
+          "envs/kaggriculture/kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+          "envs/kaggriculture/kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+          "schemas.json": "cc6ccbca1a8f747e90434778f12acfe4b29bbeea69aeb5af81f4017ab2ea9a1c",
+          "utils.py": "537b627b11784d424147ef57ebb0369b039bf83c9f891e81f10486b1f552334b"
+        },
+        "package": "kaggle-environments",
+        "version": "1.32.7"
+      },
+      "protocol": {
+        "arms": [
+          "bank",
+          "visible",
+          "history",
+          "cash"
+        ],
+        "bootstrap_resamples": 4000,
+        "bootstrap_seed": 3301,
+        "configuration": {
+          "episodeSteps": 720
+        },
+        "contrasts": [
+          [
+            "visible",
+            "bank"
+          ],
+          [
+            "history",
+            "visible"
+          ],
+          [
+            "cash",
+            "history"
+          ],
+          [
+            "cash",
+            "bank"
+          ]
+        ],
+        "development_seeds": [
+          1301,
+          1302,
+          1303,
+          1304
+        ],
+        "experiment": "cash-constrained-supply-ablation-v1",
+        "feature_sample_stride": 4,
+        "frozen_market_history_sha256": "54e295106673f4b149512ed3e404073782fb3dab65484c9a61fc02c2143c7cee",
+        "frozen_market_report_sha256": "a9f75d96aec022b240c20ffce36880f3d37e20bf49e03c9b1779a81551e358e2",
+        "heartbeat_seconds": 15,
+        "max_games": 64,
+        "max_new_games_per_batch": 8,
+        "max_seconds_per_batch": 240,
+        "maximum_hold_actions": 4,
+        "opponents": [
+          "relationship101",
+          "market10"
+        ],
+        "primary_metric": "match_score",
+        "rival_scenario_weight": 0.5,
+        "seats": [
+          0,
+          1
+        ]
+      }
+    },
+    "runner_sha256": "0473cf178a482a63f27fb744676b43c068946aa00b2e14a3e42b62aa518515b3"
+  },
+  "identity_sha256": "6a3d6a87199ae736ebc1b1e659d5eca140742c911904fd07780cde820692d6cd",
+  "outcomes_inspected_before_registration": false,
+  "registered_at_utc": "2026-09-10T03:53:32.650423+00:00"
+}

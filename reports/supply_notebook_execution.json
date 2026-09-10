@@ -1,0 +1,25 @@
+{
+  "all_cells_executed": true,
+  "code_cells": 23,
+  "errors": 0,
+  "execution_environment": "GitHub Actions",
+  "github_commit_sha": "1b6cf7b044d7dcd6e6326556625588fc27a058d5",
+  "github_run_id": "34439998792",
+  "notebook_sha256": "8f13828607f55faf92a1aeedc802d3c5fbd3eea9fc0162cc0236e2ee0ac9ad96",
+  "plot_source_sha256": "121591b7f3e08e14b2f2064d9774196823774bb4777d8bf9a3920656ddfcd27d",
+  "provenance_cell_migration": {
+    "adapter_source_sha256": "cef74065756dd2ba633083ef4602732f5718102a492cb4487bd04c5074e22362",
+    "archived_first17_source_sha256": "45952532e959648cb3bbc79adb8a55aa39eaab68549532790babb520ed6f14ff",
+    "changed_code_cell_numbers": [
+      7
+    ],
+    "current_cell7_source_sha256": "d2ed03dce6981c2862f457cd98bf330225df23b6d1bbb22817917dbe2e19ccd3",
+    "current_first17_source_sha256": "5ce3b047868f14136b7828cb6c320401d8b1206191ba95fcc5b9d856835f4419",
+    "original_cell7_source_sha256": "c4426cc70a2f4a9df97845c381671536db2de54c5d10924248e716901a8ff46b",
+    "reason": "Explicit local-byte versus prior-download-receipt verification",
+    "unchanged_earlier_code_cells": 16
+  },
+  "source_sha256": "aaf0381fa1aa2f9a216bbe49e5f1b7348a304fd612ba73ef28301473ba7a3d0a",
+  "static_png_outputs": 6,
+  "study_report_sha256": "0354a395bab068cae4030c6f7561a93da0451cfec29dd10ce80fd0050faead1a"
+}
