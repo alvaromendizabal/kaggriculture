@@ -110,11 +110,10 @@ match the local upload receipts. A public receipt does not grant bucket access.
 `scripts/build_supply_notebook.py` appends six study-4 cells to canonical notebook
 02 and checks that the earlier 17 code cells are unchanged. Run this builder only
 when editing the section: it clears that section's previous execution outputs.
-For final publication after all results exist, extend the GitHub quality workflow
-to execute all notebooks in fresh kernels and upload notebook 02 plus
-`reports/supply_notebook_execution.json` as an artifact. The source-only checkpoint
-retains the existing workflow and the earlier executed notebook. Download the
-future genuine execution artifact, verify it with
+The final publication workflow executes all notebooks in fresh kernels and
+uploads notebook 02 plus `reports/supply_notebook_execution.json` as an artifact.
+The earlier source-only checkpoint retained the old workflow and notebook.
+Download the genuine execution artifact, verify it with
 `scripts/verify_supply_notebook.py`, inspect its figures, and commit it before
 merging a passing PR. Do not fabricate outputs or call unexecuted cells executed.
 

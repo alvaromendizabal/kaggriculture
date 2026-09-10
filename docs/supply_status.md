@@ -1,54 +1,53 @@
-# Cash-constrained supply: interrupted execution checkpoint
+# Cash-constrained supply: execution and publication status
 
-Status at September 10, 2026: **55 / 64 registered games completed locally;
-54 have successful private S3 upload receipts.** Nine games remain unplayed.
-The final result report, joint feature screen and new executed notebook section
-are not complete. No preliminary policy ranking is published or used for tuning.
+The preregistered 64-game experiment is complete. All 64 traces were independently
+audited. All 75 required source, registration, trace, matrix and result artifacts
+were downloaded from private S3 and verified by SHA-256, size, version, ETag and
+AES256 encryption: 21,102,532 bytes in total. The machine-readable receipt is
+[supply_cloud_verification.json](../reports/supply_cloud_verification.json).
 
-The final completed game without an upload receipt remains in the local workspace.
-It has not been rerun or transferred to an alternative destination. Unlike the
-54 uploaded episodes, it is not yet protected against loss of this workspace.
+## Measured evidence
 
-## Completed engineering evidence
+- Four source-locked arms, four fresh development seeds, both seats and two
+  frozen opponents; no validation or holdout data used.
+- 1,308 candidates jointly screened on 11,584 legal observations: 754 varying,
+  554 constant, 74 nonconstant duplicate groups and 1,866 high-correlation pairs.
+- All candidates remain provisional; none is selected or rejected for a final model.
+- Independent replay verified 46,016 candidate callbacks, 1,984 state restores,
+  322,112 stock bounds and 321,664 sale intervals, with zero violations or action
+  mismatches and exact product conservation.
+- History/cash pooled match score was 0.625 versus bank's 0.375, but the gain
+  occurred entirely against the mirror-policy opponent. The other opponent's
+  match score did not improve.
+- Cash bounds tightened melon inventory uncertainty, but all 16 cash/history
+  action sequences were identical. No incremental policy benefit is demonstrated.
+- The existing 151-test suite passed before final publication. Fresh CI checks
+  and the new notebook's execution receipt complete the publication gate.
 
-- The 64-game design, all feature/policy sources and episode identities were
-  registered and archived before the first new game.
-- Public cash accounting adds 42 candidates to the 933 + 333 existing bank.
-- The earlier 48-game identification replay found no bound violations and 740
-  additional identified melon-sale units; that is not a new policy win-rate claim.
-- The expanded suite passed **151 tests** locally, including checkpoint reuse,
-  validate-before-install restoration and six remote-receipt integrity cases.
-- Independent legal-observation replay completed all 55 available games without
-  action mismatches or bound violations. No final 64-game audit receipt is claimed.
-- Earlier three-study and history-evidence verifiers still pass. Their 192
-  completed development games and executed notebooks remain unchanged.
-- SageMaker project compute was confirmed stopped; this study uses local CPU.
-  S3 and EBS storage can still incur charges.
+See [the research report](supply_research.md) for paired intervals, assumptions,
+mechanisms, computational cost, source references and limitations.
 
-## Why execution stopped
+## Recovery record
 
-The platform's automatic permission review rejected continuation of private S3
-uploads as lacking directly visible destination-specific authorization. Recovery
-of the earlier approval exchange did not satisfy that review. The affected
-operation was stopped; no alternative credentials or transfer route were used.
+Execution paused at 55 completed games because a permission review rejected the
+pending private upload. After renewed authorization, that checkpoint was uploaded
+without replay, and only the nine missing games were played. A later rejection
+of two derived-artifact uploads was resolved after read-only verification of the
+bucket's ownership and privacy settings. No alternate destination or credentials
+were used. All previously completed games were preserved.
 
-The intended destination remains the project's private bucket
-`sagemaker-kaggriculture-560403859723-us-west-2`, with run data under
-`runs/cash-constrained-supply-20260910/` and source releases under
-`releases/cash-constrained-supply/`. Further transfer needs approval accepted by
-the platform. The payload comprises source archives, private simulation traces,
-feature matrices, checkpoints, notebooks and reports, with normal S3 charges.
+The bucket belongs to the connected AWS account, blocks public access, and has
+encryption and versioning enabled. SageMaker compute remains stopped; this study
+used local CPU. Persistent S3/EBS storage can still incur charges.
 
-## Resume boundary
+## Current boundary
 
-Follow [the recovery runbook](supply_recovery.md), inspect verified local files,
-and upload the pending completed episode before starting missing games. Refresh
-expired signed URLs only through the approved AWS connection. Do not change
-registered source or design, reuse incompatible data, rerun valid completed games,
-or substitute validation/holdout seeds.
+The canonical notebook extension is prepared for fresh-kernel CI execution; its
+genuine outputs and execution receipt will be committed before final publication.
+The earlier 17 research code cells are unchanged. Follow the
+[recovery runbook](supply_recovery.md) to reproduce or inspect source-locked evidence.
 
-After all 64 games are available: summarize; finish independent auditing; verify
-all 75 expected remote artifacts by bytes/version/encryption; execute and inspect
-the new canonical notebook section; then publish the complete measured findings
-through passing quality checks. Final model optimization and submission remain
-blocked by the broader feature-research gate.
+The **broader feature-research gate remains closed**. Livestock/feed, fertilizer
+loops, land expansion, adaptive crop mix, joint routing, calibrated opponent
+beliefs and broader opponent coverage are not exhausted. No final model,
+leaderboard performance, competition submission or overall completion is claimed.

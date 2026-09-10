@@ -24,6 +24,7 @@ def show_match_scores(scores) -> None:
             marker_color=colors[index],
             text=[f"{v:.3f}" for v in values],
             textposition="outside",
+            cliponaxis=False,
         )
         bars = axis.bar(
             positions + (index - 0.5) * width, values, width, label=opponent, color=colors[index]

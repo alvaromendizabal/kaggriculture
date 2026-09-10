@@ -203,10 +203,115 @@ from 1,772,040 to 1,612,546, but the 19,536 false-positive empty-stock warnings
 did not decrease. This is **partial identification progress**, not demonstrated
 policy improvement. Other products were unchanged on that dataset.
 
-Fresh policy outcomes will be added here only after the preregistered run and
-independent audit finish. Feature engineering remains incomplete. Outstanding
-areas include joint cross-product constraints, cash attribution under broader
-own trading, calibrated opponent beliefs, livestock/feed, fertilizer timing,
-land expansion, crop mixtures, joint routing, broader opponents and family-level
-predictive ablations. Final training, validation/holdout use and submission remain
-blocked.
+### Completed 64-game decision experiment
+
+All registered games completed with the source and design unchanged. The first
+55 completed episodes were recovered rather than replayed; nine missing games
+were subsequently executed. Every episode exercised 31 policy-state restores.
+The independent audit checked 46,016 candidate callbacks, recomputed all 11,584
+sample vectors, and found zero action mismatches or violations in 322,112 stock
+and 321,664 sale-interval checks. Product accounting balanced in every game, with
+zero discarded or terminal-unsold product. These are observed checks under the
+stated contract, not a formal proof over all possible opponents and states.
+
+| Arm | Score vs market10 | Score vs relationship101 | Pooled score | Pooled wins / ties / losses |
+|---|---:|---:|---:|---|
+| bank | 0.500 | 0.250 | 0.375 | 2 / 8 / 6 |
+| visible | 0.000 | 0.000 | 0.000 | 0 / 0 / 16 |
+| history | 1.000 | 0.250 | 0.625 | 10 / 0 / 6 |
+| cash | 1.000 | 0.250 | 0.625 | 10 / 0 / 6 |
+
+Each opponent/arm cell has eight games, but only four seed clusters. The bank
+control is the same policy as the market10 opponent, so its eight ties are a
+mirror-match baseline, not evidence of general competitive strength.
+
+| Registered pooled contrast | Match-score effect | Coin effect | Descriptive 95% coin interval |
+|---|---:|---:|---|
+| visible − bank | −0.375 | −1,576.250 | [−1,619.750, −1,520.875] |
+| history − visible | +0.625 | +1,615.875 | [+1,547.250, +1,693.375] |
+| cash − history | 0.000 | 0.000 | [0.000, 0.000] |
+| cash − bank | +0.250 | +39.625 | [−12.750, +112.500] |
+
+Stored-supply history prevented much of the harmful holding induced by visible
+crops alone. Mean timing interventions fell from 19.5 to 8.25 per game. However,
+the improvement over immediate banking is much smaller than the improvement
+over the harmful visible-only rule. All eight extra wins occurred against the
+mirror-policy opponent, averaging only +92.75 coin margin. Against relationship101,
+both bank and history/cash won two of eight games: no match-score improvement.
+The pooled coin-margin gain over bank was +78.875, with interval [−2.250, +183.375].
+
+Every seed's pooled cash−bank match-score difference is +0.25, so its empirical
+bootstrap interval collapses to [0.25, 0.25]. That is a property of four identical
+observed cluster means, not zero uncertainty about future opponents or seeds.
+The null cash−history interval is similarly conditional on the observed data.
+No leaderboard score, final policy promotion or broad population superiority is
+established by these results.
+
+### Tighter bounds did not create additional decisions
+
+On the new 64-game traces, public cash increased identified melon-sale units
+from 5,142 to 6,580 of 11,712 actual units. Melon upper bounds were strictly
+tighter on 24,550 callbacks. Accumulated excess upper-bound units fell from
+2,328,376 to 2,021,154, a 13.19% reduction. The 26,112 false-positive melon
+empty-stock warnings did not decrease. Strawberry bounds were unchanged and
+still produced 7,832 false-positive warnings.
+
+Despite tighter melon bounds, **all 16 paired cash/history games produced
+identical complete candidate action sequences**, not merely matching final
+scores. The extra cash information never changed a decision under this fixed
+holding rule. Its incremental decision value is therefore unestablished. This
+does not prove the features are useless under a calibrated or different policy;
+it does rule out attributing this study's win gain to the cash addition.
+
+### Joint screen and computational cost
+
+The full 1,308-column bank was screened on 11,584 legal development observations:
+754 columns varied, 554 were constant, 74 nonconstant exact-duplicate groups were
+found, and 1,866 pairs had absolute Spearman correlation at least 0.995. Of the
+42 new cash candidates, 19 varied and 23 were constant. All 78 animal state and
+feed/care descriptors were constant, exposing missing trajectory coverage.
+
+Generated: 1,308; screened: 1,308; selected for a final model: 0; rejected for a
+final model: 0. Constants and correlated candidates remain documented coverage
+or redundancy flags, not unsupported global exclusions. These are descriptive
+screens, not training-only predictive selection or individual-feature ablations.
+
+Across recorded local runs, policy latency was 4.529 ms median and 6.665 ms p95;
+the maximum was 273.529 ms. Additional sampled-bank extraction was 1.694 ms
+median and 2.514 ms p95. The 64 recorded episode execution times sum to 748.000
+seconds, excluding upload delays, inter-batch checks, screening, audit and CI.
+These mixed local-run timings are not a deployment acceptance benchmark.
+
+### Remaining feature-research gates
+
+The next high-value coverage study is livestock/feed and fertilizer-loop behavior
+with specialist opponents and fresh development seeds, because the current crop
+references never exercise those feature families. Before those policies buy
+products, the own-sale-only cash contract must be generalized or explicitly
+excluded with an availability mask; it must not be silently applied outside its
+assumptions. Preserve this study's frozen sources when extending the codebase.
+
+Other open areas are joint cross-product constraints, calibrated opponent beliefs,
+land expansion, crop mixtures, joint worker routing and seed-grouped predictive
+feature ablations. Small mirror-match gains are not a reason to close these gaps.
+Feature engineering remains incomplete. Final model optimization, validation/
+holdout use and Kaggle submission remain blocked by the feature-completion gate.
+
+## References
+
+1. Kaggle. [Official Kaggriculture interpreter](https://github.com/Kaggle/kaggle-environments/blob/master/kaggle_environments/envs/kaggriculture/kaggriculture.py).
+   Experimental dependency: `kaggle-environments==1.32.7`; exact engine hashes are
+   recorded in the registration. The upstream URL can change independently.
+2. Alesi A. de Paula, Davide M. Raimondo, Guilherme V. Raffo, and Bruno O. S.
+   Teixeira. [Set-based state estimation for discrete-time constrained nonlinear
+   systems: an approach based on constrained zonotopes and DC programming](https://arxiv.org/html/2211.05912v1).
+   arXiv:2211.05912v1, November 10, 2022. Connection: feasibility-set intersection
+   and conservatism; not an implementation or performance reproduction.
+3. Jianyu Xu, Yining Wang, Xi Chen, and Yu-Xiang Wang. [Dynamic Pricing with
+   Adversarially-Censored Demands](https://arxiv.org/html/2502.06168v1).
+   arXiv:2502.06168v1, February 10, 2025. Connection: censored observations are not
+   latent demand; the paper's demand/noise model differs from this simulator.
+4. Rishabh Agarwal, Max Schwarzer, Pablo Samuel Castro, Aaron Courville, and Marc
+   G. Bellemare. [Deep Reinforcement Learning at the Edge of the Statistical
+   Precipice](https://arxiv.org/abs/2108.13264). NeurIPS 2021; arXiv v4, January 5,
+   2022. Connection: interval estimates and explicit small-run uncertainty.

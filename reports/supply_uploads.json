@@ -1,5 +1,19 @@
 {
   "artifacts": {
+    "artifacts/supply_episodes/057bfbb2e9337fc7733590836eb85f2603bc016d9e1a17cba389f46dec87ef91.json.gz": {
+      "bytes": 241673,
+      "etag": "7fb688444273bd01428afdf4be6abb7b",
+      "sha256": "3294eb4a33f1180ade7141fab6c8d3f2933aa7a2dc2a1583f818de3ff10d2e0f",
+      "uploaded_at_utc": "2026-09-10T04:36:58.893745+00:00",
+      "version_id": "TyadweEh0bsr8U1eD5JS63PEUSQ2yLgg"
+    },
+    "artifacts/supply_episodes/0973000aad37499ba73e39c6ec3c1a6daf8e36acf9efc8fb0d61852caeaacae5.json.gz": {
+      "bytes": 232843,
+      "etag": "b5d973ea94a8ad7ebf55d838bfd5e132",
+      "sha256": "b79cb1ce26d369382f37e707b80347e1f6d3025c4bb2570937eaf7d64b9e8651",
+      "uploaded_at_utc": "2026-09-10T04:37:58.749301+00:00",
+      "version_id": "hi5Me4JuYT8Z7IJx3mTP5GCXkjcE5a.V"
+    },
     "artifacts/supply_episodes/0b26c99d89856657d4694acc5f3d800b6fc68a376abfa08070763f8811b6b29f.json.gz": {
       "bytes": 238958,
       "etag": "79fc881614fc333d293d54bdd8307ada",
@@ -63,6 +77,13 @@
       "uploaded_at_utc": "2026-09-10T04:19:05.070857+00:00",
       "version_id": "zScmwS.t6iW0p4nt7.GV3e3PYmUtG2hx"
     },
+    "artifacts/supply_episodes/2366f6909aa623c513c108aad7adee0bc255ff36efa8253cb17d9c45e832739f.json.gz": {
+      "bytes": 241515,
+      "etag": "9cc8a257d1cac0fbde446a194b8deb9a",
+      "sha256": "474adc30e50df3b811fb49589900306965e4d54c9eb96c57b94ba138f80b9b2e",
+      "uploaded_at_utc": "2026-09-10T04:37:19.975728+00:00",
+      "version_id": "UifNV8SYtE.9NBA4GQ0bayAvRRMpuK5r"
+    },
     "artifacts/supply_episodes/24e4f44f07ca06289685487d825a90268d4a09a8437b6b51e8c7b90ad90d1550.json.gz": {
       "bytes": 233950,
       "etag": "71cc8d07673566d3c61a2f3989dc820f",
@@ -104,6 +125,13 @@
       "sha256": "109535d02a7d333348ebc25ea56e63f6f7183e51bd84ae6e819b6ef04789ae99",
       "uploaded_at_utc": "2026-09-10T04:04:46.885794+00:00",
       "version_id": "TgTkKwoqku1jsY0Vg2E8htcMwJdMlcXc"
+    },
+    "artifacts/supply_episodes/39cb176cd9796edb755a6af8483251f11b1ca789e16b4e3317478bc9890bbf65.json.gz": {
+      "bytes": 232918,
+      "etag": "f63c57ba09a5576be8fd372744cfc0a7",
+      "sha256": "ee5b7d2937cfdd5109808fb1d2b1e32a11d008e707844f8c9cb5c1ee97ac5c02",
+      "uploaded_at_utc": "2026-09-10T04:35:51.320108+00:00",
+      "version_id": "5qO8gG2adC9dA_cIpCJf1DHavbnk0IA8"
     },
     "artifacts/supply_episodes/3c9d7f46a375a7b5d4264d2ef10affe3121850aa38ef61e6e338aa5f4be9627a.json.gz": {
       "bytes": 232922,
@@ -153,6 +181,13 @@
       "sha256": "51a34f3b00ed02dde4a2c4710279196cc09a85c940a627f3863c48f03026d320",
       "uploaded_at_utc": "2026-09-10T04:05:06.531204+00:00",
       "version_id": "lNDzzC5R6hl4auM6evKfGjTx0PIXC0PE"
+    },
+    "artifacts/supply_episodes/51e6931b8a9aec922bc94ad8aacb2d5c227b072514cbc82209161866cb039f6f.json.gz": {
+      "bytes": 234675,
+      "etag": "bcadc3b27416323b80f9f524f2c0b417",
+      "sha256": "aff52101d2fbee8f9fbd491672679e28857c279d8591e15db75686523fd00b24",
+      "uploaded_at_utc": "2026-09-10T04:39:39.017429+00:00",
+      "version_id": "MfQZGA64M4w9V80yHcNUvhKS7z.ppiZk"
     },
     "artifacts/supply_episodes/52274dbcf245b8f84cf6afa6a84c97d54e065b0ca799d28e2ba4c8558d905105.json.gz": {
       "bytes": 233706,
@@ -238,12 +273,26 @@
       "uploaded_at_utc": "2026-09-10T04:08:58.605521+00:00",
       "version_id": "QU8VOS.mhg0VPhPZFpDmpVZy5lWeLdnH"
     },
+    "artifacts/supply_episodes/6951ad9f293e9e8581c4c15632f55b6772790968a43b799ee9c4757285ea8d18.json.gz": {
+      "bytes": 241379,
+      "etag": "f9942cfedd9e9d7b5c7453adace0a2a4",
+      "sha256": "5cbc556f19e42a7378c2d5884313b38f36549333051c03e63f5306b80db0d858",
+      "uploaded_at_utc": "2026-09-10T04:37:38.820592+00:00",
+      "version_id": "pNylr3XWHVMXM36yrP2SJv0QmXpLCPdi"
+    },
     "artifacts/supply_episodes/6cf0d1336d962aca4eaca3b6eeb9ed9192fe3c09d98d385eceaee0945d358516.json.gz": {
       "bytes": 241608,
       "etag": "f2c9874875f2ee19abffb8f574a9e031",
       "sha256": "66f85431fea9d9494e3eecf78718d38495328f332d8a028108ab605af4c8e615",
       "uploaded_at_utc": "2026-09-10T04:05:44.740783+00:00",
       "version_id": "kJRPjGEzapMsWwOydOXaiZRTluPMt3Sx"
+    },
+    "artifacts/supply_episodes/6d906b5605bb7d315ca9937cac0cd6e09ccee030c55cbab2a90083903807179c.json.gz": {
+      "bytes": 235331,
+      "etag": "0c4d2a80afba9f431555dc30379ab61f",
+      "sha256": "89eeca59a8253704bec88a28d2cff5bcf8477414b0e9d9bae69932c99e615262",
+      "uploaded_at_utc": "2026-09-10T04:38:20.160115+00:00",
+      "version_id": "7ky7CNUJlnShk8WISYSPXrwe3uczrgUe"
     },
     "artifacts/supply_episodes/6fed51c4e83eecf9949640592eb517c82e80bfe9f601a0d7ea2a1154c8721f18.json.gz": {
       "bytes": 245298,
@@ -301,6 +350,13 @@
       "uploaded_at_utc": "2026-09-10T04:11:43.138114+00:00",
       "version_id": "DJGr0Wuebr9LK3vEKvqPTDSPMPAe9vlD"
     },
+    "artifacts/supply_episodes/909cd30d5c11601c312a31bd7a6dea2a821b14d3671ce5c708a77fb2da706209.json.gz": {
+      "bytes": 234729,
+      "etag": "21e8988362895b6c673296d7c6d69011",
+      "sha256": "0cdb10f77859aecb6ac925da485d210893a2c14660f6a915734d72a78423b17a",
+      "uploaded_at_utc": "2026-09-10T04:38:41.850819+00:00",
+      "version_id": "YzchaJ2.i.g_efCwXXrbh4Yceko7f34l"
+    },
     "artifacts/supply_episodes/9c7054e914723ee3868741ad8e39648b7e6bab5032fe2ec2caeb8d75b23725c9.json.gz": {
       "bytes": 240745,
       "etag": "69710e9b56f1016084eb53c388e9c604",
@@ -329,6 +385,13 @@
       "uploaded_at_utc": "2026-09-10T04:03:45.108321+00:00",
       "version_id": "weWAb6LbbNcvJ8_P7niNnJ_AC0gCXWc0"
     },
+    "artifacts/supply_episodes/c59a0502fa6f8506195c6692c0d618ea38d56f91b163af1de3a5cd04253b2925.json.gz": {
+      "bytes": 241259,
+      "etag": "517c2bdd5f72168cb77851e36f1863b8",
+      "sha256": "07ca90f2883b6d6de07ecea5780b56645411a3b977338794026a777da896d499",
+      "uploaded_at_utc": "2026-09-10T04:36:12.041506+00:00",
+      "version_id": "vGUl4ECZuLYc175C0bJMYfszWtHbTLB6"
+    },
     "artifacts/supply_episodes/d842150f1f7664047d7f90e46c94d910b232d5ed72370df3e394cc88b38cb1fb.json.gz": {
       "bytes": 229253,
       "etag": "7b7fc60e1903497c3bc3cebaabe34913",
@@ -342,6 +405,13 @@
       "sha256": "4448faa43a503dafc5a3ede3f0ed3b8b32869556b7266ba0244c0e7ac8bba054",
       "uploaded_at_utc": "2026-09-10T04:15:55.781753+00:00",
       "version_id": "zMygBOmH1Q8kxLjmOPu79IG4RXUwCjrI"
+    },
+    "artifacts/supply_episodes/e3c921eb76d5320f140268f58151bfc83465426978e96d992b1fc0f028a14fbf.json.gz": {
+      "bytes": 232862,
+      "etag": "9a9e259310f2cc217a104591b72d48ba",
+      "sha256": "3c8ac13b5dc8115c2ebb2adf36441af0f55eba564392c1b0ee539c0bf750339f",
+      "uploaded_at_utc": "2026-09-10T04:34:56.384262+00:00",
+      "version_id": "gaplBADLyFHW2e8DtDtx0xyyoYWSNcgQ"
     },
     "artifacts/supply_episodes/e96845eb4d950742e294043d6bb52a97df7b26113daffe162808d2ed2b743b2a.json.gz": {
       "bytes": 241587,
@@ -378,6 +448,13 @@
       "uploaded_at_utc": "2026-09-10T04:22:50.644561+00:00",
       "version_id": "lIW6VP5KcpfbysA8NdzyoK25jcHLYwaI"
     },
+    "artifacts/supply_features/b4e75092e75954f95d042321de71fc43498642134e85e040b10fd9affe6aafe0.json.gz": {
+      "bytes": 4498421,
+      "etag": "90e5b1dacb8c65cd991b114209cf3693",
+      "sha256": "12db192b6f271f4529f682ce6edc46e1c494b038b98bcfcac1d7a598c1d6047b",
+      "uploaded_at_utc": "2026-09-10T04:49:15.081673+00:00",
+      "version_id": "OOvMciqM621GCHyWRwl0Qzg7t1ly5r6c"
+    },
     "artifacts/supply_source.zip": {
       "bytes": 808300,
       "etag": "7fc8c86eaf0317661da388b39321b083",
@@ -385,12 +462,68 @@
       "uploaded_at_utc": "2026-09-10T03:55:44.453963+00:00",
       "version_id": "9tjzEqL15Xx_dF2cuGAbZb4GEmfQ76Pc"
     },
+    "reports/supply_action_identities.csv": {
+      "bytes": 10062,
+      "etag": "8d4cc39671ee734e194f5b605259dce6",
+      "sha256": "ddcc4f684f0c31cb16f8be9a05a9430f6fe4388e829784c201feb4fc244b5371",
+      "uploaded_at_utc": "2026-09-10T04:46:23.798796+00:00",
+      "version_id": "it.S_U8PRrbKKQVHY5bXBfstzSJ7MeFD"
+    },
+    "reports/supply_bound_diagnostics.csv": {
+      "bytes": 26854,
+      "etag": "0c059b0d574140b5a407edfb24d3e8a1",
+      "sha256": "fb36e841a5beb953298f4a6421a371596d7871eb2e28cb0ef59f4d307fed858e",
+      "uploaded_at_utc": "2026-09-10T04:46:31.002619+00:00",
+      "version_id": "U8UzDeoS6mDNVK7AMTz0TID7BQNKZite"
+    },
+    "reports/supply_correlations.csv": {
+      "bytes": 157834,
+      "etag": "09f7a9238eb04ea7e1dbe45237fb4e30",
+      "sha256": "450f31180a1f4cfa58883e4bf7b6e2eb760b24562a92f3411b7e4a3008b94ded",
+      "uploaded_at_utc": "2026-09-10T04:46:38.142310+00:00",
+      "version_id": "kZ1BWS5dVgD1pxFJ5FZxKvRmyYdksuYc"
+    },
+    "reports/supply_effects.csv": {
+      "bytes": 6961,
+      "etag": "ea2d23e47e0883a55a1a4dda26714947",
+      "sha256": "862316f02829b46bc8b57af39a73dfeed4f4d457c525a68bc36f395758dbf66a",
+      "uploaded_at_utc": "2026-09-10T04:46:44.792494+00:00",
+      "version_id": "a.ypvnZtnMnIqmlHx39wAv5KuNyMSaf2"
+    },
+    "reports/supply_games.csv": {
+      "bytes": 5285,
+      "etag": "d4acad1c1633f875399ab4eae8784f99",
+      "sha256": "538594d2f88d974f9790bdb48ba21be2239364dc7567c0d6705846bdc1734bb2",
+      "uploaded_at_utc": "2026-09-10T04:46:51.795015+00:00",
+      "version_id": "3k31.Iqni.K2Fl494h0uNSoe4d01hPZ6"
+    },
+    "reports/supply_integrity.json": {
+      "bytes": 884,
+      "etag": "4739000c934fb1f31c89ab0bf3c2deab",
+      "sha256": "8146d69c9eb0beb68b2e63a1e502a433241d94bfb987fe882c52b54daa5505b2",
+      "uploaded_at_utc": "2026-09-10T04:46:59.516928+00:00",
+      "version_id": "qsUbWRM5J1MED52AA2GSpHSXV58qaAQO"
+    },
     "reports/supply_registration.json": {
       "bytes": 21795,
       "etag": "6a8b3356be5ebf8f095dfd6741aff2f0",
       "sha256": "2d523dad25ad868af3b9f8a8ba5b5aeebfb3f96ba2ca878f49fe82db09308af0",
       "uploaded_at_utc": "2026-09-10T03:55:52.378635+00:00",
       "version_id": "bjqtFoSzGK9Iie5HsCzzVd5F7SABNhN_"
+    },
+    "reports/supply_registry.csv": {
+      "bytes": 179535,
+      "etag": "f0d9f68aef43c58e22e6fb5945a4bb42",
+      "sha256": "096e408a67d45808e91fb591401715cdfe97731ecd4413da6488627c1afbf519",
+      "uploaded_at_utc": "2026-09-10T04:47:06.005847+00:00",
+      "version_id": "o8WdOJhNIEkw62pjuzcnVwfu73XW8By0"
+    },
+    "reports/supply_research.json": {
+      "bytes": 94130,
+      "etag": "679d6d4c400af02c94069085489d320b",
+      "sha256": "0354a395bab068cae4030c6f7561a93da0451cfec29dd10ce80fd0050faead1a",
+      "uploaded_at_utc": "2026-09-10T04:49:06.972986+00:00",
+      "version_id": "vRJIdUYBE7vQbfl7T.qCwKLbd4als8fq"
     }
   },
   "bucket": "sagemaker-kaggriculture-560403859723-us-west-2",

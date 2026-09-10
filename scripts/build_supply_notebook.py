@@ -43,6 +43,7 @@ games4 = pd.read_csv(root / 'reports/supply_games.csv')
 effects4 = pd.read_csv(root / 'reports/supply_effects.csv')
 registry4 = pd.read_csv(root / 'reports/supply_registry.csv')
 bounds4 = pd.read_csv(root / 'reports/supply_bound_diagnostics.csv')
+actions4 = pd.read_csv(root / 'reports/supply_action_identities.csv')
 audit4 = json.loads((root / 'reports/supply_integrity.json').read_text())
 assert len(games4) == supply['games'] == 64
 assert games4.seed.nunique() == 4 and set(games4.seed).isdisjoint(games3.seed)
@@ -97,7 +98,14 @@ All seed differences remain available in the linked outcome files.""",
 display(games4.groupby(['opponent', 'arm'])[
     ['interventions_market_timing', 'supply_activations', 'cash_extra_sale_units',
      'harvested_units', 'sold_units', 'discarded_units',
-     'unsold_product_units']].mean().round(3))""",
+     'unsold_product_units']].mean().round(3))
+action_identity4 = actions4.pivot(index=['seed', 'seat', 'opponent'],
+    columns='arm', values='candidate_actions_sha256')
+display(pd.DataFrame([{'contrast': treatment + '-' + control,
+    'identical_full_action_sequences': int((action_identity4[treatment]
+        == action_identity4[control]).sum()), 'paired_games': len(action_identity4)}
+    for treatment, control in [('visible', 'bank'), ('history', 'visible'),
+        ('cash', 'history'), ('cash', 'bank')]]))""",
         ),
         (
             "markdown",
