@@ -1,0 +1,146 @@
+{
+  "artifacts": {
+    "artifacts/terminal_episodes/18c40fc2e8ab2fbb9ef16e2eb9ed39df5bc0c8ddd849f6be2a1d8f4f60604dfc.json.gz": {
+      "bytes": 330835,
+      "etag": "5d04efb6b574edce30a9e87da0c1abd8",
+      "sha256": "7a035afcfe3c629108de65fe2d795ec53c542fafdba63601552b33e338f9845a",
+      "uploaded_at_utc": "2026-09-10T19:35:24.944416+00:00",
+      "version_id": "Z8pnU1RfaWRnf2i2lhADyrNmbbts0jFf"
+    },
+    "artifacts/terminal_episodes/3c5563cb1a58127d6cbfa84f75cba5da2b5c47c34e1e8d767110d563d650fa1f.json.gz": {
+      "bytes": 306818,
+      "etag": "825d334f430ff75db0d9cfceb764aa4f",
+      "sha256": "fc826bafed657589c5bda4b3db5cb936c5827dbd161769d7a163c3e5733d1977",
+      "uploaded_at_utc": "2026-09-10T19:36:09.944423+00:00",
+      "version_id": "v1fnkLTMT17MJMWwGle5Voq.0.JXaNaj"
+    },
+    "artifacts/terminal_episodes/3fa4f7398b9ade8a04f8f9276075747abd4673faa71b4a59d02d8e5fade848f4.json.gz": {
+      "bytes": 305229,
+      "etag": "7304541a87f4bb65a1ec7b370c3666ff",
+      "sha256": "9b97f5bcf34cf771dcb36751a2309bce028a58f1186ac9fe2eadd600c47418eb",
+      "uploaded_at_utc": "2026-09-10T19:34:36.113833+00:00",
+      "version_id": "4rK.MZL6a1FD5E5TxSDzdOFEGNOkNIc1"
+    },
+    "artifacts/terminal_episodes/5530066c7da01b552e080a36b69f01e349b9093cf117e70982d88c5e1e05036f.json.gz": {
+      "bytes": 305409,
+      "etag": "e056ca9a1c9cadd97c76e77ec000b148",
+      "sha256": "e3b8aa8a8fa4a51917df5405eddf96284de217db53364b6f18fbedd65b4be1ea",
+      "uploaded_at_utc": "2026-09-10T19:33:14.072019+00:00",
+      "version_id": "nsF_5BZGbOFlMP48oo7L0rEtnSRGLkoc"
+    },
+    "artifacts/terminal_episodes/5f9265422a5a5d03329c3de224a0c109894af336a60144b25be49b006660157c.json.gz": {
+      "bytes": 331421,
+      "etag": "d06ad9b1c43107b3fe36d576b54ea251",
+      "sha256": "9297228bcf665cc5cb6938cc1970b029a41482f4b794b87cb5022de11483ec28",
+      "uploaded_at_utc": "2026-09-10T19:37:17.715392+00:00",
+      "version_id": "j0ALOVXjJ4v6TyZ5y65SlPRcFdtgi2Lr"
+    },
+    "artifacts/terminal_episodes/608778d203657bff569ff8f83a956640e6d713879285d514f4b75522a802045a.json.gz": {
+      "bytes": 309411,
+      "etag": "93d9941de795eba7f782d76570db4f73",
+      "sha256": "084be07308f5692921981229f7846e20667dd54487bca429f644b70992d1e749",
+      "uploaded_at_utc": "2026-09-10T19:40:27.318284+00:00",
+      "version_id": "cOwsPMygvdiuIi8ZRPd0om4J08XGIK8Q"
+    },
+    "artifacts/terminal_episodes/74eac075691b8ca90252aae0f5f1c40e97a7b81328d9e3edceabf9e11556290f.json.gz": {
+      "bytes": 331015,
+      "etag": "c465789ff06548749c35cc09a0ca4fc6",
+      "sha256": "af07f3541c710cd8835c5926aa9c7cf4a808c79fd03a18558e3fe4a96fa06c5f",
+      "uploaded_at_utc": "2026-09-10T19:37:42.890444+00:00",
+      "version_id": "9s2ZmRj.eCb8bquLVepERA0qNIXF.OO0"
+    },
+    "artifacts/terminal_episodes/a0947c97121abb67b8e65320a8a99ef5c03b308d0cdc03c7bb14fd8eec7bf463.json.gz": {
+      "bytes": 328967,
+      "etag": "b4c80080ea58195f862f426f08c9f0dc",
+      "sha256": "4641caba0df77679e11ee23ddd5baf8345c8be497aaacb04df37d1316a7923a7",
+      "uploaded_at_utc": "2026-09-10T19:41:21.909133+00:00",
+      "version_id": "Ujs9gf7aCvj7rSHhVYrCC6opTr.TUmKU"
+    },
+    "artifacts/terminal_episodes/b014b003a43b6159434af80448ebfeb974029f89bcd85668786bb5dea4f73232.json.gz": {
+      "bytes": 331271,
+      "etag": "683277d2d76348779d855801d1b53741",
+      "sha256": "5bfebb865dea4a75ae001fb1fbbbd1bb147552ddc8054f86449a53ae9ac55582",
+      "uploaded_at_utc": "2026-09-10T19:34:58.176661+00:00",
+      "version_id": "_U1v3L1iTsj4GYcviqz8OAjwipsmrKZR"
+    },
+    "artifacts/terminal_episodes/bbb5d23cc8b767ef10e9773a5384cc87c320d6094d43c22e1d2113b455b48538.json.gz": {
+      "bytes": 306082,
+      "etag": "508041976b98515097a586c34f67355a",
+      "sha256": "e42908e73b61b502a3ab087cccb434302b2f9562f1d7216f5d6521fda497a68b",
+      "uploaded_at_utc": "2026-09-10T19:33:35.217339+00:00",
+      "version_id": "5_qBaVnxzcR34xRUt5iYPpaaTUggji1."
+    },
+    "artifacts/terminal_episodes/c7a79d7bfb5838110cc2e664de6b2be7a5983a44c6a660bc22cfdad2a8b02a7a.json.gz": {
+      "bytes": 309584,
+      "etag": "8db1882a7051b7956bfda39514cb4a64",
+      "sha256": "3e96daaac0bf5822204bfdc8edd574e3268ba9c967935ce5bd2df87157a000a7",
+      "uploaded_at_utc": "2026-09-10T19:39:14.831171+00:00",
+      "version_id": "a6MpBSMOXFmlJDfDQCpesBD_IFllOGGD"
+    },
+    "artifacts/terminal_episodes/cabd94993e52823d01da2f1a9251bbf2bb2287e46d62c46783bf3ea8b3306012.json.gz": {
+      "bytes": 306657,
+      "etag": "b51eb720a1054252c15532aa31722714",
+      "sha256": "c52062beb5605ab0bfa79fe3446b282de75bc77b1a5cd446aa882e792a2ca739",
+      "uploaded_at_utc": "2026-09-10T19:36:56.864860+00:00",
+      "version_id": "QFANW5EvTCW.dfwz9XTxjH4v72AzjNV8"
+    },
+    "artifacts/terminal_episodes/d05a89347f0e737940446c63b9bd45d0c0d4cccf9424e7a297a192d3165b5322.json.gz": {
+      "bytes": 309967,
+      "etag": "eaa9de6ca97f73c009cb120fdc6d0afc",
+      "sha256": "3c7bae76fc73e6daf7c9ed65b2fcd5e593a67e6a1c36f59176d5fff1b3bc9e21",
+      "uploaded_at_utc": "2026-09-10T19:39:51.261030+00:00",
+      "version_id": "PLQPc8jbjMMA.YbuLmK.cvH7G_sqeNtj"
+    },
+    "artifacts/terminal_episodes/d06ef1636d4d0448ff4b337550d68bd1ece635526030a3ad658618308674f531.json.gz": {
+      "bytes": 329443,
+      "etag": "ba53e90cc08f7aeaf041cf74f8aaf217",
+      "sha256": "56b3e913d1d1bf117f8ab19ea33f7ffe31406c227c5139a70c738b95cc47a1c0",
+      "uploaded_at_utc": "2026-09-10T19:35:45.534793+00:00",
+      "version_id": "lETVcY_kqXRG7fqrG5F9eSaFgPCUePQT"
+    },
+    "artifacts/terminal_episodes/f2a1e9b2b24747aaf07b8f1b785d0a68d0e3fb6fe47362bd8facf3cca0cc668e.json.gz": {
+      "bytes": 327526,
+      "etag": "317ddf6f4843929a45c67c8bbc873f49",
+      "sha256": "8f10b31ae5682d7b73d97df1842656995cd29a119adc2a84ab29f6367e74765c",
+      "uploaded_at_utc": "2026-09-10T19:42:05.914398+00:00",
+      "version_id": "m7xcxwJwdboEDhhCwH.Ew05zhtAFxshA"
+    },
+    "artifacts/terminal_episodes/f4bbfe0bc7b1861828080f9fd349e93e529cac73811eb0183a567b2e00317417.json.gz": {
+      "bytes": 329104,
+      "etag": "5b227b1c5ed092e77f498fabeb4b1d87",
+      "sha256": "295d1d515509a4ccbcca1008babb2c1a632d191313e048bd28e5c4df01583210",
+      "uploaded_at_utc": "2026-09-10T19:40:50.775468+00:00",
+      "version_id": "Z.oQ9M8NzokMU.eVhXAXQJtuZzQBXhKi"
+    },
+    "artifacts/terminal_episodes/f6550831673fe21d37032b939d88356a9843469d19d94462b756048ea18d21dd.json.gz": {
+      "bytes": 329662,
+      "etag": "236d6f2f35de5ffcbde4b3b66ec8df9b",
+      "sha256": "ac82c909e9d2fc19127d04feb51e308824a4672a7fa7965a3d8428077847852b",
+      "uploaded_at_utc": "2026-09-10T19:38:04.702579+00:00",
+      "version_id": "p_SlyGNS1zy3Ry7h0vO8pkK0KVAaTR0R"
+    },
+    "artifacts/terminal_episodes/f80b049a8d5d629f93e4e504cacfec0636952bcfbddc62f442501e2d2040c517.json.gz": {
+      "bytes": 307510,
+      "etag": "cd2ca00cd03823468860b49351170f23",
+      "sha256": "192dc25ce8506e8a10e96dc56c358e78a1e7c4fbb2f2e2a49d45e55ad5ff644f",
+      "uploaded_at_utc": "2026-09-10T19:36:30.324084+00:00",
+      "version_id": "kvP4eFMPDnPsj9mtpFhn0rQzejBuC6Yn"
+    },
+    "artifacts/terminal_source.zip": {
+      "bytes": 1319051,
+      "etag": "8defe5fc3ea007eb6f376c41799f0fe0",
+      "sha256": "546f38cdc8848b6ecddcfa1983b45e389ff766cc9e458b72d829e58162fc3268",
+      "uploaded_at_utc": "2026-09-10T19:32:09.199072+00:00",
+      "version_id": "KnmcC_lbFVkx4dddUjG9Edz658Ml6pa1"
+    },
+    "reports/terminal_registration.json": {
+      "bytes": 19377,
+      "etag": "628cdf6a032a6b0061bb8b575601214b",
+      "sha256": "37eda7d47b76c4e3832f601d5cd098c590fa9950c1331d51ad93742bd4aa3883",
+      "uploaded_at_utc": "2026-09-10T19:31:58.666569+00:00",
+      "version_id": "YLyYSNwRseMG7JrusOeLpcu2Yo_V8fMK"
+    }
+  },
+  "bucket": "sagemaker-kaggriculture-560403859723-us-west-2",
+  "prefix": "runs/terminal-routing-20260910/"
+}

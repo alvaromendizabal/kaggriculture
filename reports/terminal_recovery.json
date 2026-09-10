@@ -1,0 +1,20 @@
+{
+  "attempts": [
+    {
+      "new_games": 0,
+      "path": "artifacts/terminal_episodes/5530066c7da01b552e080a36b69f01e349b9093cf117e70982d88c5e1e05036f.json.gz",
+      "restored_games": 1,
+      "reused_games": 0,
+      "semantic_sha256": "c92a2bd40436dbde9850fd4747e6e1f0518c4451f0408ed4b3fe44ac8da82ff9",
+      "sha256": "e3b8aa8a8fa4a51917df5405eddf96284de217db53364b6f18fbedd65b4be1ea"
+    },
+    {
+      "new_games": 0,
+      "path": "artifacts/terminal_episodes/5530066c7da01b552e080a36b69f01e349b9093cf117e70982d88c5e1e05036f.json.gz",
+      "restored_games": 0,
+      "reused_games": 1
+    }
+  ],
+  "new_games": 0,
+  "source_sha256": "fee69ad9414ab6a4c265885d6e344231c54711765c6e14e5d79c255b7a6c0601"
+}
