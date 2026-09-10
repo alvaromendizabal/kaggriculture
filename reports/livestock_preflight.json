@@ -1,0 +1,42 @@
+{
+  "actions_sha256": "b425347e56e4b7cb3dc2ba833c7f636911ef7ceff79e1bb76bd2365e42c85dd5",
+  "commands": {
+    "commands_BUILD_COOP": 2,
+    "commands_BUILD_PASTURE": 4,
+    "commands_CARE": 151,
+    "commands_COLLECT_FERTILIZER": 167,
+    "commands_DIG": 5,
+    "commands_EAST": 303,
+    "commands_FEED": 165,
+    "commands_FERTILIZE": 26,
+    "commands_HARVEST": 150,
+    "commands_NORTH": 354,
+    "commands_PASS": 0,
+    "commands_PICKUP": 142,
+    "commands_PLACE": 137,
+    "commands_PLANT": 37,
+    "commands_SOUTH": 204,
+    "commands_WATER": 277,
+    "commands_WEST": 458,
+    "maximum_COW": 2,
+    "maximum_GOOSE": 2,
+    "maximum_SHEEP": 2
+  },
+  "counts": {
+    "callbacks": 719,
+    "feature_vectors": 181,
+    "private_transitions": 1438,
+    "product_balances": 18,
+    "sale_checks": 5026,
+    "state_restores": 31,
+    "stock_checks": 5033
+  },
+  "episode_semantic_sha256": "7785e5f48617a402af2db4924b6f20ea194ed12b4d3f824e965550a19d4b0fd7",
+  "features": 1500,
+  "mismatches": 0,
+  "outcomes_used_for_tuning": false,
+  "purpose": "mechanics_and_activation_only",
+  "seconds": 15.97384730199974,
+  "seed": 61,
+  "states": 720
+}
