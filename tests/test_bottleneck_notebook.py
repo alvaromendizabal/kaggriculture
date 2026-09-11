@@ -17,10 +17,14 @@ def write_fixture(root, edit_notebook=None, edit_report=None):
     (root / "notebooks").mkdir()
     (root / "reports").mkdir()
     report = {
-        "observations": 161, "base_assignment_parity_states": 161,
-        "new_games": 0, "final_selected_features": 0,
-        "official_metric_effect_measured": False, "validation_or_holdout_used": False,
-        "original_pilot_status": "HALTED_LATENCY_LIMIT", "feature_completion_gate": "open_research",
+        "observations": 161,
+        "base_assignment_parity_states": 161,
+        "new_games": 0,
+        "final_selected_features": 0,
+        "official_metric_effect_measured": False,
+        "validation_or_holdout_used": False,
+        "original_pilot_status": "HALTED_LATENCY_LIMIT",
+        "feature_completion_gate": "open_research",
     }
     if edit_report:
         report.update(edit_report)
@@ -30,10 +34,12 @@ def write_fixture(root, edit_notebook=None, edit_report=None):
         cell.execution_count = index
         cell.metadata["execution"] = {"iopub.execute_input": "synthetic-test-timestamp"}
         if index in (2, 3):
-            cell.outputs = [nbformat.v4.new_output(
-                "display_data",
-                data={"image/png": "AA==", "application/vnd.plotly.v1+json": {"data": []}},
-            )]
+            cell.outputs = [
+                nbformat.v4.new_output(
+                    "display_data",
+                    data={"image/png": "AA==", "application/vnd.plotly.v1+json": {"data": []}},
+                )
+            ]
         cells.append(cell)
     notebook = nbformat.v4.new_notebook(cells=cells)
     if edit_notebook:
@@ -43,8 +49,12 @@ def write_fixture(root, edit_notebook=None, edit_report=None):
     report_path = root / "reports/bottleneck_research.json"
     report_path.write_text(json.dumps(report))
     receipt = {
-        "notebook": "notebooks/04_decision_bottlenecks.ipynb", "all_cells_executed": True,
-        "code_cells": 4, "errors": 0, "static_png_outputs": 2, "plotly_outputs": 2,
+        "notebook": "notebooks/04_decision_bottlenecks.ipynb",
+        "all_cells_executed": True,
+        "code_cells": 4,
+        "errors": 0,
+        "static_png_outputs": 2,
+        "plotly_outputs": 2,
         "notebook_sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
         "report_sha256": hashlib.sha256(report_path.read_bytes()).hexdigest(),
     }
@@ -56,9 +66,13 @@ def test_synthetic_valid_contract(tmp_path):
     assert VERIFY(tmp_path)["status"] == "PASSED"
 
 
-@pytest.mark.parametrize("path", [
-    "notebooks/04_decision_bottlenecks.ipynb", "reports/bottleneck_research.json",
-])
+@pytest.mark.parametrize(
+    "path",
+    [
+        "notebooks/04_decision_bottlenecks.ipynb",
+        "reports/bottleneck_research.json",
+    ],
+)
 def test_byte_tampering_rejected(tmp_path, path):
     write_fixture(tmp_path)
     target = tmp_path / path
@@ -67,11 +81,17 @@ def test_byte_tampering_rejected(tmp_path, path):
         VERIFY(tmp_path)
 
 
-@pytest.mark.parametrize("scope", [
-    {"new_games": 1}, {"validation_or_holdout_used": True},
-    {"official_metric_effect_measured": True}, {"final_selected_features": 1},
-    {"original_pilot_status": "COMPLETE"}, {"feature_completion_gate": "closed"},
-])
+@pytest.mark.parametrize(
+    "scope",
+    [
+        {"new_games": 1},
+        {"validation_or_holdout_used": True},
+        {"official_metric_effect_measured": True},
+        {"final_selected_features": 1},
+        {"original_pilot_status": "COMPLETE"},
+        {"feature_completion_gate": "closed"},
+    ],
+)
 def test_no_relabeling_of_audit_as_score_or_final_selection(tmp_path, scope):
     write_fixture(tmp_path, edit_report=scope)
     with pytest.raises(ValueError, match="scope"):
@@ -98,9 +118,12 @@ def test_missing_plotly_fallback_rejected(tmp_path):
 
 def test_error_output_rejected(tmp_path):
     def add_error(nb):
-        nb.cells[0].outputs.append(nbformat.v4.new_output(
-            "error", ename="ValueError", evalue="synthetic test", traceback=[]
-        ))
+        nb.cells[0].outputs.append(
+            nbformat.v4.new_output(
+                "error", ename="ValueError", evalue="synthetic test", traceback=[]
+            )
+        )
+
     write_fixture(tmp_path, edit_notebook=add_error)
     with pytest.raises(ValueError, match="error output"):
         VERIFY(tmp_path)
