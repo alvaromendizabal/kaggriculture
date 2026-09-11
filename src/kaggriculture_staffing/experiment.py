@@ -60,6 +60,26 @@ def episode_hash(payload: dict) -> str:
     )
 
 
+def decision_prefix_hash(records: list[dict]) -> str:
+    """Hash only causal observation/action history before the terminal intervention.
+
+    Arm-specific diagnostics are intentionally excluded: the attribution gate asks whether
+    both policies experienced the same legal observations and chose the same actions before
+    day 29, not whether their diagnostic labels were byte-identical.
+    """
+    return digest(
+        [
+            {
+                "player": row["player"],
+                "observation": row["observation"],
+                "action": row["action"],
+            }
+            for row in records
+            if row["observation"]["day"] < 29
+        ]
+    )
+
+
 def run_activation_preflight(seed: int) -> dict:
     """Run one non-scored development trajectory and prove final-day multiworker activation."""
     candidate = StaffingPolicy("sequential")
@@ -224,9 +244,7 @@ def run_game(seed: int, seat: int, opponent: str, arm: str) -> dict:
         "feature_samples": samples,
         "accounting": audit,
         "latency_ms": latencies,
-        "preterminal_sha256": digest(
-            [row for row in candidate_records if row["observation"]["day"] < 29]
-        ),
+        "preterminal_sha256": decision_prefix_hash(candidate_records),
         "execution_seconds": time.monotonic() - started,
     }
     payload["semantic_sha256"] = episode_hash(payload)
