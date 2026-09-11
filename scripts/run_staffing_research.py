@@ -116,6 +116,30 @@ class S3Store:
         self.persist_receipt()
 
 
+def ensure_existing_checkpoints_durable(root: Path, jobs: list[dict], store: S3Store) -> int:
+    """Readback-verify every existing episode before a batch may create another one.
+
+    This closes the interruption window where a complete local checkpoint could exist
+    after a process died before its S3 upload. A failed upload raises here, before
+    ``run_batch`` is called, so recovery cannot advance the registered game sequence.
+    """
+    verified = 0
+    for job in jobs:
+        path = root / job["path"]
+        if not path.exists():
+            continue
+        store.upload(path)
+        relative = path.relative_to(root).as_posix()
+        receipt = store.receipt["artifacts"].get(relative, {})
+        if receipt.get("sha256") != file_digest(path) or not receipt.get("readback_verified"):
+            raise ValueError("Existing staffing checkpoint is not durably readback-verified")
+        verified += 1
+    progress = root / "reports/staffing_progress.json"
+    if progress.exists():
+        store.upload(progress)
+    return verified
+
+
 def run_preflight(root: Path, protocol: dict, registration: dict) -> dict:
     """Prove the shared base reaches a real multiworker final-day state without scoring it."""
     path = root / "reports/staffing_preflight.json"
@@ -175,6 +199,7 @@ def main() -> None:
         raise ValueError("Pilot execution and summary require --durable private S3 checkpointing")
 
     if args.mode == "batch":
+        durable_existing = ensure_existing_checkpoints_durable(root, jobs, store)
         result = run_batch(root, protocol)
         for artifact in result["artifact_manifest"]:
             store.upload(root / artifact["path"])
@@ -182,8 +207,11 @@ def main() -> None:
         print(
             json.dumps(
                 {
-                    key: result[key]
-                    for key in ("complete", "completed_games", "new_games", "reused_games")
+                    **{
+                        key: result[key]
+                        for key in ("complete", "completed_games", "new_games", "reused_games")
+                    },
+                    "durable_existing_before_batch": durable_existing,
                 }
             )
         )
@@ -192,6 +220,7 @@ def main() -> None:
     progress_path = root / "reports/staffing_progress.json"
     if not progress_path.exists() or not json.loads(progress_path.read_text()).get("complete"):
         raise ValueError("Cannot summarize before all registered staffing games are durable")
+    ensure_existing_checkpoints_durable(root, jobs, store)
     report = summarize(root, protocol)
     outputs = [
         root / "reports/staffing_games.csv",
