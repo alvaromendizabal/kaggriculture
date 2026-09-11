@@ -12,9 +12,9 @@ from __future__ import annotations
 import copy
 from collections import Counter
 
-from kaggriculture_livestock.policy import FeedPolicy
 from kaggriculture_research.market_features import project_observation
 from kaggriculture_staffing.features import staffing_features
+from kaggriculture_terminal.feed_policy import FeedPolicy
 from kaggriculture_terminal.routing import liquidation
 
 ARMS = ("sequential", "coordinated")
