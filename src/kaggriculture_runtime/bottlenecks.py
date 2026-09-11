@@ -106,9 +106,11 @@ def assignment_bottlenecks(
         values[f"capacity_{label}_actual_units"] = capacity - room
     for unit in range(WORKERS):
         present = unit < len(menu)
-        remaining = max(
-            (p["key"][0] for p in feasible if not p["active"][unit]), default=utility
-        ) if present else utility
+        remaining = (
+            max((p["key"][0] for p in feasible if not p["active"][unit]), default=utility)
+            if present
+            else utility
+        )
         values[f"worker{unit}_present"] = int(present)
         values[f"worker{unit}_removal_loss"] = utility - remaining
     resources = set().union(*(p["used"] for p in feasible))
@@ -124,7 +126,9 @@ def assignment_bottlenecks(
             "resource_loss_max": max(losses, default=0),
             "resource_loss_sum": sum(losses),
             "resource_loss_mean": sum(losses) / len(losses) if losses else 0,
-            "resource_loss_concentration": max(losses, default=0) / sum(losses) if sum(losses) else 0,
+            "resource_loss_concentration": max(losses, default=0) / sum(losses)
+            if sum(losses)
+            else 0,
         }
     )
     result = {"bottleneck." + k: float(v) for k, v in values.items()}

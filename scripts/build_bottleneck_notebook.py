@@ -146,7 +146,9 @@ def main():
     ]
     notebook = nbformat.v4.new_notebook(cells=cells)
     notebook.metadata.kernelspec = {
-        "display_name": "Python 3", "language": "python", "name": "python3",
+        "display_name": "Python 3",
+        "language": "python",
+        "name": "python3",
     }
     NotebookClient(
         notebook, timeout=90, kernel_name="python3", resources={"metadata": {"path": str(root)}}
@@ -168,10 +170,14 @@ def main():
     if Path.home() == Path("/home/sagemaker-user"):
         environment = "AWS SageMaker"
     receipt = {
-        "notebook": path.relative_to(root).as_posix(), "all_cells_executed": True,
-        "code_cells": len(code_cells), "errors": 0,
-        "executed_at_utc": datetime.now(UTC).isoformat(), "environment": environment,
-        "static_png_outputs": pngs, "plotly_outputs": plots,
+        "notebook": path.relative_to(root).as_posix(),
+        "all_cells_executed": True,
+        "code_cells": len(code_cells),
+        "errors": 0,
+        "executed_at_utc": datetime.now(UTC).isoformat(),
+        "environment": environment,
+        "static_png_outputs": pngs,
+        "plotly_outputs": plots,
         "repository_head": subprocess.check_output(
             ["git", "rev-parse", "HEAD"], cwd=root, text=True
         ).strip(),

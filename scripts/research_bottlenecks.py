@@ -54,8 +54,12 @@ def main():
             tick = time.perf_counter()
             menu, meta = menus(obs)
             values = assignment_bottlenecks(
-                menu, int(meta["room"]), obs["market"]["inventory"], ITEMS,
-                game.market_price, WORK_VALUE,
+                menu,
+                int(meta["room"]),
+                obs["market"]["inventory"],
+                ITEMS,
+                game.market_price,
+                WORK_VALUE,
             )
             latencies.append((time.perf_counter() - tick) * 1000)
             reference = samples[obs["step"]]
@@ -76,43 +80,61 @@ def main():
     registry = []
     for name in columns:
         per_group = frame.groupby(["seed", "seat", "arm"])[name].nunique()
-        registry.append({
-            "feature": name, "distinct_values": int(frame[name].nunique()),
-            "minimum": float(frame[name].min()), "maximum": float(frame[name].max()),
-            "nonzero_fraction": float((frame[name] != 0).mean()),
-            "groups_with_variation": int((per_group > 1).sum()),
-            "status": "provisional_no_predictive_ablation",
-        })
+        registry.append(
+            {
+                "feature": name,
+                "distinct_values": int(frame[name].nunique()),
+                "minimum": float(frame[name].min()),
+                "maximum": float(frame[name].max()),
+                "nonzero_fraction": float((frame[name] != 0).mean()),
+                "groups_with_variation": int((per_group > 1).sum()),
+                "status": "provisional_no_predictive_ablation",
+            }
+        )
     registry_frame = pd.DataFrame(registry)
     varying = registry_frame.loc[registry_frame.distinct_values > 1, "feature"].tolist()
     corr = frame[varying].corr(method="spearman").to_numpy()
     high_pairs = int(np.triu(np.abs(corr) >= 0.995, k=1).sum())
     selected = [f"bottleneck.worker{i}_removal_loss" for i in range(4)] + [
-        "bottleneck.capacity_minus5_utility_delta", "bottleneck.resource_loss_max",
+        "bottleneck.capacity_minus5_utility_delta",
+        "bottleneck.resource_loss_max",
         "bottleneck.runner_up_utility_gap",
     ]
     group_means = frame.groupby(["seed", "seat", "arm"])[selected].mean().reset_index()
     report = {
-        "status": "SAVED_OBSERVATION_FEATURE_AUDIT_PASSED", "source_commit": source,
-        "audited_at_utc": datetime.now(UTC).isoformat(), "new_games": 0,
-        "accepted_source_games": 7, "original_planned_games": 8,
+        "status": "SAVED_OBSERVATION_FEATURE_AUDIT_PASSED",
+        "source_commit": source,
+        "audited_at_utc": datetime.now(UTC).isoformat(),
+        "new_games": 0,
+        "accepted_source_games": 7,
+        "original_planned_games": 8,
         "original_pilot_status": "HALTED_LATENCY_LIMIT",
         "registration_identity_sha256": registration["identity_sha256"],
-        "observations": len(rows), "candidate_columns": len(columns),
-        "varying_columns": len(varying), "constant_columns": len(columns)-len(varying),
-        "high_spearman_pairs": high_pairs, "base_assignment_parity_states": len(rows),
-        "latency_including_menu_ms": {"median": float(np.median(latencies)),
-            "p95": float(np.quantile(latencies, .95)), "max": max(latencies)},
-        "elapsed_seconds": time.monotonic()-started,
+        "observations": len(rows),
+        "candidate_columns": len(columns),
+        "varying_columns": len(varying),
+        "constant_columns": len(columns) - len(varying),
+        "high_spearman_pairs": high_pairs,
+        "base_assignment_parity_states": len(rows),
+        "latency_including_menu_ms": {
+            "median": float(np.median(latencies)),
+            "p95": float(np.quantile(latencies, 0.95)),
+            "max": max(latencies),
+        },
+        "elapsed_seconds": time.monotonic() - started,
         "group_means": group_means.to_dict("records"),
-        "final_selected_features": 0, "official_metric_effect_measured": False,
-        "validation_or_holdout_used": False, "feature_completion_gate": "open_research",
+        "final_selected_features": 0,
+        "official_metric_effect_measured": False,
+        "validation_or_holdout_used": False,
+        "feature_completion_gate": "open_research",
         "limitations": [
             "Seven accepted episodes from a latency-censored eight-game development pilot",
             "Same retained route menu only; not global optimality or a valuation of unseen routes",
             "Capacity increases are hypothetical sensitivities, not purchasable game actions",
-            ("No fitted model or policy ablation; coverage and algebraic parity "
-             "are not win-rate gains"),
+            (
+                "No fitted model or policy ablation; coverage and algebraic parity "
+                "are not win-rate gains"
+            ),
             "Seed 1601 was exercised in CI before original AWS registration",
         ],
     }
@@ -125,27 +147,42 @@ def main():
     write_json(root / "reports/bottleneck_research.json", report)
     bucket = json.loads((root / "configs/aws.json").read_text())["bucket"]
     prefix = "runs/staffing-controlled-routing-20260911/"
-    client = boto3.client("s3", region_name="us-west-2", config=Config(
-        connect_timeout=5, read_timeout=15, retries={"max_attempts": 2}))
+    client = boto3.client(
+        "s3",
+        region_name="us-west-2",
+        config=Config(connect_timeout=5, read_timeout=15, retries={"max_attempts": 2}),
+    )
     receipts = {}
-    outputs = [sample, root / "reports/bottleneck_registry.csv",
-               root / "reports/bottleneck_research.json"]
+    outputs = [
+        sample,
+        root / "reports/bottleneck_registry.csv",
+        root / "reports/bottleneck_research.json",
+    ]
     for path in outputs:
         content = path.read_bytes()
         relative = path.relative_to(root).as_posix()
-        response = client.put_object(Bucket=bucket, Key=prefix+relative, Body=content,
-            ServerSideEncryption="AES256")
+        response = client.put_object(
+            Bucket=bucket, Key=prefix + relative, Body=content, ServerSideEncryption="AES256"
+        )
         version = response.get("VersionId")
         if not version:
             raise ValueError("S3 version missing")
-        remote = client.get_object(Bucket=bucket, Key=prefix+relative, VersionId=version)
+        remote = client.get_object(Bucket=bucket, Key=prefix + relative, VersionId=version)
         if hashlib.sha256(remote["Body"].read()).digest() != hashlib.sha256(content).digest():
             raise ValueError("S3 readback differs")
-        receipts[relative] = {"version_id": version, "sha256": hashlib.sha256(content).hexdigest(),
-            "bytes": len(content), "readback_verified": True}
+        receipts[relative] = {
+            "version_id": version,
+            "sha256": hashlib.sha256(content).hexdigest(),
+            "bytes": len(content),
+            "readback_verified": True,
+        }
     write_json(root / "reports/bottleneck_uploads.json", receipts)
-    client.put_object(Bucket=bucket, Key=prefix+"reports/bottleneck_uploads.json",
-        Body=(root / "reports/bottleneck_uploads.json").read_bytes(), ServerSideEncryption="AES256")
+    client.put_object(
+        Bucket=bucket,
+        Key=prefix + "reports/bottleneck_uploads.json",
+        Body=(root / "reports/bottleneck_uploads.json").read_bytes(),
+        ServerSideEncryption="AES256",
+    )
     print(json.dumps(report), flush=True)
 
 

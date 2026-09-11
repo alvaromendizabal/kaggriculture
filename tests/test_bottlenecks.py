@@ -21,7 +21,7 @@ def route(resource=None, quantity=0, work=0):
 
 
 def features(menu, room=100):
-    return assignment_bottlenecks(menu, room, {"MILK": 0}, ("MILK",), lambda _, n: max(1, 10-n))
+    return assignment_bottlenecks(menu, room, {"MILK": 0}, ("MILK",), lambda _, n: max(1, 10 - n))
 
 
 def test_zero_work_and_capacity_counterfactuals():
@@ -77,7 +77,7 @@ def test_missing_pass_and_bad_quantities_rejected():
 @pytest.mark.parametrize("room", [0, 1, 3, 6, 10, 100])
 @pytest.mark.parametrize("workers", [1, 2, 3, 4])
 def test_against_independent_direct_objective(room, workers):
-    menu = [[route(f"task{i}", i+1, 1), route("shared", 2, 1), route()] for i in range(workers)]
+    menu = [[route(f"task{i}", i + 1, 1), route("shared", 2, 1), route()] for i in range(workers)]
     scored = []
     for choices in product(*menu):
         all_resources = [resource for r in choices for resource in r.resources]
@@ -87,10 +87,15 @@ def test_against_independent_direct_objective(room, workers):
         inventory = 0
         revenue = 0
         for _ in range(amount):
-            p = max(1, 10-inventory)
+            p = max(1, 10 - inventory)
             revenue += p
             inventory += int(p > 1)
-        scored.append((revenue - 8*sum(len(r.actions) for r in choices), -sum(len(r.actions) for r in choices)))
+        scored.append(
+            (
+                revenue - 8 * sum(len(r.actions) for r in choices),
+                -sum(len(r.actions) for r in choices),
+            )
+        )
     got = features(menu, room)
     assert got["bottleneck.best_utility"] == max(scored)[0]
     assert got["bottleneck.best_work"] == -max(scored)[1]
