@@ -19,7 +19,13 @@ import pandas as pd
 
 from kaggriculture_livestock.audit import accounting
 from kaggriculture_livestock.policy import LivestockPolicy
-from kaggriculture_research.artifacts import digest, file_digest, load_checkpoint, save_checkpoint, write_json
+from kaggriculture_research.artifacts import (
+    digest,
+    file_digest,
+    load_checkpoint,
+    save_checkpoint,
+    write_json,
+)
 from kaggriculture_research.environment import engine_manifest, make_environment, validate_protocol
 from kaggriculture_research.features import PUBLIC_FIELDS
 from kaggriculture_staffing.features import FEATURE_COUNT, staffing_features
@@ -115,7 +121,11 @@ def run_game(seed: int, seat: int, opponent: str, arm: str) -> dict:
             elapsed = (time.perf_counter() - tick) * 1000
             if obs != before:
                 raise ValueError("Policy mutated its legal observation")
-            record = {"player": obs["player"], "observation": before, "action": copy.deepcopy(action)}
+            record = {
+                "player": obs["player"],
+                "observation": before,
+                "action": copy.deepcopy(action),
+            }
             if candidate_side:
                 latencies.append(elapsed)
                 record["diagnostics"] = copy.deepcopy(candidate.last_diagnostics)
@@ -174,7 +184,8 @@ def run_game(seed: int, seat: int, opponent: str, arm: str) -> dict:
     )
     active_workers = [row["diagnostics"]["active_workers"] for row in terminal]
     routed_workers = [
-        row["diagnostics"]["staffing_features"]["staffing.active_routed_workers"] for row in terminal
+        row["diagnostics"]["staffing_features"]["staffing.active_routed_workers"]
+        for row in terminal
     ]
     coordination_gap = [
         row["diagnostics"]["staffing_features"]["staffing.optimistic_coordination_gap"]
@@ -236,7 +247,8 @@ def validate_episode(payload: dict, key: dict) -> None:
     if payload["summary"]["policy_latency_max_ms"] > 500:
         raise ValueError("Registered policy latency budget exceeded")
     for sample in payload["feature_samples"]:
-        if len(sample["values"]) != FEATURE_COUNT or not np.isfinite(list(sample["values"].values())).all():
+        values = list(sample["values"].values())
+        if len(sample["values"]) != FEATURE_COUNT or not np.isfinite(values).all():
             raise ValueError("Invalid staffing feature vector")
 
 
@@ -244,19 +256,19 @@ def common_lineage(root: Path, protocol: dict) -> dict:
     """Freeze the pilot against prior research sources and every protected seed partition."""
     foundation = json.loads((root / "configs/research.json").read_text())
     validate_protocol(foundation)
-    forbidden = set(
+    protected = set(
         foundation["development_seeds"]
         + foundation["validation_seeds"]
         + foundation["holdout_seeds"]
-        + [protocol["preflight_seed"]]
     )
     for name in ("market", "supply", "livestock", "terminal"):
-        forbidden.update(
+        protected.update(
             json.loads((root / f"configs/{name}_research.json").read_text())["development_seeds"]
         )
     if (
-        protocol["development_seeds"] != [1601, 1602]
-        or set(protocol["development_seeds"]) & forbidden
+        protocol["preflight_seed"] in protected
+        or protocol["development_seeds"] != [1601, 1602]
+        or set(protocol["development_seeds"]) & (protected | {protocol["preflight_seed"]})
         or protocol["arms"] != list(ARMS)
         or protocol["opponents"] != list(OPPONENTS)
         or protocol["contrasts"] != [list(value) for value in CONTRASTS]
@@ -360,7 +372,9 @@ def paired_summary(frame: pd.DataFrame, resamples: int, bootstrap_seed: int) -> 
                 control, level="arm"
             )
             clusters = delta.groupby(level="seed").mean()
-            draws = rng.choice(clusters.to_numpy(), size=(resamples, len(clusters)), replace=True).mean(axis=1)
+            draws = rng.choice(
+                clusters.to_numpy(), size=(resamples, len(clusters)), replace=True
+            ).mean(axis=1)
             rows.append(
                 {
                     "contrast": treatment + "-" + control,
@@ -406,7 +420,9 @@ def summarize(root: Path, protocol: dict) -> dict:
             }
         )
     prefix_counts = (
-        pd.DataFrame(manifests).groupby(["seed", "seat", "opponent"])["preterminal_sha256"].nunique()
+        pd.DataFrame(manifests)
+        .groupby(["seed", "seat", "opponent"])["preterminal_sha256"]
+        .nunique()
     )
     if len(prefix_counts) != 4 or not (prefix_counts == 1).all():
         raise ValueError("Paired policies diverged before the day-29 intervention")
@@ -434,7 +450,9 @@ def summarize(root: Path, protocol: dict) -> dict:
                 "maximum": float(features[name].max()),
                 "nonzero_fraction": float((features[name] != 0).mean()),
                 "availability": "current_legal_observation",
-                "status": "coverage_gap_constant" if distinct[name] <= 1 else "provisional_not_selected",
+                "status": (
+                    "coverage_gap_constant" if distinct[name] <= 1 else "provisional_not_selected"
+                ),
             }
             for name in feature_names
         ]
@@ -451,6 +469,15 @@ def summarize(root: Path, protocol: dict) -> dict:
     pd.DataFrame(correlations, columns=["first", "second", "spearman"]).to_csv(
         root / "reports/staffing_correlations.csv", index=False
     )
+    groups = (
+        frame.groupby(["opponent", "arm"])
+        .mean(numeric_only=True)
+        .reset_index()
+        .to_dict("records")
+    )
+    constant_features = registry.loc[
+        registry.distinct_development_values <= 1, "feature"
+    ].tolist()
     report = {
         "experiment": protocol["experiment"],
         "lineage": common,
@@ -458,7 +485,7 @@ def summarize(root: Path, protocol: dict) -> dict:
         "games": len(rows),
         "identical_preterminal_blocks": len(prefix_counts),
         "seed_clusters": 2,
-        "groups": frame.groupby(["opponent", "arm"]).mean(numeric_only=True).reset_index().to_dict("records"),
+        "groups": groups,
         "effects": effects.to_dict("records"),
         "artifact_manifest": manifests,
         "execution_seconds": total_seconds,
@@ -474,16 +501,22 @@ def summarize(root: Path, protocol: dict) -> dict:
             "rejected_for_final_model": 0,
             "sampled_development_observations": len(features),
             "families": dict(Counter(families.values())),
-            "constant_features": registry.loc[registry.distinct_development_values <= 1, "feature"].tolist(),
+            "constant_features": constant_features,
             "high_spearman_pairs": len(correlations),
-            "scope": "Mechanism activation, availability, variation and redundancy; not predictive selection",
+            "scope": (
+                "Mechanism activation, availability, variation and redundancy; "
+                "not predictive selection"
+            ),
         },
         "validation_or_holdout_used": False,
         "feature_completion_gate": "open_research",
         "limitations": [
             "Only two development seeds; intervals are descriptive and highly discrete",
             "One mirror-like opponent is deliberately a mechanism test, not population validation",
-            "Only final-day routing is intervened; season-long multiworker coordination remains open",
+            (
+                "Only final-day routing is intervened; season-long multiworker coordination "
+                "remains open"
+            ),
             "The 53 staffing candidates are provisional and not selected predictors",
             "No leaderboard score or general win probability is inferred",
         ],
