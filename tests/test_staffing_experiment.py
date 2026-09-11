@@ -60,8 +60,7 @@ def test_registered_pair_has_valid_feature_and_transition_evidence(paired_games)
         assert payload["accounting"]["transitions"] == 1438
         assert len(payload["feature_samples"]) == 23
         assert (
-            payload["summary"]["policy_latency_max_ms"]
-            <= protocol()["maximum_policy_latency_ms"]
+            payload["summary"]["policy_latency_max_ms"] <= protocol()["maximum_policy_latency_ms"]
         )
 
 
