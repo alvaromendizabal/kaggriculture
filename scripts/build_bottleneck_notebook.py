@@ -1,9 +1,10 @@
-"""Build and genuinely execute the measured decision-bottleneck notebook."""
+"""Build, lint and genuinely execute the measured decision-bottleneck notebook."""
 
 import hashlib
 import json
 import os
 import subprocess
+import sys
 from datetime import UTC, datetime
 from pathlib import Path
 from textwrap import dedent
@@ -146,10 +147,20 @@ def main():
     ]
     notebook = nbformat.v4.new_notebook(cells=cells)
     notebook.metadata.kernelspec = {
-        "display_name": "Python 3",
-        "language": "python",
-        "name": "python3",
+        "display_name": "Python 3", "language": "python", "name": "python3",
     }
+    path = root / "notebooks/04_decision_bottlenecks.ipynb"
+    path.parent.mkdir(exist_ok=True)
+    nbformat.write(notebook, path)
+    subprocess.run(
+        [sys.executable, "-m", "ruff", "check", "--fix", str(path)],
+        cwd=root, check=True, timeout=30,
+    )
+    subprocess.run(
+        [sys.executable, "-m", "ruff", "format", str(path)],
+        cwd=root, check=True, timeout=30,
+    )
+    notebook = nbformat.read(path, as_version=4)
     NotebookClient(
         notebook, timeout=90, kernel_name="python3", resources={"metadata": {"path": str(root)}}
     ).execute()
@@ -163,21 +174,15 @@ def main():
     plots = sum("application/vnd.plotly.v1+json" in output.get("data", {}) for output in outputs)
     if pngs < 2 or plots < 2:
         raise ValueError("Both Plotly figures and static figure fallbacks are required")
-    path = root / "notebooks/04_decision_bottlenecks.ipynb"
-    path.parent.mkdir(exist_ok=True)
     nbformat.write(notebook, path)
     environment = "GitHub Actions" if os.environ.get("GITHUB_ACTIONS") else "Local verification"
     if Path.home() == Path("/home/sagemaker-user"):
         environment = "AWS SageMaker"
     receipt = {
-        "notebook": path.relative_to(root).as_posix(),
-        "all_cells_executed": True,
-        "code_cells": len(code_cells),
-        "errors": 0,
-        "executed_at_utc": datetime.now(UTC).isoformat(),
-        "environment": environment,
-        "static_png_outputs": pngs,
-        "plotly_outputs": plots,
+        "notebook": path.relative_to(root).as_posix(), "all_cells_executed": True,
+        "code_cells": len(code_cells), "errors": 0,
+        "executed_at_utc": datetime.now(UTC).isoformat(), "environment": environment,
+        "static_png_outputs": pngs, "plotly_outputs": plots,
         "repository_head": subprocess.check_output(
             ["git", "rev-parse", "HEAD"], cwd=root, text=True
         ).strip(),
