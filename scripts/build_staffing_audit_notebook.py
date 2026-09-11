@@ -22,7 +22,11 @@ def code(text: str):
     source = dedent(text).strip()
     formatted = subprocess.run(
         ["ruff", "format", "--stdin-filename", "cell.py", "-"],
-        input=source, capture_output=True, text=True, check=True, timeout=10,
+        input=source,
+        capture_output=True,
+        text=True,
+        check=True,
+        timeout=10,
     ).stdout
     return nbformat.v4.new_code_cell(formatted.strip())
 
@@ -203,13 +207,17 @@ def main() -> None:
             print("Limitation:", limitation)
         """),
     ]
-    notebook = nbformat.v4.new_notebook(cells=cells, metadata={
-        "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"}
-    })
+    notebook = nbformat.v4.new_notebook(
+        cells=cells,
+        metadata={
+            "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"}
+        },
+    )
     output = ROOT / "notebooks/03_staffing_research.ipynb"
     output.parent.mkdir(exist_ok=True)
-    NotebookClient(notebook, timeout=90, kernel_name="python3",
-                   resources={"metadata": {"path": str(ROOT)}}).execute()
+    NotebookClient(
+        notebook, timeout=90, kernel_name="python3", resources={"metadata": {"path": str(ROOT)}}
+    ).execute()
     nbformat.write(notebook, output)
     print(json.dumps(verify(ROOT, record=True)))
 

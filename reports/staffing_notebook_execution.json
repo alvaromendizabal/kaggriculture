@@ -1,0 +1,20 @@
+{
+  "accepted_games": 7,
+  "all_cells_executed": true,
+  "builder_sha256": "42c4eb54dff379c791d846289c5c27c13bd05d6a5af55c3705e6aab6543d2260",
+  "code_cells": 6,
+  "errors": 0,
+  "executed_at_utc": "2026-09-11T05:38:29.206518+00:00",
+  "execution_environment": "GitHub Actions",
+  "github_commit_sha": "12980907ef66b89181a4a610a5618e6745b22c45",
+  "github_run_id": "34566710755",
+  "input_sha256": {
+    "reports/staffing_audit_summary.json": "793d2cd63f0ea242cc3b5be6c31d0d064b9282d2c229b46c028656d3dbf9c99c",
+    "reports/staffing_feature_coverage.csv": "7739bf5dc32f1cec11eca7a3790abb3f0cd33c1c5e746636679f55bff8fbf0c2",
+    "reports/staffing_observed_games.csv": "4f12f03c7cf815868cd61806359f44719282d7ef0a702a51bb0804b9dedc08ab"
+  },
+  "notebook": "notebooks/03_staffing_research.ipynb",
+  "notebook_sha256": "d26c8f516fe66c431c0c5d2c22cc4e64a2b29f9ab4ec4e38b146344d17529aa4",
+  "published_eight_game_score": null,
+  "static_png_outputs": 3
+}

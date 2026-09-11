@@ -20,13 +20,16 @@ def test_actual_evidence_passes():
     assert report["feature_evidence"]["observations"] == 161
 
 
-@pytest.mark.parametrize("field,value", [
-    ("accepted_games", 8),
-    ("published_eight_game_score", 1.0),
-    ("validation_or_holdout_used", True),
-    ("new_games_run", 1),
-    ("registration_caveat", ""),
-])
+@pytest.mark.parametrize(
+    "field,value",
+    [
+        ("accepted_games", 8),
+        ("published_eight_game_score", 1.0),
+        ("validation_or_holdout_used", True),
+        ("new_games_run", 1),
+        ("registration_caveat", ""),
+    ],
+)
 def test_unjustified_publication_claims_fail(tmp_path, field, value):
     (tmp_path / "reports").mkdir()
     for name in VERIFIER.INPUTS:

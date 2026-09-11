@@ -127,12 +127,16 @@ def verify(root: Path, record: bool = False) -> dict:
     }
     receipt = root / RECEIPT
     if record:
-        result.update({
-            "executed_at_utc": datetime.now(UTC).isoformat(),
-            "execution_environment": "GitHub Actions" if os.getenv("GITHUB_ACTIONS") else "local",
-            "github_run_id": os.getenv("GITHUB_RUN_ID"),
-            "github_commit_sha": os.getenv("GITHUB_SHA"),
-        })
+        result.update(
+            {
+                "executed_at_utc": datetime.now(UTC).isoformat(),
+                "execution_environment": "GitHub Actions"
+                if os.getenv("GITHUB_ACTIONS")
+                else "local",
+                "github_run_id": os.getenv("GITHUB_RUN_ID"),
+                "github_commit_sha": os.getenv("GITHUB_SHA"),
+            }
+        )
         receipt.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     else:
         saved = json.loads(receipt.read_text())
