@@ -47,9 +47,7 @@ def test_protocol_is_fresh_bounded_development_only():
     )
     for name in ("market", "supply", "livestock", "terminal"):
         used.update(
-            json.loads((ROOT / f"configs/{name}_research.json").read_text())[
-                "development_seeds"
-            ]
+            json.loads((ROOT / f"configs/{name}_research.json").read_text())["development_seeds"]
         )
     assert protocol["development_seeds"] == [1601, 1602]
     assert not set(protocol["development_seeds"]) & used
@@ -88,9 +86,10 @@ def test_arms_are_identical_before_terminal_intervention(initial_obs):
     first = sequential(copy.deepcopy(initial_obs))
     second = coordinated(copy.deepcopy(initial_obs))
     assert first == second
-    assert sequential.last_diagnostics["market_orders"] == coordinated.last_diagnostics[
-        "market_orders"
-    ]
+    assert (
+        sequential.last_diagnostics["market_orders"]
+        == coordinated.last_diagnostics["market_orders"]
+    )
 
 
 def test_terminal_market_and_hiring_rule_is_shared(initial_obs):
@@ -101,9 +100,10 @@ def test_terminal_market_and_hiring_rule_is_shared(initial_obs):
     coordinated_action = coordinated(copy.deepcopy(obs))
     assert sequential_action["market"] == coordinated_action["market"]
     assert sequential.last_diagnostics["hire_orders"] == coordinated.last_diagnostics["hire_orders"]
-    assert sequential.last_diagnostics["active_workers"] == coordinated.last_diagnostics[
-        "active_workers"
-    ]
+    assert (
+        sequential.last_diagnostics["active_workers"]
+        == coordinated.last_diagnostics["active_workers"]
+    )
     assert len(coordinated_action["hands"]) == len(obs["farms"][obs["player"]]["hands"])
 
 
