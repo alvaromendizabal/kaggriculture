@@ -12,7 +12,7 @@ from itertools import combinations
 
 from kaggriculture_research.features import FeatureVector
 from kaggriculture_research.market_features import project_observation
-from kaggriculture_terminal.routing import ITEMS, Route, assign, menus
+from kaggriculture_terminal.routing import Route, assign, menus
 
 WORKER_SLOTS = 4
 WORKER_FIELDS = (
