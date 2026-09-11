@@ -1,0 +1,69 @@
+name: Publish staffing audit
+on:
+  push:
+    branches: [research/staffing-runtime-audit]
+permissions:
+  contents: write
+concurrency:
+  group: staffing-audit-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      PYTHONPATH: src
+      MPLBACKEND: Agg
+      BRANCH: research/staffing-runtime-audit
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install uv==0.12.8
+      - run: uv sync --frozen
+      - name: Format and test the bounded publication changes
+        run: |
+          uv run ruff format src/kaggriculture_runtime scripts/audit_staffing_runtime.py scripts/build_staffing_audit_notebook.py scripts/verify_staffing_audit.py tests/test_runtime_assignment.py tests/test_staffing_publication.py
+          uv run ruff check --fix src/kaggriculture_runtime scripts/audit_staffing_runtime.py scripts/build_staffing_audit_notebook.py scripts/verify_staffing_audit.py tests/test_runtime_assignment.py tests/test_staffing_publication.py
+          uv run pytest -q tests/test_runtime_assignment.py tests/test_staffing_publication.py
+      - name: Execute the evidence notebook
+        if: ${{ hashFiles('reports/staffing_audit_summary.json') != '' }}
+        run: |
+          uv run python scripts/build_staffing_audit_notebook.py
+          uv run python scripts/verify_staffing_audit.py
+          uv run ruff check notebooks/03_staffing_research.ipynb
+          uv run ruff format --check notebooks/03_staffing_research.ipynb
+      - name: Link the current research checkpoint
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('README.md')
+          text = path.read_text()
+          marker = '<!-- staffing-audit-current -->'
+          if marker not in text:
+              note = (marker + '\n**Latest checkpoint: Study 7 staffing runtime audit.** '
+                      'Seven of eight pilot games were accepted; the eighth exceeded the real AWS latency gate. '
+                      'The new [executed notebook](notebooks/03_staffing_research.ipynb) and '
+                      '[measured findings](docs/staffing_findings.md) preserve partial results, '
+                      '53-feature coverage, exact snapshot parity, and a 9.17–18.49x component-runtime improvement. '
+                      'No complete eight-game score or optimized-policy promotion is claimed. '
+                      'Feature research remains open.\n\n')
+              text = text.replace('**Current stage: terminal service and liquidation feature research.**',
+                                  note + '**Prior completed phase: terminal service and liquidation feature research.**', 1)
+              path.write_text(text)
+          PY
+      - name: Commit verified generated files without overwriting newer work
+        run: |
+          git fetch origin "$BRANCH"
+          test "$(git rev-parse "origin/$BRANCH")" = "$GITHUB_SHA"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/kaggriculture_runtime scripts/audit_staffing_runtime.py scripts/build_staffing_audit_notebook.py scripts/verify_staffing_audit.py tests/test_runtime_assignment.py tests/test_staffing_publication.py README.md
+          git add notebooks/03_staffing_research.ipynb reports/staffing_notebook_execution.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish verified executed staffing notebook and audit evidence"
+            git push origin "HEAD:refs/heads/$BRANCH"
+          fi

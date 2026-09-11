@@ -7,7 +7,10 @@ This project studies sequential decisions in a competitive farming economy: allo
 growing crops, managing livestock, expanding land, and selling into a shared nonlinear market.
 The central question is which observation-safe representations improve decisions and win rates.
 
-**Current stage: terminal service and liquidation feature research.** Six policy
+<!-- staffing-audit-current -->
+**Latest checkpoint: Study 7 staffing runtime audit.** Seven of eight pilot games were accepted; the eighth exceeded the real AWS latency gate. The new [executed notebook](notebooks/03_staffing_research.ipynb) and [measured findings](docs/staffing_findings.md) preserve partial results, 53-feature coverage, exact snapshot parity, and a 9.17–18.49x component-runtime improvement. No complete eight-game score or optimized-policy promotion is claimed. Feature research remains open.
+
+**Prior completed phase: terminal service and liquidation feature research.** Six policy
 studies contain 368 development games. Study 6 adds 79 descriptors and 48 registered
 comparisons. Its supported bank has 1,579 provisional features; the project union
 is 1,621, including 42 earlier cash bounds whose assumptions do not support own
