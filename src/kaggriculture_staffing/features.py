@@ -88,15 +88,12 @@ def staffing_features(observation: dict) -> FeatureVector:
         independent = sum(routes[0].utility for routes in ranked if routes)
         top_routes = [routes[0] for routes in ranked if routes]
         conflict_pairs = sum(
-            bool(left.resources & right.resources)
-            for left, right in combinations(top_routes, 2)
+            bool(left.resources & right.resources) for left, right in combinations(top_routes, 2)
         )
         for number in range(1, WORKER_SLOTS + 1):
             if number <= len(menu):
                 _, partial = assign(menu[:number], int(stats["room"]), obs)
-                marginal[f"joint_utility_first_{number}_workers"] = float(
-                    partial["joint_utility"]
-                )
+                marginal[f"joint_utility_first_{number}_workers"] = float(partial["joint_utility"])
 
     selected_work = [len(route.actions) for route in selected if route.actions]
     selected_units = [route_units(route) for route in selected if route.actions]
