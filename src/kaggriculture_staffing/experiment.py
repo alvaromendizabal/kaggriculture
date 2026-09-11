@@ -470,14 +470,9 @@ def summarize(root: Path, protocol: dict) -> dict:
         root / "reports/staffing_correlations.csv", index=False
     )
     groups = (
-        frame.groupby(["opponent", "arm"])
-        .mean(numeric_only=True)
-        .reset_index()
-        .to_dict("records")
+        frame.groupby(["opponent", "arm"]).mean(numeric_only=True).reset_index().to_dict("records")
     )
-    constant_features = registry.loc[
-        registry.distinct_development_values <= 1, "feature"
-    ].tolist()
+    constant_features = registry.loc[registry.distinct_development_values <= 1, "feature"].tolist()
     report = {
         "experiment": protocol["experiment"],
         "lineage": common,
