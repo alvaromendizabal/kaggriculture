@@ -10,9 +10,7 @@ from collections.abc import Callable
 from typing import Any
 
 
-def revenue_curve(
-    item: str, inventory: int, maximum: int, price_function: Callable
-) -> list[float]:
+def revenue_curve(item: str, inventory: int, maximum: int, price_function: Callable) -> list[float]:
     """Match independent sale_revenue(q) calls for q=0..maximum in O(maximum)."""
     if not isinstance(maximum, int) or maximum < 0:
         raise ValueError("maximum must be a nonnegative integer")
@@ -76,5 +74,6 @@ def assign(menu: list[list[Any]], room: int, obs: dict) -> tuple[list[Any], dict
     from kaggriculture_research.environment import game
     from kaggriculture_terminal.routing import ITEMS, WORK_VALUE
 
-    return exact_assignment(menu, room, obs["market"]["inventory"], ITEMS, WORK_VALUE,
-                            game.market_price)
+    return exact_assignment(
+        menu, room, obs["market"]["inventory"], ITEMS, WORK_VALUE, game.market_price
+    )

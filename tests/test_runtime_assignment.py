@@ -58,8 +58,12 @@ def test_assignment_matches_independent_exhaustive_reference(seed):
     menu = []
     for _ in range(4):
         routes = [
-            Route(frozenset({rng.randrange(5)}), (("MOVE",),) * rng.randrange(1, 4),
-                  (rng.randrange(4), rng.randrange(4))) for _ in range(3)
+            Route(
+                frozenset({rng.randrange(5)}),
+                (("MOVE",),) * rng.randrange(1, 4),
+                (rng.randrange(4), rng.randrange(4)),
+            )
+            for _ in range(3)
         ]
         routes.append(Route(frozenset(), (), (0, 0)))
         menu.append(routes)
@@ -79,6 +83,9 @@ def test_assignment_matches_independent_exhaustive_reference(seed):
             best, key = list(choices), candidate_key
     chosen, stats = exact_assignment(menu, room, prices, items, work_value, price)
     assert chosen == best
-    assert stats == {"assignment_leaves": leaves, "joint_utility": key[0],
-                     "joint_work": -key[1],
-                     "joint_units": sum(sum(r.quantities) for r in best)}
+    assert stats == {
+        "assignment_leaves": leaves,
+        "joint_utility": key[0],
+        "joint_work": -key[1],
+        "joint_units": sum(sum(r.quantities) for r in best),
+    }

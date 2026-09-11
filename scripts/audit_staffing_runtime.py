@@ -59,8 +59,13 @@ def profile(obs: dict, optimized: bool) -> dict:
         "total_calls": sum(value[1] for value in stats.values()),
         "market_price_calls": sum(v[1] for k, v in stats.items() if k[2] == "market_price"),
         "top_functions": [
-            {"file": Path(key[0]).name, "line": key[1], "function": key[2],
-             "calls": value[1], "cumulative_seconds": value[3]}
+            {
+                "file": Path(key[0]).name,
+                "line": key[1],
+                "function": key[2],
+                "calls": value[1],
+                "cumulative_seconds": value[3],
+            }
             for key, value in ranked[:8]
         ],
     }
@@ -77,8 +82,12 @@ def upload(s3, bucket: str, root: Path, path: Path) -> dict:
     remote = get["Body"].read()
     if remote != content or get.get("ServerSideEncryption") != "AES256":
         raise ValueError("Audit readback/encryption mismatch")
-    return {"sha256": hashlib.sha256(content).hexdigest(), "version_id": version,
-            "bytes": len(content), "readback_verified": True}
+    return {
+        "sha256": hashlib.sha256(content).hexdigest(),
+        "version_id": version,
+        "bytes": len(content),
+        "readback_verified": True,
+    }
 
 
 def audit(root: Path, evidence: Path) -> dict:
@@ -87,9 +96,11 @@ def audit(root: Path, evidence: Path) -> dict:
     if head != FROZEN:
         raise ValueError("Frozen evidence checkout moved; inspect before continuing")
     bucket = json.loads((evidence / "configs/aws.json").read_text())["bucket"]
-    s3 = boto3.client("s3", region_name="us-west-2", config=Config(
-        connect_timeout=5, read_timeout=15, retries={"max_attempts": 2}
-    ))
+    s3 = boto3.client(
+        "s3",
+        region_name="us-west-2",
+        config=Config(connect_timeout=5, read_timeout=15, retries={"max_attempts": 2}),
+    )
     failure_object = s3.get_object(Bucket=bucket, Key=PREFIX + "wrapper.log")
     failure_log = failure_object["Body"].read().decode()
     expected_error = "Registered policy latency budget exceeded"
@@ -106,8 +117,9 @@ def audit(root: Path, evidence: Path) -> dict:
             missing.append(job["key"])
             continue
         receipt = receipts["artifacts"][job["path"]]
-        remote = s3.get_object(Bucket=bucket, Key=PREFIX + job["path"],
-                               VersionId=receipt["version_id"])
+        remote = s3.get_object(
+            Bucket=bucket, Key=PREFIX + job["path"], VersionId=receipt["version_id"]
+        )
         content = remote["Body"].read()
         if hashlib.sha256(content).hexdigest() != receipt["sha256"]:
             raise ValueError("Private checkpoint bytes changed")
@@ -137,8 +149,14 @@ def audit(root: Path, evidence: Path) -> dict:
             if candidate.values != sample["values"] or candidate.families != sample["families"]:
                 raise ValueError("Runtime candidate changed a saved feature vector")
             feature_matches += 1
-            samples.append({"seed": summary["seed"], "seat": summary["seat"],
-                            "arm": summary["arm"], **sample["values"]})
+            samples.append(
+                {
+                    "seed": summary["seed"],
+                    "seat": summary["seat"],
+                    "arm": summary["arm"],
+                    **sample["values"],
+                }
+            )
             if summary["arm"] == "coordinated":
                 with patch.object(routing, "assign", candidate_assign):
                     action, diagnostics = routing.liquidation(copy.deepcopy(obs))
@@ -151,12 +169,16 @@ def audit(root: Path, evidence: Path) -> dict:
             slowest = max(
                 terminal, key=lambda row: payload["latency_ms"][row["observation"]["step"]]
             )
-            snapshots.append({
-                "identity": {name: summary[name] for name in ("seed", "seat", "arm")},
-                "observation": slowest["observation"]
-            })
-        print(f"{utc()} PARITY {index + 1}/7 vectors={feature_matches} actions={route_matches}",
-              flush=True)
+            snapshots.append(
+                {
+                    "identity": {name: summary[name] for name in ("seed", "seat", "arm")},
+                    "observation": slowest["observation"],
+                }
+            )
+        print(
+            f"{utc()} PARITY {index + 1}/7 vectors={feature_matches} actions={route_matches}",
+            flush=True,
+        )
 
     measurements = []
     for snapshot in snapshots:
@@ -169,70 +191,114 @@ def audit(root: Path, evidence: Path) -> dict:
                 tick = time.perf_counter()
                 combined(obs, optimized)
                 timing[name].append((time.perf_counter() - tick) * 1000)
-        measurements.append({**snapshot["identity"], "step": obs["step"], **timing,
-                             "reference_profile": profile(obs, False),
-                             "candidate_profile": profile(obs, True)})
+        measurements.append(
+            {
+                **snapshot["identity"],
+                "step": obs["step"],
+                **timing,
+                "reference_profile": profile(obs, False),
+                "candidate_profile": profile(obs, True),
+            }
+        )
     frame = pd.DataFrame(rows)
     frame.to_csv(root / "reports/staffing_observed_games.csv", index=False)
     matrix = pd.DataFrame(samples)
     family_map = payloads[0]["feature_samples"][0]["families"]
     registry = []
     for name, family in family_map.items():
-        registry.append({"feature": name, "family": family,
-                         "distinct_values": int(matrix[name].nunique()),
-                         "minimum": float(matrix[name].min()), "maximum": float(matrix[name].max()),
-                         "nonzero_fraction": float((matrix[name] != 0).mean()),
-                         "status": "provisional_not_predictively_selected"})
+        registry.append(
+            {
+                "feature": name,
+                "family": family,
+                "distinct_values": int(matrix[name].nunique()),
+                "minimum": float(matrix[name].min()),
+                "maximum": float(matrix[name].max()),
+                "nonzero_fraction": float((matrix[name] != 0).mean()),
+                "status": "provisional_not_predictively_selected",
+            }
+        )
     pd.DataFrame(registry).to_csv(root / "reports/staffing_feature_coverage.csv", index=False)
     pairs = []
     for (seed, seat), group in frame.groupby(["seed", "seat"]):
         if set(group.arm) != {"sequential", "coordinated"}:
             continue
         selected = [
-            p for p in payloads
-            if (p["summary"]["seed"], p["summary"]["seat"]) == (seed, seat)
+            p for p in payloads if (p["summary"]["seed"], p["summary"]["seat"]) == (seed, seat)
         ]
         if len({p["preterminal_sha256"] for p in selected}) != 1:
             raise ValueError("A completed pair diverged before intervention")
         indexed = group.set_index("arm")
-        pairs.append({"seed": int(seed), "seat": int(seat), "identical_preterminal": True,
-                      "coin_margin_difference": float(indexed.loc["coordinated", "coin_margin"]
-                                                      - indexed.loc["sequential", "coin_margin"]),
-                      "match_score_difference": float(indexed.loc["coordinated", "match_score"]
-                                                      - indexed.loc["sequential", "match_score"])})
+        pairs.append(
+            {
+                "seed": int(seed),
+                "seat": int(seat),
+                "identical_preterminal": True,
+                "coin_margin_difference": float(
+                    indexed.loc["coordinated", "coin_margin"]
+                    - indexed.loc["sequential", "coin_margin"]
+                ),
+                "match_score_difference": float(
+                    indexed.loc["coordinated", "match_score"]
+                    - indexed.loc["sequential", "match_score"]
+                ),
+            }
+        )
     report = {
-        "status": "HALTED_LATENCY_LIMIT", "audited_at_utc": utc(), "source_commit": FROZEN,
+        "status": "HALTED_LATENCY_LIMIT",
+        "audited_at_utc": utc(),
+        "source_commit": FROZEN,
         "registration_identity_sha256": registration["identity_sha256"],
-        "expected_games": 8, "accepted_games": 7, "new_games_run": 0,
-        "failed_attempt": {**missing[0], "reason": "Registered policy latency budget exceeded",
-                           "maximum_latency_ms": None, "outcome": None,
-                           "note": "Original maximum and rejected payload were not saved"},
-        "failure_log": {"version_id": failure_object["VersionId"],
-                        "sha256": hashlib.sha256(failure_log.encode()).hexdigest()},
-        "published_eight_game_score": None, "validation_or_holdout_used": False,
-        "artifacts": artifacts, "completed_pairs": pairs,
-        "feature_evidence": {"candidates": len(registry), "observations": len(matrix),
-                             "varying": sum(row["distinct_values"] > 1 for row in registry),
-                             "constant": sum(row["distinct_values"] == 1 for row in registry),
-                             "selected_for_final_model": 0},
-        "runtime_candidate": {"promoted": False, "feature_vectors_identical": feature_matches,
-                              "farm_actions_and_diagnostics_identical": route_matches,
-                              "measurements": measurements,
-                              "scope": "Feature extraction plus routing, not end-to-end policy latency"},
+        "expected_games": 8,
+        "accepted_games": 7,
+        "new_games_run": 0,
+        "failed_attempt": {
+            **missing[0],
+            "reason": "Registered policy latency budget exceeded",
+            "maximum_latency_ms": None,
+            "outcome": None,
+            "note": "Original maximum and rejected payload were not saved",
+        },
+        "failure_log": {
+            "version_id": failure_object["VersionId"],
+            "sha256": hashlib.sha256(failure_log.encode()).hexdigest(),
+        },
+        "published_eight_game_score": None,
+        "validation_or_holdout_used": False,
+        "artifacts": artifacts,
+        "completed_pairs": pairs,
+        "feature_evidence": {
+            "candidates": len(registry),
+            "observations": len(matrix),
+            "varying": sum(row["distinct_values"] > 1 for row in registry),
+            "constant": sum(row["distinct_values"] == 1 for row in registry),
+            "selected_for_final_model": 0,
+        },
+        "runtime_candidate": {
+            "promoted": False,
+            "feature_vectors_identical": feature_matches,
+            "farm_actions_and_diagnostics_identical": route_matches,
+            "measurements": measurements,
+            "scope": "Feature extraction plus routing, not end-to-end policy latency",
+        },
         "registration_caveat": (
             "CI exercised seed 1601 before AWS registration; it is not untouched evidence"
         ),
         "feature_completion_gate": "open_research",
-        "limitations": ["Latency-censored partial pilot; not an eight-game result",
-                        "One opponent and two seeds cannot establish population strength",
-                        "Snapshot parity is not a complete live deployment acceptance test",
-                        "Original maximum-latency value and eighth-game payload were not saved"],
+        "limitations": [
+            "Latency-censored partial pilot; not an eight-game result",
+            "One opponent and two seeds cannot establish population strength",
+            "Snapshot parity is not a complete live deployment acceptance test",
+            "Original maximum-latency value and eighth-game payload were not saved",
+        ],
         "elapsed_seconds": time.monotonic() - started,
     }
     report_path = root / "reports/staffing_runtime_audit.json"
     write_json(report_path, report)
-    outputs = [report_path, root / "reports/staffing_observed_games.csv",
-               root / "reports/staffing_feature_coverage.csv"]
+    outputs = [
+        report_path,
+        root / "reports/staffing_observed_games.csv",
+        root / "reports/staffing_feature_coverage.csv",
+    ]
     uploaded = {p.relative_to(root).as_posix(): upload(s3, bucket, root, p) for p in outputs}
     receipt_path = root / "reports/staffing_audit_uploads.json"
     write_json(receipt_path, {"bucket": bucket, "prefix": PREFIX, "artifacts": uploaded})
