@@ -27,6 +27,10 @@ class FakeStore:
         }
 
 
+def jobs_for(tmp_path: Path, *paths: Path) -> list[dict]:
+    return [{"path": path.relative_to(tmp_path).as_posix()} for path in paths]
+
+
 def test_existing_checkpoints_are_verified_before_advancing(tmp_path):
     first = tmp_path / "artifacts/staffing_episodes/first.json.gz"
     second = tmp_path / "artifacts/staffing_episodes/second.json.gz"
@@ -36,7 +40,7 @@ def test_existing_checkpoints_are_verified_before_advancing(tmp_path):
     progress = tmp_path / "reports/staffing_progress.json"
     progress.parent.mkdir(parents=True)
     progress.write_text("{}")
-    jobs = [{"path": first.relative_to(tmp_path).as_posix()}, {"path": second.relative_to(tmp_path).as_posix()}]
+    jobs = jobs_for(tmp_path, first, second)
     store = FakeStore(tmp_path)
 
     verified = ensure_existing_checkpoints_durable(tmp_path, jobs, store)
@@ -55,7 +59,7 @@ def test_failed_durable_upload_stops_before_later_checkpoint(tmp_path):
     first.parent.mkdir(parents=True)
     first.write_bytes(b"first")
     second.write_bytes(b"second")
-    jobs = [{"path": first.relative_to(tmp_path).as_posix()}, {"path": second.relative_to(tmp_path).as_posix()}]
+    jobs = jobs_for(tmp_path, first, second)
     store = FakeStore(tmp_path, fail_on="artifacts/staffing_episodes/first.json.gz")
 
     with pytest.raises(RuntimeError, match="simulated durable upload failure"):
