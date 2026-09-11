@@ -74,7 +74,7 @@ class StaffingPolicy:
         return {"arm": self.arm, "base": self.base.state_dict()}
 
     @classmethod
-    def from_state_dict(cls, state: dict) -> "StaffingPolicy":
+    def from_state_dict(cls, state: dict) -> StaffingPolicy:
         if set(state) != {"arm", "base"}:
             raise ValueError("Unexpected staffing state")
         policy = cls(state["arm"])
