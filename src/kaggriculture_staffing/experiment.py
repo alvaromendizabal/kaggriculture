@@ -28,7 +28,11 @@ from kaggriculture_research.artifacts import (
 )
 from kaggriculture_research.environment import engine_manifest, make_environment, validate_protocol
 from kaggriculture_research.features import PUBLIC_FIELDS
-from kaggriculture_staffing.features import FEATURE_COUNT, staffing_features
+from kaggriculture_staffing.features import (
+    FEATURE_COUNT,
+    canonical_observation,
+    staffing_features,
+)
 from kaggriculture_staffing.policy import ARMS, StaffingPolicy
 from kaggriculture_terminal.routing import ITEMS
 
@@ -90,7 +94,9 @@ def run_activation_preflight(seed: int) -> dict:
         def call(observation, configuration):
             if configuration.get("seed") is not None:
                 raise ValueError("Seed leaked into policy configuration")
-            obs = {key: copy.deepcopy(observation[key]) for key in PUBLIC_FIELDS}
+            obs = canonical_observation(
+                {key: copy.deepcopy(observation[key]) for key in PUBLIC_FIELDS}
+            )
             tick = time.perf_counter()
             action = candidate(obs) if candidate_side else actor(obs)
             if candidate_side:
@@ -134,7 +140,9 @@ def run_game(seed: int, seat: int, opponent: str, arm: str) -> dict:
         def call(observation, configuration):
             if configuration.get("seed") is not None:
                 raise ValueError("Seed leaked into policy configuration")
-            obs = {key: copy.deepcopy(observation[key]) for key in PUBLIC_FIELDS}
+            obs = canonical_observation(
+                {key: copy.deepcopy(observation[key]) for key in PUBLIC_FIELDS}
+            )
             before = copy.deepcopy(obs)
             tick = time.perf_counter()
             action = candidate(obs) if candidate_side else actor(obs)
@@ -172,7 +180,7 @@ def run_game(seed: int, seat: int, opponent: str, arm: str) -> dict:
     if statuses != ["DONE", "DONE"] or len(env.steps) != 720 or len(candidate_records) != 719:
         raise ValueError("Incomplete staffing pilot episode")
     if [row["observation"]["step"] for row in candidate_records] != list(range(719)):
-        raise ValueError("Candidate callback sequence differs from the pinned local engine")
+        raise ValueError("Candidate callback sequence differs from the canonical official clock")
     terminal = [row for row in candidate_records if row["observation"]["day"] == 29]
     if len(samples) != len(terminal):
         raise ValueError("Final-day staffing features were not sampled for every callback")
