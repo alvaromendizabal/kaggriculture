@@ -118,8 +118,7 @@ def verify_runtime(repo: Path, interpreter: Path) -> dict[str, Any]:
     import kaggle_environments
 
     engine = (
-        Path(kaggle_environments.__file__).resolve().parent
-        / "envs/kaggriculture/kaggriculture.py"
+        Path(kaggle_environments.__file__).resolve().parent / "envs/kaggriculture/kaggriculture.py"
     )
     engine_hash = sha256(engine)
     if engine_hash != EXPECTED_ENGINE_SHA256:
@@ -266,9 +265,7 @@ def main() -> int:
     interpreter = repo / ".venv/bin/python"
     report_path.parent.mkdir(parents=True, exist_ok=True)
     backup_root = (
-        home
-        / ".kaggriculture/kernel-backups"
-        / dt.datetime.now(dt.UTC).strftime("%Y%m%dT%H%M%SZ")
+        home / ".kaggriculture/kernel-backups" / dt.datetime.now(dt.UTC).strftime("%Y%m%dT%H%M%SZ")
     )
 
     head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=repo, text=True).strip()
