@@ -147,18 +147,24 @@ def main():
     ]
     notebook = nbformat.v4.new_notebook(cells=cells)
     notebook.metadata.kernelspec = {
-        "display_name": "Python 3", "language": "python", "name": "python3",
+        "display_name": "Python 3",
+        "language": "python",
+        "name": "python3",
     }
     path = root / "notebooks/04_decision_bottlenecks.ipynb"
     path.parent.mkdir(exist_ok=True)
     nbformat.write(notebook, path)
     subprocess.run(
         [sys.executable, "-m", "ruff", "check", "--fix", str(path)],
-        cwd=root, check=True, timeout=30,
+        cwd=root,
+        check=True,
+        timeout=30,
     )
     subprocess.run(
         [sys.executable, "-m", "ruff", "format", str(path)],
-        cwd=root, check=True, timeout=30,
+        cwd=root,
+        check=True,
+        timeout=30,
     )
     notebook = nbformat.read(path, as_version=4)
     NotebookClient(
@@ -179,10 +185,14 @@ def main():
     if Path.home() == Path("/home/sagemaker-user"):
         environment = "AWS SageMaker"
     receipt = {
-        "notebook": path.relative_to(root).as_posix(), "all_cells_executed": True,
-        "code_cells": len(code_cells), "errors": 0,
-        "executed_at_utc": datetime.now(UTC).isoformat(), "environment": environment,
-        "static_png_outputs": pngs, "plotly_outputs": plots,
+        "notebook": path.relative_to(root).as_posix(),
+        "all_cells_executed": True,
+        "code_cells": len(code_cells),
+        "errors": 0,
+        "executed_at_utc": datetime.now(UTC).isoformat(),
+        "environment": environment,
+        "static_png_outputs": pngs,
+        "plotly_outputs": plots,
         "repository_head": subprocess.check_output(
             ["git", "rev-parse", "HEAD"], cwd=root, text=True
         ).strip(),

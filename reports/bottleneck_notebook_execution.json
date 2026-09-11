@@ -1,0 +1,13 @@
+{
+  "notebook": "notebooks/04_decision_bottlenecks.ipynb",
+  "all_cells_executed": true,
+  "code_cells": 4,
+  "errors": 0,
+  "executed_at_utc": "2026-09-11T05:59:39.921834+00:00",
+  "environment": "GitHub Actions",
+  "static_png_outputs": 2,
+  "plotly_outputs": 2,
+  "repository_head": "a1ddea1f65218b87ffa8d05ed07079f77d70a817",
+  "report_sha256": "541e081563a9df259bdde6fe80f031c155d96f30864caece4f3eacb71dbf7582",
+  "notebook_sha256": "b79f1fcdb47ed61702c00f75eb239673166730a97fdc216bd65b99172e149ccc"
+}
