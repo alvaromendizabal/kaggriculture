@@ -2,10 +2,12 @@
 
 import copy
 import json
+import time as standard_time
 from pathlib import Path
 
 import pytest
 
+import kaggriculture_staffing.experiment as staffing_experiment
 from kaggriculture_research.artifacts import load_checkpoint, save_checkpoint
 from kaggriculture_staffing.experiment import (
     decision_prefix_hash,
@@ -17,6 +19,21 @@ from kaggriculture_staffing.experiment import (
 )
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+class DeterministicPolicyClock:
+    """Remove hosted-runner scheduling noise from non-performance causal tests."""
+
+    def __init__(self) -> None:
+        self.tick = 0.0
+
+    def perf_counter(self) -> float:
+        self.tick += 0.001
+        return self.tick
+
+    @staticmethod
+    def monotonic() -> float:
+        return standard_time.monotonic()
 
 
 def protocol() -> dict:
@@ -42,8 +59,16 @@ def test_real_activation_preflight_reaches_multiple_workers():
 
 @pytest.fixture(scope="module")
 def paired_games():
-    sequential = run_game(1601, 0, "livestock_fertilizer", "sequential")
-    coordinated = run_game(1601, 0, "livestock_fertilizer", "coordinated")
+    # Latency has its own real-policy acceptance test above. These two full games test
+    # causal identity, transition evidence and recovery; a synthetic local clock prevents
+    # unrelated GitHub-host scheduling pauses from invalidating those behavioral checks.
+    original_time = staffing_experiment.time
+    staffing_experiment.time = DeterministicPolicyClock()
+    try:
+        sequential = run_game(1601, 0, "livestock_fertilizer", "sequential")
+        coordinated = run_game(1601, 0, "livestock_fertilizer", "coordinated")
+    finally:
+        staffing_experiment.time = original_time
     return sequential, coordinated
 
 
