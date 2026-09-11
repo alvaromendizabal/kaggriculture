@@ -12,8 +12,7 @@ from __future__ import annotations
 import copy
 from collections import Counter
 
-from kaggriculture_research.market_features import project_observation
-from kaggriculture_staffing.features import staffing_features
+from kaggriculture_staffing.features import canonical_observation, staffing_features
 from kaggriculture_terminal.feed_policy import FeedPolicy
 from kaggriculture_terminal.routing import liquidation
 
@@ -31,7 +30,7 @@ class StaffingPolicy:
         self.last_diagnostics: dict = {}
 
     def __call__(self, observation: dict) -> dict:
-        obs = project_observation(observation)
+        obs = canonical_observation(observation)
         before = copy.deepcopy(obs)
         base_action = self.base(obs)
         if obs != before:
