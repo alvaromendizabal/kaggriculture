@@ -51,6 +51,28 @@ MARGINAL_FIELDS = tuple(f"joint_utility_first_{n}_workers" for n in range(1, WOR
 FEATURE_COUNT = len(GLOBAL_FIELDS) + WORKER_SLOTS * len(WORKER_FIELDS) + len(MARGINAL_FIELDS)
 
 
+def canonical_observation(observation: dict) -> dict:
+    """Project legal fields and normalize the upstream seat-1 clock defect.
+
+    In kaggle-environments 1.32.7, seat 1 may receive ``step=None`` while
+    ``day`` and ``hour`` are synchronized. For this forward-only study, day/hour
+    define the canonical 0..718 decision clock. Any conflicting non-null step
+    fails closed instead of silently changing chronology.
+    """
+    obs = project_observation(observation)
+    derived = int(obs["day"]) * 24 + int(obs["hour"])
+    step = obs.get("step")
+    if step is None:
+        obs["step"] = derived
+    elif int(step) != derived:
+        raise ValueError("Observation step disagrees with canonical day/hour clock")
+    else:
+        obs["step"] = int(step)
+    if not 0 <= obs["step"] <= 718:
+        raise ValueError("Canonical decision step is outside the official callback horizon")
+    return obs
+
+
 def route_units(route: Route) -> int:
     """Return product units represented by one route."""
     return int(sum(route.quantities))
@@ -66,7 +88,7 @@ def best_nonpass(routes: list[Route]) -> list[Route]:
 
 def staffing_features(observation: dict) -> FeatureVector:
     """Build a fixed-schema worker/assignment representation from the legal observation."""
-    obs = project_observation(observation)
+    obs = canonical_observation(observation)
     farm = obs["farms"][obs["player"]]
     active_units = 1 + len(farm["hands"])
     terminal = obs["day"] == 29
