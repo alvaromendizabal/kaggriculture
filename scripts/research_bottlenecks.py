@@ -15,11 +15,11 @@ import pandas as pd
 from botocore.config import Config
 
 from kaggriculture_research.artifacts import load_checkpoint, write_json
+from kaggriculture_research.environment import game
 from kaggriculture_runtime.bottlenecks import assignment_bottlenecks
 from kaggriculture_staffing.experiment import validate_episode
 from kaggriculture_staffing.features import canonical_observation
 from kaggriculture_terminal.routing import ITEMS, WORK_VALUE, menus
-from kaggriculture_research.environment import game
 
 
 def main():
@@ -65,7 +65,10 @@ def main():
                 raise ValueError("Counterfactual feasible set differs from frozen evidence")
             rows.append({**key, "step": obs["step"], **values})
         games.append(key)
-        print(f"{datetime.now(UTC).isoformat()} FEATURES {len(games)}/7 states={len(rows)}", flush=True)
+        print(
+            f"{datetime.now(UTC).isoformat()} FEATURES {len(games)}/7 states={len(rows)}",
+            flush=True,
+        )
     frame = pd.DataFrame(rows)
     columns = [c for c in frame if c.startswith("bottleneck.")]
     if len(rows) != 161 or len(columns) != 39:
@@ -108,7 +111,8 @@ def main():
             "Seven accepted episodes from a latency-censored eight-game development pilot",
             "Same retained route menu only; not global optimality or a valuation of unseen routes",
             "Capacity increases are hypothetical sensitivities, not purchasable game actions",
-            "No fitted model or policy ablation; coverage and algebraic parity are not win-rate gains",
+            ("No fitted model or policy ablation; coverage and algebraic parity "
+             "are not win-rate gains"),
             "Seed 1601 was exercised in CI before original AWS registration",
         ],
     }
@@ -124,7 +128,9 @@ def main():
     client = boto3.client("s3", region_name="us-west-2", config=Config(
         connect_timeout=5, read_timeout=15, retries={"max_attempts": 2}))
     receipts = {}
-    for path in [sample, root / "reports/bottleneck_registry.csv", root / "reports/bottleneck_research.json"]:
+    outputs = [sample, root / "reports/bottleneck_registry.csv",
+               root / "reports/bottleneck_research.json"]
+    for path in outputs:
         content = path.read_bytes()
         relative = path.relative_to(root).as_posix()
         response = client.put_object(Bucket=bucket, Key=prefix+relative, Body=content,
