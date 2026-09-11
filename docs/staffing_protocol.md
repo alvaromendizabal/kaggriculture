@@ -35,7 +35,7 @@ Both arms instantiate exactly `FeedPolicy("fertilizer")` and use its market orde
 
 Consequences such as different shed contents may produce different SELL quantities later, but the decision rule is shared. HIRE orders, worker expiry mechanics, and the policy implementation generating market orders are identical by construction.
 
-Before day 29, both arms must be action-identical. The experiment must reject a pair if preterminal semantic hashes differ.
+Before day 29, both arms must be action-identical. The causal-prefix audit hashes only `(player, legal observation, chosen action)` and deliberately excludes arm-specific diagnostics, so instrumentation labels cannot masquerade as behavioral divergence.
 
 ## New feature families
 
@@ -53,17 +53,19 @@ The route menu remains bounded: at most two collections plus deposit, with Study
 
 `configs/staffing_research.json` registers:
 
+- non-scored activation preflight seed: 1599;
 - development seeds: 1601, 1602;
 - seats: 0 and 1;
 - opponent: `livestock_fertilizer` for the first mechanism pilot;
 - arms: `sequential`, `coordinated`;
-- 8 games total;
+- 8 registered games total;
 - one new game per operational batch;
 - 45-second batch cap; 15-minute total simulation cap;
+- 4,000 seed-cluster bootstrap resamples with seed 5601 for descriptive summaries;
 - no validation or holdout access;
 - no automatic scale-up.
 
-Seeds 1601–1602 are disjoint from foundation development/validation/holdout and Studies 3–6 seed registries. The test suite checks this against the committed configs instead of relying on the narrative.
+Seed 1599 and development seeds 1601–1602 are disjoint from foundation development/validation/holdout and earlier study development registries. The test suite checks this against committed configs instead of relying on the narrative.
 
 The mirror-like fertilizer opponent is intentionally retained for this *mechanism* pilot because earlier terminal work converted ties against it into wins, making terminal routing discriminative. It does not satisfy the later opponent-diversity requirement; a separate opponent milestone must follow before broader performance claims.
 
@@ -74,16 +76,16 @@ The pilot is not allowed to start until all of the following pass:
 - code style and complete repository tests;
 - fixed 53-feature schema, finite values and mutation safety;
 - reward/seed/future-metadata invariance;
-- exact arm equality before day 29;
+- exact legal-observation/action equality before day 29;
 - shared day-29 market orders and HIRE rule;
 - policy serialization roundtrip;
 - registered seed separation and hard 8-game cap;
-- a real-policy smoke trajectory that activates at least two workers before treating multiworker benefit as measurable;
-- policy latency below 500 ms on the representative terminal smoke.
+- a real-policy non-scored trajectory that activates at least two workers before treating multiworker benefit as measurable;
+- policy latency below 500 ms on the representative smoke.
 
 ## Pilot outputs and evidence
 
-For every game, persist before beginning another game:
+For every registered game, persist before beginning another game:
 
 - exact source/config lineage;
 - full episode checkpoint;
@@ -94,7 +96,7 @@ For every game, persist before beginning another game:
 - match result, coins and coin margin;
 - policy latency;
 - semantic hash and transition audit;
-- upload receipt with byte hash/version/encryption when running in AWS.
+- versioned private-S3 upload receipt with exact byte hash, AES256 encryption and VersionId-specific readback verification.
 
 Primary metric is local win/tie/loss match score. Coins, margin, residual products and routing diagnostics explain mechanism; they do not replace the official outcome.
 
@@ -103,7 +105,7 @@ Primary metric is local win/tie/loss match score. Coins, margin, residual produc
 Stop immediately and retain the negative result if any of these occur:
 
 - staffing/hiring logic differs across arms for the same reachable state;
-- preterminal behavior differs;
+- preterminal legal-observation/action behavior differs;
 - no callback has at least two active workers where coordinated routing can act;
 - the coordinated route mechanism never activates;
 - illegal/no-op conflicts appear;
