@@ -23,7 +23,7 @@ import boto3
 import pandas as pd
 from botocore.config import Config
 
-from kaggriculture_research.artifacts import file_digest, load_checkpoint, write_json
+from kaggriculture_research.artifacts import load_checkpoint, write_json
 from kaggriculture_runtime.routing import assign as candidate_assign
 from kaggriculture_staffing import features
 from kaggriculture_staffing.experiment import job_plan, validate_episode
@@ -155,10 +155,8 @@ def audit(root: Path, evidence: Path) -> dict:
                 "identity": {name: summary[name] for name in ("seed", "seat", "arm")},
                 "observation": slowest["observation"]
             })
-        print(
-            f"{utc()} SNAPSHOT_PARITY {index + 1}/7 features={feature_matches} routes={route_matches}",
-            flush=True
-        )
+        print(f"{utc()} PARITY {index + 1}/7 vectors={feature_matches} actions={route_matches}",
+              flush=True)
 
     measurements = []
     for snapshot in snapshots:
