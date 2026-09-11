@@ -12,7 +12,12 @@ from pathlib import Path
 import boto3
 
 from kaggriculture_research.artifacts import digest, file_digest, write_json
-from kaggriculture_staffing.experiment import job_plan, run_activation_preflight, run_batch, summarize
+from kaggriculture_staffing.experiment import (
+    job_plan,
+    run_activation_preflight,
+    run_batch,
+    summarize,
+)
 
 PREFIX = "runs/staffing-controlled-routing-20260911/"
 REGION = "us-west-2"
@@ -34,7 +39,9 @@ def register(root: Path, protocol: dict) -> dict:
     }
     if path.exists():
         registration = json.loads(path.read_text())
-        if registration["identity"] != identity or registration["identity_sha256"] != digest(identity):
+        if registration["identity"] != identity or registration["identity_sha256"] != digest(
+            identity
+        ):
             raise ValueError("Preregistered staffing source/protocol changed")
         return registration
     if any((root / job["path"]).exists() for job in jobs):
@@ -154,7 +161,11 @@ def main() -> None:
         store.upload(root / "reports/staffing_registration.json")
 
     if args.mode == "register":
-        print(json.dumps({"identity_sha256": registration["identity_sha256"], "jobs": len(jobs)}))
+        print(
+            json.dumps(
+                {"identity_sha256": registration["identity_sha256"], "jobs": len(jobs)}
+            )
+        )
         return
 
     preflight = run_preflight(root, protocol, registration)
