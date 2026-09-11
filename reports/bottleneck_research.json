@@ -1,0 +1,119 @@
+{
+  "accepted_source_games": 7,
+  "audited_at_utc": "2026-09-11T05:51:47.405395+00:00",
+  "base_assignment_parity_states": 161,
+  "candidate_columns": 39,
+  "constant_columns": 11,
+  "elapsed_seconds": 6.18315596399998,
+  "feature_completion_gate": "open_research",
+  "final_selected_features": 0,
+  "group_means": [
+    {
+      "arm": "coordinated",
+      "bottleneck.capacity_minus5_utility_delta": 0.0,
+      "bottleneck.resource_loss_max": 239.65217391304347,
+      "bottleneck.runner_up_utility_gap": 8.173913043478262,
+      "bottleneck.worker0_removal_loss": 1105.0,
+      "bottleneck.worker1_removal_loss": 60.43478260869565,
+      "bottleneck.worker2_removal_loss": 5.6521739130434785,
+      "bottleneck.worker3_removal_loss": 0.0,
+      "seat": 0,
+      "seed": 1601
+    },
+    {
+      "arm": "sequential",
+      "bottleneck.capacity_minus5_utility_delta": 0.0,
+      "bottleneck.resource_loss_max": 291.5652173913044,
+      "bottleneck.runner_up_utility_gap": 50.34782608695652,
+      "bottleneck.worker0_removal_loss": 209.95652173913044,
+      "bottleneck.worker1_removal_loss": 42.21739130434783,
+      "bottleneck.worker2_removal_loss": 29.17391304347826,
+      "bottleneck.worker3_removal_loss": 139.1304347826087,
+      "seat": 0,
+      "seed": 1601
+    },
+    {
+      "arm": "coordinated",
+      "bottleneck.capacity_minus5_utility_delta": 0.0,
+      "bottleneck.resource_loss_max": 239.65217391304347,
+      "bottleneck.runner_up_utility_gap": 8.173913043478262,
+      "bottleneck.worker0_removal_loss": 1105.0,
+      "bottleneck.worker1_removal_loss": 60.43478260869565,
+      "bottleneck.worker2_removal_loss": 5.6521739130434785,
+      "bottleneck.worker3_removal_loss": 0.0,
+      "seat": 1,
+      "seed": 1601
+    },
+    {
+      "arm": "sequential",
+      "bottleneck.capacity_minus5_utility_delta": 0.0,
+      "bottleneck.resource_loss_max": 291.5652173913044,
+      "bottleneck.runner_up_utility_gap": 50.34782608695652,
+      "bottleneck.worker0_removal_loss": 209.95652173913044,
+      "bottleneck.worker1_removal_loss": 42.21739130434783,
+      "bottleneck.worker2_removal_loss": 29.17391304347826,
+      "bottleneck.worker3_removal_loss": 139.1304347826087,
+      "seat": 1,
+      "seed": 1601
+    },
+    {
+      "arm": "coordinated",
+      "bottleneck.capacity_minus5_utility_delta": 0.0,
+      "bottleneck.resource_loss_max": 469.2608695652174,
+      "bottleneck.runner_up_utility_gap": 21.130434782608695,
+      "bottleneck.worker0_removal_loss": 1509.608695652174,
+      "bottleneck.worker1_removal_loss": 43.82608695652174,
+      "bottleneck.worker2_removal_loss": 30.08695652173913,
+      "bottleneck.worker3_removal_loss": 2.6956521739130435,
+      "seat": 0,
+      "seed": 1602
+    },
+    {
+      "arm": "sequential",
+      "bottleneck.capacity_minus5_utility_delta": 0.0,
+      "bottleneck.resource_loss_max": 619.1304347826087,
+      "bottleneck.runner_up_utility_gap": 7.739130434782608,
+      "bottleneck.worker0_removal_loss": 315.82608695652175,
+      "bottleneck.worker1_removal_loss": 18.782608695652176,
+      "bottleneck.worker2_removal_loss": 92.47826086956522,
+      "bottleneck.worker3_removal_loss": 182.95652173913044,
+      "seat": 0,
+      "seed": 1602
+    },
+    {
+      "arm": "sequential",
+      "bottleneck.capacity_minus5_utility_delta": 0.0,
+      "bottleneck.resource_loss_max": 668.1304347826087,
+      "bottleneck.runner_up_utility_gap": 8.73913043478261,
+      "bottleneck.worker0_removal_loss": 320.4782608695652,
+      "bottleneck.worker1_removal_loss": 18.73913043478261,
+      "bottleneck.worker2_removal_loss": 126.82608695652173,
+      "bottleneck.worker3_removal_loss": 234.43478260869566,
+      "seat": 1,
+      "seed": 1602
+    }
+  ],
+  "high_spearman_pairs": 5,
+  "latency_including_menu_ms": {
+    "max": 69.6088529998633,
+    "median": 10.357761999784998,
+    "p95": 20.01468800017392
+  },
+  "limitations": [
+    "Seven accepted episodes from a latency-censored eight-game development pilot",
+    "Same retained route menu only; not global optimality or a valuation of unseen routes",
+    "Capacity increases are hypothetical sensitivities, not purchasable game actions",
+    "No fitted model or policy ablation; coverage and algebraic parity are not win-rate gains",
+    "Seed 1601 was exercised in CI before original AWS registration"
+  ],
+  "new_games": 0,
+  "observations": 161,
+  "official_metric_effect_measured": false,
+  "original_pilot_status": "HALTED_LATENCY_LIMIT",
+  "original_planned_games": 8,
+  "registration_identity_sha256": "1402ba3cb622dab519c2c6ad8d5e609a162a68e41340cf4b09dae8963506f749",
+  "source_commit": "88a6f9d583af1325e508d2e0bd5623967ac1eb64",
+  "status": "SAVED_OBSERVATION_FEATURE_AUDIT_PASSED",
+  "validation_or_holdout_used": false,
+  "varying_columns": 28
+}
