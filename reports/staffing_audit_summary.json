@@ -1,0 +1,161 @@
+{
+  "accepted_games": 7,
+  "audit_code_commit": "1e5f6e0bcb8e1bcb222875f1d68aa763fd9ead63",
+  "audit_tests": {
+    "environment": "SageMaker kaggriculture-dev",
+    "passed": 37,
+    "seconds": 0.08
+  },
+  "audited_at_utc": "2026-09-11T05:28:32.549850+00:00",
+  "completed_pairs": [
+    {
+      "coin_margin_difference": -1.0,
+      "identical_preterminal": true,
+      "match_score_difference": 0.0,
+      "seat": 0,
+      "seed": 1601
+    },
+    {
+      "coin_margin_difference": -1.0,
+      "identical_preterminal": true,
+      "match_score_difference": 0.0,
+      "seat": 1,
+      "seed": 1601
+    },
+    {
+      "coin_margin_difference": 887.0,
+      "identical_preterminal": true,
+      "match_score_difference": 0.0,
+      "seat": 0,
+      "seed": 1602
+    }
+  ],
+  "elapsed_seconds": 16.243784121999852,
+  "evidence_files": {
+    "reports/staffing_feature_coverage.csv": {
+      "bytes": 6551,
+      "readback_verified": true,
+      "sha256": "7739bf5dc32f1cec11eca7a3790abb3f0cd33c1c5e746636679f55bff8fbf0c2",
+      "version_id": "6Be_EXY0O112vGUmTLWkk7mS7nWVSN0M"
+    },
+    "reports/staffing_observed_games.csv": {
+      "bytes": 1375,
+      "readback_verified": true,
+      "sha256": "4f12f03c7cf815868cd61806359f44719282d7ef0a702a51bb0804b9dedc08ab",
+      "version_id": "sxFXhsTv0dqycGbkeMzQpc9nL1IdLQ.V"
+    }
+  },
+  "expected_games": 8,
+  "failed_attempt": {
+    "arm": "coordinated",
+    "maximum_latency_ms": null,
+    "note": "Original maximum and rejected payload were not saved",
+    "opponent": "livestock_fertilizer",
+    "outcome": null,
+    "reason": "Registered policy latency budget exceeded",
+    "seat": 1,
+    "seed": 1602
+  },
+  "failure_log": {
+    "sha256": "5671c0b1baacb147ee4f56f8947d5f4c065a5bf004e65dd219e48454f4947e59",
+    "version_id": "DnqiSPsLjJ8lYCZX.y4ql9F.lf27LbCA"
+  },
+  "feature_completion_gate": "open_research",
+  "feature_evidence": {
+    "candidates": 53,
+    "constant": 2,
+    "observations": 161,
+    "selected_for_final_model": 0,
+    "varying": 51
+  },
+  "limitations": [
+    "Latency-censored partial pilot; not an eight-game result",
+    "One opponent and two seeds cannot establish population strength",
+    "Snapshot parity is not a complete live deployment acceptance test",
+    "Original maximum-latency value and eighth-game payload were not saved"
+  ],
+  "new_games_run": 0,
+  "published_eight_game_score": null,
+  "registration_caveat": "CI exercised seed 1601 before AWS registration; it is not untouched evidence",
+  "registration_identity_sha256": "1402ba3cb622dab519c2c6ad8d5e609a162a68e41340cf4b09dae8963506f749",
+  "report_type": "Derived publication summary; full profiling report retained by exact S3 version and SHA256",
+  "runtime_candidate": {
+    "farm_actions_and_diagnostics_identical": 69,
+    "feature_vectors_identical": 161,
+    "measurements": [
+      {
+        "candidate_market_price_calls": 10266,
+        "candidate_median_ms": 31.415091000098982,
+        "candidate_ms": [
+          31.405981000034444,
+          31.424057000094763,
+          31.415091000098982
+        ],
+        "median_speedup": 11.779355787915813,
+        "reference_market_price_calls": 277566,
+        "reference_median_ms": 370.0495339999179,
+        "reference_ms": [
+          370.5143170000156,
+          369.4577629999003,
+          370.0495339999179
+        ],
+        "seat": 0,
+        "seed": 1601,
+        "step": 702
+      },
+      {
+        "candidate_market_price_calls": 7350,
+        "candidate_median_ms": 19.39331299990954,
+        "candidate_ms": [
+          19.39331299990954,
+          19.22138800000539,
+          19.45294499978445
+        ],
+        "median_speedup": 18.487823818540488,
+        "reference_market_price_calls": 274650,
+        "reference_median_ms": 358.5401540001385,
+        "reference_ms": [
+          359.8500129999138,
+          358.362882000165,
+          358.5401540001385
+        ],
+        "seat": 1,
+        "seed": 1601,
+        "step": 709
+      },
+      {
+        "candidate_market_price_calls": 13352,
+        "candidate_median_ms": 41.74633200000244,
+        "candidate_ms": [
+          41.74145799993312,
+          42.002458000069964,
+          41.74633200000244
+        ],
+        "median_speedup": 9.172542799689277,
+        "reference_market_price_calls": 280652,
+        "reference_median_ms": 382.9200170000604,
+        "reference_ms": [
+          382.3608289999356,
+          383.0230920000304,
+          382.9200170000604
+        ],
+        "seat": 0,
+        "seed": 1602,
+        "step": 699
+      }
+    ],
+    "promoted": false,
+    "scope": "Feature extraction plus routing, not end-to-end policy latency"
+  },
+  "source_artifact": {
+    "bucket": "sagemaker-kaggriculture-560403859723-us-west-2",
+    "bytes": 18441,
+    "key": "runs/staffing-controlled-routing-20260911/reports/staffing_runtime_audit.json",
+    "readback_verified": true,
+    "sha256": "a60c1c67694cf1034b3ec60efdfd4ae7722f9d4d64f7c16bf0041fb475b3f1cc",
+    "version_id": "4aA5DO.vasQfDBY7TF5HzJB4Fj.ELqjy"
+  },
+  "source_commit": "f5c63727b2996f6154b07e4e26c6bfbb899d8559",
+  "status": "HALTED_LATENCY_LIMIT",
+  "validation_or_holdout_used": false
+}
