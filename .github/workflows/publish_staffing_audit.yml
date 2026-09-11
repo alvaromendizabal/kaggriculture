@@ -1,0 +1,50 @@
+name: Publish staffing audit
+on:
+  push:
+    branches: [research/staffing-runtime-audit]
+permissions:
+  contents: write
+concurrency:
+  group: staffing-audit-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      PYTHONPATH: src
+      MPLBACKEND: Agg
+      BRANCH: research/staffing-runtime-audit
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install uv==0.12.8
+      - run: uv sync --frozen
+      - name: Format and test the new runtime candidate only
+        run: |
+          uv run ruff format src/kaggriculture_runtime scripts/audit_staffing_runtime.py tests/test_runtime_assignment.py
+          uv run ruff check --fix src/kaggriculture_runtime scripts/audit_staffing_runtime.py tests/test_runtime_assignment.py
+          uv run pytest -q tests/test_runtime_assignment.py
+      - name: Execute the evidence notebook when the AWS audit is published
+        if: ${{ hashFiles('reports/staffing_runtime_audit.json') != '' }}
+        run: |
+          uv run python scripts/build_staffing_audit_notebook.py
+          uv run python scripts/verify_staffing_audit.py
+      - name: Commit generated files without overwriting newer work
+        run: |
+          git fetch origin "$BRANCH"
+          test "$(git rev-parse "origin/$BRANCH")" = "$GITHUB_SHA"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/kaggriculture_runtime scripts/audit_staffing_runtime.py tests/test_runtime_assignment.py
+          if test -f notebooks/03_staffing_research.ipynb; then
+            git add notebooks/03_staffing_research.ipynb reports/staffing_notebook_execution.json
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish verified staffing audit artifacts"
+            git push origin "HEAD:refs/heads/$BRANCH"
+          fi
