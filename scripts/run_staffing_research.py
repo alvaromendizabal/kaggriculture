@@ -161,11 +161,7 @@ def main() -> None:
         store.upload(root / "reports/staffing_registration.json")
 
     if args.mode == "register":
-        print(
-            json.dumps(
-                {"identity_sha256": registration["identity_sha256"], "jobs": len(jobs)}
-            )
-        )
+        print(json.dumps({"identity_sha256": registration["identity_sha256"], "jobs": len(jobs)}))
         return
 
     preflight = run_preflight(root, protocol, registration)
