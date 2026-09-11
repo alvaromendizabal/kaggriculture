@@ -1,0 +1,32 @@
+{
+  "experiment": "staffing-controlled-terminal-routing-v1",
+  "configuration": {"episodeSteps": 720},
+  "preflight_seed": 1599,
+  "development_seeds": [1601, 1602],
+  "seats": [0, 1],
+  "opponents": ["livestock_fertilizer"],
+  "arms": ["sequential", "coordinated"],
+  "contrasts": [["coordinated", "sequential"]],
+  "primary_metric": "match_score",
+  "secondary_metrics": [
+    "coins",
+    "coin_margin",
+    "terminal_residual_product_units",
+    "terminal_active_worker_mean",
+    "terminal_routed_worker_mean",
+    "terminal_coordination_gap_mean"
+  ],
+  "feature_sample_stride": 1,
+  "max_games": 8,
+  "max_new_games_per_batch": 1,
+  "max_seconds_per_batch": 45,
+  "max_total_simulation_seconds": 900,
+  "heartbeat_seconds": 15,
+  "minimum_multiworker_callbacks": 1,
+  "maximum_policy_latency_ms": 500,
+  "bootstrap_resamples": 4000,
+  "bootstrap_seed": 5601,
+  "holdout_allowed": false,
+  "validation_allowed": false,
+  "scale_up_automatic": false
+}
