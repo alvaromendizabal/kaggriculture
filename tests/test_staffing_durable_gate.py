@@ -5,7 +5,7 @@ from pathlib import Path
 
 import pytest
 
-from scripts.run_staffing_research import ensure_existing_checkpoints_durable
+from kaggriculture_staffing.durability import ensure_existing_checkpoints_durable
 
 
 class FakeStore:
