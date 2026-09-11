@@ -1,0 +1,96 @@
+{
+  "actual_game_maximum_claimed": false,
+  "checkout_commit": "3293f8e60d4c7c5c0191b5dd12e46499d318c08e",
+  "complete_games_run": 0,
+  "controlled_fixture_seed": 0,
+  "engine": {
+    "files": {
+      "agent.py": "9b7682ce9921c8f34080a8be0f7b41598cc12ac7eb14d24e4b707883f25213b6",
+      "core.py": "0922c4599a1b6e0d8c3dadf06ae5297f98138d859d686f00daee6f36e6d45d0e",
+      "envs/kaggriculture/kaggriculture.json": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867",
+      "envs/kaggriculture/kaggriculture.py": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+      "schemas.json": "cc6ccbca1a8f747e90434778f12acfe4b29bbeea69aeb5af81f4017ab2ea9a1c",
+      "utils.py": "537b627b11784d424147ef57ebb0369b039bf83c9f891e81f10486b1f552334b"
+    },
+    "package": "kaggle-environments",
+    "version": "1.32.7"
+  },
+  "execution_environment": "GitHub Actions",
+  "existing_staffing_feature_worker_slots": 4,
+  "feature_completion_gate": "open_research",
+  "fixture_clock_adapter": "Copy raw state; derive step from public day/hour",
+  "fixture_transitions": 4,
+  "github_run_id": "34640511704",
+  "maximum_hired_hands_demonstrated": 12,
+  "official_metric_effect_measured": false,
+  "recorded_at_utc": "2026-09-11T19:45:26.042032+00:00",
+  "records": [
+    {
+      "current_extractor_views": [
+        {
+          "fixture_step": 2,
+          "raw_step": 2,
+          "raw_step_present": true,
+          "reason": "This fixed-schema study supports at most three hired hands",
+          "rejected": true,
+          "viewer": 0
+        },
+        {
+          "fixture_step": 2,
+          "raw_step": null,
+          "raw_step_present": false,
+          "reason": "This fixed-schema study supports at most three hired hands",
+          "rejected": true,
+          "viewer": 1
+        }
+      ],
+      "hire_orders_by_transition": [
+        4,
+        8
+      ],
+      "hired_hands_after_transitions": [
+        4,
+        12
+      ],
+      "hiring_player": 0,
+      "remaining_money": 2624.0,
+      "starting_money": 3000.0,
+      "total_hiring_cost": 376
+    },
+    {
+      "current_extractor_views": [
+        {
+          "fixture_step": 2,
+          "raw_step": 2,
+          "raw_step_present": true,
+          "reason": "This fixed-schema study supports at most three hired hands",
+          "rejected": true,
+          "viewer": 0
+        },
+        {
+          "fixture_step": 2,
+          "raw_step": null,
+          "raw_step_present": false,
+          "reason": "This fixed-schema study supports at most three hired hands",
+          "rejected": true,
+          "viewer": 1
+        }
+      ],
+      "hire_orders_by_transition": [
+        4,
+        8
+      ],
+      "hired_hands_after_transitions": [
+        4,
+        12
+      ],
+      "hiring_player": 1,
+      "remaining_money": 2624.0,
+      "starting_money": 3000.0,
+      "total_hiring_cost": 376
+    }
+  ],
+  "source_sha256": "2960281cfd638e38cd43ec4d46ddaa55886f55fd7239cfc9645a6c5a293b03d5",
+  "status": "WORKFORCE_SCOPE_GAP_CONFIRMED",
+  "training_or_holdout_used": false
+}
