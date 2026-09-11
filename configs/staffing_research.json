@@ -1,6 +1,7 @@
 {
   "experiment": "staffing-controlled-terminal-routing-v1",
   "configuration": {"episodeSteps": 720},
+  "preflight_seed": 1599,
   "development_seeds": [1601, 1602],
   "seats": [0, 1],
   "opponents": ["livestock_fertilizer"],
@@ -23,6 +24,8 @@
   "heartbeat_seconds": 15,
   "minimum_multiworker_callbacks": 1,
   "maximum_policy_latency_ms": 500,
+  "bootstrap_resamples": 4000,
+  "bootstrap_seed": 5601,
   "holdout_allowed": false,
   "validation_allowed": false,
   "scale_up_automatic": false
