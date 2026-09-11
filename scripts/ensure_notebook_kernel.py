@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import functools
 import hashlib
 import importlib.metadata as metadata
 import json
@@ -36,7 +37,7 @@ EXPECTED_PACKAGES = {
 
 def utc_now() -> str:
     """Return an explicit UTC timestamp for durable reports."""
-    return dt.datetime.now(dt.timezone.utc).isoformat()
+    return dt.datetime.now(dt.UTC).isoformat()
 
 
 def sha256(path: Path) -> str:
@@ -213,16 +214,16 @@ def verify_kernel(repo: Path, interpreter: Path) -> dict[str, Any]:
             client.start_channels()
             client.wait_for_ready(timeout=15)
 
-            def capture(message: dict[str, Any]) -> None:
+            def capture(sink: list[str], message: dict[str, Any]) -> None:
                 if message.get("msg_type") == "stream":
-                    outputs.append(message["content"].get("text", ""))
+                    sink.append(message["content"].get("text", ""))
                 elif message.get("msg_type") == "error":
-                    outputs.append(json.dumps(message.get("content", {})))
+                    sink.append(json.dumps(message.get("content", {})))
 
             reply = client.execute_interactive(
                 smoke_code(repo, interpreter),
                 timeout=25,
-                output_hook=capture,
+                output_hook=functools.partial(capture, outputs),
                 allow_stdin=False,
                 store_history=False,
             )
@@ -264,9 +265,11 @@ def main() -> int:
     report_path = args.report or home / ".kaggriculture/notebook-kernel-report.json"
     interpreter = repo / ".venv/bin/python"
     report_path.parent.mkdir(parents=True, exist_ok=True)
-    backup_root = home / ".kaggriculture/kernel-backups" / dt.datetime.now(
-        dt.timezone.utc
-    ).strftime("%Y%m%dT%H%M%SZ")
+    backup_root = (
+        home
+        / ".kaggriculture/kernel-backups"
+        / dt.datetime.now(dt.UTC).strftime("%Y%m%dT%H%M%SZ")
+    )
 
     head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=repo, text=True).strip()
     status = subprocess.check_output(
