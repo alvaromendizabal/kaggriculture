@@ -1,5 +1,6 @@
 """Registered pilot, recovery and causal-attribution tests for staffing research."""
 
+import copy
 import json
 from pathlib import Path
 
@@ -7,6 +8,7 @@ import pytest
 
 from kaggriculture_research.artifacts import load_checkpoint, save_checkpoint
 from kaggriculture_staffing.experiment import (
+    decision_prefix_hash,
     episode_hash,
     job_plan,
     run_activation_preflight,
@@ -50,6 +52,19 @@ def test_registered_pair_is_identical_before_terminal_intervention(paired_games)
     assert sequential["preterminal_sha256"] == coordinated["preterminal_sha256"]
     assert sequential["summary"]["terminal_multiworker_callbacks"] >= 1
     assert coordinated["summary"]["terminal_multiworker_callbacks"] >= 1
+
+
+def test_prefix_hash_ignores_diagnostics_but_not_behavior(paired_games):
+    sequential, _ = paired_games
+    records = [
+        row for row in sequential["records"] if row["player"] == sequential["summary"]["seat"]
+    ]
+    altered = copy.deepcopy(records)
+    altered[0]["diagnostics"] = {"arm": "instrumentation-only-change"}
+    assert decision_prefix_hash(altered) == decision_prefix_hash(records)
+    altered[0]["action"] = copy.deepcopy(altered[0]["action"])
+    altered[0]["action"]["farmer"] = ["PASS"]
+    assert decision_prefix_hash(altered) != decision_prefix_hash(records)
 
 
 def test_registered_pair_has_valid_feature_and_transition_evidence(paired_games):
