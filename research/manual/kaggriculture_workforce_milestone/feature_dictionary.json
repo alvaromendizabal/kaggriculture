@@ -1,0 +1,870 @@
+[
+  {
+    "feature": "time.remaining_decisions",
+    "family": "time",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "time.remaining_actions_today",
+    "family": "time",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.worker_count",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.hired_hands",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.worker_action_budget_today",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.distinct_worker_positions",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.colocated_worker_pairs",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.shed_distance_mean",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.shed_distance_max",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.workers_at_shed",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.public_cash",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.task_count",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.task_actions_per_available_worker_action",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.harvest.count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.harvest.urgent_count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.harvest.nearest_actions_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.harvest.nearest_actions_max",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.harvest.independent_unreachable_today",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.harvest.unique_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.harvest.multiple_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.harvest.best_worker_loss_distance_gap_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.water.count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.water.urgent_count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.water.nearest_actions_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.water.nearest_actions_max",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.water.independent_unreachable_today",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.water.unique_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.water.multiple_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.water.best_worker_loss_distance_gap_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.feed.count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.feed.urgent_count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.feed.nearest_actions_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.feed.nearest_actions_max",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.feed.independent_unreachable_today",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.feed.unique_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.feed.multiple_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.feed.best_worker_loss_distance_gap_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.care.count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.care.urgent_count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.care.nearest_actions_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.care.nearest_actions_max",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.care.independent_unreachable_today",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.care.unique_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.care.multiple_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.care.best_worker_loss_distance_gap_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.weed.count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.weed.urgent_count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.weed.nearest_actions_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.weed.nearest_actions_max",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.weed.independent_unreachable_today",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.weed.unique_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.weed.multiple_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.weed.best_worker_loss_distance_gap_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.harvest.visible_units",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.harvest.manual_cash_reachable_units_bound",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own.harvest.manual_cash_unreachable_units_bound",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.worker_count",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.hired_hands",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.worker_action_budget_today",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.distinct_worker_positions",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.colocated_worker_pairs",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.shed_distance_mean",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.shed_distance_max",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.workers_at_shed",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.public_cash",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.task_count",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.task_actions_per_available_worker_action",
+    "family": "workforce_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.harvest.count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.harvest.urgent_count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.harvest.nearest_actions_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.harvest.nearest_actions_max",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.harvest.independent_unreachable_today",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.harvest.unique_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.harvest.multiple_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.harvest.best_worker_loss_distance_gap_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.water.count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.water.urgent_count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.water.nearest_actions_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.water.nearest_actions_max",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.water.independent_unreachable_today",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.water.unique_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.water.multiple_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.water.best_worker_loss_distance_gap_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.feed.count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.feed.urgent_count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.feed.nearest_actions_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.feed.nearest_actions_max",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.feed.independent_unreachable_today",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.feed.unique_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.feed.multiple_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.feed.best_worker_loss_distance_gap_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.care.count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.care.urgent_count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.care.nearest_actions_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.care.nearest_actions_max",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.care.independent_unreachable_today",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.care.unique_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.care.multiple_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.care.best_worker_loss_distance_gap_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.weed.count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.weed.urgent_count",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.weed.nearest_actions_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.weed.nearest_actions_max",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.weed.independent_unreachable_today",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.weed.unique_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.weed.multiple_worker_access",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.weed.best_worker_loss_distance_gap_mean",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.harvest.visible_units",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.harvest.manual_cash_reachable_units_bound",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "opponent.harvest.manual_cash_unreachable_units_bound",
+    "family": "task_access",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "relative.worker_count",
+    "family": "relative_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "relative.worker_action_budget_today",
+    "family": "relative_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "relative.task_count",
+    "family": "relative_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "relative.harvest.visible_units",
+    "family": "relative_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "relative.harvest.manual_cash_reachable_units_bound",
+    "family": "relative_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "relative.shed_distance_mean",
+    "family": "relative_public",
+    "availability": "Current public observation",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own_inventory.shed_used",
+    "family": "own_inventory",
+    "availability": "Current own private inventory only",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own_inventory.shed_room",
+    "family": "own_inventory",
+    "availability": "Current own private inventory only",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own_inventory.carried_units",
+    "family": "own_inventory",
+    "availability": "Current own private inventory only",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own_inventory.loaded_workers",
+    "family": "own_inventory",
+    "availability": "Current own private inventory only",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own_inventory.max_worker_load",
+    "family": "own_inventory",
+    "availability": "Current own private inventory only",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own_inventory.deposit_overflow_if_all_arrive",
+    "family": "own_inventory",
+    "availability": "Current own private inventory only",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own_inventory.wheat_in_shed",
+    "family": "own_inventory",
+    "availability": "Current own private inventory only",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  },
+  {
+    "feature": "own_inventory.wheat_carried",
+    "family": "own_inventory",
+    "availability": "Current own private inventory only",
+    "selection_status": "CANDIDATE_NOT_ABLATED",
+    "definition_source": "FEATURE_CONTRACT.md and workforce_features.py"
+  }
+]

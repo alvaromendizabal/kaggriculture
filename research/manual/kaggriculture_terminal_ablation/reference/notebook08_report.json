@@ -1,0 +1,77 @@
+{
+  "all_control_actions_match_recorded": true,
+  "aws_resources_modified": false,
+  "callback_limit_ms": 500.0,
+  "callback_ms": {
+    "aligned": {
+      "max": 20.88227499916684,
+      "median": 3.810373993474059,
+      "p95": 16.575162997469306
+    },
+    "control": {
+      "max": 94.43052399728913,
+      "median": 3.616194997448474,
+      "p95": 17.198914007167332
+    }
+  },
+  "candidate_descriptors": 158,
+  "code_sha256": "81849c3d65f5c91ab0fadba048b51eab19944f7a666ef3db53c51c870a51c673",
+  "complete_game_gain_measured": false,
+  "complete_terminal_callback_gate": "PASSED_ON_REPLAYED_STATES",
+  "decision": "ACTIVATED_REQUIRES_PAIRED_CONTINUATION",
+  "elapsed_seconds": 10.690278836991638,
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "execution_mode": "AWS_SAVED_OBSERVATIONS",
+  "feature_completion_gate": "OPEN",
+  "feature_value_proven": false,
+  "fingerprint": "75cb6184c115d137ae54c638037d591893bcc9592c103e5c407b89c288763cee",
+  "frozen_sources_modified": false,
+  "github_updated": false,
+  "interpreter_calls": 332,
+  "limitations": [
+    "Frozen seven-game development slice; eighth game was latency-censored; two seed blocks, one opponent.",
+    "Each intervention is a separate one-step branch. Do not sum turn deltas into a season gain.",
+    "Recorded rival action fixed for each counterfactual; no evidence about adaptive opponent response.",
+    "Frozen callback still admits at most three hired hands on either farm. Broader-workforce extractor coverage does not certify this callback.",
+    "One-step evaluator sees both saved private states, but policies/features receive only their own legal observation.",
+    "Source already contains deadline, water-then-harvest, fertilizer collection and two-collection routes; these are not claimed as newly invented here."
+  ],
+  "market_action_changes": 11,
+  "models_fit": 0,
+  "negative_one_step_states": 0,
+  "new_complete_games": 0,
+  "official_metric_effect_measured": false,
+  "official_submission_score": null,
+  "one_step_cash_delta_max": 1440.0,
+  "one_step_cash_delta_min": 0.0,
+  "output_sha256": {
+    "callback_checks.csv": "669939ef80d28f239d2dbedfc40f2208ab111c19ceb8c8b3da0d40ff31a24421",
+    "effects_by_episode.csv": "0e1e27208aa0d9572ce378a00a51719578e7a8dd08d2bc230e2f51df2b775331",
+    "feature_registry.csv": "c963d01dc72849858fd737a29b7a0feadffbae8898d42597109f96ac43fc7dbd",
+    "one_step_effects.csv": "a9412f8e72ad3b95fef7b27da8bfd66247366af0fad84f0621c2ae7802814ff9",
+    "product_features.csv": "93650703d742947276a8dcf3a11f62b309bfb634173a68acb47b0f95b1cf0e5a",
+    "state_features.csv": "7625c03a4c2adf651884bc472c9233cc12f9f28b558a951bb064f3a2c55565ff"
+  },
+  "positive_one_step_states": 6,
+  "pre_terminal_action_parity_states": 21,
+  "recorded_interpreter_transition_parity_checks": 161,
+  "same_farm_actions_all_states": true,
+  "same_non_sell_orders_all_states": true,
+  "saved_observations": 161,
+  "schema": "post-action-cash-v1",
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "source_episodes": 7,
+  "source_seed_blocks": 2,
+  "status": "POST_ACTION_CASH_AUDIT_PASSED",
+  "synthetic_engine_fixtures": 5,
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 78
+  },
+  "timing_scope": "Entire new terminal __call__, including common base, routing, post-action simulation, features and diagnostics. Excludes harness I/O/evaluator; not hosted Kaggle timing. Cache hits retain original timings.",
+  "utc": "2026-09-11T23:15:03.578238+00:00",
+  "validation_or_holdout_used": false,
+  "varying_descriptors": 91
+}

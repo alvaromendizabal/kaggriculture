@@ -1,0 +1,14 @@
+{
+  "status": "PASSED",
+  "utc": "2026-09-14T01:11:39.057190+00:00",
+  "existing_test_receipt": {
+    "errors": 0,
+    "failures": 0,
+    "seconds": 0.049910286004887894,
+    "skipped": 0,
+    "tests": 64
+  },
+  "new_test_scope": "relative feature contracts; see log",
+  "new_test_source_sha256": "22c7ccf1245130138a00292879434cc819f6a5ec706c33c65d66211dfdcc72d4",
+  "relative_source_sha256": "8c8f698abfa6f9a3d3bc9ecae66b5f2b0daaa93560d9d36ca4798a270d9f33e3"
+}

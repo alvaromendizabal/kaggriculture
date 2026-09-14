@@ -1,0 +1,11 @@
+{
+  "outputs/pilot/report.json": "71c665fc48d871ff963af69f050e017568dcfe8e124e59bed1fc99e4bc2d9a01",
+  "outputs/pilot/status.json": "e280bd9d833657a291a581fc5fdc4605531c0f58c2960afab596f0508e377e6f",
+  "outputs/pilot/paired_results.csv": "5e43c75523cc404061450c9a31c1ad6112c9e294ea01fdf0cd5a9d1b96c8fa88",
+  "outputs/pilot/trajectories.csv": "a136d0e9fa295ce2d1d447cff51c90c083a7000cb59cbb18449040b5b46f99c9",
+  "outputs/callback_trace.jsonl": "9d951f9bb7ec9632d8e9df838cb820024db91f21fbb4a16c0bd87024836e68bd",
+  "outputs/screen/report.json": "fe3578a4bd6fbcaf260f2dd03cc274559ad2d56e00d23293ad6d68e9f0b5acfa",
+  "outputs/screen/status.json": "348581910a6261a0a90cdadea2d6e7b66bf185b55767ae87ec104cb9e835edcd",
+  "outputs/pilot/checkpoints/c3c1b698f20aad8101da-control.json.gz": "a6d2ef2e920b78d87d2e95e36f837b694b79ada172c6ef02ad8ec0c8ed8ec1ea",
+  "outputs/pilot/checkpoints/c3c1b698f20aad8101da-defer.json.gz": "f4a73fd228682a328397cb976cbda4d56e4f014d6f63ee86c418f42f051a11f3"
+}

@@ -1,0 +1,82 @@
+{
+  "created_at_utc": "2026-09-11T22:29:18.815716+00:00",
+  "package": "kaggriculture_action_features",
+  "files": {
+    ".gitignore": {
+      "bytes": 89,
+      "sha256": "af706bcf5c55fa0aa7d34d12b2923dc2b32a8c7744703c435754202a5bd542e3"
+    },
+    "07_action_opportunity_features.ipynb": {
+      "bytes": 13152,
+      "sha256": "56d2dfa7bdd3670a0eb194e86eca49dd1f17b73f0477645e6b27ed2eece12901"
+    },
+    "FEATURE_RESEARCH.md": {
+      "bytes": 11004,
+      "sha256": "3dbc541eeddac6fc1cea5d2732ea0964fc45b335db8d548e1f019595ca3fd4f6"
+    },
+    "LOCAL_VALIDATION.json": {
+      "bytes": 2263,
+      "sha256": "4655c0d5ea5c91fffe4b646a1d371e3e77af6ddf942208ecf31b594bdd0b611c"
+    },
+    "PROGRESS_REVIEW.md": {
+      "bytes": 2639,
+      "sha256": "f3de8bafead100c2844fb02e7d7c8b64b09327d8c8f06eafacf40f5ed176d650"
+    },
+    "START_HERE.md": {
+      "bytes": 6698,
+      "sha256": "dcbc81b6cfdce1c863a3a87a41beab1a71358767efaaed9b675b864adfb5a62c"
+    },
+    "feature_dictionary.json": {
+      "bytes": 12140,
+      "sha256": "9cbde1fb14c83b439b40ac8b2e7a7969268e0f9b7cef551a78b9bda53cf11e7a"
+    },
+    "opportunity_features.py": {
+      "bytes": 15315,
+      "sha256": "c0c732793db79d907e3b8b9e5e0a32585af79b42f621ffaf495580ebf001e810"
+    },
+    "reference/local_tests.txt": {
+      "bytes": 6356,
+      "sha256": "a3a9f55972505359a3126452d701308df7795abc8fc6d6ea7dd02c8a34c0bfbe"
+    },
+    "reference/notebook_smoke.json": {
+      "bytes": 465,
+      "sha256": "7bdddc22ba4dcc2f75ff5593c4fb2738591140e3eda059387144d7f926f477db"
+    },
+    "reference/previous_code_manifest.json": {
+      "bytes": 464,
+      "sha256": "b540f8a4e8d8c17c458ea42b9c0556226adeb1594e5c7c04884114d0feebdc64"
+    },
+    "reference/upload_review.json": {
+      "bytes": 653,
+      "sha256": "411af4dedfd86f4214509cfb445407fc461ce139229673fd136ee05f2032039d"
+    },
+    "run_next.py": {
+      "bytes": 26873,
+      "sha256": "d508913c661d5062b71da1c92acd334ea4bd2265b31dcaee5044d82f05e828ac"
+    },
+    "tests/fixtures.py": {
+      "bytes": 1495,
+      "sha256": "0635b8f963e484f36d3a93ec9ffb57926b65e6328e6cc5d370aee958891471c1"
+    },
+    "tests/test_opportunity.py": {
+      "bytes": 9537,
+      "sha256": "c70901e906bd05c770177924946afafd2776b4fabb190f9a590b213e29a79f6b"
+    },
+    "tests/test_runner.py": {
+      "bytes": 6723,
+      "sha256": "3dce14295314ae68d72a90b62e1a46a52a65532cb51f6ec96b76f7993c021cee"
+    },
+    "tests/test_visuals.py": {
+      "bytes": 3190,
+      "sha256": "d581eb8d678d0ca25097aea3dc9b078b6e211c66b5b8a09976c31d5060e8d2c8"
+    },
+    "visualize.py": {
+      "bytes": 6030,
+      "sha256": "6acc039b46f4118d1e74d1874c97b1aaf3c9e3a5adb6c8eaf9848c2cda164b74"
+    },
+    "workforce_features.py": {
+      "bytes": 12986,
+      "sha256": "6eaf08e6c17dd8bf408faa8ae200cb746c0dd95c6d1f4372518a9a790a4b4aab"
+    }
+  }
+}

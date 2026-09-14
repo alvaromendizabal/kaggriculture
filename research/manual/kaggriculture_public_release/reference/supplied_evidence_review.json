@@ -1,0 +1,11 @@
+{
+  "source": "kaggriculture_service_value_results.zip",
+  "manifest_listed_files": 39,
+  "matching_file_hashes": 39,
+  "latest_user_statement": "The previous publication/outcome package has not been run.",
+  "pending_rounds": [
+    "21",
+    "22"
+  ],
+  "new_tests_executed": false
+}

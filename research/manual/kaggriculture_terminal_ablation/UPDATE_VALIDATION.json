@@ -1,0 +1,53 @@
+{
+  "status": "LOCAL_VALIDATION_PASSED",
+  "update_id": "nb09-price-aware-mechanics-1",
+  "python_version": "3.13.5",
+  "project_unit_tests_passed": 86,
+  "original_project_unit_tests": 61,
+  "new_regression_tests": 25,
+  "updater_safety_tests_passed": 16,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "pricing_regression": {
+    "source": "Official WHEAT price formula",
+    "inventory": 1000000,
+    "unit_quotes": [
+      13,
+      13
+    ],
+    "sale_revenue": 26,
+    "early_sale_terminal_delta": 0,
+    "late_sale_terminal_delta": 26,
+    "verification_mode": "source-formula reproduction plus explicit narrow transition test doubles"
+  },
+  "synthetic_notebook_validation": {
+    "executed_code_cells": 14,
+    "errors": 0,
+    "plotly_outputs": 8,
+    "scope": "MODIFIED_SYNTHETIC_REPORTING_COPY_ONLY",
+    "live_aws_experiment_executed": false
+  },
+  "shipped_notebook_code_cells": 14,
+  "shipped_notebook_executed": false,
+  "shipped_notebook_schema_and_code_compile_valid": true,
+  "unchanged_file_hashes": {
+    "continuation.py": "c9172c5edc94858c973f71c29f57605cccaccc46c004c1d6af9b9d4d2744411c",
+    "terminal_context.py": "ada4d6ddca7dc5eb1c8f0bc364d10ba6ebb84fe97f7503701f9d4dae698226c3",
+    "PROTOCOL.json": "44b55a6424c74a73487579f2ac24f2c3c8de31198ae4ea5f681913ddcd199ab0",
+    "feature_dictionary.csv": "383f31af3b947c423d7cdbf758b57037027efb7fd9e7cbe57f0c91887c65c504"
+  },
+  "policy_and_experiment_unchanged": true,
+  "engine_installed_here": false,
+  "official_interpreter_experiment_executed_here": false,
+  "private_source_episodes_available_here": false,
+  "aws_resources_modified": false,
+  "github_updated": false,
+  "official_metric_effect_measured": false,
+  "limitations": [
+    "Local formula and transition tests are not execution of the complete installed Kaggle engine.",
+    "The modified notebook validation deliberately bypasses the AWS preflight/worker and uses synthetic actor trajectories.",
+    "The delivered notebook requires source/hash preflight, real pinned-interpreter fixtures, source-control reproduction, and paired endpoint measurements on AWS.",
+    "The uploaded failed notebook contains no new paired research result."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "bucket": "sagemaker-kaggriculture-560403859723-us-west-2",
+  "prefix": "runs/staffing-controlled-routing-20260911/",
+  "source_receipt_key": "runs/staffing-controlled-routing-20260911/reports/staffing_uploads.json",
+  "source_receipt_version_id": "696oTn.bSbfUnUjiK7sQl9LHuMb_254x",
+  "artifacts": {
+    "artifacts/staffing_episodes/313129dc50accd10f2d78e998597e7461edc84b7bdabaf8703856399050544ac.json.gz": {
+      "bytes": 198339,
+      "sha256": "7d03af0e407c5951dc108dfb25a9d0d50c13702bf750242384536a00dbe0b08f",
+      "version_id": "55UP1dOcfQscn7w1QMThfKJa6_zoadDa",
+      "readback_verified": true
+    },
+    "artifacts/staffing_episodes/50cb3fbad7f60c88e3bfdd8fc123c722ba8f8bfd4726b77259b099848391e532.json.gz": {
+      "bytes": 198926,
+      "sha256": "459a63121433ee9272cc4f82ecf530c5019edb5fa996a40363723c3a3915f25b",
+      "version_id": "bNfXBIDs.XLI6in2MMnPluLcJU49zLkD",
+      "readback_verified": true
+    },
+    "artifacts/staffing_episodes/5174b9f0d5c8a442247a38a48918f0af90f413ff298ddefe214b118470115c66.json.gz": {
+      "bytes": 198452,
+      "sha256": "e8aa9435f0b4986be79f06d2ccd6cfd4d9dcf3b2b5ac83a7b72187b7ef6cd3d1",
+      "version_id": "hPtrv0F_hHHg39gOZN4RBcUkhWne6Lp4",
+      "readback_verified": true
+    },
+    "artifacts/staffing_episodes/63a5e37d072122ab457eb7787bb924ac1313482359e7c0e172bdfc21839cd346.json.gz": {
+      "bytes": 205890,
+      "sha256": "d6b7276472d969c94c6659817cf1c57e76e7aa75eb0b3567580f145958621a9d",
+      "version_id": "OGMF9NYJN_iBdnvCxZhKxWdiNatFizu_",
+      "readback_verified": true
+    },
+    "artifacts/staffing_episodes/a1371f207a4a439d2841a2e9808b811cf4757e8773c1541bcb4dd233563e36b6.json.gz": {
+      "bytes": 206697,
+      "sha256": "e0723e4c99e7fdb514138fa78d76a3e4c018a34427a458b2b5ee8ed5367e6384",
+      "version_id": "LTPVw2JXMUyHpLr.FfjI.EGtJHfDCnvl",
+      "readback_verified": true
+    },
+    "artifacts/staffing_episodes/a1f16a098483fc66ce42b2c40c08e99394da8f7c821bb1c758633d2b0f820d79.json.gz": {
+      "bytes": 205504,
+      "sha256": "4c3bb11368eee44d761f10ddde32024a9754ffaa15af1088ee7d8142f8338969",
+      "version_id": "9vZbANP0XdRB36__jIEej6aK8SuLm1Vk",
+      "readback_verified": true
+    },
+    "artifacts/staffing_episodes/e40e801fee063cca28e024f5adf1b4c39727141f4f71d9430781838c99dd3938.json.gz": {
+      "bytes": 198968,
+      "sha256": "564097a21e59457fe27a2d319d1f720adcd290b610cd6e7c2484a56faff4b862",
+      "version_id": "ZRdqRpzDcuSUeEG6Rbf38Sb0nOGI_MUk",
+      "readback_verified": true
+    },
+    "reports/staffing_preflight.json": {
+      "bytes": 492,
+      "sha256": "f23cbf8c13e93e1d0b43b79651c6e35e6355c61f0a948008ae74d567506ee9a8",
+      "version_id": "2PKmFS_LMwq5suDHEiXHjFk4uPRhi.xr",
+      "readback_verified": true
+    },
+    "reports/staffing_progress.json": {
+      "bytes": 6940,
+      "sha256": "5df34d6d68c011d70e513e15abae068e785e391c3c875599fbf12224ecb003f6",
+      "version_id": "21qHXOWEr8J51lAwzpOANiFIE.D8IQDJ",
+      "readback_verified": true
+    },
+    "reports/staffing_registration.json": {
+      "bytes": 6049,
+      "sha256": "b5323e2b7212780729dd50d5ea90c74df823319b1bef8b38a45b42169315caa5",
+      "version_id": "M9F6mUH6fT52ntivaMO6oEDAd_OWBPsF",
+      "readback_verified": true
+    }
+  }
+}

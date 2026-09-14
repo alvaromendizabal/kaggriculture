@@ -1,0 +1,54 @@
+{
+  "local_python": "3.13.5",
+  "local_tests": {
+    "tests": 68,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "tests_cover": [
+    "exact independent menu-filter reproduction on artificial fixtures",
+    "incumbent and direct-deposit preservation",
+    "static feasibility across 48 generated cases with one to four workers",
+    "fixed menu bound and hard enumeration bound",
+    "first-command versus static-score distinction",
+    "both-seat continuous-state propagation with a reactive artificial opponent",
+    "wrong endpoint and failed negative-control rejection",
+    "500 ms gate saves measurement before rejection",
+    "checkpoint readback/corruption/lineage refusal",
+    "no unchanged failed-stage restart",
+    "bundle excludes symlinks and non-allowlisted files",
+    "empty/unactivated plot handling"
+  ],
+  "synthetic_notebook": {
+    "kind": "modified synthetic notebook execution",
+    "code_cells_executed": 14,
+    "notebook_errors": 0,
+    "plotly_outputs": 8,
+    "private_episode_payloads_used": false,
+    "official_engine_used": false,
+    "live_runner_called": false
+  },
+  "browser_plot_rendering": {
+    "charts": 8,
+    "rendered_in_chromium": true,
+    "webgl_required": false,
+    "scope": "synthetic new results; actual notebook10 prior-result plot"
+  },
+  "prior_dependency_check": "Passed against reconstructed mounted notebook10 code/results and notebook08/09 dependency files; no prior experiment rerun",
+  "live_notebook_shipped_unexecuted": true,
+  "official_engine_exercised_locally": false,
+  "private_episode_payloads_available_locally": false,
+  "live_aws_screen_executed": false,
+  "live_aws_pilot_executed": false,
+  "new_competition_score": null,
+  "github_changed": false,
+  "aws_resources_changed": false,
+  "limits": [
+    "Unit routing and reactive transition fixtures use explicit test doubles, not the pinned SDK.",
+    "The live screen must compare every original retained menu and reference action with the actual reviewed repository.",
+    "Live interpreter endpoint/source checks and callback timing are mandatory and have not been run in this environment.",
+    "A preserved static incumbent is not a guarantee of actual outcome improvement.",
+    "One primary pair cannot establish generalization; broader workforce remains unsupported by this callback."
+  ]
+}

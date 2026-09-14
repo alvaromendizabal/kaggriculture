@@ -1,0 +1,8 @@
+seed,seat,opponent,source_arm,episode_id,observations,positive_one_step_states,negative_one_step_states,mean_one_step_cash_delta,max_one_step_cash_delta,min_one_step_cash_delta
+1601,0,livestock_fertilizer,coordinated,c3c1b698f20aad8101da,23,2,0,34.78260869565217,714.0,0.0
+1601,0,livestock_fertilizer,sequential,35cba1b6eb288052fa45,23,0,0,0.0,0.0,0.0
+1601,1,livestock_fertilizer,coordinated,2839ed2a525766625395,23,2,0,34.78260869565217,714.0,0.0
+1601,1,livestock_fertilizer,sequential,8eb5c6031990c805ca5f,23,0,0,0.0,0.0,0.0
+1602,0,livestock_fertilizer,coordinated,8fd4963bad01e11bb7c6,23,2,0,64.43478260869566,1440.0,0.0
+1602,0,livestock_fertilizer,sequential,a17b824709482725f962,23,0,0,0.0,0.0,0.0
+1602,1,livestock_fertilizer,sequential,6c5b293d1d6c0e2ac853,23,0,0,0.0,0.0,0.0

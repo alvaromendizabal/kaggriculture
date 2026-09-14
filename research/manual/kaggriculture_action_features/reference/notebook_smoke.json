@@ -1,0 +1,15 @@
+{
+  "status": "SYNTHETIC_VISUALIZATION_SMOKE_PASSED",
+  "code_cells_executed": 10,
+  "plotly_outputs": 6,
+  "error_outputs": 0,
+  "elapsed_seconds": 3.30529814800002,
+  "modified_cells": [
+    "setup: points output directory to synthetic fixtures",
+    "live06: not executed",
+    "live07: reads synthetic fixture outputs instead of AWS run"
+  ],
+  "original_live_notebook_executed": false,
+  "actual_private_episodes_used": false,
+  "official_engine_used": false
+}

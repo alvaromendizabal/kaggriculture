@@ -1,0 +1,66 @@
+{
+  "status": "PREPARED_STATICALLY_REVIEWED_NOT_EXECUTED",
+  "new_project_tests_executed_by_assistant": 0,
+  "new_notebooks_executed_by_assistant": 0,
+  "new_engine_fixtures_executed_by_assistant": 0,
+  "new_experiments_executed_by_assistant": 0,
+  "account_operations_by_assistant": 0,
+  "python_files_ast_parsed": [
+    "baseline/callback.py",
+    "baseline/cash_features.py",
+    "baseline/timing_features.py",
+    "collection_features.py",
+    "experiment.py",
+    "export_source.py",
+    "feature_common.py",
+    "io_utils.py",
+    "maintenance_features.py",
+    "mechanics.py",
+    "notebook_utils.py",
+    "policies.py",
+    "run_service.py",
+    "tests/__init__.py",
+    "tests/fixtures.py",
+    "tests/test_common.py",
+    "tests/test_round19.py",
+    "tests/test_round20.py",
+    "visualize.py"
+  ],
+  "supplied_test_method_counts": {
+    "test_common.py": 32,
+    "test_round19.py": 32,
+    "test_round20.py": 32
+  },
+  "supplied_unique_test_methods": 96,
+  "test_methods_per_user_screen": 64,
+  "notebooks": [
+    {
+      "file": "19_collection_completion_feature_ablation.ipynb",
+      "code_cells": 10,
+      "executed_cells": 0,
+      "output_records": 0,
+      "syntax": "AST_PARSED_ONLY"
+    },
+    {
+      "file": "20_maintenance_slack_feature_ablation.ipynb",
+      "code_cells": 10,
+      "executed_cells": 0,
+      "output_records": 0,
+      "syntax": "AST_PARSED_ONLY"
+    }
+  ],
+  "meaning": "Syntax parsing and source inspection only. No assertion that unit tests, plotting, runtime imports or live experiments pass.",
+  "input_result_inspection": "52 prior bundle file hashes matched; both old screens had zero action changes and zero pairs.",
+  "requirements_before_outcome_experiment": [
+    "User-run unit tests",
+    "Pinned-engine fixtures",
+    "Archived control/null parity",
+    "Two reviewed screen reports",
+    "One explicitly selected paired block"
+  ],
+  "limitations": [
+    "The real private episode payloads are not part of the returned 17/18 bundle.",
+    "No rendering smoke test or synthetic notebook was executed.",
+    "No current remote main, instance status, bill, or Kaggle score verified."
+  ]
+}

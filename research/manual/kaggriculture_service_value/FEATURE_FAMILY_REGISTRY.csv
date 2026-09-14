@@ -1,0 +1,5 @@
+family,round,status,action_changes,official_metric_effect,next
+arrival decay,17,screened_nonactivation,0,not_measured,Do not repeat unchanged in same sample
+crop production headroom,18,screened_nonactivation,0,not_measured,No new games represented by prior bundle
+collection cash completion time,19,prepared_unexecuted,,not_measured,"Run user tests/mechanics/screen, then review"
+critical maintenance completion slack,20,prepared_unexecuted,,not_measured,"Run independent user screen, then review"

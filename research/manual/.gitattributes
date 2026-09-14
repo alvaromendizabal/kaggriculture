@@ -1,0 +1,2 @@
+# Preserve recorded source/report bytes; do not normalize snapshot line endings.
+* -text

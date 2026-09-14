@@ -1,0 +1,47 @@
+[
+  {
+    "round": 1,
+    "family": "Workforce coverage and variable-size labor representation",
+    "why_now": "Confirmed legal-state rejection above three hired hands affects both observer seats.",
+    "candidates": "Counts; remaining worker-hours; tenure/expiry bins; travel-to-task quantiles; worker availability; skill/task compatibility only where engine exposes it; permutation-invariant summaries plus per-worker identity for actions.",
+    "leakage_rule": "Use the current public observation only. Never silently truncate workers. No hidden opponent inventory. Preserve old extractors as frozen study evidence.",
+    "experiment": "Forward-only adapter; both seats; 0/1/3/4/12 and larger synthetic counts; public-clock checks; input immutability; deterministic schema; full-callback timing with rejected payload saved.",
+    "retain_gate": "Legal observation coverage passes and bounded callback completes. This is a correctness gate, not a demonstrated win gain."
+  },
+  {
+    "round": 2,
+    "family": "Task opportunity cost and constrained worker allocation",
+    "why_now": "Saved bottleneck states show labor/resource opportunity variation; storage perturbations did not activate there.",
+    "candidates": "Best and second-best attainable value; value lost by taking the current first action; worker-removal loss; task overlap; contested access; travel/service/setup burden; time to deposit and bank.",
+    "leakage_rule": "Only legal route menus and current observed resources; no future realized prices. Label retained-menu optimum separately from global optimum.",
+    "experiment": "Equal workers, hiring, fertilizer, feeding and market rules. Change only registered farm-task choice. Check nonzero first-action divergence before any pilot.",
+    "retain_gate": "Paired official-outcome improvements across fresh seed/opponent groups with no runtime or legality regression; otherwise stop."
+  },
+  {
+    "round": 3,
+    "family": "Finite-horizon production-to-cash scheduling",
+    "why_now": "Banked cash is terminal value; existing liquidation package confounds staffing and routing.",
+    "candidates": "Critical-path slack to harvest, collect, carry, deposit and sell; realizable remaining yields; labor-adjusted maturation value; unrecoverable work-in-progress; final profitable service cutoff.",
+    "leakage_rule": "Mechanics from the pinned engine; hypothetical planning values kept distinct from observed variables; no terminal rewards or future event realizations in features.",
+    "experiment": "Deadline boundary fixtures first, then one-family addition/removal under exactly equal staffing and market access.",
+    "retain_gate": "Stable grouped match-score effect, coin margin and unsold inventory diagnostics; avoid trading immediate cash for unrealizable terminal production."
+  },
+  {
+    "round": 4,
+    "family": "Joint sale value, liquidity and investment alternatives",
+    "why_now": "Previously tested cash bounds were invalid under own wheat purchases, and some capital rules never activated.",
+    "candidates": "Nonlinear incremental liquidation value; liquidity runway; cash reserved for maintenance; marginal hiring/land/herd/crop payoff before horizon; labor-adjusted alternative return; activated capital-stress states.",
+    "leakage_rule": "Use exact legal purchase/sale curves and information known at action time. Flag loose bounds and invalid assumptions rather than filling them with certainty.",
+    "experiment": "Mechanics tests, activated stress fixtures, one investment family at a time; tune thresholds only on development groups.",
+    "retain_gate": "Action changes in relevant regimes plus stable controlled gains; nonactivation is a redesign signal, not negative importance."
+  },
+  {
+    "round": 5,
+    "family": "Opponent-aware public history and interaction regimes",
+    "why_now": "Prior local opponents are few and related; local success cannot establish competitive strength.",
+    "candidates": "Public production schedule pressure; interval-valued supply exposure; shared-demand competition; revealed hiring/crop/livestock behavior; uncertainty width; market timing opportunity with same-turn risk.",
+    "leakage_rule": "Player-view construction must exclude evaluator-only inventory and future opponent actions; online histories reset each game. Opponent traits learned on training groups only.",
+    "experiment": "Meaningfully different source-identified opponents, both seats; fresh development groups; verify opponent changes task/market distribution; frozen untouched final evaluation group.",
+    "retain_gate": "Family addition/removal survives grouped uncertainty and opponent shifts; retain uncertainty when weak evidence remains."
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "status": "PREPARED_STATICALLY_REVIEWED_NOT_EXECUTED",
+  "python_files_syntax_checked": 10,
+  "notebook_files_source_syntax_checked": 3,
+  "supplied_test_methods": 56,
+  "new_publication_tests": 24,
+  "new_diagnostic_tests_per_round": 16,
+  "existing_tests_invoked_per_round": 64,
+  "static_syntax_issues": [],
+  "project_tests_run": false,
+  "research_notebooks_run": false,
+  "overview_rendered": false,
+  "cloud_or_repository_accounts_accessed": false,
+  "remote_main_verified": false,
+  "scope": "File analysis, source generation, syntax inspection, and delivery-byte checks only."
+}

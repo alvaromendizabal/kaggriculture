@@ -1,0 +1,29 @@
+{
+  "files": {
+    ".gitignore": "a054ec3e56c75407c5e8ae194e5d16deb9200df594811cbde758137b486d9f8b",
+    "FEATURE_RESEARCH.md": "edb1fc45f0dfafbaf2d4e41d2954a9260888a7bd974cb546758dde6354943311",
+    "LOCAL_VALIDATION.json": "10e7b55a7532104c4585844368dcf0ea5cf0fcec40c21c3b9c9c59ff4fd155b9",
+    "PROTOCOL.json": "0689c9a98090b81db54a3d761286e4274ec0e01100ee186825c728900f983cf7",
+    "RESULTS_REVIEW.md": "a276ea38f89c59658a5daa2c2404a989a9f68841dc93033c0a3a191618205b69",
+    "START_HERE.md": "de844546a532db41087ffff786d1f0b55a542e995073453c677b8b4f7e6f1c2c",
+    "evidence.py": "35c2d6616b9eec2c64692d7d4357bf2db925a535df6ac070e799c509bb5a4ad4",
+    "feature_dictionary.csv": "6c831ba284f55f37d43a6ce269876a673221da925c7f623e6125e05072ca03a1",
+    "reference/dependency_hashes.json": "d3bd3671789378a1d527fd5b644e7ab64eb63026f45be033dba165fd988ee0a6",
+    "reference/diagnosis.json": "f334aaa8e37309fc2eca63176f82e889202b507121c2f4ddb89c9b6ad3ce4bd3",
+    "reference/input_review.json": "a03bd23811575b005284a404b1605f17413a4832e915701d48eb6119f6f8e987",
+    "reference/local_test_log.txt": "0da484cd650f4d8f16fd0082bbfd36d38b58c7dfd18f47c9d56fd4b55b17feec",
+    "reference/nb09_aligned.json.gz": "819b03a7cddc27fa26914072d326e2d4a993afe9aaae5df06dd5c1ee94a4874a",
+    "reference/nb09_control.json.gz": "8eb0214d6b84698012240494e11d3548c3f1080a9e11ff54398d7ae96aa8ea6d",
+    "reference/notebook09_diagnosis_dashboard.html": "22a6257675eeda3cc6801f243b2ebc466ba0518b3e9cb5da43efc95035c98852",
+    "reference/notebook09_paired_results.csv": "ee67b18cb08281c7dad76401abfe7d0607e9e346be5cf6e3f7046efc9600d0ec",
+    "reference/notebook09_report.json": "ad00f32aad2420411cfca59b24aed9d1c2497fa988377047cd2aa5c8743aba66",
+    "reference/notebook09_trajectory.csv": "5c86a4744501acf4c41dd5b975f902c09bd12fd8bed83d06a0aa1332219533f7",
+    "run_timing.py": "fb71bcffac2b7285656273167dae3ef7d74719f05fd1b224251fbe36d13e5023",
+    "tests/test_evaluator.py": "7cc676d1192ab4493ef7e910e8b4179490e3051f70378ad61087b71abe525e63",
+    "tests/test_runner.py": "54da86328c70de203a29e964d6d228f75561af7cd9d96ecf766ad7ed99b7fc93",
+    "tests/test_timing.py": "5840fc629cac53212679f44a994d5fd9dd2c03ebe19190ea4682239a2b28657a",
+    "timing_features.py": "28796d5f929c8e2a090e4532d6f564ce46d35c891c65832459c5474c700fcb28",
+    "visualize_timing.py": "14817ac8b4e9da5216337355f0810575b6c7245fc5c150f0302d562160b38fc7"
+  },
+  "note": "Editable notebook excluded: execution output/autosave changes its bytes. All shipped executable Python files are verified."
+}

@@ -1,0 +1,48 @@
+{
+  "candidate_callback_max_ms": 120.54620400886051,
+  "changed_first_command_states": 42,
+  "cloud_resources_modified": false,
+  "code_sha256": "237120a8e7798ffc85e940ce7fa08b316503f178756a472e4f6f5b0eec90b980",
+  "decision": "ELIGIBLE_FOR_ONE_PAIRED_PILOT",
+  "elapsed_seconds": 8.96138123399578,
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "feature_engineering_complete": false,
+  "fingerprint": "2e025d999f6960b784d944a541b237892c3897569c786a61bd8a92ae9ff722e2",
+  "github_updated": false,
+  "limitations": [
+    "Same two previously examined development seeds; no validation or holdout used.",
+    "Static utility is current-price, no-opponent, at-most-two-collections scenario, not realized cash.",
+    "Reference-menu opportunity losses are independent-worker pressure approximations.",
+    "Eight non-PASS routes per worker; <=3 hands per farm inherited callback restriction.",
+    "Selected first activated source by lexicographic identity; this is training-slice screening, not independent validation."
+  ],
+  "models_fit": 0,
+  "new_complete_games": 0,
+  "numeric_descriptors_per_route": 16,
+  "observations": 69,
+  "official_metric_effect_measured": false,
+  "official_submission_score": null,
+  "output_sha256": {
+    "screen/feature_registry.csv": "21071ce109bd650195b99bd11316f4b8115854ec974af089f4fa428ac56faf0e",
+    "screen/route_candidates.csv.gz": "5af720fb7e8afb7b1d92254b3f6bbf62ea4705a56665927ec0e2cde90bdb9684",
+    "screen/states.csv": "994b9db249552e2856bbc9545cc06fbb0a70430bb79a51e7eeb930c06d4551bb"
+  },
+  "route_rows": 19581,
+  "selected_key": {
+    "arm": "coordinated",
+    "opponent": "livestock_fertilizer",
+    "seat": 0,
+    "seed": 1601
+  },
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "source_episodes": 3,
+  "static_objective_improved_states": 42,
+  "status": "ROUTE_OPPORTUNITY_SCREEN_COMPLETE",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 68
+  },
+  "utc": "2026-09-12T00:46:15.762813+00:00"
+}

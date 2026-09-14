@@ -1,0 +1,51 @@
+test_atomic_json (test_runner.RunnerTests.test_atomic_json) ... ok
+test_atomic_rejects_nan (test_runner.RunnerTests.test_atomic_rejects_nan) ... ok
+test_cache_corruption (test_runner.RunnerTests.test_cache_corruption) ... ok
+test_cache_roundtrip (test_runner.RunnerTests.test_cache_roundtrip) ... ok
+test_cache_wrong_source (test_runner.RunnerTests.test_cache_wrong_source) ... ok
+test_missing_cache (test_runner.RunnerTests.test_missing_cache) ... ok
+test_output_checksum_validation (test_runner.RunnerTests.test_output_checksum_validation) ... ok
+test_output_source_validation (test_runner.RunnerTests.test_output_source_validation) ... ok
+test_path_absolute_escape (test_runner.RunnerTests.test_path_absolute_escape) ... ok
+test_path_escape (test_runner.RunnerTests.test_path_escape) ... ok
+test_bad_coordinate (test_workforce.WorkforceTests.test_bad_coordinate) ... ok
+test_baseline (test_workforce.WorkforceTests.test_baseline) ... ok
+test_board_size (test_workforce.WorkforceTests.test_board_size) ... ok
+test_boolean_clock_invalid (test_workforce.WorkforceTests.test_boolean_clock_invalid) ... ok
+test_both_seats (test_workforce.WorkforceTests.test_both_seats) ... ok
+test_conflicting_clock (test_workforce.WorkforceTests.test_conflicting_clock) ... ok
+test_final_decision (test_workforce.WorkforceTests.test_final_decision) ... ok
+test_finite_vector (test_workforce.WorkforceTests.test_finite_vector) ... ok
+test_fixed_state_schema (test_workforce.WorkforceTests.test_fixed_state_schema) ... ok
+test_fractional_coordinate (test_workforce.WorkforceTests.test_fractional_coordinate) ... ok
+test_future_plant (test_workforce.WorkforceTests.test_future_plant) ... ok
+test_hand_permutation_invariance (test_workforce.WorkforceTests.test_hand_permutation_invariance) ... ok
+test_inventory_alignment_long (test_workforce.WorkforceTests.test_inventory_alignment_long) ... ok
+test_inventory_alignment_short (test_workforce.WorkforceTests.test_inventory_alignment_short) ... ok
+test_large_workforces (test_workforce.WorkforceTests.test_large_workforces) ... ok
+test_locked_travel_position (test_workforce.WorkforceTests.test_locked_travel_position) ... ok
+test_manual_deposit_last_step (test_workforce.WorkforceTests.test_manual_deposit_last_step) ... ok
+test_maturity_gate (test_workforce.WorkforceTests.test_maturity_gate) ... ok
+test_metadata_ignored (test_workforce.WorkforceTests.test_metadata_ignored) ... ok
+test_missing_step (test_workforce.WorkforceTests.test_missing_step) ... ok
+test_nan_cash (test_workforce.WorkforceTests.test_nan_cash) ... ok
+test_negative_inventory (test_workforce.WorkforceTests.test_negative_inventory) ... ok
+test_no_input_mutation (test_workforce.WorkforceTests.test_no_input_mutation) ... ok
+test_no_tasks (test_workforce.WorkforceTests.test_no_tasks) ... ok
+test_none_step (test_workforce.WorkforceTests.test_none_step) ... ok
+test_opponent_inventory_unknown (test_workforce.WorkforceTests.test_opponent_inventory_unknown) ... ok
+test_opponent_nested_private_ignored (test_workforce.WorkforceTests.test_opponent_nested_private_ignored) ... ok
+test_overflow (test_workforce.WorkforceTests.test_overflow) ... ok
+test_private_inventory_only_own (test_workforce.WorkforceTests.test_private_inventory_only_own) ... ok
+test_same_position_legal (test_workforce.WorkforceTests.test_same_position_legal) ... ok
+test_shed_geometry (test_workforce.WorkforceTests.test_shed_geometry) ... ok
+test_terminal_not_callback (test_workforce.WorkforceTests.test_terminal_not_callback) ... ok
+test_unknown_crop (test_workforce.WorkforceTests.test_unknown_crop) ... ok
+test_unknown_kind (test_workforce.WorkforceTests.test_unknown_kind) ... ok
+test_water_and_feed_urgency (test_workforce.WorkforceTests.test_water_and_feed_urgency) ... ok
+test_wrong_flag_invalid (test_workforce.WorkforceTests.test_wrong_flag_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.015s
+
+OK

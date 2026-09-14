@@ -1,0 +1,35 @@
+{
+  "checked_utc": "2026-09-11T20:22:00.401951+00:00",
+  "unit_tests": {
+    "passed": 26,
+    "failed": 0,
+    "framework": "stdlib unittest",
+    "scope": "New recovery utility; local Git fixture and mocked S3"
+  },
+  "notebook": {
+    "executed_code_cells": 8,
+    "error_outputs": 0,
+    "plotly_output_count": 4,
+    "execution_mode": "REFERENCE-ONLY",
+    "execution_seconds": 10.177,
+    "source_sha256": "f18b48e293ac475d00418d81f5f879ec83fdf1f9fed11f8b2db8805bb370048e",
+    "file_sha256": "b9187a4155de9a469f93fcb08ee89c1e7266ebf25a004ea1a19cc2d8e7a4b279"
+  },
+  "python_3_12_grammar_checks": "PASSED (new utility, tests, notebook cells)",
+  "python_execution_environment": "3.13.5 local container; actual AWS Python 3.12 integration remains user-run",
+  "real_aws_runtime_tested_this_turn": false,
+  "aws_compute_started_this_turn": false,
+  "aws_resources_modified_this_turn": false,
+  "new_simulation_games_this_turn": 0,
+  "new_models_fit_this_turn": 0,
+  "github_source_writes_this_turn": 0,
+  "kaggle_submissions_this_turn": 0,
+  "private_episodes_downloaded_to_assistant_container": false,
+  "limitations": [
+    "Direct local clone of the public repository failed due container DNS; repository evidence was read through the connected GitHub tool.",
+    "Tests validate the new recovery tool, not the entire repository or a live AWS round-trip.",
+    "The stopped EBS contents have not been directly inspected; the workflow must be run in AWS.",
+    "Kaggle raw file-list completeness and target leaderboard value remain unverified.",
+    "No new feature extractor, policy promotion, or feature-value ablation is included in this milestone."
+  ]
+}

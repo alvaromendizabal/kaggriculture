@@ -1,0 +1,12 @@
+{
+  "files": {
+    "outputs/pilot/report.json": "c41c3ea9fd7d42bda986c649697ab5cd9db4bc7d354b8fa1f39d393575bc1941",
+    "outputs/pilot/status.json": "9d6b4ef06e5fb89418f76025b4d6549a2bad5a6cd123ab6975488875dda54417",
+    "outputs/screen/report.json": "55e02578924d9ac40da058c00be43fbfa811cf48f0e69f16a35cb05222e9f130",
+    "outputs/screen/status.json": "ffad2af7694e6d9a9a6dc1b5c01740af8c07b045ecfb56a0ec19e52378316c99",
+    "PROTOCOL.json": "28cf9953b862ce0fad89eda33fb826fd732b898a578818b70d20d32184566b43",
+    "outputs/pilot/checkpoints/c3c1b698f20aad8101da-control.json.gz": "9a815ab5d46172574d47605dbafc38d67e5b94e55ae51e7d0ab46f5ce83c343e",
+    "outputs/pilot/checkpoints/c3c1b698f20aad8101da-renew.json.gz": "44260dbc1c4580c3de92a0747f7148fb70bed751dd3f09e0e4b9fca0ebccf88f",
+    "outputs/pilot/checkpoints/c3c1b698f20aad8101da-retire.json.gz": "9fa48b9bc9112a4266864608f74c0f6232fbb147ebcf1a7dfbcaedc7d9dd3b17"
+  }
+}

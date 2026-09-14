@@ -1,0 +1,203 @@
+{
+  "receipt_zip_sha256": "6932d38c54ad21b87f6b3eefbc9048c9cf514c0e44a225e3ab1c71aa76a7eb02",
+  "notebook_sha256": "548f7ecb03f8546f45cf09ed23adab365738b9b9581d4a448f77ca74c5f82101",
+  "source": {
+    "head": "7194116dfc92a8663139611233b5a221dad431a4",
+    "observed_utc": "2026-09-11T21:07:08.105313+00:00",
+    "origin": "https://github.com/alvaromendizabal/kaggriculture.git",
+    "original_untouched": true,
+    "repo": "/home/sagemaker-user/projects/kaggriculture-manual",
+    "status": "PASSED"
+  },
+  "runtime": {
+    "checked_utc": "2026-09-11T21:07:10.214303+00:00",
+    "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "executable": "/home/sagemaker-user/projects/kaggriculture/.venv/bin/python",
+    "games_run": 0,
+    "packages": {
+      "boto3": "1.43.91",
+      "ipykernel": "7.3.0",
+      "jupyter-client": "8.10.0",
+      "kaggle-environments": "1.32.7",
+      "nbclient": "0.11.0",
+      "nbformat": "5.11.1",
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "plotly": "7.0.0"
+    },
+    "python": "3.12.14",
+    "real_kernel_smoke": "PASSED",
+    "repo": "/home/sagemaker-user/projects/kaggriculture-manual",
+    "shared_read_only_runtime": true,
+    "source_module": "/home/sagemaker-user/projects/kaggriculture-manual/src/kaggriculture_research/environment.py",
+    "status": "PASSED"
+  },
+  "readiness": {
+    "aws_resources_created": 0,
+    "feature_completion_gate": "OPEN",
+    "games_run": 0,
+    "github_updated": false,
+    "leaderboard_target_user_reported": 3140.0,
+    "models_fit": 0,
+    "not_ready_for": "Full historical notebook reexecution, completed staffing pilot, new policy promotion, or a leaderboard-strength claim",
+    "official_metric_measured": false,
+    "original_workspace_modified": false,
+    "raw_inventory": {
+      "files": [
+        {
+          "all_crc_checked": false,
+          "archive_extracted": false,
+          "archive_member_count": 2,
+          "archive_member_names": [
+            "AGENTS.md",
+            "README.md"
+          ],
+          "archive_uncompressed_bytes": 40532,
+          "bytes": 16487,
+          "member_listing_truncated": false,
+          "path": "/home/sagemaker-user/kaggriculture-private/raw/kaggle-downloads/kaggriculture.zip",
+          "sha256": "91298b47c5dd34500177e6cf6c41a9c2ca254804f893d135a7c06c3d920ee739"
+        }
+      ],
+      "note": "Local hashes do not prove provenance/completeness versus the Kaggle file listing. Original archives are preserved; nothing extracted, submitted, or redistributed.",
+      "observed_utc": "2026-09-11T21:09:08.072678+00:00",
+      "official_completeness_verified": false,
+      "status": "LOCAL_FILES_REGISTERED"
+    },
+    "runtime_receipt_sha256": "a98ab2c538e8bfb4ebdf91bb3d190747ba14c9e048ebe1e26a77fddfb725d3c3",
+    "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+    "source_files": {
+      "docs/feature_next_milestone.md": "92383628e71ae8f14198bc0e862e46a9fbc2bbf777b2097931581fc793589c2a",
+      "pyproject.toml": "c31b62f74e37730b6162f9159aec67a1bb571b460ead74214f9009fd46d23ede",
+      "reports/bottleneck_research.json": "541e081563a9df259bdde6fe80f031c155d96f30864caece4f3eacb71dbf7582",
+      "reports/workforce_scope_audit.json": "b41abe18797f83348007829143368a2aad072f9d1e996058e9eeef85ee6b8d37",
+      "uv.lock": "728be2a5ec9809f076eea2a0cdadb5a27970df51cf5694c6a23a77f42d9b4525"
+    },
+    "status": "READY_FOR_ZERO_GAME_FEATURE_EVIDENCE_REVIEW",
+    "utc": "2026-09-11T21:10:50.686643+00:00",
+    "verified_private_objects": 10
+  },
+  "raw_inventory": {
+    "files": [
+      {
+        "all_crc_checked": false,
+        "archive_extracted": false,
+        "archive_member_count": 2,
+        "archive_member_names": [
+          "AGENTS.md",
+          "README.md"
+        ],
+        "archive_uncompressed_bytes": 40532,
+        "bytes": 16487,
+        "member_listing_truncated": false,
+        "path": "/home/sagemaker-user/kaggriculture-private/raw/kaggle-downloads/kaggriculture.zip",
+        "sha256": "91298b47c5dd34500177e6cf6c41a9c2ca254804f893d135a7c06c3d920ee739"
+      }
+    ],
+    "note": "Local hashes do not prove provenance/completeness versus the Kaggle file listing. Original archives are preserved; nothing extracted, submitted, or redistributed.",
+    "observed_utc": "2026-09-11T21:09:08.072678+00:00",
+    "official_completeness_verified": false,
+    "status": "LOCAL_FILES_REGISTERED"
+  },
+  "restore": {
+    "all_historical_studies_restored": false,
+    "artifact_count": 10,
+    "downloaded_or_reused": [
+      {
+        "bytes": 198339,
+        "path": "artifacts/staffing_episodes/313129dc50accd10f2d78e998597e7461edc84b7bdabaf8703856399050544ac.json.gz",
+        "readback_verified": true,
+        "sha256": "7d03af0e407c5951dc108dfb25a9d0d50c13702bf750242384536a00dbe0b08f",
+        "status": "DOWNLOADED_VERSION_AND_HASH_VERIFIED",
+        "version_id": "55UP1dOcfQscn7w1QMThfKJa6_zoadDa"
+      },
+      {
+        "bytes": 198926,
+        "path": "artifacts/staffing_episodes/50cb3fbad7f60c88e3bfdd8fc123c722ba8f8bfd4726b77259b099848391e532.json.gz",
+        "readback_verified": true,
+        "sha256": "459a63121433ee9272cc4f82ecf530c5019edb5fa996a40363723c3a3915f25b",
+        "status": "DOWNLOADED_VERSION_AND_HASH_VERIFIED",
+        "version_id": "bNfXBIDs.XLI6in2MMnPluLcJU49zLkD"
+      },
+      {
+        "bytes": 198452,
+        "path": "artifacts/staffing_episodes/5174b9f0d5c8a442247a38a48918f0af90f413ff298ddefe214b118470115c66.json.gz",
+        "readback_verified": true,
+        "sha256": "e8aa9435f0b4986be79f06d2ccd6cfd4d9dcf3b2b5ac83a7b72187b7ef6cd3d1",
+        "status": "DOWNLOADED_VERSION_AND_HASH_VERIFIED",
+        "version_id": "hPtrv0F_hHHg39gOZN4RBcUkhWne6Lp4"
+      },
+      {
+        "bytes": 205890,
+        "path": "artifacts/staffing_episodes/63a5e37d072122ab457eb7787bb924ac1313482359e7c0e172bdfc21839cd346.json.gz",
+        "readback_verified": true,
+        "sha256": "d6b7276472d969c94c6659817cf1c57e76e7aa75eb0b3567580f145958621a9d",
+        "status": "DOWNLOADED_VERSION_AND_HASH_VERIFIED",
+        "version_id": "OGMF9NYJN_iBdnvCxZhKxWdiNatFizu_"
+      },
+      {
+        "bytes": 206697,
+        "path": "artifacts/staffing_episodes/a1371f207a4a439d2841a2e9808b811cf4757e8773c1541bcb4dd233563e36b6.json.gz",
+        "readback_verified": true,
+        "sha256": "e0723e4c99e7fdb514138fa78d76a3e4c018a34427a458b2b5ee8ed5367e6384",
+        "status": "DOWNLOADED_VERSION_AND_HASH_VERIFIED",
+        "version_id": "LTPVw2JXMUyHpLr.FfjI.EGtJHfDCnvl"
+      },
+      {
+        "bytes": 205504,
+        "path": "artifacts/staffing_episodes/a1f16a098483fc66ce42b2c40c08e99394da8f7c821bb1c758633d2b0f820d79.json.gz",
+        "readback_verified": true,
+        "sha256": "4c3bb11368eee44d761f10ddde32024a9754ffaa15af1088ee7d8142f8338969",
+        "status": "DOWNLOADED_VERSION_AND_HASH_VERIFIED",
+        "version_id": "9vZbANP0XdRB36__jIEej6aK8SuLm1Vk"
+      },
+      {
+        "bytes": 198968,
+        "path": "artifacts/staffing_episodes/e40e801fee063cca28e024f5adf1b4c39727141f4f71d9430781838c99dd3938.json.gz",
+        "readback_verified": true,
+        "sha256": "564097a21e59457fe27a2d319d1f720adcd290b610cd6e7c2484a56faff4b862",
+        "status": "DOWNLOADED_VERSION_AND_HASH_VERIFIED",
+        "version_id": "ZRdqRpzDcuSUeEG6Rbf38Sb0nOGI_MUk"
+      },
+      {
+        "bytes": 492,
+        "path": "reports/staffing_preflight.json",
+        "readback_verified": true,
+        "sha256": "f23cbf8c13e93e1d0b43b79651c6e35e6355c61f0a948008ae74d567506ee9a8",
+        "status": "DOWNLOADED_VERSION_AND_HASH_VERIFIED",
+        "version_id": "2PKmFS_LMwq5suDHEiXHjFk4uPRhi.xr"
+      },
+      {
+        "bytes": 6940,
+        "path": "reports/staffing_progress.json",
+        "readback_verified": true,
+        "sha256": "5df34d6d68c011d70e513e15abae068e785e391c3c875599fbf12224ecb003f6",
+        "status": "DOWNLOADED_VERSION_AND_HASH_VERIFIED",
+        "version_id": "21qHXOWEr8J51lAwzpOANiFIE.D8IQDJ"
+      },
+      {
+        "bytes": 6049,
+        "path": "reports/staffing_registration.json",
+        "readback_verified": true,
+        "sha256": "b5323e2b7212780729dd50d5ea90c74df823319b1bef8b38a45b42169315caa5",
+        "status": "DOWNLOADED_VERSION_AND_HASH_VERIFIED",
+        "version_id": "M9F6mUH6fT52ntivaMO6oEDAd_OWBPsF"
+      }
+    ],
+    "episode_count": 7,
+    "games_run": 0,
+    "official_kaggle_raw_assets_verified": false,
+    "original_untouched": true,
+    "private_root": "/home/sagemaker-user/kaggriculture-private/manual-resume/staffing",
+    "status": "PASSED",
+    "verified_utc": "2026-09-11T21:07:56.051650+00:00"
+  },
+  "notebook": {
+    "executed_code_cells": 8,
+    "error_outputs": [],
+    "mode": "WORKSPACE-VERIFIED",
+    "plot_count": 4,
+    "games_run": 0,
+    "models_fit": 0
+  }
+}

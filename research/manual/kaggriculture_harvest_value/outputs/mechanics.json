@@ -1,0 +1,4573 @@
+{
+  "cases": [
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 9200,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 212.0,
+      "ahead": 0,
+      "expected": 212.0,
+      "inventory": 9200,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 636.0,
+      "ahead": 0,
+      "expected": 636.0,
+      "inventory": 9200,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 9200,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 212.0,
+      "ahead": 7,
+      "expected": 212.0,
+      "inventory": 9200,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 636.0,
+      "ahead": 7,
+      "expected": 636.0,
+      "inventory": 9200,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 9200,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 208.0,
+      "ahead": 80,
+      "expected": 208.0,
+      "inventory": 9200,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 624.0,
+      "ahead": 80,
+      "expected": 624.0,
+      "inventory": 9200,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 97.0,
+      "ahead": 0,
+      "expected": 97.0,
+      "inventory": 10000,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 283.0,
+      "ahead": 0,
+      "expected": 283.0,
+      "inventory": 10000,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 92.0,
+      "ahead": 7,
+      "expected": 92.0,
+      "inventory": 10000,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 276.0,
+      "ahead": 7,
+      "expected": 276.0,
+      "inventory": 10000,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 84.0,
+      "ahead": 80,
+      "expected": 84.0,
+      "inventory": 10000,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 252.0,
+      "ahead": 80,
+      "expected": 252.0,
+      "inventory": 10000,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10400,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 80.0,
+      "ahead": 0,
+      "expected": 80.0,
+      "inventory": 10400,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 240.0,
+      "ahead": 0,
+      "expected": 240.0,
+      "inventory": 10400,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10400,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 80.0,
+      "ahead": 7,
+      "expected": 80.0,
+      "inventory": 10400,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 240.0,
+      "ahead": 7,
+      "expected": 240.0,
+      "inventory": 10400,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10400,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 80.0,
+      "ahead": 80,
+      "expected": 80.0,
+      "inventory": 10400,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 240.0,
+      "ahead": 80,
+      "expected": 240.0,
+      "inventory": 10400,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10800,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 76.0,
+      "ahead": 0,
+      "expected": 76.0,
+      "inventory": 10800,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 228.0,
+      "ahead": 0,
+      "expected": 228.0,
+      "inventory": 10800,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10800,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 76.0,
+      "ahead": 7,
+      "expected": 76.0,
+      "inventory": 10800,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 228.0,
+      "ahead": 7,
+      "expected": 228.0,
+      "inventory": 10800,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10800,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 76.0,
+      "ahead": 80,
+      "expected": 76.0,
+      "inventory": 10800,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 228.0,
+      "ahead": 80,
+      "expected": 228.0,
+      "inventory": 10800,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 52.0,
+      "ahead": 0,
+      "expected": 52.0,
+      "inventory": 1010000,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 156.0,
+      "ahead": 0,
+      "expected": 156.0,
+      "inventory": 1010000,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 52.0,
+      "ahead": 7,
+      "expected": 52.0,
+      "inventory": 1010000,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 156.0,
+      "ahead": 7,
+      "expected": 156.0,
+      "inventory": 1010000,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "WHEAT",
+      "q": 0
+    },
+    {
+      "actual": 52.0,
+      "ahead": 80,
+      "expected": 52.0,
+      "inventory": 1010000,
+      "item": "WHEAT",
+      "q": 4
+    },
+    {
+      "actual": 156.0,
+      "ahead": 80,
+      "expected": 156.0,
+      "inventory": 1010000,
+      "item": "WHEAT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 9100,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 1532.0,
+      "ahead": 0,
+      "expected": 1532.0,
+      "inventory": 9100,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 4534.0,
+      "ahead": 0,
+      "expected": 4534.0,
+      "inventory": 9100,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 9100,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 1496.0,
+      "ahead": 7,
+      "expected": 1496.0,
+      "inventory": 9100,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 4425.0,
+      "ahead": 7,
+      "expected": 4425.0,
+      "inventory": 9100,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 9100,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 1146.0,
+      "ahead": 80,
+      "expected": 1146.0,
+      "inventory": 9100,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 3385.0,
+      "ahead": 80,
+      "expected": 3385.0,
+      "inventory": 9100,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 135.0,
+      "ahead": 0,
+      "expected": 135.0,
+      "inventory": 10000,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 390.0,
+      "ahead": 0,
+      "expected": 390.0,
+      "inventory": 10000,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 127.0,
+      "ahead": 7,
+      "expected": 127.0,
+      "inventory": 10000,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 372.0,
+      "ahead": 7,
+      "expected": 372.0,
+      "inventory": 10000,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 99.0,
+      "ahead": 80,
+      "expected": 99.0,
+      "inventory": 10000,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 291.0,
+      "ahead": 80,
+      "expected": 291.0,
+      "inventory": 10000,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10450,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 40.0,
+      "ahead": 0,
+      "expected": 40.0,
+      "inventory": 10450,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 120.0,
+      "ahead": 0,
+      "expected": 120.0,
+      "inventory": 10450,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10450,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 40.0,
+      "ahead": 7,
+      "expected": 40.0,
+      "inventory": 10450,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 120.0,
+      "ahead": 7,
+      "expected": 120.0,
+      "inventory": 10450,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10450,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 32.0,
+      "ahead": 80,
+      "expected": 32.0,
+      "inventory": 10450,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 96.0,
+      "ahead": 80,
+      "expected": 96.0,
+      "inventory": 10450,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10900,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 10900,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 10900,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10900,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 10900,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 10900,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10900,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 10900,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 10900,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "CARROT",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "CARROT",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "CARROT",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 9600,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 1188.0,
+      "ahead": 0,
+      "expected": 1188.0,
+      "inventory": 9600,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 3468.0,
+      "ahead": 0,
+      "expected": 3468.0,
+      "inventory": 9600,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 9600,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 1132.0,
+      "ahead": 7,
+      "expected": 1132.0,
+      "inventory": 9600,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 3303.0,
+      "ahead": 7,
+      "expected": 3303.0,
+      "inventory": 9600,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 9600,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 663.0,
+      "ahead": 80,
+      "expected": 663.0,
+      "inventory": 9600,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 1929.0,
+      "ahead": 80,
+      "expected": 1929.0,
+      "inventory": 9600,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 229.0,
+      "ahead": 0,
+      "expected": 229.0,
+      "inventory": 10000,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 654.0,
+      "ahead": 0,
+      "expected": 654.0,
+      "inventory": 10000,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 210.0,
+      "ahead": 7,
+      "expected": 210.0,
+      "inventory": 10000,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 613.0,
+      "ahead": 7,
+      "expected": 613.0,
+      "inventory": 10000,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 148.0,
+      "ahead": 80,
+      "expected": 148.0,
+      "inventory": 10000,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 438.0,
+      "ahead": 80,
+      "expected": 438.0,
+      "inventory": 10000,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10200,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 96.0,
+      "ahead": 0,
+      "expected": 96.0,
+      "inventory": 10200,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 282.0,
+      "ahead": 0,
+      "expected": 282.0,
+      "inventory": 10200,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10200,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 92.0,
+      "ahead": 7,
+      "expected": 92.0,
+      "inventory": 10200,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 275.0,
+      "ahead": 7,
+      "expected": 275.0,
+      "inventory": 10200,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10200,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 68.0,
+      "ahead": 80,
+      "expected": 68.0,
+      "inventory": 10200,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 204.0,
+      "ahead": 80,
+      "expected": 204.0,
+      "inventory": 10200,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10400,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 36.0,
+      "ahead": 0,
+      "expected": 36.0,
+      "inventory": 10400,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 106.0,
+      "ahead": 0,
+      "expected": 106.0,
+      "inventory": 10400,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10400,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 35.0,
+      "ahead": 7,
+      "expected": 35.0,
+      "inventory": 10400,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 99.0,
+      "ahead": 7,
+      "expected": 99.0,
+      "inventory": 10400,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10400,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 16.0,
+      "ahead": 80,
+      "expected": 16.0,
+      "inventory": 10400,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 48.0,
+      "ahead": 80,
+      "expected": 48.0,
+      "inventory": 10400,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "TOMATO",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "TOMATO",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "TOMATO",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 9800,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 953.0,
+      "ahead": 0,
+      "expected": 953.0,
+      "inventory": 9800,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 2845.0,
+      "ahead": 0,
+      "expected": 2845.0,
+      "inventory": 9800,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 9800,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 945.0,
+      "ahead": 7,
+      "expected": 945.0,
+      "inventory": 9800,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 2820.0,
+      "ahead": 7,
+      "expected": 2820.0,
+      "inventory": 9800,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 9800,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 846.0,
+      "ahead": 80,
+      "expected": 846.0,
+      "inventory": 9800,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 2518.0,
+      "ahead": 80,
+      "expected": 2518.0,
+      "inventory": 9800,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 468.0,
+      "ahead": 0,
+      "expected": 468.0,
+      "inventory": 10000,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 1313.0,
+      "ahead": 0,
+      "expected": 1313.0,
+      "inventory": 10000,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 416.0,
+      "ahead": 7,
+      "expected": 416.0,
+      "inventory": 10000,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 1152.0,
+      "ahead": 7,
+      "expected": 1152.0,
+      "inventory": 10000,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 10000,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 10000,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10100,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 10100,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 10100,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10100,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 10100,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 10100,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10100,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 10100,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 10100,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10200,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 10200,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 10200,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10200,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 10200,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 10200,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10200,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 10200,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 10200,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "STRAWBERRY",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "STRAWBERRY",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "STRAWBERRY",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 9400,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 1224.0,
+      "ahead": 0,
+      "expected": 1224.0,
+      "inventory": 9400,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 3672.0,
+      "ahead": 0,
+      "expected": 3672.0,
+      "inventory": 9400,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 9400,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 1224.0,
+      "ahead": 7,
+      "expected": 1224.0,
+      "inventory": 9400,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 3672.0,
+      "ahead": 7,
+      "expected": 3672.0,
+      "inventory": 9400,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 9400,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 1220.0,
+      "ahead": 80,
+      "expected": 1220.0,
+      "inventory": 9400,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 3660.0,
+      "ahead": 80,
+      "expected": 3660.0,
+      "inventory": 9400,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 1000.0,
+      "ahead": 0,
+      "expected": 1000.0,
+      "inventory": 10000,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 2996.0,
+      "ahead": 0,
+      "expected": 2996.0,
+      "inventory": 10000,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 997.0,
+      "ahead": 7,
+      "expected": 997.0,
+      "inventory": 10000,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 2980.0,
+      "ahead": 7,
+      "expected": 2980.0,
+      "inventory": 10000,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 734.0,
+      "ahead": 80,
+      "expected": 734.0,
+      "inventory": 10000,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 2121.0,
+      "ahead": 80,
+      "expected": 2121.0,
+      "inventory": 10000,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10300,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 10300,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 10300,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10300,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 10300,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 10300,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10300,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 10300,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 10300,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10600,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 10600,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 10600,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10600,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 10600,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 10600,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10600,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 10600,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 10600,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "MELON",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "MELON",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "MELON",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 9336,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 994.0,
+      "ahead": 0,
+      "expected": 994.0,
+      "inventory": 9336,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 2934.0,
+      "ahead": 0,
+      "expected": 2934.0,
+      "inventory": 9336,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 9336,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 966.0,
+      "ahead": 7,
+      "expected": 966.0,
+      "inventory": 9336,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 2850.0,
+      "ahead": 7,
+      "expected": 2850.0,
+      "inventory": 9336,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 9336,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 705.0,
+      "ahead": 80,
+      "expected": 705.0,
+      "inventory": 9336,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 2077.0,
+      "ahead": 80,
+      "expected": 2077.0,
+      "inventory": 9336,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 195.0,
+      "ahead": 0,
+      "expected": 195.0,
+      "inventory": 10000,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 566.0,
+      "ahead": 0,
+      "expected": 566.0,
+      "inventory": 10000,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 184.0,
+      "ahead": 7,
+      "expected": 184.0,
+      "inventory": 10000,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 546.0,
+      "ahead": 7,
+      "expected": 546.0,
+      "inventory": 10000,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 168.0,
+      "ahead": 80,
+      "expected": 168.0,
+      "inventory": 10000,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 504.0,
+      "ahead": 80,
+      "expected": 504.0,
+      "inventory": 10000,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10332,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 160.0,
+      "ahead": 0,
+      "expected": 160.0,
+      "inventory": 10332,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 480.0,
+      "ahead": 0,
+      "expected": 480.0,
+      "inventory": 10332,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10332,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 160.0,
+      "ahead": 7,
+      "expected": 160.0,
+      "inventory": 10332,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 480.0,
+      "ahead": 7,
+      "expected": 480.0,
+      "inventory": 10332,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10332,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 160.0,
+      "ahead": 80,
+      "expected": 160.0,
+      "inventory": 10332,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 480.0,
+      "ahead": 80,
+      "expected": 480.0,
+      "inventory": 10332,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10664,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 156.0,
+      "ahead": 0,
+      "expected": 156.0,
+      "inventory": 10664,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 468.0,
+      "ahead": 0,
+      "expected": 468.0,
+      "inventory": 10664,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10664,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 156.0,
+      "ahead": 7,
+      "expected": 156.0,
+      "inventory": 10664,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 468.0,
+      "ahead": 7,
+      "expected": 468.0,
+      "inventory": 10664,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10664,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 156.0,
+      "ahead": 80,
+      "expected": 156.0,
+      "inventory": 10664,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 468.0,
+      "ahead": 80,
+      "expected": 468.0,
+      "inventory": 10664,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 104.0,
+      "ahead": 0,
+      "expected": 104.0,
+      "inventory": 1010000,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 312.0,
+      "ahead": 0,
+      "expected": 312.0,
+      "inventory": 1010000,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 104.0,
+      "ahead": 7,
+      "expected": 104.0,
+      "inventory": 1010000,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 312.0,
+      "ahead": 7,
+      "expected": 312.0,
+      "inventory": 1010000,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "EGG",
+      "q": 0
+    },
+    {
+      "actual": 104.0,
+      "ahead": 80,
+      "expected": 104.0,
+      "inventory": 1010000,
+      "item": "EGG",
+      "q": 4
+    },
+    {
+      "actual": 312.0,
+      "ahead": 80,
+      "expected": 312.0,
+      "inventory": 1010000,
+      "item": "EGG",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 9756,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 1181.0,
+      "ahead": 0,
+      "expected": 1181.0,
+      "inventory": 9756,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 3531.0,
+      "ahead": 0,
+      "expected": 3531.0,
+      "inventory": 9756,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 9756,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 1174.0,
+      "ahead": 7,
+      "expected": 1174.0,
+      "inventory": 9756,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 3508.0,
+      "ahead": 7,
+      "expected": 3508.0,
+      "inventory": 9756,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 9756,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 1083.0,
+      "ahead": 80,
+      "expected": 1083.0,
+      "inventory": 9756,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 3234.0,
+      "ahead": 80,
+      "expected": 3234.0,
+      "inventory": 9756,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 628.0,
+      "ahead": 0,
+      "expected": 628.0,
+      "inventory": 10000,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 1782.0,
+      "ahead": 0,
+      "expected": 1782.0,
+      "inventory": 10000,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 568.0,
+      "ahead": 7,
+      "expected": 568.0,
+      "inventory": 10000,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 1605.0,
+      "ahead": 7,
+      "expected": 1605.0,
+      "inventory": 10000,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 10000,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 10000,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10122,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 10122,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 10122,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10122,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 10122,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 10122,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10122,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 10122,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 10122,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10244,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 10244,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 10244,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10244,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 10244,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 10244,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10244,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 10244,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 10244,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "MILK",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "MILK",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "MILK",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 9790,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 984.0,
+      "ahead": 0,
+      "expected": 984.0,
+      "inventory": 9790,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 2950.0,
+      "ahead": 0,
+      "expected": 2950.0,
+      "inventory": 9790,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 9790,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 983.0,
+      "ahead": 7,
+      "expected": 983.0,
+      "inventory": 9790,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 2943.0,
+      "ahead": 7,
+      "expected": 2943.0,
+      "inventory": 9790,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 9790,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 968.0,
+      "ahead": 80,
+      "expected": 968.0,
+      "inventory": 9790,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 2897.0,
+      "ahead": 80,
+      "expected": 2897.0,
+      "inventory": 9790,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 799.0,
+      "ahead": 0,
+      "expected": 799.0,
+      "inventory": 10000,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 2370.0,
+      "ahead": 0,
+      "expected": 2370.0,
+      "inventory": 10000,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 782.0,
+      "ahead": 7,
+      "expected": 782.0,
+      "inventory": 10000,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 2282.0,
+      "ahead": 7,
+      "expected": 2282.0,
+      "inventory": 10000,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 10000,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 10000,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10105,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 10105,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 10105,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10105,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 10105,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 10105,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10105,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 10105,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 10105,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10210,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 10210,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 10210,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10210,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 10210,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 10210,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10210,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 10210,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 10210,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "WOOL",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "WOOL",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "WOOL",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 9600,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 719.0,
+      "ahead": 0,
+      "expected": 719.0,
+      "inventory": 9600,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 2147.0,
+      "ahead": 0,
+      "expected": 2147.0,
+      "inventory": 9600,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 9600,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 713.0,
+      "ahead": 7,
+      "expected": 713.0,
+      "inventory": 9600,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 2130.0,
+      "ahead": 7,
+      "expected": 2130.0,
+      "inventory": 9600,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 9600,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 655.0,
+      "ahead": 80,
+      "expected": 655.0,
+      "inventory": 9600,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 1955.0,
+      "ahead": 80,
+      "expected": 1955.0,
+      "inventory": 9600,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 399.0,
+      "ahead": 0,
+      "expected": 399.0,
+      "inventory": 10000,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 1187.0,
+      "ahead": 0,
+      "expected": 1187.0,
+      "inventory": 10000,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 393.0,
+      "ahead": 7,
+      "expected": 393.0,
+      "inventory": 10000,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 1170.0,
+      "ahead": 7,
+      "expected": 1170.0,
+      "inventory": 10000,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10000,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 335.0,
+      "ahead": 80,
+      "expected": 335.0,
+      "inventory": 10000,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 995.0,
+      "ahead": 80,
+      "expected": 995.0,
+      "inventory": 10000,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10200,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 239.0,
+      "ahead": 0,
+      "expected": 239.0,
+      "inventory": 10200,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 707.0,
+      "ahead": 0,
+      "expected": 707.0,
+      "inventory": 10200,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10200,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 233.0,
+      "ahead": 7,
+      "expected": 233.0,
+      "inventory": 10200,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 690.0,
+      "ahead": 7,
+      "expected": 690.0,
+      "inventory": 10200,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10200,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 175.0,
+      "ahead": 80,
+      "expected": 175.0,
+      "inventory": 10200,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 515.0,
+      "ahead": 80,
+      "expected": 515.0,
+      "inventory": 10200,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 10400,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 79.0,
+      "ahead": 0,
+      "expected": 79.0,
+      "inventory": 10400,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 227.0,
+      "ahead": 0,
+      "expected": 227.0,
+      "inventory": 10400,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 10400,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 73.0,
+      "ahead": 7,
+      "expected": 73.0,
+      "inventory": 10400,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 210.0,
+      "ahead": 7,
+      "expected": 210.0,
+      "inventory": 10400,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 10400,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 15.0,
+      "ahead": 80,
+      "expected": 15.0,
+      "inventory": 10400,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 35.0,
+      "ahead": 80,
+      "expected": 35.0,
+      "inventory": 10400,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 0,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 0,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 0,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 7,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 7,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 7,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "FERTILIZER",
+      "q": 12
+    },
+    {
+      "actual": 0.0,
+      "ahead": 80,
+      "expected": 0.0,
+      "inventory": 1010000,
+      "item": "FERTILIZER",
+      "q": 0
+    },
+    {
+      "actual": 4.0,
+      "ahead": 80,
+      "expected": 4.0,
+      "inventory": 1010000,
+      "item": "FERTILIZER",
+      "q": 4
+    },
+    {
+      "actual": 12.0,
+      "ahead": 80,
+      "expected": 12.0,
+      "inventory": 1010000,
+      "item": "FERTILIZER",
+      "q": 12
+    }
+  ],
+  "demand_cases": 189,
+  "demand_checks": [
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WHEAT",
+      "step": 0
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 0
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "TOMATO",
+      "step": 0
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "STRAWBERRY",
+      "step": 0
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MELON",
+      "step": 0
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "EGG",
+      "step": 0
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MILK",
+      "step": 0
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WOOL",
+      "step": 0
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 0
+    },
+    {
+      "actual": 3,
+      "delay": 1,
+      "expected": 3,
+      "item": "WHEAT",
+      "step": 0
+    },
+    {
+      "actual": 1,
+      "delay": 1,
+      "expected": 1,
+      "item": "CARROT",
+      "step": 0
+    },
+    {
+      "actual": 2,
+      "delay": 1,
+      "expected": 2,
+      "item": "TOMATO",
+      "step": 0
+    },
+    {
+      "actual": 2,
+      "delay": 1,
+      "expected": 2,
+      "item": "STRAWBERRY",
+      "step": 0
+    },
+    {
+      "actual": 1,
+      "delay": 1,
+      "expected": 1,
+      "item": "MELON",
+      "step": 0
+    },
+    {
+      "actual": 1,
+      "delay": 1,
+      "expected": 1,
+      "item": "EGG",
+      "step": 0
+    },
+    {
+      "actual": 3,
+      "delay": 1,
+      "expected": 3,
+      "item": "MILK",
+      "step": 0
+    },
+    {
+      "actual": 5,
+      "delay": 1,
+      "expected": 5,
+      "item": "WOOL",
+      "step": 0
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 0
+    },
+    {
+      "actual": 3,
+      "delay": 4,
+      "expected": 3,
+      "item": "WHEAT",
+      "step": 0
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "CARROT",
+      "step": 0
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "TOMATO",
+      "step": 0
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "STRAWBERRY",
+      "step": 0
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "MELON",
+      "step": 0
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "EGG",
+      "step": 0
+    },
+    {
+      "actual": 3,
+      "delay": 4,
+      "expected": 3,
+      "item": "MILK",
+      "step": 0
+    },
+    {
+      "actual": 5,
+      "delay": 4,
+      "expected": 5,
+      "item": "WOOL",
+      "step": 0
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 0
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WHEAT",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "TOMATO",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "STRAWBERRY",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MELON",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "EGG",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MILK",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WOOL",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "WHEAT",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "TOMATO",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "STRAWBERRY",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "MELON",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "EGG",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "MILK",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "WOOL",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 1
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "WHEAT",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 1
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "TOMATO",
+      "step": 1
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "STRAWBERRY",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "MELON",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "EGG",
+      "step": 1
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "MILK",
+      "step": 1
+    },
+    {
+      "actual": 4,
+      "delay": 4,
+      "expected": 4,
+      "item": "WOOL",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 1
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WHEAT",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "TOMATO",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "STRAWBERRY",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MELON",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "EGG",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MILK",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WOOL",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "WHEAT",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "TOMATO",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "STRAWBERRY",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "MELON",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "EGG",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "MILK",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "WOOL",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 3
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "WHEAT",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 3
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "TOMATO",
+      "step": 3
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "STRAWBERRY",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "MELON",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "EGG",
+      "step": 3
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "MILK",
+      "step": 3
+    },
+    {
+      "actual": 4,
+      "delay": 4,
+      "expected": 4,
+      "item": "WOOL",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 3
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WHEAT",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "TOMATO",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "STRAWBERRY",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MELON",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "EGG",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MILK",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WOOL",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 4
+    },
+    {
+      "actual": 2,
+      "delay": 1,
+      "expected": 2,
+      "item": "WHEAT",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 4
+    },
+    {
+      "actual": 1,
+      "delay": 1,
+      "expected": 1,
+      "item": "TOMATO",
+      "step": 4
+    },
+    {
+      "actual": 1,
+      "delay": 1,
+      "expected": 1,
+      "item": "STRAWBERRY",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "MELON",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "EGG",
+      "step": 4
+    },
+    {
+      "actual": 2,
+      "delay": 1,
+      "expected": 2,
+      "item": "MILK",
+      "step": 4
+    },
+    {
+      "actual": 4,
+      "delay": 1,
+      "expected": 4,
+      "item": "WOOL",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 4
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "WHEAT",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 4
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "TOMATO",
+      "step": 4
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "STRAWBERRY",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "MELON",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "EGG",
+      "step": 4
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "MILK",
+      "step": 4
+    },
+    {
+      "actual": 4,
+      "delay": 4,
+      "expected": 4,
+      "item": "WOOL",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 4
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WHEAT",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "TOMATO",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "STRAWBERRY",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MELON",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "EGG",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MILK",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WOOL",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "WHEAT",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "TOMATO",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "STRAWBERRY",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "MELON",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "EGG",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "MILK",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "WOOL",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 23
+    },
+    {
+      "actual": 3,
+      "delay": 4,
+      "expected": 3,
+      "item": "WHEAT",
+      "step": 23
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "CARROT",
+      "step": 23
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "TOMATO",
+      "step": 23
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "STRAWBERRY",
+      "step": 23
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "MELON",
+      "step": 23
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "EGG",
+      "step": 23
+    },
+    {
+      "actual": 3,
+      "delay": 4,
+      "expected": 3,
+      "item": "MILK",
+      "step": 23
+    },
+    {
+      "actual": 5,
+      "delay": 4,
+      "expected": 5,
+      "item": "WOOL",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 23
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WHEAT",
+      "step": 24
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 24
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "TOMATO",
+      "step": 24
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "STRAWBERRY",
+      "step": 24
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MELON",
+      "step": 24
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "EGG",
+      "step": 24
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MILK",
+      "step": 24
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WOOL",
+      "step": 24
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 24
+    },
+    {
+      "actual": 3,
+      "delay": 1,
+      "expected": 3,
+      "item": "WHEAT",
+      "step": 24
+    },
+    {
+      "actual": 1,
+      "delay": 1,
+      "expected": 1,
+      "item": "CARROT",
+      "step": 24
+    },
+    {
+      "actual": 2,
+      "delay": 1,
+      "expected": 2,
+      "item": "TOMATO",
+      "step": 24
+    },
+    {
+      "actual": 2,
+      "delay": 1,
+      "expected": 2,
+      "item": "STRAWBERRY",
+      "step": 24
+    },
+    {
+      "actual": 1,
+      "delay": 1,
+      "expected": 1,
+      "item": "MELON",
+      "step": 24
+    },
+    {
+      "actual": 1,
+      "delay": 1,
+      "expected": 1,
+      "item": "EGG",
+      "step": 24
+    },
+    {
+      "actual": 3,
+      "delay": 1,
+      "expected": 3,
+      "item": "MILK",
+      "step": 24
+    },
+    {
+      "actual": 5,
+      "delay": 1,
+      "expected": 5,
+      "item": "WOOL",
+      "step": 24
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 24
+    },
+    {
+      "actual": 3,
+      "delay": 4,
+      "expected": 3,
+      "item": "WHEAT",
+      "step": 24
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "CARROT",
+      "step": 24
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "TOMATO",
+      "step": 24
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "STRAWBERRY",
+      "step": 24
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "MELON",
+      "step": 24
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "EGG",
+      "step": 24
+    },
+    {
+      "actual": 3,
+      "delay": 4,
+      "expected": 3,
+      "item": "MILK",
+      "step": 24
+    },
+    {
+      "actual": 5,
+      "delay": 4,
+      "expected": 5,
+      "item": "WOOL",
+      "step": 24
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 24
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WHEAT",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "TOMATO",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "STRAWBERRY",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MELON",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "EGG",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "MILK",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "WOOL",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 0,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "WHEAT",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "CARROT",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "TOMATO",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "STRAWBERRY",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "MELON",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "EGG",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "MILK",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "WOOL",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 1,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 718
+    },
+    {
+      "actual": 3,
+      "delay": 4,
+      "expected": 3,
+      "item": "WHEAT",
+      "step": 718
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "CARROT",
+      "step": 718
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "TOMATO",
+      "step": 718
+    },
+    {
+      "actual": 2,
+      "delay": 4,
+      "expected": 2,
+      "item": "STRAWBERRY",
+      "step": 718
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "MELON",
+      "step": 718
+    },
+    {
+      "actual": 1,
+      "delay": 4,
+      "expected": 1,
+      "item": "EGG",
+      "step": 718
+    },
+    {
+      "actual": 3,
+      "delay": 4,
+      "expected": 3,
+      "item": "MILK",
+      "step": 718
+    },
+    {
+      "actual": 5,
+      "delay": 4,
+      "expected": 5,
+      "item": "WOOL",
+      "step": 718
+    },
+    {
+      "actual": 0,
+      "delay": 4,
+      "expected": 0,
+      "item": "FERTILIZER",
+      "step": 718
+    }
+  ],
+  "full_games": 0,
+  "sale_cases": 405,
+  "status": "PASSED"
+}

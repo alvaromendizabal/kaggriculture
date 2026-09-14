@@ -1,0 +1,88 @@
+{
+  "status": "RELATIVE_FEATURE_ANALYSIS_COMPLETE",
+  "round": "22",
+  "policy_family": "20",
+  "rows": 16571,
+  "new_descriptors": 12,
+  "original_task_descriptors": 32,
+  "original_state_summaries": 12,
+  "total_task_descriptors": 44,
+  "registry": [
+    {
+      "feature": "peer_due_option_count",
+      "distinct_values": 16,
+      "nonzero_fraction": 1.0,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "peer_critical_option_count",
+      "distinct_values": 2,
+      "nonzero_fraction": 0.029750769416450426,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "peer_minimum_critical_slack",
+      "distinct_values": 15,
+      "nonzero_fraction": 0.9971637197513729,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "slack_above_most_urgent",
+      "distinct_values": 1,
+      "nonzero_fraction": 0.0,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "critical_exclusive_access",
+      "distinct_values": 2,
+      "nonzero_fraction": 0.0012069277653732424,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "feed_blocked_with_shed_stock",
+      "distinct_values": 2,
+      "nonzero_fraction": 0.04815641783839237,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "worker_wheat_minus_due_feed_jobs",
+      "distinct_values": 16,
+      "nonzero_fraction": 0.7537263894755899,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "conditional_next_yield_at_survival_risk",
+      "distinct_values": 3,
+      "nonzero_fraction": 0.0014483133184478908,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "additional_missed_refreshes_to_loss",
+      "distinct_values": 2,
+      "nonzero_fraction": 1.0,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "peer_best_urgency_multiplier",
+      "distinct_values": 15,
+      "nonzero_fraction": 1.0,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "urgency_multiplier_gap_to_best",
+      "distinct_values": 15,
+      "nonzero_fraction": 0.017560798986180678,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "urgency_multiplier_competition_rank",
+      "distinct_values": 2,
+      "nonzero_fraction": 1.0,
+      "status": "diagnostic_only_not_used_in_actor"
+    }
+  ],
+  "source_table_sha256": "c6a3b96d318a7b3aaedcafb1aceff61394b2c29807c8ff73893171a10d49a051",
+  "output_sha256": "2691803ccb912c5ffb4aee9c8a05913059ddfe4dbe04f650912689b6f9acacca",
+  "new_games": 0,
+  "prospective_performance_claim": false
+}

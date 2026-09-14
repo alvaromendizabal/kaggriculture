@@ -1,0 +1,23 @@
+{
+  "automatic_promotion": false,
+  "comparisons": [],
+  "completed_pairs": 0,
+  "decision": "REVIEW_FRESH_DEVELOPMENT_BLOCKS_NO_PROMOTION",
+  "development_seed_groups": 0,
+  "limitations": [
+    "Only two new development seeds; not an untouched final holdout.",
+    "Four balanced, not fully crossed seed/opponent/seat blocks; no isolated factor effects.",
+    "Shared controls make comparisons across rounds correlated.",
+    "Crop and livestock references are source-distinct, not established leaderboard-strength opponents.",
+    "Three-hired-hand callback restriction unchanged.",
+    "No fitted weights, feature selection, or significance claim.",
+    "Stopped blocks are missing, not zero effects."
+  ],
+  "official_metric_effect_measured": false,
+  "official_submission_score": null,
+  "opponents_tested": [],
+  "planned_pairs": 4,
+  "round": "18",
+  "seats_tested": [],
+  "status": "ROUND_COMPLETE"
+}

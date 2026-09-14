@@ -3,3 +3,38 @@
 uv.lock linguist-generated=true
 reports/*.json linguist-generated=true
 reports/*.csv linguist-generated=true
+
+# BEGIN KAGGRICULTURE ARTIFACT WHITESPACE
+# Exact byte-preserved evidence paths only. Source whitespace checks remain enabled.
+# CSV CRLF is intentional; Markdown hard breaks are semantic; Plotly bundles are generated.
+"docs/research/index.html" -whitespace
+"research/manual/kaggriculture_cash_realization/feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_crop_lifecycle/feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_harvest_value/feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_harvest_value/reference/notebook13_review.html" -whitespace
+"research/manual/kaggriculture_maintenance_diagnosis/feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_maintenance_diagnosis/reference/notebook12_review.html" -whitespace
+"research/manual/kaggriculture_manual_resume/START_HERE.md" whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_manual_resume/outputs/feature_readiness_dashboard.html" -whitespace
+"research/manual/kaggriculture_public_release/research/outputs/round21/dashboard.html" -whitespace
+"research/manual/kaggriculture_public_release/research/outputs/round22/dashboard.html" -whitespace
+"research/manual/kaggriculture_public_release/research/round19_feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_public_release/research/round20_feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_public_release/research/round21_feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_public_release/research/round22_feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_renewal_factorial/feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_route_opportunity/feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_sale_timing/feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_sale_timing/reference/notebook09_diagnosis_dashboard.html" -whitespace
+"research/manual/kaggriculture_service_value/FEATURE_FAMILY_REGISTRY.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_service_value/outputs/round19/dashboard.html" -whitespace
+"research/manual/kaggriculture_service_value/outputs/round20/dashboard.html" -whitespace
+"research/manual/kaggriculture_service_value/round19_feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_service_value/round20_feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_terminal_ablation/feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_two_rounds/outputs/round17/dashboard.html" -whitespace
+"research/manual/kaggriculture_two_rounds/outputs/round18/dashboard.html" -whitespace
+"research/manual/kaggriculture_two_rounds/round17_feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_two_rounds/round18_feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"research/manual/kaggriculture_water_maintenance/feature_dictionary.csv" whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# END KAGGRICULTURE ARTIFACT WHITESPACE

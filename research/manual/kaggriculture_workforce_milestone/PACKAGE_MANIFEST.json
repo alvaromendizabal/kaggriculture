@@ -1,0 +1,19 @@
+{
+  "package": "kaggriculture_workforce_milestone",
+  "source_baseline": "7194116dfc92a8663139611233b5a221dad431a4",
+  "files": {
+    ".gitignore": "90cc0957ceabec1cd0752ea78d51d56b6013c367f2e819fc790219589580ee0c",
+    "06_workforce_observation_contract.ipynb": "1090fafd2075a6a5a1a963fda6f65b35cd512c9d3a7134a214645edd1f148599",
+    "FEATURE_CONTRACT.md": "9f3d5d567e9b16b136d864a24e2aaa105050dfddd9a869585e9a467fcd347ab6",
+    "LOCAL_VALIDATION.json": "21e55333c85ca1f5b7a4d49bc7b8524407bce10f7cf87173ba3b78b3b4e98070",
+    "START_HERE.md": "bcde2d80f18c091c31ceafd1774bd84db89ce8ba9408f5cb61fb784f009451b4",
+    "feature_dictionary.json": "c6164714a9cfb053dec71635ff52863efd92827909d6a34323966350605c2ce5",
+    "reference/input_review.json": "c674e54763a8901113ec0656be836493637b4911b1a282eb34f8a3d4d86a930d",
+    "reference/local_tests.txt": "50f175649e88f0faf315e061bad07caea0420b9b76ef5a973b387427abd7ae61",
+    "run_milestone.py": "c9914554bcdd22ee32f31d142a6c18e94dc66abcd4210d3cca2c033b3624a1ea",
+    "tests/test_runner.py": "272573792206dcb06f3ae7b5ba326c99e4198de4274fac4c855ca669e489cb6b",
+    "tests/test_workforce.py": "704831d27b8a1134e065d5ed842aff2fe07cab41e517e82c82fc27c510be250c",
+    "visualize.py": "a89ecc805eff3c5bd3f37ec78e655d88f9db9d117647c6d3016c186db374e23d",
+    "workforce_features.py": "6eaf08e6c17dd8bf408faa8ae200cb746c0dd95c6d1f4372518a9a790a4b4aab"
+  }
+}

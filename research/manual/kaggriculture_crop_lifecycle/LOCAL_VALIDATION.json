@@ -1,0 +1,40 @@
+{
+  "unit_tests": 52,
+  "unit_failures": 0,
+  "unit_errors": 0,
+  "unit_skipped": 0,
+  "nominal_calendar_cases_tested_against_attributed_official_component_excerpt": 380,
+  "synthetic_reporting_notebook": {
+    "executed_code_cells": 10,
+    "plotly_outputs": 10,
+    "error_outputs": 0,
+    "modified_copy": true
+  },
+  "actual_uploaded_manifest_hashes_verified": 25,
+  "prior_source_and_dependency_gate": "PASSED on reconstructed local copy",
+  "full_live_notebook_executed": false,
+  "aws_private_episode_pilot_executed": false,
+  "official_installed_engine_validation_executed": false,
+  "limits": [
+    "Local crop oracle is an attributed official function excerpt, not a full installed Kaggle package.",
+    "Driver/endpoints use explicit toy environment/actors; synthetic results are not project metrics.",
+    "Live null/source callback parity and live engine/terminal acceptance run on AWS."
+  ],
+  "github_writes": false,
+  "aws_resource_changes": false,
+  "kaggle_submissions": 0,
+  "browser_visual_inspection": "NOT_COMPLETED: local Chromium executable unavailable; no browser-rendering success claim.",
+  "canonical_notebook": {
+    "unexecuted": true,
+    "syntax_checked_code_cells": 10,
+    "nbformat_valid": true
+  },
+  "code_sha256": "4f86efe673d4ada249dc1875e2b056fc68982277dc7472cd50be60175c941fe4",
+  "clean_extracted_release_tests": {
+    "tests": 52,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "package_integrity": "PASSED"
+  }
+}

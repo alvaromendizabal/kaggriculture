@@ -1,0 +1,42 @@
+{
+  "action_changes": 9,
+  "archived_action_checks": 527,
+  "candidate_callback_max_ms": 77.02309999149293,
+  "cloud_resources_modified": false,
+  "code_sha256": "ecf3a8285a9b65a6e3076339fbc57306e50077b55165d10589f46ca105146a3c",
+  "decision": "RUN_ONE_CLEAR_ONLY_BRANCH",
+  "elapsed_seconds": 19.94505164498696,
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "feature_engineering_complete": false,
+  "fingerprint": "2c756f4663548ef400853afc0374d7f34415fe879f82ce3385ecc9d550979bdc",
+  "github_updated": false,
+  "models_fit": 0,
+  "new_interpreter_transitions": 0,
+  "null_parity_checks": 527,
+  "observations": 527,
+  "official_metric_effect_measured": false,
+  "official_submission_score": null,
+  "output_sha256": {
+    "mechanics.json": "f18a8db094ec53a2f4202a02a4a17e146c457fa8011aa04ada93d39445c39883",
+    "screen/feature_registry.csv": "3e69bd0a6ca3fa8055005de9a213579b5055236e6ec5d84ad465cba6f87fc843",
+    "screen/full_path.json.gz": "696c42e79414e478deb5ed32dfa35df197fb59b041e6091e7fda91604281443c",
+    "screen/states.csv": "9ccce0ba6a3212ff552c1af14371cf0860e707660031c3562a7022d798099e4f"
+  },
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "source_key": {
+    "arm": "coordinated",
+    "opponent": "livestock_fertilizer",
+    "seat": 0,
+    "seed": 1601
+  },
+  "state_descriptors": 16,
+  "status": "RENEWAL_FACTORIAL_SCREEN_COMPLETE",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 54
+  },
+  "utc": "2026-09-12T22:26:48.589860+00:00",
+  "validation_or_holdout_used": false
+}

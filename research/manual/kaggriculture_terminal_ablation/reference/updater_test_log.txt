@@ -1,0 +1,21 @@
+test_backup_is_complete_and_preserves_failed_notebook (__main__.UpdaterTests.test_backup_is_complete_and_preserves_failed_notebook) ... ok
+test_completed_run_refused (__main__.UpdaterTests.test_completed_run_refused) ... ok
+test_existing_branch_preserved (__main__.UpdaterTests.test_existing_branch_preserved) ... ok
+test_existing_partial_trace_preserved (__main__.UpdaterTests.test_existing_partial_trace_preserved) ... ok
+test_idempotent_allows_saved_notebook_outputs (__main__.UpdaterTests.test_idempotent_allows_saved_notebook_outputs) ... ok
+test_idempotent_does_not_reissue_authorization (__main__.UpdaterTests.test_idempotent_does_not_reissue_authorization) ... ok
+test_known_failure_updates_and_authorizes_once (__main__.UpdaterTests.test_known_failure_updates_and_authorizes_once) ... ok
+test_locked_runner_refused (__main__.UpdaterTests.test_locked_runner_refused) ... ok
+test_manual_notebook_changes_refused (__main__.UpdaterTests.test_manual_notebook_changes_refused) ... ok
+test_prior_failed_status_is_not_deleted (__main__.UpdaterTests.test_prior_failed_status_is_not_deleted) ... ok
+test_protected_experiment_files_unchanged (__main__.UpdaterTests.test_protected_experiment_files_unchanged) ... ok
+test_symlink_refused (__main__.UpdaterTests.test_symlink_refused) ... ok
+test_tampered_new_file_refused (__main__.UpdaterTests.test_tampered_new_file_refused) ... ok
+test_unknown_failure_refused (__main__.UpdaterTests.test_unknown_failure_refused) ... ok
+test_unknown_source_refused (__main__.UpdaterTests.test_unknown_source_refused) ... ok
+test_write_failure_rolls_back_source (__main__.UpdaterTests.test_write_failure_rolls_back_source) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.473s
+
+OK

@@ -1,0 +1,57 @@
+test_all_three_branches_and_reuse (test_driver.DriverTests.test_all_three_branches_and_reuse) ... ok
+test_responsive_opponent_toy (test_driver.DriverTests.test_responsive_opponent_toy) ... ok
+test_actor_mutation (test_experiment.ExperimentTests.test_actor_mutation) ... ok
+test_all_window_hours_sampled (test_experiment.ExperimentTests.test_all_window_hours_sampled) ... ok
+test_duplicate_records (test_experiment.ExperimentTests.test_duplicate_records) ... ok
+test_empty_effect (test_experiment.ExperimentTests.test_empty_effect) ... ok
+test_incomplete_records (test_experiment.ExperimentTests.test_incomplete_records) ... ok
+test_latency_saved_before_reject (test_experiment.ExperimentTests.test_latency_saved_before_reject) ... ok
+test_live_prefix_and_linked_suffix_toy (test_experiment.ExperimentTests.test_live_prefix_and_linked_suffix_toy) ... ok
+test_negative_endpoint_even_margin_positive (test_experiment.ExperimentTests.test_negative_endpoint_even_margin_positive) ... ok
+test_no_final_day_screen (test_experiment.ExperimentTests.test_no_final_day_screen) ... ok
+test_nonactivation (test_experiment.ExperimentTests.test_nonactivation) ... ok
+test_partial_cannot_score (test_experiment.ExperimentTests.test_partial_cannot_score) ... ok
+test_sample_count (test_experiment.ExperimentTests.test_sample_count) ... ok
+test_selection_not_outcome (test_experiment.ExperimentTests.test_selection_not_outcome) ... ok
+test_calendar_oracle_all_five_crops (test_features.FeatureTests.test_calendar_oracle_all_five_crops) ... ok
+test_conflicting_clock (test_features.FeatureTests.test_conflicting_clock) ... ok
+test_current_goods_protected (test_features.FeatureTests.test_current_goods_protected) ... ok
+test_due_today_is_already_elapsed (test_features.FeatureTests.test_due_today_is_already_elapsed) ... ok
+test_empty_spent (test_features.FeatureTests.test_empty_spent) ... ok
+test_future_plant_rejected (test_features.FeatureTests.test_future_plant_rejected) ... ok
+test_late_future_goods_protected (test_features.FeatureTests.test_late_future_goods_protected) ... ok
+test_missing_seat_clock_allowed (test_features.FeatureTests.test_missing_seat_clock_allowed) ... ok
+test_negative_yield_rejected (test_features.FeatureTests.test_negative_yield_rejected) ... ok
+test_new_worker_counts_not_truncated_in_features (test_features.FeatureTests.test_new_worker_counts_not_truncated_in_features) ... ok
+test_no_mutation_and_finite_schema (test_features.FeatureTests.test_no_mutation_and_finite_schema) ... ok
+test_noninteger_clock (test_features.FeatureTests.test_noninteger_clock) ... ok
+test_nonlayout_not_cleared (test_features.FeatureTests.test_nonlayout_not_cleared) ... ok
+test_not_next_day_deferral (test_features.FeatureTests.test_not_next_day_deferral) ... ok
+test_private_opponent_and_reward_ignored (test_features.FeatureTests.test_private_opponent_and_reward_ignored) ... ok
+test_replant_window_cannot_be_extended (test_features.FeatureTests.test_replant_window_cannot_be_extended) ... ok
+test_single_yield_has_no_refresh_events (test_features.FeatureTests.test_single_yield_has_no_refresh_events) ... ok
+test_singles_never_retired (test_features.FeatureTests.test_singles_never_retired) ... ok
+test_strawberry_finite_schedule (test_features.FeatureTests.test_strawberry_finite_schedule) ... ok
+test_tomato_finite_schedule (test_features.FeatureTests.test_tomato_finite_schedule) ... ok
+test_unknown_crop_fail_closed (test_features.FeatureTests.test_unknown_crop_fail_closed) ... ok
+test_actual_prior_result (test_integrity.IntegrityTests.test_actual_prior_result) ... ok
+test_cache_roundtrip (test_integrity.IntegrityTests.test_cache_roundtrip) ... ok
+test_corruption_rejected (test_integrity.IntegrityTests.test_corruption_rejected) ... ok
+test_no_activation_skips_all_branches (test_integrity.IntegrityTests.test_no_activation_skips_all_branches) ... ok
+test_no_escaping_paths (test_integrity.IntegrityTests.test_no_escaping_paths) ... ok
+test_no_overwrite (test_integrity.IntegrityTests.test_no_overwrite) ... ok
+test_no_repeat_of_failed_stage (test_integrity.IntegrityTests.test_no_repeat_of_failed_stage) ... ok
+test_prior_no_pilot_score (test_integrity.IntegrityTests.test_prior_no_pilot_score) ... ok
+test_wrong_lineage (test_integrity.IntegrityTests.test_wrong_lineage) ... ok
+test_exact_edit_count (test_policy.PolicyTests.test_exact_edit_count) ... ok
+test_missing_crop_loop_refused (test_policy.PolicyTests.test_missing_crop_loop_refused) ... ok
+test_missing_water_predicate_refused (test_policy.PolicyTests.test_missing_water_predicate_refused) ... ok
+test_null_matches_original (test_policy.PolicyTests.test_null_matches_original) ... ok
+test_only_crop_loop_changes (test_policy.PolicyTests.test_only_crop_loop_changes) ... ok
+test_registered_window (test_policy.PolicyTests.test_registered_window) ... ok
+test_renewal_keeps_original_horizon_gate (test_policy.PolicyTests.test_renewal_keeps_original_horizon_gate) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 4.246s
+
+OK

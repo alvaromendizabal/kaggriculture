@@ -1,0 +1,51 @@
+test_checkpoint_bad_fingerprint (test_evidence.EvidenceTests.test_checkpoint_bad_fingerprint) ... ok
+test_checkpoint_corruption (test_evidence.EvidenceTests.test_checkpoint_corruption) ... ok
+test_checkpoint_no_overwrite (test_evidence.EvidenceTests.test_checkpoint_no_overwrite) ... ok
+test_checkpoint_readback (test_evidence.EvidenceTests.test_checkpoint_readback) ... ok
+test_decomposition_exact (test_evidence.EvidenceTests.test_decomposition_exact) ... ok
+test_real_action_binding (test_evidence.EvidenceTests.test_real_action_binding) ... ok
+test_real_negative_endpoint (test_evidence.EvidenceTests.test_real_negative_endpoint) ... ok
+test_refuse_changed_hash (test_evidence.EvidenceTests.test_refuse_changed_hash) ... ok
+test_refuse_missing_action (test_evidence.EvidenceTests.test_refuse_missing_action) ... ok
+test_refuse_wrong_role (test_evidence.EvidenceTests.test_refuse_wrong_role) ... ok
+test_safe_paths (test_evidence.EvidenceTests.test_safe_paths) ... ok
+test_spending_sign (test_evidence.EvidenceTests.test_spending_sign) ... ok
+test_zero_sales_missing_price (test_evidence.EvidenceTests.test_zero_sales_missing_price) ... ok
+test_all_paths_against_stepwise_adapter (test_features.FeaturesTests.test_all_paths_against_stepwise_adapter) ... ok
+test_already_watered_deadline (test_features.FeaturesTests.test_already_watered_deadline) ... ok
+test_bad_clock (test_features.FeaturesTests.test_bad_clock) ... ok
+test_bad_coordinate (test_features.FeaturesTests.test_bad_coordinate) ... ok
+test_bad_tile (test_features.FeaturesTests.test_bad_tile) ... ok
+test_both_seats (test_features.FeaturesTests.test_both_seats) ... ok
+test_cap_masks_interaction (test_features.FeaturesTests.test_cap_masks_interaction) ... ok
+test_empty_farm (test_features.FeaturesTests.test_empty_farm) ... ok
+test_final_day_masks (test_features.FeaturesTests.test_final_day_masks) ... ok
+test_hour23_unavailable (test_features.FeaturesTests.test_hour23_unavailable) ... ok
+test_ignored_outcomes_and_private (test_features.FeaturesTests.test_ignored_outcomes_and_private) ... ok
+test_missing_worker (test_features.FeaturesTests.test_missing_worker) ... ok
+test_mutation (test_features.FeaturesTests.test_mutation) ... ok
+test_nearest_workers (test_features.FeaturesTests.test_nearest_workers) ... ok
+test_no_fertilizer_complement (test_features.FeaturesTests.test_no_fertilizer_complement) ... ok
+test_other_farm_private_ignored (test_features.FeaturesTests.test_other_farm_private_ignored) ... ok
+test_schema (test_features.FeaturesTests.test_schema) ... ok
+test_two_night_survival_buffer (test_features.FeaturesTests.test_two_night_survival_buffer) ... ok
+test_unbounded_worker_count (test_features.FeaturesTests.test_unbounded_worker_count) ... ok
+test_urgent_deadline (test_features.FeaturesTests.test_urgent_deadline) ... ok
+test_failed_stage_cannot_retry (test_notebook.NotebookAndSafetyTests.test_failed_stage_cannot_retry) ... ok
+test_initial_review_plots (test_notebook.NotebookAndSafetyTests.test_initial_review_plots) ... ok
+test_notebook_sources_compile (test_notebook.NotebookAndSafetyTests.test_notebook_sources_compile) ... ok
+test_notebook_structure (test_notebook.NotebookAndSafetyTests.test_notebook_structure) ... ok
+test_runtime_modules_compile (test_notebook.NotebookAndSafetyTests.test_runtime_modules_compile) ... ok
+test_both_players (test_shadow.ShadowTests.test_both_players) ... ok
+test_buy_seed (test_shadow.ShadowTests.test_buy_seed) ... ok
+test_extra_hand_refused (test_shadow.ShadowTests.test_extra_hand_refused) ... ok
+test_hire_cash (test_shadow.ShadowTests.test_hire_cash) ... ok
+test_inputs_not_mutated (test_shadow.ShadowTests.test_inputs_not_mutated) ... ok
+test_land_cash (test_shadow.ShadowTests.test_land_cash) ... ok
+test_original_globals_unchanged (test_shadow.ShadowTests.test_original_globals_unchanged) ... ok
+test_sales_actual_not_request (test_shadow.ShadowTests.test_sales_actual_not_request) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 1.937s
+
+OK

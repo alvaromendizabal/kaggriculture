@@ -1,0 +1,51 @@
+{
+  "experiment": "water-maintenance-deferral-v1",
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "active_days_zero_indexed": [
+    20,
+    21
+  ],
+  "eligible_observation_days_zero_indexed": [
+    0,
+    28
+  ],
+  "screen_sampling": "hours 0,6,12,18 each day 0..28 plus all hours on days 20 and 21",
+  "screen_states": 468,
+  "screen_source_keys": [
+    [
+      1601,
+      0
+    ],
+    [
+      1601,
+      1
+    ],
+    [
+      1602,
+      0
+    ]
+  ],
+  "selection": "First source by seed/seat with any within-window action change; never by observed reward",
+  "screen_cap_seconds": 120,
+  "pilot_cap_seconds": 180,
+  "callback_cap_ms": 500,
+  "max_primary_pairs": 1,
+  "prefix_transitions_per_branch": 480,
+  "suffix_transitions_per_branch": 239,
+  "max_interpreter_transitions": 1438,
+  "full_seasons_recomputed_from_policy": 0,
+  "change": "Only the not-watered WATER-job eligibility predicate in an in-memory pinned FeedPolicy fork",
+  "null_control": "Exact same-state null-fork versus original action equality on every screen/pilot callback",
+  "endpoint_control": "Reference trajectory reproduces recorded source through step 718 and notebook10 final rewards",
+  "primary_metrics": [
+    "local_match_score",
+    "coin_margin",
+    "coins"
+  ],
+  "conservative_stop": "Stop if any of own cash, coin margin, or local match score decreases; report tradeoffs explicitly",
+  "parameter_tuning": false,
+  "validation_or_holdout_allowed": false,
+  "automatic_scaleup": false,
+  "new_feature_promotion": "Not on one pair; future independent groups and distinct opponents required",
+  "representation": "30 per-plant descriptors and 11 summaries; several are existing primitives, not all novel"
+}

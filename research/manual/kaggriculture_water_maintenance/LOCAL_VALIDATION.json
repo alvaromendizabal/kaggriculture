@@ -1,0 +1,51 @@
+{
+  "created_at_utc": "2026-09-12T01:10:29.714027+00:00",
+  "local_unit_tests": {
+    "tests": 63,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_seconds": 4.72
+  },
+  "synthetic_notebook": {
+    "executed_code_cells": 15,
+    "plotly_outputs": 8,
+    "error_outputs": 0,
+    "live_notebook_unexecuted": true,
+    "validation_mode": "Modified notebook with explicitly synthetic stage reports; official engine, checkpoint loading, and AWS stage runner not executed."
+  },
+  "visual_rendering": {
+    "rendered_plotly_elements": 8,
+    "browser_page_errors": [],
+    "source": "Synthetic reporting validation only; HTML loaded via set_content"
+  },
+  "previous_dependency_gate": {
+    "prior_result_gate": "PASSED",
+    "source": "Reconstructed copies of returned notebook11 artifacts and original local packages; no AWS claim.",
+    "code_sha256": "237120a8e7798ffc85e940ce7fa08b316503f178756a472e4f6f5b0eec90b980",
+    "decision": "STOP_NEGATIVE_ENDPOINT"
+  },
+  "live_official_engine_tested_here": false,
+  "private_source_episodes_executed_here": false,
+  "aws_resources_changed": false,
+  "github_committed_pushed_or_merged": false,
+  "artifact_publication_status": "Downloadable manual package only",
+  "new_official_submission_score": null,
+  "limitations": [
+    "Local crop checks use explicit artificial fixtures and a separate lightweight oracle, not the installed Kaggle package.",
+    "Local replay/evaluator tests use a toy environment. Mandatory AWS replay, source reproduction, engine parity, and actual callback timing have not been executed here.",
+    "Synthetic notebook overrides the live stage invocation; its example endpoint numbers are not measurements of the user agent.",
+    "Prior result review uses actual uploaded bytes; no comparable leaderboard score was present.",
+    "Inherited callback domain remains at most three hired hands on either farm."
+  ],
+  "delivery_validation": {
+    "fresh_extraction_tests": 63,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "manifest": "Every listed hash verified in extracted ZIP",
+    "live_notebook_code_cells": 15,
+    "live_notebook_error_outputs": 0,
+    "live_notebook_execution": "intentionally unexecuted"
+  }
+}

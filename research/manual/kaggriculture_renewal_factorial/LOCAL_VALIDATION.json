@@ -1,0 +1,49 @@
+{
+  "utc": "2026-09-12T22:19:30.245594+00:00",
+  "local_python": "3.13 (user runtime remains pinned 3.12)",
+  "unit_tests": {
+    "run": 54,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "pipeline_cases": {
+    "no_activation": {
+      "screen_observations": 527,
+      "new_transitions": 0,
+      "method": "full_control_path_action_identity_no_new_transitions",
+      "passed": true
+    },
+    "activated": {
+      "screen_observations": 527,
+      "new_transitions": 719,
+      "method": "one_new_responsive_continuation",
+      "passed": true
+    }
+  },
+  "reporting_notebook": {
+    "modified_for_synthetic_testing": true,
+    "executed_code_cells": 8,
+    "error_outputs": 0,
+    "plotly_outputs": 8
+  },
+  "prior_input_validation": {
+    "bundle_hash_entries": 30,
+    "notebook15_source_code_sha256": "4f86efe673d4ada249dc1875e2b056fc68982277dc7472cd50be60175c941fe4",
+    "all_three_prior_checkpoint_semantic_checks": true
+  },
+  "scope": {
+    "new_real_private_episode_experiment_run": false,
+    "aws_resources_changed": false,
+    "github_updated": false,
+    "official_submission_made": false,
+    "full_installed_engine_locally_available": false,
+    "live_notebook_delivered_unexecuted": true
+  },
+  "limitations": [
+    "Local trajectory/driver tests use explicit toy environments, not Kaggriculture outcomes.",
+    "The attributed official crop-refresh excerpt is tested locally; installed-engine AST/hash/component checks remain mandatory on AWS.",
+    "The modified reporting notebook reads artificial new-stage reports and does not execute AWS.",
+    "The runtime preflight was reviewed and source hashes verified where uploaded; no live AWS preflight was run in this chat."
+  ]
+}

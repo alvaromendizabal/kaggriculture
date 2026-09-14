@@ -1,0 +1,16 @@
+{
+  "input_zip": "kaggriculture_terminal_ablation_results.zip",
+  "input_zip_sha256": "b5b48cc281481b1688be95ffa3628422d1e1b6bb189e4475ced0ef4683c2904d",
+  "report_sha256": "ad00f32aad2420411cfca59b24aed9d1c2497fa988377047cd2aa5c8743aba66",
+  "bundle_hashes_verified": 29,
+  "all_bundle_hashes_passed": true,
+  "code_cells_executed": 14,
+  "notebook_error_outputs": 0,
+  "latest_run_decision": "STOP_NEGATIVE_TERMINAL_EFFECT",
+  "branch_hashes": {
+    "checkpoints/c3c1b698f20aad8101da-aligned.json.gz": "819b03a7cddc27fa26914072d326e2d4a993afe9aaae5df06dd5c1ee94a4874a",
+    "checkpoints/c3c1b698f20aad8101da-control.json.gz": "8eb0214d6b84698012240494e11d3548c3f1080a9e11ff54398d7ae96aa8ea6d"
+  },
+  "historical_failures": "failure.json and failure_worker.json dated 23:37 UTC predate the successful 23:58 UTC report; retained, not current failures.",
+  "github_main_verified": "7194116dfc92a8663139611233b5a221dad431a4"
+}

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "outputs/cash.csv": "339b7157ad48788bad08a68bdece25848cf29434a89126f50d867cab2621d17a",
+    "outputs/cash_decomposition.csv": "bb40bc5cf244b0f07f690a003984a71f6a9d2a91f2276c4d53f2ced83520ff83",
+    "outputs/checkpoints/control.json.gz": "71f2875cdc5f663a04789a1d17b90f4cad7ecc45e43a7bd7030a95356776a92a",
+    "outputs/checkpoints/defer.json.gz": "e1f19bc3adafd377515831f692a4866afcf45fad36e21f97c1dc5c77fca06349",
+    "outputs/crop_event_summary.csv": "239764d3cd452e5fad33a1a17592b43f79708f3bbdf0aff2f50bb15ddb8288dd",
+    "outputs/crop_events.csv.gz": "dbc33e78ca5926ea1b8a1b91f90dce0ec42322eab59e2ff43dbf2347f8219b41",
+    "outputs/crop_features.csv.gz": "a9a7a5c5e6dd24f3a73ff6f2bfe8ff425c08da47ff14ece7cfb64a00d589b21f",
+    "outputs/events.jsonl": "0d790f6d2aa1bceac0373b4879dcc3d72f0c2a300b34f5df38af74a91ad2ce54",
+    "outputs/feature_registry.csv": "0bb185deb2e424ff44f943a469408abdf06ccde9474b1210a2f388e5c889e3f9",
+    "outputs/maintenance_diagnosis_dashboard.html": "ba69f776efae2c6005786f15b6fdaf94d304c7e871246d00e2589b6ab0733f4b",
+    "outputs/mechanics.json": "c1aee6368a8a90e16459edeca0a7d98405468d53c63d23b284961ca371b2820b",
+    "outputs/notebook_console.txt": "17c92552d6996e8938fda8802eb26fdaef9c0f7203e8c44448c430e706902c8a",
+    "outputs/notebook_review.json": "66e9adf89d17a07688b5ab41996907a4e7d65dce1018797e4dcd37fd8f4c0798",
+    "outputs/preflight.json": "065e06a8a85ee7b6de41e4f225686a0c6bc2781733d1d3b057ca0669d66b5745",
+    "outputs/report.json": "b37699a64e26d3740564324e2740b2737bbc72e4a30dc2686c8e2e25a5444a59",
+    "outputs/state_features.csv": "97b609b4b080ef97682263853508ebf27e6e8a9cfd496c7d374e2e523221d551",
+    "outputs/status.json": "97efd0966718d0a2e2b6c8e05fad673ec795b8b38416a102f798006efec8337b",
+    "outputs/tests.json": "fbf6ba6ffc1622167838496bd77d3e815fb9be7d5f54cc8ece660a2d2db87749",
+    "outputs/trades.csv.gz": "f150bbac65500221813d22bdd5493d57c4b005fb1341357cbf456cdc15259381",
+    "13_maintenance_loss_and_interaction_features.ipynb": "33133bf00caa6c435ac32304d9cfb5eace357990290356f001fe8b19d468f5c2",
+    "PROTOCOL.json": "b4f31de3ebe49e327f3ca67b97cbb8cb95e9cc16cce12730825e0e6c52ba67d4",
+    "LOCAL_VALIDATION.json": "0ff60a1f1e5494a37df75b4cf09f00866549885de75bcd8f38b76e0dda3367e6"
+  },
+  "source_zip_sha256": "f37a32e4eabe96ef61f8379502d2be91cdcc40e951a4a03721f9863894842e87"
+}

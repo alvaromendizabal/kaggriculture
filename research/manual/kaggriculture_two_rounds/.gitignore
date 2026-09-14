@@ -1,0 +1,4 @@
+outputs/
+__pycache__/
+*.pyc
+kaggriculture_two_rounds_results.zip

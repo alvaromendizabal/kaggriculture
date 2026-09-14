@@ -1,0 +1,36 @@
+{
+  "action_changes": 355,
+  "candidate_callback_max_ms": 19.058706995565444,
+  "cloud_resources_modified": false,
+  "code_sha256": "00739dd73033df97b97e64ea49a6a7d442d8c29c49d0f90f23f6e0972a9412b2",
+  "decision": "REVIEW_REQUIRED_BEFORE_GAMES",
+  "elapsed_seconds": 62.24009190997458,
+  "feature_engineering_complete": false,
+  "fingerprint": "f097e8f954f4cfaf13a5e1edc348e166bb9d4e9b2e864c238e957d094f1f5941",
+  "github_updated": false,
+  "models_fit": 0,
+  "new_games": 0,
+  "observations": 957,
+  "official_metric_effect_measured": false,
+  "official_submission_score": null,
+  "output_sha256": {
+    "feature_registry.csv": "2bacc26c386af363c6f0360f6127f569ec903cd10bc60238b46e5722d6d9121c",
+    "mechanics.json": "601af5cf446468dd60a27fbcd28d170a8131e3cec454ecd4dcd82d67a5528c00",
+    "states.csv": "057d71d98a8092b9d2c1d981d700d3e7e0c24ab113264591b0caf1d1c42ef753",
+    "task_features.csv.gz": "6124e588233e4ad356da6577eae81d616eaebf4552eae998b30e2cff929abf4e"
+  },
+  "round": "19",
+  "state_descriptors": 12,
+  "status": "FEATURE_SCREEN_COMPLETE",
+  "task_descriptors": 32,
+  "task_rows": 19393,
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "seconds": 0.051507177005987614,
+    "skipped": 0,
+    "tests": 64
+  },
+  "utc": "2026-09-13T00:11:04.764646+00:00",
+  "validation_or_holdout_used": false
+}

@@ -1,0 +1,32 @@
+{
+  "scope": "LOCAL_TESTS_AND_REPORTING_ONLY_NOT_AWS_OR_INSTALLED_ENGINE_EXECUTION",
+  "created_at_utc": "2026-09-12T03:18:05.371695+00:00",
+  "tests": 72,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "source13_code_hash_matches_returned_report": true,
+  "previous_result_and_dependencies_verified_on_reconstructed_uploaded_files": true,
+  "notebook_code_cells": 10,
+  "all_notebook_cells_syntax_checked": true,
+  "shipped_live_notebook_executed": false,
+  "plotly_figures_checked": 10,
+  "prior_actual_evidence_figures": 2,
+  "synthetic_new_stage_figures": 8,
+  "no_activation_reporting_path_checked": true,
+  "stage_driver_test": "Screen, reactive toy paired suffix, control parity, cached branch reuse, no-activation skip",
+  "pricing_test": "Independent adapter with inspected default numeric curves; real engine gate still mandatory",
+  "mandatory_AWS_checks": [
+    "405 marginal-sale comparisons and 189 demand phase comparisons using installed official functions",
+    "156 archived-observation action checks",
+    "Full paired continuation and local callback timing if activated"
+  ],
+  "not_performed": [
+    "No AWS execution or resource changes",
+    "No real Kaggriculture new endpoint result",
+    "No hosted Kaggle submission",
+    "No repository push, commit, or merge",
+    "No browser-rendering claim"
+  ],
+  "source_code_sha256": "9c3f9bacddb3f94f97c610fa0eb17ea71a274b55d5db249df691ca40257afe1e"
+}

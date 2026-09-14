@@ -1,0 +1,10 @@
+{
+  "notebook08": {
+    "callback.py": "f887fe63d3e797bfedef2254c2b208887569af2e19871010216d5565bc1d82cf",
+    "cash_features.py": "c7e5149788287bc8ed7cfbdd0167188a65baa143d2565767b1bd5efde25f521f",
+    "run_cash.py": "8afebc7967d412ecb64ccc54603b2aab00a61ee126772b4a7363b3f11f0dbc12"
+  },
+  "notebook09": {
+    "continuation.py": "c9172c5edc94858c973f71c29f57605cccaccc46c004c1d6af9b9d4d2744411c"
+  }
+}

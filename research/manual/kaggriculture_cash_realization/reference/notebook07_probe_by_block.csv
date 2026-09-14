@@ -1,0 +1,11 @@
+seed,opponent,arm,observed_episodes,mean_episode_action_change_fraction
+1601,livestock_fertilizer,full,4,0.0
+1601,livestock_fertilizer,no_capacity,4,0.0
+1601,livestock_fertilizer,no_deadline,4,0.0
+1601,livestock_fertilizer,no_decay,4,0.0
+1601,livestock_fertilizer,no_price_impact,4,0.0
+1602,livestock_fertilizer,full,3,0.0
+1602,livestock_fertilizer,no_capacity,3,0.0
+1602,livestock_fertilizer,no_deadline,3,0.07364341085271318
+1602,livestock_fertilizer,no_decay,3,0.0
+1602,livestock_fertilizer,no_price_impact,3,0.0

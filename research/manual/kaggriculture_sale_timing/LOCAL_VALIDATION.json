@@ -1,0 +1,28 @@
+{
+  "scope": "LOCAL UNIT / SYNTHETIC DRIVER / ACTUAL RETURNED EVIDENCE REVIEW",
+  "unit_tests": 70,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "actual_returned_bundle_hashes_verified": 29,
+  "actual_nb09_ledger_reconciled": true,
+  "prior_dependency_and_receipt_verification_tested_on_reconstructed_uploaded_files": true,
+  "synthetic_episode_comparisons": 7,
+  "synthetic_notebook_cells_executed": 13,
+  "synthetic_notebook_plotly_outputs": 7,
+  "synthetic_notebook_errors": 0,
+  "delivered_live_notebook_executed": false,
+  "official_engine_installed_locally": false,
+  "aws_private_episode_run_executed_here": false,
+  "new_competition_score": null,
+  "github_updated": false,
+  "aws_resources_modified": false,
+  "test_environment_python": "3.13.5",
+  "limitations": [
+    "The driver tests use explicitly labeled actor and transition doubles. They do not certify hosted performance or the real pinned engine.",
+    "Live engine checks, source episode action/reward parity, actual callback limits, and outcome ablations remain mandatory in AWS.",
+    "Two development-stage test expectations initially assumed 2*headline quote; tests caught 49 vs 50 and now assert exact 25/24 unit prices. Runtime mechanics use price-aware expectations.",
+    "No synthetic output is included as a notebook10 research result."
+  ],
+  "utc": "2026-09-12T00:10:18.947980+00:00"
+}

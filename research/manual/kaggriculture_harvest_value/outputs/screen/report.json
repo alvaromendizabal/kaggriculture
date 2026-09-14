@@ -1,0 +1,48 @@
+{
+  "action_changes": 0,
+  "candidate_callback_max_ms": 33.08584199112374,
+  "cloud_resources_modified": false,
+  "code_sha256": "9c3f9bacddb3f94f97c610fa0eb17ea71a274b55d5db249df691ca40257afe1e",
+  "decision": "STOP_NO_ACTION_ACTIVATION",
+  "elapsed_seconds": 11.529806107006152,
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "feature_engineering_complete": false,
+  "fingerprint": "683a5efbff105a6f7d49ea20722d1f8c4b900f484e680116c0199793864245b4",
+  "github_updated": false,
+  "independent_seed_blocks": 2,
+  "limitations": [
+    "Known development sources; turns and both seats are not independent samples.",
+    "Marginal liquidation assumes existing shed stock is sold first, no opponent trades, no travel or price forecast.",
+    "Live intervention only on zero-indexed days 20 and 21; other observations test unchanged behavior.",
+    "No official leaderboard score; inherited <=3-hands callback domain remains."
+  ],
+  "models_fit": 0,
+  "new_episode_transitions": 0,
+  "null_action_checks": 156,
+  "observations": 156,
+  "official_mechanics_fixtures": 594,
+  "official_metric_effect_measured": false,
+  "official_submission_score": null,
+  "output_sha256": {
+    "mechanics.json": "ffaa1492d1a3c121dd7199874d1b729c9c96917ebfc0f9ca387b2ccecde63592",
+    "screen/feature_registry.csv": "8cc45eefe699cd14414f39b33af47c38584ed3faab1932fc80b3005b9e683ce4",
+    "screen/states.csv": "8313d7833222b6d0a4585184989c59cb6f43146d3a96ff5a2aed6ada38228801",
+    "screen/task_features.csv.gz": "675b40eb512fa47ef5a8cf17021a5d809c21edf14eae28e8c85a84c0a9e8abb5"
+  },
+  "plant_descriptors": 19,
+  "selected_key": null,
+  "source_action_checks": 156,
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "source_episodes": 3,
+  "state_descriptors": 8,
+  "status": "HARVEST_VALUE_SCREEN_COMPLETE",
+  "task_rows": 287,
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 72
+  },
+  "utc": "2026-09-12T03:32:40.291354+00:00",
+  "validation_or_holdout_used": false
+}

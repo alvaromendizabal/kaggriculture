@@ -1,0 +1,76 @@
+test_actor_error_not_swallowed (test_experiment.DriverTests.test_actor_error_not_swallowed) ... ok
+test_control_wrong_expected_endpoint_rejected (test_experiment.DriverTests.test_control_wrong_expected_endpoint_rejected) ... ok
+test_live_state_propagation_both_seats (test_experiment.DriverTests.test_live_state_propagation_both_seats) ... ok
+test_sequential_no_change (test_experiment.DriverTests.test_sequential_no_change) ... ok
+test_incomplete (test_experiment.ExperimentTests.test_incomplete) ... ok
+test_latency_rejection_saved_first (test_experiment.ExperimentTests.test_latency_rejection_saved_first) ... ok
+test_missing_control_reproduction (test_experiment.ExperimentTests.test_missing_control_reproduction) ... ok
+test_mutation_rejected (test_experiment.ExperimentTests.test_mutation_rejected) ... ok
+test_negative (test_experiment.ExperimentTests.test_negative) ... ok
+test_negative_control_failure (test_experiment.ExperimentTests.test_negative_control_failure) ... ok
+test_negative_control_zero (test_experiment.ExperimentTests.test_negative_control_zero) ... ok
+test_no_activation (test_experiment.ExperimentTests.test_no_activation) ... ok
+test_no_benefit (test_experiment.ExperimentTests.test_no_benefit) ... ok
+test_nonfinite_latency (test_experiment.ExperimentTests.test_nonfinite_latency) ... ok
+test_outcomes_separate_from_agent (test_experiment.ExperimentTests.test_outcomes_separate_from_agent) ... ok
+test_partial_not_scored (test_experiment.ExperimentTests.test_partial_not_scored) ... ok
+test_positive (test_experiment.ExperimentTests.test_positive) ... ok
+test_unpaired (test_experiment.ExperimentTests.test_unpaired) ... ok
+test_wrong_branch (test_experiment.ExperimentTests.test_wrong_branch) ... ok
+test_arbitrary_feasible_incumbent_never_lost (test_features.FeatureTests.test_arbitrary_feasible_incumbent_never_lost) ... ok
+test_budget_matches_original (test_features.FeatureTests.test_budget_matches_original) ... ok
+test_complementary_alternative_admitted (test_features.FeatureTests.test_complementary_alternative_admitted) ... ok
+test_control_never_changes_commands (test_features.FeatureTests.test_control_never_changes_commands) ... ok
+test_direct_deposit_protected (test_features.FeatureTests.test_direct_deposit_protected) ... ok
+test_direct_does_not_add_ninth_active (test_features.FeatureTests.test_direct_does_not_add_ninth_active) ... ok
+test_enumeration_no_mutation (test_features.FeatureTests.test_enumeration_no_mutation) ... ok
+test_equal_static_key_keeps_original_commands (test_features.FeatureTests.test_equal_static_key_keeps_original_commands) ... ok
+test_generation_safety_cap_not_silent_pruning (test_features.FeatureTests.test_generation_safety_cap_not_silent_pruning) ... ok
+test_invalid_incumbent (test_features.FeatureTests.test_invalid_incumbent) ... ok
+test_invalid_limit (test_features.FeatureTests.test_invalid_limit) ... ok
+test_misaligned (test_features.FeatureTests.test_misaligned) ... ok
+test_missed_deadline (test_features.FeatureTests.test_missed_deadline) ... ok
+test_missing_pass (test_features.FeatureTests.test_missing_pass) ... ok
+test_no_mutation (test_features.FeatureTests.test_no_mutation) ... ok
+test_no_preterminal_study (test_features.FeatureTests.test_no_preterminal_study) ... ok
+test_non_product_not_deposited (test_features.FeatureTests.test_non_product_not_deposited) ... ok
+test_opponent_workforce_also_checked (test_features.FeatureTests.test_opponent_workforce_also_checked) ... ok
+test_opportunity_regret (test_features.FeatureTests.test_opportunity_regret) ... ok
+test_original_sort (test_features.FeatureTests.test_original_sort) ... ok
+test_pass_incumbent_preserved (test_features.FeatureTests.test_pass_incumbent_preserved) ... ok
+test_pass_is_appended (test_features.FeatureTests.test_pass_is_appended) ... ok
+test_same_resource_never_collected_twice (test_features.FeatureTests.test_same_resource_never_collected_twice) ... ok
+test_schema (test_features.FeatureTests.test_schema) ... ok
+test_shed_room (test_features.FeatureTests.test_shed_room) ... ok
+test_two_tasks_and_routes_present (test_features.FeatureTests.test_two_tasks_and_routes_present) ... ok
+test_unsupported_mode (test_features.FeatureTests.test_unsupported_mode) ... ok
+test_worker_alignment (test_features.FeatureTests.test_worker_alignment) ... ok
+test_workforce_reject_not_truncate (test_features.FeatureTests.test_workforce_reject_not_truncate) ... ok
+test_atomic_read (test_io.IOTests.test_atomic_read) ... ok
+test_corrupt (test_io.IOTests.test_corrupt) ... ok
+test_do_not_overwrite (test_io.IOTests.test_do_not_overwrite) ... ok
+test_lineage (test_io.IOTests.test_lineage) ... ok
+test_missing_is_not_success (test_io.IOTests.test_missing_is_not_success) ... ok
+test_nan_rejected (test_io.IOTests.test_nan_rejected) ... ok
+test_outputs_not_source_code (test_io.IOTests.test_outputs_not_source_code) ... ok
+test_path_escape (test_io.IOTests.test_path_escape) ... ok
+test_roundtrip (test_io.IOTests.test_roundtrip) ... ok
+test_source_change_invalidates (test_io.IOTests.test_source_change_invalidates) ... ok
+test_bad_report_hash_not_reused (test_runner.RunnerTests.test_bad_report_hash_not_reused) ... ok
+test_failure_bundle (test_runner.RunnerTests.test_failure_bundle) ... RESULTS_BUNDLE: /tmp/tmperxg72tt/kaggriculture_route_opportunity_results.zip
+ok
+test_no_symlink_bundling (test_runner.RunnerTests.test_no_symlink_bundling) ... RESULTS_BUNDLE: /tmp/tmpa3fxtzhf/kaggriculture_route_opportunity_results.zip
+ok
+test_prior_failure_never_restarted (test_runner.RunnerTests.test_prior_failure_never_restarted) ... ok
+test_prior_running_never_duplicated (test_runner.RunnerTests.test_prior_running_never_duplicated) ... ok
+test_verified_completion_reused (test_runner.RunnerTests.test_verified_completion_reused) ... {"utc": "2026-09-12T00:36:05.401678+00:00", "stage": "VERIFIED_STAGE_REUSED", "name": "screen", "decision": "STOP_NO_ACTION_ACTIVATION"}
+ok
+test_dashboard_is_self_contained (test_visuals.PlotTests.test_dashboard_is_self_contained) ... ok
+test_no_activation_plot (test_visuals.PlotTests.test_no_activation_plot) ... ok
+test_no_routes_plot (test_visuals.PlotTests.test_no_routes_plot) ... ok
+test_positive_pilot_plots (test_visuals.PlotTests.test_positive_pilot_plots) ... ok
+
+----------------------------------------------------------------------
+Ran 68 tests in 0.665s
+
+OK

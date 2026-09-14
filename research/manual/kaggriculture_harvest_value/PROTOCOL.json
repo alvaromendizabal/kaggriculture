@@ -1,0 +1,20 @@
+{
+  "milestone": 14,
+  "hypothesis": "Nonlinear marginal revenue after current same-product shed stock is a better HARVEST priority input than quote times lot quantity.",
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "active_days_zero_indexed": [20,21],
+  "source_groups": [[1601,0],[1601,1],[1602,0]],
+  "screen_steps": "480..527 inclusive, plus 479,528,695,696 for unchanged-window checks",
+  "pilot_selection": "lexicographically first activated seed/seat; never by reward",
+  "screen_cap_seconds": 90,
+  "pilot_cap_seconds": 180,
+  "pilot_pairs_max": 1,
+  "callback_cap_ms": 500,
+  "prefix_steps_per_branch": 480,
+  "suffix_steps_per_branch": 239,
+  "treatment": "replace two HARVEST value multiplications only",
+  "unchanged": ["WATER eligibility", "job priority constants", "distance penalty", "market rule", "hiring", "layout", "route allocator", "final-callback sale alignment"],
+  "status": "exploratory_development_protocol_not_preregistered_independent_validation",
+  "holdout_access": false,
+  "automatic_expansion": false
+}
