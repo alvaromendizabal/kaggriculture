@@ -1,0 +1,2717 @@
+{
+  "files": [
+    {
+      "bytes": 4620503,
+      "path": "notebooks/00_research_overview.ipynb",
+      "sha256": "b88082fbf2c06e02fc61920734da75d3a70da0fd0100cdd48c004550f0605894"
+    },
+    {
+      "bytes": 118818,
+      "path": "research/PUBLICATION_MANIFEST.json",
+      "sha256": "ec9b28bcf5f6bf4f3480bbea1b82b10212224a5e5efb64849377840ad9e5a207"
+    },
+    {
+      "bytes": 89,
+      "path": "research/manual/.gitattributes",
+      "sha256": "ce6fe03e8d03ae1d0d7a5e369725e345bf60f759b6786d206a019afc16bfcaa8"
+    },
+    {
+      "bytes": 280,
+      "path": "research/manual/conftest.py",
+      "sha256": "d99550342b8c0aa831cabe9585eb32482eb55f28e945781dd3a4eb065ea9c212"
+    },
+    {
+      "bytes": 89,
+      "path": "research/manual/kaggriculture_action_features/.gitignore",
+      "sha256": "af706bcf5c55fa0aa7d34d12b2923dc2b32a8c7744703c435754202a5bd542e3"
+    },
+    {
+      "bytes": 597565,
+      "path": "research/manual/kaggriculture_action_features/07_action_opportunity_features.ipynb",
+      "sha256": "3c46b22da778035eb80b6e74b1c41825832c77b48ce4c41c2b727607aaff5ce3"
+    },
+    {
+      "bytes": 11004,
+      "path": "research/manual/kaggriculture_action_features/FEATURE_RESEARCH.md",
+      "sha256": "3dbc541eeddac6fc1cea5d2732ea0964fc45b335db8d548e1f019595ca3fd4f6"
+    },
+    {
+      "bytes": 2263,
+      "path": "research/manual/kaggriculture_action_features/LOCAL_VALIDATION.json",
+      "sha256": "4655c0d5ea5c91fffe4b646a1d371e3e77af6ddf942208ecf31b594bdd0b611c"
+    },
+    {
+      "bytes": 2831,
+      "path": "research/manual/kaggriculture_action_features/PACKAGE_MANIFEST.json",
+      "sha256": "816a77bea78a62f1dd4837fd71237e3daeedd6adb292fa821afdea11ea8773b1"
+    },
+    {
+      "bytes": 2639,
+      "path": "research/manual/kaggriculture_action_features/PROGRESS_REVIEW.md",
+      "sha256": "f3de8bafead100c2844fb02e7d7c8b64b09327d8c8f06eafacf40f5ed176d650"
+    },
+    {
+      "bytes": 6698,
+      "path": "research/manual/kaggriculture_action_features/START_HERE.md",
+      "sha256": "dcbc81b6cfdce1c863a3a87a41beab1a71358767efaaed9b675b864adfb5a62c"
+    },
+    {
+      "bytes": 12140,
+      "path": "research/manual/kaggriculture_action_features/feature_dictionary.json",
+      "sha256": "9cbde1fb14c83b439b40ac8b2e7a7969268e0f9b7cef551a78b9bda53cf11e7a"
+    },
+    {
+      "bytes": 15315,
+      "path": "research/manual/kaggriculture_action_features/opportunity_features.py",
+      "sha256": "c0c732793db79d907e3b8b9e5e0a32585af79b42f621ffaf495580ebf001e810"
+    },
+    {
+      "bytes": 2591,
+      "path": "research/manual/kaggriculture_action_features/outputs/feature_registry.csv",
+      "sha256": "d112515e2b798cf93d09d75ebcbdc50f013e46983b4d7c4d4795860402f8490b"
+    },
+    {
+      "bytes": 3245,
+      "path": "research/manual/kaggriculture_action_features/outputs/report.json",
+      "sha256": "8cbefd1655d6a9565588262e6cdabc9f42df9af1e72411e8a6a68d82bdbe089d"
+    },
+    {
+      "bytes": 66,
+      "path": "research/manual/kaggriculture_action_features/outputs/tests.json",
+      "sha256": "375dc469aac7a4ee8f68c94f7265ba1b5a8cc7f1b4ecfc795efe6d90b99433d0"
+    },
+    {
+      "bytes": 6356,
+      "path": "research/manual/kaggriculture_action_features/reference/local_tests.txt",
+      "sha256": "a3a9f55972505359a3126452d701308df7795abc8fc6d6ea7dd02c8a34c0bfbe"
+    },
+    {
+      "bytes": 465,
+      "path": "research/manual/kaggriculture_action_features/reference/notebook_smoke.json",
+      "sha256": "7bdddc22ba4dcc2f75ff5593c4fb2738591140e3eda059387144d7f926f477db"
+    },
+    {
+      "bytes": 464,
+      "path": "research/manual/kaggriculture_action_features/reference/previous_code_manifest.json",
+      "sha256": "b540f8a4e8d8c17c458ea42b9c0556226adeb1594e5c7c04884114d0feebdc64"
+    },
+    {
+      "bytes": 653,
+      "path": "research/manual/kaggriculture_action_features/reference/upload_review.json",
+      "sha256": "411af4dedfd86f4214509cfb445407fc461ce139229673fd136ee05f2032039d"
+    },
+    {
+      "bytes": 26873,
+      "path": "research/manual/kaggriculture_action_features/run_next.py",
+      "sha256": "d508913c661d5062b71da1c92acd334ea4bd2265b31dcaee5044d82f05e828ac"
+    },
+    {
+      "bytes": 1495,
+      "path": "research/manual/kaggriculture_action_features/tests/fixtures.py",
+      "sha256": "0635b8f963e484f36d3a93ec9ffb57926b65e6328e6cc5d370aee958891471c1"
+    },
+    {
+      "bytes": 9537,
+      "path": "research/manual/kaggriculture_action_features/tests/test_opportunity.py",
+      "sha256": "c70901e906bd05c770177924946afafd2776b4fabb190f9a590b213e29a79f6b"
+    },
+    {
+      "bytes": 6723,
+      "path": "research/manual/kaggriculture_action_features/tests/test_runner.py",
+      "sha256": "3dce14295314ae68d72a90b62e1a46a52a65532cb51f6ec96b76f7993c021cee"
+    },
+    {
+      "bytes": 3190,
+      "path": "research/manual/kaggriculture_action_features/tests/test_visuals.py",
+      "sha256": "d581eb8d678d0ca25097aea3dc9b078b6e211c66b5b8a09976c31d5060e8d2c8"
+    },
+    {
+      "bytes": 6030,
+      "path": "research/manual/kaggriculture_action_features/visualize.py",
+      "sha256": "6acc039b46f4118d1e74d1874c97b1aaf3c9e3a5adb6c8eaf9848c2cda164b74"
+    },
+    {
+      "bytes": 12986,
+      "path": "research/manual/kaggriculture_action_features/workforce_features.py",
+      "sha256": "6eaf08e6c17dd8bf408faa8ae200cb746c0dd95c6d1f4372518a9a790a4b4aab"
+    },
+    {
+      "bytes": 48,
+      "path": "research/manual/kaggriculture_cash_realization/.gitignore",
+      "sha256": "5c4636acbc838f66fe7d971b41099dfa71906254b03ac1a8c070049305354dc3"
+    },
+    {
+      "bytes": 195242,
+      "path": "research/manual/kaggriculture_cash_realization/08_post_action_cash_features.ipynb",
+      "sha256": "ae693c5513cdb65608f8e2ae0eba71cc5346b7bb020a724701305f3e1baf5697"
+    },
+    {
+      "bytes": 9461,
+      "path": "research/manual/kaggriculture_cash_realization/FEATURE_RESEARCH.md",
+      "sha256": "01908e0f9317f7101aaaebf632a02cb04f80eea26b669197929abe0c313d58a1"
+    },
+    {
+      "bytes": 1342,
+      "path": "research/manual/kaggriculture_cash_realization/LOCAL_VALIDATION.json",
+      "sha256": "f19b41f8469153457285451e341b2f075e6c32cc19cee0e56a282295d4c2c3a0"
+    },
+    {
+      "bytes": 2225,
+      "path": "research/manual/kaggriculture_cash_realization/PACKAGE_MANIFEST.json",
+      "sha256": "ddc24034bd44d27fe8d8388f3c4c0a6a47c6130655f23279c13917c025e24ea9"
+    },
+    {
+      "bytes": 7416,
+      "path": "research/manual/kaggriculture_cash_realization/START_HERE.md",
+      "sha256": "b62d11cf96f8f420a5245066ca4a219275f4eaf7dfdfbf614a36ef1aa91543d3"
+    },
+    {
+      "bytes": 4684,
+      "path": "research/manual/kaggriculture_cash_realization/callback.py",
+      "sha256": "f887fe63d3e797bfedef2254c2b208887569af2e19871010216d5565bc1d82cf"
+    },
+    {
+      "bytes": 8645,
+      "path": "research/manual/kaggriculture_cash_realization/cash_features.py",
+      "sha256": "c7e5149788287bc8ed7cfbdd0167188a65baa143d2565767b1bd5efde25f521f"
+    },
+    {
+      "bytes": 31812,
+      "path": "research/manual/kaggriculture_cash_realization/feature_dictionary.csv",
+      "sha256": "0bbac1310edb25f8d8716173fbca5f677ebb562169a7daceefa7b2fc81f487cd"
+    },
+    {
+      "bytes": 16784,
+      "path": "research/manual/kaggriculture_cash_realization/outputs/feature_registry.csv",
+      "sha256": "c963d01dc72849858fd737a29b7a0feadffbae8898d42597109f96ac43fc7dbd"
+    },
+    {
+      "bytes": 1871,
+      "path": "research/manual/kaggriculture_cash_realization/outputs/mechanics.json",
+      "sha256": "0dbbd927f47e1c145d9f25d9737abfc096b9cc2900c9b8eac7402067a700a13b"
+    },
+    {
+      "bytes": 3606,
+      "path": "research/manual/kaggriculture_cash_realization/outputs/report.json",
+      "sha256": "bc265741cf2ea295e3d45daedbeca7bdb71e82f8480e50cf6de59de36e31b769"
+    },
+    {
+      "bytes": 66,
+      "path": "research/manual/kaggriculture_cash_realization/outputs/tests.json",
+      "sha256": "847d8b5af53d73bb13a245e9cc6af474c6e3b7028f1f71a72196049e653bb741"
+    },
+    {
+      "bytes": 1464,
+      "path": "research/manual/kaggriculture_cash_realization/reference/input_review.json",
+      "sha256": "d24d1ee405a8f41ea44d977225ec5ef8b15af30f1ddf4cef620520102c751b91"
+    },
+    {
+      "bytes": 7740,
+      "path": "research/manual/kaggriculture_cash_realization/reference/local_test_log.txt",
+      "sha256": "4494279227e6b9199a91ca13e4d0bac5870e148298ad7d1dab41a8ec4d00e0c0"
+    },
+    {
+      "bytes": 516,
+      "path": "research/manual/kaggriculture_cash_realization/reference/notebook07_probe_by_block.csv",
+      "sha256": "7f12a97aca3afbba65b2019bf14c0dd5dd17ee550f34192326989878e4f004eb"
+    },
+    {
+      "bytes": 3063,
+      "path": "research/manual/kaggriculture_cash_realization/reference/notebook07_probe_by_episode.csv",
+      "sha256": "181f637fff062102baa247398e9f9d2330f4031c4716895c8181285f6bb59651"
+    },
+    {
+      "bytes": 3245,
+      "path": "research/manual/kaggriculture_cash_realization/reference/notebook07_report.json",
+      "sha256": "8cbefd1655d6a9565588262e6cdabc9f42df9af1e72411e8a6a68d82bdbe089d"
+    },
+    {
+      "bytes": 366,
+      "path": "research/manual/kaggriculture_cash_realization/reference/previous_code_manifest.json",
+      "sha256": "94efb69b9b2b0ac851ff928ed0f17dc32c2d3efd05bd92b80e879cb6eaa58d93"
+    },
+    {
+      "bytes": 29030,
+      "path": "research/manual/kaggriculture_cash_realization/run_cash.py",
+      "sha256": "8afebc7967d412ecb64ccc54603b2aab00a61ee126772b4a7363b3f11f0dbc12"
+    },
+    {
+      "bytes": 2909,
+      "path": "research/manual/kaggriculture_cash_realization/tests/fixtures.py",
+      "sha256": "d64ce3f2eef56cd9569b0c48ece78a8d13e79a76f280e5c444c6baa2595d749f"
+    },
+    {
+      "bytes": 4378,
+      "path": "research/manual/kaggriculture_cash_realization/tests/test_callback.py",
+      "sha256": "b62f5e2a891ba59d9a401820c86907c9962d67f51c91fdb5d7019fc40788eb84"
+    },
+    {
+      "bytes": 7360,
+      "path": "research/manual/kaggriculture_cash_realization/tests/test_cash.py",
+      "sha256": "0670b5b924a2f41c8785a07404f24a9d5e3aa752dd4ef689526fc99ac66da781"
+    },
+    {
+      "bytes": 3746,
+      "path": "research/manual/kaggriculture_cash_realization/tests/test_replay.py",
+      "sha256": "7f9a4539dfef115c01358bb93dbd41eafe208dca8d5ebd6212046be8abb89007"
+    },
+    {
+      "bytes": 5328,
+      "path": "research/manual/kaggriculture_cash_realization/tests/test_runner.py",
+      "sha256": "bd339f3e5234326e4c66fd3a15f76df20ab43e4932f2da67fdf5432e8897f947"
+    },
+    {
+      "bytes": 1930,
+      "path": "research/manual/kaggriculture_cash_realization/tests/test_visuals.py",
+      "sha256": "f93cb0ec86d6cf0c65bc6a58215addfaea2b5bff2b1a491ad7d79485b5e87fc0"
+    },
+    {
+      "bytes": 3866,
+      "path": "research/manual/kaggriculture_cash_realization/visualize.py",
+      "sha256": "40af774ba4a29bc80bd2478da1eb75740bac1247918ce94a6b289f4954c8256b"
+    },
+    {
+      "bytes": 48,
+      "path": "research/manual/kaggriculture_crop_lifecycle/.gitignore",
+      "sha256": "a054ec3e56c75407c5e8ae194e5d16deb9200df594811cbde758137b486d9f8b"
+    },
+    {
+      "bytes": 587713,
+      "path": "research/manual/kaggriculture_crop_lifecycle/15_crop_lifecycle_feature_ablation.ipynb",
+      "sha256": "020616a917017013b9581013d15bb3c818c8891bf0a55c736bd79dfcc94ecfba"
+    },
+    {
+      "bytes": 11358,
+      "path": "research/manual/kaggriculture_crop_lifecycle/APACHE-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "bytes": 6866,
+      "path": "research/manual/kaggriculture_crop_lifecycle/FEATURE_RESEARCH.md",
+      "sha256": "b5d24e9ac814a1ffec0da0355bc94964263ba6f4f7f56aa41c7b89882d878384"
+    },
+    {
+      "bytes": 1467,
+      "path": "research/manual/kaggriculture_crop_lifecycle/LOCAL_VALIDATION.json",
+      "sha256": "c7c059739130e106664d28577370c5632c0bcc95e0788274c831aa99c865195b"
+    },
+    {
+      "bytes": 3367,
+      "path": "research/manual/kaggriculture_crop_lifecycle/PACKAGE_MANIFEST.json",
+      "sha256": "54e2007272ffc6a573ac24bdde447d04a120645b164d4ae43c8e8fbb9d7d5410"
+    },
+    {
+      "bytes": 812,
+      "path": "research/manual/kaggriculture_crop_lifecycle/PROTOCOL.json",
+      "sha256": "28cf9953b862ce0fad89eda33fb826fd732b898a578818b70d20d32184566b43"
+    },
+    {
+      "bytes": 1909,
+      "path": "research/manual/kaggriculture_crop_lifecycle/RESULTS_REVIEW.md",
+      "sha256": "713dd572697a52a91bbf906010894576da98dfc1c3b7e0b97e68962972f0db22"
+    },
+    {
+      "bytes": 4057,
+      "path": "research/manual/kaggriculture_crop_lifecycle/START_HERE.md",
+      "sha256": "ff02cacf1220e0595fb50b9c2d80fe893d17c3ce371b53428ecf8092aae9813f"
+    },
+    {
+      "bytes": 485,
+      "path": "research/manual/kaggriculture_crop_lifecycle/THIRD_PARTY_NOTICES.md",
+      "sha256": "b07be222ca397c96becf0ce30eef9fe4c54dfa876ea0bd487c420781bb194530"
+    },
+    {
+      "bytes": 11921,
+      "path": "research/manual/kaggriculture_crop_lifecycle/feature_dictionary.csv",
+      "sha256": "1e55a0a0d61fe757e5dd4b8d759eb6bd56970b21798e564a80b204312ec3af5e"
+    },
+    {
+      "bytes": 9775,
+      "path": "research/manual/kaggriculture_crop_lifecycle/lifecycle_experiment.py",
+      "sha256": "6569ad06d62cc787da597106acf27d693570baec242a273c98b3ec4f5229ede5"
+    },
+    {
+      "bytes": 6568,
+      "path": "research/manual/kaggriculture_crop_lifecycle/lifecycle_features.py",
+      "sha256": "6234b4f47bf3742c701bbb5fbfb20702f671c656601fa3d1cb2ec57e6d9d0a87"
+    },
+    {
+      "bytes": 3784,
+      "path": "research/manual/kaggriculture_crop_lifecycle/lifecycle_policy.py",
+      "sha256": "3ac7e32b2bc391f0275615995c2c4c208323bae0e39952b759009c6e00d25910"
+    },
+    {
+      "bytes": 3566,
+      "path": "research/manual/kaggriculture_crop_lifecycle/mechanics.py",
+      "sha256": "62fa94addb7d9dc11fef9985ba0776ee669a5ed7824b70b6702293c2e83ac735"
+    },
+    {
+      "bytes": 65993,
+      "path": "research/manual/kaggriculture_crop_lifecycle/outputs/mechanics.json",
+      "sha256": "f18a8db094ec53a2f4202a02a4a17e146c457fa8011aa04ada93d39445c39883"
+    },
+    {
+      "bytes": 4004,
+      "path": "research/manual/kaggriculture_crop_lifecycle/outputs/pilot/report.json",
+      "sha256": "c41c3ea9fd7d42bda986c649697ab5cd9db4bc7d354b8fa1f39d393575bc1941"
+    },
+    {
+      "bytes": 2356,
+      "path": "research/manual/kaggriculture_crop_lifecycle/outputs/screen/feature_registry.csv",
+      "sha256": "e17c8cc636253d2700e9077b16a9597a97d936fa4c050be67120453d59f1c8f3"
+    },
+    {
+      "bytes": 2156,
+      "path": "research/manual/kaggriculture_crop_lifecycle/outputs/screen/report.json",
+      "sha256": "55e02578924d9ac40da058c00be43fbfa811cf48f0e69f16a35cb05222e9f130"
+    },
+    {
+      "bytes": 66,
+      "path": "research/manual/kaggriculture_crop_lifecycle/outputs/tests.json",
+      "sha256": "63acc6362e4bbed30099bc056849128e1946d24e114dfe25a51fe36582dd0279"
+    },
+    {
+      "bytes": 546,
+      "path": "research/manual/kaggriculture_crop_lifecycle/reference/dependency_hashes.json",
+      "sha256": "7259661fed90a79a881ce8dddc042fa9e8ace65e3d2272cc850031b3b704bd55"
+    },
+    {
+      "bytes": 259,
+      "path": "research/manual/kaggriculture_crop_lifecycle/reference/github_status.json",
+      "sha256": "43cb52072adaa5171676a191d9476aa1b4a1e539c968d70030f8d98666e7c88c"
+    },
+    {
+      "bytes": 940,
+      "path": "research/manual/kaggriculture_crop_lifecycle/reference/input_hashes.json",
+      "sha256": "3f4fc75e893b35421f4fbb0a3850ac25b576f107b88c6a97a64c88c017c5c0ac"
+    },
+    {
+      "bytes": 271,
+      "path": "research/manual/kaggriculture_crop_lifecycle/reference/input_review.json",
+      "sha256": "0153864163c5588aabe77cc21cf6c0a96f210e5b96812db77526bc7913d2d352"
+    },
+    {
+      "bytes": 5038,
+      "path": "research/manual/kaggriculture_crop_lifecycle/reference/local_test_log.txt",
+      "sha256": "298dc062ef3d6b67b26dbe9b8af64d457ef7f1bdca42a88e7e1821a2331d699a"
+    },
+    {
+      "bytes": 1642,
+      "path": "research/manual/kaggriculture_crop_lifecycle/reference/notebook14_feature_registry.csv",
+      "sha256": "8cc45eefe699cd14414f39b33af47c38584ed3faab1932fc80b3005b9e683ce4"
+    },
+    {
+      "bytes": 848,
+      "path": "research/manual/kaggriculture_crop_lifecycle/reference/notebook14_pilot_report.json",
+      "sha256": "04251c3d26c469b7c85ad1cb1307c23abf8fdd24a4011c740785166680e8e418"
+    },
+    {
+      "bytes": 2038,
+      "path": "research/manual/kaggriculture_crop_lifecycle/reference/notebook14_screen_report.json",
+      "sha256": "f7c199543564cda9a9aa1da84733a7dfa4493b5ec88ecd9e9ebc4adf78f265b3"
+    },
+    {
+      "bytes": 2211,
+      "path": "research/manual/kaggriculture_crop_lifecycle/research_io.py",
+      "sha256": "b8c287cb66aab74c740a909c6dec48e020c076b43e80b702a9fc82cf53f3562f"
+    },
+    {
+      "bytes": 22371,
+      "path": "research/manual/kaggriculture_crop_lifecycle/run_lifecycle.py",
+      "sha256": "3a0edecf1377b9cb8460efe3bad02aa2ea6764c7749f018fdfc1a880c66fd5ec"
+    },
+    {
+      "bytes": 0,
+      "path": "research/manual/kaggriculture_crop_lifecycle/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3496,
+      "path": "research/manual/kaggriculture_crop_lifecycle/tests/helpers.py",
+      "sha256": "8be8c130f02e9b0aba125c32bab79aed5d0bc8478185d13f081e97c2f6f71303"
+    },
+    {
+      "bytes": 2519,
+      "path": "research/manual/kaggriculture_crop_lifecycle/tests/official_refresh_excerpt.py",
+      "sha256": "070fdddd9da8cbd4b9dc8ca300f44f36ffc8e67fc75a7f21b88d18e2727b4863"
+    },
+    {
+      "bytes": 3884,
+      "path": "research/manual/kaggriculture_crop_lifecycle/tests/test_driver.py",
+      "sha256": "0c96efa6a54bab79c38bd4db5bdc246655c9b97fc0f184a3660ff73518efc959"
+    },
+    {
+      "bytes": 3416,
+      "path": "research/manual/kaggriculture_crop_lifecycle/tests/test_experiment.py",
+      "sha256": "5dd81c36737395a1c3c2692e599d995f590df9a55d65a3b360bf9a75411dd360"
+    },
+    {
+      "bytes": 3633,
+      "path": "research/manual/kaggriculture_crop_lifecycle/tests/test_features.py",
+      "sha256": "5dad6e36d525fed684039540ef3d03b2faebe7a31d0dafa2b1bf502828a89487"
+    },
+    {
+      "bytes": 2296,
+      "path": "research/manual/kaggriculture_crop_lifecycle/tests/test_integrity.py",
+      "sha256": "b2ccb58cf5265e595afa1277f5ddec0c6ea8c3ec3abf42ff914020dc63b0be2f"
+    },
+    {
+      "bytes": 2628,
+      "path": "research/manual/kaggriculture_crop_lifecycle/tests/test_policy.py",
+      "sha256": "35cf92c8540c4b99b3458e8a7afa78a7683aa00f7785aad60d35f7ee455c1380"
+    },
+    {
+      "bytes": 5614,
+      "path": "research/manual/kaggriculture_crop_lifecycle/visualize.py",
+      "sha256": "baca278e98ad27054127a53bf445212b1a1507b80e5881b00a898ec617cbe5f2"
+    },
+    {
+      "bytes": 56,
+      "path": "research/manual/kaggriculture_harvest_value/.gitignore",
+      "sha256": "fb9b3f043c2b559fd8d0ff310612a754d8959a328f0e60eb353edbecd95e42c0"
+    },
+    {
+      "bytes": 263708,
+      "path": "research/manual/kaggriculture_harvest_value/14_harvest_value_feature_ablation.ipynb",
+      "sha256": "bdedf5602d6f605557802c85b029d076d25ad141fb74595b874279fc680c7d2d"
+    },
+    {
+      "bytes": 6137,
+      "path": "research/manual/kaggriculture_harvest_value/FEATURE_RESEARCH.md",
+      "sha256": "b7b021c61ebbac9483713dc4dd50736a8c83c2f7443aef85dfe84a8c6a7441b3"
+    },
+    {
+      "bytes": 1423,
+      "path": "research/manual/kaggriculture_harvest_value/LOCAL_VALIDATION.json",
+      "sha256": "8e4b5c963d1f885434805f750857edf51950a0bdd163806231a6de5165218cbe"
+    },
+    {
+      "bytes": 3585,
+      "path": "research/manual/kaggriculture_harvest_value/PACKAGE_MANIFEST.json",
+      "sha256": "ad3658bd4c70415c89255a96622152c439b022addae35ed8608c43c6122af184"
+    },
+    {
+      "bytes": 1056,
+      "path": "research/manual/kaggriculture_harvest_value/PROTOCOL.json",
+      "sha256": "c38fd40c41ab99347b0885cc8aad6115bceb0290f89d3d00fb6151af82b53fee"
+    },
+    {
+      "bytes": 2621,
+      "path": "research/manual/kaggriculture_harvest_value/RESULTS_REVIEW.md",
+      "sha256": "bb9e9011028eb0597e0f5d8f36f31b4443aaecc0919b3d9fd8b2ac3ce90d3adf"
+    },
+    {
+      "bytes": 5023,
+      "path": "research/manual/kaggriculture_harvest_value/START_HERE.md",
+      "sha256": "636aa39126b55c329016ce8ff59c28d3c6909640d099d58ccd04df2449e68c1b"
+    },
+    {
+      "bytes": 6871,
+      "path": "research/manual/kaggriculture_harvest_value/feature_dictionary.csv",
+      "sha256": "e2b8ef221d3a0987438814dbb3a6cd52faf6e2341c3134ee42f91eecb9cf8895"
+    },
+    {
+      "bytes": 9397,
+      "path": "research/manual/kaggriculture_harvest_value/harvest_experiment.py",
+      "sha256": "f8f313d4e61235e28bc57727feb2d2c51d8f5cff0d4bf44befad11a1fce19b57"
+    },
+    {
+      "bytes": 7177,
+      "path": "research/manual/kaggriculture_harvest_value/harvest_features.py",
+      "sha256": "518c02038d033db0a1c2612a8d58e34248c2338541e56e9c4ebdbae85d0af898"
+    },
+    {
+      "bytes": 3407,
+      "path": "research/manual/kaggriculture_harvest_value/harvest_policy.py",
+      "sha256": "4a7118c0109b1b00b8c0fb42b16e5cc7fccbc5530be2172dacb5d9c0dd77c40f"
+    },
+    {
+      "bytes": 2819,
+      "path": "research/manual/kaggriculture_harvest_value/mechanics.py",
+      "sha256": "61508a0b80cbc7435202fd556bd791ff82358cc3f3a1ea1ec40c50aee69e66ba"
+    },
+    {
+      "bytes": 78202,
+      "path": "research/manual/kaggriculture_harvest_value/outputs/mechanics.json",
+      "sha256": "ffaa1492d1a3c121dd7199874d1b729c9c96917ebfc0f9ca387b2ccecde63592"
+    },
+    {
+      "bytes": 848,
+      "path": "research/manual/kaggriculture_harvest_value/outputs/pilot/report.json",
+      "sha256": "04251c3d26c469b7c85ad1cb1307c23abf8fdd24a4011c740785166680e8e418"
+    },
+    {
+      "bytes": 1642,
+      "path": "research/manual/kaggriculture_harvest_value/outputs/screen/feature_registry.csv",
+      "sha256": "8cc45eefe699cd14414f39b33af47c38584ed3faab1932fc80b3005b9e683ce4"
+    },
+    {
+      "bytes": 2038,
+      "path": "research/manual/kaggriculture_harvest_value/outputs/screen/report.json",
+      "sha256": "f7c199543564cda9a9aa1da84733a7dfa4493b5ec88ecd9e9ebc4adf78f265b3"
+    },
+    {
+      "bytes": 66,
+      "path": "research/manual/kaggriculture_harvest_value/outputs/tests.json",
+      "sha256": "799cfab0af1b5225f7132993e4c9d824d7611fcc68ca4483611a48fb6b3cc37b"
+    },
+    {
+      "bytes": 1911,
+      "path": "research/manual/kaggriculture_harvest_value/reference/control_endpoints.csv",
+      "sha256": "c5f61c62a097b17888f02640167111147bfb8c152ab048640c2c0cdf9a150623"
+    },
+    {
+      "bytes": 546,
+      "path": "research/manual/kaggriculture_harvest_value/reference/dependency_hashes.json",
+      "sha256": "7259661fed90a79a881ce8dddc042fa9e8ace65e3d2272cc850031b3b704bd55"
+    },
+    {
+      "bytes": 181,
+      "path": "research/manual/kaggriculture_harvest_value/reference/github_status.json",
+      "sha256": "ee04d54f2660b49311a4898e283ccebdd2f3f801918ac9fec2014ed93fb77cf7"
+    },
+    {
+      "bytes": 2359,
+      "path": "research/manual/kaggriculture_harvest_value/reference/input_hashes.json",
+      "sha256": "77d1597a6eb95afdb0e4b196c8f2b10611cc868542820177e8c6e388863db28c"
+    },
+    {
+      "bytes": 368,
+      "path": "research/manual/kaggriculture_harvest_value/reference/input_review.json",
+      "sha256": "0c589d13b2a6f7e26e529f1f34395fd3ee29473e6cfae25bef7119f503d5c0b3"
+    },
+    {
+      "bytes": 6673,
+      "path": "research/manual/kaggriculture_harvest_value/reference/local_test_log.txt",
+      "sha256": "81797b4d9b0c46cd8e9945ff07d82edacafea4e85b9688463f04af8f02fb4d4f"
+    },
+    {
+      "bytes": 1304,
+      "path": "research/manual/kaggriculture_harvest_value/reference/notebook13_cash_decomposition.csv",
+      "sha256": "bb40bc5cf244b0f07f690a003984a71f6a9d2a91f2276c4d53f2ced83520ff83"
+    },
+    {
+      "bytes": 1629,
+      "path": "research/manual/kaggriculture_harvest_value/reference/notebook13_crop_event_summary.csv",
+      "sha256": "239764d3cd452e5fad33a1a17592b43f79708f3bbdf0aff2f50bb15ddb8288dd"
+    },
+    {
+      "bytes": 2065,
+      "path": "research/manual/kaggriculture_harvest_value/reference/notebook13_feature_registry.csv",
+      "sha256": "0bb185deb2e424ff44f943a469408abdf06ccde9474b1210a2f388e5c889e3f9"
+    },
+    {
+      "bytes": 9390,
+      "path": "research/manual/kaggriculture_harvest_value/reference/notebook13_report.json",
+      "sha256": "b37699a64e26d3740564324e2740b2737bbc72e4a30dc2686c8e2e25a5444a59"
+    },
+    {
+      "bytes": 4857045,
+      "path": "research/manual/kaggriculture_harvest_value/reference/notebook13_review.html",
+      "sha256": "53c831377e97e2d6757e7b4d4445c83392b94eb0d54f7afe84b4c51c0717f009"
+    },
+    {
+      "bytes": 66,
+      "path": "research/manual/kaggriculture_harvest_value/reference/notebook13_tests.json",
+      "sha256": "fbf6ba6ffc1622167838496bd77d3e815fb9be7d5f54cc8ece660a2d2db87749"
+    },
+    {
+      "bytes": 2211,
+      "path": "research/manual/kaggriculture_harvest_value/research_io.py",
+      "sha256": "b8c287cb66aab74c740a909c6dec48e020c076b43e80b702a9fc82cf53f3562f"
+    },
+    {
+      "bytes": 21495,
+      "path": "research/manual/kaggriculture_harvest_value/run_harvest.py",
+      "sha256": "c28859080cf005d85cca7f71b920e7283bef7889f0d06f898690a849c637d440"
+    },
+    {
+      "bytes": 3461,
+      "path": "research/manual/kaggriculture_harvest_value/tests/helpers.py",
+      "sha256": "1153706797cabdc72f48f0f2d080f9a52fc91e75159cbaa2382b068224cd64c1"
+    },
+    {
+      "bytes": 2823,
+      "path": "research/manual/kaggriculture_harvest_value/tests/price_adapter.py",
+      "sha256": "58104b0c40ec4212a02d098599993652cc55ff440358a9a18a859dea2b0fd304"
+    },
+    {
+      "bytes": 4215,
+      "path": "research/manual/kaggriculture_harvest_value/tests/test_driver.py",
+      "sha256": "1d7a2908316ec7ab50d990f0cf44cd93fcbaad66786c7d8351d0c1bdf39af61a"
+    },
+    {
+      "bytes": 3414,
+      "path": "research/manual/kaggriculture_harvest_value/tests/test_experiment.py",
+      "sha256": "1cc554bdcb8909dc500b1836b413107ba52ad22e051b7d38e8b71b83ee94be6d"
+    },
+    {
+      "bytes": 5246,
+      "path": "research/manual/kaggriculture_harvest_value/tests/test_features.py",
+      "sha256": "cd5482e932930f7fda0613a6d7d2f39240f248f40561cd4ec2cff798a3e907a1"
+    },
+    {
+      "bytes": 2260,
+      "path": "research/manual/kaggriculture_harvest_value/tests/test_integrity.py",
+      "sha256": "7ff2c268328aed9d734713cfac5eb7a6d5592ff7c1fa56579e8e15ca2368fd88"
+    },
+    {
+      "bytes": 795,
+      "path": "research/manual/kaggriculture_harvest_value/tests/test_notebook.py",
+      "sha256": "09090c89a08cfb764d3fd2ee3b7fca45e147688c95239beab6d1cb61393af16b"
+    },
+    {
+      "bytes": 2265,
+      "path": "research/manual/kaggriculture_harvest_value/tests/test_policy.py",
+      "sha256": "071e0e802ed3f9ed127cef2c763b8fedf58b17b1a91fefd69a076cab469f0871"
+    },
+    {
+      "bytes": 585,
+      "path": "research/manual/kaggriculture_harvest_value/tests/test_visuals.py",
+      "sha256": "b748e7abd57fbb9f02b88d40866a364d5df6e0bb37fe55eafe79275f3db0c3fe"
+    },
+    {
+      "bytes": 5918,
+      "path": "research/manual/kaggriculture_harvest_value/visualize.py",
+      "sha256": "8023a5be8f338c44623edaa3cffc09012e6a12eda6f76a0da4050d15589485f7"
+    },
+    {
+      "bytes": 48,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/.gitignore",
+      "sha256": "1f87bf46b5aa5ce3d8f7534ff487d707d8ac486b98419c008b664af931e382b3"
+    },
+    {
+      "bytes": 219476,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/13_maintenance_loss_and_interaction_features.ipynb",
+      "sha256": "33133bf00caa6c435ac32304d9cfb5eace357990290356f001fe8b19d468f5c2"
+    },
+    {
+      "bytes": 6298,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/FEATURE_RESEARCH.md",
+      "sha256": "a543004081e1967fa6535401d1be2a5092f04492e3dfe905ffefc7ecf1e16c4f"
+    },
+    {
+      "bytes": 1434,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/LOCAL_VALIDATION.json",
+      "sha256": "0ff60a1f1e5494a37df75b4cf09f00866549885de75bcd8f38b76e0dda3367e6"
+    },
+    {
+      "bytes": 3901,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/PACKAGE_MANIFEST.json",
+      "sha256": "1ffe792d1e10240aed64cc2f5785a9e9ada83a478411b4290632a0fd1228a6e3"
+    },
+    {
+      "bytes": 1236,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/PROGRESS_REVIEW.md",
+      "sha256": "21cc574401c1e043fc840f1a425f2146c27f37c1e97ce802470ed2bab300c715"
+    },
+    {
+      "bytes": 553,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/PROTOCOL.json",
+      "sha256": "b4f31de3ebe49e327f3ca67b97cbb8cb95e9cc16cce12730825e0e6c52ba67d4"
+    },
+    {
+      "bytes": 2861,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/RESULTS_REVIEW.md",
+      "sha256": "a96222e910af850e4f8362f99d1f34d681048380385b31792d1200e12468827d"
+    },
+    {
+      "bytes": 4227,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/START_HERE.md",
+      "sha256": "701fecb2e419bc00ca58d2cac4cc1772c780fb1139606156bbca8774e997d23a"
+    },
+    {
+      "bytes": 2211,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/artifact_io.py",
+      "sha256": "b8c287cb66aab74c740a909c6dec48e020c076b43e80b702a9fc82cf53f3562f"
+    },
+    {
+      "bytes": 8587,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/crop_dynamics.py",
+      "sha256": "7f9bb08da576c8b471832483ccbeb39e65765bc3822c92230eee2dbf381edca2"
+    },
+    {
+      "bytes": 7455,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/feature_dictionary.csv",
+      "sha256": "c0b37a3e8bc775911a2175e2c92776fb3f721fcacaa0cd1f2d6fa3e14da1446c"
+    },
+    {
+      "bytes": 6419,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/interaction_features.py",
+      "sha256": "38c5f42982468b06e77dab2e677c61241e6b6fce83162e28e07910318afab68a"
+    },
+    {
+      "bytes": 2407,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/mechanics_checks.py",
+      "sha256": "74257bc7aec52392ff3fdb94bca342983507c50511b0fd9daca45e2f1ee20222"
+    },
+    {
+      "bytes": 2065,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/outputs/feature_registry.csv",
+      "sha256": "0bb185deb2e424ff44f943a469408abdf06ccde9474b1210a2f388e5c889e3f9"
+    },
+    {
+      "bytes": 95104,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/outputs/mechanics.json",
+      "sha256": "c1aee6368a8a90e16459edeca0a7d98405468d53c63d23b284961ca371b2820b"
+    },
+    {
+      "bytes": 9390,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/outputs/report.json",
+      "sha256": "b37699a64e26d3740564324e2740b2737bbc72e4a30dc2686c8e2e25a5444a59"
+    },
+    {
+      "bytes": 66,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/outputs/tests.json",
+      "sha256": "fbf6ba6ffc1622167838496bd77d3e815fb9be7d5f54cc8ece660a2d2db87749"
+    },
+    {
+      "bytes": 231,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/reference/github_status.json",
+      "sha256": "7fb712ed5c478327aac33ea95f7d2cf2ce9e2a6e778bb23e49f97d809d3f563d"
+    },
+    {
+      "bytes": 983,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/reference/input_hashes.json",
+      "sha256": "e74a565d738644e8fefc80945a784663b960b5d55b752376db9c08adc18eb3ad"
+    },
+    {
+      "bytes": 3332,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/reference/input_review.json",
+      "sha256": "8e9ad38c82320b68d82bbfbdca05e0c195c7f5d303cb27b2de3c5db096e866ab"
+    },
+    {
+      "bytes": 4032,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/reference/local_test_log.txt",
+      "sha256": "d8db594b35ef0da1566ce44eac8091e6b616761def96d3cc81662a56d4c873c5"
+    },
+    {
+      "bytes": 2778,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/reference/notebook12/outputs/pilot/report.json",
+      "sha256": "71c665fc48d871ff963af69f050e017568dcfe8e124e59bed1fc99e4bc2d9a01"
+    },
+    {
+      "bytes": 2119,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/reference/notebook12/outputs/screen/report.json",
+      "sha256": "fe3578a4bd6fbcaf260f2dd03cc274559ad2d56e00d23293ad6d68e9f0b5acfa"
+    },
+    {
+      "bytes": 4858887,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/reference/notebook12_review.html",
+      "sha256": "73be28b30f479e48324b560dfbd348042a8f52014630739cd391a20559a78043"
+    },
+    {
+      "bytes": 187,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/reference/notebook_validation.json",
+      "sha256": "f6c84f019876902af023acd9d68830cbe0a0a715c2aff1c4d33833a47451e22d"
+    },
+    {
+      "bytes": 11591,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/replay_diagnosis.py",
+      "sha256": "7caabd861eddd4b78979fee0b7c35200cea2346f1cf3dde298546abcfaad1c52"
+    },
+    {
+      "bytes": 4515,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/review_inputs.py",
+      "sha256": "c2d4b8f0af2a4cc8862e68374129585f912b345c9f8f4b5d2cabbf1a61cb36a2"
+    },
+    {
+      "bytes": 14343,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/run_diagnosis.py",
+      "sha256": "42ed63e1d78856c63c6b937145d9ed2b3daadc2e6bca0d620e7654db5b436543"
+    },
+    {
+      "bytes": 4689,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/tests/helpers.py",
+      "sha256": "956598dafbf4cd4c6b932c8aa5386529b62fdb58361e6fc0cc038982bf4c686c"
+    },
+    {
+      "bytes": 3663,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/tests/test_evidence.py",
+      "sha256": "e344cddf5a5dc223e736436107e18206b51fb2c1e4cb684f5acf2cd27eeaa8e6"
+    },
+    {
+      "bytes": 4342,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/tests/test_features.py",
+      "sha256": "70120b81f030ee9d59bd2bba2e74a5181b4107c828cf1c6db631218b8478ae76"
+    },
+    {
+      "bytes": 1323,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/tests/test_notebook.py",
+      "sha256": "3c4f53d40ea8f1c07a553ca42f07207bd6b8e210f02edc189b45422e53ce4e37"
+    },
+    {
+      "bytes": 2040,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/tests/test_shadow.py",
+      "sha256": "361d934cc3d91136736785ed7ae03284797c45c7fb62b2132c5c731eafa5d9ce"
+    },
+    {
+      "bytes": 4247,
+      "path": "research/manual/kaggriculture_maintenance_diagnosis/visualize.py",
+      "sha256": "666c0e8edd09f2a6d31586f668e0e86264c46548c743cc12113194be5887cb72"
+    },
+    {
+      "bytes": 103705,
+      "path": "research/manual/kaggriculture_manual_resume/05_workspace_feature_readiness.ipynb",
+      "sha256": "548f7ecb03f8546f45cf09ed23adab365738b9b9581d4a448f77ca74c5f82101"
+    },
+    {
+      "bytes": 11348,
+      "path": "research/manual/kaggriculture_manual_resume/FEATURE_RESEARCH_PLAN.md",
+      "sha256": "a97eb4625bf1af3d5ae5ea5663cee83bab019352e136043b97e1120a21a0f515"
+    },
+    {
+      "bytes": 2204,
+      "path": "research/manual/kaggriculture_manual_resume/PACKAGE_CONTENTS.md",
+      "sha256": "93c96c77ee84d9b6f2011fa56b4ed64ea7a97880fb385089325c02f604e938dd"
+    },
+    {
+      "bytes": 16681,
+      "path": "research/manual/kaggriculture_manual_resume/START_HERE.md",
+      "sha256": "92692639091f43ad33757a951d6f7647467db2229281ea734799f83435b42270"
+    },
+    {
+      "bytes": 1665,
+      "path": "research/manual/kaggriculture_manual_resume/VALIDATION_REPORT.json",
+      "sha256": "82902d24bd962bcabdcd8f6b4688169312fbaa29a3da3c800e43523f24e05931"
+    },
+    {
+      "bytes": 4326941,
+      "path": "research/manual/kaggriculture_manual_resume/outputs/feature_readiness_dashboard.html",
+      "sha256": "82af90aa946bdca6764c78cee95091188c6afb2562a942cc0ff3448254eeed31"
+    },
+    {
+      "bytes": 4725,
+      "path": "research/manual/kaggriculture_manual_resume/research_rounds.json",
+      "sha256": "04985c416dee820432e9b04721287300e0e7c9479c81ee1d5186897740642c18"
+    },
+    {
+      "bytes": 26827,
+      "path": "research/manual/kaggriculture_manual_resume/resume.py",
+      "sha256": "ae797ae2dd68ae7192cd65695829e8af3c941c6760248784853078afb08b6bfa"
+    },
+    {
+      "bytes": 3218,
+      "path": "research/manual/kaggriculture_manual_resume/staffing_manifest.json",
+      "sha256": "6febed7147e85140675fc16c40767ded2cc902358956176c130af25e5fd7956c"
+    },
+    {
+      "bytes": 7666,
+      "path": "research/manual/kaggriculture_manual_resume/tests/test_resume.py",
+      "sha256": "7ca1754da24a0a56678194698a973f8c357f7e408e891b9a4314d9646d9a4eec"
+    },
+    {
+      "bytes": 4041,
+      "path": "research/manual/kaggriculture_manual_resume/verified_evidence.json",
+      "sha256": "de948efb631bba651f6b25095b237e1e8197220b14f461a4dcf97dfe0d16f5c9"
+    },
+    {
+      "bytes": 52,
+      "path": "research/manual/kaggriculture_public_release/.gitignore",
+      "sha256": "8b0a83ba3c93630afb7cda0fdc5c0b9a7275064ea737529645894d2207b8937e"
+    },
+    {
+      "bytes": 5123,
+      "path": "research/manual/kaggriculture_public_release/FEATURE_RESEARCH.md",
+      "sha256": "1e2824e9de9bc5c06e84b7aecddc9b523e21abba5538d1b2bac330ca80bcf5f6"
+    },
+    {
+      "bytes": 4296,
+      "path": "research/manual/kaggriculture_public_release/PACKAGE_MANIFEST.json",
+      "sha256": "b228bedf1ad4fe34b352ff11558aa35b70e33405f77f297d47c55a2907b837d2"
+    },
+    {
+      "bytes": 592,
+      "path": "research/manual/kaggriculture_public_release/PREPARATION_STATUS.json",
+      "sha256": "23b3a9e6651c86bda5daa30a9537f3db735971885da8d0be11f0602b19fd8c1b"
+    },
+    {
+      "bytes": 1546,
+      "path": "research/manual/kaggriculture_public_release/RESEARCH_TERMINAL.md",
+      "sha256": "348a7edfa5a31102a291ed8c4bb96c003a298566cf77b22f9c9269be164fa799"
+    },
+    {
+      "bytes": 2417,
+      "path": "research/manual/kaggriculture_public_release/RESULTS_REVIEW.md",
+      "sha256": "beeb5af7a85641759bf8e287dc6bfb01ffcd957989053d22efa75bc83b0ff507"
+    },
+    {
+      "bytes": 9032,
+      "path": "research/manual/kaggriculture_public_release/START_HERE.md",
+      "sha256": "783861aec86fe2161d18be39a5081783b5a74ca83ce7e74bec6c33039735b455"
+    },
+    {
+      "bytes": 5834,
+      "path": "research/manual/kaggriculture_public_release/publication/GIT_WORKFLOW.md",
+      "sha256": "513bcac88294eec772d9ca1854c9170847b9e428daf90bdb2325c1035c45598c"
+    },
+    {
+      "bytes": 1261,
+      "path": "research/manual/kaggriculture_public_release/publication/PR_BODY.md",
+      "sha256": "3dc6a27485fa229df37613c7fd85dc8651561ca2c10dc7573e90ccaf08e528f1"
+    },
+    {
+      "bytes": 2723,
+      "path": "research/manual/kaggriculture_public_release/publication/install_gh.py",
+      "sha256": "f84d9bfd4e5cedd54745c71f89143ec221725f9bfa56b98816731edfe1ca0b54"
+    },
+    {
+      "bytes": 27190,
+      "path": "research/manual/kaggriculture_public_release/publication/publish.py",
+      "sha256": "1e8339654703bc6738180ef2f1b4e3aeea6df5d796811a97ef9390a98b655642"
+    },
+    {
+      "bytes": 4504,
+      "path": "research/manual/kaggriculture_public_release/publication/tests/test_publication.py",
+      "sha256": "1ef8a1d449aec0f5c7312eb968f73cef7e96c44946c121f9c77f7d61681462ee"
+    },
+    {
+      "bytes": 10743,
+      "path": "research/manual/kaggriculture_public_release/reference/input_review.json",
+      "sha256": "a55eccd2eabac0a7323aad61b661e54f58dda7b26eb8036f9fa0d23e52af5700"
+    },
+    {
+      "bytes": 1314,
+      "path": "research/manual/kaggriculture_public_release/reference/round19_screen_report.json",
+      "sha256": "f0c628daba904f8cddba247a803dea404c6fd5e241455bbdabba63f84cce8e48"
+    },
+    {
+      "bytes": 1310,
+      "path": "research/manual/kaggriculture_public_release/reference/round20_screen_report.json",
+      "sha256": "134eb24fc1b34dd9c7b0ddd7c9fd1f347ab2c9a6098609fc189f5602c5336ad0"
+    },
+    {
+      "bytes": 285,
+      "path": "research/manual/kaggriculture_public_release/reference/supplied_evidence_review.json",
+      "sha256": "41d64ab5863cec122397e348326a6fcac6985c87e7e859ccb2e5a905ddcee941"
+    },
+    {
+      "bytes": 6030719,
+      "path": "research/manual/kaggriculture_public_release/research/21_collection_completion_outcome.ipynb",
+      "sha256": "0865b59e74ce0f2fc2d4f354861082b9206779f4eaabf97e208d40f7824f41e5"
+    },
+    {
+      "bytes": 5896983,
+      "path": "research/manual/kaggriculture_public_release/research/22_maintenance_deadline_outcome.ipynb",
+      "sha256": "7ce81960b3e2a480d61e0a8d4545be13d0543161892c9298d456bcd1c7b57170"
+    },
+    {
+      "bytes": 1625,
+      "path": "research/manual/kaggriculture_public_release/research/EXPECTED_INPUTS.json",
+      "sha256": "6de2b8352532e1f9d51eba5e258fb9c46bc367cfc177c11391be92cdb50c01b3"
+    },
+    {
+      "bytes": 5052558,
+      "path": "research/manual/kaggriculture_public_release/research/outputs/round21/dashboard.html",
+      "sha256": "527b5bacec5609849390f808c68ca936ca683c1c2dc3660fe6d18ef322e83a3f"
+    },
+    {
+      "bytes": 1309,
+      "path": "research/manual/kaggriculture_public_release/research/outputs/round21/endpoint_review.json",
+      "sha256": "3cdd2e6718264117b2cd69bfb1f2fab0ab9bf32644304dc4c2e263d8cf5c1a5d"
+    },
+    {
+      "bytes": 2711,
+      "path": "research/manual/kaggriculture_public_release/research/outputs/round21/feature_analysis.json",
+      "sha256": "61ba32ed247b217f78b9cb80623f2001c0bd1b1a26c808efadff14a2e43c4d01"
+    },
+    {
+      "bytes": 461,
+      "path": "research/manual/kaggriculture_public_release/research/outputs/round21/tests.json",
+      "sha256": "ecc2d7c840a8f48e3cf24b53bb1f8f3686b5b2fd758170a85d2bce2b3b315498"
+    },
+    {
+      "bytes": 4979251,
+      "path": "research/manual/kaggriculture_public_release/research/outputs/round22/dashboard.html",
+      "sha256": "a958345f8ecb7889df30856dc68ca7e754d7efc4bb0d1267f5b92dba507f0d04"
+    },
+    {
+      "bytes": 1294,
+      "path": "research/manual/kaggriculture_public_release/research/outputs/round22/endpoint_review.json",
+      "sha256": "60dbe25d43cf19732bb33639d75b65a16181df94715b0fadd0af4373a76785ac"
+    },
+    {
+      "bytes": 2707,
+      "path": "research/manual/kaggriculture_public_release/research/outputs/round22/feature_analysis.json",
+      "sha256": "5a76d2d9f402875e517a3c50b277922138c4ea3a3ad8a8e5a71924834a0abcf8"
+    },
+    {
+      "bytes": 461,
+      "path": "research/manual/kaggriculture_public_release/research/outputs/round22/tests.json",
+      "sha256": "b3b4de35045ef36edb0eb490dd8b0eb30896ee750592a1649f92d757da4e3960"
+    },
+    {
+      "bytes": 4084,
+      "path": "research/manual/kaggriculture_public_release/research/plots.py",
+      "sha256": "9a8566bf1824d37a43daede65dc0541ec225ba5bafd7a4346f399539d9b512ea"
+    },
+    {
+      "bytes": 5447,
+      "path": "research/manual/kaggriculture_public_release/research/relative_features.py",
+      "sha256": "8c8f698abfa6f9a3d3bc9ecae66b5f2b0daaa93560d9d36ca4798a270d9f33e3"
+    },
+    {
+      "bytes": 8968,
+      "path": "research/manual/kaggriculture_public_release/research/review_and_pair.py",
+      "sha256": "ebbc388f3b7f90cbce68d84f7be52f0fa14514757783d2fe7e80f07fa6a4846e"
+    },
+    {
+      "bytes": 15119,
+      "path": "research/manual/kaggriculture_public_release/research/round19_feature_dictionary.csv",
+      "sha256": "3b03a421e1353a0171e185f273ed547cf7aa45a42c20317ffc18fba097edc227"
+    },
+    {
+      "bytes": 14919,
+      "path": "research/manual/kaggriculture_public_release/research/round20_feature_dictionary.csv",
+      "sha256": "3406770f1475b28bc501598f3bf0a882f12198e2df5de615e306565ccd1e5ac9"
+    },
+    {
+      "bytes": 18443,
+      "path": "research/manual/kaggriculture_public_release/research/round21_feature_dictionary.csv",
+      "sha256": "206d332113f69cd41a0819278df1100520a8b3da1442ea46ba7445f87459a92f"
+    },
+    {
+      "bytes": 18294,
+      "path": "research/manual/kaggriculture_public_release/research/round22_feature_dictionary.csv",
+      "sha256": "a2b497c927417cd319ed30db9a09a053539e29f4727e35ce995f95bba297e804"
+    },
+    {
+      "bytes": 917,
+      "path": "research/manual/kaggriculture_public_release/research/tests/outcome_fixtures.py",
+      "sha256": "dbd1cc038eb59a2a058da3a7829f897e57f3c2561da0b04c45923fd42d1eca9b"
+    },
+    {
+      "bytes": 2268,
+      "path": "research/manual/kaggriculture_public_release/research/tests/test_round21.py",
+      "sha256": "c680a52e1130f726566767de4abdb157cca01d3f4aeb30a79671646c10270e48"
+    },
+    {
+      "bytes": 2303,
+      "path": "research/manual/kaggriculture_public_release/research/tests/test_round22.py",
+      "sha256": "22c7ccf1245130138a00292879434cc819f6a5ec706c33c65d66211dfdcc72d4"
+    },
+    {
+      "bytes": 3941,
+      "path": "research/manual/kaggriculture_public_release/site/README.md",
+      "sha256": "891825a6bd19f9245c803fb1362e5e28089966a7028785fb231b9934d6a1343f"
+    },
+    {
+      "bytes": 325,
+      "path": "research/manual/kaggriculture_public_release/site/docs/research/data/callback_summary.csv",
+      "sha256": "2b2146ec9205f8fdfb90451a84a7860ffacf1d8f6f7e2b690364037bb84b4579"
+    },
+    {
+      "bytes": 367,
+      "path": "research/manual/kaggriculture_public_release/site/docs/research/data/daypart_summary.csv",
+      "sha256": "98263df8b105f2685a10515439ca78eb93159b9e5f292707e62c38026cc0595f"
+    },
+    {
+      "bytes": 248,
+      "path": "research/manual/kaggriculture_public_release/site/docs/research/data/group_summary.csv",
+      "sha256": "8ff1bba8eaa91ddb57ce3f71f7d58c8eba3e5daf92c75e7c3557cd382f64d0a4"
+    },
+    {
+      "bytes": 395,
+      "path": "research/manual/kaggriculture_public_release/site/docs/research/data/screen_summary.csv",
+      "sha256": "e996a1d5c9334e8c409e09e878ef73a299b4c4710833c28ff0e1adbd278461f4"
+    },
+    {
+      "bytes": 1942,
+      "path": "research/manual/kaggriculture_public_release/site/docs/research/evidence.md",
+      "sha256": "a273ad17ddd8ee86bb638f432da5c7d4cf8de6d3993f1d3005c79eb67e333521"
+    },
+    {
+      "bytes": 2446,
+      "path": "research/manual/kaggriculture_public_release/site/docs/research/reproduction.md",
+      "sha256": "4dd4da38d76d730c2c2bebd9d61dd8534a52cef4f9be3624d3ce4b6605649492"
+    },
+    {
+      "bytes": 6727,
+      "path": "research/manual/kaggriculture_public_release/site/notebooks/00_research_overview.ipynb",
+      "sha256": "12d7a45db6c11876d610d1c02f62695b52bc738e40bf4a69a777f779a3341a05"
+    },
+    {
+      "bytes": 2339,
+      "path": "research/manual/kaggriculture_public_release/site/research/README.md",
+      "sha256": "d82a13f21e6c8f1fa4c429f7b89b8e3088afe1685eb019216ddf865fb8e6c353"
+    },
+    {
+      "bytes": 89,
+      "path": "research/manual/kaggriculture_public_release/site/research/manual/.gitattributes",
+      "sha256": "ce6fe03e8d03ae1d0d7a5e369725e345bf60f759b6786d206a019afc16bfcaa8"
+    },
+    {
+      "bytes": 280,
+      "path": "research/manual/kaggriculture_public_release/site/research/manual/conftest.py",
+      "sha256": "d99550342b8c0aa831cabe9585eb32482eb55f28e945781dd3a4eb065ea9c212"
+    },
+    {
+      "bytes": 56,
+      "path": "research/manual/kaggriculture_renewal_factorial/.gitignore",
+      "sha256": "24deb3bfdc1d137ed67f33fa37bdbf2bdaebf296a7bc3bf42cdce8e5f0971e7b"
+    },
+    {
+      "bytes": 235674,
+      "path": "research/manual/kaggriculture_renewal_factorial/16_renewal_factorial_feature_ablation.ipynb",
+      "sha256": "f8dc0ed63daa4a9287bbb8fc9743cab0a3cdfdb90cc08be1fcf19c07708c1f39"
+    },
+    {
+      "bytes": 11358,
+      "path": "research/manual/kaggriculture_renewal_factorial/APACHE-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "bytes": 7420,
+      "path": "research/manual/kaggriculture_renewal_factorial/FEATURE_RESEARCH.md",
+      "sha256": "9fcc8a0c2fccdca79c837fdc566c6aab330b5096813bee21147c7656d749d3d0"
+    },
+    {
+      "bytes": 1716,
+      "path": "research/manual/kaggriculture_renewal_factorial/LOCAL_VALIDATION.json",
+      "sha256": "21685df1692220790f180d158c17f865817a4a7fe31d2414a52d53fc130aa5c1"
+    },
+    {
+      "bytes": 4309,
+      "path": "research/manual/kaggriculture_renewal_factorial/PACKAGE_MANIFEST.json",
+      "sha256": "56f8a39fb9eee953fe114fb383cb19c638093d05ba3343b1f66a6b969c82cd40"
+    },
+    {
+      "bytes": 1039,
+      "path": "research/manual/kaggriculture_renewal_factorial/PROTOCOL.json",
+      "sha256": "9c83179ae4db7480a7175e353e01005cfb7ff8af261b373f6680df06ea33fa14"
+    },
+    {
+      "bytes": 2814,
+      "path": "research/manual/kaggriculture_renewal_factorial/RESULTS_REVIEW.md",
+      "sha256": "cf2c539ccee31bae3450ecdfd6ad644b875e1adfbb53b3f6ac73ee66e7d37089"
+    },
+    {
+      "bytes": 482,
+      "path": "research/manual/kaggriculture_renewal_factorial/RUN_TERMINAL.sh",
+      "sha256": "b5856515c1a06c828d2fe970c88e9cda5f64ecb9df2cb725bbff9562e75188bc"
+    },
+    {
+      "bytes": 6030,
+      "path": "research/manual/kaggriculture_renewal_factorial/START_HERE.md",
+      "sha256": "07f4f78e543670b6234914b221eb9e552bb00380f27dcd478d08c8aac5b7acab"
+    },
+    {
+      "bytes": 676,
+      "path": "research/manual/kaggriculture_renewal_factorial/THIRD_PARTY_NOTICES.md",
+      "sha256": "6471d241d568aade2127110f272505eabe29f4d501983a66b026b11f53e5f9c9"
+    },
+    {
+      "bytes": 4960,
+      "path": "research/manual/kaggriculture_renewal_factorial/factorial_analysis.py",
+      "sha256": "e4fc33fddadfc262efca6488f8bb60de5c145402752a2dd6f1bc239deaf7e58b"
+    },
+    {
+      "bytes": 7611,
+      "path": "research/manual/kaggriculture_renewal_factorial/factorial_experiment.py",
+      "sha256": "806951c5da16f1a8f42388993a3b83d8d34b86f474ab94dc37d3279a79fc5688"
+    },
+    {
+      "bytes": 2211,
+      "path": "research/manual/kaggriculture_renewal_factorial/factorial_io.py",
+      "sha256": "b8c287cb66aab74c740a909c6dec48e020c076b43e80b702a9fc82cf53f3562f"
+    },
+    {
+      "bytes": 3505,
+      "path": "research/manual/kaggriculture_renewal_factorial/factorial_policy.py",
+      "sha256": "894ef403bdbeb7614e05b8f9b581cd5c8409c75a1de2299e5a56e66dfdcadb7e"
+    },
+    {
+      "bytes": 3795,
+      "path": "research/manual/kaggriculture_renewal_factorial/feature_dictionary.csv",
+      "sha256": "0cb200c4c4f4b9b91e3c7e9bd0a8f25fb091f6c74710b0b228236431dd6ff6f3"
+    },
+    {
+      "bytes": 4490,
+      "path": "research/manual/kaggriculture_renewal_factorial/joint_features.py",
+      "sha256": "d16a626d7128673d3f2e5e3c2dcd32df7f14ac30f0a86a4a1560313313b9c079"
+    },
+    {
+      "bytes": 6568,
+      "path": "research/manual/kaggriculture_renewal_factorial/lifecycle_features.py",
+      "sha256": "6234b4f47bf3742c701bbb5fbfb20702f671c656601fa3d1cb2ec57e6d9d0a87"
+    },
+    {
+      "bytes": 3567,
+      "path": "research/manual/kaggriculture_renewal_factorial/mechanics.py",
+      "sha256": "7f93621521f19246a382c6acc1cd35d2eef34fdb3c5b214e730589bd4330f2c2"
+    },
+    {
+      "bytes": 65993,
+      "path": "research/manual/kaggriculture_renewal_factorial/outputs/mechanics.json",
+      "sha256": "f18a8db094ec53a2f4202a02a4a17e146c457fa8011aa04ada93d39445c39883"
+    },
+    {
+      "bytes": 7464,
+      "path": "research/manual/kaggriculture_renewal_factorial/outputs/pilot/report.json",
+      "sha256": "750096d320d90b20b01fdca461c78fe1a371913930551ab7463141c3658e1ccb"
+    },
+    {
+      "bytes": 1539,
+      "path": "research/manual/kaggriculture_renewal_factorial/outputs/screen/feature_registry.csv",
+      "sha256": "3e69bd0a6ca3fa8055005de9a213579b5055236e6ec5d84ad465cba6f87fc843"
+    },
+    {
+      "bytes": 1585,
+      "path": "research/manual/kaggriculture_renewal_factorial/outputs/screen/report.json",
+      "sha256": "2ddbf81baea38a650c2f42757c43073387a44c015a1f12166282831da6f1c5c1"
+    },
+    {
+      "bytes": 66,
+      "path": "research/manual/kaggriculture_renewal_factorial/outputs/tests.json",
+      "sha256": "9c7669ee81bf7c6b5a1c7503996f3669d6c7c556319c03b6549f9bb0e64b2730"
+    },
+    {
+      "bytes": 546,
+      "path": "research/manual/kaggriculture_renewal_factorial/reference/dependency_hashes.json",
+      "sha256": "7259661fed90a79a881ce8dddc042fa9e8ace65e3d2272cc850031b3b704bd55"
+    },
+    {
+      "bytes": 177,
+      "path": "research/manual/kaggriculture_renewal_factorial/reference/github_status.json",
+      "sha256": "284813e9e71ea966d883fed4077c1a6a7bde04852c17ad5ec844576e4f5e7fb2"
+    },
+    {
+      "bytes": 925,
+      "path": "research/manual/kaggriculture_renewal_factorial/reference/input_hashes.json",
+      "sha256": "09bacde90ecbfcc6244fe76456f7252c63080aebd9f3751a257b18369228aa5b"
+    },
+    {
+      "bytes": 281,
+      "path": "research/manual/kaggriculture_renewal_factorial/reference/input_review.json",
+      "sha256": "2419aae7fd060739d83586daa3517cc4fd79207ec395e1d0bc294723bb9a6a5e"
+    },
+    {
+      "bytes": 5532,
+      "path": "research/manual/kaggriculture_renewal_factorial/reference/local_test_log.txt",
+      "sha256": "2c8841d5d7b3692b21c77f6f189e1960a2763241b83887b0aa2f6906a231cb57"
+    },
+    {
+      "bytes": 812,
+      "path": "research/manual/kaggriculture_renewal_factorial/reference/notebook15/PROTOCOL.json",
+      "sha256": "28cf9953b862ce0fad89eda33fb826fd732b898a578818b70d20d32184566b43"
+    },
+    {
+      "bytes": 4004,
+      "path": "research/manual/kaggriculture_renewal_factorial/reference/notebook15/outputs/pilot/report.json",
+      "sha256": "c41c3ea9fd7d42bda986c649697ab5cd9db4bc7d354b8fa1f39d393575bc1941"
+    },
+    {
+      "bytes": 2156,
+      "path": "research/manual/kaggriculture_renewal_factorial/reference/notebook15/outputs/screen/report.json",
+      "sha256": "55e02578924d9ac40da058c00be43fbfa811cf48f0e69f16a35cb05222e9f130"
+    },
+    {
+      "bytes": 805,
+      "path": "research/manual/kaggriculture_renewal_factorial/reference/notebook15_comparisons.csv",
+      "sha256": "812f2279c29b915ad23729d46306f65b9ba763aa1c76743b0ed8116a500f35e3"
+    },
+    {
+      "bytes": 4004,
+      "path": "research/manual/kaggriculture_renewal_factorial/reference/notebook15_pilot_report.json",
+      "sha256": "c41c3ea9fd7d42bda986c649697ab5cd9db4bc7d354b8fa1f39d393575bc1941"
+    },
+    {
+      "bytes": 2156,
+      "path": "research/manual/kaggriculture_renewal_factorial/reference/notebook15_screen_report.json",
+      "sha256": "55e02578924d9ac40da058c00be43fbfa811cf48f0e69f16a35cb05222e9f130"
+    },
+    {
+      "bytes": 17086,
+      "path": "research/manual/kaggriculture_renewal_factorial/run_factorial.py",
+      "sha256": "472878d2e6672a71ebed3ad15204a1b37c6ff3d53c8ca25ca197f634bd599699"
+    },
+    {
+      "bytes": 0,
+      "path": "research/manual/kaggriculture_renewal_factorial/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3512,
+      "path": "research/manual/kaggriculture_renewal_factorial/tests/fixtures.py",
+      "sha256": "96a7ea20298d614d720af79e204ff803039c87cb7d677e4a10d0fa78ec1bad96"
+    },
+    {
+      "bytes": 2519,
+      "path": "research/manual/kaggriculture_renewal_factorial/tests/official_refresh_excerpt.py",
+      "sha256": "070fdddd9da8cbd4b9dc8ca300f44f36ffc8e67fc75a7f21b88d18e2727b4863"
+    },
+    {
+      "bytes": 12025,
+      "path": "research/manual/kaggriculture_renewal_factorial/tests/test_factorial.py",
+      "sha256": "0a53f8c381db1dc983177f327769fc6f27226b1ff24c99c5ee9d912c7bfed74f"
+    },
+    {
+      "bytes": 4475,
+      "path": "research/manual/kaggriculture_renewal_factorial/tests/test_safety.py",
+      "sha256": "cb74288b625a1edda4c182690b9366c461cfe4dc807b631ba269dd97461fe778"
+    },
+    {
+      "bytes": 6495,
+      "path": "research/manual/kaggriculture_renewal_factorial/visualize.py",
+      "sha256": "514f31fbf8c3d99bc6499076ebb86cdc35f35626765c9ac8d7ae35f1c853ede2"
+    },
+    {
+      "bytes": 62,
+      "path": "research/manual/kaggriculture_route_opportunity/.gitignore",
+      "sha256": "9aaea296f1f91fe78c5e3f11d4fb3209d7c08b8163a1c10723d1d5745e7f8efa"
+    },
+    {
+      "bytes": 456693,
+      "path": "research/manual/kaggriculture_route_opportunity/11_route_opportunity_feature_ablation.ipynb",
+      "sha256": "16181a3d471e2a64b9a5a13e68c4a38ffbaaf25e562c347568ba1fd751de68de"
+    },
+    {
+      "bytes": 11670,
+      "path": "research/manual/kaggriculture_route_opportunity/FEATURE_RESEARCH.md",
+      "sha256": "94cc44275a54a72b3bbe1fb01f1b941a43c1424699332c7c20f30e8c2fb6eb8b"
+    },
+    {
+      "bytes": 2335,
+      "path": "research/manual/kaggriculture_route_opportunity/LOCAL_VALIDATION.json",
+      "sha256": "d912a577c7fd23a7968c3bb9304d4a1375eb926cdcafcfb7d7f31dd41ae212b1"
+    },
+    {
+      "bytes": 2714,
+      "path": "research/manual/kaggriculture_route_opportunity/PACKAGE_MANIFEST.json",
+      "sha256": "1541284a9c23eb09e9d70ea03fcc3e3ca27a4e1e5656a956abb3d4660de704d6"
+    },
+    {
+      "bytes": 1995,
+      "path": "research/manual/kaggriculture_route_opportunity/PROGRESS_REVIEW.md",
+      "sha256": "8dc319adb302bbf6737e9173244bdbe8dcc8cc9132e0fa47bf4860827dbb7cb6"
+    },
+    {
+      "bytes": 1730,
+      "path": "research/manual/kaggriculture_route_opportunity/PROTOCOL.json",
+      "sha256": "c63a046fc71750aa30900a03612c9c09aa325f473b5b4118f1defbd95b0d276b"
+    },
+    {
+      "bytes": 2235,
+      "path": "research/manual/kaggriculture_route_opportunity/RESULTS_REVIEW.md",
+      "sha256": "4cd0158f3fb45d40ac2682e0c44cf0203859e918b6c0624ea3bc600377e82d4c"
+    },
+    {
+      "bytes": 6060,
+      "path": "research/manual/kaggriculture_route_opportunity/START_HERE.md",
+      "sha256": "e009e0e431034c11e0dbbdf5b4d011961c657dd6f378d58f6f9b33da202e58d8"
+    },
+    {
+      "bytes": 4682,
+      "path": "research/manual/kaggriculture_route_opportunity/feature_dictionary.csv",
+      "sha256": "2af898a3eac8e2a3a70b6559087b9b9f8804e27d798d5f2745203d4144443d97"
+    },
+    {
+      "bytes": 3330,
+      "path": "research/manual/kaggriculture_route_opportunity/outputs/pilot/report.json",
+      "sha256": "404ebd66312d5a6db9e16e335e2fa2b85101826ce2566fff7e1737a345affe64"
+    },
+    {
+      "bytes": 1544,
+      "path": "research/manual/kaggriculture_route_opportunity/outputs/screen/feature_registry.csv",
+      "sha256": "21071ce109bd650195b99bd11316f4b8115854ec974af089f4fa428ac56faf0e"
+    },
+    {
+      "bytes": 2036,
+      "path": "research/manual/kaggriculture_route_opportunity/outputs/screen/report.json",
+      "sha256": "9f290b0cd6cabfb198c895daaf0d27476283b189d782bef02a20adcf2ca8c1af"
+    },
+    {
+      "bytes": 66,
+      "path": "research/manual/kaggriculture_route_opportunity/outputs/tests.json",
+      "sha256": "e3b4b9ae2e3b128253a55456c5228508881d5c8bdc9ec9afa529d695802139cc"
+    },
+    {
+      "bytes": 576,
+      "path": "research/manual/kaggriculture_route_opportunity/reference/dependency_hashes.json",
+      "sha256": "97e74bf69a55549698047904ed84cd918477c35aca4a957107cae7a70b3209df"
+    },
+    {
+      "bytes": 519,
+      "path": "research/manual/kaggriculture_route_opportunity/reference/input_review.json",
+      "sha256": "90bbb12c92c69ad2e357a86e863cf9d053b484f2c43d9bdf20691e0f19073dbe"
+    },
+    {
+      "bytes": 6357,
+      "path": "research/manual/kaggriculture_route_opportunity/reference/local_test_log.txt",
+      "sha256": "07d1bc9d98114491d8555f76745c5b14561bc073ca77535f7f7ee03225a5646e"
+    },
+    {
+      "bytes": 1911,
+      "path": "research/manual/kaggriculture_route_opportunity/reference/notebook10_final_comparisons.csv",
+      "sha256": "c5f61c62a097b17888f02640167111147bfb8c152ab048640c2c0cdf9a150623"
+    },
+    {
+      "bytes": 5746,
+      "path": "research/manual/kaggriculture_route_opportunity/reference/notebook10_report.json",
+      "sha256": "ecdbbe129d032ce39a8f6537046967ac416f56320737ef354c9d77c74000a6e1"
+    },
+    {
+      "bytes": 6836,
+      "path": "research/manual/kaggriculture_route_opportunity/route_experiment.py",
+      "sha256": "57098a02ea4b5fb72bf651e7aa92ac098459e2c77a45c742879c90e4f4aeee46"
+    },
+    {
+      "bytes": 10254,
+      "path": "research/manual/kaggriculture_route_opportunity/route_features.py",
+      "sha256": "ab74a9c29a14b35e26e512f57cfedf8fcff5c28d5372ac9ed1ee08679d026544"
+    },
+    {
+      "bytes": 1992,
+      "path": "research/manual/kaggriculture_route_opportunity/route_io.py",
+      "sha256": "3bf239335da21386159016176b846ee6d7d93b232cd2d9015ca8f6a24e0af797"
+    },
+    {
+      "bytes": 3489,
+      "path": "research/manual/kaggriculture_route_opportunity/route_policy.py",
+      "sha256": "76c7a942ec42f83510aaf3248133e1efe4df765747dc2382e9c64c233a1280c7"
+    },
+    {
+      "bytes": 19239,
+      "path": "research/manual/kaggriculture_route_opportunity/run_routes.py",
+      "sha256": "ae3812bad71ed7df15d70e4176b4e769c531fb72a5a906ad7322e79df5d33943"
+    },
+    {
+      "bytes": 2818,
+      "path": "research/manual/kaggriculture_route_opportunity/tests/helpers.py",
+      "sha256": "dc59c53110a8cdea18ed379668830f5873f77e67608e62974367aa123b2b9596"
+    },
+    {
+      "bytes": 8696,
+      "path": "research/manual/kaggriculture_route_opportunity/tests/test_experiment.py",
+      "sha256": "3b6563a79070fc085985087d09cd5aff86e4c51cdf6aebb74ec390ff2d0a8bb7"
+    },
+    {
+      "bytes": 7002,
+      "path": "research/manual/kaggriculture_route_opportunity/tests/test_features.py",
+      "sha256": "60c5c851b06d0a7e177d5e1539ffd1b07c72deb4a5fb4ccf94a697bf1d9fb455"
+    },
+    {
+      "bytes": 1858,
+      "path": "research/manual/kaggriculture_route_opportunity/tests/test_io.py",
+      "sha256": "b65b9384c0aaf072be5bdc916cea251b1471cd55e513f4e139da1809fa7f3163"
+    },
+    {
+      "bytes": 2580,
+      "path": "research/manual/kaggriculture_route_opportunity/tests/test_runner.py",
+      "sha256": "1430a31e331bd464685a68a15048ede7f79f613139d9e556a0d08ae56b548932"
+    },
+    {
+      "bytes": 2025,
+      "path": "research/manual/kaggriculture_route_opportunity/tests/test_visuals.py",
+      "sha256": "deb2e21325276f7ddb6c96a4102404aa3f0729d4fc15fdbaab17f7bf90a170a2"
+    },
+    {
+      "bytes": 5847,
+      "path": "research/manual/kaggriculture_route_opportunity/visualize_routes.py",
+      "sha256": "35e1e9845c3ea404f2e7a3c0f01519b1d4d2b9b8418a28bbe11800aec80fe187"
+    },
+    {
+      "bytes": 48,
+      "path": "research/manual/kaggriculture_sale_timing/.gitignore",
+      "sha256": "a054ec3e56c75407c5e8ae194e5d16deb9200df594811cbde758137b486d9f8b"
+    },
+    {
+      "bytes": 188750,
+      "path": "research/manual/kaggriculture_sale_timing/10_sale_timing_feature_ablation.ipynb",
+      "sha256": "6615b4b9b4ce63dba04d9e45377cb7b77d46afc89622d73c201ecb7cbb8203cb"
+    },
+    {
+      "bytes": 9682,
+      "path": "research/manual/kaggriculture_sale_timing/FEATURE_RESEARCH.md",
+      "sha256": "edb1fc45f0dfafbaf2d4e41d2954a9260888a7bd974cb546758dde6354943311"
+    },
+    {
+      "bytes": 1372,
+      "path": "research/manual/kaggriculture_sale_timing/LOCAL_VALIDATION.json",
+      "sha256": "10e7b55a7532104c4585844368dcf0ea5cf0fcec40c21c3b9c9c59ff4fd155b9"
+    },
+    {
+      "bytes": 2540,
+      "path": "research/manual/kaggriculture_sale_timing/PACKAGE_MANIFEST.json",
+      "sha256": "7d6f89daef4254796ff9f7700a3773241b8df27c1c3805775cea1dd105e332eb"
+    },
+    {
+      "bytes": 1550,
+      "path": "research/manual/kaggriculture_sale_timing/PROTOCOL.json",
+      "sha256": "0689c9a98090b81db54a3d761286e4274ec0e01100ee186825c728900f983cf7"
+    },
+    {
+      "bytes": 2623,
+      "path": "research/manual/kaggriculture_sale_timing/RESULTS_REVIEW.md",
+      "sha256": "a276ea38f89c59658a5daa2c2404a989a9f68841dc93033c0a3a191618205b69"
+    },
+    {
+      "bytes": 5939,
+      "path": "research/manual/kaggriculture_sale_timing/START_HERE.md",
+      "sha256": "de844546a532db41087ffff786d1f0b55a542e995073453c677b8b4f7e6f1c2c"
+    },
+    {
+      "bytes": 3427,
+      "path": "research/manual/kaggriculture_sale_timing/evidence.py",
+      "sha256": "35c2d6616b9eec2c64692d7d4357bf2db925a535df6ac070e799c509bb5a4ad4"
+    },
+    {
+      "bytes": 30394,
+      "path": "research/manual/kaggriculture_sale_timing/feature_dictionary.csv",
+      "sha256": "6c831ba284f55f37d43a6ce269876a673221da925c7f623e6125e05072ca03a1"
+    },
+    {
+      "bytes": 13568,
+      "path": "research/manual/kaggriculture_sale_timing/outputs/feature_registry.csv",
+      "sha256": "31e8a59943835f6cae4c96acbc0c70567c9c9095f3a7ad308fcb0f64b0be69db"
+    },
+    {
+      "bytes": 2833,
+      "path": "research/manual/kaggriculture_sale_timing/outputs/mechanics.json",
+      "sha256": "49408877ff459020f3666b3509d19b280914a2308cff32d2837a88d738c9e3a0"
+    },
+    {
+      "bytes": 5746,
+      "path": "research/manual/kaggriculture_sale_timing/outputs/report.json",
+      "sha256": "ecdbbe129d032ce39a8f6537046967ac416f56320737ef354c9d77c74000a6e1"
+    },
+    {
+      "bytes": 66,
+      "path": "research/manual/kaggriculture_sale_timing/outputs/tests.json",
+      "sha256": "a70af534532dee2599256553ea421669c0459955715e50926e838b99f8c04390"
+    },
+    {
+      "bytes": 403,
+      "path": "research/manual/kaggriculture_sale_timing/reference/dependency_hashes.json",
+      "sha256": "d3bd3671789378a1d527fd5b644e7ab64eb63026f45be033dba165fd988ee0a6"
+    },
+    {
+      "bytes": 2685,
+      "path": "research/manual/kaggriculture_sale_timing/reference/diagnosis.json",
+      "sha256": "f334aaa8e37309fc2eca63176f82e889202b507121c2f4ddb89c9b6ad3ce4bd3"
+    },
+    {
+      "bytes": 924,
+      "path": "research/manual/kaggriculture_sale_timing/reference/input_review.json",
+      "sha256": "a03bd23811575b005284a404b1605f17413a4832e915701d48eb6119f6f8e987"
+    },
+    {
+      "bytes": 5783,
+      "path": "research/manual/kaggriculture_sale_timing/reference/local_test_log.txt",
+      "sha256": "0da484cd650f4d8f16fd0082bbfd36d38b58c7dfd18f47c9d56fd4b55b17feec"
+    },
+    {
+      "bytes": 4857017,
+      "path": "research/manual/kaggriculture_sale_timing/reference/notebook09_diagnosis_dashboard.html",
+      "sha256": "22a6257675eeda3cc6801f243b2ebc466ba0518b3e9cb5da43efc95035c98852"
+    },
+    {
+      "bytes": 963,
+      "path": "research/manual/kaggriculture_sale_timing/reference/notebook09_paired_results.csv",
+      "sha256": "ee67b18cb08281c7dad76401abfe7d0607e9e346be5cf6e3f7046efc9600d0ec"
+    },
+    {
+      "bytes": 4049,
+      "path": "research/manual/kaggriculture_sale_timing/reference/notebook09_report.json",
+      "sha256": "ad00f32aad2420411cfca59b24aed9d1c2497fa988377047cd2aa5c8743aba66"
+    },
+    {
+      "bytes": 16853,
+      "path": "research/manual/kaggriculture_sale_timing/reference/notebook09_trajectory.csv",
+      "sha256": "5c86a4744501acf4c41dd5b975f902c09bd12fd8bed83d06a0aa1332219533f7"
+    },
+    {
+      "bytes": 25301,
+      "path": "research/manual/kaggriculture_sale_timing/run_timing.py",
+      "sha256": "fb71bcffac2b7285656273167dae3ef7d74719f05fd1b224251fbe36d13e5023"
+    },
+    {
+      "bytes": 6464,
+      "path": "research/manual/kaggriculture_sale_timing/tests/test_evaluator.py",
+      "sha256": "7cc676d1192ab4493ef7e910e8b4179490e3051f70378ad61087b71abe525e63"
+    },
+    {
+      "bytes": 4415,
+      "path": "research/manual/kaggriculture_sale_timing/tests/test_runner.py",
+      "sha256": "54da86328c70de203a29e964d6d228f75561af7cd9d96ecf766ad7ed99b7fc93"
+    },
+    {
+      "bytes": 7681,
+      "path": "research/manual/kaggriculture_sale_timing/tests/test_timing.py",
+      "sha256": "5840fc629cac53212679f44a994d5fd9dd2c03ebe19190ea4682239a2b28657a"
+    },
+    {
+      "bytes": 6410,
+      "path": "research/manual/kaggriculture_sale_timing/timing_features.py",
+      "sha256": "28796d5f929c8e2a090e4532d6f564ce46d35c891c65832459c5474c700fcb28"
+    },
+    {
+      "bytes": 3906,
+      "path": "research/manual/kaggriculture_sale_timing/visualize_timing.py",
+      "sha256": "14817ac8b4e9da5216337355f0810575b6c7245fc5c150f0302d562160b38fc7"
+    },
+    {
+      "bytes": 62,
+      "path": "research/manual/kaggriculture_service_value/.gitignore",
+      "sha256": "6353534e4c10203703cdb065e02af88c5391b304919ba99ecb736fecf16efc47"
+    },
+    {
+      "bytes": 8136348,
+      "path": "research/manual/kaggriculture_service_value/19_collection_completion_feature_ablation.ipynb",
+      "sha256": "38d0c99d50548b417812309b4e6626ef8d4c843e454d6372ed0bc02527017c94"
+    },
+    {
+      "bytes": 8659883,
+      "path": "research/manual/kaggriculture_service_value/20_maintenance_slack_feature_ablation.ipynb",
+      "sha256": "f7bf6ae04a5535a8753b9f8fce1e89119f7cd5cb7a2b8e15d0471a8c8df1ff24"
+    },
+    {
+      "bytes": 503,
+      "path": "research/manual/kaggriculture_service_value/FEATURE_FAMILY_REGISTRY.csv",
+      "sha256": "6026e945017f81c71606894b1673261817293706ce601614d7eed6f4f43b0781"
+    },
+    {
+      "bytes": 10152,
+      "path": "research/manual/kaggriculture_service_value/FEATURE_RESEARCH.md",
+      "sha256": "e026d7558f674966f62968d702ae03deba34d9f39d98a10a82df325ed2330285"
+    },
+    {
+      "bytes": 972,
+      "path": "research/manual/kaggriculture_service_value/FUTURE_PAIRS.md",
+      "sha256": "02768b19980bff6c142a07b91309dfe995857e16c44582e097c63ac65da97576"
+    },
+    {
+      "bytes": 2329,
+      "path": "research/manual/kaggriculture_service_value/GIT_WORKFLOW.md",
+      "sha256": "c1220088d2a97ca3c33f3291f37a2ebf70d97eef491544791fabcc8c11b2eeb6"
+    },
+    {
+      "bytes": 637,
+      "path": "research/manual/kaggriculture_service_value/NOTICE.md",
+      "sha256": "e4928792341413c8ff7f9f40511c9bd0c6830e1a9dbeab53c851a4e06825f8d7"
+    },
+    {
+      "bytes": 4455,
+      "path": "research/manual/kaggriculture_service_value/PACKAGE_MANIFEST.json",
+      "sha256": "53835e9f2676bcd62830f05e5a268b29c165d3c9ccd79a0780a376645a21e1f5"
+    },
+    {
+      "bytes": 2145,
+      "path": "research/manual/kaggriculture_service_value/PREPARATION_STATUS.json",
+      "sha256": "9500c46685d468718164453d961306e8e6bf90686ebc5ca8ea01cd5ec0c00223"
+    },
+    {
+      "bytes": 5168,
+      "path": "research/manual/kaggriculture_service_value/PROTOCOL.json",
+      "sha256": "8af67378f5bda94df365cdfa8923ddfb698c7ed0d43acfa4144c2bc17e8dcce6"
+    },
+    {
+      "bytes": 840,
+      "path": "research/manual/kaggriculture_service_value/README.md",
+      "sha256": "e29eb6f3b55c0e1a404d8d96fdf63983a9424cb92fea8a487e47b94cbeb6d625"
+    },
+    {
+      "bytes": 2672,
+      "path": "research/manual/kaggriculture_service_value/RESULTS_REVIEW.md",
+      "sha256": "e8a3e4551cbb8258f792706c21ac38a6074e79eeb1ba2fb248d1fa039d576042"
+    },
+    {
+      "bytes": 8814,
+      "path": "research/manual/kaggriculture_service_value/START_HERE.md",
+      "sha256": "beda02c4b9ebd05650ca7f9e3f0cb9124f58bd825ed72edcd154cc7ee258df89"
+    },
+    {
+      "bytes": 4684,
+      "path": "research/manual/kaggriculture_service_value/baseline/callback.py",
+      "sha256": "f887fe63d3e797bfedef2254c2b208887569af2e19871010216d5565bc1d82cf"
+    },
+    {
+      "bytes": 8645,
+      "path": "research/manual/kaggriculture_service_value/baseline/cash_features.py",
+      "sha256": "c7e5149788287bc8ed7cfbdd0167188a65baa143d2565767b1bd5efde25f521f"
+    },
+    {
+      "bytes": 6410,
+      "path": "research/manual/kaggriculture_service_value/baseline/timing_features.py",
+      "sha256": "28796d5f929c8e2a090e4532d6f564ce46d35c891c65832459c5474c700fcb28"
+    },
+    {
+      "bytes": 6332,
+      "path": "research/manual/kaggriculture_service_value/collection_features.py",
+      "sha256": "91b0c8c14337c35ab9a9ed7394b19f5985d4f57dd16b78b14fca2438a70c5782"
+    },
+    {
+      "bytes": 6584,
+      "path": "research/manual/kaggriculture_service_value/experiment.py",
+      "sha256": "e0274543182654eab85ab5c32c2944cf1a1e7951f88a536784fa5d3e9151a703"
+    },
+    {
+      "bytes": 1625,
+      "path": "research/manual/kaggriculture_service_value/export_source.py",
+      "sha256": "12b3303f2d0bf3a93676d18bcee371d3bd9a6422f6f0fb2cc829be664cbf50da"
+    },
+    {
+      "bytes": 3403,
+      "path": "research/manual/kaggriculture_service_value/feature_common.py",
+      "sha256": "2f8cb67e728a3ff9872bb8f8a9a96172562bd104bf6aaa66dd33ffec803282ea"
+    },
+    {
+      "bytes": 1941,
+      "path": "research/manual/kaggriculture_service_value/io_utils.py",
+      "sha256": "901964dd904cd6c8347a6d1ab614e5e41440aec347a83261e90ac17bf2758e8b"
+    },
+    {
+      "bytes": 6328,
+      "path": "research/manual/kaggriculture_service_value/maintenance_features.py",
+      "sha256": "7095ede4b805d01fe2b4845e8f1e1026d0007406b20eb1bebb4e8c6464b112f7"
+    },
+    {
+      "bytes": 4870,
+      "path": "research/manual/kaggriculture_service_value/mechanics.py",
+      "sha256": "2d0458b47c571010395c01cb958778ad6aa9aea414759752e99ad58038bb7330"
+    },
+    {
+      "bytes": 1508,
+      "path": "research/manual/kaggriculture_service_value/notebook_utils.py",
+      "sha256": "544ace717285c5750775f678bcfe7039827d347b26a6c8b651e020783f675d34"
+    },
+    {
+      "bytes": 1,
+      "path": "research/manual/kaggriculture_service_value/outputs/round19/comparisons.csv",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 5996079,
+      "path": "research/manual/kaggriculture_service_value/outputs/round19/dashboard.html",
+      "sha256": "4a042f124ce698b7a57f2a26f0cf5db6cebd2a0d46a7c850256022f02e7fbd10"
+    },
+    {
+      "bytes": 640,
+      "path": "research/manual/kaggriculture_service_value/outputs/round19/pair1/comparison.csv",
+      "sha256": "92865f5fc49a8aad09dd46dadda5951bb600a6a59629f09325f97eb86bf21b29"
+    },
+    {
+      "bytes": 2325,
+      "path": "research/manual/kaggriculture_service_value/outputs/round19/pair1/report.json",
+      "sha256": "ef729f169c018ef20ee7051442d92268c5d90ab65d87923284522b2649383a9d"
+    },
+    {
+      "bytes": 2191,
+      "path": "research/manual/kaggriculture_service_value/outputs/round19/screen/feature_registry.csv",
+      "sha256": "2bacc26c386af363c6f0360f6127f569ec903cd10bc60238b46e5722d6d9121c"
+    },
+    {
+      "bytes": 269,
+      "path": "research/manual/kaggriculture_service_value/outputs/round19/screen/mechanics.json",
+      "sha256": "601af5cf446468dd60a27fbcd28d170a8131e3cec454ecd4dcd82d67a5528c00"
+    },
+    {
+      "bytes": 1314,
+      "path": "research/manual/kaggriculture_service_value/outputs/round19/screen/report.json",
+      "sha256": "f0c628daba904f8cddba247a803dea404c6fd5e241455bbdabba63f84cce8e48"
+    },
+    {
+      "bytes": 744,
+      "path": "research/manual/kaggriculture_service_value/outputs/round19/summary.json",
+      "sha256": "700356e0703fc199f32af340c2debf8f3a34b3144378c0fe48e4040519beceaa"
+    },
+    {
+      "bytes": 101,
+      "path": "research/manual/kaggriculture_service_value/outputs/round19/tests.json",
+      "sha256": "64d0e46f7afc3da672aeaf0380defbaa96ab98355f4b8ac642a7a18b8a811d20"
+    },
+    {
+      "bytes": 1,
+      "path": "research/manual/kaggriculture_service_value/outputs/round20/comparisons.csv",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 6283700,
+      "path": "research/manual/kaggriculture_service_value/outputs/round20/dashboard.html",
+      "sha256": "8a6b7da075ef3cc7f01e5e184783b2ee0d18f6e6791c863ec3f1da53c12e5124"
+    },
+    {
+      "bytes": 625,
+      "path": "research/manual/kaggriculture_service_value/outputs/round20/pair1/comparison.csv",
+      "sha256": "5c82853a9c4129d5970f6e2eb45d96b88793d487b34981bec4a25e1f6e6608d6"
+    },
+    {
+      "bytes": 2314,
+      "path": "research/manual/kaggriculture_service_value/outputs/round20/pair1/report.json",
+      "sha256": "a599360edde9751e0b7f506853216a5af490ed607db163d8b1753d868f329e83"
+    },
+    {
+      "bytes": 2302,
+      "path": "research/manual/kaggriculture_service_value/outputs/round20/screen/feature_registry.csv",
+      "sha256": "dcd33dcafea04f4b5587fd6349253f3e89d8615f6145a9e2864f7ead76b484c4"
+    },
+    {
+      "bytes": 248,
+      "path": "research/manual/kaggriculture_service_value/outputs/round20/screen/mechanics.json",
+      "sha256": "ae1aa7202034437a1e6b3e31fc93e9ffa3014e88c358ac4f7478d468669936c6"
+    },
+    {
+      "bytes": 1310,
+      "path": "research/manual/kaggriculture_service_value/outputs/round20/screen/report.json",
+      "sha256": "134eb24fc1b34dd9c7b0ddd7c9fd1f347ab2c9a6098609fc189f5602c5336ad0"
+    },
+    {
+      "bytes": 742,
+      "path": "research/manual/kaggriculture_service_value/outputs/round20/summary.json",
+      "sha256": "426823ee9d3a5a9b85cf3da10cca754d512527a1d98435080aeb3b16b0389dba"
+    },
+    {
+      "bytes": 101,
+      "path": "research/manual/kaggriculture_service_value/outputs/round20/tests.json",
+      "sha256": "de0ce40f5e52a73775364a696befdd6cd529777d81fc503dc4eb1961bfe557b1"
+    },
+    {
+      "bytes": 2977,
+      "path": "research/manual/kaggriculture_service_value/policies.py",
+      "sha256": "0fd0b44c71641dcee75c9a5cb4c6b0db7d9c7833bdb682681f6933451722683e"
+    },
+    {
+      "bytes": 3715,
+      "path": "research/manual/kaggriculture_service_value/reference/input_review.json",
+      "sha256": "d8809adc07c070b07021855fcddded8c2473606b1d37b0a612a2d07aee275121"
+    },
+    {
+      "bytes": 860,
+      "path": "research/manual/kaggriculture_service_value/reference/prior_result_hashes.json",
+      "sha256": "ded9700c4ab8b1c6b5f00c9340e7d3384fad9ffb1e08bf42f022f3b78a973476"
+    },
+    {
+      "bytes": 151,
+      "path": "research/manual/kaggriculture_service_value/reference/round17_mechanics.json",
+      "sha256": "b2db312b8cb6734ab6151a89a0f5ba9a24e41f4eeded9847a4191f1f8bdb2e19"
+    },
+    {
+      "bytes": 1306,
+      "path": "research/manual/kaggriculture_service_value/reference/round17_report.json",
+      "sha256": "577fce2f1ce25becdf1ab469cb66b176944f6e23125601eeb9a827a25223abb2"
+    },
+    {
+      "bytes": 160,
+      "path": "research/manual/kaggriculture_service_value/reference/round17_status.json",
+      "sha256": "8ab0a3ff23f2ad245ae8158474977e9eb54eba82bb020d442280067b4d4f898b"
+    },
+    {
+      "bytes": 910,
+      "path": "research/manual/kaggriculture_service_value/reference/round17_summary.json",
+      "sha256": "b9e8ddc2fd0127d184d30c24a27af9bfe0946fe2e16c6ed248c8b84a57706fcd"
+    },
+    {
+      "bytes": 163,
+      "path": "research/manual/kaggriculture_service_value/reference/round18_mechanics.json",
+      "sha256": "ec3cd258df48dc5d46c060d2c04cd2af62a0ddde2ff74388d0512ef2e4925ba3"
+    },
+    {
+      "bytes": 1305,
+      "path": "research/manual/kaggriculture_service_value/reference/round18_report.json",
+      "sha256": "351f79e5132b22347587a1c7fd24c041305eac49004aacefff39c4eaefe43e1a"
+    },
+    {
+      "bytes": 160,
+      "path": "research/manual/kaggriculture_service_value/reference/round18_status.json",
+      "sha256": "439a08cb1c2bcf8e08721011a8666125db5531397ef14afc400c4e5d2f7b1308"
+    },
+    {
+      "bytes": 910,
+      "path": "research/manual/kaggriculture_service_value/reference/round18_summary.json",
+      "sha256": "c08a63e5246800ba66f85e787f872123add0adef0401cfe87db0a099daa43caa"
+    },
+    {
+      "bytes": 15119,
+      "path": "research/manual/kaggriculture_service_value/round19_feature_dictionary.csv",
+      "sha256": "3b03a421e1353a0171e185f273ed547cf7aa45a42c20317ffc18fba097edc227"
+    },
+    {
+      "bytes": 14919,
+      "path": "research/manual/kaggriculture_service_value/round20_feature_dictionary.csv",
+      "sha256": "3406770f1475b28bc501598f3bf0a882f12198e2df5de615e306565ccd1e5ac9"
+    },
+    {
+      "bytes": 22044,
+      "path": "research/manual/kaggriculture_service_value/run_service.py",
+      "sha256": "426ef2474a16554087d989cc33f41c51e7a6f90d12cf54802291bca40dab0f3d"
+    },
+    {
+      "bytes": 76,
+      "path": "research/manual/kaggriculture_service_value/tests/__init__.py",
+      "sha256": "238bd8e9a73f22128770a5dcd52d6d6ebe9de1da46af42f5cbde7c320b4f05f0"
+    },
+    {
+      "bytes": 1695,
+      "path": "research/manual/kaggriculture_service_value/tests/fixtures.py",
+      "sha256": "cdef1dfe189f22aa71fbee4173a490dba8780ca3642d0d3ba64d1325a46bb8c7"
+    },
+    {
+      "bytes": 5396,
+      "path": "research/manual/kaggriculture_service_value/tests/test_common.py",
+      "sha256": "f789bf37a289e2e38e0071da008a7898faa7b71d68d172ec762b9bc1fa3734ee"
+    },
+    {
+      "bytes": 4293,
+      "path": "research/manual/kaggriculture_service_value/tests/test_round19.py",
+      "sha256": "74c7fd98f2a816c76ebbd77141f49b913783092925042b56dc6c466cac592167"
+    },
+    {
+      "bytes": 4600,
+      "path": "research/manual/kaggriculture_service_value/tests/test_round20.py",
+      "sha256": "ef40ab6a2a9d3fa66059c3024582000fade4f7f4d85b41768eee92741ae672bd"
+    },
+    {
+      "bytes": 6081,
+      "path": "research/manual/kaggriculture_service_value/visualize.py",
+      "sha256": "04a31303681206e35821283a3489004146b4f995510ba3573dcfdd0789b5e436"
+    },
+    {
+      "bytes": 62,
+      "path": "research/manual/kaggriculture_terminal_ablation/.gitignore",
+      "sha256": "71b629df650df3006a9c6095c78bd8a5c2c97a3539bcdc5d27fefd6da5401c87"
+    },
+    {
+      "bytes": 187299,
+      "path": "research/manual/kaggriculture_terminal_ablation/09_terminal_cash_feature_ablation.ipynb",
+      "sha256": "74aad8b2835e0cd6b1dd924549e458f74c9de41f0f6b4100f74df35317d03190"
+    },
+    {
+      "bytes": 10546,
+      "path": "research/manual/kaggriculture_terminal_ablation/FEATURE_RESEARCH.md",
+      "sha256": "70818e829ddf0a926707d9eb7808dbd32888fac7d91c0ec5efe12975e5b79d80"
+    },
+    {
+      "bytes": 2187,
+      "path": "research/manual/kaggriculture_terminal_ablation/LOCAL_VALIDATION.json",
+      "sha256": "2a6876c1ce3f8426fc2d0d1356c1f5bb7da27b4336c8f30cf1d61ed4cc71392b"
+    },
+    {
+      "bytes": 2904,
+      "path": "research/manual/kaggriculture_terminal_ablation/PACKAGE_MANIFEST.json",
+      "sha256": "f3f44a776fbcdedda88a95491b0696c88c3bd7b444fc4cbf0ffc5724eaa2f593"
+    },
+    {
+      "bytes": 2028,
+      "path": "research/manual/kaggriculture_terminal_ablation/PROTOCOL.json",
+      "sha256": "44b55a6424c74a73487579f2ac24f2c3c8de31198ae4ea5f681913ddcd199ab0"
+    },
+    {
+      "bytes": 5493,
+      "path": "research/manual/kaggriculture_terminal_ablation/START_HERE.md",
+      "sha256": "f1a38a0be93c553be8f19535e3e040809d43c2fedd30bd8a5edc7664b0131c95"
+    },
+    {
+      "bytes": 4134,
+      "path": "research/manual/kaggriculture_terminal_ablation/UPDATE_DIAGNOSIS.md",
+      "sha256": "16dbbf4e611b428efccb0334229f996fc6d83139a3a2d52a2a803043913c57bf"
+    },
+    {
+      "bytes": 2187,
+      "path": "research/manual/kaggriculture_terminal_ablation/UPDATE_VALIDATION.json",
+      "sha256": "2a6876c1ce3f8426fc2d0d1356c1f5bb7da27b4336c8f30cf1d61ed4cc71392b"
+    },
+    {
+      "bytes": 11666,
+      "path": "research/manual/kaggriculture_terminal_ablation/continuation.py",
+      "sha256": "c9172c5edc94858c973f71c29f57605cccaccc46c004c1d6af9b9d4d2744411c"
+    },
+    {
+      "bytes": 5554,
+      "path": "research/manual/kaggriculture_terminal_ablation/feature_dictionary.csv",
+      "sha256": "383f31af3b947c423d7cdbf758b57037027efb7fd9e7cbe57f0c91887c65c504"
+    },
+    {
+      "bytes": 5502,
+      "path": "research/manual/kaggriculture_terminal_ablation/mechanics_checks.py",
+      "sha256": "1c500c565a92ae88de1a9fe1773529ce7940cae1844cbc8cbe750bef793d1e05"
+    },
+    {
+      "bytes": 23661,
+      "path": "research/manual/kaggriculture_terminal_ablation/outputs/feature_registry.csv",
+      "sha256": "2a36218c65c7724b8352e2ce6ca51f3cf0c1409fbb23c45c57faf14820044604"
+    },
+    {
+      "bytes": 5509,
+      "path": "research/manual/kaggriculture_terminal_ablation/outputs/mechanics.json",
+      "sha256": "42840ea4f619c874c08d132f991cf63c0d77c572f20a5ab8b032b897a967e8d4"
+    },
+    {
+      "bytes": 4049,
+      "path": "research/manual/kaggriculture_terminal_ablation/outputs/report.json",
+      "sha256": "ad00f32aad2420411cfca59b24aed9d1c2497fa988377047cd2aa5c8743aba66"
+    },
+    {
+      "bytes": 66,
+      "path": "research/manual/kaggriculture_terminal_ablation/outputs/tests.json",
+      "sha256": "87db4bb802207bd566e6f4ff1098186b7bfc8cdf6202cb609452f32369b9d512"
+    },
+    {
+      "bytes": 1133,
+      "path": "research/manual/kaggriculture_terminal_ablation/reference/input_review.json",
+      "sha256": "95413ed2f42fec6f894df52477b9a8e3437adab17db11bc5c2521e360e9dbbe1"
+    },
+    {
+      "bytes": 6630,
+      "path": "research/manual/kaggriculture_terminal_ablation/reference/local_test_log.txt",
+      "sha256": "6af0074cc3d6778ed4ba289f243acf4b5464e706b7148f1fa0251b48762dba1e"
+    },
+    {
+      "bytes": 782,
+      "path": "research/manual/kaggriculture_terminal_ablation/reference/notebook08_effects_by_episode.csv",
+      "sha256": "0e1e27208aa0d9572ce378a00a51719578e7a8dd08d2bc230e2f51df2b775331"
+    },
+    {
+      "bytes": 26295,
+      "path": "research/manual/kaggriculture_terminal_ablation/reference/notebook08_one_step_effects.csv",
+      "sha256": "a9412f8e72ad3b95fef7b27da8bfd66247366af0fad84f0621c2ae7802814ff9"
+    },
+    {
+      "bytes": 3606,
+      "path": "research/manual/kaggriculture_terminal_ablation/reference/notebook08_report.json",
+      "sha256": "bc265741cf2ea295e3d45daedbeca7bdb71e82f8480e50cf6de59de36e31b769"
+    },
+    {
+      "bytes": 481,
+      "path": "research/manual/kaggriculture_terminal_ablation/reference/notebook09_error_review.json",
+      "sha256": "0304ca81263f2a651d29be8a821f00d6cf63fb65994a78b1b925860c8044946d"
+    },
+    {
+      "bytes": 911,
+      "path": "research/manual/kaggriculture_terminal_ablation/reference/previous_code_manifest.json",
+      "sha256": "150a250bb8b8d9a15a5ae8006fdc1364bd3e7fdf657046e95d7c9e9636a93feb"
+    },
+    {
+      "bytes": 9711,
+      "path": "research/manual/kaggriculture_terminal_ablation/reference/update_test_log.txt",
+      "sha256": "78b047b9d5c53f134361122f7d3b7bfd9c508fc861807b11afddc5250d016f72"
+    },
+    {
+      "bytes": 1759,
+      "path": "research/manual/kaggriculture_terminal_ablation/reference/updater_test_log.txt",
+      "sha256": "8c94a895c6528015102e7590f2db8c970cdb93e3b01d22f924c6d6541a00b37c"
+    },
+    {
+      "bytes": 25072,
+      "path": "research/manual/kaggriculture_terminal_ablation/run_continuation.py",
+      "sha256": "b42d373efe286d37821d592e4a3c9b4f8b5b7c864307af4af4a25b1feb3b78b5"
+    },
+    {
+      "bytes": 3774,
+      "path": "research/manual/kaggriculture_terminal_ablation/terminal_context.py",
+      "sha256": "ada4d6ddca7dc5eb1c8f0bc364d10ba6ebb84fe97f7503701f9d4dae698226c3"
+    },
+    {
+      "bytes": 5695,
+      "path": "research/manual/kaggriculture_terminal_ablation/tests/fixtures.py",
+      "sha256": "f9752fa266cdc643b930cfe7d4a04164c4f852f5f7f12bc687a727907bf48f96"
+    },
+    {
+      "bytes": 3307,
+      "path": "research/manual/kaggriculture_terminal_ablation/tests/test_context.py",
+      "sha256": "d49f3423bfe8769afc42ee3f2775a89c86d46c8f65ac88977bd107afd34ee959"
+    },
+    {
+      "bytes": 7429,
+      "path": "research/manual/kaggriculture_terminal_ablation/tests/test_continuation.py",
+      "sha256": "3ba47bcea7f8a74679ad45edb51add45652dbde60eeb9976a7679c102a091df6"
+    },
+    {
+      "bytes": 8417,
+      "path": "research/manual/kaggriculture_terminal_ablation/tests/test_mechanics_checks.py",
+      "sha256": "ee2cd14eebb7f29c692e9b31f271dd11816baa287ebca3b991367a39f2afb5b9"
+    },
+    {
+      "bytes": 5092,
+      "path": "research/manual/kaggriculture_terminal_ablation/tests/test_runner.py",
+      "sha256": "6933d7d1c3231bbe6fd3013f7b1420e5b5195afbe1b0bb5bc2d62eb4676dcc36"
+    },
+    {
+      "bytes": 5265,
+      "path": "research/manual/kaggriculture_terminal_ablation/visualize_continuation.py",
+      "sha256": "abffc269d06ebedad12e852d66a24f51c50e6c35e318e5daac99dd444dbab207"
+    },
+    {
+      "bytes": 65,
+      "path": "research/manual/kaggriculture_two_rounds/.gitignore",
+      "sha256": "f82cbc313fa61d6cb755afb0c8e592b541e1e10173a9b2466d3aa1d2f165d1df"
+    },
+    {
+      "bytes": 502257,
+      "path": "research/manual/kaggriculture_two_rounds/17_arrival_harvest_feature_ablation.ipynb",
+      "sha256": "97d27cbc0ef0af523cbb5a24e45c095a44cda2fa928562dfc19cc2533a807c0c"
+    },
+    {
+      "bytes": 502265,
+      "path": "research/manual/kaggriculture_two_rounds/18_production_headroom_feature_ablation.ipynb",
+      "sha256": "daa27b611f7e625e7e5c382716c671bb799a560a0f06507fdbc70f9f6e693079"
+    },
+    {
+      "bytes": 9236,
+      "path": "research/manual/kaggriculture_two_rounds/FEATURE_RESEARCH.md",
+      "sha256": "76691bf1b490f043b81a1a6e5924fcb7e0b07b91031123008e34c27bab34c2d0"
+    },
+    {
+      "bytes": 4637,
+      "path": "research/manual/kaggriculture_two_rounds/LOCAL_VALIDATION.json",
+      "sha256": "3bd15f563403f2c845221d60493fbe2a4eeaae6d00b664eb149c73c92c7e0da6"
+    },
+    {
+      "bytes": 884,
+      "path": "research/manual/kaggriculture_two_rounds/NOTICE.md",
+      "sha256": "444dd44f37500e440842dae3ecfb58d339a536faf77d5f139abf275a0be99cca"
+    },
+    {
+      "bytes": 3556,
+      "path": "research/manual/kaggriculture_two_rounds/PACKAGE_MANIFEST.json",
+      "sha256": "8fec79058fd0eafe2c1995aee4ca92628d13d72330e74a00fa4a10db0acddd7a"
+    },
+    {
+      "bytes": 3059,
+      "path": "research/manual/kaggriculture_two_rounds/PROTOCOL.json",
+      "sha256": "970e04ddced5a3f1b453a41dd67a7fb1a431ea3c44b32c3457d88df036f33daf"
+    },
+    {
+      "bytes": 1173,
+      "path": "research/manual/kaggriculture_two_rounds/README.md",
+      "sha256": "c537873928b86ad91700511cc1b7034bb1310eb5df9162c256036315888e7b5d"
+    },
+    {
+      "bytes": 2546,
+      "path": "research/manual/kaggriculture_two_rounds/RESULTS_REVIEW.md",
+      "sha256": "bf2b02f565baab1c36321c883725960b8ee0c520f74722ffb38853429368b491"
+    },
+    {
+      "bytes": 6086,
+      "path": "research/manual/kaggriculture_two_rounds/START_HERE.md",
+      "sha256": "a2fd08b2a0c4893512a46aeb5e9d7be3afc077668651d59cda22377d7e60460d"
+    },
+    {
+      "bytes": 3472,
+      "path": "research/manual/kaggriculture_two_rounds/arrival_features.py",
+      "sha256": "80d67b3f312cd86a79c96bc88e0f34e81571c02099f3f130f19808b4c314af49"
+    },
+    {
+      "bytes": 4684,
+      "path": "research/manual/kaggriculture_two_rounds/baseline/callback.py",
+      "sha256": "f887fe63d3e797bfedef2254c2b208887569af2e19871010216d5565bc1d82cf"
+    },
+    {
+      "bytes": 8645,
+      "path": "research/manual/kaggriculture_two_rounds/baseline/cash_features.py",
+      "sha256": "c7e5149788287bc8ed7cfbdd0167188a65baa143d2565767b1bd5efde25f521f"
+    },
+    {
+      "bytes": 6410,
+      "path": "research/manual/kaggriculture_two_rounds/baseline/timing_features.py",
+      "sha256": "28796d5f929c8e2a090e4532d6f564ce46d35c891c65832459c5474c700fcb28"
+    },
+    {
+      "bytes": 6572,
+      "path": "research/manual/kaggriculture_two_rounds/experiment.py",
+      "sha256": "d60e867ca040b7c9b399ab4a569e865cbbebdb613684b18aa160e643f874a920"
+    },
+    {
+      "bytes": 3403,
+      "path": "research/manual/kaggriculture_two_rounds/feature_common.py",
+      "sha256": "2f8cb67e728a3ff9872bb8f8a9a96172562bd104bf6aaa66dd33ffec803282ea"
+    },
+    {
+      "bytes": 4595,
+      "path": "research/manual/kaggriculture_two_rounds/headroom_features.py",
+      "sha256": "6c4b6694c4672c179a29e79972a3e03d400950c27ef43ad11c2fd14c5982b59d"
+    },
+    {
+      "bytes": 1941,
+      "path": "research/manual/kaggriculture_two_rounds/io_utils.py",
+      "sha256": "901964dd904cd6c8347a6d1ab614e5e41440aec347a83261e90ac17bf2758e8b"
+    },
+    {
+      "bytes": 2957,
+      "path": "research/manual/kaggriculture_two_rounds/mechanics.py",
+      "sha256": "2e0bda8e83a8a7035b2f72e239af5506aaf00e19c92d2b1e8585cb9f928449d2"
+    },
+    {
+      "bytes": 1,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round17/comparisons.csv",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 4632079,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round17/dashboard.html",
+      "sha256": "dae7ae296ec20b79a21c4cf6daeaefa41cb5299ccff7e454e1d247c5e829b287"
+    },
+    {
+      "bytes": 591,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round17/pair1/report.json",
+      "sha256": "26e9beb2b490d6e7beff1247ae8e8f93db2d1a772cb9cb57a32051b9c043e52b"
+    },
+    {
+      "bytes": 591,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round17/pair2/report.json",
+      "sha256": "3d3a0e937ecad99e1db473f352dc0e1b5bd2c6fd521869f773e308cab1f89f97"
+    },
+    {
+      "bytes": 591,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round17/pair3/report.json",
+      "sha256": "6beefc894a9491e9d2b3285e39aa8c22551c9961cc371d61afe179f9979b35ab"
+    },
+    {
+      "bytes": 591,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round17/pair4/report.json",
+      "sha256": "a09cc45d2a3c48c5c33e6785493771e4055eebc1cb5f4afa31214f5ddae8352f"
+    },
+    {
+      "bytes": 2335,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round17/screen/feature_registry.csv",
+      "sha256": "e2b803f448877b20cd9f18029678abe88068efe33ee1e65b90b878f9cf0cf05b"
+    },
+    {
+      "bytes": 151,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round17/screen/mechanics.json",
+      "sha256": "b2db312b8cb6734ab6151a89a0f5ba9a24e41f4eeded9847a4191f1f8bdb2e19"
+    },
+    {
+      "bytes": 1306,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round17/screen/report.json",
+      "sha256": "577fce2f1ce25becdf1ab469cb66b176944f6e23125601eeb9a827a25223abb2"
+    },
+    {
+      "bytes": 910,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round17/summary.json",
+      "sha256": "b9e8ddc2fd0127d184d30c24a27af9bfe0946fe2e16c6ed248c8b84a57706fcd"
+    },
+    {
+      "bytes": 98,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round17/tests.json",
+      "sha256": "ca5e4ec44ec510928eaca9ae9fd41dd7d39fa513c383e1b943f4f08233c165b9"
+    },
+    {
+      "bytes": 1,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round18/comparisons.csv",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 4631346,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round18/dashboard.html",
+      "sha256": "81c96fa34af9933d4e80e9ab6c338a8478c69f686b8ed13bb1c9dad9ec04fa74"
+    },
+    {
+      "bytes": 591,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round18/pair1/report.json",
+      "sha256": "afe6a9c0bae4382eab62734e6cb2db55ca45b9ddc412520828720b64047e945a"
+    },
+    {
+      "bytes": 591,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round18/pair2/report.json",
+      "sha256": "8c1fe3cf000e109740f6d4d0ca0a883680aa28a54fcb909d7b5bc2220200800d"
+    },
+    {
+      "bytes": 591,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round18/pair3/report.json",
+      "sha256": "d9947070252af52cd7eb8bb5f33a4a1ca14dea658427b8cb730bbb2952c4e2c9"
+    },
+    {
+      "bytes": 591,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round18/pair4/report.json",
+      "sha256": "e04f7996543e93d02da408174f25c8e68d10760ae36773d401adc406320e93a6"
+    },
+    {
+      "bytes": 2274,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round18/screen/feature_registry.csv",
+      "sha256": "4e913e9072d98339edada5f0abfb84bba9c68547956eabc6e9e3b33dc9cef6e2"
+    },
+    {
+      "bytes": 163,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round18/screen/mechanics.json",
+      "sha256": "ec3cd258df48dc5d46c060d2c04cd2af62a0ddde2ff74388d0512ef2e4925ba3"
+    },
+    {
+      "bytes": 1305,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round18/screen/report.json",
+      "sha256": "351f79e5132b22347587a1c7fd24c041305eac49004aacefff39c4eaefe43e1a"
+    },
+    {
+      "bytes": 910,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round18/summary.json",
+      "sha256": "c08a63e5246800ba66f85e787f872123add0adef0401cfe87db0a099daa43caa"
+    },
+    {
+      "bytes": 98,
+      "path": "research/manual/kaggriculture_two_rounds/outputs/round18/tests.json",
+      "sha256": "bdb2bab99f0209a00234d6d2f849c17973097ab62f8b88da0ab92aa08fcbc53b"
+    },
+    {
+      "bytes": 3137,
+      "path": "research/manual/kaggriculture_two_rounds/policies.py",
+      "sha256": "54270b1d059d3e16dc549050d8225791cb97eec47c166408a7b9cb46fc2f95cf"
+    },
+    {
+      "bytes": 634,
+      "path": "research/manual/kaggriculture_two_rounds/reference/input_review.json",
+      "sha256": "3aa8532ec1dd7f238103f797ed569a08795449cec32ae049d1ab6487ed84a9a7"
+    },
+    {
+      "bytes": 358,
+      "path": "research/manual/kaggriculture_two_rounds/reference/notebook16_endpoints.csv",
+      "sha256": "cf1eb9c9b764a3588546b3a190918190a170de5d8161780511453303728edef3"
+    },
+    {
+      "bytes": 7464,
+      "path": "research/manual/kaggriculture_two_rounds/reference/notebook16_report.json",
+      "sha256": "750096d320d90b20b01fdca461c78fe1a371913930551ab7463141c3658e1ccb"
+    },
+    {
+      "bytes": 1585,
+      "path": "research/manual/kaggriculture_two_rounds/reference/notebook16_screen.json",
+      "sha256": "2ddbf81baea38a650c2f42757c43073387a44c015a1f12166282831da6f1c5c1"
+    },
+    {
+      "bytes": 66,
+      "path": "research/manual/kaggriculture_two_rounds/reference/notebook16_tests.json",
+      "sha256": "9c7669ee81bf7c6b5a1c7503996f3669d6c7c556319c03b6549f9bb0e64b2730"
+    },
+    {
+      "bytes": 11380,
+      "path": "research/manual/kaggriculture_two_rounds/round17_feature_dictionary.csv",
+      "sha256": "c065f2572371478f1755af5b5a7bb67ecf571928dc3bbc239427fe463d4e4fef"
+    },
+    {
+      "bytes": 11378,
+      "path": "research/manual/kaggriculture_two_rounds/round18_feature_dictionary.csv",
+      "sha256": "7fab61df6f48c108dbd543abc537dc378c76af13ad5c3e205bcd9060714784e7"
+    },
+    {
+      "bytes": 19949,
+      "path": "research/manual/kaggriculture_two_rounds/run_research.py",
+      "sha256": "9d3ecc0f405bbcb1c8717f2db54988bf17fa4308cd7b7ae8ae982d1fca8dfa6f"
+    },
+    {
+      "bytes": 11358,
+      "path": "research/manual/kaggriculture_two_rounds/tests/APACHE-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "bytes": 0,
+      "path": "research/manual/kaggriculture_two_rounds/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3822,
+      "path": "research/manual/kaggriculture_two_rounds/tests/fixtures.py",
+      "sha256": "9b00fb1a40e96f45a2996a8f6fb1288fda9672db45d29b8ffbbd4f83284e177d"
+    },
+    {
+      "bytes": 2519,
+      "path": "research/manual/kaggriculture_two_rounds/tests/official_refresh_excerpt.py",
+      "sha256": "070fdddd9da8cbd4b9dc8ca300f44f36ffc8e67fc75a7f21b88d18e2727b4863"
+    },
+    {
+      "bytes": 8710,
+      "path": "research/manual/kaggriculture_two_rounds/tests/test_common.py",
+      "sha256": "c105d7240471ed59f4a5367ef2ea51ed386e97eade9e91f731bfa86e3afdfd21"
+    },
+    {
+      "bytes": 3752,
+      "path": "research/manual/kaggriculture_two_rounds/tests/test_round17.py",
+      "sha256": "f9942377149f7a1b4a17a6d6018dfbfc2adfcf0d12ebc86cb0487e6c5db33397"
+    },
+    {
+      "bytes": 3724,
+      "path": "research/manual/kaggriculture_two_rounds/tests/test_round18.py",
+      "sha256": "99715f6517d9c558bc2990d9416c37ffbcd6cbd9edb4f3f0c70ba68557434711"
+    },
+    {
+      "bytes": 5102,
+      "path": "research/manual/kaggriculture_two_rounds/visualize.py",
+      "sha256": "ed2bd3c9795b700979c42aefd56faa1312bbf693993624253fbe168901135efb"
+    },
+    {
+      "bytes": 56,
+      "path": "research/manual/kaggriculture_water_maintenance/.gitignore",
+      "sha256": "8e729dc02a993309e379941166688525ecd4919a9737f4ac46f0939113f45ecc"
+    },
+    {
+      "bytes": 598803,
+      "path": "research/manual/kaggriculture_water_maintenance/12_water_maintenance_feature_ablation.ipynb",
+      "sha256": "56114df04cbbd2afc76ddb9b4b81794804bd67c595d9fd9baef638d41bc29f5f"
+    },
+    {
+      "bytes": 8916,
+      "path": "research/manual/kaggriculture_water_maintenance/FEATURE_RESEARCH.md",
+      "sha256": "164816b2e152ba9ce8efd7869715f1d8fc1f705b170243d62dfe12fb5e923b3f"
+    },
+    {
+      "bytes": 2220,
+      "path": "research/manual/kaggriculture_water_maintenance/LOCAL_VALIDATION.json",
+      "sha256": "b980d016fc2a99dd6b2ae1510cc783eb77a6325efa6d67fbab196dd270716535"
+    },
+    {
+      "bytes": 3357,
+      "path": "research/manual/kaggriculture_water_maintenance/PACKAGE_MANIFEST.json",
+      "sha256": "238055a8d26819bbebfa45b5538995b89fd86edff268524a1f7e75d2a882441f"
+    },
+    {
+      "bytes": 1537,
+      "path": "research/manual/kaggriculture_water_maintenance/PROGRESS_REVIEW.md",
+      "sha256": "c748e318ecdb70fa0588af19572aad8c8e248803ff489bccfa3017075d1588fa"
+    },
+    {
+      "bytes": 1716,
+      "path": "research/manual/kaggriculture_water_maintenance/PROTOCOL.json",
+      "sha256": "0b81193c47ff7c9bc426f4b9c1eb7072e7ded5163a34a51fdc32f36f147bae77"
+    },
+    {
+      "bytes": 2749,
+      "path": "research/manual/kaggriculture_water_maintenance/RESULTS_REVIEW.md",
+      "sha256": "36f7f41bcc2ff249ff4f516df540b37db244af5acd078593ba057899a8fa824e"
+    },
+    {
+      "bytes": 5339,
+      "path": "research/manual/kaggriculture_water_maintenance/START_HERE.md",
+      "sha256": "71b1384e4e42c83d24d830cf142d662fdffc510616ec4e7e66bacb78a327911d"
+    },
+    {
+      "bytes": 11014,
+      "path": "research/manual/kaggriculture_water_maintenance/feature_dictionary.csv",
+      "sha256": "5f942f6a05ba62affddd0fdad3a7120da097711743c2ba98ffede007190cb065"
+    },
+    {
+      "bytes": 9035,
+      "path": "research/manual/kaggriculture_water_maintenance/maintenance_experiment.py",
+      "sha256": "3ab51d61b7898411bb3acccfd98ab764b352f717a47742fd6cf1851b873ec007"
+    },
+    {
+      "bytes": 2211,
+      "path": "research/manual/kaggriculture_water_maintenance/maintenance_io.py",
+      "sha256": "b8c287cb66aab74c740a909c6dec48e020c076b43e80b702a9fc82cf53f3562f"
+    },
+    {
+      "bytes": 3413,
+      "path": "research/manual/kaggriculture_water_maintenance/maintenance_policy.py",
+      "sha256": "d01be39103ee265b5c4eac89d813cabd1e8401ee0862be4af91a6c5898547ba8"
+    },
+    {
+      "bytes": 2157,
+      "path": "research/manual/kaggriculture_water_maintenance/mechanics.py",
+      "sha256": "6a718b3aacb20eeb2282fabd98f0dafc7c2e32a04b093c9b911ce2bdeceb827f"
+    },
+    {
+      "bytes": 161268,
+      "path": "research/manual/kaggriculture_water_maintenance/outputs/mechanics.json",
+      "sha256": "9c1dd159961ad23ef26609c7ed347f83d03325e0925b0d260b0eda529b7bf72d"
+    },
+    {
+      "bytes": 2778,
+      "path": "research/manual/kaggriculture_water_maintenance/outputs/pilot/report.json",
+      "sha256": "71c665fc48d871ff963af69f050e017568dcfe8e124e59bed1fc99e4bc2d9a01"
+    },
+    {
+      "bytes": 2526,
+      "path": "research/manual/kaggriculture_water_maintenance/outputs/screen/feature_registry.csv",
+      "sha256": "53282b56980acead5e1cb70604eecc9316a1792ad40c4b4b1d33c213607b03f8"
+    },
+    {
+      "bytes": 2119,
+      "path": "research/manual/kaggriculture_water_maintenance/outputs/screen/report.json",
+      "sha256": "fe3578a4bd6fbcaf260f2dd03cc274559ad2d56e00d23293ad6d68e9f0b5acfa"
+    },
+    {
+      "bytes": 66,
+      "path": "research/manual/kaggriculture_water_maintenance/outputs/tests.json",
+      "sha256": "8705c745e3ba89825606f8755b0e8087ff655fb0a3c2ae44620f5d2088aa4da9"
+    },
+    {
+      "bytes": 144,
+      "path": "research/manual/kaggriculture_water_maintenance/reference/browser_validation.json",
+      "sha256": "77e8f231fc2c72fb57650dd5a34404ad53527e52c35ff343f50e8582b68c3836"
+    },
+    {
+      "bytes": 5499,
+      "path": "research/manual/kaggriculture_water_maintenance/reference/delivery_test_log.txt",
+      "sha256": "e50dd73001546c54ea0f9f67ec0582d11075aee1e104ddaa1f4d8595c6ba0baf"
+    },
+    {
+      "bytes": 576,
+      "path": "research/manual/kaggriculture_water_maintenance/reference/dependency_hashes.json",
+      "sha256": "97e74bf69a55549698047904ed84cd918477c35aca4a957107cae7a70b3209df"
+    },
+    {
+      "bytes": 272,
+      "path": "research/manual/kaggriculture_water_maintenance/reference/dependency_validation.json",
+      "sha256": "9201c9858c0dd8c5155cc20117ffd16f31545329c5f2c8ab0a7fbc8e87f2bf71"
+    },
+    {
+      "bytes": 615,
+      "path": "research/manual/kaggriculture_water_maintenance/reference/input_review.json",
+      "sha256": "ee520c7ef05ab894fcac10ba0ed1c81672a86ecd1f4c92007f0525b933e6f0ee"
+    },
+    {
+      "bytes": 5499,
+      "path": "research/manual/kaggriculture_water_maintenance/reference/local_test_log.txt",
+      "sha256": "a4e74cb53514e51e9cb67da8ba16c0b4a8a527b30b443bccf51f710e7b447313"
+    },
+    {
+      "bytes": 680,
+      "path": "research/manual/kaggriculture_water_maintenance/reference/notebook11_pairs.csv",
+      "sha256": "30510dbbf4b47777645620df5e8fb0326ea8fefdd8c734625823a9e3f5820571"
+    },
+    {
+      "bytes": 3330,
+      "path": "research/manual/kaggriculture_water_maintenance/reference/notebook11_pilot.json",
+      "sha256": "404ebd66312d5a6db9e16e335e2fa2b85101826ce2566fff7e1737a345affe64"
+    },
+    {
+      "bytes": 2036,
+      "path": "research/manual/kaggriculture_water_maintenance/reference/notebook11_screen.json",
+      "sha256": "9f290b0cd6cabfb198c895daaf0d27476283b189d782bef02a20adcf2ca8c1af"
+    },
+    {
+      "bytes": 267,
+      "path": "research/manual/kaggriculture_water_maintenance/reference/notebook_validation.json",
+      "sha256": "0fd7e777ba9b4a10453cd2034c6bbbd839365773c6e204ca3441eabc81992ba2"
+    },
+    {
+      "bytes": 20993,
+      "path": "research/manual/kaggriculture_water_maintenance/run_maintenance.py",
+      "sha256": "85e99a09faca3d1c8ca8b8204f14622aa30b0e4f0320669b14250c63e83d7b56"
+    },
+    {
+      "bytes": 3462,
+      "path": "research/manual/kaggriculture_water_maintenance/tests/helpers.py",
+      "sha256": "b80be0f4ccce7b1c37061e898476ac87cf19d7b41ee89e8b93150941f6cd79dd"
+    },
+    {
+      "bytes": 3425,
+      "path": "research/manual/kaggriculture_water_maintenance/tests/test_experiment.py",
+      "sha256": "45932c6452fcf5fb128403f5dd6701c1667c9c54bb2f3d217bd011a93ea20ba4"
+    },
+    {
+      "bytes": 6291,
+      "path": "research/manual/kaggriculture_water_maintenance/tests/test_features.py",
+      "sha256": "b43a9ec577d1b3acaf027bbf4df7d4dd13dcb6b717dd2f45aa8734efea5e6c91"
+    },
+    {
+      "bytes": 2117,
+      "path": "research/manual/kaggriculture_water_maintenance/tests/test_notebook.py",
+      "sha256": "2ab409153c8070f84f377fe6e309c65ab113aade9f8826db80461031322289cb"
+    },
+    {
+      "bytes": 2918,
+      "path": "research/manual/kaggriculture_water_maintenance/tests/test_policy_io.py",
+      "sha256": "ae0e31930d8fcc9ce893a80087ec57dc67581826cea433ab0e4ec169c7e933d3"
+    },
+    {
+      "bytes": 2789,
+      "path": "research/manual/kaggriculture_water_maintenance/tests/test_safety.py",
+      "sha256": "2b47c9fc1f9d793e344afa3ee53e0c274aa60e92392989a25ad37f43ed2488e0"
+    },
+    {
+      "bytes": 2085,
+      "path": "research/manual/kaggriculture_water_maintenance/tests/test_visuals.py",
+      "sha256": "638850d3ce3f0d4e3771d1830a9760053edcae7305fcc8f3f0b0bdcecea98c5f"
+    },
+    {
+      "bytes": 4868,
+      "path": "research/manual/kaggriculture_water_maintenance/visualize_maintenance.py",
+      "sha256": "e559026cd23dff668abe19b0c5f7a3ae5c83487557399fda18618ecf7de245e8"
+    },
+    {
+      "bytes": 8587,
+      "path": "research/manual/kaggriculture_water_maintenance/water_features.py",
+      "sha256": "7f9bb08da576c8b471832483ccbeb39e65765bc3822c92230eee2dbf381edca2"
+    },
+    {
+      "bytes": 92,
+      "path": "research/manual/kaggriculture_workforce_milestone/.gitignore",
+      "sha256": "90cc0957ceabec1cd0752ea78d51d56b6013c367f2e819fc790219589580ee0c"
+    },
+    {
+      "bytes": 127584,
+      "path": "research/manual/kaggriculture_workforce_milestone/06_workforce_observation_contract.ipynb",
+      "sha256": "5e85684c8feef2922d7c38885c69e21a5cb8ec2ddc49c271003434a994d4f64d"
+    },
+    {
+      "bytes": 7797,
+      "path": "research/manual/kaggriculture_workforce_milestone/FEATURE_CONTRACT.md",
+      "sha256": "9f3d5d567e9b16b136d864a24e2aaa105050dfddd9a869585e9a467fcd347ab6"
+    },
+    {
+      "bytes": 972,
+      "path": "research/manual/kaggriculture_workforce_milestone/LOCAL_VALIDATION.json",
+      "sha256": "21e55333c85ca1f5b7a4d49bc7b8524407bce10f7cf87173ba3b78b3b4e98070"
+    },
+    {
+      "bytes": 1392,
+      "path": "research/manual/kaggriculture_workforce_milestone/PACKAGE_MANIFEST.json",
+      "sha256": "ea9af7948b8b6e257373382feeaad7a23c652b5faa41827b0175b969576f2f31"
+    },
+    {
+      "bytes": 7689,
+      "path": "research/manual/kaggriculture_workforce_milestone/START_HERE.md",
+      "sha256": "bcde2d80f18c091c31ceafd1774bd84db89ce8ba9408f5cb61fb784f009451b4"
+    },
+    {
+      "bytes": 32461,
+      "path": "research/manual/kaggriculture_workforce_milestone/feature_dictionary.json",
+      "sha256": "c6164714a9cfb053dec71635ff52863efd92827909d6a34323966350605c2ce5"
+    },
+    {
+      "bytes": 10123,
+      "path": "research/manual/kaggriculture_workforce_milestone/outputs/feature_registry.csv",
+      "sha256": "873d6acc8237a5ed831e9333f33d79c2e87e90ba9340a75062109a0d0694a20f"
+    },
+    {
+      "bytes": 200813,
+      "path": "research/manual/kaggriculture_workforce_milestone/outputs/mechanics.json",
+      "sha256": "fc448304899f77236cfc4ef5448046201b6a83e77162cab514e1cba812b6219c"
+    },
+    {
+      "bytes": 2044,
+      "path": "research/manual/kaggriculture_workforce_milestone/outputs/report.json",
+      "sha256": "5d432186a1e317362dee7a8164d4744a5d81155dd35a0819b200415a0372e80a"
+    },
+    {
+      "bytes": 135,
+      "path": "research/manual/kaggriculture_workforce_milestone/outputs/tests.json",
+      "sha256": "cb2248a4758d47e48027c0d2e965c995e03c62e2c1a18630fb9c3352d6623e5f"
+    },
+    {
+      "bytes": 8788,
+      "path": "research/manual/kaggriculture_workforce_milestone/reference/input_review.json",
+      "sha256": "c674e54763a8901113ec0656be836493637b4911b1a282eb34f8a3d4d86a930d"
+    },
+    {
+      "bytes": 3939,
+      "path": "research/manual/kaggriculture_workforce_milestone/reference/local_tests.txt",
+      "sha256": "50f175649e88f0faf315e061bad07caea0420b9b76ef5a973b387427abd7ae61"
+    },
+    {
+      "bytes": 20495,
+      "path": "research/manual/kaggriculture_workforce_milestone/run_milestone.py",
+      "sha256": "c9914554bcdd22ee32f31d142a6c18e94dc66abcd4210d3cca2c033b3624a1ea"
+    },
+    {
+      "bytes": 2676,
+      "path": "research/manual/kaggriculture_workforce_milestone/tests/test_runner.py",
+      "sha256": "272573792206dcb06f3ae7b5ba326c99e4198de4274fac4c855ca669e489cb6b"
+    },
+    {
+      "bytes": 8685,
+      "path": "research/manual/kaggriculture_workforce_milestone/tests/test_workforce.py",
+      "sha256": "704831d27b8a1134e065d5ed842aff2fe07cab41e517e82c82fc27c510be250c"
+    },
+    {
+      "bytes": 5853,
+      "path": "research/manual/kaggriculture_workforce_milestone/visualize.py",
+      "sha256": "a89ecc805eff3c5bd3f37ec78e655d88f9db9d117647c6d3016c186db374e23d"
+    },
+    {
+      "bytes": 12986,
+      "path": "research/manual/kaggriculture_workforce_milestone/workforce_features.py",
+      "sha256": "6eaf08e6c17dd8bf408faa8ae200cb746c0dd95c6d1f4372518a9a790a4b4aab"
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Frozen manual snapshots and saved entry-point notebook; not runtime validation",
+  "source_commit": "093063d0219e77ac57febd1583ea1bf839d845ac"
+}

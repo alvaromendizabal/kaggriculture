@@ -19,6 +19,8 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install uv==0.12.8
       - run: uv sync --frozen
+      - name: Verify frozen public research snapshot
+        run: uv run python scripts/verify_publication_snapshot.py
       - run: uv run ruff check .
       - run: uv run ruff format --check .
       - name: Verify published staffing audit without running games
