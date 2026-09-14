@@ -1,0 +1,34 @@
+{
+  "utc": "2026-09-12T02:56:13.595886+00:00",
+  "local_tests": {
+    "tests": 46,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "source_bundle_sha256": "8e397105145afcfeaff5d42440b3a45c0780611e8d9886c1408f2afcd0e30871",
+  "source_bundle_hashes_verified": 29,
+  "recorded_pilot_actions_bound_to_checkpoints": 478,
+  "prior_notebook12_code_identity_verified": true,
+  "stepwise_crop_adapter_comparisons": 720,
+  "synthetic_reporting_notebook": {
+    "dashboard_exists": true,
+    "error_outputs": 0,
+    "executed_code_cells": 10,
+    "live_worker_executed": false,
+    "modified_synthetic_reporting_notebook": true,
+    "plotly_outputs": 8
+  },
+  "real_installed_kaggle_engine_available_locally": false,
+  "aws_live_replay_executed": false,
+  "new_policy_experiments_run": 0,
+  "local_mutations": "New deliverables and temporary local validation directories only",
+  "github_modified": false,
+  "cloud_resources_modified": false,
+  "limits": [
+    "Local component/market instrumentation tests use explicitly identified small adapters; they are not the installed Kaggle engine.",
+    "Full pinned-engine mechanics (480 scenarios), recorded replay, cash accounting and final-state hash checks must pass in AWS.",
+    "The shipped notebook is unexecuted; synthetic reporting outputs are not delivered as live results.",
+    "No feature contribution, current Kaggle rating or new competitive gain has been measured."
+  ]
+}

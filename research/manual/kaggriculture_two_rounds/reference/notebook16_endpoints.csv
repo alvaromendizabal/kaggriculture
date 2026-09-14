@@ -1,0 +1,5 @@
+mode,retirement,early_clear,evidence,coin_margin,coins,local_match_score,opponent_coins,residual_product_units
+control,0,0,reused_notebook15,758.0,44840.0,1.0,44082.0,0
+retire,1,0,reused_notebook15,270.0,41510.0,1.0,41240.0,0
+clear_only,0,1,one_new_responsive_continuation,830.0,42858.0,1.0,42028.0,0
+renew,1,1,reused_notebook15,1812.0,43451.0,1.0,41639.0,0

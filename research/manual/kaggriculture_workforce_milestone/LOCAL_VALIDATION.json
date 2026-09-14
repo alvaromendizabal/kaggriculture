@@ -1,0 +1,25 @@
+{
+  "status": "LOCAL_SOFTWARE_VALIDATION_PASSED",
+  "validated_utc": "2026-09-11T21:23:57.484537+00:00",
+  "unit_tests_passed": 46,
+  "unit_failures": 0,
+  "unit_errors": 0,
+  "skipped_tests": 0,
+  "notebook_schema_valid": true,
+  "notebook_code_cells_compile": 7,
+  "plotly_figures_smoke_tested_with_synthetic_tables": 5,
+  "aws_notebook_executed_here": false,
+  "aws_pinned_engine_integration_executed_here": false,
+  "user_private_episode_replay_executed_here": false,
+  "full_games_run_here": 0,
+  "models_fit_here": 0,
+  "github_updated": false,
+  "aws_resources_modified": false,
+  "limitations": [
+    "The uploaded receipts contain metadata, not the seven episode payloads.",
+    "The pinned AWS runtime is not installed in this local validation environment.",
+    "The real mechanics and saved-state audit must run in the user workspace.",
+    "No official-metric improvement or full-callback acceptance is claimed."
+  ],
+  "elapsed_seconds": 0.883006612000031
+}

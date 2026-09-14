@@ -1,0 +1,45 @@
+{
+  "milestone": 15,
+  "name": "crop-lifecycle",
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "active_days": [
+    8,
+    27
+  ],
+  "screen_stride_callbacks": 4,
+  "screen_boundaries": [
+    191,
+    672,
+    695,
+    696
+  ],
+  "screen_sources": [
+    [
+      1601,
+      0
+    ],
+    [
+      1601,
+      1
+    ],
+    [
+      1602,
+      0
+    ]
+  ],
+  "select": "first activated key by seed/seat; no rewards used",
+  "arms": [
+    "control",
+    "retire",
+    "renew"
+  ],
+  "max_source_blocks": 1,
+  "screen_cap_seconds": 120,
+  "pilot_cap_seconds": 180,
+  "callback_cap_ms": 500,
+  "holdout_or_validation_allowed": false,
+  "automatic_scaleup": false,
+  "models_fit": 0,
+  "promotion_allowed": false
+}

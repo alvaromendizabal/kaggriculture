@@ -1,0 +1,42 @@
+{
+  "name": "notebook16_renewal_factorial",
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "source_key": {
+    "seed": 1601,
+    "seat": 0,
+    "opponent": "livestock_fertilizer",
+    "arm": "coordinated"
+  },
+  "screen_steps": {
+    "start": 192,
+    "end": 718,
+    "stride": 1
+  },
+  "intervention_days": [
+    8,
+    27
+  ],
+  "reused_arms": [
+    "control",
+    "retire",
+    "renew"
+  ],
+  "only_new_arm": "clear_only",
+  "max_new_branches": 1,
+  "stage_caps_seconds": {
+    "screen": 120,
+    "pilot": 120
+  },
+  "callback_cap_ms": 500,
+  "primary_game_metric": "local_match_score",
+  "secondary_metrics": [
+    "coin_margin",
+    "coins"
+  ],
+  "existing_conservative_cash_guard_preserved": true,
+  "automatic_promotion": false,
+  "validation_or_holdout_allowed": false,
+  "full_factorial_inference": "single-block controlled contrasts; no p values or independence claim",
+  "new_logged_features_do_not_change_action": true
+}

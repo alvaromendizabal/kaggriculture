@@ -1,0 +1,116 @@
+{
+  "created_utc": "2026-09-12T22:52:18.885213+00:00",
+  "status": "LOCAL_TESTS_PASSED_LIVE_EXPERIMENTS_NOT_RUN",
+  "unique_unit_tests": {
+    "unique_tests": 92,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 3.4981331379999574,
+    "round17": {
+      "errors": 0,
+      "failures": 0,
+      "seconds": 3.4699852100000044,
+      "skipped": 0,
+      "tests": 62
+    },
+    "round18": {
+      "errors": 0,
+      "failures": 0,
+      "seconds": 3.4640862740000102,
+      "skipped": 0,
+      "tests": 62
+    }
+  },
+  "coverage_per_round": {
+    "round17": {
+      "task_descriptors": 32,
+      "state_summaries": 12,
+      "shared_tests": 32,
+      "round_specific_tests": 30,
+      "executed_tests": 62,
+      "plotly_views": 10
+    },
+    "round18": {
+      "task_descriptors": 32,
+      "state_summaries": 12,
+      "shared_tests": 32,
+      "round_specific_tests": 30,
+      "executed_tests": 62,
+      "plotly_views": 10
+    }
+  },
+  "prior_result": {
+    "source_zip_sha256": "71b2a8cab36278943e9ee31431afaf99976e03a821e1dcb402db96a4256177e8",
+    "verified_bundle_files": 50,
+    "executed_code_cells": 8,
+    "notebook_errors": [],
+    "prior_result_hashes": {
+      "outputs/screen/report.json": "2ddbf81baea38a650c2f42757c43073387a44c015a1f12166282831da6f1c5c1",
+      "outputs/pilot/report.json": "750096d320d90b20b01fdca461c78fe1a371913930551ab7463141c3658e1ccb",
+      "outputs/pilot/endpoints.csv": "cf1eb9c9b764a3588546b3a190918190a170de5d8161780511453303728edef3",
+      "outputs/pilot/checkpoints/clear_only.json.gz": "4ede2e116182a6239b739f5abeb667236365b6286a12aac8b80a166676f2f66d"
+    }
+  },
+  "synthetic_reporting_notebooks": {
+    "17": {
+      "executed_code_cells": 11,
+      "plotly_outputs": 10,
+      "error_outputs": 0,
+      "seconds": 4.147287616999961,
+      "mode": "Modified reporting notebook; execution calls replaced by artificial fixtures. NOT live experiment."
+    },
+    "18": {
+      "executed_code_cells": 11,
+      "plotly_outputs": 10,
+      "error_outputs": 0,
+      "seconds": 3.38835772799996,
+      "mode": "Modified reporting notebook; execution calls replaced by artificial fixtures. NOT live experiment."
+    }
+  },
+  "live_notebooks": {
+    "execution_counts_all_null": true,
+    "source_code_cells_each": 11,
+    "output_cells_empty": true
+  },
+  "browser_visual_check": {
+    "completed": false,
+    "reason": "Browser executable unavailable; no browser screenshot or visual-inspection pass claimed."
+  },
+  "local_test_boundaries": [
+    "Full-game driver tests use explicit artificial actors and environments. These are software tests, not Kaggle episodes or performance estimates.",
+    "Crop component tests use the attributed official refresh excerpt and a small HARVEST/decay adapter, not a complete installed Kaggle environment.",
+    "Modified reporting notebooks replace execution calls with artificial tables; actual plotting and reporting cells executed.",
+    "Shared-control reuse tested: the two paired-round calls generated three artificial game executions, not four.",
+    "Failed-stage refusal, no-activation skipping, negative-prior-pair skipping, bundle checksums and actual sleeping-subprocess termination tested.",
+    "No installed-engine preflight or real data screen/full-game pilot for round17 or18 has been run in this response."
+  ],
+  "baseline_modules_byte_identical_to_prior_delivered_sources": {
+    "baseline/callback.py": "f887fe63d3e797bfedef2254c2b208887569af2e19871010216d5565bc1d82cf",
+    "baseline/cash_features.py": "c7e5149788287bc8ed7cfbdd0167188a65baa143d2565767b1bd5efde25f521f",
+    "baseline/timing_features.py": "28796d5f929c8e2a090e4532d6f564ce46d35c891c65832459c5474c700fcb28"
+  },
+  "real_new_kaggle_episodes_run": 0,
+  "models_fit": 0,
+  "official_submission_score": null,
+  "github_writes": 0,
+  "aws_resource_writes": 0,
+  "kaggle_submissions": 0,
+  "known_limitations": [
+    "Existing callback supports at most three hired hands on either farm; this is not resolved by variable-size extractor tests.",
+    "Only two proposed new development seeds and four balanced, not fully crossed blocks.",
+    "Opponent implementations are source-distinct, not established leaderboard-strength.",
+    "No final feature-selection, generalization, significance, or top-score claim.",
+    "Complete delivery manifest and clean-extraction check are recorded separately below."
+  ],
+  "clean_delivery_test": {
+    "performed": true,
+    "tests": 92,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 3.613443698000083,
+    "package_manifest_verified": true,
+    "both_live_notebooks_unexecuted": true
+  }
+}

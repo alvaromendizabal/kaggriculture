@@ -1,0 +1,72 @@
+[
+  {
+    "case": 0,
+    "coin_margin_delta": 391.0,
+    "kind": "synthetic_engine_fixture",
+    "opponent_cash_delta": 0.0,
+    "own_cash_aligned": 3391.0,
+    "own_cash_control": 3000.0,
+    "own_cash_delta": 391.0,
+    "passed": true,
+    "residual_units_aligned": 0,
+    "residual_units_control": 5,
+    "residual_units_delta": -5,
+    "solo_scenario_delta": 391.0
+  },
+  {
+    "case": 1,
+    "coin_margin_delta": 388.0,
+    "kind": "synthetic_engine_fixture",
+    "opponent_cash_delta": 0.0,
+    "own_cash_aligned": 3509.0,
+    "own_cash_control": 3121.0,
+    "own_cash_delta": 388.0,
+    "passed": true,
+    "residual_units_aligned": 0,
+    "residual_units_control": 5,
+    "residual_units_delta": -5,
+    "solo_scenario_delta": 388.0
+  },
+  {
+    "case": 2,
+    "coin_margin_delta": 8899.0,
+    "kind": "synthetic_engine_fixture",
+    "opponent_cash_delta": 0.0,
+    "own_cash_aligned": 11899.0,
+    "own_cash_control": 3000.0,
+    "own_cash_delta": 8899.0,
+    "passed": true,
+    "residual_units_aligned": 0,
+    "residual_units_control": 100,
+    "residual_units_delta": -100,
+    "solo_scenario_delta": 8899.0
+  },
+  {
+    "case": 3,
+    "coin_margin_delta": 357.0,
+    "kind": "synthetic_engine_fixture",
+    "opponent_cash_delta": 0.0,
+    "own_cash_aligned": 3357.0,
+    "own_cash_control": 3000.0,
+    "own_cash_delta": 357.0,
+    "passed": true,
+    "residual_units_aligned": 0,
+    "residual_units_control": 5,
+    "residual_units_delta": -5,
+    "solo_scenario_delta": 357.0
+  },
+  {
+    "case": 4,
+    "coin_margin_delta": 389.0,
+    "kind": "synthetic_engine_fixture",
+    "opponent_cash_delta": 0.0,
+    "own_cash_aligned": 3389.0,
+    "own_cash_control": 3000.0,
+    "own_cash_delta": 389.0,
+    "passed": true,
+    "residual_units_aligned": 0,
+    "residual_units_control": 5,
+    "residual_units_delta": -5,
+    "solo_scenario_delta": 391.0
+  }
+]

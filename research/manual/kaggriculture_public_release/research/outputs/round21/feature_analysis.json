@@ -1,0 +1,88 @@
+{
+  "status": "RELATIVE_FEATURE_ANALYSIS_COMPLETE",
+  "round": "21",
+  "policy_family": "19",
+  "rows": 19393,
+  "new_descriptors": 12,
+  "original_task_descriptors": 32,
+  "original_state_summaries": 12,
+  "total_task_descriptors": 44,
+  "registry": [
+    {
+      "feature": "peer_option_count",
+      "distinct_values": 18,
+      "nonzero_fraction": 1.0,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "peer_best_cash_rate",
+      "distinct_values": 555,
+      "nonzero_fraction": 0.9448254524828547,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "peer_best_other_cash_rate",
+      "distinct_values": 767,
+      "nonzero_fraction": 0.9259526633321301,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "cash_rate_gap_to_best",
+      "distinct_values": 3441,
+      "nonzero_fraction": 0.7731655752075491,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "cash_rate_competition_rank",
+      "distinct_values": 18,
+      "nonzero_fraction": 1.0,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "completion_effort_over_fastest",
+      "distinct_values": 10,
+      "nonzero_fraction": 0.6430155210643016,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "return_share_of_manual_effort",
+      "distinct_values": 27,
+      "nonzero_fraction": 0.894652709740628,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "manual_night_both_available",
+      "distinct_values": 2,
+      "nonzero_fraction": 0.8065796937039138,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "night_minus_manual_sale_offset",
+      "distinct_values": 23,
+      "nonzero_fraction": 0.8065796937039138,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "carried_and_task_above_current_shed_room",
+      "distinct_values": 1,
+      "nonzero_fraction": 0.0,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "current_shed_stock_to_task_ratio",
+      "distinct_values": 46,
+      "nonzero_fraction": 0.45707213943175373,
+      "status": "diagnostic_only_not_used_in_actor"
+    },
+    {
+      "feature": "conditional_cash_rate_share",
+      "distinct_values": 6403,
+      "nonzero_fraction": 0.9016655494250503,
+      "status": "diagnostic_only_not_used_in_actor"
+    }
+  ],
+  "source_table_sha256": "6124e588233e4ad356da6577eae81d616eaebf4552eae998b30e2cff929abf4e",
+  "output_sha256": "c50bcaf2d43d70c26655d39b6397bf89a12dbb2dd3a89951260fb65282c46889",
+  "new_games": 0,
+  "prospective_performance_claim": false
+}

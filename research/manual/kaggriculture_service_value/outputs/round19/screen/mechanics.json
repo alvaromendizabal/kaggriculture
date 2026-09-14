@@ -1,0 +1,9 @@
+{
+  "artificial_interpreter_transitions": 50,
+  "cases": 20,
+  "new_complete_games": 0,
+  "performance_evidence": false,
+  "round": "19",
+  "scope": "Manual movement/collection/deposit primitives and both-seat overnight sale ordering",
+  "status": "MECHANICS_PASSED"
+}

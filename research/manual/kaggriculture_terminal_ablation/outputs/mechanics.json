@@ -1,0 +1,246 @@
+[
+  {
+    "aligned_final_cash": 3026.0,
+    "control_final_cash": 3026.0,
+    "expected_aligned_final_cash": 3026,
+    "expected_control_final_cash": 3026,
+    "expected_delta": 0,
+    "expected_single_sale_revenue": 26,
+    "fixture": "early_sale_catches_up",
+    "initial_market_inventory": 1000000,
+    "initial_quote": 13,
+    "interpreter_calls": 6,
+    "market_item": "WHEAT",
+    "oracle": "Ex-ante unit quotes; no demand events, rival trades, or price overrides",
+    "passed": true,
+    "per_unit_quotes": [
+      13,
+      13
+    ],
+    "seat": 0,
+    "terminal_cash_delta": 0.0,
+    "trace": [
+      {
+        "action": {
+          "farmer": [
+            "DROP"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "cash_after": 3000.0,
+        "market_wheat_after": 1000000,
+        "shed_wheat_after": 2,
+        "status_after": "ACTIVE",
+        "step": 716,
+        "variant": "control"
+      },
+      {
+        "action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              2
+            ]
+          ]
+        },
+        "cash_after": 3026.0,
+        "market_wheat_after": 1000002,
+        "shed_wheat_after": 0,
+        "status_after": "ACTIVE",
+        "step": 717,
+        "variant": "control"
+      },
+      {
+        "action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "cash_after": 3026.0,
+        "market_wheat_after": 1000002,
+        "shed_wheat_after": 0,
+        "status_after": "DONE",
+        "step": 718,
+        "variant": "control"
+      },
+      {
+        "action": {
+          "farmer": [
+            "DROP"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              2
+            ]
+          ]
+        },
+        "cash_after": 3026.0,
+        "market_wheat_after": 1000002,
+        "shed_wheat_after": 0,
+        "status_after": "ACTIVE",
+        "step": 716,
+        "variant": "aligned"
+      },
+      {
+        "action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "cash_after": 3026.0,
+        "market_wheat_after": 1000002,
+        "shed_wheat_after": 0,
+        "status_after": "ACTIVE",
+        "step": 717,
+        "variant": "aligned"
+      },
+      {
+        "action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "cash_after": 3026.0,
+        "market_wheat_after": 1000002,
+        "shed_wheat_after": 0,
+        "status_after": "DONE",
+        "step": 718,
+        "variant": "aligned"
+      }
+    ]
+  },
+  {
+    "aligned_final_cash": 3026.0,
+    "control_final_cash": 3000.0,
+    "expected_aligned_final_cash": 3026,
+    "expected_control_final_cash": 3000,
+    "expected_delta": 26,
+    "expected_single_sale_revenue": 26,
+    "fixture": "last_callback_stranding",
+    "initial_market_inventory": 1000000,
+    "initial_quote": 13,
+    "interpreter_calls": 6,
+    "market_item": "WHEAT",
+    "oracle": "Ex-ante unit quotes; no demand events, rival trades, or price overrides",
+    "passed": true,
+    "per_unit_quotes": [
+      13,
+      13
+    ],
+    "seat": 0,
+    "terminal_cash_delta": 26.0,
+    "trace": [
+      {
+        "action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "cash_after": 3000.0,
+        "market_wheat_after": 1000000,
+        "shed_wheat_after": 0,
+        "status_after": "ACTIVE",
+        "step": 716,
+        "variant": "control"
+      },
+      {
+        "action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "cash_after": 3000.0,
+        "market_wheat_after": 1000000,
+        "shed_wheat_after": 0,
+        "status_after": "ACTIVE",
+        "step": 717,
+        "variant": "control"
+      },
+      {
+        "action": {
+          "farmer": [
+            "DROP"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "cash_after": 3000.0,
+        "market_wheat_after": 1000000,
+        "shed_wheat_after": 2,
+        "status_after": "DONE",
+        "step": 718,
+        "variant": "control"
+      },
+      {
+        "action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "cash_after": 3000.0,
+        "market_wheat_after": 1000000,
+        "shed_wheat_after": 0,
+        "status_after": "ACTIVE",
+        "step": 716,
+        "variant": "aligned"
+      },
+      {
+        "action": {
+          "farmer": [
+            "PASS"
+          ],
+          "hands": [],
+          "market": []
+        },
+        "cash_after": 3000.0,
+        "market_wheat_after": 1000000,
+        "shed_wheat_after": 0,
+        "status_after": "ACTIVE",
+        "step": 717,
+        "variant": "aligned"
+      },
+      {
+        "action": {
+          "farmer": [
+            "DROP"
+          ],
+          "hands": [],
+          "market": [
+            [
+              "SELL",
+              "WHEAT",
+              2
+            ]
+          ]
+        },
+        "cash_after": 3026.0,
+        "market_wheat_after": 1000002,
+        "shed_wheat_after": 0,
+        "status_after": "DONE",
+        "step": 718,
+        "variant": "aligned"
+      }
+    ]
+  }
+]

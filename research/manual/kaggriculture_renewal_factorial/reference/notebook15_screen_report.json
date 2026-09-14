@@ -1,0 +1,53 @@
+{
+  "action_changes": 7,
+  "candidate_callback_max_ms": 86.50557100190781,
+  "cloud_resources_modified": false,
+  "code_sha256": "4f86efe673d4ada249dc1875e2b056fc68982277dc7472cd50be60175c941fe4",
+  "decision": "ELIGIBLE_FOR_ONE_THREE_ARM_BLOCK",
+  "elapsed_seconds": 21.67699741598335,
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "feature_engineering_complete": false,
+  "fingerprint": "bc1192d0a0a481586bca84ef6834a7011354c0176be794db2adae463f26901f7",
+  "github_updated": false,
+  "independent_seed_blocks": 2,
+  "limitations": [
+    "Known development sources; turns and both seats are not independent samples.",
+    "Nominal crop calendar is conditional on survival. Renewal sale-step lower bound is not a profit forecast.",
+    "Intervention days 8..27. Sparse fixed-stride screen may miss activation at other callbacks. No outcome-based tuning.",
+    "No official leaderboard score; inherited <=3-hands callback domain remains."
+  ],
+  "models_fit": 0,
+  "new_episode_transitions": 0,
+  "null_action_checks": 372,
+  "observations": 372,
+  "official_mechanics_fixtures": 384,
+  "official_metric_effect_measured": false,
+  "official_submission_score": null,
+  "output_sha256": {
+    "mechanics.json": "f18a8db094ec53a2f4202a02a4a17e146c457fa8011aa04ada93d39445c39883",
+    "screen/feature_registry.csv": "e17c8cc636253d2700e9077b16a9597a97d936fa4c050be67120453d59f1c8f3",
+    "screen/states.csv": "3ef0870a90bc162b28c7f55b9ba1140cd495c85f50f896f81591b44612ed8ac7",
+    "screen/task_features.csv.gz": "a84548c69a382d663110bc2a937526ef318ed21939eb03a4ce879835e6ffff00"
+  },
+  "plant_descriptors": 27,
+  "selected_key": {
+    "arm": "coordinated",
+    "opponent": "livestock_fertilizer",
+    "seat": 0,
+    "seed": 1601
+  },
+  "source_action_checks": 372,
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "source_episodes": 3,
+  "state_descriptors": 8,
+  "status": "CROP_LIFECYCLE_SCREEN_COMPLETE",
+  "task_rows": 2855,
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 52
+  },
+  "utc": "2026-09-12T21:57:51.189168+00:00",
+  "validation_or_holdout_used": false
+}

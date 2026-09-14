@@ -1,0 +1,14 @@
+{
+  "uploaded_filename": "kaggriculture_workforce_milestone(1).zip",
+  "sha256": "b9dc25122f5292348d98b42c0ddf1dc5584b21ab87e809705f73af0bd6772bc7",
+  "byte_identical_to_original_input_package": true,
+  "zip_entries": 14,
+  "executed_code_cells": 0,
+  "notebook_output_count": 0,
+  "contains_outputs_report_json": false,
+  "interpretation": "The upload contains the input package, not an AWS run result. It does not prove the run failed or was never attempted.",
+  "aws_workforce_gate_verified_from_this_upload": false,
+  "connected_github_main": "7194116dfc92a8663139611233b5a221dad431a4",
+  "github_read_only": true,
+  "new_package_committed": false
+}

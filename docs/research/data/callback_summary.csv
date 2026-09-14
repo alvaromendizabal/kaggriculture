@@ -1,0 +1,7 @@
+family,statistic,milliseconds
+Collection service,Median,9.071323001990095
+Collection service,95th percentile,15.482406999217343
+Collection service,Maximum,19.058706995565444
+Maintenance deadlines,Median,8.80069300183095
+Maintenance deadlines,95th percentile,15.537612006301059
+Maintenance deadlines,Maximum,20.41509802802466

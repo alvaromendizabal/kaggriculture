@@ -1,0 +1,21 @@
+{
+  "automatic_promotion": false,
+  "comparisons": [],
+  "completed_pairs": 0,
+  "decision": "REVIEW_REQUIRED_BEFORE_GAMES",
+  "development_seed_groups": 0,
+  "limitations": [
+    "Archived repeated-development screen is not a generalization test.",
+    "No outcome inference from activation or feature counts.",
+    "Proposed future blocks are balanced, not fully crossed.",
+    "The complete callback still admits at most three hired hands per farm.",
+    "No current account or leaderboard status is certified."
+  ],
+  "official_metric_effect_measured": false,
+  "official_submission_score": null,
+  "planned_future_pairs": 4,
+  "round": "19",
+  "screen_action_changes": 355,
+  "screen_observations": 957,
+  "status": "ROUND_REPORT_SAVED"
+}

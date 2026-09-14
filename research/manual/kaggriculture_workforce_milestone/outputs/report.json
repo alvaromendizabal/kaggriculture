@@ -1,0 +1,49 @@
+{
+  "aggregate_candidate_features": 124,
+  "aws_resources_modified": false,
+  "code_sha256": "081b006cf8bc29e30db83a9612d3502dcbc7b4d94b13b61c0db8d7a64430db30",
+  "elapsed_seconds_this_invocation": 6.84112958300102,
+  "feature_completion_gate": "OPEN",
+  "feature_extractor_ms": {
+    "max": 0.6735929928254336,
+    "median": 0.5719829932786524,
+    "p95": 0.6487909995485097
+  },
+  "feature_selection_performed": false,
+  "fingerprint": "aa4e37128e6a40703365ca2a3c2f965a4f10338a9fb5819594c7cc3b81098527",
+  "full_callback_acceptance": "NOT_RUN",
+  "full_games_run": 0,
+  "github_updated": false,
+  "mechanics_fixture_transitions": 4,
+  "mechanics_views": 12,
+  "models_fit": 0,
+  "new_training_runs": 0,
+  "next_step": "Integrate a forward-only action pathway, then bounded full-callback acceptance before new-game ablations",
+  "official_metric_effect_measured": false,
+  "output_sha256": {
+    "example_state.json": "10043aaf74c7253cae27a24b85c9206944f9df4a8594bf65cbf1f8cf94dc050c",
+    "feature_registry.csv": "873d6acc8237a5ed831e9333f33d79c2e87e90ba9340a75062109a0d0694a20f",
+    "mechanics.json": "fc448304899f77236cfc4ef5448046201b6a83e77162cab514e1cba812b6219c",
+    "state_features.csv": "a0a007cec88b8b073be1fdc6d8a60228f28f09faf39442012b3e690a4fb48aea",
+    "task_features.csv": "a58f2ec12c4172a92a14ac189d1694e37a2b37b03d2d31d3e34cda35aec52c7b",
+    "worker_features.csv": "09b09fbb04e01bb905e5f6654d916897e07421e71e308dc2b95c208ff0ebfa8f"
+  },
+  "saved_observations": 161,
+  "schema": "workforce-v1",
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "source_episodes": 7,
+  "status": "WORKFORCE_COVERAGE_PASSED",
+  "task_rows": 6885,
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skips": 0,
+    "status": "PASSED",
+    "tests_run": 46,
+    "utc": "2026-09-11T22:09:34.875858+00:00"
+  },
+  "timing_scope": "Only the new extractor; reused checkpoints retain original measurements; not complete policy latency",
+  "utc": "2026-09-11T22:09:41.616854+00:00",
+  "varying_features": 107,
+  "worker_rows": 1204
+}

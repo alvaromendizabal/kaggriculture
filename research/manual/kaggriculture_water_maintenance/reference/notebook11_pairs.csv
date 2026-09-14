@@ -1,0 +1,3 @@
+seed,seat,opponent,arm,role,coins_control,coins_candidate,coins_delta,opponent_coins_control,opponent_coins_candidate,opponent_coins_delta,coin_margin_control,coin_margin_candidate,coin_margin_delta,local_match_score_control,local_match_score_candidate,local_match_score_delta,residual_product_units_control,residual_product_units_candidate,residual_product_units_delta,same_state_farm_changes,opponent_action_changes
+1601,0,livestock_fertilizer,sequential,negative_control,44837.0,44837.0,0.0,44078.0,44078.0,0.0,759.0,759.0,0.0,1.0,1.0,0.0,0,0,0,0,0
+1601,0,livestock_fertilizer,coordinated,primary,44840.0,44838.0,-2.0,44082.0,44079.0,-3.0,758.0,759.0,1.0,1.0,1.0,0.0,0,0,0,9,0

@@ -1,0 +1,7 @@
+# Preserve the exact bytes of published experiment snapshots and saved outputs.
+# All existing maintained-code rules still come from pyproject.toml.
+extend = "pyproject.toml"
+extend-exclude = [
+    "research/manual",
+    "notebooks/00_research_overview.ipynb",
+]

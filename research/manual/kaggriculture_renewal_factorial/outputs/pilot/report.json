@@ -1,0 +1,207 @@
+{
+  "arms_are_correlated": true,
+  "candidate_callback_max_ms": 135.64267798210494,
+  "clear_only_evidence_method": "one_new_responsive_continuation",
+  "cloud_resources_modified": false,
+  "code_sha256": "ecf3a8285a9b65a6e3076339fbc57306e50077b55165d10589f46ca105146a3c",
+  "contrasts": [
+    {
+      "coin_margin_delta": -488.0,
+      "coins_delta": -3330.0,
+      "competitive_interpretation": "SAME_MATCH_LOWER_MARGIN",
+      "contrast": "retire-control",
+      "existing_conservative_gate": "STOP_NEGATIVE_ENDPOINT",
+      "local_match_score_delta": 0.0,
+      "opponent_coins_delta": -2842.0,
+      "residual_product_units_delta": 0
+    },
+    {
+      "coin_margin_delta": 72.0,
+      "coins_delta": -1982.0,
+      "competitive_interpretation": "SAME_MATCH_HIGHER_MARGIN",
+      "contrast": "clear_only-control",
+      "existing_conservative_gate": "STOP_NEGATIVE_ENDPOINT",
+      "local_match_score_delta": 0.0,
+      "opponent_coins_delta": -2054.0,
+      "residual_product_units_delta": 0
+    },
+    {
+      "coin_margin_delta": 1054.0,
+      "coins_delta": -1389.0,
+      "competitive_interpretation": "SAME_MATCH_HIGHER_MARGIN",
+      "contrast": "renew-control",
+      "existing_conservative_gate": "STOP_NEGATIVE_ENDPOINT",
+      "local_match_score_delta": 0.0,
+      "opponent_coins_delta": -2443.0,
+      "residual_product_units_delta": 0
+    }
+  ],
+  "decision": "FACTORIAL_DIAGNOSIS_COMPLETE_NO_AUTOMATIC_PROMOTION",
+  "elapsed_seconds": 26.21979673599708,
+  "endpoints": [
+    {
+      "coin_margin": 758.0,
+      "coins": 44840.0,
+      "early_clear": 0,
+      "evidence": "reused_notebook15",
+      "local_match_score": 1.0,
+      "mode": "control",
+      "opponent_coins": 44082.0,
+      "residual_product_units": 0,
+      "retirement": 0
+    },
+    {
+      "coin_margin": 270.0,
+      "coins": 41510.0,
+      "early_clear": 0,
+      "evidence": "reused_notebook15",
+      "local_match_score": 1.0,
+      "mode": "retire",
+      "opponent_coins": 41240.0,
+      "residual_product_units": 0,
+      "retirement": 1
+    },
+    {
+      "coin_margin": 830.0,
+      "coins": 42858.0,
+      "early_clear": 1,
+      "evidence": "one_new_responsive_continuation",
+      "local_match_score": 1.0,
+      "mode": "clear_only",
+      "opponent_coins": 42028.0,
+      "residual_product_units": 0,
+      "retirement": 0
+    },
+    {
+      "coin_margin": 1812.0,
+      "coins": 43451.0,
+      "early_clear": 1,
+      "evidence": "reused_notebook15",
+      "local_match_score": 1.0,
+      "mode": "renew",
+      "opponent_coins": 41639.0,
+      "residual_product_units": 0,
+      "retirement": 1
+    }
+  ],
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "factorial_effects": [
+    {
+      "clear_only": 42858.0,
+      "clearing_effect_normal_water": -1982.0,
+      "clearing_effect_retired_water": 1941.0,
+      "clearing_main_effect_average": -20.5,
+      "control": 44840.0,
+      "difference_in_differences": 3923.0,
+      "metric": "coins",
+      "renew": 43451.0,
+      "retire": 41510.0,
+      "retirement_effect_no_clearing": -3330.0,
+      "retirement_effect_with_clearing": 593.0,
+      "retirement_main_effect_average": -1368.5
+    },
+    {
+      "clear_only": 42028.0,
+      "clearing_effect_normal_water": -2054.0,
+      "clearing_effect_retired_water": 399.0,
+      "clearing_main_effect_average": -827.5,
+      "control": 44082.0,
+      "difference_in_differences": 2453.0,
+      "metric": "opponent_coins",
+      "renew": 41639.0,
+      "retire": 41240.0,
+      "retirement_effect_no_clearing": -2842.0,
+      "retirement_effect_with_clearing": -389.0,
+      "retirement_main_effect_average": -1615.5
+    },
+    {
+      "clear_only": 830.0,
+      "clearing_effect_normal_water": 72.0,
+      "clearing_effect_retired_water": 1542.0,
+      "clearing_main_effect_average": 807.0,
+      "control": 758.0,
+      "difference_in_differences": 1470.0,
+      "metric": "coin_margin",
+      "renew": 1812.0,
+      "retire": 270.0,
+      "retirement_effect_no_clearing": -488.0,
+      "retirement_effect_with_clearing": 982.0,
+      "retirement_main_effect_average": 247.0
+    },
+    {
+      "clear_only": 1.0,
+      "clearing_effect_normal_water": 0.0,
+      "clearing_effect_retired_water": 0.0,
+      "clearing_main_effect_average": 0.0,
+      "control": 1.0,
+      "difference_in_differences": 0.0,
+      "metric": "local_match_score",
+      "renew": 1.0,
+      "retire": 1.0,
+      "retirement_effect_no_clearing": 0.0,
+      "retirement_effect_with_clearing": 0.0,
+      "retirement_main_effect_average": 0.0
+    },
+    {
+      "clear_only": 0.0,
+      "clearing_effect_normal_water": 0.0,
+      "clearing_effect_retired_water": 0.0,
+      "clearing_main_effect_average": 0.0,
+      "control": 0.0,
+      "difference_in_differences": 0.0,
+      "metric": "residual_product_units",
+      "renew": 0.0,
+      "retire": 0.0,
+      "retirement_effect_no_clearing": 0.0,
+      "retirement_effect_with_clearing": 0.0,
+      "retirement_main_effect_average": 0.0
+    }
+  ],
+  "feature_engineering_complete": false,
+  "fingerprint": "2c756f4663548ef400853afc0374d7f34415fe879f82ce3385ecc9d550979bdc",
+  "github_updated": false,
+  "independent_seed_blocks": 1,
+  "limitations": [
+    "Same adaptively chosen, repeatedly examined development seed and one related opponent; no independent validation.",
+    "Cash guard is preserved separately from win/margin interpretation. No post-hoc metric switch or policy promotion.",
+    "Difference-in-differences is a conditional block contrast, not an independent additive causal decomposition or significance test.",
+    "Historical branches were reused from checksum-verified checkpoints, not simulated again.",
+    "Ordinary WATER eligibility is unchanged, but indirect WATER schedules and purchases may change after clearing.",
+    "Joint descriptors are logged only. Existing <=3-hired-hands callback limit is unchanged."
+  ],
+  "models_fit": 0,
+  "new_arm_decision": {
+    "coin_margin_delta": 72.0,
+    "coins_delta": -1982.0,
+    "competitive_interpretation": "SAME_MATCH_HIGHER_MARGIN",
+    "contrast": "clear_only-control",
+    "existing_conservative_gate": "STOP_NEGATIVE_ENDPOINT",
+    "local_match_score_delta": 0.0,
+    "opponent_coins_delta": -2054.0,
+    "residual_product_units_delta": 0
+  },
+  "new_policy_branches": 1,
+  "new_transitions_this_invocation": 719,
+  "official_metric_effect_measured": false,
+  "official_submission_score": null,
+  "output_sha256": {
+    "pilot/checkpoints/clear_only.json.gz": "4ede2e116182a6239b739f5abeb667236365b6286a12aac8b80a166676f2f66d",
+    "pilot/clear_only_features.csv": "6f79f586029387a69b1cfa006d56e3779d9632264dd019f9e600b36b763a7acf",
+    "pilot/contrasts.csv": "f949b071eadb9798066b2d27f372fda86aded11df4a30550070ffde2df8312ab",
+    "pilot/endpoints.csv": "cf1eb9c9b764a3588546b3a190918190a170de5d8161780511453303728edef3",
+    "pilot/factorial_effects.csv": "1afe54cdcbe12108835719ba309aa2b3cceeb578ab8723d591688efe4521973e",
+    "pilot/trajectories.csv": "86584d77b4abf837bbeb1c8d9cc575dae3606b321f4fd13f7b9bc0b2bfc8d175"
+  },
+  "represented_new_arm_transitions": 719,
+  "reused_prior_branches": 3,
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "source_key": {
+    "arm": "coordinated",
+    "opponent": "livestock_fertilizer",
+    "seat": 0,
+    "seed": 1601
+  },
+  "status": "RENEWAL_FACTORIAL_COMPLETE",
+  "utc": "2026-09-12T22:27:15.355199+00:00",
+  "validation_or_holdout_used": false
+}

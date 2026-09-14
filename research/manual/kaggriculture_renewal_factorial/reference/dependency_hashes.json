@@ -1,0 +1,11 @@
+{
+  "kaggriculture_cash_realization": {
+    "callback.py": "f887fe63d3e797bfedef2254c2b208887569af2e19871010216d5565bc1d82cf",
+    "cash_features.py": "c7e5149788287bc8ed7cfbdd0167188a65baa143d2565767b1bd5efde25f521f",
+    "run_cash.py": "8afebc7967d412ecb64ccc54603b2aab00a61ee126772b4a7363b3f11f0dbc12"
+  },
+  "kaggriculture_sale_timing": {
+    "timing_features.py": "28796d5f929c8e2a090e4532d6f564ce46d35c891c65832459c5474c700fcb28",
+    "outputs/final_comparisons.csv": "c5f61c62a097b17888f02640167111147bfb8c152ab048640c2c0cdf9a150623"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "record_kind": "Selected fields transcribed from connected GitHub/AWS reads, not a new experiment",
+  "checked_date": "2026-09-11",
+  "repository": "alvaromendizabal/kaggriculture",
+  "main_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "merged_pr": 15,
+  "main_ci": {
+    "run_id": 34641284139,
+    "status": "completed",
+    "conclusion": "success",
+    "completed_utc": "2026-09-11T20:00:00Z"
+  },
+  "aws": {
+    "region": "us-west-2",
+    "domain_id": "d-njhxv1erusdc",
+    "domain_name": "QuickSetupDomain-20260902T115323",
+    "profile": "default-20260902T115323",
+    "space": "kaggriculture-dev",
+    "space_status": "InService",
+    "app_status": "Deleted",
+    "ebs_gib": 30,
+    "last_app_instance": "ml.m5.xlarge",
+    "idle_timeout_minutes": 60,
+    "last_app_lifecycle": "kaggriculture-bottlenecks-20260911",
+    "lifecycle_safe_for_manual_start": false,
+    "current_ebs_contents_directly_inspected": false,
+    "resources_changed_in_this_chat": false,
+    "s3_versioning": "Enabled",
+    "last_saved_canonical_sync_commit": "1ce94d0942626d3fbb67124ac35b3d732bf06e12",
+    "last_saved_canonical_sync_finished_utc": "2026-09-11T03:46:25.763402+00:00",
+    "saved_sync_receipt_key": "manual-resume/sync-kernel-20260911/report.json",
+    "backup_key": "manual-resume/workspace-backups/20260911T001306772728Z/workspace-before-sync.zip",
+    "backup_scope_not_assumed_complete": true
+  },
+  "competition": {
+    "reported_target": 3140.0,
+    "target_independently_verified": false,
+    "user_reports_no_submission_score": true,
+    "official_metric_measured_by_this_kit": false,
+    "local_win_rate_is_not_leaderboard_rating": true
+  },
+  "staffing": {
+    "accepted_games": 7,
+    "planned_games": 8,
+    "pilot_status": "HALTED_LATENCY_LIMIT",
+    "full_callback_limit_ms": 500,
+    "exact_failed_maximum_saved": false,
+    "complete_pairs": 3,
+    "paired_match_score_deltas": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "paired_coin_margin_deltas": [
+      -1,
+      -1,
+      887
+    ],
+    "pairing_order": "Published order only; do not infer seed identities from this list",
+    "candidate_features": 53,
+    "varying_features": 51,
+    "constant_features": 2,
+    "source_url": "https://github.com/alvaromendizabal/kaggriculture/blob/7194116dfc92a8663139611233b5a221dad431a4/docs/staffing_findings.md"
+  },
+  "bottlenecks": {
+    "accepted_source_games": 7,
+    "observations": 161,
+    "candidate_columns": 39,
+    "varying_columns": 28,
+    "constant_columns": 11,
+    "high_spearman_pairs": 5,
+    "base_assignment_parity_states": 161,
+    "elapsed_seconds": 6.18315596399998,
+    "latency_including_menu_ms": {
+      "median": 10.357761999784998,
+      "p95": 20.01468800017392,
+      "max": 69.6088529998633
+    },
+    "new_games": 0,
+    "official_metric_effect_measured": false,
+    "source_url": "https://github.com/alvaromendizabal/kaggriculture/blob/7194116dfc92a8663139611233b5a221dad431a4/reports/bottleneck_research.json"
+  },
+  "workforce": {
+    "maximum_hired_hands_demonstrated": 12,
+    "old_supported_hired_hands": 3,
+    "fixture_transitions": 4,
+    "complete_games_run": 0,
+    "total_hiring_cost_per_fixture": 376,
+    "starting_money": 3000.0,
+    "remaining_money": 2624.0,
+    "sequence": [
+      4,
+      12
+    ],
+    "hiring_players": [
+      0,
+      1
+    ],
+    "views_rejected": 4,
+    "official_metric_effect_measured": false,
+    "actual_game_maximum_claimed": false,
+    "source_url": "https://github.com/alvaromendizabal/kaggriculture/blob/7194116dfc92a8663139611233b5a221dad431a4/reports/workforce_scope_audit.json"
+  },
+  "supported_engine": {
+    "package": "kaggle-environments",
+    "version": "1.32.7",
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+  },
+  "feature_gate": "OPEN",
+  "claims_not_made": [
+    "All EBS files inspected",
+    "All Kaggle raw assets present",
+    "A new leaderboard score",
+    "All candidate features predictive",
+    "Exhaustive feature engineering completed",
+    "New kit committed or merged"
+  ]
+}

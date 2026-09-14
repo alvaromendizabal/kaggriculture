@@ -1,0 +1,6 @@
+{
+  "prior_result_gate": "PASSED",
+  "source": "Reconstructed copies of returned notebook11 artifacts and original local packages; no AWS claim.",
+  "code_sha256": "237120a8e7798ffc85e940ce7fa08b316503f178756a472e4f6f5b0eec90b980",
+  "decision": "STOP_NEGATIVE_ENDPOINT"
+}

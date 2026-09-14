@@ -1,0 +1,305 @@
+{
+  "schema": "terminal-action-opportunity-v1",
+  "selection_status": "provisional_not_outcome_ablated",
+  "candidate_numeric_descriptors": [
+    {
+      "name": "is_farmer",
+      "units": "indicator",
+      "meaning": "Whether the action index is the permanent farmer rather than a hired hand.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "target_x",
+      "units": "tile",
+      "meaning": "Candidate target x coordinate; delivery targets use the current worker position.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "target_y",
+      "units": "tile",
+      "meaning": "Candidate target y coordinate; delivery targets use the current worker position.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "travel_actions",
+      "units": "actions",
+      "meaning": "Shortest movement from worker to harvest target; zero for direct carried-inventory delivery.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "manual_cash_actions",
+      "units": "actions",
+      "meaning": "Movement plus HARVEST plus movement plus DROP; direct delivery excludes HARVEST. PASS is represented as zero cost for diagnostics.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "decisions_remaining",
+      "units": "actions",
+      "meaning": "719 minus current decision step. PASS rows use zero numeric placeholders; kind masks their meaning.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "deadline_slack",
+      "units": "actions",
+      "meaning": "Remaining decisions minus candidate manual path length.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "within_deadline",
+      "units": "indicator",
+      "meaning": "Manual path finishes by step 718. This alone does not imply positive quantity or free capacity.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "yield_alive_on_arrival",
+      "units": "indicator",
+      "meaning": "Harvest has positive yield after preceding movement decay, or candidate is a carried-inventory delivery.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "visible_harvest_units",
+      "units": "units",
+      "meaning": "Currently mature harvest quantity in the legal observation; zero for non-harvest options.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "arrival_harvest_units",
+      "units": "units",
+      "meaning": "Current yield less intervening pinned turn decay; no refresh/production forecast.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "decayed_units_en_route",
+      "units": "units",
+      "meaning": "Visible harvest minus arrival harvest quantity.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "carried_units",
+      "units": "units",
+      "meaning": "All currently carried items for this worker, including unsellable ones.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "shed_room_now",
+      "units": "units",
+      "meaning": "100 minus all non-seed items currently in own shed.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "accepted_units",
+      "units": "units",
+      "meaning": "Items admitted by DROP with the shed unchanged until arrival; supplied dictionary order.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "discarded_units",
+      "units": "units",
+      "meaning": "Carried plus collected items discarded under that DROP scenario.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "frozen_bundle_revenue",
+      "units": "coins",
+      "meaning": "Incremental one-sided liquidation of admitted goods after existing shed stock, at a frozen market.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "marginal_harvest_revenue",
+      "units": "coins",
+      "meaning": "Bundle revenue minus value from dropping previously carried goods alone at the same hypothetical time. Negative values retained.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "price_impact_loss",
+      "units": "coins",
+      "meaning": "Accepted units valued at current headline prices minus their nonlinear incremental sale value.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "capacity_value_loss",
+      "units": "coins",
+      "meaning": "Unlimited-deposit frozen bundle value minus current-capacity bundle value.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "no_decay_revenue",
+      "units": "coins",
+      "meaning": "Counterfactual bundle value omitting travel decay; current capacity still enforced.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "independent_eligible_workers",
+      "units": "workers",
+      "meaning": "Workers whose independent harvest/drop route meets deadline with live yield; ignores shared resource and capacity conflicts.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "only_eligible_worker",
+      "units": "indicator",
+      "meaning": "This worker is the sole deadline/live-yield eligible worker, independent of capacity.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "other_worker_present",
+      "units": "indicator",
+      "meaning": "An alternative worker exists for this harvest target; non-harvest rows use zero.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "fastest_other_worker_actions",
+      "units": "actions",
+      "meaning": "Shortest manual path length among other workers, ignoring their own inventory and task commitments.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "travel_advantage_vs_other",
+      "units": "actions",
+      "meaning": "Fastest other worker manual path minus this worker path; positive means this worker is nearer.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "full_rate",
+      "units": "coins/action",
+      "meaning": "Candidate ranking probe rate: all registered ingredients. Not learned utility or a future income prediction.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "no_deadline_rate",
+      "units": "coins/action",
+      "meaning": "Candidate ranking probe rate: omit deadline. Not learned utility or a future income prediction.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "no_decay_rate",
+      "units": "coins/action",
+      "meaning": "Candidate ranking probe rate: omit decay. Not learned utility or a future income prediction.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "no_capacity_rate",
+      "units": "coins/action",
+      "meaning": "Candidate ranking probe rate: omit capacity. Not learned utility or a future income prediction.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "no_price_impact_rate",
+      "units": "coins/action",
+      "meaning": "Candidate ranking probe rate: omit price impact. Not learned utility or a future income prediction.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "other_first_action_present",
+      "units": "indicator",
+      "meaning": "At least one menu option begins with a different command.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "best_other_first_action_rate",
+      "units": "coins/action",
+      "meaning": "Best full-scenario rate among candidates with a different immediate command.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "first_action_regret_rate",
+      "units": "coins/action",
+      "meaning": "Best menu rate minus the best rate sharing this candidate first command. Not realized regret.",
+      "availability": "current legal observation or specified scenario only"
+    },
+    {
+      "name": "independent_top_task_claimants",
+      "units": "workers",
+      "meaning": "Count of independent full-scenario worker selections claiming this harvest. Not a feasible joint allocation.",
+      "availability": "current legal observation or specified scenario only"
+    }
+  ],
+  "aggregate_state_candidates": [
+    {
+      "name": "action.worker_count",
+      "meaning": "Number of own worker action indices including farmer."
+    },
+    {
+      "name": "action.visible_resources",
+      "meaning": "Mature positive-yield harvest targets in own visible farm."
+    },
+    {
+      "name": "action.candidates",
+      "meaning": "Non-PASS worker/target and delivery options."
+    },
+    {
+      "name": "action.deadline_feasible_candidates",
+      "meaning": "Non-PASS options meeting the deadline, before further availability/value checks."
+    },
+    {
+      "name": "action.arrival_decay_candidates",
+      "meaning": "Options losing some visible yield during travel."
+    },
+    {
+      "name": "action.positive_opportunity_candidates",
+      "meaning": "Options with positive full-scenario rate."
+    },
+    {
+      "name": "action.capacity_loss_candidates",
+      "meaning": "Options whose value decreases under current shed capacity."
+    },
+    {
+      "name": "action.price_impact_candidates",
+      "meaning": "Options whose nonlinear sale value is below headline pricing."
+    },
+    {
+      "name": "action.negative_marginal_harvest_candidates",
+      "meaning": "Harvest options that reduce the value of the carried bundle under capacity."
+    },
+    {
+      "name": "action.contested_top_tasks",
+      "meaning": "Harvest targets independently preferred by multiple workers."
+    },
+    {
+      "name": "action.workers_claiming_contested_top_tasks",
+      "meaning": "Workers whose independent first option targets a contested harvest."
+    },
+    {
+      "name": "action.pass_selections",
+      "meaning": "Workers selecting PASS under the full probe."
+    },
+    {
+      "name": "action.maximum_individual_rate",
+      "meaning": "Largest independently selected worker rate; not joint income."
+    },
+    {
+      "name": "action.mean_individual_rate",
+      "meaning": "Mean independently selected worker rate; not joint income."
+    }
+  ],
+  "audit_only_diagnostics": [
+    "probe.no_deadline.changed_first_actions",
+    "probe.no_deadline.changed_tasks",
+    "probe.no_decay.changed_first_actions",
+    "probe.no_decay.changed_tasks",
+    "probe.no_capacity.changed_first_actions",
+    "probe.no_capacity.changed_tasks",
+    "probe.no_price_impact.changed_first_actions",
+    "probe.no_price_impact.changed_tasks"
+  ],
+  "never_pass_as_predictors": [
+    "seed",
+    "episode_id",
+    "source_arm",
+    "opponent",
+    "arm",
+    "extractor_ms",
+    "changed_first_action",
+    "changed_task"
+  ],
+  "identifiers_not_predictors": [
+    "worker_index",
+    "candidate_id",
+    "task_id"
+  ],
+  "categorical_context": [
+    "kind",
+    "product",
+    "first_action"
+  ],
+  "input_contract": "Current legal observation only; no reward/seed/future/opponent private state. Final day only."
+}

@@ -1,0 +1,30 @@
+{
+  "status": "LOCAL_TESTS_PASSED",
+  "python_version": "3.13.5",
+  "unit_tests": 78,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "local_test_seconds": 1.7490034509999077,
+  "notebook_code_cells": 10,
+  "notebook_schema_valid": true,
+  "all_notebook_code_cells_compile": true,
+  "live_notebook_executed": false,
+  "plotly_charts_smoke_tested": 6,
+  "plot_inputs": "Explicit synthetic reporting tables; not AWS experiment outcomes",
+  "synthetic_end_to_end_harness": "7 artificial episodes / 161 artificial states; checkpointed and replayed from cache successfully",
+  "actual_uploaded_results_reviewed": "Notebook07 passed on 161 real saved observations; input_review.json records integrity and findings",
+  "candidate_descriptors": 158,
+  "official_engine_installed_here": false,
+  "live_official_engine_checks_run_here": false,
+  "new_aws_jobs": 0,
+  "aws_resources_modified": false,
+  "github_updated": false,
+  "new_complete_competition_games": 0,
+  "official_metric_improvement_measured": false,
+  "limitations": [
+    "Unit mechanics and callback dependencies are explicitly synthetic test doubles.",
+    "Mandatory pinned-engine, recorded-action/next-state parity and callback-latency acceptance will execute in the user workspace.",
+    "No new feature-value or leaderboard performance claim is supported by local tests."
+  ]
+}

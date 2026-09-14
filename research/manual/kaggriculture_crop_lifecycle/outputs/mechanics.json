@@ -1,0 +1,3752 @@
+{
+  "calendar_cases": 380,
+  "cases": [
+    {
+      "crop": "WHEAT",
+      "day": 0,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 1,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 2,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 3,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 4,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 5,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 6,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 7,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 8,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 9,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 16,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 17,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 18,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 19,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 20,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 21,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 22,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 23,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 24,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 25,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 26,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 27,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 28,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 29,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "WHEAT",
+      "day": 4,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 5,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 6,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 7,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 8,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 9,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 16,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 17,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 18,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 19,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 20,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 21,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 22,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 23,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 24,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 25,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 26,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 27,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 28,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 29,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "WHEAT",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 16,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 17,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 18,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 19,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 20,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 21,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 22,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 23,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 24,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 25,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 26,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 27,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 28,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "WHEAT",
+      "day": 29,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 0,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 1,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 2,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 3,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 4,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 5,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 6,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 7,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 8,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 9,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 16,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 17,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 18,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 19,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 20,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 21,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 22,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 23,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 24,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 25,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 26,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 27,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 28,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 29,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "CARROT",
+      "day": 4,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 5,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 6,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 7,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 8,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 9,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 16,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 17,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 18,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 19,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 20,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 21,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 22,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 23,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 24,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 25,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 26,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 27,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 28,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 29,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "CARROT",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 16,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 17,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 18,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 19,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 20,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 21,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 22,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 23,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 24,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 25,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 26,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 27,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 28,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "CARROT",
+      "day": 29,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 0,
+      "empty_exhausted": false,
+      "expected": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "observed": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 1,
+      "empty_exhausted": false,
+      "expected": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "observed": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 2,
+      "empty_exhausted": false,
+      "expected": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "observed": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 3,
+      "empty_exhausted": false,
+      "expected": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "observed": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 4,
+      "empty_exhausted": false,
+      "expected": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "observed": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 5,
+      "empty_exhausted": false,
+      "expected": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "observed": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 6,
+      "empty_exhausted": false,
+      "expected": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "observed": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 7,
+      "empty_exhausted": false,
+      "expected": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "observed": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 8,
+      "empty_exhausted": false,
+      "expected": [
+        9,
+        10,
+        11
+      ],
+      "observed": [
+        9,
+        10,
+        11
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 9,
+      "empty_exhausted": false,
+      "expected": [
+        10,
+        11
+      ],
+      "observed": [
+        10,
+        11
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [
+        11
+      ],
+      "observed": [
+        11
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 11,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 12,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 13,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 14,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 15,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 16,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 17,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 18,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 19,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 20,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 21,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 22,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 23,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 24,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 25,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 26,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 27,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 28,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 29,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "TOMATO",
+      "day": 4,
+      "empty_exhausted": false,
+      "expected": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "observed": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 5,
+      "empty_exhausted": false,
+      "expected": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "observed": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 6,
+      "empty_exhausted": false,
+      "expected": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "observed": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 7,
+      "empty_exhausted": false,
+      "expected": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "observed": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 8,
+      "empty_exhausted": false,
+      "expected": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "observed": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 9,
+      "empty_exhausted": false,
+      "expected": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "observed": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "observed": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "observed": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [
+        13,
+        14,
+        15
+      ],
+      "observed": [
+        13,
+        14,
+        15
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        15
+      ],
+      "observed": [
+        14,
+        15
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [
+        15
+      ],
+      "observed": [
+        15
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 15,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 16,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 17,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 18,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 19,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 20,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 21,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 22,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 23,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 24,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 25,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 26,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 27,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 28,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 29,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "TOMATO",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "observed": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "observed": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "observed": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "observed": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "observed": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "observed": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 16,
+      "empty_exhausted": false,
+      "expected": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "observed": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 17,
+      "empty_exhausted": false,
+      "expected": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "observed": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 18,
+      "empty_exhausted": false,
+      "expected": [
+        19,
+        20,
+        21
+      ],
+      "observed": [
+        19,
+        20,
+        21
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 19,
+      "empty_exhausted": false,
+      "expected": [
+        20,
+        21
+      ],
+      "observed": [
+        20,
+        21
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 20,
+      "empty_exhausted": false,
+      "expected": [
+        21
+      ],
+      "observed": [
+        21
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 21,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 22,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 23,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 24,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 25,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 26,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 27,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 28,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "TOMATO",
+      "day": 29,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 0,
+      "empty_exhausted": false,
+      "expected": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "observed": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 1,
+      "empty_exhausted": false,
+      "expected": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "observed": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 2,
+      "empty_exhausted": false,
+      "expected": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "observed": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 3,
+      "empty_exhausted": false,
+      "expected": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "observed": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 4,
+      "empty_exhausted": false,
+      "expected": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "observed": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 5,
+      "empty_exhausted": false,
+      "expected": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "observed": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 6,
+      "empty_exhausted": false,
+      "expected": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "observed": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 7,
+      "empty_exhausted": false,
+      "expected": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "observed": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 8,
+      "empty_exhausted": false,
+      "expected": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "observed": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 9,
+      "empty_exhausted": false,
+      "expected": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "observed": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [
+        12,
+        14,
+        16
+      ],
+      "observed": [
+        12,
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [
+        12,
+        14,
+        16
+      ],
+      "observed": [
+        12,
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        16
+      ],
+      "observed": [
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        16
+      ],
+      "observed": [
+        14,
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [
+        16
+      ],
+      "observed": [
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [
+        16
+      ],
+      "observed": [
+        16
+      ],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 16,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 17,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 18,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 19,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 20,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 21,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 22,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 23,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 24,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 25,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 26,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 27,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 28,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 29,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 4,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "observed": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 5,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "observed": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 6,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "observed": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 7,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "observed": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 8,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "observed": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 9,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "observed": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "observed": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "observed": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "observed": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "observed": [
+        14,
+        16,
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [
+        16,
+        18,
+        20
+      ],
+      "observed": [
+        16,
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [
+        16,
+        18,
+        20
+      ],
+      "observed": [
+        16,
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 16,
+      "empty_exhausted": false,
+      "expected": [
+        18,
+        20
+      ],
+      "observed": [
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 17,
+      "empty_exhausted": false,
+      "expected": [
+        18,
+        20
+      ],
+      "observed": [
+        18,
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 18,
+      "empty_exhausted": false,
+      "expected": [
+        20
+      ],
+      "observed": [
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 19,
+      "empty_exhausted": false,
+      "expected": [
+        20
+      ],
+      "observed": [
+        20
+      ],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 20,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 21,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 22,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 23,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 24,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 25,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 26,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 27,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 28,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 29,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "observed": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "observed": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "observed": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "observed": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "observed": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "observed": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 16,
+      "empty_exhausted": false,
+      "expected": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "observed": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 17,
+      "empty_exhausted": false,
+      "expected": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "observed": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 18,
+      "empty_exhausted": false,
+      "expected": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "observed": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 19,
+      "empty_exhausted": false,
+      "expected": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "observed": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 20,
+      "empty_exhausted": false,
+      "expected": [
+        22,
+        24,
+        26
+      ],
+      "observed": [
+        22,
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 21,
+      "empty_exhausted": false,
+      "expected": [
+        22,
+        24,
+        26
+      ],
+      "observed": [
+        22,
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 22,
+      "empty_exhausted": false,
+      "expected": [
+        24,
+        26
+      ],
+      "observed": [
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 23,
+      "empty_exhausted": false,
+      "expected": [
+        24,
+        26
+      ],
+      "observed": [
+        24,
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 24,
+      "empty_exhausted": false,
+      "expected": [
+        26
+      ],
+      "observed": [
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 25,
+      "empty_exhausted": false,
+      "expected": [
+        26
+      ],
+      "observed": [
+        26
+      ],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 26,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 27,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 28,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "STRAWBERRY",
+      "day": 29,
+      "empty_exhausted": true,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 0,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 1,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 2,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 3,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 4,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 5,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 6,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 7,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 8,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 9,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 16,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 17,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 18,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 19,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 20,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 21,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 22,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 23,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 24,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 25,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 26,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 27,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 28,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 29,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 0
+    },
+    {
+      "crop": "MELON",
+      "day": 4,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 5,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 6,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 7,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 8,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 9,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 16,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 17,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 18,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 19,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 20,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 21,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 22,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 23,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 24,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 25,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 26,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 27,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 28,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 29,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 4
+    },
+    {
+      "crop": "MELON",
+      "day": 10,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 11,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 12,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 13,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 14,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 15,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 16,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 17,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 18,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 19,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 20,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 21,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 22,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 23,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 24,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 25,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 26,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 27,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 28,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    },
+    {
+      "crop": "MELON",
+      "day": 29,
+      "empty_exhausted": false,
+      "expected": [],
+      "observed": [],
+      "planted_day": 10
+    }
+  ],
+  "component_ast_sha256": "2a2d176000ab343650b82137e9542befe6bafe82ac0de08dcd97927775daadf2",
+  "dig_replant_cases": 4,
+  "full_games": 0,
+  "scope": "Artificial component fixtures; survival and emptying assumed for event isolation, not a yield forecast.",
+  "status": "MECHANICS_PASSED"
+}

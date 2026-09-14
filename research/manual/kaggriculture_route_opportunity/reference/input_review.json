@@ -1,0 +1,16 @@
+{
+  "upload": "kaggriculture_sale_timing_results.zip",
+  "zip_sha256": "817619732e9c815e8ce470b931c87949543fc40ad1e33fc7a71bc185d59048d1",
+  "bundle_files_verified": 27,
+  "report_sha256": "ecdbbe129d032ce39a8f6537046967ac416f56320737ef354c9d77c74000a6e1",
+  "executed_code_cells": 13,
+  "notebook_error_outputs": 0,
+  "code_sha256": "bcb0b077d5c030f559411b08566d4bfb7e4c33bbba20f3ce7a40cdabffa5b681",
+  "positive_primary_cash_deltas": [
+    0,
+    0,
+    42
+  ],
+  "local_match_changes": 0,
+  "official_score": null
+}

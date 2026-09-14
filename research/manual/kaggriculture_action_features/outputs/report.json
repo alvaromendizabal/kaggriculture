@@ -1,0 +1,63 @@
+{
+  "aggregate_state_descriptors": 14,
+  "candidate_rows": 2418,
+  "code_sha256": "9fd9229545d88a1fed63be0fed44dab893df5a87351d209d6744f07b60df656e",
+  "elapsed_seconds": 7.683534557989333,
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "execution_mode": "AWS_SAVED_OBSERVATIONS",
+  "extractor_ms": {
+    "max": 3.1328439945355058,
+    "median": 1.359625006443821,
+    "p95": 2.787731005810201
+  },
+  "feature_completion_gate": "OPEN",
+  "feature_value_proven": false,
+  "fingerprint": "960bbbb5e91b26f011182ae09e2cfaf4fea797dd6f4538c090ac7f4b5320aa02",
+  "frozen_policy_modified": false,
+  "full_callback_acceptance": "NOT_RUN",
+  "github_updated": false,
+  "limitations": [
+    "Seven accepted episodes from latency-censored eight-game pilot; not fresh validation.",
+    "Final day only; no overnight refresh, new purchases, water/feed/investment actions or future-production claims.",
+    "Frozen-market scenarios do not predict actual town demand or simultaneous rival trades.",
+    "Manual DROP only; current shed held unchanged until drop; inventory iteration order follows supplied observation.",
+    "Independent workers can select conflicting tasks or exceed shared capacity; no joint revenue or stronger agent claim.",
+    "One deterministic shortest path per option; same first-command alternatives are grouped for action regret."
+  ],
+  "models_fit": 0,
+  "new_complete_games": 0,
+  "next_gate": "Inspect action activation, then integrate one family under equal rules and measure full callback before paired games",
+  "numeric_candidate_descriptors": 35,
+  "official_metric_effect_measured": false,
+  "official_submission_score": null,
+  "output_sha256": {
+    "candidate_features.csv.gz": "537d0513930df507eaf68fe0943a5b59cdc0db4974ded035e081bd8f1ae7d09f",
+    "example_state.json": "8ddeb6f3c521123dcc26777bca29c7ecac7e0eb588b1714d9240b2ec8798b2fe",
+    "feature_registry.csv": "d112515e2b798cf93d09d75ebcbdc50f013e46983b4d7c4d4795860402f8490b",
+    "mechanics_parity.csv": "e7720139b0ca48d8c4552213e99db4cf46e67778dfd03f0505c4b2b26ea7e73b",
+    "probe_by_block.csv": "7f12a97aca3afbba65b2019bf14c0dd5dd17ee550f34192326989878e4f004eb",
+    "probe_by_episode.csv": "181f637fff062102baa247398e9f9d2330f4031c4716895c8181285f6bb59651",
+    "probe_choices.csv.gz": "8ba5d70aedbf7740d0b17354e65bbd89c13565d33bf1669b3ec5049a4c106719",
+    "state_features.csv": "c40cc5b62ec7e7f4b9bfecad392a6ffed31754e259340baac6ba92594fb0bdf8"
+  },
+  "primitive_action_steps": 223,
+  "primitive_parity_checks": 30,
+  "primitive_parity_passed": true,
+  "probe_diagnostic_columns": 8,
+  "probe_scope": "Unexecuted independent-worker candidate ranking probes; NOT game-outcome ablations",
+  "saved_observations": 161,
+  "schema": "terminal-action-opportunity-v1",
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "source_episodes": 7,
+  "status": "ACTION_FEATURE_AUDIT_PASSED",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 73
+  },
+  "timing_scope": "Feature construction only; cached episodes retain prior timing; not full agent callback",
+  "utc": "2026-09-11T22:35:58.784378+00:00",
+  "validation_or_holdout_used": false,
+  "varying_candidate_descriptors": 32
+}

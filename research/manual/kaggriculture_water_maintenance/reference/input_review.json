@@ -1,0 +1,14 @@
+{
+  "bundle_files_verified": 28,
+  "archive_sha256": "4b141bc88ade1f920cfaaf34eb7740d133902ccf123d07d1405e1262c7337823",
+  "screen_report_sha256": "9f290b0cd6cabfb198c895daaf0d27476283b189d782bef02a20adcf2ca8c1af",
+  "pilot_report_sha256": "404ebd66312d5a6db9e16e335e2fa2b85101826ce2566fff7e1737a345affe64",
+  "executed_code_cells": 14,
+  "notebook_error_outputs": 0,
+  "prior_decision": "STOP_NEGATIVE_ENDPOINT",
+  "primary_own_cash_delta": -2,
+  "primary_opponent_cash_delta": -3,
+  "primary_coin_margin_delta": 1,
+  "primary_match_delta": 0,
+  "remote_main_checked": "7194116dfc92a8663139611233b5a221dad431a4"
+}

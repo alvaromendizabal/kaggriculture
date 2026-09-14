@@ -1,0 +1,66 @@
+{
+  "milestone": 11,
+  "name": "worker_route_opportunity_cost",
+  "baseline_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "preserved_baseline": "notebook10 final-callback sale gate",
+  "source_slice": "day29 steps696..718",
+  "screen_keys": [
+    [
+      1601,
+      0,
+      "coordinated"
+    ],
+    [
+      1601,
+      1,
+      "coordinated"
+    ],
+    [
+      1602,
+      0,
+      "coordinated"
+    ]
+  ],
+  "screen_observations": 69,
+  "screen_seconds_cap": 90,
+  "pilot_seconds_cap": 120,
+  "callback_ms_cap": 500,
+  "menu_nonpass_limit": 8,
+  "max_workers_per_farm_admitted": 4,
+  "route_generated_upper_bound": 25000,
+  "score": "own_solo_utility - sum(other_worker_best_original_menu_utility - best_compatible_original_menu_utility)",
+  "coefficient": 1.0,
+  "mandatory_routes": [
+    "incumbent_for_this_worker",
+    "direct_deposit_if_available",
+    "PASS"
+  ],
+  "unchanged": [
+    "candidate route pool",
+    "joint objective",
+    "exact assignment implementation",
+    "capacity",
+    "resource exclusion",
+    "tie semantics on equal objective",
+    "hiring",
+    "base market rule before final",
+    "final sale rule"
+  ],
+  "select_primary": "first activated key in ascending seed,seat order; never select by endpoint result",
+  "negative_control_key": [
+    1601,
+    0,
+    "sequential"
+  ],
+  "max_primary_pairs": 1,
+  "max_negative_control_pairs": 1,
+  "max_research_interpreter_transitions": 92,
+  "new_complete_seasons": 0,
+  "network_calls": 0,
+  "validation_or_holdout_allowed": false,
+  "auto_scale_up": false,
+  "sequential_no_change_required": true,
+  "stop_on_negative_endpoint": true,
+  "feature_target": "menu admission, not fitted prediction",
+  "outcomes_separate_from_features": true
+}

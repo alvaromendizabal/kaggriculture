@@ -1,0 +1,32 @@
+{
+  "files": {
+    ".gitignore": "9aaea296f1f91fe78c5e3f11d4fb3209d7c08b8163a1c10723d1d5745e7f8efa",
+    "FEATURE_RESEARCH.md": "94cc44275a54a72b3bbe1fb01f1b941a43c1424699332c7c20f30e8c2fb6eb8b",
+    "LOCAL_VALIDATION.json": "d912a577c7fd23a7968c3bb9304d4a1375eb926cdcafcfb7d7f31dd41ae212b1",
+    "PROGRESS_REVIEW.md": "8dc319adb302bbf6737e9173244bdbe8dcc8cc9132e0fa47bf4860827dbb7cb6",
+    "PROTOCOL.json": "c63a046fc71750aa30900a03612c9c09aa325f473b5b4118f1defbd95b0d276b",
+    "RESULTS_REVIEW.md": "4cd0158f3fb45d40ac2682e0c44cf0203859e918b6c0624ea3bc600377e82d4c",
+    "START_HERE.md": "e009e0e431034c11e0dbbdf5b4d011961c657dd6f378d58f6f9b33da202e58d8",
+    "feature_dictionary.csv": "2af898a3eac8e2a3a70b6559087b9b9f8804e27d798d5f2745203d4144443d97",
+    "reference/dependency_hashes.json": "97e74bf69a55549698047904ed84cd918477c35aca4a957107cae7a70b3209df",
+    "reference/input_review.json": "90bbb12c92c69ad2e357a86e863cf9d053b484f2c43d9bdf20691e0f19073dbe",
+    "reference/local_test_log.txt": "07d1bc9d98114491d8555f76745c5b14561bc073ca77535f7f7ee03225a5646e",
+    "reference/notebook10_final_comparisons.csv": "c5f61c62a097b17888f02640167111147bfb8c152ab048640c2c0cdf9a150623",
+    "reference/notebook10_report.json": "ecdbbe129d032ce39a8f6537046967ac416f56320737ef354c9d77c74000a6e1",
+    "route_experiment.py": "57098a02ea4b5fb72bf651e7aa92ac098459e2c77a45c742879c90e4f4aeee46",
+    "route_features.py": "ab74a9c29a14b35e26e512f57cfedf8fcff5c28d5372ac9ed1ee08679d026544",
+    "route_io.py": "3bf239335da21386159016176b846ee6d7d93b232cd2d9015ca8f6a24e0af797",
+    "route_policy.py": "76c7a942ec42f83510aaf3248133e1efe4df765747dc2382e9c64c233a1280c7",
+    "run_routes.py": "ae3812bad71ed7df15d70e4176b4e769c531fb72a5a906ad7322e79df5d33943",
+    "tests/helpers.py": "dc59c53110a8cdea18ed379668830f5873f77e67608e62974367aa123b2b9596",
+    "tests/test_experiment.py": "3b6563a79070fc085985087d09cd5aff86e4c51cdf6aebb74ec390ff2d0a8bb7",
+    "tests/test_features.py": "60c5c851b06d0a7e177d5e1539ffd1b07c72deb4a5fb4ccf94a697bf1d9fb455",
+    "tests/test_io.py": "b65b9384c0aaf072be5bdc916cea251b1471cd55e513f4e139da1809fa7f3163",
+    "tests/test_runner.py": "1430a31e331bd464685a68a15048ede7f79f613139d9e556a0d08ae56b548932",
+    "tests/test_visuals.py": "deb2e21325276f7ddb6c96a4102404aa3f0729d4fc15fdbaab17f7bf90a170a2",
+    "visualize_routes.py": "35e1e9845c3ea404f2e7a3c0f01519b1d4d2b9b8418a28bbe11800aec80fe187"
+  },
+  "notebook_name": "11_route_opportunity_feature_ablation.ipynb",
+  "notebook_source_sha256": "0ca303fd358ee4857e1cc5daef6a3d28c13a3f261cf1c787e25885846e2ef2d1",
+  "mutable_notebook_note": "Notebook execution outputs/metadata change on save. Source cells are separately fingerprinted."
+}

@@ -1,0 +1,30 @@
+{
+  "uploaded_filename": "kaggriculture_cash_realization_results.zip",
+  "uploaded_sha256": "ec63c862f13f42938306590c9b1f218f425fb836dcc91b55c02502b4ec9f6285",
+  "verified_bundle_members": 23,
+  "report_sha256": "bc265741cf2ea295e3d45daedbeca7bdb71e82f8480e50cf6de59de36e31b769",
+  "code_cells_executed": 10,
+  "notebook_errors": 0,
+  "status": "POST_ACTION_CASH_AUDIT_PASSED",
+  "decision": "ACTIVATED_REQUIRES_PAIRED_CONTINUATION",
+  "observations": 161,
+  "episodes": 7,
+  "seeds": [
+    1601,
+    1602
+  ],
+  "positive_one_step_states": 6,
+  "negative_one_step_states": 0,
+  "market_changes": 11,
+  "largest_one_step_gain_coins": 1440,
+  "positive_final_callback_rows": [
+    {
+      "seed": 1602,
+      "seat": 0,
+      "source_arm": "coordinated",
+      "coins_delta": 42
+    }
+  ],
+  "interpretation": "11 changed SELL orders; 6 positive immediate own-cash effects. Most effects occurred before final callback. No terminal continuation outcome is yet available.",
+  "next_milestone": "Same feature intervention, paired reactive final-day continuations from step 696 through 718. No new seed search or full season restarts."
+}

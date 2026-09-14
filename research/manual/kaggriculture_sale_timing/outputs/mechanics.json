@@ -1,0 +1,162 @@
+[
+  {
+    "expected": 101.0,
+    "kind": "known_demand",
+    "observed": 101.0,
+    "passed": true,
+    "product": "WHEAT",
+    "seat": 0
+  },
+  {
+    "expected": 135.0,
+    "kind": "known_demand",
+    "observed": 135.0,
+    "passed": true,
+    "product": "CARROT",
+    "seat": 0
+  },
+  {
+    "expected": 237.0,
+    "kind": "known_demand",
+    "observed": 237.0,
+    "passed": true,
+    "product": "TOMATO",
+    "seat": 0
+  },
+  {
+    "expected": 468.0,
+    "kind": "known_demand",
+    "observed": 468.0,
+    "passed": true,
+    "product": "STRAWBERRY",
+    "seat": 0
+  },
+  {
+    "expected": 1000.0,
+    "kind": "known_demand",
+    "observed": 1000.0,
+    "passed": true,
+    "product": "MELON",
+    "seat": 0
+  },
+  {
+    "expected": 195.0,
+    "kind": "known_demand",
+    "observed": 195.0,
+    "passed": true,
+    "product": "EGG",
+    "seat": 0
+  },
+  {
+    "expected": 659.0,
+    "kind": "known_demand",
+    "observed": 659.0,
+    "passed": true,
+    "product": "MILK",
+    "seat": 0
+  },
+  {
+    "expected": 815.0,
+    "kind": "known_demand",
+    "observed": 815.0,
+    "passed": true,
+    "product": "WOOL",
+    "seat": 0
+  },
+  {
+    "expected": 399.0,
+    "kind": "known_demand",
+    "observed": 399.0,
+    "passed": true,
+    "product": "FERTILIZER",
+    "seat": 0
+  },
+  {
+    "expected": 49.0,
+    "kind": "last_sale",
+    "observed": 49.0,
+    "passed": true,
+    "product": "WHEAT",
+    "seat": 0
+  },
+  {
+    "expected": 101.0,
+    "kind": "known_demand",
+    "observed": 101.0,
+    "passed": true,
+    "product": "WHEAT",
+    "seat": 1
+  },
+  {
+    "expected": 135.0,
+    "kind": "known_demand",
+    "observed": 135.0,
+    "passed": true,
+    "product": "CARROT",
+    "seat": 1
+  },
+  {
+    "expected": 237.0,
+    "kind": "known_demand",
+    "observed": 237.0,
+    "passed": true,
+    "product": "TOMATO",
+    "seat": 1
+  },
+  {
+    "expected": 468.0,
+    "kind": "known_demand",
+    "observed": 468.0,
+    "passed": true,
+    "product": "STRAWBERRY",
+    "seat": 1
+  },
+  {
+    "expected": 1000.0,
+    "kind": "known_demand",
+    "observed": 1000.0,
+    "passed": true,
+    "product": "MELON",
+    "seat": 1
+  },
+  {
+    "expected": 195.0,
+    "kind": "known_demand",
+    "observed": 195.0,
+    "passed": true,
+    "product": "EGG",
+    "seat": 1
+  },
+  {
+    "expected": 659.0,
+    "kind": "known_demand",
+    "observed": 659.0,
+    "passed": true,
+    "product": "MILK",
+    "seat": 1
+  },
+  {
+    "expected": 815.0,
+    "kind": "known_demand",
+    "observed": 815.0,
+    "passed": true,
+    "product": "WOOL",
+    "seat": 1
+  },
+  {
+    "expected": 399.0,
+    "kind": "known_demand",
+    "observed": 399.0,
+    "passed": true,
+    "product": "FERTILIZER",
+    "seat": 1
+  },
+  {
+    "expected": 49.0,
+    "kind": "last_sale",
+    "observed": 49.0,
+    "passed": true,
+    "product": "WHEAT",
+    "seat": 1
+  }
+]

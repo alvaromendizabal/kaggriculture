@@ -1,0 +1,9 @@
+{
+  "bundle_sha256": "c56ab888b990554a2dd1de267f46a477cc2682d0b944f8171f7ae28ea43ee102",
+  "manifest_listed_files": 25,
+  "all_hashes_verified": true,
+  "executed_code_cells": 10,
+  "error_outputs": 0,
+  "decision": "STOP_NO_ACTION_ACTIVATION",
+  "official_score": null
+}

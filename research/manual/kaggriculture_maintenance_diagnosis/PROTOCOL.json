@@ -1,0 +1,20 @@
+{
+  "name": "maintenance-loss-diagnosis-and-interaction-features-v1",
+  "stage_cap_seconds": 120,
+  "source_key": {
+    "seed": 1601,
+    "seat": 0,
+    "opponent": "livestock_fertilizer",
+    "arm": "coordinated"
+  },
+  "recorded_transitions_per_branch": 719,
+  "branches": 2,
+  "new_policy_calls": 0,
+  "new_interventions": 0,
+  "require_every_turn_cash_parity": true,
+  "require_final_state_hashes": true,
+  "automatic_retry": false,
+  "new_feature_promotion": false,
+  "validation_or_holdout_used": false,
+  "prior_action_deferral_rejected": true
+}

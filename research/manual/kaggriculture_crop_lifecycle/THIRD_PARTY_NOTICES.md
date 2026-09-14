@@ -1,0 +1,2 @@
+# Attribution
+`tests/official_refresh_excerpt.py` contains the unmodified `_daily_refresh_plants` function from Kaggle/kaggle-environments (Git blob 3c202c7ee921da239356789e266b694635103fc4), licensed Apache 2.0; license included. Its header and parameter formatting were added for isolated tests. This is not the full engine. Source: https://github.com/Kaggle/kaggle-environments . Other code extends the user's previous manual packages. The original repository is never overwritten.

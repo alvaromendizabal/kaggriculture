@@ -1,0 +1,138 @@
+{
+  "status": "DIAGNOSIS_RECONCILED",
+  "key": {
+    "arm": "coordinated",
+    "opponent": "livestock_fertilizer",
+    "seat": 0,
+    "seed": 1601
+  },
+  "cash_delta": -3.0,
+  "farm_actions_identical": true,
+  "opponent_actions_identical": true,
+  "ledger": [
+    {
+      "variant": "control",
+      "step": 716,
+      "product": "WOOL",
+      "requested_units": 4,
+      "coins": 987.0
+    },
+    {
+      "variant": "control",
+      "step": 717,
+      "product": "EGG",
+      "requested_units": 2,
+      "coins": 86.0
+    },
+    {
+      "variant": "control",
+      "step": 717,
+      "product": "FERTILIZER",
+      "requested_units": 6,
+      "coins": 299.0
+    },
+    {
+      "variant": "control",
+      "step": 717,
+      "product": "TOMATO",
+      "requested_units": 4,
+      "coins": 335.0
+    },
+    {
+      "variant": "control",
+      "step": 717,
+      "product": "WHEAT",
+      "requested_units": 4,
+      "coins": 196.0
+    },
+    {
+      "variant": "control",
+      "step": 718,
+      "product": "EGG",
+      "requested_units": 2,
+      "coins": 86.0
+    },
+    {
+      "variant": "aligned",
+      "step": 716,
+      "product": "EGG",
+      "requested_units": 2,
+      "coins": 86.0
+    },
+    {
+      "variant": "aligned",
+      "step": 716,
+      "product": "FERTILIZER",
+      "requested_units": 2,
+      "coins": 100.0
+    },
+    {
+      "variant": "aligned",
+      "step": 716,
+      "product": "TOMATO",
+      "requested_units": 4,
+      "coins": 332.0
+    },
+    {
+      "variant": "aligned",
+      "step": 716,
+      "product": "WHEAT",
+      "requested_units": 4,
+      "coins": 196.0
+    },
+    {
+      "variant": "aligned",
+      "step": 716,
+      "product": "WOOL",
+      "requested_units": 4,
+      "coins": 987.0
+    },
+    {
+      "variant": "aligned",
+      "step": 717,
+      "product": "EGG",
+      "requested_units": 2,
+      "coins": 86.0
+    },
+    {
+      "variant": "aligned",
+      "step": 717,
+      "product": "FERTILIZER",
+      "requested_units": 4,
+      "coins": 199.0
+    }
+  ],
+  "product_deltas": [
+    {
+      "product": "EGG",
+      "control": 172.0,
+      "aligned": 172.0,
+      "delta": 0.0
+    },
+    {
+      "product": "FERTILIZER",
+      "control": 299.0,
+      "aligned": 299.0,
+      "delta": 0.0
+    },
+    {
+      "product": "TOMATO",
+      "control": 335.0,
+      "aligned": 332.0,
+      "delta": -3.0
+    },
+    {
+      "product": "WHEAT",
+      "control": 196.0,
+      "aligned": 196.0,
+      "delta": 0.0
+    },
+    {
+      "product": "WOOL",
+      "control": 987.0,
+      "aligned": 987.0,
+      "delta": 0.0
+    }
+  ],
+  "qualification": "Realized late-sale ledger. Does not itself reveal exact public shop composition."
+}

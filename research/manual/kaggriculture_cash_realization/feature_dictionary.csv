@@ -1,0 +1,159 @@
+feature,family,description,availability,learned,official_metric_value_proven
+cash.product.WHEAT.shed_before,post_action_cash,Product units in own shed before selected farm actions.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.shed_after,post_action_cash,"Product units after selected farm actions, before the market phase.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.shed_delta,post_action_cash,After-minus-before shed inventory; includes pickups/deposits.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.control_sell_requested,post_action_cash,Quantity requested by source-style orders.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.aligned_sell_requested,post_action_cash,Quantity requested by the same rule on actual post-action inventory.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.control_sellable_units,post_action_cash,Control request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.aligned_sellable_units,post_action_cash,Aligned request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.sellable_units_delta,post_action_cash,Aligned-minus-control immediately sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.control_residual_units,post_action_cash,Unsold shed units after the conditional control sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.aligned_residual_units,post_action_cash,Unsold shed units after the conditional aligned sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.control_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the control request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.aligned_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the aligned request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.solo_revenue_delta,post_action_cash,"Difference in explicitly no-rival-order conditional cash, not actual next-state reward.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.aligned_rule_reserve_units,post_action_cash,Product units left unsold by the common reserve rule.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.uncovered_sellable_units,post_action_cash,Positive part of aligned-minus-control sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WHEAT.undercoverage_present,post_action_cash,Whether actual post-action inventory has under-covered sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.shed_before,post_action_cash,Product units in own shed before selected farm actions.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.shed_after,post_action_cash,"Product units after selected farm actions, before the market phase.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.shed_delta,post_action_cash,After-minus-before shed inventory; includes pickups/deposits.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.control_sell_requested,post_action_cash,Quantity requested by source-style orders.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.aligned_sell_requested,post_action_cash,Quantity requested by the same rule on actual post-action inventory.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.control_sellable_units,post_action_cash,Control request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.aligned_sellable_units,post_action_cash,Aligned request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.sellable_units_delta,post_action_cash,Aligned-minus-control immediately sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.control_residual_units,post_action_cash,Unsold shed units after the conditional control sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.aligned_residual_units,post_action_cash,Unsold shed units after the conditional aligned sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.control_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the control request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.aligned_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the aligned request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.solo_revenue_delta,post_action_cash,"Difference in explicitly no-rival-order conditional cash, not actual next-state reward.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.aligned_rule_reserve_units,post_action_cash,Product units left unsold by the common reserve rule.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.uncovered_sellable_units,post_action_cash,Positive part of aligned-minus-control sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.CARROT.undercoverage_present,post_action_cash,Whether actual post-action inventory has under-covered sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.shed_before,post_action_cash,Product units in own shed before selected farm actions.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.shed_after,post_action_cash,"Product units after selected farm actions, before the market phase.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.shed_delta,post_action_cash,After-minus-before shed inventory; includes pickups/deposits.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.control_sell_requested,post_action_cash,Quantity requested by source-style orders.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.aligned_sell_requested,post_action_cash,Quantity requested by the same rule on actual post-action inventory.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.control_sellable_units,post_action_cash,Control request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.aligned_sellable_units,post_action_cash,Aligned request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.sellable_units_delta,post_action_cash,Aligned-minus-control immediately sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.control_residual_units,post_action_cash,Unsold shed units after the conditional control sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.aligned_residual_units,post_action_cash,Unsold shed units after the conditional aligned sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.control_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the control request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.aligned_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the aligned request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.solo_revenue_delta,post_action_cash,"Difference in explicitly no-rival-order conditional cash, not actual next-state reward.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.aligned_rule_reserve_units,post_action_cash,Product units left unsold by the common reserve rule.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.uncovered_sellable_units,post_action_cash,Positive part of aligned-minus-control sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.TOMATO.undercoverage_present,post_action_cash,Whether actual post-action inventory has under-covered sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.shed_before,post_action_cash,Product units in own shed before selected farm actions.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.shed_after,post_action_cash,"Product units after selected farm actions, before the market phase.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.shed_delta,post_action_cash,After-minus-before shed inventory; includes pickups/deposits.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.control_sell_requested,post_action_cash,Quantity requested by source-style orders.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.aligned_sell_requested,post_action_cash,Quantity requested by the same rule on actual post-action inventory.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.control_sellable_units,post_action_cash,Control request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.aligned_sellable_units,post_action_cash,Aligned request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.sellable_units_delta,post_action_cash,Aligned-minus-control immediately sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.control_residual_units,post_action_cash,Unsold shed units after the conditional control sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.aligned_residual_units,post_action_cash,Unsold shed units after the conditional aligned sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.control_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the control request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.aligned_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the aligned request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.solo_revenue_delta,post_action_cash,"Difference in explicitly no-rival-order conditional cash, not actual next-state reward.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.aligned_rule_reserve_units,post_action_cash,Product units left unsold by the common reserve rule.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.uncovered_sellable_units,post_action_cash,Positive part of aligned-minus-control sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.STRAWBERRY.undercoverage_present,post_action_cash,Whether actual post-action inventory has under-covered sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.shed_before,post_action_cash,Product units in own shed before selected farm actions.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.shed_after,post_action_cash,"Product units after selected farm actions, before the market phase.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.shed_delta,post_action_cash,After-minus-before shed inventory; includes pickups/deposits.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.control_sell_requested,post_action_cash,Quantity requested by source-style orders.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.aligned_sell_requested,post_action_cash,Quantity requested by the same rule on actual post-action inventory.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.control_sellable_units,post_action_cash,Control request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.aligned_sellable_units,post_action_cash,Aligned request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.sellable_units_delta,post_action_cash,Aligned-minus-control immediately sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.control_residual_units,post_action_cash,Unsold shed units after the conditional control sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.aligned_residual_units,post_action_cash,Unsold shed units after the conditional aligned sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.control_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the control request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.aligned_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the aligned request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.solo_revenue_delta,post_action_cash,"Difference in explicitly no-rival-order conditional cash, not actual next-state reward.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.aligned_rule_reserve_units,post_action_cash,Product units left unsold by the common reserve rule.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.uncovered_sellable_units,post_action_cash,Positive part of aligned-minus-control sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MELON.undercoverage_present,post_action_cash,Whether actual post-action inventory has under-covered sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.shed_before,post_action_cash,Product units in own shed before selected farm actions.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.shed_after,post_action_cash,"Product units after selected farm actions, before the market phase.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.shed_delta,post_action_cash,After-minus-before shed inventory; includes pickups/deposits.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.control_sell_requested,post_action_cash,Quantity requested by source-style orders.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.aligned_sell_requested,post_action_cash,Quantity requested by the same rule on actual post-action inventory.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.control_sellable_units,post_action_cash,Control request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.aligned_sellable_units,post_action_cash,Aligned request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.sellable_units_delta,post_action_cash,Aligned-minus-control immediately sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.control_residual_units,post_action_cash,Unsold shed units after the conditional control sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.aligned_residual_units,post_action_cash,Unsold shed units after the conditional aligned sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.control_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the control request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.aligned_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the aligned request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.solo_revenue_delta,post_action_cash,"Difference in explicitly no-rival-order conditional cash, not actual next-state reward.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.aligned_rule_reserve_units,post_action_cash,Product units left unsold by the common reserve rule.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.uncovered_sellable_units,post_action_cash,Positive part of aligned-minus-control sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.EGG.undercoverage_present,post_action_cash,Whether actual post-action inventory has under-covered sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.shed_before,post_action_cash,Product units in own shed before selected farm actions.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.shed_after,post_action_cash,"Product units after selected farm actions, before the market phase.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.shed_delta,post_action_cash,After-minus-before shed inventory; includes pickups/deposits.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.control_sell_requested,post_action_cash,Quantity requested by source-style orders.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.aligned_sell_requested,post_action_cash,Quantity requested by the same rule on actual post-action inventory.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.control_sellable_units,post_action_cash,Control request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.aligned_sellable_units,post_action_cash,Aligned request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.sellable_units_delta,post_action_cash,Aligned-minus-control immediately sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.control_residual_units,post_action_cash,Unsold shed units after the conditional control sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.aligned_residual_units,post_action_cash,Unsold shed units after the conditional aligned sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.control_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the control request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.aligned_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the aligned request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.solo_revenue_delta,post_action_cash,"Difference in explicitly no-rival-order conditional cash, not actual next-state reward.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.aligned_rule_reserve_units,post_action_cash,Product units left unsold by the common reserve rule.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.uncovered_sellable_units,post_action_cash,Positive part of aligned-minus-control sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.MILK.undercoverage_present,post_action_cash,Whether actual post-action inventory has under-covered sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.shed_before,post_action_cash,Product units in own shed before selected farm actions.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.shed_after,post_action_cash,"Product units after selected farm actions, before the market phase.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.shed_delta,post_action_cash,After-minus-before shed inventory; includes pickups/deposits.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.control_sell_requested,post_action_cash,Quantity requested by source-style orders.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.aligned_sell_requested,post_action_cash,Quantity requested by the same rule on actual post-action inventory.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.control_sellable_units,post_action_cash,Control request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.aligned_sellable_units,post_action_cash,Aligned request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.sellable_units_delta,post_action_cash,Aligned-minus-control immediately sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.control_residual_units,post_action_cash,Unsold shed units after the conditional control sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.aligned_residual_units,post_action_cash,Unsold shed units after the conditional aligned sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.control_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the control request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.aligned_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the aligned request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.solo_revenue_delta,post_action_cash,"Difference in explicitly no-rival-order conditional cash, not actual next-state reward.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.aligned_rule_reserve_units,post_action_cash,Product units left unsold by the common reserve rule.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.uncovered_sellable_units,post_action_cash,Positive part of aligned-minus-control sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.WOOL.undercoverage_present,post_action_cash,Whether actual post-action inventory has under-covered sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.shed_before,post_action_cash,Product units in own shed before selected farm actions.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.shed_after,post_action_cash,"Product units after selected farm actions, before the market phase.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.shed_delta,post_action_cash,After-minus-before shed inventory; includes pickups/deposits.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.control_sell_requested,post_action_cash,Quantity requested by source-style orders.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.aligned_sell_requested,post_action_cash,Quantity requested by the same rule on actual post-action inventory.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.control_sellable_units,post_action_cash,Control request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.aligned_sellable_units,post_action_cash,Aligned request capped by post-action available product units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.sellable_units_delta,post_action_cash,Aligned-minus-control immediately sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.control_residual_units,post_action_cash,Unsold shed units after the conditional control sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.aligned_residual_units,post_action_cash,Unsold shed units after the conditional aligned sale.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.control_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the control request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.aligned_solo_revenue,post_action_cash,Exact one-seller immediate market-curve value for the aligned request.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.solo_revenue_delta,post_action_cash,"Difference in explicitly no-rival-order conditional cash, not actual next-state reward.",current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.aligned_rule_reserve_units,post_action_cash,Product units left unsold by the common reserve rule.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.uncovered_sellable_units,post_action_cash,Positive part of aligned-minus-control sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.product.FERTILIZER.undercoverage_present,post_action_cash,Whether actual post-action inventory has under-covered sellable units.,current legal observation plus copied own proposed farm-action effects,False,False
+cash.remaining_decisions,post_action_cash_aggregate,remaining decisions,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.final_callback,post_action_cash_aggregate,final callback,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.workers,post_action_cash_aggregate,workers,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.shed_units_before,post_action_cash_aggregate,shed units before,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.shed_units_after,post_action_cash_aggregate,shed units after,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.control_sell_orders,post_action_cash_aggregate,control sell orders,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.aligned_sell_orders,post_action_cash_aggregate,aligned sell orders,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.uncovered_sellable_units,post_action_cash_aggregate,uncovered sellable units,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.control_solo_revenue,post_action_cash_aggregate,control solo revenue,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.aligned_solo_revenue,post_action_cash_aggregate,aligned solo revenue,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.solo_revenue_delta,post_action_cash_aggregate,solo revenue delta,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.control_residual_product_units,post_action_cash_aggregate,control residual product units,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.aligned_residual_product_units,post_action_cash_aggregate,aligned residual product units,current legal observation plus proposed own actions and their defined order scenarios,False,False
+cash.market_orders_changed,post_action_cash_aggregate,market orders changed,current legal observation plus proposed own actions and their defined order scenarios,False,False

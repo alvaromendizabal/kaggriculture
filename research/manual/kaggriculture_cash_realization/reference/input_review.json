@@ -1,0 +1,38 @@
+{
+  "source_file": "kaggriculture_action_feature_results.zip",
+  "source_zip_sha256": "6f9b5a5d640fca0b4164bda26519120547baf956d4fc7b964ff43d7b333f8e48",
+  "all_bundle_hashes_verified": true,
+  "notebook07_status": "ACTION_FEATURE_AUDIT_PASSED",
+  "notebook06_status": "WORKFORCE_COVERAGE_PASSED",
+  "saved_observations": 161,
+  "source_episodes": 7,
+  "worker_decisions_per_probe": 602,
+  "deadline_probe_action_changes": 19,
+  "deadline_probe_by_seed": [
+    {
+      "seed": 1601,
+      "evaluated_worker_states": 344,
+      "changed_first_actions": 0
+    },
+    {
+      "seed": 1602,
+      "evaluated_worker_states": 258,
+      "changed_first_actions": 19
+    }
+  ],
+  "contested_top_task_states": 99,
+  "three_other_removal_probes_changed_actions": 0,
+  "extractor_ms": {
+    "max": 3.1328439945355058,
+    "median": 1.359625006443821,
+    "p95": 2.787731005810201
+  },
+  "mechanics_parity_checks": 30,
+  "tests_passed": 73,
+  "notebook_executed_cells": 10,
+  "notebook_error_outputs": 0,
+  "official_submission_score": null,
+  "official_metric_improvement_measured": false,
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "important_source_review": "Frozen FeedPolicy already has collection+deposit deadlines. StaffingPolicy replaces farm actions for coordinated arm, but retains market orders built from the base policy simulated farm actions. Cash undercoverage is a hypothesis to test, not a proven incidence on the saved observations."
+}

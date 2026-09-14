@@ -1,0 +1,13 @@
+{
+  "files": {
+    "outputs/tests.json": "799cfab0af1b5225f7132993e4c9d824d7611fcc68ca4483611a48fb6b3cc37b",
+    "outputs/mechanics.json": "ffaa1492d1a3c121dd7199874d1b729c9c96917ebfc0f9ca387b2ccecde63592",
+    "outputs/screen/status.json": "b0fd1600a6296bb406c27a24ee65305dada80e6194c6261d85ae7696715caa76",
+    "outputs/screen/states.csv": "8313d7833222b6d0a4585184989c59cb6f43146d3a96ff5a2aed6ada38228801",
+    "outputs/screen/task_features.csv.gz": "675b40eb512fa47ef5a8cf17021a5d809c21edf14eae28e8c85a84c0a9e8abb5",
+    "outputs/screen/feature_registry.csv": "8cc45eefe699cd14414f39b33af47c38584ed3faab1932fc80b3005b9e683ce4",
+    "outputs/screen/report.json": "f7c199543564cda9a9aa1da84733a7dfa4493b5ec88ecd9e9ebc4adf78f265b3",
+    "outputs/pilot/status.json": "ed41ade73df83575cab01c2024b5f50862c0fbf45b068a47a591c63abccada60",
+    "outputs/pilot/report.json": "04251c3d26c469b7c85ad1cb1307c23abf8fdd24a4011c740785166680e8e418"
+  }
+}

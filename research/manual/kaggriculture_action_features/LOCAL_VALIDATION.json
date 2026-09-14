@@ -1,0 +1,57 @@
+{
+  "recorded_at_utc": "2026-09-11T22:29:18.815716+00:00",
+  "status": "LOCAL_TESTS_AND_SYNTHETIC_NOTEBOOK_SMOKE_PASSED",
+  "local_environment": {
+    "python": "3.13.5",
+    "pandas": "2.2.3",
+    "plotly": "6.5.2"
+  },
+  "unit_tests": {
+    "tests": 73,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_seconds": 1.296,
+    "log": "reference/local_tests.txt"
+  },
+  "syntax_parsed_python_files": 8,
+  "notebook_structure_validated": true,
+  "live_notebook_executed": false,
+  "live_notebook_code_cells": 10,
+  "synthetic_notebook_smoke": {
+    "status": "SYNTHETIC_VISUALIZATION_SMOKE_PASSED",
+    "code_cells_executed": 10,
+    "plotly_outputs": 6,
+    "error_outputs": 0,
+    "elapsed_seconds": 3.30529814800002,
+    "modified_cells": [
+      "setup: points output directory to synthetic fixtures",
+      "live06: not executed",
+      "live07: reads synthetic fixture outputs instead of AWS run"
+    ],
+    "original_live_notebook_executed": false,
+    "actual_private_episodes_used": false,
+    "official_engine_used": false
+  },
+  "official_engine_executed_locally": false,
+  "private_episodes_executed_locally": false,
+  "aws_resources_changed": false,
+  "cloud_jobs_launched": 0,
+  "complete_games_run": 0,
+  "models_fit": 0,
+  "github_updated": false,
+  "new_package_committed": false,
+  "new_package_merged": false,
+  "official_submission_score": null,
+  "official_metric_effect_measured": false,
+  "resolved_during_local_testing": [
+    "Synthetic empty mechanics-parity table originally lacked CSV headers; export now always writes its schema and regression tests cover it."
+  ],
+  "limitations": [
+    "Local Python is not the user's pinned Python 3.12 runtime. The AWS notebook verifies that runtime before replay.",
+    "The executed notebook smoke is a modified copy using synthetic fixtures and toy test prices; live prerequisite/replay cells were not run.",
+    "Six Plotly outputs and standalone HTML were generated successfully. Browser screenshot capture timed out; no pixel-level browser validation is claimed.",
+    "The submitted upload was the original notebook-06 input package. No new AWS result was present."
+  ],
+  "next_required_result": "kaggriculture_action_feature_results.zip from the user-executed notebook"
+}

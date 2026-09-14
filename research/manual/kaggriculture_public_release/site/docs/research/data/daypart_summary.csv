@@ -1,0 +1,9 @@
+family,daypart,observations,changed_actions
+Collection service,Hours 0–5,174,43
+Collection service,Hours 6–11,174,148
+Collection service,Hours 12–17,174,82
+Collection service,Hours 18–23,435,82
+Maintenance deadlines,Hours 0–5,174,0
+Maintenance deadlines,Hours 6–11,174,0
+Maintenance deadlines,Hours 12–17,174,0
+Maintenance deadlines,Hours 18–23,435,2

@@ -1,0 +1,61 @@
+test_actual_clock_latency_guard (test_factorial.DriverTests.test_actual_clock_latency_guard) ... ok
+test_bad_null_actor_stops (test_factorial.DriverTests.test_bad_null_actor_stops) ... ok
+test_changed_action_cannot_claim_identity (test_factorial.DriverTests.test_changed_action_cannot_claim_identity) ... ok
+test_duplicate_source_rejected (test_factorial.DriverTests.test_duplicate_source_rejected) ... ok
+test_input_mutating_actor_rejected (test_factorial.DriverTests.test_input_mutating_actor_rejected) ... ok
+test_no_activation_identity_proof (test_factorial.DriverTests.test_no_activation_identity_proof) ... ok
+test_one_new_branch_responsive_opponent (test_factorial.DriverTests.test_one_new_branch_responsive_opponent) ... ok
+test_screen_detects_change (test_factorial.DriverTests.test_screen_detects_change) ... ok
+test_sparse_identity_proof_rejected (test_factorial.DriverTests.test_sparse_identity_proof_rejected) ... ok
+test_wrong_initial_state (test_factorial.DriverTests.test_wrong_initial_state) ... ok
+test_checkpoint_fingerprint_guard (test_factorial.EvidenceTests.test_checkpoint_fingerprint_guard) ... ok
+test_checkpoint_roundtrip (test_factorial.EvidenceTests.test_checkpoint_roundtrip) ... ok
+test_checkpoint_tamper_detected (test_factorial.EvidenceTests.test_checkpoint_tamper_detected) ... ok
+test_escape_path_rejected (test_factorial.EvidenceTests.test_escape_path_rejected) ... ok
+test_exact_factorial_math (test_factorial.EvidenceTests.test_exact_factorial_math) ... ok
+test_initial_state_mismatch_rejected (test_factorial.EvidenceTests.test_initial_state_mismatch_rejected) ... ok
+test_missing_cell_not_imputed (test_factorial.EvidenceTests.test_missing_cell_not_imputed) ... ok
+test_mixed_result_not_silently_relabelled (test_factorial.EvidenceTests.test_mixed_result_not_silently_relabelled) ... ok
+test_negative_match_overrides_margin_language (test_factorial.EvidenceTests.test_negative_match_overrides_margin_language) ... ok
+test_no_checkpoint_overwrite (test_factorial.EvidenceTests.test_no_checkpoint_overwrite) ... ok
+test_no_input_mutation (test_factorial.EvidenceTests.test_no_input_mutation) ... ok
+test_nonfinite_rejected (test_factorial.EvidenceTests.test_nonfinite_rejected) ... ok
+test_uploaded_checkpoints (test_factorial.EvidenceTests.test_uploaded_checkpoints) ... ok
+test_wrong_seed_rejected (test_factorial.EvidenceTests.test_wrong_seed_rejected) ... ok
+test_bad_board (test_factorial.FeatureTests.test_bad_board) ... ok
+test_bad_clock (test_factorial.FeatureTests.test_bad_clock) ... ok
+test_expired_replant_window (test_factorial.FeatureTests.test_expired_replant_window) ... ok
+test_feature_ignores_future_and_rival_private (test_factorial.FeatureTests.test_feature_ignores_future_and_rival_private) ... ok
+test_feature_immutable (test_factorial.FeatureTests.test_feature_immutable) ... ok
+test_more_than_three_workers_not_truncated_in_features (test_factorial.FeatureTests.test_more_than_three_workers_not_truncated_in_features) ... ok
+test_official_calendar_excerpt (test_factorial.FeatureTests.test_official_calendar_excerpt) ... ok
+test_seed_availability (test_factorial.FeatureTests.test_seed_availability) ... ok
+test_shape_and_overlap (test_factorial.FeatureTests.test_shape_and_overlap) ... ok
+test_watered_overlap (test_factorial.FeatureTests.test_watered_overlap) ... ok
+test_bad_mode (test_factorial.PolicyTests.test_bad_mode) ... ok
+test_clear_added_once (test_factorial.PolicyTests.test_clear_added_once) ... ok
+test_clearing_transformation_executes (test_factorial.PolicyTests.test_clearing_transformation_executes) ... ok
+test_future_production_protected (test_factorial.PolicyTests.test_future_production_protected) ... ok
+test_held_goods_protected (test_factorial.PolicyTests.test_held_goods_protected) ... ok
+test_multiple_clearing_sites_fail (test_factorial.PolicyTests.test_multiple_clearing_sites_fail) ... ok
+test_no_clearing_site_fails (test_factorial.PolicyTests.test_no_clearing_site_fails) ... ok
+test_null_mode_never_enables_clear (test_factorial.PolicyTests.test_null_mode_never_enables_clear) ... ok
+test_null_retains_water (test_factorial.PolicyTests.test_null_retains_water) ... ok
+test_outside_window (test_factorial.PolicyTests.test_outside_window) ... ok
+test_spent_empty_clears (test_factorial.PolicyTests.test_spent_empty_clears) ... ok
+test_water_expression_unchanged (test_factorial.PolicyTests.test_water_expression_unchanged) ... ok
+test_active_stage_never_relaunches (test_safety.SafetyTests.test_active_stage_never_relaunches) ... ok
+test_bundle_excludes_output_symlink (test_safety.SafetyTests.test_bundle_excludes_output_symlink) ... RESULTS_BUNDLE: /tmp/tmp5ro5lwcs/kaggriculture_renewal_factorial_results.zip
+ok
+test_completed_report_hash_checked (test_safety.SafetyTests.test_completed_report_hash_checked) ... ok
+test_failed_stage_never_relaunches (test_safety.SafetyTests.test_failed_stage_never_relaunches) ... ok
+test_output_checksum_checked (test_safety.SafetyTests.test_output_checksum_checked) ... ok
+test_real_budget_terminates_sleeping_child (test_safety.SafetyTests.test_real_budget_terminates_sleeping_child) ... ok
+test_reuse_refuses_new_fingerprint (test_safety.SafetyTests.test_reuse_refuses_new_fingerprint) ... ok
+test_verified_stage_reuse_has_no_child (test_safety.SafetyTests.test_verified_stage_reuse_has_no_child) ... {"utc": "2026-09-12T22:18:42.638502+00:00", "stage": "VERIFIED_STAGE_REUSED", "name": "screen"}
+ok
+
+----------------------------------------------------------------------
+Ran 54 tests in 3.893s
+
+OK

@@ -1,0 +1,17 @@
+feature,distinct_values,min,max,nonzero_fraction,status
+route.actions,19,1.0,19.0,1.0,activation_only_not_predictive_importance
+route.units,20,1.0,20.0,1.0,activation_only_not_predictive_importance
+route.resources,3,0.0,2.0,0.9952504979316684,activation_only_not_predictive_importance
+route.solo_value,377,42.0,2429.0,1.0,activation_only_not_predictive_importance
+route.solo_utility,1020,-13.0,2389.0,0.9998978601705735,activation_only_not_predictive_importance
+route.original_rank,221,1.0,221.0,1.0,activation_only_not_predictive_importance
+route.in_original_menu,2,0.0,1.0,0.08094581482048925,activation_only_not_predictive_importance
+route.incumbent,2,0.0,1.0,0.006077319850875849,activation_only_not_predictive_importance
+route.direct_deposit,2,0.0,1.0,0.004749502068331546,activation_only_not_predictive_importance
+route.competing_workers,4,0.0,3.0,0.39620039834533477,activation_only_not_predictive_importance
+route.preferred_resource_conflicts,4,0.0,3.0,0.4227056840815076,activation_only_not_predictive_importance
+route.opportunity_cost_sum,174,0.0,2924.0,0.39620039834533477,activation_only_not_predictive_importance
+route.opportunity_cost_max,82,0.0,1470.0,0.39620039834533477,activation_only_not_predictive_importance
+route.compatible_alternative_mean,318,0.0,1462.0,0.9248761554568203,activation_only_not_predictive_importance
+route.relative_utility,1381,-2051.0,2389.0,0.9991318114498748,activation_only_not_predictive_importance
+route.original_menu_exclusion,2,0.0,1.0,0.9190541851795108,activation_only_not_predictive_importance

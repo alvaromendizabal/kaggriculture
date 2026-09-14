@@ -1,0 +1,9 @@
+{
+  "artificial_interpreter_transitions": 0,
+  "cases": 80,
+  "new_complete_games": 0,
+  "performance_evidence": false,
+  "round": "20",
+  "scope": "WATER/FEED resource use and next-refresh survival, five species",
+  "status": "MECHANICS_PASSED"
+}

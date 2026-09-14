@@ -1,0 +1,53 @@
+{
+  "action_changes": 51,
+  "candidate_callback_max_ms": 30.470355006400496,
+  "cloud_resources_modified": false,
+  "code_sha256": "9c952471dc3d6a9185d5bda803955b323ca3c0cf0de426db487a2ca8abe94fc8",
+  "crop_rows": 3658,
+  "decision": "ELIGIBLE_FOR_ONE_PAIRED_PILOT",
+  "elapsed_seconds": 18.6230584950099,
+  "engine_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+  "feature_engineering_complete": false,
+  "fingerprint": "4dbb07439ab6c3c986bf321a5459650055b1aff61cc14f45e1dec64adf03c45c",
+  "github_updated": false,
+  "independent_seed_blocks": 2,
+  "limitations": [
+    "Known development sources; turns and both seats are not independent samples.",
+    "Next-refresh scenario holds other interventions fixed; postponement can overload tomorrow.",
+    "Live intervention only on zero-indexed days 20 and 21; other days are coverage observations.",
+    "No official leaderboard score; inherited <=3-hands callback domain remains."
+  ],
+  "models_fit": 0,
+  "new_episode_transitions": 0,
+  "null_action_checks": 468,
+  "observations": 468,
+  "official_mechanics_fixtures": 736,
+  "official_metric_effect_measured": false,
+  "official_submission_score": null,
+  "output_sha256": {
+    "mechanics.json": "9c1dd159961ad23ef26609c7ed347f83d03325e0925b0d260b0eda529b7bf72d",
+    "screen/crop_features.csv.gz": "6ab64b27b8eabe155b14c5adea3176747677f49238517956a192fe7bbbc98cc0",
+    "screen/feature_registry.csv": "53282b56980acead5e1cb70604eecc9316a1792ad40c4b4b1d33c213607b03f8",
+    "screen/states.csv": "c7b53d9bad086e56555eb1f6470c77956433da2c9ab04478fd94a7ffa59e3bd2"
+  },
+  "plant_descriptors": 30,
+  "selected_key": {
+    "arm": "coordinated",
+    "opponent": "livestock_fertilizer",
+    "seat": 0,
+    "seed": 1601
+  },
+  "source_action_checks": 468,
+  "source_commit": "7194116dfc92a8663139611233b5a221dad431a4",
+  "source_episodes": 3,
+  "state_descriptors": 11,
+  "status": "WATER_MAINTENANCE_SCREEN_COMPLETE",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 63
+  },
+  "utc": "2026-09-12T02:34:59.825295+00:00",
+  "validation_or_holdout_used": false
+}

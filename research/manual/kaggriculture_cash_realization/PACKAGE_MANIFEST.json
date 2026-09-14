@@ -1,0 +1,27 @@
+{
+  "files": {
+    ".gitignore": "5c4636acbc838f66fe7d971b41099dfa71906254b03ac1a8c070049305354dc3",
+    "08_post_action_cash_features.ipynb": "0786ac4c3632fd0901a46343ffd854a77a357035921d1b8068fca60857698d25",
+    "FEATURE_RESEARCH.md": "01908e0f9317f7101aaaebf632a02cb04f80eea26b669197929abe0c313d58a1",
+    "LOCAL_VALIDATION.json": "f19b41f8469153457285451e341b2f075e6c32cc19cee0e56a282295d4c2c3a0",
+    "START_HERE.md": "b62d11cf96f8f420a5245066ca4a219275f4eaf7dfdfbf614a36ef1aa91543d3",
+    "callback.py": "f887fe63d3e797bfedef2254c2b208887569af2e19871010216d5565bc1d82cf",
+    "cash_features.py": "c7e5149788287bc8ed7cfbdd0167188a65baa143d2565767b1bd5efde25f521f",
+    "feature_dictionary.csv": "0bbac1310edb25f8d8716173fbca5f677ebb562169a7daceefa7b2fc81f487cd",
+    "reference/input_review.json": "d24d1ee405a8f41ea44d977225ec5ef8b15af30f1ddf4cef620520102c751b91",
+    "reference/local_test_log.txt": "4494279227e6b9199a91ca13e4d0bac5870e148298ad7d1dab41a8ec4d00e0c0",
+    "reference/notebook07_probe_by_block.csv": "7f12a97aca3afbba65b2019bf14c0dd5dd17ee550f34192326989878e4f004eb",
+    "reference/notebook07_probe_by_episode.csv": "181f637fff062102baa247398e9f9d2330f4031c4716895c8181285f6bb59651",
+    "reference/notebook07_report.json": "8cbefd1655d6a9565588262e6cdabc9f42df9af1e72411e8a6a68d82bdbe089d",
+    "reference/previous_code_manifest.json": "94efb69b9b2b0ac851ff928ed0f17dc32c2d3efd05bd92b80e879cb6eaa58d93",
+    "run_cash.py": "8afebc7967d412ecb64ccc54603b2aab00a61ee126772b4a7363b3f11f0dbc12",
+    "tests/fixtures.py": "d64ce3f2eef56cd9569b0c48ece78a8d13e79a76f280e5c444c6baa2595d749f",
+    "tests/test_callback.py": "b62f5e2a891ba59d9a401820c86907c9962d67f51c91fdb5d7019fc40788eb84",
+    "tests/test_cash.py": "0670b5b924a2f41c8785a07404f24a9d5e3aa752dd4ef689526fc99ac66da781",
+    "tests/test_replay.py": "7f9a4539dfef115c01358bb93dbd41eafe208dca8d5ebd6212046be8abb89007",
+    "tests/test_runner.py": "bd339f3e5234326e4c66fd3a15f76df20ab43e4932f2da67fdf5432e8897f947",
+    "tests/test_visuals.py": "f93cb0ec86d6cf0c65bc6a58215addfaea2b5bff2b1a491ad7d79485b5e87fc0",
+    "visualize.py": "40af774ba4a29bc80bd2478da1eb75740bac1247918ce94a6b289f4954c8256b"
+  },
+  "raw_private_episodes_included": false
+}

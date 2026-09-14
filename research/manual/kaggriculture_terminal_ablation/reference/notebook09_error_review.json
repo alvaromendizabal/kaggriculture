@@ -1,0 +1,11 @@
+{
+  "upload": "09_terminal_cash_feature_ablation(1).ipynb",
+  "upload_sha256": "b7bb473b94e9454cf07c1abd56f4d51f5c1986899cf8461bee2b7058fdf28b73",
+  "executed_code_cells": 3,
+  "terminal_error": "ValueError: Continuation fixture endpoint incorrect",
+  "last_verified_stage": "PREFLIGHT_PASSED",
+  "passed_unit_tests": 61,
+  "verified_objects": 10,
+  "paired_experiment_reached_in_recorded_attempt": false,
+  "review_basis": "Uploaded notebook outputs and supplied runner source"
+}
