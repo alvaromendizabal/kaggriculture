@@ -1,0 +1,21 @@
+{
+  "decision": "ADAPTIVE_SYNTHESIS_V1_PROMOTED",
+  "holdout_seeds_used": false,
+  "pairwise_pass": true,
+  "stage_a_games": 12,
+  "stage_a_seed": 3107,
+  "stage_a_winner": "clone_terminal",
+  "stage_b_games": 24,
+  "stage_b_mean_margin": 10719.083333333334,
+  "stage_b_score": 24.0,
+  "stage_b_seeds": [
+    3108,
+    3109,
+    3110
+  ],
+  "stage_b_ties": 0,
+  "stage_b_wins": 24,
+  "status": "COMPLETE",
+  "total_elapsed_seconds": 278.06017808300385,
+  "validation_seeds_used": false
+}

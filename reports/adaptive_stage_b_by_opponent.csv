@@ -1,0 +1,5 @@
+opponent,games,wins,ties,mean_bank,mean_margin,median_margin,min_margin,score_fraction
+breaking_tie_v12,6,6,0,60390.5,4728.166666666667,4276.5,3761.0,1.0
+kaito_midgame_meta_reset_v4,6,6,0,80789.16666666667,17148.0,18357.0,13623.0,1.0
+rank_your_agent_v11,6,6,0,76608.83333333333,20005.5,19002.5,11519.0,1.0
+soil_remembers_rain_v16,6,6,0,56548.333333333336,994.6666666666666,999.0,732.0,1.0
