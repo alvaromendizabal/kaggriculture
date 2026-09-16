@@ -1,0 +1,4 @@
+adaptive_mode,games,wins,ties,mean_bank,mean_margin,median_margin,min_margin,score_fraction
+clone_terminal,4,4,0,106668.5,3070.0,3070.0,1095.0,1.0
+clone_front_run,4,4,0,106639.5,3040.0,3040.0,1067.0,1.0
+impact_slots,4,4,0,106288.0,2267.5,2267.5,36.0,1.0
