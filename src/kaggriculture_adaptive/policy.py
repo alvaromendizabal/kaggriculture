@@ -118,6 +118,32 @@ def _copy_action(action: dict | None) -> dict:
     }
 
 
+def _effective_step(obs: dict, config=None) -> int:
+    """Return a seat-safe episode clock.
+
+    kaggle-environments 1.32.7 does not populate ``obs["step"]`` for seat 1.
+    ``day`` and ``hour`` are synchronized for both seats, so prefer that public
+    clock whenever it is available and fall back to ``step`` only for synthetic
+    or legacy observations.
+    """
+    turns_per_day = 24
+    if config is not None:
+        try:
+            turns_per_day = int(config.get("turnsPerDay", turns_per_day) or turns_per_day)
+        except (AttributeError, TypeError, ValueError):
+            try:
+                turns_per_day = int(getattr(config, "turnsPerDay", turns_per_day) or turns_per_day)
+            except (AttributeError, TypeError, ValueError):
+                turns_per_day = 24
+    turns_per_day = max(1, turns_per_day)
+
+    day = obs.get("day")
+    hour = obs.get("hour")
+    if day is not None and hour is not None:
+        return max(0, int(day)) * turns_per_day + max(0, int(hour))
+
+    return max(0, int(obs.get("step", 0) or 0))
+
 def _seat(obs: dict) -> int:
     return 1 if int(obs.get("player", 0) or 0) == 1 else 0
 
@@ -488,7 +514,7 @@ class AdaptiveOverlay:
         return action
 
     def __call__(self, obs: dict, config=None) -> dict:
-        step = max(0, int(obs.get("step", 0) or 0))
+        step = _effective_step(obs, config)
         state = self._episode_state(obs, step)
 
         if self.mode == "clone_terminal" and step >= 717:

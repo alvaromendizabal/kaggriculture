@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from kaggriculture_adaptive.policy import (
     AdaptiveOverlay,
+    _effective_step,
     impact_loss,
     market_price,
     rank_existing_sell_slots,
@@ -103,3 +104,45 @@ def test_overlay_does_not_consume_environment_seed_or_future_state() -> None:
     source = __import__("inspect").getsource(AdaptiveOverlay)
     assert '["seed"]' not in source
     assert "future_shops" not in source
+
+def test_effective_step_uses_day_hour_when_seat_one_step_is_missing() -> None:
+    obs = observation(step=29)
+    obs["player"] = 1
+    obs.pop("step")
+    assert _effective_step(obs) == 29
+
+
+def test_effective_step_prefers_synced_clock_over_stale_zero_step() -> None:
+    obs = observation(step=719)
+    obs["player"] = 1
+    obs["step"] = 0
+    assert _effective_step(obs) == 719
+
+
+def test_player_one_overlay_state_advances_without_step_field() -> None:
+    def base_agent(obs: dict, config=None) -> dict:
+        return {"farmer": ["PASS"], "hands": [], "market": []}
+
+    policy = AdaptiveOverlay(base_agent, [], "impact_slots")
+    for step in (0, 1, 4, 24):
+        obs = observation(step=step)
+        obs["player"] = 1
+        obs.pop("step")
+        policy(obs)
+
+    assert policy.state[1].last_step == 24
+
+
+def test_player_one_terminal_guard_uses_day_hour_clock() -> None:
+    def base_agent(obs: dict, config=None) -> dict:
+        return {"farmer": ["PASS"], "hands": [], "market": []}
+
+    policy = AdaptiveOverlay(base_agent, [], "clone_terminal")
+    obs = observation(step=717)
+    obs["player"] = 1
+    obs.pop("step")
+    policy(obs)
+
+    assert policy.state[1].last_step == 717
+    assert policy.diagnostics["terminal_guard_steps"] == 1
+
