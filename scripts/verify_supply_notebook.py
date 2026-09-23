@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 
 import nbformat
+from notebook_output_policy import output_is_execution_error
 from notebook_provenance import migration_record
 
 from kaggriculture_research.artifacts import digest, file_digest, write_json
@@ -34,9 +35,7 @@ def verify(root: Path, record: bool = False) -> dict:
         if not cell.metadata.get("execution", {}).get("iopub.execute_input"):
             raise ValueError("Missing actual kernel execution timing")
         for output in cell.outputs:
-            if output.output_type == "error" or (
-                output.output_type == "stream" and output.name == "stderr"
-            ):
+            if output_is_execution_error(output):
                 raise ValueError("Notebook contains execution errors")
             pngs += int("image/png" in output.get("data", {}))
     if pngs != 6:
