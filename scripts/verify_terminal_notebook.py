@@ -4,6 +4,7 @@ import argparse
 import ast
 import json
 import os
+import re
 from pathlib import Path
 
 import nbformat
@@ -12,6 +13,14 @@ from build_terminal_notebook import PRIOR_SOURCE
 from kaggriculture_research.artifacts import digest, file_digest, write_json
 
 PRIOR_RECEIPT = "18e258a6f3efb83bac4ea9dc0e2d5ac8e256e260ce0a9e1a36ccf0f996136b22"
+
+
+def stderr_is_failure(text: str) -> bool:
+    """Distinguish benign warning streams from traceback/error evidence."""
+    lowered = text.lower()
+    if "traceback (most recent call last):" in lowered:
+        return True
+    return re.search(r"\b(?:[A-Za-z_][A-Za-z0-9_]*Error|Exception):", text) is not None
 
 
 def verify(root: Path, record: bool = False) -> dict:
@@ -40,7 +49,9 @@ def verify(root: Path, record: bool = False) -> dict:
             raise ValueError("Missing actual kernel timing")
         for output in cell.outputs:
             if output.output_type == "error" or (
-                output.output_type == "stream" and output.name == "stderr"
+                output.output_type == "stream"
+                and output.name == "stderr"
+                and stderr_is_failure(str(output.get("text", "")))
             ):
                 raise ValueError("Notebook execution contains errors")
             pngs += int("image/png" in output.get("data", {}))
