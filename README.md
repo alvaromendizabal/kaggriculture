@@ -1,62 +1,61 @@
-# Kaggriculture — decision-focused feature research
+# Kaggriculture — competitive agent research
 
-**Alvaro Mendizabal · Simulation agents · Controlled ablations · Reproducible evidence**
+**Alvaro Mendizabal · Simulation agents · Controlled ablations · Current-meta validation · Reproducible evidence**
 
-A research project on turning farm observations into profitable actions in Kaggle's
-Kaggriculture environment. The work connects crop and livestock mechanics, worker
-allocation, inventory flow, and shared-market behavior to explicit policy hypotheses.
-The implementation, tests, protocols, and research notebooks are public in this repository.
+A notebook-first research project for Kaggle's Kaggriculture environment. The work connects full-season production, worker allocation, inventory flow, market timing, replay analysis, and controlled opponent leagues to explicit policy hypotheses.
+
+## Competitive checkpoint
+
+The latest verified full leaderboard export captured at **2026-09-23T00:55:21Z** contained 9,875 ranked rows.
+
+| Measurement | Verified value |
+|---|---:|
+| Strongest current submission | **2047.9** |
+| Verified rank | **1621** |
+| Second current submission | **2044.9** |
+| Observed rank-one rating | **3152.6** |
+| Remaining gap | **1104.7** |
+
+The project's **3700** target is a stretch research target, not a claim about the current leaderboard. Ratings are dynamic; the table is a dated checkpoint.
+
+## Latest conclusion
+
+The project has reached a ceiling for recent micro-intervention work, not a proven permanent performance ceiling.
+
+The exact Boatlee V16-RC5 public controller was reproduced as a hash-bound reference and tested on 64 direct games against the two current submission sources. It lost **0–32 against each source** and was rejected before the broader field stage. No submission was made.
+
+Other recent directions were also stopped by prospective gates: terminal crew planning, adjacent-sale action learning, service-route synthesis, crop programs, and route-population routing. Negative results remain part of the research record.
+
+The next ceiling-escape milestone is **incremental current-data refresh + recent full-season route/task-graph synthesis + a broader current-meta veto league**. Historical replay data is reused; only missing/changed recent data should be fetched.
 
 ## Start with the evidence
 
-| Entry point | What it contains |
+| Entry point | Evidence |
 |---|---|
-| [Research overview notebook](notebooks/00_research_overview.ipynb) | Six inline Plotly views from recorded results; no simulator execution |
-| [Interactive overview](docs/research/index.html) | Exported HTML; download and open locally, or use the repository's configured GitHub Pages URL |
-| [Research index](research/README.md) | Source snapshots, feature dictionaries, tests, and notebook navigation |
-| [Evidence boundaries](docs/research/evidence.md) | What is measured, missing, and not yet validated |
-| [Execution guide](docs/research/reproduction.md) | How the AWS workspace and versioned research sources fit together |
+| [Research overview](notebooks/00_research_overview.ipynb) | earlier research story and inline Plotly evidence |
+| [Public reference benchmark](notebooks/47_frozen_public_reference_benchmark.ipynb) | controlled reference screening |
+| [Timing confirmation](notebooks/48_frozen_timing_reference_confirmation.ipynb) | independent confirmation and export checks |
+| [Live feedback + incremental data](notebooks/49_live_submission_feedback_and_incremental_data.ipynb) | live feedback and delta-data pipeline |
+| [Terminal planner](notebooks/50_terminal_crew_route_market_planning.ipynb) | rejected joint crew/route/market hypothesis |
+| [Counterfactual market learning](notebooks/51_counterfactual_market_action_learning.ipynb) | recent-data model training and validation rejection |
+| [Full-season production summary](docs/research/full_season_production_frontier_summary.md) | compact public summary; full output-heavy notebook retained in AWS |
+| [Public frontier reproduction](notebooks/53_public_frontier_reproduction_and_league.ipynb) | exact V16 reproduction and decisive rejection |
+| [Ceiling-escape review](docs/research/ceiling_escape_2026-09-22.md) | current gap and next structural capability |
+| [Leading-solution matrix](docs/research/leading_solution_reproduction_matrix.md) | reproduced, adapted, rejected, and missing mechanisms |
+| [Outcome ledger](docs/research/latest_outcomes.md) | compact chronology of evidence |
 
-## Latest reviewed milestone
+## Research standard
 
-The first completed outcome pairs are now available. Collection-completion valuation lost **5,136 own coins** and is not promoted. Maintenance-deadline valuation gained **218 own coins**, improved margin by **233**, and changed **one local loss to a win**. Both comparisons used one shared development control; this is not independent validation.
+Experiments are staged and self-gating: source/data integrity → engine checks → smoke tests → development screening → frozen confirmation → broader veto league → manual submission review.
 
-See the [current outcome ledger](docs/research/latest_outcomes.md) for exact receipts, negative findings, and limits. The six-chart overview retains the earlier archived-screen evidence. **No official Kaggle submission score is recorded.**
+Local coins, local win rate, historical public scores, and Kaggle rating are kept separate. A candidate is not promoted because it looks good in one matchup or resembles an old high-rated public bot.
 
-## Research approach
+## Data and privacy boundary
 
-The project tests representations rather than counting columns: information-availability
-contracts; simulator-mechanics checks; identical-condition controls; feature-family
-interventions; complete-trajectory outcomes; runtime checks; and reproducible artifacts.
-Negative and inactive hypotheses remain in the record. An activation screen is not a
-performance result, and a single favorable development pair is not independent validation.
+AWS is the canonical research workspace. The compact replay warehouse currently reaches **2026-09-20**; the last verified official index reached **2026-09-21**, so current-meta research requires an incremental delta refresh rather than a historical re-download.
 
-Recent investigations cover crop lifecycle and renewal, maintenance interactions,
-arrival stock, production headroom, collection-to-sale time, and survival-critical
-service slack. Earlier code and findings remain available in the original repository
-structure and the indexed manual-study snapshots.
+This public repository intentionally excludes raw episode archives, private replay corpora, credentials, environments, private checkpoints, large generated artifacts, and uncleared third-party controller source.
 
-## Implementation map
+## Current research question
 
-- `src/`, `configs/`, `scripts/`, `tests/`: the established research baseline.
-- `research/manual/`: additive snapshots of work actually found in the AWS home-directory packages.
-- `notebooks/`: original notebooks plus the entry-point reporting notebook.
-- `docs/research/`: evidence summary, aggregate data, and exported interactive report.
-
-The publication manifest records included files, missing package folders, and notebook
-execution-count observations. It is not a complete disk backup and does not certify
-all historical notebooks as freshly rerun.
-
-## Reproducibility and limitations
-
-Research sources are public. Raw competition assets, generated episode archives,
-credentials, environments, and large checkpoints are excluded from Git; the guides
-identify the artifacts needed for reproduction. Their exclusion is data handling,
-not concealment of the agent implementation.
-
-The existing complete callback still has a restricted workforce contract; broad
-submission-readiness, stronger opponents, fresh grouped evaluation, and a verified
-competition score remain open. Feature engineering is not declared complete.
-
-Existing repository licensing and third-party notices are retained. See the root
-license and the notices adjacent to attributed components.
+**Can recent top-agent episodes support a compatible full-season policy family that beats both current submission sources on disjoint both-seat confirmation seeds and survives a broader current-meta opponent league?**
