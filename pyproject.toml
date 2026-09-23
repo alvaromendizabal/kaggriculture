@@ -25,7 +25,14 @@ filterwarnings = ["error"]
 [tool.ruff]
 line-length = 100
 target-version = "py312"
+extend-exclude = [
+  "notebooks/47_frozen_public_reference_benchmark.ipynb",
+  "notebooks/48_frozen_timing_reference_confirmation.ipynb",
+  "notebooks/49_live_submission_feedback_and_incremental_data.ipynb",
+  "notebooks/50_terminal_crew_route_market_planning.ipynb",
+  "notebooks/51_counterfactual_market_action_learning.ipynb",
+  "notebooks/53_public_frontier_reproduction_and_league.ipynb",
+]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
-
