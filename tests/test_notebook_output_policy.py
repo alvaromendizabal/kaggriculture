@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import nbformat
-from notebook_output_policy import output_is_execution_error, stderr_is_execution_error
+from kaggriculture_research.notebook_output_policy import (\n    output_is_execution_error,\n    stderr_is_execution_error,\n)
 
 QUORIDOR_WARNING = (
     "Warning! The implementation of 'quoridor' has known issues. "
