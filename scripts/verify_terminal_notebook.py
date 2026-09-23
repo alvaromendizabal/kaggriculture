@@ -7,8 +7,8 @@ import os
 from pathlib import Path
 
 import nbformat
-from notebook_output_policy import output_is_execution_error
 from build_terminal_notebook import PRIOR_SOURCE
+from notebook_output_policy import output_is_execution_error
 
 from kaggriculture_research.artifacts import digest, file_digest, write_json
 
