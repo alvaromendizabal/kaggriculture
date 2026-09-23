@@ -13,7 +13,7 @@ def test_benign_library_warning_is_not_an_execution_failure() -> None:
 
 def test_python_traceback_is_an_execution_failure() -> None:
     assert stderr_is_failure(
-        "Traceback (most recent call last):\n  File \"x.py\", line 1\nValueError: broken"
+        'Traceback (most recent call last):\n  File "x.py", line 1\nValueError: broken'
     )
 
 
