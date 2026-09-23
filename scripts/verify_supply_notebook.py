@@ -7,10 +7,10 @@ import os
 from pathlib import Path
 
 import nbformat
-from kaggriculture_research.notebook_output_policy import output_is_execution_error
 from notebook_provenance import migration_record
 
 from kaggriculture_research.artifacts import digest, file_digest, write_json
+from kaggriculture_research.notebook_output_policy import output_is_execution_error
 
 
 def verify(root: Path, record: bool = False) -> dict:

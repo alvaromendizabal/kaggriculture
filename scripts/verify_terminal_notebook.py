@@ -8,9 +8,9 @@ from pathlib import Path
 
 import nbformat
 from build_terminal_notebook import PRIOR_SOURCE
-from kaggriculture_research.notebook_output_policy import output_is_execution_error
 
 from kaggriculture_research.artifacts import digest, file_digest, write_json
+from kaggriculture_research.notebook_output_policy import output_is_execution_error
 
 PRIOR_RECEIPT = "18e258a6f3efb83bac4ea9dc0e2d5ac8e256e260ce0a9e1a36ccf0f996136b22"
 
