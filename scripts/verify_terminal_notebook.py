@@ -10,6 +10,7 @@ import nbformat
 from build_terminal_notebook import PRIOR_SOURCE
 
 from kaggriculture_research.artifacts import digest, file_digest, write_json
+from kaggriculture_research.notebook_output_policy import output_is_execution_error
 
 PRIOR_RECEIPT = "18e258a6f3efb83bac4ea9dc0e2d5ac8e256e260ce0a9e1a36ccf0f996136b22"
 
@@ -39,9 +40,7 @@ def verify(root: Path, record: bool = False) -> dict:
         if not cell.metadata.get("execution", {}).get("iopub.execute_input"):
             raise ValueError("Missing actual kernel timing")
         for output in cell.outputs:
-            if output.output_type == "error" or (
-                output.output_type == "stream" and output.name == "stderr"
-            ):
+            if output_is_execution_error(output):
                 raise ValueError("Notebook execution contains errors")
             pngs += int("image/png" in output.get("data", {}))
     if pngs != 10:

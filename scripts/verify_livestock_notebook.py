@@ -10,6 +10,7 @@ import nbformat
 from notebook_provenance import migration_record
 
 from kaggriculture_research.artifacts import digest, file_digest, write_json
+from kaggriculture_research.notebook_output_policy import output_is_execution_error
 
 PRIOR_SOURCE = "aaf0381fa1aa2f9a216bbe49e5f1b7348a304fd612ba73ef28301473ba7a3d0a"
 PRIOR_RECEIPT = "628e850d094f07a2429bedc3bddb8b3ef67d02ca947e71c74e62e3bebba80d0b"
@@ -46,9 +47,7 @@ def verify(root: Path, record: bool = False) -> dict:
         if not cell.metadata.get("execution", {}).get("iopub.execute_input"):
             raise ValueError("Missing actual kernel timing")
         for output in cell.outputs:
-            if output.output_type == "error" or (
-                output.output_type == "stream" and output.name == "stderr"
-            ):
+            if output_is_execution_error(output):
                 raise ValueError("Execution contains errors")
             pngs += int("image/png" in output.get("data", {}))
     if pngs != 8:
