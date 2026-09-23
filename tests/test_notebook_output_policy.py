@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import nbformat
-
 from notebook_output_policy import output_is_execution_error, stderr_is_execution_error
 
 QUORIDOR_WARNING = (
