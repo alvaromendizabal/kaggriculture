@@ -1,17 +1,32 @@
 # Current outcome ledger
 
-**Snapshot: 2026-09-23T00:55:21Z**
+**Latest evidence snapshot: 2026-09-27T05:17:23Z**
 
 | Milestone | Evaluation | Result | Decision |
 |---|---|---|---|
-| Official checkpoint | full leaderboard export | 2047.9, rank 1621; observed leader 3152.6 | gap 1104.7 |
-| Timing benchmark | 16 seed clusters × both seats | 29-3 vs incumbent; 29-3 vs Farm | locally nominated |
-| Timing confirmation | independent direct + fixed-opponent panels | local gates passed | submitted once; live rating later remained below older bot |
-| Terminal planner | 32 direct games | 5-27 | rejected |
-| Counterfactual market learning | Sep 16-20 train/validation | both models failed validation | rejected |
-| Production frontier | 42 replay analyses | no stable dominant micro-defect | ceiling-escape triggered |
-| Boatlee V16 reproduction | 64 direct games | 0-32 vs each live source | rejected; field stage skipped |
+| Strongest returned live baseline | authenticated completed submissions | timing reference **2048.7**, ref `56471163` | remains live benchmark |
+| Labor-treasury independent confirmation | 1,440 official-engine games; 24 fresh seeds; 10 opponents; both seats | labor **86.875%**, race-up **77.708%**, parent **74.167%** | passed local confirmation |
+| Labor champion comparison | 720 fresh official-engine games; 12 seed clusters; 10 opponents; both seats | labor **85.0%**, race-up **75.0%**, timing **50.83%** | local champion confirmed |
+| Labor live submission | Kaggle ref `56598411` | **600.0** | live rejection; validation instrument failed |
+| Race-up live submission | Kaggle ref `56511669` | **1851.5** in latest returned history | below timing reference |
+| Native market planning | official-engine screen | no qualifying planner | rejected |
+| Stateful league control | 1,648 accepted games | no qualifier | rejected |
+| Harvest-only planner | discovery then independent confirmation | discovery signal did not hold | rejected |
+| Treasury/labor intervention | targeted funding repair | strong local signal, failed live transfer | mechanism locally useful; not live-promoted |
 
-Next: refresh only missing recent data and test compatible whole-season policy families under a broader current-meta protocol.
+## Latest decision
 
-Historical round-21/22 development evidence remains preserved in Git history. Local/offline results are not presented as official rating improvements.
+Do **not** optimize another candidate against the same static local league and treat its aggregate win rate as a submission-quality estimate.
+
+The highest-value next milestone is to redesign validation around **recent opponent diversity, family holdouts, and live-predictive diagnostics**. Only after the evaluator itself demonstrates useful agreement with live outcomes should another expensive structural policy search be promoted to submission.
+
+## Provenance
+
+- Labor candidate source SHA-256: `04e4ed65b557139437252348f9159e72b72e8414a480dd087f128d379e045c55`
+- Labor archive SHA-256: `3e25e3382a32089b0c51e1c8ade6c221ad35ae3cd685aa12ca9d51d35c96a164`
+- Timing reference expected source SHA-256: `9c0a8921aa49fba080d53deee3c9fe8db7a8e2b02881e9adda4090af73e9c187`
+- Latest labor submission ref: `56598411`
+- Strongest returned completed submission ref: `56471163`
+- Latest campaign added 720 fresh comparison games and zero model fits.
+
+Local and live results are intentionally reported separately. The latest campaign could not obtain a contemporaneous leaderboard table, so no current leader gap is inferred from stale data.
