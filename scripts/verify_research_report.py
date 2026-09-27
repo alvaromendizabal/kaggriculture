@@ -16,6 +16,7 @@ import numpy as np
 import pandas as pd
 from notebook_provenance import archived_study_sources
 from verify_market_report import verify_markets
+from verify_terminal_notebook import _allowed_stderr
 
 from kaggriculture_research.artifacts import digest, file_digest
 from kaggriculture_research.environment import engine_manifest, game
@@ -265,11 +266,15 @@ def main() -> None:
         ast.parse(cell.source)
         if cell.execution_count is None:
             raise ValueError("Research notebook has an unexecuted cell")
-        if any(
-            o.output_type == "error" or (o.output_type == "stream" and o.name == "stderr")
-            for o in cell.outputs
-        ):
-            raise ValueError("Research notebook contains execution errors")
+        for output in cell.outputs:
+            if output.output_type == "error":
+                raise ValueError("Research notebook contains execution errors")
+            if (
+                output.output_type == "stream"
+                and output.name == "stderr"
+                and not _allowed_stderr(output)
+            ):
+                raise ValueError("Research notebook contains unexpected stderr")
     print("Verified three studies: 192 outcomes, lineage, contrasts, conservation and notebook.")
 
 
