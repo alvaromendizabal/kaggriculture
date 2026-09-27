@@ -268,7 +268,10 @@ def main() -> None:
             raise ValueError("Research notebook has an unexecuted cell")
         for output in cell.outputs:
             if output.output_type == "error":
-                raise ValueError("Research notebook contains execution errors")
+                raise ValueError(
+                    "Research notebook contains execution error in "
+                    f"{cell.id}: {output.get('ename', '')}: {output.get('evalue', '')}"
+                )
             if (
                 output.output_type == "stream"
                 and output.name == "stderr"
