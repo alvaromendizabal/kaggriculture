@@ -13,6 +13,21 @@ from kaggriculture_research.artifacts import digest, file_digest, write_json
 
 PRIOR_RECEIPT = "18e258a6f3efb83bac4ea9dc0e2d5ac8e256e260ce0a9e1a36ccf0f996136b22"
 
+KNOWN_KAGGLE_ENGINE_STDERR = (
+    "Warning! The implementation of 'quoridor' has known issues. "
+    "Please see the games list on github or the code for details."
+)
+
+
+def _allowed_stderr(output) -> bool:
+    """Allow only the pinned engine's known import-time quoridor warning."""
+
+    text = output.get("text", "")
+    if isinstance(text, list):
+        text = "".join(text)
+    lines = [line.strip() for line in str(text).splitlines() if line.strip()]
+    return bool(lines) and all(line == KNOWN_KAGGLE_ENGINE_STDERR for line in lines)
+
 
 def verify(root: Path, record: bool = False) -> dict:
     path = root / "notebooks/02_feature_research.ipynb"
@@ -39,10 +54,14 @@ def verify(root: Path, record: bool = False) -> dict:
         if not cell.metadata.get("execution", {}).get("iopub.execute_input"):
             raise ValueError("Missing actual kernel timing")
         for output in cell.outputs:
-            if output.output_type == "error" or (
-                output.output_type == "stream" and output.name == "stderr"
-            ):
+            if output.output_type == "error":
                 raise ValueError("Notebook execution contains errors")
+            if (
+                output.output_type == "stream"
+                and output.name == "stderr"
+                and not _allowed_stderr(output)
+            ):
+                raise ValueError("Notebook execution contains unexpected stderr")
             pngs += int("image/png" in output.get("data", {}))
     if pngs != 10:
         raise ValueError("Static figure fallback missing")

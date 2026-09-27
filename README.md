@@ -1,61 +1,94 @@
 # Kaggriculture — competitive agent research
 
-**Alvaro Mendizabal · Simulation agents · Controlled ablations · Current-meta validation · Reproducible evidence**
+**Alvaro Mendizabal · Multi-agent simulation · Controlled ablations · AWS/SageMaker · Reproducible validation**
 
-A notebook-first research project for Kaggle's Kaggriculture environment. The work connects full-season production, worker allocation, inventory flow, market timing, replay analysis, and controlled opponent leagues to explicit policy hypotheses.
+A notebook-first research project for Kaggle's Kaggriculture environment. The work spans full-season production planning, labor allocation, inventory and market timing, public-opponent reproduction, official-engine simulation, staged promotion gates, and live submission feedback.
 
 ## Competitive checkpoint
 
-The latest verified full leaderboard export captured at **2026-09-23T00:55:21Z** contained 9,875 ranked rows.
+Latest authenticated submission history captured at **2026-09-27T05:17:23Z**:
 
 | Measurement | Verified value |
 |---|---:|
-| Strongest current submission | **2047.9** |
-| Verified rank | **1621** |
-| Second current submission | **2044.9** |
-| Observed rank-one rating | **3152.6** |
-| Remaining gap | **1104.7** |
+| Strongest completed returned submission | **2048.7** — frozen timing reference (`56471163`) |
+| Race-up submission | **1851.5** (`56511669`) |
+| Latest labor-treasury submission | **600.0** (`56598411`) |
+| Stretch target | **3400** |
+| Gap from strongest returned submission to 3400 | **1351.3** |
 
-The project's **3700** target is a stretch research target, not a claim about the current leaderboard. Ratings are dynamic; the table is a dated checkpoint.
+The latest campaign could not obtain a contemporaneous leaderboard table, so this repository does **not** present a current rank-one gap from mismatched timestamps. The last full leaderboard export published in this repository was captured on 2026-09-23 and is historical.
 
-## Latest conclusion
+## Latest research finding
 
-The project has reached a ceiling for recent micro-intervention work, not a proven permanent performance ceiling.
+The most important result is a **local-to-live validation failure**.
 
-The exact Boatlee V16-RC5 public controller was reproduced as a hash-bound reference and tested on 64 direct games against the two current submission sources. It lost **0–32 against each source** and was rejected before the broader field stage. No submission was made.
+A project-authored labor-funding intervention passed independent local confirmation:
 
-Other recent directions were also stopped by prospective gates: terminal crew planning, adjacent-sale action learning, service-route synthesis, crop programs, and route-population routing. Negative results remain part of the research record.
+- **1,440-game confirmation:** labor 86.875% win/tie score, race-up 77.708%, parent 74.167%.
+- **720-game champion comparison:** labor 85.0%, race-up 75.0%, timing reference 50.83%.
+- In the champion comparison, labor's +10 point gain over race-up was driven by a complete reversal against Shop Router V7 while the other matched opponent results were unchanged.
+- The candidate was packaged deterministically and submitted once from the canonical SageMaker workspace.
 
-The next ceiling-escape milestone is **incremental current-data refresh + recent full-season route/task-graph synthesis + a broader current-meta veto league**. Historical replay data is reused; only missing/changed recent data should be fetched.
+The live Kaggle result was **600.0**, far below the 2048.7 timing reference.
+
+That outcome invalidates treating the current static local league as a sufficient promotion instrument. The correct conclusion is not that the labor mechanism was useless: it solved the targeted local failure. The conclusion is that the evaluator did not represent the live ladder well enough.
 
 ## Start with the evidence
 
 | Entry point | Evidence |
 |---|---|
-| [Research overview](notebooks/00_research_overview.ipynb) | earlier research story and inline Plotly evidence |
-| [Public reference benchmark](notebooks/47_frozen_public_reference_benchmark.ipynb) | controlled reference screening |
-| [Timing confirmation](notebooks/48_frozen_timing_reference_confirmation.ipynb) | independent confirmation and export checks |
-| [Live feedback + incremental data](notebooks/49_live_submission_feedback_and_incremental_data.ipynb) | live feedback and delta-data pipeline |
-| [Terminal planner](notebooks/50_terminal_crew_route_market_planning.ipynb) | rejected joint crew/route/market hypothesis |
-| [Counterfactual market learning](notebooks/51_counterfactual_market_action_learning.ipynb) | recent-data model training and validation rejection |
-| [Full-season production summary](docs/research/full_season_production_frontier_summary.md) | compact public summary; full output-heavy notebook retained in AWS |
-| [Public frontier reproduction](notebooks/53_public_frontier_reproduction_and_league.ipynb) | exact V16 reproduction and decisive rejection |
-| [Ceiling-escape review](docs/research/ceiling_escape_2026-09-22.md) | current gap and next structural capability |
-| [Leading-solution matrix](docs/research/leading_solution_reproduction_matrix.md) | reproduced, adapted, rejected, and missing mechanisms |
-| [Outcome ledger](docs/research/latest_outcomes.md) | compact chronology of evidence |
+| [Latest validation-gap notebook](notebooks/54_labor_treasury_confirmation_and_live_gap.ipynb) | executed summary of local confirmation, live submission, and the resulting research decision |
+| [Live validation-gap memo](docs/research/live_validation_gap_2026-09-26.md) | compact technical interpretation, provenance, and next milestone |
+| [Outcome ledger](docs/research/latest_outcomes.md) | current chronology of accepted and rejected directions |
+| [Leading-solution matrix](docs/research/leading_solution_reproduction_matrix.md) | reproduced, adapted, rejected, and still-missing mechanisms |
+| [Research overview](notebooks/00_research_overview.ipynb) | earlier research story and inline evidence |
+| [Timing confirmation](notebooks/48_frozen_timing_reference_confirmation.ipynb) | confirmation of the strongest returned live baseline |
+| [Live feedback + incremental data](notebooks/49_live_submission_feedback_and_incremental_data.ipynb) | submission feedback and delta-data workflow |
+| [Public frontier reproduction](notebooks/53_public_frontier_reproduction_and_league.ipynb) | controlled reproduction and rejection of a public reference |
 
 ## Research standard
 
-Experiments are staged and self-gating: source/data integrity → engine checks → smoke tests → development screening → frozen confirmation → broader veto league → manual submission review.
+Experiments are self-gating:
 
-Local coins, local win rate, historical public scores, and Kaggle rating are kept separate. A candidate is not promoted because it looks good in one matchup or resembles an old high-rated public bot.
+**source/data integrity → engine checks → smoke tests → representative screen → independent confirmation → broader veto league → deterministic packaging → manual submission review**
 
-## Data and privacy boundary
+The project deliberately keeps separate:
 
-AWS is the canonical research workspace. The compact replay warehouse currently reaches **2026-09-20**; the last verified official index reached **2026-09-21**, so current-meta research requires an incremental delta refresh rather than a historical re-download.
+- local coins and margins,
+- local official-engine win/tie rate,
+- historical public-agent claims,
+- live Kaggle rating.
 
-This public repository intentionally excludes raw episode archives, private replay corpora, credentials, environments, private checkpoints, large generated artifacts, and uncleared third-party controller source.
+Negative results remain in the record. A candidate is not promoted merely because it wins a familiar matchup or looks strong in a static league.
+
+## Engineering approach
+
+The canonical workspace is AWS/SageMaker. Recent campaigns use:
+
+- `ml.m7i.12xlarge` CPU simulation;
+- up to 24 concurrent official-engine games after a measured throughput benchmark;
+- isolated agent processes and callback parity checks;
+- source/archive SHA-256 binding;
+- checkpointed, restartable game evaluation;
+- bounded runtime, memory, and storage gates;
+- deterministic return bundles and submission archives;
+- terminal-originated Kaggle submissions from AWS;
+- public GitHub artifacts that exclude raw replay corpora, credentials, private caches, and large generated archives.
+
+GitHub is a curated engineering/research surface, not a mirror of the AWS filesystem.
 
 ## Current research question
 
-**Can recent top-agent episodes support a compatible full-season policy family that beats both current submission sources on disjoint both-seat confirmation seeds and survives a broader current-meta opponent league?**
+**What local evaluation instrument actually predicts live Kaggriculture ladder performance well enough to justify the next structural policy search?**
+
+The next ceiling-escape milestone is validation redesign before more policy tuning:
+
+1. refresh only new top-agent/public episode evidence;
+2. expand opponent diversity and hold out opponent families;
+3. measure which offline metrics correlate with live outcomes;
+4. add recent-opponent robustness and distribution-shift gates;
+5. resume structural on-policy strategic control / league training only after the evaluator itself earns trust.
+
+## Data and licensing boundary
+
+This repository intentionally excludes raw competition episode archives, private replay corpora, credentials, environments, private checkpoints, submission tarballs, and uncleared third-party controller source. Existing licenses and attribution notices remain authoritative.
