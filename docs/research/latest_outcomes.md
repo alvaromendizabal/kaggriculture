@@ -1,32 +1,31 @@
 # Current outcome ledger
 
-**Latest evidence snapshot: 2026-09-27T05:17:23Z**
+**Latest evidence snapshot: 2026-09-28T05:21:12Z**
 
 | Milestone | Evaluation | Result | Decision |
 |---|---|---|---|
-| Strongest returned live baseline | authenticated completed submissions | timing reference **2048.7**, ref `56471163` | remains live benchmark |
-| Labor-treasury independent confirmation | 1,440 official-engine games; 24 fresh seeds; 10 opponents; both seats | labor **86.875%**, race-up **77.708%**, parent **74.167%** | passed local confirmation |
-| Labor champion comparison | 720 fresh official-engine games; 12 seed clusters; 10 opponents; both seats | labor **85.0%**, race-up **75.0%**, timing **50.83%** | local champion confirmed |
-| Labor live submission | Kaggle ref `56598411` | **600.0** | live rejection; validation instrument failed |
-| Race-up live submission | Kaggle ref `56511669` | **1851.5** in latest returned history | below timing reference |
-| Native market planning | official-engine screen | no qualifying planner | rejected |
-| Stateful league control | 1,648 accepted games | no qualifier | rejected |
-| Harvest-only planner | discovery then independent confirmation | discovery signal did not hold | rejected |
-| Treasury/labor intervention | targeted funding repair | strong local signal, failed live transfer | mechanism locally useful; not live-promoted |
+| Active scoring pair | authenticated latest-two accepted submissions | race-up **1760.7** (`56511669`), labor **1712.2** (`56598411`) | preserved until a new candidate clears release gates |
+| Historical timing reference | authenticated completed submission | **2048.7** | historical benchmark, not an active slot |
+| Public-state cash forecast | chronological final-date test | MAE **1268.98** vs **1714.86** persistence; **26.0% lower** | auxiliary model confirmed |
+| Forecast transfer | 64 later active-submission games | MAE **1527.54** vs **2063.93** persistence; **26.0% lower** | transferred; not a submission metric |
+| Learned supply execution | screen then independent confirmation | screen **91.67% vs 79.17%** labor; confirmation **74.31% vs 71.18%** | rejected; broad gates not met |
+| Whole-order queue planning | official-engine mechanics gate + screen | **60.71% vs 80.36%** labor | rejected and closed |
+| Contextual production-program selector | 1,536 games + 20 fits | confirmation **81.67% vs 80.0%** labor | rejected; gain too small / narrow |
+| Whole-controller public reference | 1,192-game study | confirmation **94.44% vs 85.42%** labor; +9.03pp, CI includes zero | promising; fresh replication required |
+| Learned add-on to public reference | screen | **91.67% vs 100%** unchanged reference | rejected; external reference strength not credited to adapter |
+| Replication release attempt | storage preflight | stopped before tests/games/upload | execution failure; storage-safe recovery prepared |
 
 ## Latest decision
 
-Do **not** optimize another candidate against the same static local league and treat its aggregate win rate as a submission-quality estimate.
+Do **not** return to tuning the rejected supply, queue, or contextual-program experiments. The strongest unresolved evidence is the attributed whole-controller reference, and its previous confirmation remains rejected under the registered uncertainty gate.
 
-The highest-value next milestone is to redesign validation around **recent opponent diversity, family holdouts, and live-predictive diagnostics**. Only after the evaluator itself demonstrates useful agreement with live outcomes should another expensive structural policy search be promoted to submission.
+The next experiment is one independent fresh-seed replication of that exact reference. Previous confirmation outcomes are not pooled into the new verdict. A pass permits one gated terminal submission; a failure closes the reference without automatic sample expansion.
 
-## Provenance
+## Public provenance / boundary
 
-- Labor candidate source SHA-256: `04e4ed65b557139437252348f9159e72b72e8414a480dd087f128d379e045c55`
-- Labor archive SHA-256: `3e25e3382a32089b0c51e1c8ade6c221ad35ae3cd685aa12ca9d51d35c96a164`
-- Timing reference expected source SHA-256: `9c0a8921aa49fba080d53deee3c9fe8db7a8e2b02881e9adda4090af73e9c187`
-- Latest labor submission ref: `56598411`
-- Strongest returned completed submission ref: `56471163`
-- Latest campaign added 720 fresh comparison games and zero model fits.
+- Published post-checkpoint official-engine games: **4,352** across completed studies.
+- Published post-checkpoint model fits: **28** small experimental fits.
+- AWS/SageMaker remains canonical; GitHub contains aggregate evidence, notebooks, and methodology.
+- Raw replays, acquired public-controller source, exact competitive thresholds/weights, private checkpoints, per-game action traces, and submission archives remain private.
 
-Local and live results are intentionally reported separately. The latest campaign could not obtain a contemporaneous leaderboard table, so no current leader gap is inferred from stale data.
+The machine-readable aggregate summary is in `reports/recent_meta_frontier.json`.
