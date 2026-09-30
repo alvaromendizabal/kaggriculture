@@ -1,0 +1,228 @@
+{
+  "generated_from": "verified AWS/SageMaker return bundles from 2026-09-29 through 2026-09-30",
+  "publication_boundary": {
+    "includes": [
+      "aggregate official-engine outcomes",
+      "chronological validation design",
+      "reproduction metadata",
+      "project-authored validation utilities",
+      "executed notebook outputs"
+    ],
+    "excludes": [
+      "credentials",
+      "raw replay corpora",
+      "private AWS checkpoints",
+      "Kaggle submission archives",
+      "third-party controller source",
+      "competition implementation details not required to reproduce the published conclusions"
+    ]
+  },
+  "latest_snapshot": {
+    "observed_utc": "2026-09-30T02:31:37Z",
+    "keeper_submission_ref": 56656845,
+    "keeper_rating": 1691,
+    "second_active_submission_ref": 56598411,
+    "second_active_rating": 1516.2,
+    "highest_returned_leaderboard_score": 3084.1,
+    "leaderboard_pagination_present": true,
+    "stretch_target": 3400,
+    "gap_to_highest_returned": 1393.1,
+    "gap_to_stretch_target": 1709
+  },
+  "validation_alignment": {
+    "status": "CORRECTED",
+    "recent_keeper_episodes": 48,
+    "recent_keeper_wins": 18,
+    "recent_keeper_ties": 10,
+    "recent_keeper_losses": 20,
+    "recent_keeper_score_rate": 0.4791666667,
+    "development_episodes": 24,
+    "development_wins": 9,
+    "development_ties": 4,
+    "development_losses": 11,
+    "development_score_rate": 0.4583333333,
+    "replay_fidelity_requirement": "exact terminal reward reproduction before counterfactual interpretation",
+    "conclusion": "The previous fixed opponent panel was saturated and materially overstated live strength."
+  },
+  "milestones": {
+    "late_layer_ablation": {
+      "status": "COMPLETED",
+      "decision": "REJECTED_SCREEN",
+      "new_official_engine_games": 234,
+      "new_submissions": 0,
+      "candidates": {
+        "step1002": {
+          "candidate_score": 0.9,
+          "keeper_score": 0.9,
+          "direct_vs_keeper": 0.375
+        },
+        "step961": {
+          "candidate_score": 0.9,
+          "keeper_score": 0.9,
+          "direct_vs_keeper": 0.25
+        },
+        "step953": {
+          "candidate_score": 0.9,
+          "keeper_score": 0.9,
+          "direct_vs_keeper": 0.25
+        }
+      },
+      "conclusion": "Historical source rollback did not improve the submitted reference."
+    },
+    "onpolicy_population": {
+      "status": "COMPLETED",
+      "decision": "TRAINING_REJECTED",
+      "new_official_engine_games": 448,
+      "population_updates": 2,
+      "new_submissions": 0,
+      "conclusion": "The bounded economic population converged to a policy with no useful interventions."
+    },
+    "frontier_routes": {
+      "status": "COMPLETED",
+      "decision": "SCREEN_REJECTED",
+      "new_official_engine_games": 428,
+      "new_submissions": 0,
+      "keeper_screen_score": 0.875,
+      "candidates": {
+        "kaito_v27": {
+          "score": 0,
+          "gain_vs_keeper": -0.875,
+          "direct_vs_keeper": 0
+        },
+        "kaito_route_only": {
+          "score": 0,
+          "gain_vs_keeper": -0.875,
+          "direct_vs_keeper": 0
+        },
+        "kaito_no_repair": {
+          "score": 0,
+          "gain_vs_keeper": -0.875,
+          "direct_vs_keeper": 0
+        },
+        "recent_donor_route_a": {
+          "score": 0.0208333333,
+          "gain_vs_keeper": -0.8541666667,
+          "direct_vs_keeper": 0
+        },
+        "recent_donor_route_b": {
+          "score": 0.1875,
+          "gain_vs_keeper": -0.6875,
+          "direct_vs_keeper": 0
+        }
+      },
+      "conclusion": "Complete public/recent leader route transfer failed sharply under the current official-engine league."
+    },
+    "public_adaptive_frontier": {
+      "status": "COMPLETED",
+      "decision": "SCREEN_REJECTED",
+      "new_official_engine_games": 300,
+      "new_submissions": 0,
+      "candidates": {
+        "thomas_2945_farm_v2": {
+          "score": 0.25,
+          "gain_vs_keeper": -0.75,
+          "direct_vs_keeper": 0
+        },
+        "thomas_replay_router": {
+          "score": 0.1666666667,
+          "gain_vs_keeper": -0.8333333333,
+          "direct_vs_keeper": 0
+        },
+        "thomas_state_router": {
+          "score": 0.1666666667,
+          "gain_vs_keeper": -0.8333333333,
+          "direct_vs_keeper": 0
+        }
+      },
+      "conclusion": "Newer public adaptive controllers did not transfer to the current evaluation distribution."
+    },
+    "ladder_alignment": {
+      "status": "COMPLETED",
+      "decision": "NO_FIXED_POLICY_IMPROVEMENT",
+      "new_submissions": 0,
+      "exact_replay_fidelity_passed": true,
+      "development": {
+        "keeper": {
+          "score_rate": 0.4583333333,
+          "wins": 9,
+          "ties": 4,
+          "losses": 11
+        },
+        "labor": {
+          "score_rate": 0.25,
+          "rescued_keeper_losses": 2,
+          "sacrificed_keeper_wins": 5
+        },
+        "timing_current": {
+          "score_rate": 0.2916666667,
+          "rescued_keeper_losses": 3,
+          "sacrificed_keeper_wins": 5
+        },
+        "shop_router_v7": {
+          "score_rate": 0.125,
+          "rescued_keeper_losses": 1,
+          "sacrificed_keeper_wins": 7
+        },
+        "v38_smarter_feed": {
+          "score_rate": 0.0416666667
+        }
+      },
+      "conclusion": "The live-aligned validator exposed the real failure distribution; no fixed controller was a safe global replacement."
+    },
+    "boundary_selector": {
+      "status": "COMPLETED",
+      "decision": "INNER_VALIDATION_REJECTED",
+      "branch_and_calibration_games": 1084,
+      "hindsight_oracle_net_score_units": 7,
+      "newer_eight_oracle_net_score_units": 4.5,
+      "new_submissions": 0,
+      "conclusion": "Counterfactual rescue opportunities existed, but the first small learned selector did not generalize."
+    },
+    "boundary_rule_cv": {
+      "status": "COMPLETED",
+      "decision": "ROLLING_CV_REJECTED",
+      "new_official_engine_games": 0,
+      "reused_branch_results": 1084,
+      "folds": [
+        "1-12 -> 13-16",
+        "1-16 -> 17-20",
+        "1-20 -> 21-24"
+      ],
+      "best_forward_net_score_units": 0.5,
+      "rescued_losses": 0,
+      "new_submissions": 0,
+      "conclusion": "Low-capacity forward-only expert-borrowing rules were not stable enough to deploy."
+    },
+    "native_harvest_transport_failure": {
+      "status": "FAILED",
+      "category": "MODEL",
+      "scientific_decision": null,
+      "attempted_development_games": 94,
+      "elapsed_seconds": 57.01473800200074,
+      "active_compute_estimate_usd": 0.04598,
+      "new_submissions": 0,
+      "failure": "post-terminal diagnostics transport raised BrokenPipeError after completed gameplay",
+      "conclusion": "No scientific conclusion about native harvest/service recovery; repaired recovery artifact prepared."
+    }
+  },
+  "current_recovery_artifact": {
+    "name": "kaggriculture_native_harvest_frontier_recovery.pyz",
+    "sha256": "f5d463fe492b7c6b86cd8a593a0d162c5804da5707fe777a1ec7d1828aa4390e",
+    "packaged_tests_passed": 173,
+    "python_files_compiled": 222,
+    "archive_members_verified": 528,
+    "deterministic_rebuild": true,
+    "competitive_run_completed": false
+  },
+  "project_ledger": {
+    "attempts": 75,
+    "successful_intended_runs": 43,
+    "execution_failures": 28,
+    "authorization_stops": 1,
+    "other_controlled_stops": 3,
+    "successful_active_compute_usd": 20.7994,
+    "failed_active_compute_usd": 1.0859,
+    "stopped_active_compute_usd": 0.5387,
+    "tracked_active_compute_usd": 22.4239
+  }
+}
