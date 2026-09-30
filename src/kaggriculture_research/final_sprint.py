@@ -11,7 +11,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from math import isfinite
 from statistics import mean
-from typing import Iterable, Mapping, Sequence
+from collections.abc import Iterable, Mapping, Sequence
 
 
 @dataclass(frozen=True)
