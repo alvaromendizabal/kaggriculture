@@ -8,6 +8,10 @@ artifacts/
 logs/
 data/
 *.html
+*.pyz
+*_return_*.zip
+submission*.tar.gz
+confirmed_*.tar.gz
 .env
 *access_token*
 *credentials*
