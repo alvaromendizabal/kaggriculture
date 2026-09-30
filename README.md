@@ -1,112 +1,161 @@
 # Kaggriculture — competitive agent research
 
-**Alvaro Mendizabal · Multi-agent simulation · Controlled ablations · AWS/SageMaker · Reproducible validation**
+**Alvaro Mendizabal · Multi-agent simulation · Validation engineering · AWS/SageMaker · Reproducible experimentation**
 
-A notebook-first research project for Kaggle's Kaggriculture environment. The work spans full-season production planning, labor allocation, inventory and market timing, public-opponent reproduction, official-engine simulation, recent-episode data engineering, staged promotion gates, and live submission feedback.
+A notebook-first research project for Kaggle's Kaggriculture environment. The repository
+focuses on rigorous agent evaluation: official-engine simulation, live-ladder replay
+reconstruction, controlled policy ablations, chronological holdouts, public-frontier
+reproduction, restartable experiment infrastructure, and evidence-driven promotion gates.
 
 ## Competitive checkpoint
 
-Latest authenticated active-slot snapshot in the published evidence: **2026-09-28T05:21:12Z**.
+Latest authenticated evidence published from the September 29–30 sprint:
 
 | Measurement | Verified value |
 |---|---:|
-| Active scoring submission · race-up | **1760.7** (`56511669`) |
-| Active scoring submission · labor | **1712.2** (`56598411`) |
-| Strongest historical returned submission | **2048.7** — frozen timing reference |
+| Active keeper | **1691.0** — submission `56656845` |
+| Other active slot | **1516.2** — submission `56598411` |
+| Highest returned leaderboard row | **3084.1** |
+| Gap to that returned row | **1393.1** |
 | Stretch target | **3400** |
+| Gap to stretch target | **1709.0** |
 
-A leaderboard-page snapshot captured at **2026-09-28T05:10:10Z** showed **3034.4** for the highest returned entry on that page. Because the leaderboard and active-submission snapshots have different timestamps and the leaderboard export was paginated, this repository does **not** present a synchronized rank-one gap from those values.
+The leaderboard export was paginated, so this repository describes 3084.1 as the
+**highest returned row**, not as a guaranteed exhaustive rank-one snapshot.
 
-The competition's scoring rule means only the latest two accepted submissions are treated as the active scoring pair in this research workflow. Historical stronger bots remain benchmarks, not active-slot substitutes.
+A historically stronger returned submission reached **2048.7**, but it is outside the
+current latest-two scoring pair.
 
-## Latest research frontier
+## The main result: fix the validator before optimizing the agent
 
-Since the previous public checkpoint, the project completed **4,352 accepted official-engine games** across new playable-agent studies and **28 small model fits**. The main result is a clearer separation between predictive models, narrow decision overlays, and full-controller strength.
+The most important final-sprint result was not a new policy. It was a validation
+correction.
 
-### 1. Recent-data pipeline + auxiliary forecasting
+The older fixed opponent panel had become saturated: the live keeper could look close to
+perfect locally while remaining much weaker on the ladder. The replacement evaluator
+reconstructs recent keeper ladder episodes and requires **exact terminal-reward parity**
+before counterfactual policies are interpreted.
 
-A public-state opponent cash-change model was trained from recent replay data using chronological and family-aware holdouts. It reduced final-date mean absolute error by approximately **26%** versus a persistence baseline, and the frozen model retained approximately the same relative error reduction on **64 later ladder games** from the two active submissions.
+Across 48 recent public keeper episodes, the replay-aligned evaluator measured:
 
-That result was useful but intentionally **not** treated as a playable-agent improvement. The repository separates forecasting quality from win/tie performance.
+- **18 wins**
+- **10 ties**
+- **20 losses**
+- **47.9% win/tie score**
 
-### 2. Playable learned-supply intervention
+The older 24-episode development slice was **9 wins / 4 ties / 11 losses = 45.8%**.
 
-The learned supply-execution policy produced a strong development screen (**91.67%** family-weighted win/tie score versus **79.17%** for labor), then weakened on independent confirmation (**74.31%** versus **71.18%**). The gain did not clear the registered uncertainty and withheld-opponent gates, so the candidate was rejected.
+That validator is now the primary reference for keeper-centered counterfactual research.
 
-### 3. Whole-order queue planning
+## Final-sprint research arc
 
-A market-order scheduler was verified against the official mechanics, then failed competitively: **60.71%** versus **80.36%** for labor on its screen. The direction was closed rather than tuned further against the same panel.
+The September 29–30 sprint deliberately preserved negative experiments:
 
-### 4. Contextual production-program selection
+| Milestone | Work | Decision |
+|---|---:|---|
+| Late-layer source ablation | 234 games | **Rejected** — historical prefixes did not improve the keeper |
+| On-policy economic population | 448 games, 2 updates | **Rejected** — selected policy learned no useful intervention |
+| Coherent public/recent routes | 428 games | **Rejected** — whole-route transfer failed sharply |
+| Newer public adaptive agents | 300 games | **Rejected** — adaptive public policies did not transfer |
+| Real-ladder alignment | 48 recent keeper episodes | **Validator corrected**; no fixed policy safely replaced keeper |
+| Boundary counterfactual search | 1,084 calibration/branch games | rescue opportunities existed in hindsight |
+| Rolling boundary-rule CV | reused all 1,084 results | **Rejected** — rescue rules did not generalize forward |
+| Native harvest/service recovery | 94 attempted development games | **Execution failure**, not a scientific rejection; repaired runner prepared |
 
-A contextual selector over an existing production-program bank completed **1,536 games and 20 fits**. It reached **81.67%** versus **80.0%** for labor in confirmation—a small, non-decisive gain—and was rejected.
-
-### 5. Whole-controller reference
-
-The strongest recent fixed-panel result came from an **externally authored, attributed public controller** tested unchanged. It scored **94.44%** family-weighted win/tie versus **85.42%** for labor across 320 confirmation games per policy, a **+9.03 percentage-point** gain. The paired seed-level interval still crossed zero, so it was **not promoted** under the registered gates.
-
-A project-authored learned add-on reduced that reference's screen score and was dropped. The current registered next step is one larger fresh-seed replication of the unchanged reference before any release decision.
+The key engineering conclusion is as important as the modeling result: **a high local win
+rate is not evidence of competitive progress unless the validation distribution tracks the
+games driving live rating**.
 
 ## Start with the evidence
 
-| Entry point | Evidence |
+| Entry point | What it contains |
 |---|---|
-| [Recent meta/frontier notebook](notebooks/55_recent_meta_frontier.ipynb) | executed summary of the data refresh, forecasting transfer, playable experiments, and current controller frontier |
-| [Recent research memo](docs/research/recent_meta_frontier_2026-09-28.md) | technical narrative, validation design, public/private boundary, and next registered step |
-| [Outcome ledger](docs/research/latest_outcomes.md) | chronology of accepted and rejected directions |
-| [Leading-solution matrix](docs/research/leading_solution_reproduction_matrix.md) | reproduced, adapted, rejected, promising, and still-missing mechanisms |
-| [Machine-readable frontier](reports/recent_meta_frontier.json) | aggregate experiment evidence without competitive implementation details |
-| [Prior validation-gap notebook](notebooks/54_labor_treasury_confirmation_and_live_gap.ipynb) | earlier labor intervention and initial live-feedback checkpoint |
+| [Final-sprint notebook](notebooks/56_final_sprint_ladder_alignment.ipynb) | executed notebook with the ladder-alignment correction and policy-rescue diagnostics |
+| [Final-sprint research memo](docs/research/final_sprint_2026-09-30.md) | technical narrative and conclusions |
+| [Registered protocol ledger](docs/research/final_sprint_protocols.md) | hypotheses, splits, gates, kill criteria, and decisions |
+| [Reproduction guide](docs/research/final_sprint_reproduction.md) | clone-time and full competition reproduction boundaries |
+| [Machine-readable evidence](reports/final_sprint_2026-09-30.json) | aggregate outcomes from verified return bundles |
+| [Reproduction manifest](reports/final_sprint_reproduction_manifest.json) | engine, hardware, handoff, and return-bundle identities |
+| [Outcome ledger](docs/research/latest_outcomes.md) | project chronology |
+| [Leading-solution matrix](docs/research/leading_solution_reproduction_matrix.md) | reproduced, adapted, rejected, and open mechanisms |
 
 ## Research standard
 
 Experiments are self-gating:
 
-**source/data integrity → engine checks → smoke tests → representative screen → independent confirmation → held-out/family-aware checks → deterministic packaging → terminal-originated submission**
+**artifact integrity → environment/source checks → parity → development → chronological
+holdout → reactive safety → deterministic packaging → terminal-originated release**
 
-The project deliberately keeps separate:
+The project keeps separate:
 
-- public-state predictive accuracy,
-- local coins and margins,
-- official-engine win/tie rate,
-- source-family ancestry and duplicate risk,
+- auxiliary predictive accuracy;
+- local coin margin;
+- official-engine win/tie rate;
+- replay-counterfactual improvement;
+- chronological generalization;
+- reactive-opponent safety;
 - live Kaggle rating.
 
-Negative results remain in the record. A candidate is not promoted merely because it wins a familiar matchup, improves a development screen, or looks strong under an auxiliary forecast.
+A candidate is not promoted because it wins a familiar panel, improves mean bank, or
+matches a historical public notebook score.
 
 ## Engineering approach
 
-The canonical workspace is AWS/SageMaker. Recent campaigns use:
+AWS/SageMaker is the canonical workspace. The recent research infrastructure uses:
 
 - `ml.m7i.12xlarge` CPU simulation;
 - up to 24 concurrent official-engine games under resource gates;
 - isolated agent processes and callback-parity checks;
-- source/archive SHA-256 binding;
-- checkpointed, restartable game evaluation;
-- paced external acquisition with bounded backoff;
-- chronological / source-family-aware data splits;
-- bounded runtime, memory, disk, and temporary-storage guards;
-- deterministic return bundles and submission archives;
-- terminal-originated Kaggle submissions from AWS with upload-intent / duplicate protection.
+- source, engine, worker, and checkpoint SHA-256 binding;
+- atomic restartable game checkpoints;
+- chronological real-ladder development/holdout splits;
+- bounded runtime, memory, disk, and transfer budgets;
+- executed notebooks with persisted Plotly outputs;
+- deterministic return bundles and candidate archives;
+- terminal-originated Kaggle release with durable upload intent and duplicate protection.
 
-GitHub is a curated engineering/research surface, **not** a mirror of the AWS filesystem.
+## Clone-time reproduction
+
+With Python 3.12 and `uv` installed:
+
+1. Clone this repository.
+2. Run `uv sync --frozen`.
+3. Run `uv run pytest -q tests/test_final_sprint.py`.
+4. Run `uv run python scripts/verify_final_sprint.py`.
+5. Open `notebooks/56_final_sprint_ladder_alignment.ipynb` for the executed research story.
+
+The normal CI suite performs broader repository validation.
+
+A full competitive rerun additionally requires authorized Kaggle competition access and
+immutable retrieval of registered public sources/replays. See
+[the reproduction guide](docs/research/final_sprint_reproduction.md).
 
 ## Current research question
 
-**Does the strongest newly acquired whole-controller reference retain its broad fixed-panel advantage under a larger, fresh-seed replication?**
+**Does project-authored harvest/service recovery improve the actual keeper under the
+replay-aligned chronological validator without sacrificing its existing wins?**
 
-A pass permits one gated terminal submission. A failure closes that reference without automatically expanding the sample or relaxing thresholds.
+The first attempt failed after game completion because an inherited diagnostics transport
+queried an exited process. That is recorded as an execution failure—not evidence against
+the mechanism. A repaired, hash-bound recovery artifact passed its packaged regression
+suite and is the next private AWS experiment.
 
-## Semi-reproducibility and competitive boundary
+## Public reproducibility and competitive boundary
 
-The public repository exposes enough to evaluate the research process: experiment designs, aggregate outcomes, evaluation methodology, engine/version context, active-slot handling, failure analysis, and reproducible notebooks over published summary data.
+This public repository is designed so an employer or researcher can clone it, run the
+published validation utilities/tests, inspect executed notebooks, and reproduce the
+published aggregate conclusions.
 
-It intentionally excludes the pieces that would publish the competition implementation itself:
+It intentionally does **not** commit:
 
-- raw episode corpora and private replay mirrors;
-- acquired third-party controller source;
-- exact policy thresholds, route tables, action tapes, and fitted coefficients;
-- private AWS caches/checkpoints and per-game action traces;
-- credentials and submission tarballs.
+- credentials, tokens, or account configuration;
+- raw Kaggle replay corpora or private S3 mirrors;
+- private AWS checkpoints and per-game action traces;
+- Kaggle submission archives or handoff `.pyz` binaries;
+- third-party controller source;
+- exact private competitive implementation details that are not required to reproduce the
+  published research conclusions.
 
-Third-party licenses and attribution notices remain authoritative for any externally authored reference evaluated in the private research workspace.
+External work remains attributed to its original authors and immutable upstream identities.
+GitHub is the curated engineering/research surface; AWS remains the canonical competition
+workspace.
