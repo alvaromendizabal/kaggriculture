@@ -21,6 +21,8 @@ jobs:
       - run: uv sync --frozen
       - name: Verify frozen public research snapshot
         run: uv run python scripts/verify_publication_snapshot.py
+      - name: Verify final-sprint evidence
+        run: uv run python scripts/verify_final_sprint.py
       - run: uv run ruff check .
       - run: uv run ruff format --check .
       - name: Verify published staffing audit without running games
@@ -43,6 +45,7 @@ jobs:
           name: executed-notebooks-${{ github.sha }}
           path: |
             notebooks/02_feature_research.ipynb
+            notebooks/56_final_sprint_ladder_alignment.ipynb
             reports/supply_notebook_execution.json
             reports/livestock_notebook_execution.json
             reports/terminal_notebook_execution.json
