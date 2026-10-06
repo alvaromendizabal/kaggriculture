@@ -1,3 +1,7 @@
+import math
+
+import pytest
+
 from kaggriculture_research.final_sprint import (
     CandidateOutcome,
     EpisodeOutcome,
@@ -95,3 +99,88 @@ def test_threshold_candidates_are_bounded():
     out = threshold_candidates(range(100), max_candidates=12)
     assert len(out) <= 12
     assert out == sorted(out)
+
+
+@pytest.mark.parametrize("value", [math.nan, math.inf, -math.inf, True, "1"])
+def test_rewards_reject_nonfinite_or_coerced_values(value):
+    with pytest.raises(ValueError):
+        game_score(value, 0)
+    with pytest.raises(ValueError):
+        validate_replay_fidelity([(value, 0)], [(value, 0)])
+
+
+@pytest.mark.parametrize("score", [0.2, -1, 2, math.nan, True])
+def test_outcomes_require_discrete_scores(score):
+    with pytest.raises(ValueError):
+        EpisodeOutcome("a", score, 0, 0)
+    with pytest.raises(ValueError):
+        CandidateOutcome("a", score, 0)
+
+
+@pytest.mark.parametrize("index", [-1, 1.5, True, math.inf])
+def test_chronology_requires_nonnegative_integer(index):
+    with pytest.raises(ValueError):
+        EpisodeOutcome("a", 1, 0, index)
+
+
+def test_summary_rejects_duplicate_or_missing_episodes():
+    keeper = [EpisodeOutcome("a", 0, 0, 0)]
+    candidate = [CandidateOutcome("a", 1, 0)]
+    with pytest.raises(ValueError, match="DUPLICATE_EPISODE_ID"):
+        summarize_candidate(keeper * 2, candidate)
+    with pytest.raises(ValueError, match="DUPLICATE_EPISODE_ID"):
+        summarize_candidate(keeper, candidate * 2)
+    with pytest.raises(ValueError, match="EMPTY_EPISODES"):
+        summarize_candidate([], [])
+    with pytest.raises(ValueError, match="EPISODE_ALIGNMENT"):
+        summarize_candidate(keeper, [CandidateOutcome("b", 1, 0)])
+
+
+def test_split_rejects_duplicate_time_even_inside_development():
+    rows = [EpisodeOutcome(str(i), 0, 0, j) for i, j in enumerate([0, 0, 1, 2])]
+    with pytest.raises(ValueError, match="DUPLICATE_CHRONOLOGICAL_INDEX"):
+        chronological_split(rows, 3)
+
+
+def test_replay_fidelity_rejects_empty_or_malformed_pairs():
+    with pytest.raises(ValueError, match="REPLAY_COUNT"):
+        validate_replay_fidelity([], [])
+    with pytest.raises(ValueError, match="REPLAY_REWARD_PAIR"):
+        validate_replay_fidelity([(1,)], [(1,)])
+
+
+def test_promotion_cannot_truncate_fractional_counts():
+    with pytest.raises(ValueError, match="RESCUES"):
+        passes_gate({"net_score_units": 3, "rescues": 2.9, "sacrifices": 0}, PromotionGate())
+    with pytest.raises(ValueError, match="MINIMUM_NET_SCORE_UNITS"):
+        PromotionGate(minimum_net_score_units=math.nan)
+
+
+def test_rolling_gate_requires_consistent_aggregate():
+    with pytest.raises(ValueError, match="ROLLING_TOTAL_MISMATCH"):
+        rolling_cv_passes([0, 0, 0], 2, 1, 0)
+    with pytest.raises(ValueError, match="SACRIFICES"):
+        rolling_cv_passes([0.5, 0.5, 0.5], 1.5, 1, -1)
+
+
+def test_single_threshold_and_extreme_finite_values():
+    assert len(threshold_candidates(range(10), max_candidates=1)) == 1
+    assert threshold_candidates([1e308, 1.7e308]) == [1.35e308]
+    assert threshold_candidates([1]) == []
+    with pytest.raises(ValueError, match="MAX_CANDIDATES"):
+        threshold_candidates(range(10), max_candidates=0)
+    with pytest.raises(ValueError, match="THRESHOLD_VALUE"):
+        threshold_candidates([0, math.nan, 1])
+
+
+def test_policy_rank_rejects_nan_margin():
+    metrics = {
+        "net_score_units": 2,
+        "rescues": 2,
+        "sacrifices": 0,
+        "ties_to_win": 0,
+        "mean_margin_gain": math.nan,
+        "triggers": 2,
+    }
+    with pytest.raises(ValueError, match="MEAN_MARGIN_GAIN"):
+        rank_policy(metrics)

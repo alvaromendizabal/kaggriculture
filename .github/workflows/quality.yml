@@ -23,6 +23,10 @@ jobs:
         run: uv run python scripts/verify_publication_snapshot.py
       - name: Verify final-sprint evidence
         run: uv run python scripts/verify_final_sprint.py
+      - name: Verify saved employer-review evidence
+        run: uv run python scripts/verify_portfolio_review.py
+      - name: Exercise the synthetic paired-evaluation example
+        run: uv run python examples/run_demo.py
       - run: uv run ruff check .
       - run: uv run ruff format --check .
       - name: Verify published staffing audit without running games
@@ -40,12 +44,14 @@ jobs:
       - run: uv run python scripts/verify_supply_report.py
       - run: uv run python scripts/verify_livestock_report.py
       - run: uv run python scripts/verify_terminal_report.py
+      - name: Execute and reopen aggregate review notebooks
+        run: uv run python scripts/execute_portfolio_review.py
       - uses: actions/upload-artifact@v7
         with:
           name: executed-notebooks-${{ github.sha }}
           path: |
             notebooks/02_feature_research.ipynb
-            notebooks/56_final_sprint_ladder_alignment.ipynb
+            artifacts/portfolio-review/*.ipynb
             reports/supply_notebook_execution.json
             reports/livestock_notebook_execution.json
             reports/terminal_notebook_execution.json

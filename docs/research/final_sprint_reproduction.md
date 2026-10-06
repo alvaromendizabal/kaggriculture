@@ -1,32 +1,62 @@
 # Reproducing the September 29–30 final sprint
 
-## Local clone
+The sprint is a dated research record. Its aggregate verification and evaluation utilities
+are reproducible from an authorized checkout; the complete private competitive pipeline is
+not included. The [repository reproduction guide](../REPRODUCIBILITY.md) is the main entry point.
 
-1. Install Python 3.12 and `uv`.
-2. Run `uv sync --frozen`.
-3. Run `uv run pytest -q tests/test_final_sprint.py`.
-4. Run `uv run python scripts/verify_final_sprint.py`.
-5. Open `notebooks/56_final_sprint_ladder_alignment.ipynb` to inspect the executed evidence summary.
+## Clone-time verification
 
-These steps reproduce the public validation logic and verify the published aggregate evidence.
+Use Python 3.12 and the committed lockfile:
 
-## Full official-engine reproduction
+```bash
+uv sync --frozen
+uv run pytest -q tests/test_final_sprint.py
+uv run python scripts/verify_final_sprint.py
+python3 scripts/verify_portfolio_review.py
+python3 examples/run_demo.py
+```
 
-A full competitive rerun additionally requires:
+These steps verify the published aggregate record and demonstrate paired evaluation on
+synthetic outcomes. They run no competitive games and require no AWS credentials. Initial
+installation downloads dependencies. Open
+[notebook 56](../../notebooks/56_final_sprint_ladder_alignment.ipynb) for the executed sprint
+summary and [notebook 57](../../notebooks/57_portfolio_review.ipynb) for a compact review.
+Notebook 57 can be regenerated with a real Jupyter kernel using
+`uv run python scripts/execute_portfolio_review.py`, followed by
+`python3 scripts/verify_portfolio_review.py` to check the saved result.
 
-- `kaggle-environments==1.32.7` (already pinned by `pyproject.toml`);
-- authorized Kaggle competition access;
-- public replay retrieval for the registered episode IDs;
-- immutable public-controller acquisition where applicable;
-- the same chronological splits and game seeds recorded by the protocol documents.
+The normal CI suite is broader: it also executes small official-engine foundation tests.
+It should not be described as a no-game check or a competitive retraining run.
 
-The public repository does not contain credentials, Kaggle tokens, private S3 mirrors, raw replay
-blobs, third-party controller source, or submission tarballs. This is intentional. External
-sources must be acquired from their authoritative public location and verified against the
-recorded content identity before use.
+## Requirements for a full competitive rerun
 
-## Evidence semantics
+The [reproduction manifest](../../reports/final_sprint_reproduction_manifest.json) records
+engine, environment, handoff, and return-bundle identities. A full rerun additionally needs:
 
-`reports/final_sprint_2026-09-30.json` contains machine-readable aggregate results extracted from
-the verified return bundles. Negative scientific results are included. The native-harvest entry
-is explicitly an execution failure and must not be interpreted as evidence against that policy.
+- the exact keeper and candidate artifacts used in the registered comparison;
+- Kaggle Environments 1.32.7 and the recorded runtime/source identities;
+- authorized access to the required competition data and replay episodes;
+- recorded chronological splits, seeds, and both-seat pairing;
+- exact keeper replay parity before interpreting counterfactual results;
+- a separate responsive-opponent safety check after chronological qualification.
+
+The checkout does not supply every item. Raw replay blobs, private checkpoints, private
+orchestration, third-party controller source, and submission archives remain outside the
+repository. Public upstream references, where available, must be acquired under their
+applicable terms and matched to the recorded content identities. Competition access alone
+is not sufficient to regenerate the private pipeline.
+
+## What a verification pass means
+
+`reports/final_sprint_2026-09-30.json` records aggregate outcomes extracted from the archived
+AWS return bundles. Passing repository checks establishes internal consistency, expected
+decisions, and reviewable saved notebook output. It does not independently authenticate
+unavailable raw bundles or regenerate their game outcomes.
+
+Negative scientific results are retained. The native-harvest entry is an execution failure;
+its prepared recovery artifact has no completed competitive result in this record. The
+newest-24 holdout remained untouched after rolling boundary-rule rejection. Earlier local
+panel promotions must be reconsidered in light of the subsequent validator correction.
+
+Official ratings are dated snapshots. A new live result requires a new qualifying private
+run and the applicable submission process; it is not produced by these publication checks.
