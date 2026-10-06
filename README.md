@@ -1,112 +1,89 @@
-# Kaggriculture — competitive agent research
+# Kaggriculture — agent evaluation under changing opponents
 
-**Alvaro Mendizabal · Multi-agent simulation · Controlled ablations · AWS/SageMaker · Reproducible validation**
+**Alvaro Mendizabal · Sequential decision-making · Simulation · Experimental design · AWS/SageMaker**
 
-A notebook-first research project for Kaggle's Kaggriculture environment. The work spans full-season production planning, labor allocation, inventory and market timing, public-opponent reproduction, official-engine simulation, recent-episode data engineering, staged promotion gates, and live submission feedback.
+A research project for Kaggle's competitive farming simulation: build legal-observation
+agents, reproduce reference controllers, and test whether policy changes survive realistic
+opponents. The strongest contribution is the evaluation system and the decision to correct
+it when strong local results failed to transfer to the leaderboard.
 
-## Competitive checkpoint
+**Start with the [executed portfolio notebook](notebooks/57_portfolio_review.ipynb)** for
+results, charts, and a small runnable evaluation example. The
+[case study](CASE_STUDY.md) explains the engineering decisions; the
+[reviewer guide](docs/REVIEWER_GUIDE.md) maps claims to evidence.
 
-Latest authenticated active-slot snapshot in the published evidence: **2026-09-28T05:21:12Z**.
+## What the work established
 
-| Measurement | Verified value |
-|---|---:|
-| Active scoring submission · race-up | **1760.7** (`56511669`) |
-| Active scoring submission · labor | **1712.2** (`56598411`) |
-| Strongest historical returned submission | **2048.7** — frozen timing reference |
-| Stretch target | **3400** |
+- **Detected a validation mismatch.** The incumbent appeared nearly perfect against a fixed
+  local panel. Exact reconstruction of 48 recent ladder episodes instead measured
+  **18 wins / 10 ties / 20 losses: 47.9% win/tie score**.
+- **Tested transfer rather than assuming it.** Historical controller ablations, whole-route
+  transfer, public adaptive agents, and learned intervention rules failed their registered
+  gates. Their negative results remain in the record.
+- **Preserved expensive evidence.** A rolling chronological analysis reused **1,084** accepted
+  branch/calibration results without replaying games.
+- **Separated reliability from modeling.** A harvest/service experiment failed during
+  post-game diagnostics. It is recorded as an execution failure, with no claim that its
+  policy succeeded or failed scientifically.
 
-A leaderboard-page snapshot captured at **2026-09-28T05:10:10Z** showed **3034.4** for the highest returned entry on that page. Because the leaderboard and active-submission snapshots have different timestamps and the leaderboard export was paginated, this repository does **not** present a synchronized rank-one gap from those values.
+## Competitive evidence — historical snapshot
 
-The competition's scoring rule means only the latest two accepted submissions are treated as the active scoring pair in this research workflow. Historical stronger bots remain benchmarks, not active-slot substitutes.
+These are the recorded September 30, 2026 results, **not live leaderboard readings**.
 
-## Latest research frontier
+| Measurement | Recorded result | Interpretation |
+|---|---:|---|
+| Strongest historical returned submission | **2048.7** | Earlier reference; outside the snapshot's latest-two scoring pair |
+| Keeper in the latest-two pair | **1691.0** | Submission `56656845` |
+| Other submission in that pair | **1516.2** | Submission `56598411` |
+| Highest returned leaderboard row | **3084.1** | Paginated export; not verified as exhaustive rank one |
+| Keeper gap to that returned row | **1393.1** | Same snapshot; no claim that the gap has since closed |
 
-Since the previous public checkpoint, the project completed **4,352 accepted official-engine games** across new playable-agent studies and **28 small model fits**. The main result is a clearer separation between predictive models, narrow decision overlays, and full-controller strength.
+Official ratings, local win/tie scores, and auxiliary forecast errors measure different
+things. The corrected evaluator strengthens the evidence; it does not establish a new
+competitive best. See the [outcome ledger](docs/research/latest_outcomes.md) and
+[machine-readable sprint report](reports/final_sprint_2026-09-30.json).
 
-### 1. Recent-data pipeline + auxiliary forecasting
+## My contribution and the reference boundary
 
-A public-state opponent cash-change model was trained from recent replay data using chronological and family-aware holdouts. It reduced final-date mean absolute error by approximately **26%** versus a persistence baseline, and the frozen model retained approximately the same relative error reduction on **64 later ladder games** from the two active submissions.
+Project-authored work includes observation-safety checks, paired candidate comparisons,
+chronological evaluation, counterfactual intervention research, restartable experiment
+infrastructure, artifact provenance, and promotion/release controls. External controllers
+are attributed in the [leading-solution matrix](docs/research/leading_solution_reproduction_matrix.md).
+Reproducing a reference's inference behavior does not reproduce its author's private
+training process, establish original authorship, or guarantee its historical score transfers.
 
-That result was useful but intentionally **not** treated as a playable-agent improvement. The repository separates forecasting quality from win/tie performance.
+AWS/SageMaker is the canonical research environment. Published records describe CPU
+simulation, isolated agent processes, bounded runs, reusable game checkpoints, source hashes,
+and duplicate-submission protection. This repository review does not require an AWS account.
 
-### 2. Playable learned-supply intervention
+## Reproduce the review surface
 
-The learned supply-execution policy produced a strong development screen (**91.67%** family-weighted win/tie score versus **79.17%** for labor), then weakened on independent confirmation (**74.31%** versus **71.18%**). The gain did not clear the registered uncertainty and withheld-opponent gates, so the candidate was rejected.
+For an authorized clone, use Python 3.12 and install the committed environment with
+`uv sync --frozen`. Then run the bounded checks below from the repository root.
 
-### 3. Whole-order queue planning
+```bash
+uv run pytest -q tests/test_final_sprint.py
+uv run python scripts/verify_final_sprint.py
+python3 scripts/verify_portfolio_review.py
+python3 examples/run_demo.py
+```
 
-A market-order scheduler was verified against the official mechanics, then failed competitively: **60.71%** versus **80.36%** for labor on its screen. The direction was closed rather than tuned further against the same panel.
+These commands check aggregate evidence and demonstrate paired evaluation on synthetic
+outcomes. They do not launch competitive games, train a model, or submit to Kaggle.
+The existing full CI suite also runs small official-engine foundation tests; it is broader
+than this review path. See [reproducibility scope](docs/REPRODUCIBILITY.md) and the
+[example guide](examples/README.md).
 
-### 4. Contextual production-program selection
+## Research status and limitations
 
-A contextual selector over an existing production-program bank completed **1,536 games and 20 fits**. It reached **81.67%** versus **80.0%** for labor in confirmation—a small, non-decisive gain—and was rejected.
+The latest recorded native harvest/service attempt ended in a diagnostics transport error;
+its repaired runner was prepared, but the report contains **no completed competitive rerun**.
+Recent replay tapes cannot react to changed actions, so responsive-opponent safety remains a
+separate gate. The 48-episode correction is a small, dated sample, and older promotions made
+against the saturated panel require reconsideration under the revised evaluation.
 
-### 5. Whole-controller reference
-
-The strongest recent fixed-panel result came from an **externally authored, attributed public controller** tested unchanged. It scored **94.44%** family-weighted win/tie versus **85.42%** for labor across 320 confirmation games per policy, a **+9.03 percentage-point** gain. The paired seed-level interval still crossed zero, so it was **not promoted** under the registered gates.
-
-A project-authored learned add-on reduced that reference's screen score and was dropped. The current registered next step is one larger fresh-seed replication of the unchanged reference before any release decision.
-
-## Start with the evidence
-
-| Entry point | Evidence |
-|---|---|
-| [Recent meta/frontier notebook](notebooks/55_recent_meta_frontier.ipynb) | executed summary of the data refresh, forecasting transfer, playable experiments, and current controller frontier |
-| [Recent research memo](docs/research/recent_meta_frontier_2026-09-28.md) | technical narrative, validation design, public/private boundary, and next registered step |
-| [Outcome ledger](docs/research/latest_outcomes.md) | chronology of accepted and rejected directions |
-| [Leading-solution matrix](docs/research/leading_solution_reproduction_matrix.md) | reproduced, adapted, rejected, promising, and still-missing mechanisms |
-| [Machine-readable frontier](reports/recent_meta_frontier.json) | aggregate experiment evidence without competitive implementation details |
-| [Prior validation-gap notebook](notebooks/54_labor_treasury_confirmation_and_live_gap.ipynb) | earlier labor intervention and initial live-feedback checkpoint |
-
-## Research standard
-
-Experiments are self-gating:
-
-**source/data integrity → engine checks → smoke tests → representative screen → independent confirmation → held-out/family-aware checks → deterministic packaging → terminal-originated submission**
-
-The project deliberately keeps separate:
-
-- public-state predictive accuracy,
-- local coins and margins,
-- official-engine win/tie rate,
-- source-family ancestry and duplicate risk,
-- live Kaggle rating.
-
-Negative results remain in the record. A candidate is not promoted merely because it wins a familiar matchup, improves a development screen, or looks strong under an auxiliary forecast.
-
-## Engineering approach
-
-The canonical workspace is AWS/SageMaker. Recent campaigns use:
-
-- `ml.m7i.12xlarge` CPU simulation;
-- up to 24 concurrent official-engine games under resource gates;
-- isolated agent processes and callback-parity checks;
-- source/archive SHA-256 binding;
-- checkpointed, restartable game evaluation;
-- paced external acquisition with bounded backoff;
-- chronological / source-family-aware data splits;
-- bounded runtime, memory, disk, and temporary-storage guards;
-- deterministic return bundles and submission archives;
-- terminal-originated Kaggle submissions from AWS with upload-intent / duplicate protection.
-
-GitHub is a curated engineering/research surface, **not** a mirror of the AWS filesystem.
-
-## Current research question
-
-**Does the strongest newly acquired whole-controller reference retain its broad fixed-panel advantage under a larger, fresh-seed replication?**
-
-A pass permits one gated terminal submission. A failure closes that reference without automatically expanding the sample or relaxing thresholds.
-
-## Semi-reproducibility and competitive boundary
-
-The public repository exposes enough to evaluate the research process: experiment designs, aggregate outcomes, evaluation methodology, engine/version context, active-slot handling, failure analysis, and reproducible notebooks over published summary data.
-
-It intentionally excludes the pieces that would publish the competition implementation itself:
-
-- raw episode corpora and private replay mirrors;
-- acquired third-party controller source;
-- exact policy thresholds, route tables, action tapes, and fitted coefficients;
-- private AWS caches/checkpoints and per-game action traces;
-- credentials and submission tarballs.
-
-Third-party licenses and attribution notices remain authoritative for any externally authored reference evaluated in the private research workspace.
+The repository contains reviewable code, executed notebooks, protocols, and aggregate
+results. Raw replay corpora, private checkpoints, credentials, submission archives,
+third-party controller source, and the exact current competitive implementation are
+excluded. **A full private competitive rerun is not available from this checkout alone.**
+Repository access remains subject to its existing visibility and permissions.

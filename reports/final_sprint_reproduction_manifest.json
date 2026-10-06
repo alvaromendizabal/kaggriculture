@@ -1,0 +1,97 @@
+{
+  "base_public_commit": "8fa753837ed1ad0fb36eaf0e2e1789bd05ea03af",
+  "environment": {
+    "aws_instance": "ml.m7i.12xlarge",
+    "kaggle_environments": "1.32.7",
+    "python": "3.12",
+    "ram_gib": 192,
+    "region": "us-west-2",
+    "storage_gib": 40,
+    "vcpus": 48
+  },
+  "handoff_artifacts": {
+    "boundary_rule_cv": {
+      "bytes": 10831528,
+      "sha256": "cbfd94563e3eb1907ae7ab3aab57c0e3fea30e4302ccd7ae65a88b45423be55f"
+    },
+    "boundary_selector": {
+      "bytes": 10818140,
+      "sha256": "3a15e38c5fdd15c6a6a89bdf0c131a999e8d3bfb00f6b1f6db130a797d6eae9c"
+    },
+    "engine_bound_ablation": {
+      "bytes": 10358082,
+      "sha256": "d39dd32b1282995f03aff494583b83c3e0a34b93a523582545cf50ca17a6ff70"
+    },
+    "final_stretch": {
+      "bytes": 10736153,
+      "sha256": "7b4e72de91217df1ce6ec3927852f66e5dbad6cbd6d1f689451804f414c088f8"
+    },
+    "final_stretch_arity_recovery": {
+      "bytes": 10746397,
+      "sha256": "9f5ce04dbbaf9f5a7d6de9e3011e7c2f834502859106cee84fb4dd8514ca792c"
+    },
+    "final_stretch_recovery": {
+      "bytes": 10739543,
+      "sha256": "980a34fa98994e278f0fa62e077094c6974106303abefcd27310169f2253b120"
+    },
+    "ladder_alignment": {
+      "bytes": 10791466,
+      "sha256": "1258e8a0200c644f74f08a2cb3dbc70d57c010bf2c157ccca7c6343bef3f5b78"
+    },
+    "native_harvest_frontier": {
+      "bytes": 10845611,
+      "sha256": "37c7444fa5fd5a0c92b725e4292205f87b35a8f3336db4dab9a38f30b2b93cbb"
+    },
+    "native_harvest_frontier_recovery": {
+      "bytes": 10848492,
+      "sha256": "f5d463fe492b7c6b86cd8a593a0d162c5804da5707fe777a1ec7d1828aa4390e"
+    },
+    "onpolicy_population": {
+      "bytes": 10454431,
+      "sha256": "2d5d612319816c9e2e314653f35b02ed7606c04b9d265dc5f5b7ac2ef9f82ad9"
+    },
+    "public_frontier_escape": {
+      "bytes": 10779360,
+      "sha256": "ff7db99fcf20c7eb8c7c50b36f6de944787e9d5c2749ac9b60097cd980e50d1c"
+    },
+    "public_frontier_escape_recovery": {
+      "bytes": 10781615,
+      "sha256": "729149c09c7b0c1dde19be031b248368e237dbb98378cc11c2e4d45baaeb6a28"
+    }
+  },
+  "verified_return_bundles": {
+    "boundary_rule_cv": {
+      "bytes": 1602334,
+      "sha256": "1815f7a6a5e23aca9f0ed1b74db784edeed919e49e5fbbe1fbf6d1905ca8004b"
+    },
+    "boundary_selector": {
+      "bytes": 1601112,
+      "sha256": "16d8acd457adbda9b289caa371f50639f68c0b2076e555b44b9981ac6f06ffe7"
+    },
+    "frontier_routes": {
+      "bytes": 1952541,
+      "sha256": "06cb1303163db412e39e808cc29b1ecec1abad4bedd216139a53e033c86c66e3"
+    },
+    "ladder_alignment": {
+      "bytes": 1620807,
+      "sha256": "ac040da2e4bb511523fac5bfb6b71a4fb04839f71b7d53688a13cb7be103dc3c"
+    },
+    "late_layer_ablation": {
+      "bytes": 1866570,
+      "sha256": "c0e01b74b0b53327a6041ceabf4cb3ca4d684bad59356ee9e3d6e94c83c76117"
+    },
+    "native_harvest_failure": {
+      "bytes": 428723,
+      "sha256": "ec80998b92327358de2950522338c2ab63690a559f6e79516bafc1b48176117a"
+    },
+    "onpolicy_population": {
+      "bytes": 2057873,
+      "sha256": "a0e29cacd286d07c96226eee77f3ad3aac8e734b8e7116310c604675779c025c"
+    },
+    "public_adaptive_frontier": {
+      "bytes": 1923061,
+      "sha256": "885da7609a233cacd9d99f313bc02fd27b315ed6551a9caa5ddf75e76ad7e183"
+    }
+  },
+  "note": "Raw replay corpora, credentials, private checkpoints, submission archives, and third-party controller source are intentionally excluded."
+}

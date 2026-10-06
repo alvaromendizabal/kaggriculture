@@ -21,6 +21,21 @@ jobs:
       - run: uv sync --frozen
       - name: Verify frozen public research snapshot
         run: uv run python scripts/verify_publication_snapshot.py
+      - name: Verify final-sprint evidence
+        run: uv run python scripts/verify_final_sprint.py
+      - name: Verify saved employer-review evidence
+        run: uv run python scripts/verify_portfolio_review.py
+      - name: Exercise the synthetic paired-evaluation example
+        run: uv run python examples/run_demo.py
+      - name: Execute and reopen aggregate review notebooks
+        run: uv run python scripts/execute_portfolio_review.py
+      - name: Preserve executed aggregate review notebooks
+        uses: actions/upload-artifact@v7
+        with:
+          name: public-review-notebooks
+          path: artifacts/portfolio-review/*.ipynb
+          if-no-files-found: error
+          retention-days: 30
       - run: uv run ruff check .
       - run: uv run ruff format --check .
       - name: Verify published staffing audit without running games
