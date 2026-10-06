@@ -12,13 +12,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from kaggriculture_research.portfolio import evidence_summary  # noqa: E402
+from kaggriculture_review.portfolio import evidence_summary  # noqa: E402
 
 INPUT_FILES = (
     "reports/final_sprint_2026-09-30.json",
     "reports/final_sprint_reproduction_manifest.json",
-    "src/kaggriculture_research/final_sprint.py",
-    "src/kaggriculture_research/portfolio.py",
+    "src/kaggriculture_review/final_sprint.py",
+    "src/kaggriculture_review/portfolio.py",
     "examples/run_demo.py",
 )
 MARKER = "PORTFOLIO_EVIDENCE_JSON "

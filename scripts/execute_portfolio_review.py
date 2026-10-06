@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
@@ -14,6 +15,7 @@ from nbclient import NotebookClient
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
+from verify_final_sprint import validate_notebook as validate_sprint_notebook  # noqa: E402
 from verify_portfolio_review import code_hash, input_hashes, verify_notebook  # noqa: E402
 
 
@@ -50,7 +52,7 @@ sys.path.insert(0, str(ROOT / "src"))
 sys.path.insert(0, str(ROOT / "examples"))
 from run_demo import run_demo  # noqa: E402
 
-from kaggriculture_research.portfolio import chart_bundle, evidence_summary  # noqa: E402
+from kaggriculture_review.portfolio import chart_bundle, evidence_summary  # noqa: E402
 
 report = json.loads((ROOT / "reports/final_sprint_2026-09-30.json").read_text())
 summary = evidence_summary(report)
@@ -232,11 +234,8 @@ def main() -> None:
             }
             verify_notebook(notebook)
         else:
-            cells = [cell for cell in notebook.cells if cell.cell_type == "code"]
-            if not cells or any(cell.execution_count is None for cell in cells):
-                raise ValueError("UNEXECUTED_SPRINT_NOTEBOOK")
-            if any(output.output_type == "error" for cell in cells for output in cell.outputs):
-                raise ValueError("SPRINT_NOTEBOOK_ERROR")
+            report = json.loads((ROOT / "reports/final_sprint_2026-09-30.json").read_text())
+            validate_sprint_notebook(notebook, report)
         path = destination / name
         temporary = path.with_suffix(".ipynb.tmp")
         nbformat.write(notebook, temporary)
@@ -244,6 +243,8 @@ def main() -> None:
         nbformat.validate(reopened)
         if name.startswith("57"):
             verify_notebook(reopened)
+        else:
+            validate_sprint_notebook(reopened, report)
         temporary.replace(path)
         print(f"Executed and reopened: {path.relative_to(ROOT)}; engine={args.engine}")
 

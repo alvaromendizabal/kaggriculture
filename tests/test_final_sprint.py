@@ -2,7 +2,7 @@ import math
 
 import pytest
 
-from kaggriculture_research.final_sprint import (
+from kaggriculture_review.final_sprint import (
     CandidateOutcome,
     EpisodeOutcome,
     PromotionGate,

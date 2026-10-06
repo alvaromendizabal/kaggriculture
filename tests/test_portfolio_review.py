@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 
-from kaggriculture_research.portfolio import evidence_summary
+from kaggriculture_review.portfolio import evidence_summary
 
 ROOT = Path(__file__).resolve().parents[1]
 SPEC = importlib.util.spec_from_file_location(

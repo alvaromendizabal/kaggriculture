@@ -1,7 +1,7 @@
 # Paired evaluation on fictional episodes
 
 This small CPU example calls the repository's actual
-[`final_sprint.py`](../src/kaggriculture_research/final_sprint.py) evaluation helpers.
+[`final_sprint.py`](../src/kaggriculture_review/final_sprint.py) evaluation helpers.
 Its eight episode outcomes and toy thresholds were authored for explanation; they contain
 no competition replays, private model predictions, controller source, or current policy recipe.
 

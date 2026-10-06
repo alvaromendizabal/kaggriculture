@@ -53,6 +53,12 @@ to hide a mismatch.
 
 ## What this gate does not certify
 
+The newer aggregate-review utilities live in `src/kaggriculture_review/`. They remain under
+normal lint and test checks. Keeping them outside the historical experiment packages preserves
+the exact registered source-file sets used to identify the earlier livestock and terminal
+studies. The historical source checks and registrations remain unchanged; regression tests
+verify that adding review features does not change those experiment identities.
+
 It does not rerun AWS experiments, replay private trajectories, prove historical code is
 style-clean, or turn a local result into an official Kaggle result. Saved evidence is reported
 honestly. Future maintained implementations should be developed under the normal strict

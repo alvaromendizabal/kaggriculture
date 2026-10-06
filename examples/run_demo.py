@@ -12,7 +12,7 @@ from statistics import mean
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from kaggriculture_research.final_sprint import (  # noqa: E402
+from kaggriculture_review.final_sprint import (  # noqa: E402
     CandidateOutcome,
     EpisodeOutcome,
     PromotionGate,

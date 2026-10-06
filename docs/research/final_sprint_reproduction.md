@@ -23,7 +23,9 @@ installation downloads dependencies. Open
 summary and [notebook 57](../../notebooks/57_portfolio_review.ipynb) for a compact review.
 Notebook 57 can be regenerated with a real Jupyter kernel using
 `uv run python scripts/execute_portfolio_review.py`, followed by
-`python3 scripts/verify_portfolio_review.py` to check the saved result.
+`python3 scripts/verify_portfolio_review.py --notebook artifacts/portfolio-review/57_portfolio_review.ipynb`
+to check the newly saved result. The default verifier path checks the canonical notebook in
+`notebooks/` instead.
 
 The normal CI suite is broader: it also executes small official-engine foundation tests.
 It should not be described as a no-game check or a competitive retraining run.
