@@ -6,6 +6,8 @@
 
 I built and evaluated farming agents under changing opponents. My work covers legal-observation feature audits, policy integration, paired comparisons, chronological validation and restartable simulation infrastructure.
 
+**Engineering ownership:** I developed the observation audits, policy-integration workflow, experimental protocols and recovery controls. The public implementation makes legal actions, policy behavior and paired evaluation inspectable; the research record shows how those checks informed selection decisions.
+
 The most consequential finding was a validation mismatch: an incumbent that looked nearly perfect against a fixed local panel recorded **18 wins / 10 ties / 20 losses across 48 recent episodes**, a **47.9% win/tie score**. I corrected the evaluation protocol instead of promoting policies on the saturated panel.
 
 **Start here:** [Farming Decision Lab](https://alvaro-farming-agent-lab.tartmacaw2.chatgpt.site) · [Case study](CASE_STUDY.md) · [Three-minute review](docs/REVIEWER_GUIDE.md) · [Run locally](docs/REPRODUCIBILITY.md)
@@ -56,7 +58,7 @@ python3 scripts/verify_portfolio_review.py
 python3 examples/run_demo.py
 ```
 
-These commands validate aggregate evidence and run the existing synthetic paired-outcomes example. They do not launch private competitive games or submit an agent. [Full reproduction scope](docs/REPRODUCIBILITY.md)
+These commands validate aggregate evidence and run the existing synthetic paired-outcomes example. They do not launch private competitive games or submit an agent. [Run and verify this project](docs/REPRODUCIBILITY.md)
 
 ## Publication boundary
 
