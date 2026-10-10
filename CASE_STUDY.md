@@ -1,4 +1,4 @@
-# Case study: when local agent strength failed to transfer
+# Case study: engineering agent policies and reliable evaluation
 
 **Author:** Alvaro Mendizabal
 
@@ -16,12 +16,13 @@ The hard part was not generating more policy variants. It was deciding which evi
 actually predicted competitive strength. The incumbent could approach a perfect score
 against a fixed local opponent panel while its recorded recent episodes showed materially weaker performance.
 
-## Ownership
+## Engineering contributions
 
-I built legal-observation feature audits, auxiliary forecasts, controller integrations, paired policy evaluation, chronological protocols, checkpoint recovery, release controls and the evidence publication workflow. Published Python and
-notebooks expose the reviewable parts of that work.
-
-The [source and method matrix](docs/research/leading_solution_reproduction_matrix.md) retains credits for upstream controllers and distinguishes my integration/evaluation work, tested mechanisms, rejected transfers and open questions.
+I built legal-observation feature audits, auxiliary forecasts, controller integrations,
+paired policy evaluation, chronological protocols, checkpoint recovery, release controls
+and the evidence publication workflow. Published Python and notebooks expose the
+reviewable parts of that work. The engineering contribution connects policy behavior,
+valid observations, experimental decisions and reliable execution.
 
 ## The consequential decision: replace the evaluation reference
 
@@ -46,8 +47,8 @@ cannot react to a changed agent. That is why fresh responsive games remain neces
 |---|---|---|
 | Historical source rollback | 234 engine games | Rejected: matched panel scores, lost direct comparisons |
 | On-policy economic population | 448 games, two population updates | Rejected: no useful selected interventions |
-| Whole-route reference transfer | 428 games | Rejected: best transferred route scored 18.75% versus keeper 87.5% on that screen |
-| Public adaptive controllers | 300 games | Rejected: 0% direct head-to-head against keeper |
+| Whole-route policy transfer | 428 games | Rejected: best transferred route scored 18.75% versus keeper 87.5% on that screen |
+| Adaptive controller integration | 300 games | Rejected: 0% direct head-to-head against keeper |
 | Boundary intervention selection | 1,084 branch/calibration results | Hindsight opportunity; learned selection did not generalize |
 | Forward-only boundary rules | Same 1,084 results reused | Rejected: only +0.5 forward score units and no rescued losses |
 | Native harvest/service recovery | 94 attempted development games | Execution failure; scientific result unresolved |
@@ -61,7 +62,10 @@ The complete decision rules and outcomes are in the
 
 I built the [Farming Decision Lab](https://alvaro-farming-agent-lab.tartmacaw2.chatgpt.site) as a public, inspectable decision system. A reviewer can play a 24-day season, inspect legal-action masks and compare three generic policies across identical weather and price sequences. Policies receive current and past observations only; the shared seeded environment supports paired comparisons.
 
-The simulator is an authored educational surrogate with four plots, not a reproduction of official Kaggriculture mechanics or a release of the private agent. Its results demonstrate decision flow and evaluation behavior, independently of the historical competition record. [Run and test the lab](docs/REPRODUCIBILITY.md).
+The simulator is an authored educational surrogate with four plots and simplified
+mechanics, distinct from official Kaggriculture and the private agent. Its results
+demonstrate decision flow and evaluation behavior, independently of the historical
+competition record. [Run and test the lab](docs/REPRODUCIBILITY.md).
 
 ## Reliability engineering
 
@@ -76,7 +80,7 @@ checks completion, callback counts, rewards, and identity before requesting opti
 telemetry. Its packaged regression checks passed, but a prepared fix is not a completed
 competitive experiment.
 
-## Outcome and honest limits
+## Outcomes and scope
 
 The strongest historical returned rating is **2048.7**. The September 30 snapshot instead
 had **1691.0** and **1516.2** in its latest-two scoring pair. These are historical rating observations, separate from the local win/tie score. The sprint did not establish a new project best.
@@ -88,4 +92,6 @@ keeping competitive artifacts outside the repository.
 
 Start with the [executed review notebook](notebooks/57_portfolio_review.ipynb), then run the
 [synthetic paired-evaluation example](examples/README.md). The
-[reproduction guide](docs/REPRODUCIBILITY.md) describes exactly what those checks establish.
+[verification guide](docs/REPRODUCIBILITY.md) describes exactly what those checks establish.
+
+[Methods and source notices](docs/research/leading_solution_reproduction_matrix.md) · [Experimental protocols](docs/research/final_sprint_protocols.md)
