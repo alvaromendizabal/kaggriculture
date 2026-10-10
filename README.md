@@ -1,89 +1,63 @@
-# Kaggriculture — agent evaluation under changing opponents
+# Kaggriculture · Sequential Decision-making and Evaluation
 
-**Alvaro Mendizabal · Sequential decision-making · Simulation · Experimental design · AWS/SageMaker**
+**Alvaro Mendizabal · Agent systems · Simulation · Experimental design · AWS engineering**
 
-A research project for Kaggle's competitive farming simulation: build legal-observation
-agents, reproduce reference controllers, and test whether policy changes survive realistic
-opponents. The strongest contribution is the evaluation system and the decision to correct
-it when strong local results failed to transfer to the leaderboard.
+![Farming policies and paired evaluation](docs/assets/public-demo-hero.svg)
 
-**Start with the [executed portfolio notebook](notebooks/57_portfolio_review.ipynb)** for
-results, charts, and a small runnable evaluation example. The
-[case study](CASE_STUDY.md) explains the engineering decisions; the
-[reviewer guide](docs/REVIEWER_GUIDE.md) maps claims to evidence.
+I built and evaluated farming agents under changing opponents. My work covers legal-observation feature audits, policy integration, paired comparisons, chronological validation and restartable simulation infrastructure.
 
-## What the work established
+The most consequential finding was a validation mismatch: an incumbent that looked nearly perfect against a fixed local panel recorded **18 wins / 10 ties / 20 losses across 48 recent episodes**, a **47.9% win/tie score**. I corrected the evaluation protocol instead of promoting policies on the saturated panel.
 
-- **Detected a validation mismatch.** The incumbent appeared nearly perfect against a fixed
-  local panel. Exact reconstruction of 48 recent ladder episodes instead measured
-  **18 wins / 10 ties / 20 losses: 47.9% win/tie score**.
-- **Tested transfer rather than assuming it.** Historical controller ablations, whole-route
-  transfer, public adaptive agents, and learned intervention rules failed their registered
-  gates. Their negative results remain in the record.
-- **Preserved expensive evidence.** A rolling chronological analysis reused **1,084** accepted
-  branch/calibration results without replaying games.
-- **Separated reliability from modeling.** A harvest/service experiment failed during
-  post-game diagnostics. It is recorded as an execution failure, with no claim that its
-  policy succeeded or failed scientifically.
+**Start here:** [Farming Decision Lab](https://alvaro-farming-agent-lab.tartmacaw2.chatgpt.site) · [Case study](CASE_STUDY.md) · [Three-minute review](docs/REVIEWER_GUIDE.md) · [Run locally](docs/REPRODUCIBILITY.md)
 
-## Competitive evidence — historical snapshot
+## Try the Farming Decision Lab
 
-These are the recorded September 30, 2026 results, **not live leaderboard readings**.
-
-| Measurement | Recorded result | Interpretation |
-|---|---:|---|
-| Strongest historical returned submission | **2048.7** | Earlier reference; outside the snapshot's latest-two scoring pair |
-| Keeper in the latest-two pair | **1691.0** | Submission `56656845` |
-| Other submission in that pair | **1516.2** | Submission `56598411` |
-| Highest returned leaderboard row | **3084.1** | Paginated export; not verified as exhaustive rank one |
-| Keeper gap to that returned row | **1393.1** | Same snapshot; no claim that the gap has since closed |
-
-Official ratings, local win/tie scores, and auxiliary forecast errors measure different
-things. The corrected evaluator strengthens the evidence; it does not establish a new
-competitive best. See the [outcome ledger](docs/research/latest_outcomes.md) and
-[machine-readable sprint report](reports/final_sprint_2026-09-30.json).
-
-## My contribution and the reference boundary
-
-Project-authored work includes observation-safety checks, paired candidate comparisons,
-chronological evaluation, counterfactual intervention research, restartable experiment
-infrastructure, artifact provenance, and promotion/release controls. External controllers
-are attributed in the [leading-solution matrix](docs/research/leading_solution_reproduction_matrix.md).
-Reproducing a reference's inference behavior does not reproduce its author's private
-training process, establish original authorship, or guarantee its historical score transfers.
-
-AWS/SageMaker is the canonical research environment. Published records describe CPU
-simulation, isolated agent processes, bounded runs, reusable game checkpoints, source hashes,
-and duplicate-submission protection. This repository review does not require an AWS account.
-
-## Reproduce the review surface
-
-For an authorized clone, use Python 3.12 and install the committed environment with
-`uv sync --frozen`. Then run the bounded checks below from the repository root.
+[Open the live lab](https://alvaro-farming-agent-lab.tartmacaw2.chatgpt.site), or run the same source locally:
 
 ```bash
+python -m http.server 8000
+```
+
+Open `http://localhost:8000/public-demo/`. Play a 24-day season across four plots: plant, water, harvest, sell or work. Inspect which actions are legal, then compare three generic policies under identical seeded weather and price sequences. Decisions and outcomes are computed in the browser and can be inspected without an account or private agent.
+
+This is an authored educational farming surrogate. It illustrates observation boundaries and paired evaluation; its mechanics and outcomes are not official Kaggriculture measurements.
+
+```bash
+node tools/test_public_demo.mjs
+```
+
+## What I built and learned
+
+| Capability | Evidence and decision |
+|---|---|
+| Evaluation aligned to observed behavior | Exact terminal-reward reconstruction before testing changed policies |
+| Chronological selection | Older 24-episode development set and newer 24-episode holdout kept separate |
+| Efficient counterfactual research | **1,084** accepted branch/calibration results reused without replaying games |
+| Promotion discipline | Transfers and intervention policies rejected when registered gates failed |
+| Failure-aware execution | Post-game diagnostic transport failure recorded separately from a scientific result |
+
+Recorded official ratings are historical snapshots. The strongest returned project submission was **2048.7**; the September 30, 2026 latest-two pair was **1691.0 / 1516.2**. These ratings are separate from local win/tie scores and the new synthetic demo. No new rating is claimed by this release.
+
+## Review the research
+
+[Case study](CASE_STUDY.md) · [Executed portfolio notebook](notebooks/57_portfolio_review.ipynb) · [Registered research protocols](docs/research/final_sprint_protocols.md) · [Public release closeout](docs/PROJECT_CLOSEOUT.md)
+
+The corrected 48-episode sample is small and dated. Recorded opponent tapes cannot react to changed actions, so responsive-opponent tests remain a separate requirement. The native harvest/service experiment stopped during diagnostics; its scientific outcome is unresolved.
+
+## Run public Python checks
+
+Use Python 3.12 and the committed environment:
+
+```bash
+uv sync --frozen
 uv run pytest -q tests/test_final_sprint.py
 uv run python scripts/verify_final_sprint.py
 python3 scripts/verify_portfolio_review.py
 python3 examples/run_demo.py
 ```
 
-These commands check aggregate evidence and demonstrate paired evaluation on synthetic
-outcomes. They do not launch competitive games, train a model, or submit to Kaggle.
-The existing full CI suite also runs small official-engine foundation tests; it is broader
-than this review path. See [reproducibility scope](docs/REPRODUCIBILITY.md) and the
-[example guide](examples/README.md).
+These commands validate aggregate evidence and run the existing synthetic paired-outcomes example. They do not launch private competitive games or submit an agent. [Full reproduction scope](docs/REPRODUCIBILITY.md)
 
-## Research status and limitations
+## Publication boundary
 
-The latest recorded native harvest/service attempt ended in a diagnostics transport error;
-its repaired runner was prepared, but the report contains **no completed competitive rerun**.
-Recent replay tapes cannot react to changed actions, so responsive-opponent safety remains a
-separate gate. The 48-episode correction is a small, dated sample, and older promotions made
-against the saturated panel require reconsideration under the revised evaluation.
-
-The repository contains reviewable code, executed notebooks, protocols, and aggregate
-results. Raw replay corpora, private checkpoints, credentials, submission archives,
-third-party controller source, and the exact current competitive implementation are
-excluded. **A full private competitive rerun is not available from this checkout alone.**
-Repository access remains subject to its existing visibility and permissions.
+The portfolio contains public code, executed notebooks, protocols, aggregate results and an interactive synthetic demo. Raw replay corpora, private checkpoints, credentials, submission archives and the exact private agent remain excluded. Upstream controllers and methods retain their [source credits](docs/research/leading_solution_reproduction_matrix.md).

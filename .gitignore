@@ -8,6 +8,7 @@ artifacts/
 logs/
 data/
 *.html
+!public-demo/index.html
 *.pyz
 *_return_*.zip
 submission*.tar.gz
