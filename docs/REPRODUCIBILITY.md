@@ -1,12 +1,27 @@
 # Reproducibility and publication scope
 
 This repository provides a reviewable research record and executable evaluation components.
-Access follows the repository's existing permissions. A checkout does not include the full
-private competitive agent or the raw evidence needed to rerun every historical result.
+The public checkout includes the demonstration and evidence checks. The full private agent
+and raw evidence for every historical experiment remain outside this release.
+
+## Run the Farming Decision Lab
+
+```bash
+python -m http.server 8000
+```
+
+Open `http://localhost:8000/public-demo/`. A 24-day authored season has four plots and explicit legal-action masks. Play manually or compare three generic policies using identical seeded weather and price sequences. The policies act on current and past observations only. The browser computes the resulting actions, inventory and economic outcomes locally.
+
+```bash
+node tools/test_public_demo.mjs
+```
+
+No dependency installation, backend, private agent or cloud account is needed. This educational surrogate illustrates decision and evaluation contracts; it does not reproduce official mechanics or generate a competition rating. The Python paired-outcome example below remains a separate public component check.
+
 
 ## What can be reproduced
 
-| Layer | Available from an authorized checkout | Boundary |
+| Layer | Available from the public checkout | Boundary |
 |---|---|---|
 | Environment | Python 3.12, pinned project dependencies, committed `uv.lock` | Initial dependency installation needs package-network access |
 | Aggregate checks | Arithmetic, report structure, recorded decisions, notebook-output checks | Checks consistency of published evidence; does not independently regenerate raw games |
@@ -54,8 +69,8 @@ Full competitive reproduction additionally needs the exact keeper/candidate arti
 registered chronological episodes, raw replay streams, engine and source identities, and
 applicable authorized competition access. Some external sources can be retrieved upstream;
 private checkpoints, current orchestration, and submission archives are intentionally absent.
-This is therefore **partial reproducibility**, not a one-command recreation of the reported
-leaderboard rating. See the [sprint reproduction details](research/final_sprint_reproduction.md).
+The public reproduction contract covers source checks, aggregate evidence and authored examples.
+Re-evaluating the historical rating requires the separate private agent and competition environment. See the [sprint reproduction details](research/final_sprint_reproduction.md).
 
 ## Attribution, data, and evidence limits
 

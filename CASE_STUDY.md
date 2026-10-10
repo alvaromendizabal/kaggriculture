@@ -10,25 +10,18 @@
 
 A farming agent must allocate workers, manage production and inventory, navigate, and
 trade under a changing opponent. The project used the official simulation engine to
-compare candidate policies before consuming scarce competition submission slots.
+compare candidate policies through controlled, traceable experiments.
 
 The hard part was not generating more policy variants. It was deciding which evidence
 actually predicted competitive strength. The incumbent could approach a perfect score
-against a fixed local opponent panel while its recorded live rating remained much weaker
-than the returned frontier.
+against a fixed local opponent panel while its recorded recent episodes showed materially weaker performance.
 
 ## Ownership
 
-The project contribution spans legal-observation feature audits, auxiliary forecasting,
-reference-controller integration, paired policy evaluation, chronological protocols,
-checkpoint recovery, release controls, and evidence publication. Published Python and
+I built legal-observation feature audits, auxiliary forecasts, controller integrations, paired policy evaluation, chronological protocols, checkpoint recovery, release controls and the evidence publication workflow. Published Python and
 notebooks expose the reviewable parts of that work.
 
-External agent authors retain credit for their controllers. The
-[reproduction matrix](docs/research/leading_solution_reproduction_matrix.md) distinguishes
-reconstructed references, project-authored mechanisms, rejected transfers, and open
-questions. Exact inference reproduction is not a claim to have recreated an upstream
-private optimizer or training pipeline.
+The [source and method matrix](docs/research/leading_solution_reproduction_matrix.md) retains credits for upstream controllers and distinguishes my integration/evaluation work, tested mechanisms, rejected transfers and open questions.
 
 ## The consequential decision: replace the evaluation reference
 
@@ -64,6 +57,12 @@ The complete decision rules and outcomes are in the
 [protocol ledger](docs/research/final_sprint_protocols.md) and
 [sprint memo](docs/research/final_sprint_2026-09-30.md).
 
+## Interactive policy and evaluation lab
+
+I built the [Farming Decision Lab](https://alvaro-farming-agent-lab.tartmacaw2.chatgpt.site) as a public, inspectable decision system. A reviewer can play a 24-day season, inspect legal-action masks and compare three generic policies across identical weather and price sequences. Policies receive current and past observations only; the shared seeded environment supports paired comparisons.
+
+The simulator is an authored educational surrogate with four plots, not a reproduction of official Kaggriculture mechanics or a release of the private agent. Its results demonstrate decision flow and evaluation behavior, independently of the historical competition record. [Run and test the lab](docs/REPRODUCIBILITY.md).
+
 ## Reliability engineering
 
 Accepted game results were bound to source and engine identities and reused after
@@ -80,9 +79,7 @@ competitive experiment.
 ## Outcome and honest limits
 
 The strongest historical returned rating is **2048.7**. The September 30 snapshot instead
-had **1691.0** and **1516.2** in its latest-two scoring pair. Its highest returned leaderboard
-row was **3084.1**, from a paginated export that did not prove exhaustive rank-one coverage.
-The project therefore does not claim a leaderboard win or a new best from this sprint.
+had **1691.0** and **1516.2** in its latest-two scoring pair. These are historical rating observations, separate from the local win/tie score. The sprint did not establish a new project best.
 
 The strongest demonstrated outcome is a more credible selection process: preserve
 negative experiments, recognize validation drift, and refuse promotion without the
