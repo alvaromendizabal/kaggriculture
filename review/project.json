@@ -1,0 +1,96 @@
+{
+  "title": "Legal actions. Paired experiments. Defensible decisions.",
+  "discipline": "Sequential decisions / simulation / agent evaluation",
+  "summary": "An agent-research project connecting legal observations, resource allocation, policy integration, and evidence-based promotion. The public lab exposes the mechanics behind policy behavior without distributing private competition strategies.",
+  "signals": [
+    {
+      "value": "24 + 24",
+      "label": "Recorded development and later holdout episodes"
+    },
+    {
+      "value": "1,084",
+      "label": "Accepted branch/calibration results reused"
+    },
+    {
+      "value": "Paired seats",
+      "label": "Synthetic lab comparison design"
+    }
+  ],
+  "scope": "The Python checks validate published sprint evidence and execute the authored action-contract example. Optional Node tests exercise the farming lab. The lab is a simplified synthetic economy, not the official simulator or a claimed deployed policy.",
+  "private_boundary": "Raw episode logs, private feature matrices, exact strategy parameters, competition checkpoints, opponent-specific state, and unpublished policy recipes remain excluded.",
+  "cards": [
+    {
+      "audience": "Applied AI",
+      "title": "Constrain the agent to legal information and actions.",
+      "decision": "Connect observable state to feasible actions instead of allowing hidden simulator state to enter the policy.",
+      "boundary": "The public example illustrates contracts, not competitive strength.",
+      "implementation": "src/kaggriculture_research/audit.py",
+      "tests": "tests/test_foundation.py",
+      "evidence": "examples/run_demo.py"
+    },
+    {
+      "audience": "Data science",
+      "title": "Evaluate policies on paired populations.",
+      "decision": "Separate development from a later holdout and preserve the registered promotion decision.",
+      "boundary": "Local returns and synthetic lab outcomes are not official ranking estimates.",
+      "implementation": "src/kaggriculture_review/final_sprint.py",
+      "tests": "tests/test_final_sprint.py",
+      "evidence": "reports/final_sprint_2026-09-30.json"
+    },
+    {
+      "audience": "ML engineering",
+      "title": "Reuse completed experiments rather than replay games.",
+      "decision": "Track accepted results and artifact identities so expensive completed episodes remain reusable.",
+      "boundary": "Reuse establishes execution efficiency, not a new policy improvement.",
+      "implementation": "src/kaggriculture_research/artifacts.py",
+      "tests": "tests/test_supply_storage.py",
+      "evidence": "docs/REPRODUCIBILITY.md"
+    },
+    {
+      "audience": "Data science",
+      "title": "Separate scientific failure from transport failure.",
+      "decision": "Record failed promotions and post-game diagnostics as different events in the review evidence.",
+      "boundary": "A successfully executed negative experiment is not a better policy.",
+      "implementation": "src/kaggriculture_review/portfolio.py",
+      "tests": "tests/test_portfolio_review.py",
+      "evidence": "CASE_STUDY.md"
+    }
+  ],
+  "commands": [
+    {
+      "id": "review-evidence",
+      "runtime": "python",
+      "entry": "scripts/verify_portfolio_review.py",
+      "args": []
+    },
+    {
+      "id": "action-contract",
+      "runtime": "python",
+      "entry": "examples/run_demo.py",
+      "args": []
+    },
+    {
+      "id": "farming-lab",
+      "runtime": "node",
+      "entry": "tools/test_public_demo.mjs",
+      "args": []
+    }
+  ],
+  "read_more": [
+    {
+      "path": "CASE_STUDY.md",
+      "label": "Case study"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "label": "Reproduction guide"
+    },
+    {
+      "path": "docs/REVIEWER_GUIDE.md",
+      "label": "Technical review"
+    }
+  ],
+  "schema_version": 1,
+  "repository": "alvaromendizabal/kaggriculture",
+  "reviewed_base_commit": "1cc52a5de99e34c413d388ef4f19afc7092e81ad"
+}

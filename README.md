@@ -1,5 +1,7 @@
 # Kaggriculture · Sequential Decision-making and Evaluation
 
+> **Inspect the engineering:** [Source-linked review brief](review/README.md) · [Run the verified public checks](review/README.md#one-command-an-inspectable-result) · [Review-kit CI](https://github.com/alvaromendizabal/kaggriculture/actions/workflows/employer-review.yml)
+
 **Alvaro Mendizabal · Agent systems · Simulation · Experimental design · AWS engineering**
 
 ![Farming policies and paired evaluation](docs/assets/public-demo-hero.svg)
