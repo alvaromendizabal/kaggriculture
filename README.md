@@ -30,6 +30,17 @@ This is an authored educational farming surrogate. It illustrates observation bo
 node tools/test_public_demo.mjs
 ```
 
+## Replay an exported result
+
+The browser export is now an executable review artifact. Recompute it with the actual public engine and verify its predictions, decisions, and source identity:
+
+```bash
+node tools/replay_public_demo.mjs --output /tmp/farming-replay
+node tools/replay_public_demo.mjs --output /tmp/farming-replay --check
+```
+
+The default command generates an authored reference run. Add `--input your-export.json` to verify your own browser download. Each bundle contains the export, a source/runtime receipt and a SHA-256 manifest. [Replay contract and failure tests](docs/DEMO_REPLAY.md).
+
 ## What I built and learned
 
 | Capability | Evidence and decision |

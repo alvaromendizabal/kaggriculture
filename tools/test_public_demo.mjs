@@ -1,3 +1,4 @@
+import { replay } from "./replay_public_demo.mjs";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -347,6 +348,8 @@ test("Actual paired comparison does not mutate the interactive season and export
   const output = JSON.parse(h.blobs[0].text);
   assert.deepEqual(output, h.app.snapshot());
   assert.equal(output.pairedComparison.seasons.length, 8);
+  assert.equal(replay(output).interactive_days, 1);
+  assert.equal(replay(output).comparison_policy_seasons, 24);
   h.app.destroy();
 });
 test("Actual reset clears derived evidence and invalid seed leaves the current session intact", () => {

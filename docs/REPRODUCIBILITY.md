@@ -83,3 +83,11 @@ artifact that a reviewer cannot obtain.
 The latest evidence is dated September 30, 2026. Rating, win/tie score, coin margin, and
 forecast MAE are separate measures. The native harvest/service recovery result remains
 pending in that record, and the full historical AWS bill is not published.
+
+## Recompute a browser export
+
+The [public replay contract](DEMO_REPLAY.md) adds a dependency-free Node command that
+regenerates the synthetic environment and verifies every exported computation against
+the actual browser engine. It writes a source/runtime receipt and content manifest,
+rejects altered results, and re-executes verification under `--check`. CI exercises
+this path on Node 22 and Node 24.19.0; no private research is launched.
