@@ -260,11 +260,12 @@
                     Paired change<small>vs. Quick harvest</small>
                   </th>
                   <th scope="col">Season range</th>
+                  <th scope="col">Wins / ties / losses<small>vs. Quick harvest</small></th>
                 </tr>
               </thead>
               <tbody id="comparison-body">
                 <tr>
-                  <td colspan="4" class="empty-table">
+                  <td colspan="5" class="empty-table">
                     Run the comparison to compute these outcomes.
                   </td>
                 </tr>
@@ -280,6 +281,16 @@
             These are descriptive outcomes in a simplified generated
             environment, not estimates of official game performance.
           </p>
+          <details id="paired-detail" hidden>
+            <summary>Inspect every paired season</summary>
+            <div class="table-wrap" tabindex="0" role="region" aria-label="Paired season outcomes">
+              <table>
+                <caption>Final assets and matched changes by environment seed</caption>
+                <thead><tr><th scope="col">Seed</th><th scope="col">Quick harvest</th><th scope="col">Mixed planting</th><th scope="col">Cash reserve</th></tr></thead>
+                <tbody id="paired-body"></tbody>
+              </table>
+            </div>
+          </details>
         </section>
         <section class="explanation" id="mechanics">
           <div>

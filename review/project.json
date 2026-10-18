@@ -63,6 +63,15 @@
       "implementation": "tools/replay_public_demo.mjs",
       "tests": "tools/test_replay_public_demo.mjs",
       "evidence": "docs/DEMO_REPLAY.md"
+    },
+    {
+      "audience": "Data science",
+      "title": "Inspect losing seasons behind an average gain.",
+      "decision": "Compute per-seed paired changes and show their range alongside wins, ties and losses.",
+      "boundary": "Visible synthetic seeds describe these outcomes; they do not estimate official performance.",
+      "implementation": "public-demo/engine.js",
+      "tests": "tools/test_public_demo.mjs",
+      "evidence": "README.md"
     }
   ],
   "commands": [
@@ -107,7 +116,7 @@
   ],
   "schema_version": 1,
   "repository": "alvaromendizabal/kaggriculture",
-  "reviewed_base_commit": "1cc52a5de99e34c413d388ef4f19afc7092e81ad",
+  "reviewed_base_commit": "ff2249d11fcdc7cb8e2be0c09419b76c97f4b265",
   "source_files": [
     "tools/replay_bundle.mjs",
     "tools/replay_public_demo.mjs",

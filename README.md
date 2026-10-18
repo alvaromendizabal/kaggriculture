@@ -1,78 +1,101 @@
-# Kaggriculture · Sequential Decision-making and Evaluation
+# Kaggriculture · Sequential decision systems
 
-> **Inspect the engineering:** [Source-linked review brief](review/README.md) · [Run the verified public checks](review/README.md#one-command-an-inspectable-result) · [Review-kit CI](https://github.com/alvaromendizabal/kaggriculture/actions/workflows/employer-review.yml)
+**Legal observations. Paired experiments. Decisions backed by evidence.**
 
-**Alvaro Mendizabal · Agent systems · Simulation · Experimental design · AWS engineering**
+[![Quality](https://github.com/alvaromendizabal/kaggriculture/actions/workflows/quality.yml/badge.svg)](https://github.com/alvaromendizabal/kaggriculture/actions/workflows/quality.yml)
+[![Public demo](https://github.com/alvaromendizabal/kaggriculture/actions/workflows/public-demo.yml/badge.svg)](https://github.com/alvaromendizabal/kaggriculture/actions/workflows/public-demo.yml)
 
 ![Farming policies and paired evaluation](docs/assets/public-demo-hero.svg)
 
-I built and evaluated farming agents under changing opponents. My work covers legal-observation feature audits, policy integration, paired comparisons, chronological validation and restartable simulation infrastructure.
+[**Open the farming lab ↗**](https://alvaro-farming-agent-lab.tartmacaw2.chatgpt.site) · [Case study](CASE_STUDY.md) · [Executed project review](notebooks/57_portfolio_review.ipynb) · [Run and verify](docs/REPRODUCIBILITY.md)
 
-**Engineering ownership:** I developed the observation audits, policy-integration workflow, experimental protocols and recovery controls. The public implementation makes legal actions, policy behavior and paired evaluation inspectable; the research record shows how those checks informed selection decisions.
+I built and evaluated farming agents under changing opponents. My work spans legal-observation feature audits, policy integration, chronological validation, paired simulation, and recovery of expensive completed experiments.
 
-The most consequential finding was a validation mismatch: an incumbent that looked nearly perfect against a fixed local panel recorded **18 wins / 10 ties / 20 losses across 48 recent episodes**, a **47.9% win/tie score**. I corrected the evaluation protocol instead of promoting policies on the saturated panel.
+The decisive finding was an evaluation mismatch: an incumbent that looked nearly perfect against a fixed local panel recorded **18 wins / 10 ties / 20 losses** on a more recent 48-episode panel. The corrected **47.9% win/tie score** changed the promotion decision. The project demonstrates how to identify a misleading validation setup and preserve the evidence behind a rejected change. [Recorded experiment](reports/final_sprint_2026-09-30.json)
 
-**Start here:** [Farming Decision Lab](https://alvaro-farming-agent-lab.tartmacaw2.chatgpt.site) · [Case study](CASE_STUDY.md) · [Three-minute review](docs/REVIEWER_GUIDE.md) · [Run locally](docs/REPRODUCIBILITY.md)
+## Inspect the work
 
-## Try the Farming Decision Lab
+| Question | Best starting point |
+|---|---|
+| What problem did the system solve? | [Case study](CASE_STUDY.md): constraints, implementation, results and limitations |
+| How does an agent choose legal actions? | [Observation audit](src/kaggriculture_research/audit.py) and [foundation tests](tests/test_foundation.py) |
+| What prevented an unsupported promotion? | [Final-sprint review logic](src/kaggriculture_review/final_sprint.py) and [registered protocols](docs/research/final_sprint_protocols.md) |
+| How does completed computation survive interruptions? | [Artifact layer](src/kaggriculture_research/artifacts.py) and [storage tests](tests/test_supply_storage.py) |
+| Can I verify something locally? | The dependency-free command below and [source-linked review](review/README.md) |
 
-[Open the live lab](https://alvaro-farming-agent-lab.tartmacaw2.chatgpt.site), or run the same source locally:
+## Run a verified public review
+
+With Python 3.11+ and Node.js 22 or 24:
+
+```bash
+python3 -S review/run.py --output /tmp/kaggriculture-review --with-node
+python3 -S review/run.py --output /tmp/kaggriculture-review --with-node --check
+```
+
+Open `/tmp/kaggriculture-review/index.html`. The bundle records source hashes, actual command outcomes and elapsed times. The second command verifies the saved result. On Windows, choose a writable directory outside the checkout. Omit `--with-node` for the smaller Python-only evidence path.
+
+This public path validates aggregate research evidence and exercises the educational simulator. It requires no package installation, cloud account, competition data or private policy. The [locked Python environment](docs/REPRODUCIBILITY.md) supports the wider research checks and notebook execution.
+
+## Explore the farming lab
 
 ```bash
 python -m http.server 8000
 ```
 
-Open `http://localhost:8000/public-demo/`. Play a 24-day season across four plots: plant, water, harvest, sell or work. Inspect which actions are legal, then compare three generic policies under identical seeded weather and price sequences. Decisions and outcomes are computed in the browser and can be inspected without an account or private agent.
+Open `http://localhost:8000/public-demo/`. Plant, water, harvest, sell or work through a 24-day season. Inspect each legal observation and the policy's explanation. Three fixed educational policies run under identical weather and prices for each comparison seed.
 
-This is an authored educational farming surrogate. It illustrates observation boundaries and paired evaluation; its mechanics and outcomes are not official Kaggriculture measurements.
+The comparison shows **matched wins, ties and losses**, the range of paired changes, and a table of every seed. A positive average can coexist with losing seasons. This makes the comparison's downside visible without treating eight visible synthetic seeds as an independent benchmark.
 
-```bash
-node tools/test_public_demo.mjs
-```
+The lab is an authored educational surrogate. Its mechanics and outcomes are separate from official Kaggriculture measurements and the private agent.
 
-## Replay an exported result
-
-The browser export is now an executable review artifact. Recompute it with the actual public engine and verify its predictions, decisions, and source identity:
+### Replay your browser export
 
 ```bash
-node tools/replay_public_demo.mjs --output /tmp/farming-replay
+node tools/replay_public_demo.mjs --input field-notes-evidence.json --output /tmp/farming-replay
 node tools/replay_public_demo.mjs --output /tmp/farming-replay --check
 ```
 
-The default command generates an authored reference run. Add `--input your-export.json` to verify your own browser download. Each bundle contains the export, a source/runtime receipt and a SHA-256 manifest. [Replay contract and failure tests](docs/DEMO_REPLAY.md).
+The verifier reconstructs every observation, policy choice, manual action, resource balance and paired outcome with the shipped engine. Omit `--input` to generate a reference run. [Replay contract](docs/DEMO_REPLAY.md)
 
-## What I built and learned
+## System design
 
-| Capability | Evidence and decision |
-|---|---|
-| Evaluation aligned to observed behavior | Exact terminal-reward reconstruction before testing changed policies |
-| Chronological selection | Older 24-episode development set and newer 24-episode holdout kept separate |
-| Efficient counterfactual research | **1,084** accepted branch/calibration results reused without replaying games |
-| Promotion discipline | Transfers and intervention policies rejected when registered gates failed |
-| Failure-aware execution | Post-game diagnostic transport failure recorded separately from a scientific result |
-
-Recorded official ratings are historical snapshots. The strongest returned project submission was **2048.7**; the September 30, 2026 latest-two pair was **1691.0 / 1516.2**. These ratings are separate from local win/tie scores and the new synthetic demo. No new rating is claimed by this release.
-
-## Review the research
-
-[Case study](CASE_STUDY.md) · [Executed portfolio notebook](notebooks/57_portfolio_review.ipynb) · [Registered research protocols](docs/research/final_sprint_protocols.md) · [Public release closeout](docs/PROJECT_CLOSEOUT.md)
-
-The corrected 48-episode sample is small and dated. Recorded opponent tapes cannot react to changed actions, so responsive-opponent tests remain a separate requirement. The native harvest/service experiment stopped during diagnostics; its scientific outcome is unresolved.
-
-## Run public Python checks
-
-Use Python 3.12 and the committed environment:
-
-```bash
-uv sync --frozen
-uv run pytest -q tests/test_final_sprint.py
-uv run python scripts/verify_final_sprint.py
-python3 scripts/verify_portfolio_review.py
-python3 examples/run_demo.py
+```mermaid
+flowchart TD
+  O["Current and past observations"] --> A["Legal action mask"]
+  A --> P["Policy decision"]
+  P --> E["Seeded environment step"]
+  E --> O
+  E --> C["Durable episode evidence"]
+  C --> V["Paired development and later holdout review"]
+  V --> D["Accept or reject against registered gates"]
 ```
 
-These commands validate aggregate evidence and run the existing synthetic paired-outcomes example. They do not launch private competitive games or submit an agent. [Run and verify this project](docs/REPRODUCIBILITY.md)
+The seed defines an evaluation environment; it never enters the policy observation. Training episodes determine learned screens and policy selection. Both seats of a seed remain together, and later holdout episodes remain separate. [Research protocol](docs/research_protocol.md)
 
-## Publication boundary
+## Recorded results and decisions
 
-The portfolio contains public code, executed notebooks, protocols, aggregate results and an interactive synthetic demo. Raw replay corpora, private checkpoints, credentials, submission archives and the exact private agent remain excluded. Upstream controllers and methods retain their [source credits](docs/research/leading_solution_reproduction_matrix.md).
+| Evidence | Result | Interpretation |
+|---|---:|---|
+| Recent local panel | **18 W / 10 T / 20 L**, 48 episodes | 47.9% win/tie score exposed weak transfer from the saturated fixed panel |
+| Chronological evaluation | **24 development + 24 later holdout episodes** | Selection and confirmation populations are distinguished |
+| Reused computation | **1,084 accepted branch/calibration results** | Completed results reused without replaying games |
+| Historical rating snapshot | **2048.7** strongest returned project submission | An official rating snapshot, separate from local match statistics |
+| September 30 latest-two ratings | **1691.0 / 1516.2** | Later historical snapshots; no new rating claimed by this release |
+
+[Executed review](notebooks/57_portfolio_review.ipynb) · [Source-linked interpretation](CASE_STUDY.md) · [Final-sprint evidence](reports/final_sprint_2026-09-30.json)
+
+The 48-episode sample is small and dated. Recorded opponent tapes cannot react to changed actions. A native harvest/service experiment stopped during diagnostics, so its scientific outcome remains unresolved. Failed promotion gates and diagnostic transport failures are preserved as different kinds of evidence.
+
+## Repository map and release scope
+
+| Location | Purpose |
+|---|---|
+| `public-demo/`, `tools/` | Educational simulator, paired diagnostics and export replay |
+| `src/`, `scripts/`, `tests/` | Maintained research components, execution and validation |
+| `notebooks/`, `reports/` | Executed reviews and compact aggregate evidence |
+| `research/manual/` | Frozen, hash-verified historical experiments with their original dependencies |
+| `docs/`, `review/` | Protocols, source attribution and reproducibility instructions |
+
+Obsolete branch-specific auto-publication workflows and an extra copy of an old README have been removed. The frozen research archive remains because its manifests, notebooks and tests establish lineage; matching filenames there are not unused copies.
+
+Raw replay corpora, private checkpoints, credentials, submission archives and the exact private agent remain outside this release. Public source and compact evidence are sufficient for the documented component checks; they do not recreate the private competitive system. [Source credits](docs/research/leading_solution_reproduction_matrix.md) · [Closeout](docs/PROJECT_CLOSEOUT.md)

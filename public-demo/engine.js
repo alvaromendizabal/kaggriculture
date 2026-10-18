@@ -540,3 +540,46 @@ export function comparePolicies(seed, count = 8) {
     seasons,
   };
 }
+
+/** Describe matched outcomes without treating eight visible seeds as a holdout. */
+export function pairedDiagnostics(comparison) {
+  require(comparison && comparison.evidence_type === "SYNTHETIC_ONLY",
+    "Paired diagnostics require a synthetic comparison.");
+  require(Number.isInteger(comparison.count) && comparison.count >= 2 &&
+    comparison.count <= 32 && Array.isArray(comparison.seasons) &&
+    comparison.seasons.length === comparison.count, "Incomplete paired seasons.");
+  const ids = POLICIES.map(policy => policy.id);
+  const rows = comparison.seasons.map((season, index) => {
+    require(season.seed === comparison.seed + index, "Unaligned comparison seeds.");
+    require(season.policies && Object.keys(season.policies).sort().join() ===
+      [...ids].sort().join(), "Missing or unexpected policy outcomes.");
+    require(ids.every(id => Number.isFinite(season.policies[id].assets)) &&
+      new Set(ids.map(id => season.policies[id].weatherChecksum)).size === 1 &&
+      typeof season.policies.quick.weatherChecksum === "string",
+    "Invalid assets or unpaired environmental tapes.");
+    return {
+      seed: season.seed,
+      assets: Object.fromEntries(ids.map(id => [id, season.policies[id].assets])),
+      deltas: Object.fromEntries(ids.map(id => [id,
+        season.policies[id].assets - season.policies.quick.assets])),
+    };
+  });
+  return {
+    baseline: "quick",
+    scope: "Descriptive differences on the displayed paired seeds; no significance or generalization claim.",
+    rows,
+    policies: Object.fromEntries(ids.map(id => {
+      const deltas = rows.map(row => row.deltas[id]).sort((a, b) => a - b);
+      const middle = Math.floor(deltas.length / 2);
+      return [id, {
+        wins: deltas.filter(delta => delta > 0).length,
+        ties: deltas.filter(delta => delta === 0).length,
+        losses: deltas.filter(delta => delta < 0).length,
+        worstDelta: deltas[0],
+        bestDelta: deltas.at(-1),
+        medianDelta: deltas.length % 2 ? deltas[middle] :
+          (deltas[middle - 1] + deltas[middle]) / 2,
+      }];
+    })),
+  };
+}

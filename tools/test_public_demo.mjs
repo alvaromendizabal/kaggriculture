@@ -16,6 +16,7 @@ import {
   exportSeason,
   runSeason,
   comparePolicies,
+  pairedDiagnostics,
 } from "../public-demo/engine.js";
 import { mount } from "../public-demo/app.js";
 let passed = 0;
@@ -145,6 +146,47 @@ test("Paired comparisons share complete environmental tapes and compute their su
   assert(new Set(r.summary.map((x) => x.meanAssets)).size > 1);
   assert.throws(() => comparePolicies(999999999, 8), /range/);
   assert.throws(() => createSeason(NaN), /integer/);
+});
+
+test("Paired diagnostics retain downside even when average change is positive", () => {
+  const comparison = { evidence_type: "SYNTHETIC_ONLY", seed: 1, count: 2, seasons: [
+    { seed: 1, policies: {
+      quick: { assets: 100, weatherChecksum: "a" },
+      mixed: { assets: 110, weatherChecksum: "a" },
+      reserve: { assets: 100, weatherChecksum: "a" },
+    } },
+    { seed: 2, policies: {
+      quick: { assets: 200, weatherChecksum: "b" },
+      mixed: { assets: 194, weatherChecksum: "b" },
+      reserve: { assets: 195, weatherChecksum: "b" },
+    } },
+  ] };
+  const before = serialized(comparison);
+  const result = pairedDiagnostics(comparison);
+  assert.deepEqual(result.policies.mixed, {
+    wins: 1, ties: 0, losses: 1, worstDelta: -6, bestDelta: 10, medianDelta: 2,
+  });
+  assert.deepEqual(result.rows.map(row => row.deltas.mixed), [10, -6]);
+  assert.equal(result.policies.reserve.ties, 1);
+  assert.equal(result.policies.quick.ties, 2);
+  assert.equal(serialized(comparison), before);
+  for (const mutate of [
+    x => x.seasons.pop(), x => x.seasons.reverse(),
+    x => x.seasons[0].policies.mixed.weatherChecksum = "wrong",
+    x => x.seasons[0].policies.mixed.assets = NaN,
+    x => delete x.seasons[0].policies.reserve,
+  ]) {
+    const changed = clone(comparison); mutate(changed);
+    assert.throws(() => pairedDiagnostics(changed));
+  }
+  const actual = comparePolicies(200, 8);
+  const diagnostics = pairedDiagnostics(actual);
+  for (const row of actual.summary) {
+    const value = diagnostics.policies[row.id];
+    assert.equal(value.wins, row.pairedWinsVsQuick);
+    assert.equal(value.ties, row.pairedTiesVsQuick);
+    assert.equal(value.wins + value.ties + value.losses, actual.count);
+  }
 });
 
 class FakeElement {
@@ -352,6 +394,24 @@ test("Actual paired comparison does not mutate the interactive season and export
   assert.equal(replay(output).comparison_policy_seasons, 24);
   h.app.destroy();
 });
+test("Comparison controls expose all paired seeds and clear diagnostics on reset", () => {
+  const h = harness();
+  assert.equal(h.doc.getElementById("paired-detail").hidden, true);
+  h.doc.getElementById("compare").click();
+  const comparison = h.app.snapshot().pairedComparison;
+  assert.equal(h.doc.getElementById("paired-detail").hidden, false);
+  const rows = h.doc.getElementById("paired-body").children;
+  assert.equal(rows.length, 8);
+  for (let i = 0; i < rows.length; i++) {
+    assert.equal(rows[i].children[0].textContent, String(comparison.seasons[i].seed));
+    assert.equal(rows[i].children.length, 4);
+  }
+  assert.match(h.doc.getElementById("comparison-note").textContent, /positive mean can still hide losing seasons/);
+  h.doc.getElementById("reset").click();
+  assert.equal(h.doc.getElementById("paired-detail").hidden, true);
+  assert.equal(h.doc.getElementById("paired-body").children.length, 0);
+});
+
 test("Actual reset clears derived evidence and invalid seed leaves the current session intact", () => {
   const h = harness();
   h.$("step").click();

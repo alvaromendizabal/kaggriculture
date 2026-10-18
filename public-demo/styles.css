@@ -1024,3 +1024,7 @@ footer {
     transition: none !important;
   }
 }
+#paired-detail { margin-top: 20px; }
+#paired-detail summary { cursor: pointer; font-weight: 650; padding: 10px 0; }
+#paired-detail summary:focus-visible { outline: 3px solid #2f6043; outline-offset: 4px; }
+#paired-detail caption { text-align: left; padding: 16px; font-size: 14px; }
