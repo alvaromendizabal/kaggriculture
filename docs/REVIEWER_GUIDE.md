@@ -18,9 +18,9 @@ Open [Farming Decision Lab](https://alvaro-farming-agent-lab.tartmacaw2.chatgpt.
 |---|---|---|
 | The fixed opponent panel overstated competitive strength | [Sprint report](../reports/final_sprint_2026-09-30.json), `validation_alignment` | That 48 dated episodes represent every future opponent |
 | Native recovery was not scientifically rejected | Same report, `native_harvest_transport_failure` and `current_recovery_artifact` | A successful competitive run of the prepared recovery artifact |
-| External work was tested and attributed | [Source and method matrix](research/leading_solution_reproduction_matrix.md) | Ownership of third-party controllers or their private training recipes |
+| External work was tested and attributed | [Source and method matrix](public_source_lineage.md) | Ownership of third-party controllers or their private training recipes |
 | Promotion used explicit chronological gates | [Registered protocols](research/final_sprint_protocols.md) | A guarantee of live performance |
-| Accepted work was reused and costs were tracked | [Outcome ledger](research/latest_outcomes.md), [manifest](../reports/final_sprint_reproduction_manifest.json) | Account-wide billing or independent authentication of unavailable raw bundles |
+| Accepted work was reused and costs were tracked | [Outcome ledger](../reports/final_sprint_2026-09-30.json), [manifest](../reports/final_sprint_reproduction_manifest.json) | Account-wide billing or independent authentication of unavailable raw bundles |
 | Published evaluation utilities are executable | [Reproducibility guide](REPRODUCIBILITY.md), [synthetic example](../examples/README.md) | Reproduction of the private agent's rating |
 
 ## Deeper technical review

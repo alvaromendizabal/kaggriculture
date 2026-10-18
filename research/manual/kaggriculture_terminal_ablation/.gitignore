@@ -1,5 +1,0 @@
-outputs/
-__pycache__/
-*.pyc
-*_results.zip
-.ipynb_checkpoints/

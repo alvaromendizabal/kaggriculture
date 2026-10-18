@@ -121,7 +121,7 @@ print("PORTFOLIO_EVIDENCE_JSON " + json.dumps(evidence, sort_keys=True, allow_na
                 "Project-authored work includes observation safety, reference integration, "
                 "paired evaluation, chronology, recovery, and promotion controls. "
                 "[External controllers retain attribution]"
-                "(../docs/research/leading_solution_reproduction_matrix.md). Private data, "
+                "(../docs/public_source_lineage.md). Private data, "
                 "checkpoints, submission archives, and exact current competitive "
                 "orchestration remain outside this review."
             ),

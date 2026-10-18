@@ -1,7 +1,7 @@
 # Public source lineage
 
 Public agents were used as external research baselines and teacher opponents.
-The maintained adaptive module does not claim their routes as original project authorship.
+These are attributed historical evaluation references, not maintained project policies or original project authorship.
 
 ## `breaking_tie_v12`
 - Source handle: `andrewsokolovsky/kaggriculture-breaking-the-tie/versions/12`
@@ -29,7 +29,6 @@ The maintained adaptive module does not claim their routes as original project a
 
 ## Integration boundary
 
-Adaptive Synthesis v1 evaluates an authored overlay on top of the Soil public benchmark route.
-The public route remains an external dependency for competition packaging and cross-play.
+The historical adaptive overlay and its competition packaging were retired from this public release. The retained evaluation components and authored browser simulator do not load these external agents.
 If a submission containing public route code is published, retain the applicable source/license
 notice and satisfy Kaggle's competition-specific public-sharing requirements.
