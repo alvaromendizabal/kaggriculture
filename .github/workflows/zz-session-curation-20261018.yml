@@ -56,12 +56,16 @@ jobs:
               data=text.encode()
               if hashlib.sha256(data).hexdigest()!=row['after']: raise ValueError('Output mismatch: '+row['path'])
               p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(data)
+          p=path('scripts/execute_portfolio_review.py')
+          p.write_text(p.read_text().replace('../docs/research/leading_solution_reproduction_matrix.md','../docs/public_source_lineage.md'))
           print('Applied',len(plan['delete']),'retirement roots and',len(plan['changes']),'updates')
-      - name: Refresh only the retained dependency lock and validate every retained test
+      - name: Publish fresh notebook outputs before validating the retained project
         run: |
           uv lock
           uv sync --frozen
+          uv run ruff format .
           uv run ruff check .
+          uv run python scripts/execute_portfolio_review.py --publish
           uv run ruff format --check .
           uv run pytest -q
           uv run python scripts/verify_final_sprint.py
@@ -88,7 +92,5 @@ jobs:
           path: |
             ${{ runner.temp }}/public-source.zip
             ${{ runner.temp }}/public-source-commit.txt
-            .cleanup-20261018/part0
-          include-hidden-files: true
           retention-days: 3
           if-no-files-found: warn
