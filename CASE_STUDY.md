@@ -21,7 +21,7 @@ against a fixed local opponent panel while its recorded recent episodes showed m
 I built legal-observation feature audits, auxiliary forecasts, controller integrations, paired policy evaluation, chronological protocols, checkpoint recovery, release controls and the evidence publication workflow. Published Python and
 notebooks expose the reviewable parts of that work.
 
-The [source and method matrix](docs/research/leading_solution_reproduction_matrix.md) retains credits for upstream controllers and distinguishes my integration/evaluation work, tested mechanisms, rejected transfers and open questions.
+The [source and method matrix](docs/public_source_lineage.md) retains credits for upstream controllers and distinguishes my integration/evaluation work, tested mechanisms, rejected transfers and open questions.
 
 ## The consequential decision: replace the evaluation reference
 

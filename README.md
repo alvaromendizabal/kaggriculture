@@ -20,7 +20,7 @@ The decisive finding was an evaluation mismatch: an incumbent that looked nearly
 | What problem did the system solve? | [Case study](CASE_STUDY.md): constraints, implementation, results and limitations |
 | How does an agent choose legal actions? | [Observation audit](src/kaggriculture_research/audit.py) and [foundation tests](tests/test_foundation.py) |
 | What prevented an unsupported promotion? | [Final-sprint review logic](src/kaggriculture_review/final_sprint.py) and [registered protocols](docs/research/final_sprint_protocols.md) |
-| How does completed computation survive interruptions? | [Artifact layer](src/kaggriculture_research/artifacts.py) and [storage tests](tests/test_supply_storage.py) |
+| How does completed computation survive interruptions? | [Artifact layer](src/kaggriculture_research/artifacts.py) and [checkpoint integrity tests](tests/test_foundation.py) |
 | Can I verify something locally? | The dependency-free command below and [source-linked review](review/README.md) |
 
 ## Run a verified public review
@@ -93,9 +93,8 @@ The 48-episode sample is small and dated. Recorded opponent tapes cannot react t
 | `public-demo/`, `tools/` | Educational simulator, paired diagnostics and export replay |
 | `src/`, `scripts/`, `tests/` | Maintained research components, execution and validation |
 | `notebooks/`, `reports/` | Executed reviews and compact aggregate evidence |
-| `research/manual/` | Frozen, hash-verified historical experiments with their original dependencies |
 | `docs/`, `review/` | Protocols, source attribution and reproducibility instructions |
 
-Obsolete branch-specific auto-publication workflows and an extra copy of an old README have been removed. The frozen research archive remains because its manifests, notebooks and tests establish lineage; matching filenames there are not unused copies.
+The public tree contains the final evaluation contracts and their evidence, not the historical experiment workspace. Superseded crop, livestock, staffing, market, terminal and adaptive-policy studies, their launchers, copied notebooks and intermediate outputs have been retired. Compact negative results remain only where they explain the final decision.
 
-Raw replay corpora, private checkpoints, credentials, submission archives and the exact private agent remain outside this release. Public source and compact evidence are sufficient for the documented component checks; they do not recreate the private competitive system. [Source credits](docs/research/leading_solution_reproduction_matrix.md) · [Closeout](docs/PROJECT_CLOSEOUT.md)
+Raw replay corpora, private checkpoints, credentials, submission archives and the exact private agent remain outside this release. Public source and compact evidence are sufficient for the documented component checks; they do not recreate the private competitive system. [Source credits](docs/public_source_lineage.md)

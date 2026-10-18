@@ -43,7 +43,7 @@
       "decision": "Track accepted results and artifact identities so expensive completed episodes remain reusable.",
       "boundary": "Reuse establishes execution efficiency, not a new policy improvement.",
       "implementation": "src/kaggriculture_research/artifacts.py",
-      "tests": "tests/test_supply_storage.py",
+      "tests": "tests/test_foundation.py",
       "evidence": "docs/REPRODUCIBILITY.md"
     },
     {

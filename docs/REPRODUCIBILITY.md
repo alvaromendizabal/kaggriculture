@@ -55,12 +55,12 @@ reports and synthetic example; it runs no private policy training. The execution
 writes and reopens the notebook, and the portfolio verifier checks the saved outputs.
 
 The broader [quality workflow](../.github/workflows/quality.yml) runs lint, formatting,
-tests, existing report verifiers, small official-engine foundation runs, and notebook
+all retained tests, final-result verifiers, small official-engine foundation runs, and notebook
 execution. It is intentionally broader than the no-game commands above.
 
 ## Full competitive reproduction
 
-AWS/SageMaker remains the canonical environment for owner research. The September sprint
+The project-specific AWS space and bucket have been retired. Public examples and evidence checks run independently of that infrastructure. The September sprint
 manifest records Python 3.12, Kaggle Environments 1.32.7, and its research environment.
 Historical hardware metadata is not a requirement for reviewing this checkout and does not
 confirm the current state of any AWS space.
