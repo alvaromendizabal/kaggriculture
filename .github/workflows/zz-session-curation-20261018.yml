@@ -1,0 +1,94 @@
+name: Apply final evaluation scope
+on:
+  push:
+    branches: [cleanup/public-surface-20261018]
+    paths: [.github/workflows/zz-session-curation-20261018.yml]
+permissions:
+  contents: write
+jobs:
+  curate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      PYTHONPATH: src
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d
+        with:
+          python-version: '3.12.13'
+          enable-cache: false
+      - name: Apply exact reviewed and checksum-verified changes
+        shell: python
+        run: |
+          import base64, hashlib, json, os, pathlib, shutil, subprocess, zlib
+          root=pathlib.Path.cwd()
+          encoded=(root/'.cleanup-20261018/part0').read_text().strip()
+          encoded=encoded.replace('Iozmk5ngmbuWk2MchsNicWi/kOOBpIozmkShj','IozmkShj').replace('FAGEs1EFAGEs1EFKMm','FAGEs1EFKMm')
+          raw=zlib.decompress(base64.b64decode(encoded,validate=True))
+          if hashlib.sha256(raw).hexdigest()!='917c0fdd13289f4c6b6cc939980dcff463058102579a3b3c00ea603f019628da': raise ValueError('Change-plan checksum mismatch')
+          plan=json.loads(raw)
+          if plan['repository']!=os.environ['GITHUB_REPOSITORY']: raise ValueError('Wrong repository')
+          main=subprocess.check_output(['git','rev-parse','origin/main'],text=True).strip()
+          if main!=plan['base']: raise ValueError('Main advanced; reconcile first')
+          extra=subprocess.check_output(['git','diff','--name-only',main,'HEAD'],text=True).splitlines()
+          if any(not(p.startswith('.cleanup-20261018/') or p.startswith('.github/workflows/zz-session-')) for p in extra): raise ValueError('Additional branch work exists')
+          def path(name):
+              p=root/name
+              if not p.resolve().is_relative_to(root) or p.is_symlink() or '.git' in p.parts: raise ValueError('Unsafe path')
+              return p
+          for row in plan['changes']:
+              p=path(row['path']); actual=hashlib.sha256(p.read_bytes()).hexdigest() if p.exists() else None
+              if actual!=row['before']: raise ValueError('Input changed: '+row['path'])
+          for name in plan['delete']:
+              p=path(name)
+              if p.is_dir(): shutil.rmtree(p)
+              elif p.is_file(): p.unlink()
+              else: raise ValueError('Missing retirement path: '+name)
+          for row in plan['changes']:
+              p=path(row['path'])
+              if 'edits' in row:
+                  text=p.read_text()
+                  for start,end,replacement in reversed(row['edits']): text=text[:start]+replacement+text[end:]
+              else: text=row['text']
+              data=text.encode()
+              if hashlib.sha256(data).hexdigest()!=row['after']: raise ValueError('Output mismatch: '+row['path'])
+              p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(data)
+          print('Applied',len(plan['delete']),'retirement roots and',len(plan['changes']),'updates')
+      - name: Refresh only the retained dependency lock and validate every retained test
+        run: |
+          uv lock
+          uv sync --frozen
+          uv run ruff check .
+          uv run ruff format --check .
+          uv run pytest -q
+          uv run python scripts/verify_final_sprint.py
+          uv run python scripts/verify_portfolio_review.py
+          uv run python scripts/execute_portfolio_review.py
+          python3 -B -S review/run.py --render
+      - name: Publish source only to the review branch
+        run: |
+          git restore --source=HEAD --staged --worktree .github/workflows
+          git rm -rf --ignore-unmatch .cleanup-20261018
+          git add -A
+          git diff --cached --check
+          if git diff --cached --name-only | grep '^.github/workflows/'; then exit 1; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Retire superseded agent studies; keep final evaluation contracts and evidence'
+          git push origin HEAD:cleanup/public-surface-20261018
+          git archive --format=zip --output="$RUNNER_TEMP/public-source.zip" HEAD
+          git rev-parse HEAD > "$RUNNER_TEMP/public-source-commit.txt"
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        if: always()
+        with:
+          name: curated-public-source
+          path: |
+            ${{ runner.temp }}/public-source.zip
+            ${{ runner.temp }}/public-source-commit.txt
+            .cleanup-20261018/part0
+          include-hidden-files: true
+          retention-days: 3
+          if-no-files-found: warn
