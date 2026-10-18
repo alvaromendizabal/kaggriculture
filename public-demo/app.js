@@ -12,6 +12,7 @@ import {
   assets,
   exportSeason,
   comparePolicies,
+  pairedDiagnostics,
   checksum,
 } from "./engine.js";
 
@@ -372,10 +373,12 @@ export function mount(doc, win) {
   function renderComparison() {
     const body = $("comparison-body");
     body.replaceChildren();
+    $("paired-body").replaceChildren();
+    $("paired-detail").hidden = !comparison;
     if (!comparison) {
       const row = element("tr"),
         cell = element("td", "Run the comparison to compute these outcomes.", {
-          colspan: 4,
+          colspan: 5,
           class: "empty-table",
         });
       row.append(cell);
@@ -386,25 +389,43 @@ export function mount(doc, win) {
         "These are descriptive outcomes in a simplified generated environment, not estimates of official game performance.";
       return;
     }
+    const diagnostics = pairedDiagnostics(comparison);
     for (const row of comparison.summary) {
       const tr = element("tr"),
         name = element("td", row.name),
         detail = element("span", row.description, { class: "policy-copy" });
+      const paired = diagnostics.policies[row.id];
+      const delta = element("td", signed(row.meanDeltaVsQuick), {
+        class: row.meanDeltaVsQuick >= 0 ? "positive" : "negative",
+      });
+      delta.append(element("span",
+        `Paired range ${signed(paired.worstDelta)} to ${signed(paired.bestDelta)}`,
+        { class: "policy-copy" }));
       name.append(detail);
       tr.append(
         name,
         element("td", number(row.meanAssets)),
-        element("td", signed(row.meanDeltaVsQuick), {
-          class: row.meanDeltaVsQuick >= 0 ? "positive" : "negative",
-        }),
+        delta,
         element("td", `${row.minAssets}–${row.maxAssets}`),
+        element("td", `${paired.wins} / ${paired.ties} / ${paired.losses}`),
       );
       body.append(tr);
+    }
+    for (const row of diagnostics.rows) {
+      const tr = element("tr");
+      tr.append(element("th", String(row.seed), { scope: "row" }));
+      for (const policy of POLICIES) {
+        const cell = element("td", number(row.assets[policy.id]));
+        if (policy.id !== "quick") cell.append(element("span",
+          `${signed(row.deltas[policy.id])} vs. Quick harvest`, { class: "policy-copy" }));
+        tr.append(cell);
+      }
+      $("paired-body").append(tr);
     }
     $("comparison-scope").textContent =
       `Seeds ${comparison.seed}–${comparison.seed + comparison.count - 1} · ${comparison.count} paired seasons × 3 fixed policies`;
     $("comparison-note").textContent =
-      "Computed from fresh, complete seasons with identical weather and prices per seed. Your interactive season is separate and may include manual choices or policy switches. Export includes each paired outcome and its action sequence.";
+      "Each seed uses identical weather and prices across policies. A positive mean can still hide losing seasons: inspect the paired range, win/tie/loss counts and every seed below. These eight visible seeds are descriptive diagnostics, not a holdout or significance test. Export includes each paired outcome and its action sequence.";
   }
   function compare() {
     try {
@@ -475,6 +496,7 @@ export function mount(doc, win) {
   const resize = () => renderField();
   win.addEventListener("resize", resize);
   render();
+  renderComparison();
   return {
     snapshot: exported,
     destroy() {

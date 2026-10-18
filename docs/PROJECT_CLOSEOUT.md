@@ -24,3 +24,17 @@ The native harvest/service study ended during post-game diagnostics. Its scienti
 The public lab computes decisions and outcomes over 24-day seasons and four plots. Three generic policies can be compared under identical seeded weather and price sequences. This makes legal observation, action availability and paired evaluation inspectable; it is not an official-engine reproduction or a release of the private policy.
 
 Public source, protocols, executed notebooks, aggregate evidence and synthetic examples are retained. Raw replay corpora, private checkpoints, credentials, submission archives and the exact private competitive implementation remain excluded. Upstream controller and method credits remain in the [source matrix](research/leading_solution_reproduction_matrix.md).
+
+## October 18, 2026 maintenance closeout
+
+The farming lab now shows the downside of each paired comparison: matched
+wins, ties and losses, the range of paired changes, and every seed's outcome.
+The calculation rejects incomplete or unaligned pairs and never mutates
+recorded comparison evidence. Existing export schemas and scientific results
+remain intact.
+
+Three one-off auto-publication workflows were retired after their research
+branches completed. Their maintained source, tests, notebooks and evidence
+remain covered by Quality CI. An extra old README copy was removed; its
+history remains available in Git. The frozen `research/manual/` snapshot,
+publication manifest and identity checks remain unchanged.

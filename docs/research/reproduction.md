@@ -34,10 +34,11 @@ Archived standalone test suites keep their package-specific commands; archive-on
 pytest discovery is isolated to avoid cross-importing same-named historical modules.
 The root baseline test suite is not disabled or changed.
 
-Existing source, historical notes, and licensing remain in Git history. This release
-is additive except for a new landing-page README; the preceding README is retained
-under `docs/archive/`. Source copied from a manually edited workspace is not silently
-substituted into the core baseline.
+Existing source, historical notes, licensing, and previous landing pages remain in
+Git history. The October 18 maintenance closeout removed the redundant old README
+snapshot and retired branch-only auto-publication workflows. Frozen experiment
+snapshots and their manifests remain intact. Source copied from a manually edited
+workspace is not silently substituted into the core baseline.
 
 Primary platform references:
 - https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files
