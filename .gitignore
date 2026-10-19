@@ -18,3 +18,7 @@ confirmed_*.tar.gz
 *credentials*
 kaggle.json
 aws_runtime.json
+
+# Maintained review source and rendered inspection page.
+!review/template.html
+!review/index.html
