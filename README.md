@@ -70,7 +70,7 @@ flowchart TD
   V --> D["Accept or reject against registered gates"]
 ```
 
-The seed defines an evaluation environment; it never enters the policy observation. Training episodes determine learned screens and policy selection. Both seats of a seed remain together, and later holdout episodes remain separate. [Research protocol](docs/research_protocol.md)
+The seed defines an evaluation environment; it never enters the policy observation. Training episodes determine learned screens and policy selection. Both seats of a seed remain together, and later holdout episodes remain separate. [Recorded evaluation protocol](docs/research/final_sprint_protocols.md)
 
 ## Recorded results and decisions
 
